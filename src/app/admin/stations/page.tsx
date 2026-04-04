@@ -278,7 +278,7 @@ export default function AdminStations() {
                       {hasAudio ? `✓ ${lang.toUpperCase()}` : `+ ${lang.toUpperCase()} audio`}
                       <input
                         type="file"
-                        accept="audio/mp3,audio/mpeg"
+                        accept="audio/*,.mp3,.wav,.ogg,.m4a,.webm"
                         className="hidden"
                         onChange={(e) => {
                           const file = e.target.files?.[0];

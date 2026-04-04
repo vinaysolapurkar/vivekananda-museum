@@ -47,7 +47,6 @@ export default function KioskDisplayPage({
   const fetchContent = useCallback(async () => {
     setLoading(true);
     try {
-      // Try to find an exhibit assigned to this kiosk
       const exhibitRes = await fetch("/api/exhibits");
       const exhibitData = await exhibitRes.json();
       const exhibits = exhibitData.exhibits || [];
@@ -57,7 +56,6 @@ export default function KioskDisplayPage({
       );
 
       if (kioskExhibit) {
-        // Load exhibit images
         const detailRes = await fetch(`/api/exhibits/${kioskExhibit.id}`);
         const detailData = await detailRes.json();
         if (detailData.images && detailData.images.length > 0) {
@@ -69,7 +67,6 @@ export default function KioskDisplayPage({
         }
       }
 
-      // Fall back to slides
       const res = await fetch(`/api/kiosk/${id}/slides?lang=en`);
       const data = await res.json();
       if (data.error) setError(data.error);
@@ -122,7 +119,6 @@ export default function KioskDisplayPage({
   useEffect(() => {
     const idleTimer = setInterval(() => {
       if (Date.now() - lastTouch > 120000) {
-        // Reset to first slide on idle
         setCurrent(0);
         setLastTouch(Date.now());
       }
@@ -166,13 +162,10 @@ export default function KioskDisplayPage({
 
   if (loading) {
     return (
-      <div
-        className="fixed inset-0 flex items-center justify-center"
-        style={{ background: "#1A237E" }}
-      >
+      <div className="fixed inset-0 flex items-center justify-center" style={{ background: "#0A0E27" }}>
         <div className="text-center">
-          <div className="w-16 h-16 border-4 border-white/30 border-t-white rounded-full animate-spin mb-6 mx-auto" />
-          <p className="text-white/70 text-xl font-light">Loading exhibit...</p>
+          <div className="w-12 h-12 border-2 border-transparent rounded-full animate-spin mb-6 mx-auto" style={{ borderTopColor: '#D4A34F' }} />
+          <p className="text-sm font-light" style={{ color: '#8B8FA3' }}>Loading exhibit...</p>
         </div>
       </div>
     );
@@ -180,19 +173,18 @@ export default function KioskDisplayPage({
 
   if (error || totalItems === 0) {
     return (
-      <div
-        className="fixed inset-0 flex items-center justify-center"
-        style={{ background: "#1A237E" }}
-      >
+      <div className="fixed inset-0 flex items-center justify-center" style={{ background: "#0A0E27" }}>
         <div className="text-center px-8">
-          <div className="text-6xl mb-6">🖼️</div>
+          <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#8B8FA3" strokeWidth="1" className="mx-auto mb-6">
+            <rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/>
+          </svg>
           <h2
-            className="text-white text-3xl font-bold mb-3"
-            style={{ fontFamily: "Playfair Display, serif" }}
+            className="text-3xl font-semibold mb-3"
+            style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5F0E8' }}
           >
             Content Coming Soon
           </h2>
-          <p className="text-white/60 text-lg">This exhibit is being prepared.</p>
+          <p className="text-base" style={{ color: '#8B8FA3' }}>This exhibit is being prepared.</p>
         </div>
       </div>
     );
@@ -207,142 +199,122 @@ export default function KioskDisplayPage({
       <div
         ref={containerRef}
         className="fixed inset-0 overflow-hidden select-none cursor-none"
-        style={{ background: "#0a0a0a" }}
+        style={{ background: "#050811" }}
         onClick={goNext}
       >
-        {/* Full-screen image */}
+        {/* Full-screen image with Ken Burns */}
         <div className="absolute inset-0 flex items-center justify-center">
           <img
+            key={current}
             src={img.image_url}
             alt={img.title || exhibit?.name || "Exhibit"}
             className="max-w-full max-h-full object-contain"
+            style={{
+              animation: 'kenBurns 8s ease-out forwards',
+            }}
             draggable={false}
           />
         </div>
 
-        {/* Gradient overlay at top */}
+        {/* Top gradient */}
         <div
           className="absolute top-0 left-0 right-0 h-32"
-          style={{
-            background: "linear-gradient(to bottom, rgba(0,0,0,0.7), transparent)",
-          }}
+          style={{ background: "linear-gradient(to bottom, rgba(5,8,17,0.8), transparent)" }}
         />
+
+        {/* Progress line at top */}
+        <div className="absolute top-0 left-0 right-0 h-[2px] z-30" style={{ background: 'rgba(255,255,255,0.06)' }}>
+          <div
+            className="h-full transition-all duration-1000 ease-linear"
+            style={{
+              width: `${progress}%`,
+              background: 'linear-gradient(90deg, #D4A34F, #E8B84B)',
+            }}
+          />
+        </div>
 
         {/* Top bar */}
         <div className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-8 py-5">
           <div>
             <h1
-              className="text-white text-xl font-bold"
-              style={{ fontFamily: "Playfair Display, serif" }}
+              className="text-xl font-semibold"
+              style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5F0E8' }}
             >
               {exhibit?.name}
             </h1>
-            {img.title && <p className="text-white/60 text-sm mt-1">{img.title}</p>}
+            {img.title && <p className="text-sm mt-1" style={{ color: '#8B8FA3' }}>{img.title}</p>}
           </div>
 
-          <div className="flex items-center gap-4">
-            <div className="flex gap-1.5">
-              {images.map((_, i) => (
-                <div
-                  key={i}
-                  className="h-1 rounded-full transition-all duration-500"
-                  style={{
-                    width: i === current ? "32px" : "8px",
-                    background:
-                      i <= current ? "#FF8F00" : "rgba(255,255,255,0.2)",
-                  }}
-                />
-              ))}
-            </div>
-            <span className="text-white/40 text-sm font-medium">
-              {current + 1} / {totalItems}
-            </span>
-          </div>
+          {/* Slide counter */}
+          <span className="text-sm font-light" style={{ color: 'rgba(139,143,163,0.6)' }}>
+            {current + 1} / {totalItems}
+          </span>
         </div>
 
         {/* Bottom info overlay */}
         {(img.description || img.station_number) && (
           <div
             className="absolute bottom-0 left-0 right-0 z-20"
-            style={{
-              background: "linear-gradient(to top, rgba(0,0,0,0.8), transparent)",
-            }}
+            style={{ background: "linear-gradient(to top, rgba(5,8,17,0.9), transparent)" }}
           >
             <div className="px-8 pb-8 pt-16">
               {img.station_number && (
-                <span className="inline-block px-3 py-1 rounded-full text-xs font-medium text-white mb-2"
-                  style={{ background: "#FF8F00" }}>
+                <span
+                  className="inline-block px-3 py-1 rounded-full text-xs font-medium mb-2"
+                  style={{ background: 'rgba(212,163,79,0.15)', color: '#D4A34F', border: '1px solid rgba(212,163,79,0.2)' }}
+                >
                   Station {img.station_number}
                 </span>
               )}
               {img.description && (
-                <p className="text-white/80 text-lg max-w-3xl leading-relaxed">
+                <p className="text-base max-w-3xl leading-relaxed" style={{ color: 'rgba(245,240,232,0.8)' }}>
                   {img.description}
                 </p>
               )}
             </div>
           </div>
         )}
-
-        {/* Bottom progress bar */}
-        <div className="absolute bottom-0 left-0 right-0 h-1 bg-white/10 z-30">
-          <div
-            className="h-full rounded-r-full transition-all duration-1000 ease-linear"
-            style={{
-              width: `${progress}%`,
-              background: "linear-gradient(90deg, #FF8F00, #FF6F00)",
-            }}
-          />
-        </div>
       </div>
     );
   }
 
-  // SLIDES MODE (fallback)
+  // SLIDES MODE
   const slide = slides[current];
   return (
     <div
       ref={containerRef}
       className="fixed inset-0 overflow-hidden select-none cursor-none"
-      style={{ background: "#0D1447" }}
+      style={{ background: "#0A0E27" }}
       onClick={goNext}
     >
-      <div
-        className="absolute inset-0 opacity-20"
-        style={{
-          background:
-            "radial-gradient(ellipse at center, #283593 0%, #1A237E 50%, #0D1447 100%)",
-        }}
-      />
+      {/* Ambient */}
+      <div className="absolute inset-0" style={{
+        background: 'radial-gradient(ellipse at center, rgba(22,27,61,0.5) 0%, rgba(10,14,39,1) 70%)'
+      }} />
+
+      {/* Progress line at top */}
+      <div className="absolute top-0 left-0 right-0 h-[2px] z-30" style={{ background: 'rgba(255,255,255,0.04)' }}>
+        <div
+          className="h-full transition-all duration-1000 ease-linear"
+          style={{
+            width: `${progress}%`,
+            background: 'linear-gradient(90deg, #D4A34F, #E8B84B)',
+          }}
+        />
+      </div>
 
       <div className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-8 py-5">
         <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white text-lg backdrop-blur-sm">
-            🖥️
-          </div>
-          <span className="text-white/50 text-sm font-medium">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8B8FA3" strokeWidth="1.5">
+            <rect x="2" y="3" width="20" height="14" rx="2" /><line x1="8" y1="21" x2="16" y2="21" /><line x1="12" y1="17" x2="12" y2="21" />
+          </svg>
+          <span className="text-sm font-light" style={{ color: '#8B8FA3' }}>
             Exhibit Display
           </span>
         </div>
-        <div className="flex items-center gap-4">
-          <div className="flex gap-1.5">
-            {slides.map((_, i) => (
-              <div
-                key={i}
-                className="h-1 rounded-full transition-all duration-500"
-                style={{
-                  width: i === current ? "32px" : "8px",
-                  background:
-                    i <= current ? "#FF8F00" : "rgba(255,255,255,0.2)",
-                }}
-              />
-            ))}
-          </div>
-          <span className="text-white/40 text-sm font-medium ml-2">
-            {current + 1} / {slides.length}
-          </span>
-        </div>
-        <div className="w-24" />
+        <span className="text-sm font-light" style={{ color: 'rgba(139,143,163,0.6)' }}>
+          {current + 1} / {slides.length}
+        </span>
       </div>
 
       <div className="relative z-10 h-full flex flex-col items-center justify-center px-12 py-20">
@@ -351,48 +323,35 @@ export default function KioskDisplayPage({
             <img
               src={slide.image_url}
               alt={slide.title}
-              className="max-h-[40vh] max-w-full object-contain rounded-2xl shadow-2xl"
+              className="max-h-[40vh] max-w-full object-contain rounded-xl"
+              style={{ boxShadow: '0 20px 60px rgba(0,0,0,0.5)' }}
             />
           </div>
         )}
         <div className="text-center max-w-4xl">
           <h1
-            className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight"
-            style={{ fontFamily: "Playfair Display, serif" }}
+            className="text-4xl md:text-6xl font-semibold mb-6 leading-tight"
+            style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5F0E8' }}
           >
             {slide.title}
           </h1>
-          <div
-            className="text-xl md:text-2xl text-white/80 leading-relaxed max-w-3xl mx-auto"
-            style={{ lineHeight: "1.7" }}
-          >
+          <div className="text-lg md:text-xl max-w-3xl mx-auto" style={{ color: 'rgba(245,240,232,0.7)', lineHeight: '1.8' }}>
             {slide.content.split("\n").map((para, i) => (
-              <p key={i} className="mb-4">
-                {para}
-              </p>
+              <p key={i} className="mb-4">{para}</p>
             ))}
           </div>
         </div>
       </div>
 
-      <div className="absolute bottom-0 left-0 right-0 h-1 bg-white/10">
-        <div
-          className="h-full rounded-r-full transition-all duration-1000 ease-linear"
-          style={{
-            width: `${progress}%`,
-            background: "linear-gradient(90deg, #FF8F00, #FF6F00)",
-          }}
-        />
-      </div>
-
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex items-center gap-2 text-white/30 text-sm">
-        <span>← Swipe or press → to continue</span>
+      {/* Bottom hint */}
+      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex items-center gap-2 text-xs" style={{ color: 'rgba(139,143,163,0.25)' }}>
+        <span>&larr; Swipe or press &rarr; to continue</span>
       </div>
 
       <div className="absolute bottom-6 right-8 text-right">
         <p
-          className="text-white/10 text-sm italic"
-          style={{ fontFamily: "Playfair Display, serif" }}
+          className="text-xs italic"
+          style={{ fontFamily: '"Cormorant Garamond", serif', color: 'rgba(212,163,79,0.12)' }}
         >
           &ldquo;Arise, awake, and stop not till the goal is reached.&rdquo;
         </p>

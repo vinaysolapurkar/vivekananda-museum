@@ -1,54 +1,131 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Noto+Sans+Kannada:wght@400;500;600;700&display=swap");
 @import "tailwindcss";
 
 @theme inline {
-  --color-primary: #1A237E;
-  --color-primary-light: #283593;
-  --color-primary-dark: #0D1457;
-  --color-saffron: #FF8F00;
-  --color-saffron-light: #FFA726;
-  --color-saffron-dark: #E65100;
-  --color-accent: #4CAF50;
-  --color-accent-light: #66BB6A;
-  --color-surface: #FAFAFA;
-  --color-surface-dark: #1A1A2E;
-  --color-text-dark: #212121;
-  --color-text-light: #FFFFFF;
-  --color-text-muted: #616161;
-  --color-border: #E0E0E0;
-  --font-heading: "Playfair Display", Georgia, serif;
-  --font-body: "Inter", system-ui, sans-serif;
+  --color-deep: #0A0E27;
+  --color-deep-light: #111638;
+  --color-deep-surface: #161B3D;
+  --color-gold: #D4A34F;
+  --color-gold-light: #E8B84B;
+  --color-gold-dim: #B8893F;
+  --color-warm-white: #F5F0E8;
+  --color-muted: #8B8FA3;
+  --color-glass: rgba(255,255,255,0.04);
+  --color-glass-border: rgba(255,255,255,0.06);
+  --color-glass-hover: rgba(255,255,255,0.08);
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
   --font-kannada: "Noto Sans Kannada", sans-serif;
 }
 
 :root {
-  --color-primary: #1A237E;
-  --color-primary-light: #283593;
-  --color-primary-dark: #0D1457;
-  --color-saffron: #FF8F00;
-  --color-saffron-light: #FFA726;
-  --color-saffron-dark: #E65100;
-  --color-accent: #4CAF50;
-  --color-accent-light: #66BB6A;
-  --color-surface: #FAFAFA;
-  --color-surface-dark: #1A1A2E;
-  --color-text-dark: #212121;
-  --color-text-light: #FFFFFF;
-  --color-text-muted: #616161;
-  --color-border: #E0E0E0;
+  --color-deep: #0A0E27;
+  --color-gold: #D4A34F;
+  --color-gold-light: #E8B84B;
+  --color-warm-white: #F5F0E8;
+  --color-muted: #8B8FA3;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
-  background: #FAFAFA;
-  color: #212121;
-  font-family: "Inter", system-ui, sans-serif;
+  background: #0A0E27;
+  color: #F5F0E8;
+  font-family: "DM Sans", system-ui, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", Georgia, serif;
+  font-family: "Cormorant Garamond", Georgia, serif;
 }
 
+/* Scrollbar */
 .kiosk-scroll::-webkit-scrollbar { display: none; }
 .kiosk-scroll { -ms-overflow-style: none; scrollbar-width: none; }
 
+/* Touch targets */
 .touch-target { min-height: 48px; min-width: 48px; }
+
+/* Glass morphism */
+.glass {
+  background: rgba(255,255,255,0.04);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.06);
+}
+
+.glass-hover:hover {
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(212,163,79,0.2);
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes pulseGold {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(212,163,79,0.4); }
+  50% { box-shadow: 0 0 0 12px rgba(212,163,79,0); }
+}
+
+@keyframes starTwinkle {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 0.8; }
+}
+
+@keyframes kenBurns {
+  0% { transform: scale(1) translate(0, 0); }
+  100% { transform: scale(1.08) translate(-1%, -1%); }
+}
+
+@keyframes progressFill {
+  from { width: 0%; }
+  to { width: 100%; }
+}
+
+@keyframes dotPulse {
+  0%, 80%, 100% { opacity: 0.3; transform: scale(0.8); }
+  40% { opacity: 1; transform: scale(1); }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+  opacity: 0;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-pulse-gold {
+  animation: pulseGold 2s ease-in-out infinite;
+}
+
+/* Custom scrollbar for dark theme */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(212,163,79,0.2); border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(212,163,79,0.4); }

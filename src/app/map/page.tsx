@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef, useCallback } from "react";
 
 interface TravelLocation {
   id: number;
@@ -13,32 +13,43 @@ interface TravelLocation {
   phase: string;
 }
 
-// Convert lat/lng to SVG x/y on a simple equirectangular projection
-function toSvg(lat: number, lng: number): { x: number; y: number } {
-  const x = ((lng + 180) / 360) * 1000;
-  const y = ((90 - lat) / 180) * 500;
-  return { x, y };
-}
-
-const PHASE_COLORS: Record<string, string> = {
-  "Early Life": "#4CAF50",
-  "Spiritual Quest": "#9C27B0",
-  "Wandering Monk": "#FF9800",
-  "World Mission": "#FF8F00",
-  "Second Western Visit": "#E91E63",
-  "Return to India": "#2196F3",
-  "Later Years": "#607D8B",
-  Legacy: "#FFD700",
-};
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 export default function MapPage() {
   const [locations, setLocations] = useState<TravelLocation[]>([]);
   const [selected, setSelected] = useState<TravelLocation | null>(null);
   const [loading, setLoading] = useState(true);
-  const svgRef = useRef<SVGSVGElement>(null);
+  const [mapReady, setMapReady] = useState(false);
+  const mapRef = useRef<HTMLDivElement>(null);
+  const leafletMap = useRef<any>(null);
+  const markersRef = useRef<any[]>([]);
   const autoRotateRef = useRef(true);
   const rotateIndexRef = useRef(0);
 
+  // Load Leaflet from CDN
+  useEffect(() => {
+    if (typeof window !== "undefined" && (window as any).L) {
+      setMapReady(true);
+      return;
+    }
+
+    const link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+    document.head.appendChild(link);
+
+    const script = document.createElement("script");
+    script.src = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js";
+    script.onload = () => setMapReady(true);
+    document.head.appendChild(script);
+
+    return () => {
+      document.head.removeChild(link);
+      document.head.removeChild(script);
+    };
+  }, []);
+
+  // Fetch locations
   useEffect(() => {
     fetch("/api/map/locations")
       .then((r) => r.json())
@@ -49,316 +60,214 @@ export default function MapPage() {
       .catch(() => setLoading(false));
   }, []);
 
-  // Auto-rotate through locations every 10 seconds
+  // Initialize map
+  useEffect(() => {
+    if (!mapReady || !mapRef.current || leafletMap.current) return;
+    const L = (window as any).L;
+
+    const map = L.map(mapRef.current, {
+      center: [20, 40],
+      zoom: 3,
+      zoomControl: false,
+      attributionControl: false,
+      minZoom: 2,
+      maxZoom: 8,
+    });
+
+    // Dark tile layer
+    L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
+      subdomains: "abcd",
+    }).addTo(map);
+
+    leafletMap.current = map;
+
+    return () => {
+      map.remove();
+      leafletMap.current = null;
+    };
+  }, [mapReady]);
+
+  const selectLocation = useCallback((loc: TravelLocation) => {
+    setSelected(loc);
+    if (leafletMap.current) {
+      leafletMap.current.flyTo([loc.lat, loc.lng], 6, { duration: 1.5 });
+    }
+    // Highlight marker
+    markersRef.current.forEach((m, i) => {
+      if (locations[i]?.id === loc.id) {
+        m.setRadius(10);
+        m.setStyle({ fillOpacity: 1, weight: 2 });
+      } else {
+        m.setRadius(5);
+        m.setStyle({ fillOpacity: 0.7, weight: 1 });
+      }
+    });
+  }, [locations]);
+
+  // Add markers when locations + map are ready
+  useEffect(() => {
+    if (!leafletMap.current || locations.length === 0 || !mapReady) return;
+    const L = (window as any).L;
+    const map = leafletMap.current;
+
+    // Clear old markers
+    markersRef.current.forEach((m) => m.remove());
+    markersRef.current = [];
+
+    // Draw route line
+    const routeCoords = locations.map((loc) => [loc.lat, loc.lng] as [number, number]);
+    if (routeCoords.length > 1) {
+      L.polyline(routeCoords, {
+        color: "#D4A34F",
+        weight: 1.5,
+        opacity: 0.3,
+        dashArray: "6, 8",
+      }).addTo(map);
+    }
+
+    // Add markers
+    locations.forEach((loc, i) => {
+      const marker = L.circleMarker([loc.lat, loc.lng], {
+        radius: 5,
+        fillColor: "#D4A34F",
+        color: "#E8B84B",
+        weight: 1,
+        fillOpacity: 0.7,
+      }).addTo(map);
+
+      marker.on("click", () => {
+        autoRotateRef.current = false;
+        selectLocation(loc);
+      });
+
+      // Tooltip
+      marker.bindTooltip(
+        `<span style="font-family:Cormorant Garamond,serif;font-size:13px;font-weight:600;color:#F5F0E8">${loc.name}</span><br/><span style="font-size:10px;color:#D4A34F">${loc.year}</span>`,
+        {
+          permanent: false,
+          direction: "top",
+          offset: [0, -8],
+          className: "leaflet-dark-tooltip",
+        }
+      );
+
+      markersRef.current[i] = marker;
+    });
+
+    // Fit bounds
+    if (routeCoords.length > 0) {
+      map.fitBounds(L.latLngBounds(routeCoords), { padding: [60, 60] });
+    }
+  }, [locations, mapReady, selectLocation]);
+
+  // Auto-rotate
   useEffect(() => {
     if (locations.length === 0) return;
     const interval = setInterval(() => {
       if (!autoRotateRef.current) return;
       const idx = rotateIndexRef.current % locations.length;
-      setSelected(locations[idx]);
+      selectLocation(locations[idx]);
       rotateIndexRef.current = idx + 1;
-    }, 10000);
-    // Show first location after a short delay
+    }, 8000);
     const initial = setTimeout(() => {
       if (autoRotateRef.current && locations.length > 0) {
-        setSelected(locations[0]);
+        selectLocation(locations[0]);
         rotateIndexRef.current = 1;
       }
     }, 2000);
     return () => { clearInterval(interval); clearTimeout(initial); };
-  }, [locations]);
+  }, [locations, selectLocation]);
 
-  if (loading) {
+  if (loading || !mapReady) {
     return (
-      <div
-        className="fixed inset-0 flex items-center justify-center"
-        style={{ background: "#0a0a1a" }}
-      >
+      <div className="fixed inset-0 flex items-center justify-center" style={{ background: "#0A0E27" }}>
         <div className="text-center">
-          <div className="w-16 h-16 border-4 border-white/30 border-t-saffron rounded-full animate-spin mb-6 mx-auto" />
-          <p className="text-white/60 text-xl">Loading world map...</p>
+          <div className="w-12 h-12 border-2 border-transparent rounded-full animate-spin mb-6 mx-auto" style={{ borderTopColor: '#D4A34F' }} />
+          <p className="text-sm" style={{ color: '#8B8FA3' }}>Loading world map...</p>
         </div>
       </div>
     );
   }
 
-  // Build travel route path
-  const routePoints = locations.map((loc) => toSvg(loc.lat, loc.lng));
-  const routePath =
-    routePoints.length > 1
-      ? `M ${routePoints.map((p) => `${p.x},${p.y}`).join(" L ")}`
-      : "";
-
   return (
-    <div
-      className="fixed inset-0 overflow-hidden"
-      style={{ background: "linear-gradient(135deg, #0a0a1a 0%, #0d1447 50%, #1a1a2e 100%)" }}
-    >
+    <div className="fixed inset-0 overflow-hidden" style={{ background: "#0A0E27" }}>
+      {/* Custom tooltip styles */}
+      <style>{`
+        .leaflet-dark-tooltip {
+          background: rgba(10,14,39,0.95) !important;
+          border: 1px solid rgba(212,163,79,0.2) !important;
+          border-radius: 8px !important;
+          padding: 6px 10px !important;
+          box-shadow: 0 4px 20px rgba(0,0,0,0.4) !important;
+        }
+        .leaflet-dark-tooltip::before {
+          border-top-color: rgba(10,14,39,0.95) !important;
+        }
+        .leaflet-container {
+          background: #0A0E27 !important;
+        }
+      `}</style>
+
       {/* Header */}
-      <div className="absolute top-0 left-0 right-0 z-20 px-8 py-5 flex items-center justify-between">
-        <div>
-          <h1
-            className="text-2xl md:text-3xl font-bold text-white"
-            style={{ fontFamily: "Playfair Display, serif" }}
-          >
-            Vivekananda&apos;s World Travels
-          </h1>
-          <p className="text-white/50 text-sm mt-1">
-            Journey of a Wandering Monk (1863–1902)
-          </p>
-        </div>
-        <div className="flex gap-2 flex-wrap justify-end">
-          {Object.entries(PHASE_COLORS).map(([phase, color]) => (
-            <span
-              key={phase}
-              className="text-xs px-2 py-1 rounded-full text-white/80"
-              style={{ background: `${color}33`, border: `1px solid ${color}66` }}
-            >
-              {phase}
-            </span>
-          ))}
-        </div>
+      <div className="absolute top-0 left-0 right-0 z-[1000] px-8 py-5">
+        <h1
+          className="text-2xl md:text-3xl font-semibold"
+          style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5F0E8' }}
+        >
+          Vivekananda&apos;s World Travels
+        </h1>
+        <p className="text-sm mt-1" style={{ color: '#8B8FA3' }}>
+          Journey of a Wandering Monk (1863&ndash;1902)
+        </p>
       </div>
 
-      {/* SVG World Map */}
-      <svg
-        ref={svgRef}
-        viewBox="0 0 1000 500"
-        className="absolute inset-0 w-full h-full"
-        style={{ marginTop: "60px" }}
-      >
-        {/* Grid lines for continents hint */}
-        <defs>
-          <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stopColor="#FF8F00" stopOpacity="0.6" />
-            <stop offset="100%" stopColor="#FF8F00" stopOpacity="0" />
-          </radialGradient>
-          <filter id="blur">
-            <feGaussianBlur stdDeviation="2" />
-          </filter>
-        </defs>
-
-        {/* Simplified world continent outlines */}
-        {/* North America */}
-        <path
-          d="M100,80 L180,60 L230,80 L260,120 L250,170 L220,200 L200,220 L170,230 L140,210 L120,180 L90,150 L85,120 Z"
-          fill="rgba(255,255,255,0.05)"
-          stroke="rgba(255,255,255,0.1)"
-          strokeWidth="0.5"
-        />
-        {/* South America */}
-        <path
-          d="M200,250 L230,240 L260,260 L270,300 L260,340 L240,380 L220,400 L200,380 L190,340 L185,300 Z"
-          fill="rgba(255,255,255,0.05)"
-          stroke="rgba(255,255,255,0.1)"
-          strokeWidth="0.5"
-        />
-        {/* Europe */}
-        <path
-          d="M440,70 L480,60 L520,70 L540,90 L530,120 L510,130 L490,140 L460,130 L440,120 L430,100 Z"
-          fill="rgba(255,255,255,0.05)"
-          stroke="rgba(255,255,255,0.1)"
-          strokeWidth="0.5"
-        />
-        {/* Africa */}
-        <path
-          d="M460,170 L510,160 L540,180 L550,220 L545,270 L530,320 L510,350 L490,340 L475,310 L460,270 L450,220 Z"
-          fill="rgba(255,255,255,0.05)"
-          stroke="rgba(255,255,255,0.1)"
-          strokeWidth="0.5"
-        />
-        {/* Asia */}
-        <path
-          d="M540,60 L620,50 L700,60 L760,80 L800,100 L810,130 L790,160 L760,180 L720,200 L680,210 L640,200 L600,180 L570,160 L550,130 L540,100 Z"
-          fill="rgba(255,255,255,0.05)"
-          stroke="rgba(255,255,255,0.1)"
-          strokeWidth="0.5"
-        />
-        {/* India subcontinent */}
-        <path
-          d="M640,170 L670,160 L690,180 L695,210 L680,240 L660,260 L640,250 L630,220 L625,190 Z"
-          fill="rgba(255,255,255,0.08)"
-          stroke="rgba(255,143,0,0.3)"
-          strokeWidth="0.8"
-        />
-        {/* Australia */}
-        <path
-          d="M780,300 L830,290 L860,310 L860,340 L840,360 L810,360 L785,340 L775,320 Z"
-          fill="rgba(255,255,255,0.05)"
-          stroke="rgba(255,255,255,0.1)"
-          strokeWidth="0.5"
-        />
-
-        {/* Latitude lines */}
-        {[-60, -30, 0, 30, 60].map((lat) => {
-          const y = ((90 - lat) / 180) * 500;
-          return (
-            <line
-              key={lat}
-              x1="0"
-              y1={y}
-              x2="1000"
-              y2={y}
-              stroke="rgba(255,255,255,0.03)"
-              strokeWidth="0.5"
-            />
-          );
-        })}
-
-        {/* Travel route - glowing line */}
-        {routePath && (
-          <>
-            <path
-              d={routePath}
-              fill="none"
-              stroke="#FF8F00"
-              strokeWidth="3"
-              strokeOpacity="0.15"
-              filter="url(#blur)"
-            />
-            <path
-              d={routePath}
-              fill="none"
-              stroke="#FF8F00"
-              strokeWidth="1"
-              strokeOpacity="0.5"
-              strokeDasharray="6,4"
-            />
-          </>
-        )}
-
-        {/* Location markers */}
-        {locations.map((loc) => {
-          const pos = toSvg(loc.lat, loc.lng);
-          const color = PHASE_COLORS[loc.phase] || "#FF8F00";
-          const isSelected = selected?.id === loc.id;
-
-          return (
-            <g
-              key={loc.id}
-              onClick={() => {
-                autoRotateRef.current = false;
-                setSelected(isSelected ? null : loc);
-              }}
-              className="cursor-pointer"
-            >
-              {/* Glow */}
-              <circle
-                cx={pos.x}
-                cy={pos.y}
-                r={isSelected ? 16 : 10}
-                fill={color}
-                opacity={isSelected ? 0.2 : 0.1}
-              />
-              {/* Pulse animation ring */}
-              <circle
-                cx={pos.x}
-                cy={pos.y}
-                r={isSelected ? 10 : 6}
-                fill="none"
-                stroke={color}
-                strokeWidth="0.5"
-                opacity="0.4"
-              >
-                <animate
-                  attributeName="r"
-                  from={isSelected ? "10" : "6"}
-                  to={isSelected ? "20" : "14"}
-                  dur="2s"
-                  repeatCount="indefinite"
-                />
-                <animate
-                  attributeName="opacity"
-                  from="0.4"
-                  to="0"
-                  dur="2s"
-                  repeatCount="indefinite"
-                />
-              </circle>
-              {/* Dot */}
-              <circle
-                cx={pos.x}
-                cy={pos.y}
-                r={isSelected ? 5 : 3.5}
-                fill={color}
-                stroke="white"
-                strokeWidth={isSelected ? 1.5 : 0.8}
-              />
-              {/* Label */}
-              <text
-                x={pos.x}
-                y={pos.y - 10}
-                textAnchor="middle"
-                fill="white"
-                fontSize={isSelected ? "10" : "7"}
-                fontWeight={isSelected ? "bold" : "normal"}
-                opacity={isSelected ? 1 : 0.7}
-              >
-                {loc.name}
-              </text>
-              {!isSelected && (
-                <text
-                  x={pos.x}
-                  y={pos.y + 14}
-                  textAnchor="middle"
-                  fill={color}
-                  fontSize="6"
-                  opacity="0.7"
-                >
-                  {loc.year}
-                </text>
-              )}
-            </g>
-          );
-        })}
-      </svg>
+      {/* Map container */}
+      <div ref={mapRef} className="absolute inset-0" />
 
       {/* Info panel */}
       {selected && (
         <div
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 z-30 max-w-lg w-full mx-4"
+          className="absolute bottom-8 left-1/2 -translate-x-1/2 z-[1000] max-w-lg w-[calc(100%-2rem)]"
           onClick={() => {
             setSelected(null);
             autoRotateRef.current = true;
           }}
         >
           <div
-            className="rounded-2xl p-6 backdrop-blur-md"
+            className="rounded-2xl p-6"
             style={{
-              background: "rgba(13, 20, 71, 0.9)",
-              border: `1px solid ${PHASE_COLORS[selected.phase] || "#FF8F00"}44`,
-              boxShadow: `0 0 40px ${PHASE_COLORS[selected.phase] || "#FF8F00"}22`,
+              background: 'rgba(10,14,39,0.92)',
+              backdropFilter: 'blur(20px)',
+              border: '1px solid rgba(212,163,79,0.15)',
+              boxShadow: '0 8px 40px rgba(0,0,0,0.4)',
             }}
           >
             <div className="flex items-center gap-3 mb-3">
-              <div
-                className="w-3 h-3 rounded-full"
-                style={{ background: PHASE_COLORS[selected.phase] || "#FF8F00" }}
-              />
+              <div className="w-2 h-2 rounded-full" style={{ background: '#D4A34F' }} />
               <span
-                className="text-xs uppercase tracking-wider"
-                style={{ color: PHASE_COLORS[selected.phase] || "#FF8F00" }}
+                className="text-[10px] uppercase tracking-[0.2em] font-medium"
+                style={{ color: '#D4A34F' }}
               >
                 {selected.phase} &middot; {selected.year}
               </span>
             </div>
             <h2
-              className="text-2xl font-bold text-white mb-1"
-              style={{ fontFamily: "Playfair Display, serif" }}
+              className="text-2xl font-semibold mb-1"
+              style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5F0E8' }}
             >
               {selected.name}
             </h2>
-            <p className="text-white/50 text-sm mb-3">{selected.country}</p>
-            <p className="text-white/80 leading-relaxed">{selected.description}</p>
+            <p className="text-sm mb-3" style={{ color: '#8B8FA3' }}>{selected.country}</p>
+            <p className="leading-relaxed text-sm" style={{ color: 'rgba(245,240,232,0.75)' }}>{selected.description}</p>
           </div>
         </div>
       )}
 
       {/* Bottom quote */}
-      <div className="absolute bottom-3 right-6 z-10">
+      <div className="absolute bottom-3 right-6 z-[999]">
         <p
-          className="text-white/10 text-xs italic"
-          style={{ fontFamily: "Playfair Display, serif" }}
+          className="text-xs italic"
+          style={{ fontFamily: '"Cormorant Garamond", serif', color: 'rgba(212,163,79,0.12)' }}
         >
           &ldquo;All the powers in the universe are already ours.&rdquo;
         </p>

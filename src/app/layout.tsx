@@ -13,7 +13,7 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   maximumScale: 1,
-  themeColor: "#1A237E",
+  themeColor: "#0A0E27",
 };
 
 export default function RootLayout({
@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full antialiased">
-      <body className="min-h-full flex flex-col bg-surface text-text-dark font-body">
+      <body className="min-h-full flex flex-col" style={{ background: '#0A0E27', color: '#F5F0E8', fontFamily: '"DM Sans", system-ui, sans-serif' }}>
         {children}
       </body>
     </html>

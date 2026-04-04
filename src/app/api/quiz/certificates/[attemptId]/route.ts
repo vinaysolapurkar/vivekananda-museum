@@ -73,11 +73,13 @@ export async function GET(
     .certificate {
       width: 900px;
       max-width: 100%;
-      aspect-ratio: 1.414;
       background: #FFFDF7;
       position: relative;
-      overflow: hidden;
+      overflow: visible;
       box-shadow: 0 20px 60px rgba(0,0,0,0.15);
+    }
+    @media (min-width: 768px) {
+      .certificate { aspect-ratio: 1.414; }
     }
     /* Outer border */
     .border-outer {
@@ -107,9 +109,16 @@ export async function GET(
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      height: 100%;
+      min-height: 100%;
       padding: 60px 80px;
       text-align: center;
+    }
+    @media (max-width: 767px) {
+      .content { padding: 40px 24px; }
+      .cert-title { font-size: 28px; }
+      .visitor-name { font-size: 32px; }
+      .corner { width: 40px; height: 40px; }
+      .footer { flex-direction: column; gap: 16px; align-items: center; }
     }
     .om-symbol {
       font-size: 36px;

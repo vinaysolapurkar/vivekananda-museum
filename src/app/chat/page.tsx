@@ -14,7 +14,7 @@ export default function ChatPage() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "assistant",
-      text: "🙏 Namaste! I am the living wisdom of Swami Vivekananda. Ask me anything about his life, teachings, philosophy, or spiritual path. I am here to guide you.",
+      text: "Namaste! I am the living wisdom of Swami Vivekananda. Ask me anything about his life, teachings, philosophy, or spiritual path. I am here to guide you.",
     },
   ]);
   const [input, setInput] = useState("");
@@ -27,15 +27,12 @@ export default function ChatPage() {
   const recognitionRef = useRef<SpeechRecognition | null>(null);
   const idleTimerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
-  // Auto-scroll to bottom
   useEffect(() => {
     messagesEnd.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
 
-  // Reset idle timer
   const resetIdle = useCallback(() => setLastTouch(Date.now()), []);
 
-  // Auto-return to home after 90s of inactivity
   useEffect(() => {
     idleTimerRef.current = setInterval(() => {
       if (Date.now() - lastTouch > 90000) {
@@ -71,7 +68,7 @@ export default function ChatPage() {
         ...prev,
         {
           role: "assistant",
-          text: data.answer || "The wisdom of the masters teaches us that truth is one — it appears differently to different minds. Please rephrase your question and I shall try again.",
+          text: data.answer || "The wisdom of the masters teaches us that truth is one \u2014 it appears differently to different minds. Please rephrase your question and I shall try again.",
           sources: data.sources,
         },
       ]);
@@ -99,7 +96,6 @@ export default function ChatPage() {
         : null;
 
     if (!SpeechRecognition) {
-      // Fallback: use browser's speech synthesis
       const utterance = new SpeechSynthesisUtterance("Speech recognition is not available. Please type your question.");
       utterance.lang = lang === "kn" ? "kn-IN" : lang === "hi" ? "hi-IN" : "en-US";
       window.speechSynthesis.speak(utterance);
@@ -126,26 +122,62 @@ export default function ChatPage() {
   };
 
   return (
-    <div 
+    <div
       className="fixed inset-0 flex flex-col"
-      style={{ background: 'linear-gradient(160deg, #0D1447 0%, #1A237E 40%, #1A237E 100%)' }}
+      style={{
+        background: '#0A0E27',
+      }}
       onClick={resetIdle}
     >
+      {/* Ambient background */}
+      <div className="absolute inset-0 pointer-events-none" style={{
+        background: 'radial-gradient(ellipse at 30% 20%, rgba(212,163,79,0.03) 0%, transparent 50%), radial-gradient(ellipse at 70% 80%, rgba(212,163,79,0.02) 0%, transparent 50%)'
+      }} />
+      {/* Stars */}
+      <div className="absolute inset-0 pointer-events-none overflow-hidden">
+        {Array.from({ length: 25 }).map((_, i) => (
+          <div
+            key={i}
+            className="absolute rounded-full"
+            style={{
+              width: `${1 + (i % 2)}px`,
+              height: `${1 + (i % 2)}px`,
+              left: `${(i * 41 + 17) % 100}%`,
+              top: `${(i * 29 + 11) % 100}%`,
+              background: i % 4 === 0 ? '#D4A34F' : '#F5F0E8',
+              opacity: 0.1 + (i % 3) * 0.05,
+              animation: `starTwinkle ${4 + (i % 5)}s ease-in-out ${(i % 6) * 0.7}s infinite`,
+            }}
+          />
+        ))}
+      </div>
+
       {/* Header */}
-      <header className="shrink-0 px-8 py-6 flex items-center justify-between">
+      <header className="shrink-0 px-8 py-5 flex items-center justify-between relative z-10">
         <div className="flex items-center gap-4">
-          {/* Vivekananda portrait placeholder */}
-          <div className="w-16 h-16 rounded-full bg-gradient-to-br from-saffron/40 to-saffron/10 border-2 border-saffron/40 flex items-center justify-center">
-            <span className="text-3xl">🙏</span>
+          {/* Vivekananda avatar */}
+          <div
+            className="w-14 h-14 rounded-full flex items-center justify-center"
+            style={{
+              background: 'rgba(212,163,79,0.1)',
+              border: '2px solid rgba(212,163,79,0.3)',
+            }}
+          >
+            <span
+              className="text-2xl font-light"
+              style={{ fontFamily: '"Cormorant Garamond", serif', color: '#E8B84B' }}
+            >
+              V
+            </span>
           </div>
           <div>
-            <h1 
-              className="text-2xl font-bold text-white"
-              style={{ fontFamily: 'Playfair Display, serif' }}
+            <h1
+              className="text-xl font-semibold"
+              style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5F0E8' }}
             >
               Ask Vivekananda
             </h1>
-            <p className="text-white/50 text-sm">Speak or type your question</p>
+            <p className="text-xs" style={{ color: '#8B8FA3' }}>Speak or type your question</p>
           </div>
         </div>
 
@@ -155,105 +187,128 @@ export default function ChatPage() {
             <button
               key={l}
               onClick={(e) => { e.stopPropagation(); resetIdle(); setLang(l); }}
-              className={`px-4 py-2 rounded-xl text-sm font-semibold transition-all border-2 ${
-                lang === l
-                  ? "border-saffron text-saffron bg-saffron/10"
-                  : "border-white/20 text-white/60 hover:border-white/40"
-              }`}
+              className="px-3 py-1.5 rounded-lg text-xs font-medium transition-all duration-300"
+              style={{
+                background: lang === l ? 'rgba(212,163,79,0.15)' : 'transparent',
+                color: lang === l ? '#E8B84B' : '#8B8FA3',
+                border: lang === l ? '1px solid rgba(212,163,79,0.3)' : '1px solid rgba(255,255,255,0.06)',
+              }}
             >
-              {l === "en" ? "🇬🇧 English" : l === "kn" ? "🇮🇳 ಕನ್ನಡ" : "🇮🇳 हिन्दी"}
+              {l === "en" ? "EN" : l === "kn" ? "\u0C95\u0CA8" : "\u0939\u093F"}
             </button>
           ))}
         </div>
       </header>
 
-      {/* Language indicator bar */}
-      <div className="shrink-0 flex items-center gap-3 px-8 pb-4">
-        <div className={`h-1 rounded-full transition-all duration-500 ${lang === 'en' ? 'w-24 bg-blue-400' : lang === 'kn' ? 'w-24 bg-orange-400' : 'w-24 bg-green-400'}`} />
-      </div>
-
       {/* Messages */}
-      <div className="flex-1 overflow-y-auto px-8 py-4 space-y-5">
+      <div className="flex-1 overflow-y-auto px-8 py-4 space-y-5 relative z-10">
         {messages.map((msg, i) => (
           <div
             key={i}
-            className={`flex ${msg.role === "user" ? "justify-end" : "justify-start"} animate-in fade-in slide-in-from-bottom-2`}
-            style={{ animationDuration: '300ms' }}
+            className={`flex ${msg.role === "user" ? "justify-end" : "justify-start"} animate-fade-in-up`}
+            style={{ animationDelay: '0s', animationDuration: '0.3s' }}
           >
             <div
-              className={`max-w-[75%] rounded-3xl px-6 py-4 ${
-                msg.role === "user"
-                  ? "text-white rounded-br-md"
-                  : "text-white/90 rounded-bl-md"
-              }`}
+              className="max-w-[75%] rounded-2xl px-5 py-4"
               style={{
-                background: msg.role === "user" 
-                  ? 'linear-gradient(135deg, #FF8F00, #FF6F00)'
-                  : 'rgba(255,255,255,0.08)',
+                background: msg.role === "user"
+                  ? 'rgba(212,163,79,0.12)'
+                  : 'rgba(255,255,255,0.04)',
+                border: msg.role === "user"
+                  ? '1px solid rgba(212,163,79,0.2)'
+                  : '1px solid rgba(255,255,255,0.06)',
                 backdropFilter: 'blur(10px)',
-                border: msg.role === "assistant" ? '1px solid rgba(255,255,255,0.1)' : 'none',
+                borderBottomRightRadius: msg.role === "user" ? '6px' : '16px',
+                borderBottomLeftRadius: msg.role === "assistant" ? '6px' : '16px',
               }}
             >
               {msg.role === "assistant" && (
                 <div className="flex items-center gap-2 mb-2">
-                  <div className="w-7 h-7 rounded-full bg-saffron/30 flex items-center justify-center text-sm">
-                    🙏
+                  <div
+                    className="w-6 h-6 rounded-full flex items-center justify-center text-xs font-light"
+                    style={{
+                      background: 'rgba(212,163,79,0.15)',
+                      color: '#D4A34F',
+                      fontFamily: '"Cormorant Garamond", serif',
+                    }}
+                  >
+                    V
                   </div>
-                  <span className="text-saffron text-xs font-semibold tracking-wide uppercase">Vivekananda</span>
+                  <span className="text-[10px] font-medium tracking-[0.15em] uppercase" style={{ color: '#D4A34F' }}>
+                    Vivekananda
+                  </span>
                 </div>
               )}
-              <p 
-                className="text-base leading-relaxed"
-                style={{ lineHeight: '1.7' }}
+              <p
+                className="text-sm leading-relaxed"
+                style={{ color: msg.role === "user" ? '#F5F0E8' : 'rgba(245,240,232,0.85)', lineHeight: '1.7' }}
               >
                 {msg.text}
               </p>
               {msg.sources && msg.sources.length > 0 && (
-                <div className="mt-3 pt-2 border-t border-white/10">
-                  <p className="text-white/40 text-xs">
-                    📖 {msg.sources.slice(0, 2).join(", ")}
+                <div className="mt-3 pt-2" style={{ borderTop: '1px solid rgba(255,255,255,0.06)' }}>
+                  <p className="text-[10px]" style={{ color: '#8B8FA3' }}>
+                    Sources: {msg.sources.slice(0, 2).join(", ")}
                   </p>
                 </div>
               )}
             </div>
           </div>
         ))}
-        
+
         {sending && (
           <div className="flex justify-start">
-            <div 
-              className="rounded-3xl rounded-bl-md px-6 py-4"
-              style={{ background: 'rgba(255,255,255,0.08)', backdropFilter: 'blur(10px)' }}
+            <div
+              className="rounded-2xl px-5 py-4"
+              style={{
+                background: 'rgba(255,255,255,0.04)',
+                border: '1px solid rgba(255,255,255,0.06)',
+                borderBottomLeftRadius: '6px',
+              }}
             >
-              <div className="flex gap-1.5">
-                <div className="w-2.5 h-2.5 rounded-full animate-bounce" style={{ background: '#FF8F00', animationDelay: '0ms' }} />
-                <div className="w-2.5 h-2.5 rounded-full animate-bounce" style={{ background: '#FF8F00', animationDelay: '150ms' }} />
-                <div className="w-2.5 h-2.5 rounded-full animate-bounce" style={{ background: '#FF8F00', animationDelay: '300ms' }} />
+              <div className="flex gap-2">
+                {[0, 1, 2].map((d) => (
+                  <div
+                    key={d}
+                    className="w-2 h-2 rounded-full"
+                    style={{
+                      background: '#D4A34F',
+                      animation: `dotPulse 1.4s ease-in-out ${d * 0.2}s infinite`,
+                    }}
+                  />
+                ))}
               </div>
             </div>
           </div>
         )}
-        
+
         <div ref={messagesEnd} />
       </div>
 
       {/* Input area */}
-      <div className="shrink-0 px-8 py-6">
-        <div 
-          className="rounded-3xl p-3 flex gap-3 items-end"
-          style={{ background: 'rgba(255,255,255,0.08)', backdropFilter: 'blur(20px)', border: '1px solid rgba(255,255,255,0.12)' }}
+      <div className="shrink-0 px-8 py-5 relative z-10">
+        <div
+          className="rounded-2xl p-3 flex gap-3 items-end"
+          style={{
+            background: 'rgba(255,255,255,0.04)',
+            backdropFilter: 'blur(20px)',
+            border: '1px solid rgba(255,255,255,0.08)',
+          }}
         >
           {/* Voice button */}
           <button
             onClick={(e) => { e.stopPropagation(); toggleVoice(); }}
-            className={`w-16 h-16 rounded-full flex items-center justify-center text-2xl shrink-0 transition-all ${
-              listening
-                ? "bg-red-500 text-white animate-pulse shadow-lg shadow-red-500/50"
-                : "bg-saffron text-white hover:bg-saffron-dark active:scale-95"
-            }`}
-            style={{ boxShadow: listening ? '0 0 30px rgba(239,68,68,0.5)' : '0 4px 20px rgba(255,143,0,0.4)' }}
+            className="w-14 h-14 rounded-full flex items-center justify-center shrink-0 transition-all duration-300"
+            style={{
+              background: listening ? 'rgba(220,60,60,0.2)' : 'rgba(212,163,79,0.12)',
+              border: listening ? '2px solid rgba(220,60,60,0.4)' : '2px solid rgba(212,163,79,0.3)',
+              boxShadow: listening ? '0 0 24px rgba(220,60,60,0.3)' : 'none',
+              animation: listening ? 'pulseGold 2s ease-in-out infinite' : 'none',
+            }}
           >
-            {listening ? '🔴' : '🎤'}
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke={listening ? '#dc3c3c' : '#D4A34F'} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M12 1a3 3 0 00-3 3v8a3 3 0 006 0V4a3 3 0 00-3-3z" /><path d="M19 10v2a7 7 0 01-14 0v-2" /><line x1="12" y1="19" x2="12" y2="23" /><line x1="8" y1="23" x2="16" y2="23" />
+            </svg>
           </button>
 
           {/* Text input */}
@@ -261,16 +316,17 @@ export default function ChatPage() {
             <textarea
               value={input}
               onChange={(e) => { e.stopPropagation(); setInput(e.target.value); resetIdle(); }}
-              onKeyDown={(e) => { 
-                e.stopPropagation(); 
-                if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); sendMessage(input); } 
+              onKeyDown={(e) => {
+                e.stopPropagation();
+                if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); sendMessage(input); }
               }}
               placeholder="Ask a question about Swami Vivekananda..."
               rows={1}
-              className="w-full px-5 py-4 rounded-2xl bg-white/10 text-white placeholder:text-white/40 resize-none focus:outline-none text-base"
-              style={{ 
-                border: '1px solid rgba(255,255,255,0.1)',
-                background: 'rgba(255,255,255,0.05)',
+              className="w-full px-4 py-3.5 rounded-xl resize-none focus:outline-none text-sm"
+              style={{
+                background: 'rgba(255,255,255,0.04)',
+                color: '#F5F0E8',
+                border: '1px solid rgba(255,255,255,0.06)',
               }}
               onFocus={resetIdle}
             />
@@ -280,20 +336,25 @@ export default function ChatPage() {
           <button
             onClick={(e) => { e.stopPropagation(); sendMessage(input); }}
             disabled={!input.trim() || sending}
-            className="w-16 h-16 rounded-full flex items-center justify-center text-2xl shrink-0 transition-all bg-primary text-white hover:bg-primary-light disabled:opacity-30 disabled:cursor-not-allowed active:scale-95"
-            style={{ boxShadow: '0 4px 20px rgba(26,35,126,0.4)' }}
+            className="w-14 h-14 rounded-full flex items-center justify-center shrink-0 transition-all duration-300 active:scale-95 disabled:opacity-30"
+            style={{
+              background: 'rgba(212,163,79,0.12)',
+              border: '2px solid rgba(212,163,79,0.3)',
+            }}
           >
-            ➤
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#D4A34F" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <line x1="22" y1="2" x2="11" y2="13" /><polygon points="22 2 15 22 11 13 2 9 22 2" />
+            </svg>
           </button>
         </div>
 
         {/* Hint */}
-        <div className="flex items-center justify-center gap-2 mt-3 text-white/30 text-xs">
-          <span>🎤 Speak</span>
-          <span>•</span>
-          <span>✏️ Type</span>
-          <span>•</span>
-          <span>⏱ Returns to home in 90s</span>
+        <div className="flex items-center justify-center gap-3 mt-3 text-[10px]" style={{ color: 'rgba(139,143,163,0.4)' }}>
+          <span>Speak</span>
+          <span style={{ color: 'rgba(212,163,79,0.2)' }}>&middot;</span>
+          <span>Type</span>
+          <span style={{ color: 'rgba(212,163,79,0.2)' }}>&middot;</span>
+          <span>Returns to home in 90s</span>
         </div>
       </div>
     </div>
