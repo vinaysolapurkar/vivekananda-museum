@@ -39,7 +39,7 @@ export default function AdminStations() {
 
   const fetchStations = () => {
     setLoading(true);
-    fetch("/api/audio/stations")
+    fetch("/api/audio/stations?all=true")
       .then((r) => r.json())
       .then((d) => setStations(d.stations || []))
       .catch(() => {})

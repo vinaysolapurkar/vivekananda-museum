@@ -9,6 +9,16 @@ const headers = serviceHeaders("audio-guide", "1.0.0");
 export async function GET(request: NextRequest) {
   await ensureDb();
 
+  const allFields = request.nextUrl.searchParams.get("all") === "true";
+
+  if (allFields) {
+    // Return all fields for admin
+    const rows = await db.execute(
+      "SELECT * FROM stations ORDER BY sort_order ASC, number ASC"
+    );
+    return Response.json({ stations: rows.rows }, { headers });
+  }
+
   const lang = getLang(request.nextUrl.searchParams);
 
   const rows = await db.execute(
