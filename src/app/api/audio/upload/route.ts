@@ -12,8 +12,8 @@ export async function POST(request: NextRequest) {
   await ensureDb();
 
   // Skip auth for now — admin pages are PIN-gated at layout level
-  // const authError = await requireAdmin();
-  // if (authError) return authError;
+  // // const authError = await requireAdmin();
+  // // if (authError) return authError;
 
   let formData: FormData;
   try {

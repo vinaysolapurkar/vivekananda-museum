@@ -3,8 +3,8 @@ import db from "@/lib/db";
 import { ensureDb } from "@/lib/init-db";
 
 export async function GET() {
-  const authError = await requireAdmin();
-  if (authError) return authError;
+  // const authError = await requireAdmin();
+  // if (authError) return authError;
 
   await ensureDb();
 
