@@ -18,6 +18,8 @@ export async function POST(request: Request) {
   const description = (formData.get("description") as string) || "";
   const stationNumber = formData.get("station_number") as string | null;
   const sortOrder = formData.get("sort_order") as string | null;
+  const categoryId = formData.get("category_id") as string | null;
+  const durationSeconds = formData.get("duration_seconds") as string | null;
 
   if (!file) {
     return Response.json({ error: "No file provided" }, { status: 400 });
@@ -44,9 +46,15 @@ export async function POST(request: Request) {
 
   // Insert into DB
   const result = await db.execute({
-    sql: `INSERT INTO slideshow_images (title, description, image_url, station_number, sort_order) 
-          VALUES (?, ?, ?, ?, ?)`,
-    args: [title, description, imageUrl, stationNumber ? Number(stationNumber) : null, nextOrder],
+    sql: `INSERT INTO slideshow_images (title, description, image_url, station_number, sort_order, category_id, duration_seconds) 
+          VALUES (?, ?, ?, ?, ?, ?, ?)`,
+    args: [
+      title, description, imageUrl, 
+      stationNumber ? Number(stationNumber) : null, 
+      nextOrder,
+      categoryId ? Number(categoryId) : null,
+      durationSeconds ? Number(durationSeconds) : 5,
+    ],
   });
 
   return Response.json({
