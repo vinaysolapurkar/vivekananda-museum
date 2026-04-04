@@ -2,28 +2,45 @@
 @import "tailwindcss";
 
 @theme inline {
-  --color-deep: #0A0E27;
-  --color-deep-light: #111638;
-  --color-deep-surface: #161B3D;
-  --color-gold: #D4A34F;
-  --color-gold-light: #E8B84B;
-  --color-gold-dim: #B8893F;
-  --color-warm-white: #F5F0E8;
-  --color-muted: #8B8FA3;
-  --color-glass: rgba(255,255,255,0.04);
-  --color-glass-border: rgba(255,255,255,0.06);
-  --color-glass-hover: rgba(255,255,255,0.08);
+  /* Ramakrishna Ashram Spiritual Palette */
+  --color-saffron: #E07B2E;
+  --color-saffron-light: #F2A05D;
+  --color-saffron-deep: #C06520;
+  --color-maroon: #7B2D26;
+  --color-maroon-light: #9B3D34;
+  --color-cream: #FFF8F0;
+  --color-cream-warm: #FDF2E6;
+  --color-ivory: #FFFDF8;
+  --color-temple: #8B4513;
+  --color-lotus: #D4577B;
+  --color-gold: #C8963E;
+  --color-gold-light: #DDAA4F;
+  --color-sage: #5B7B5E;
+  --color-sage-light: #7A9E7D;
+  --color-earth: #6B5B4B;
+  --color-text-dark: #2C1810;
+  --color-text-body: #4A3728;
+  --color-text-muted: #8B7B6B;
+  --color-border: #E8D8C8;
+  --color-border-light: #F0E4D6;
+  --color-surface: #FFF8F0;
+  --color-surface-warm: #FDF2E6;
   --font-display: "Cormorant Garamond", Georgia, serif;
   --font-body: "DM Sans", system-ui, sans-serif;
   --font-kannada: "Noto Sans Kannada", sans-serif;
+
+  /* Keep old names working */
+  --color-primary: #7B2D26;
+  --color-primary-light: #9B3D34;
+  --color-accent: #5B7B5E;
+  --color-accent-light: #7A9E7D;
+  --color-text-light: #FFFDF8;
+  --color-saffron-dark: #C06520;
 }
 
 :root {
-  --color-deep: #0A0E27;
-  --color-gold: #D4A34F;
-  --color-gold-light: #E8B84B;
-  --color-warm-white: #F5F0E8;
-  --color-muted: #8B8FA3;
+  --background: #FFF8F0;
+  --foreground: #2C1810;
 }
 
 * {
@@ -31,13 +48,13 @@
 }
 
 body {
-  background: #0A0E27;
-  color: #F5F0E8;
-  font-family: "DM Sans", system-ui, sans-serif;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Cormorant Garamond", Georgia, serif;
+  font-family: var(--font-display);
 }
 
 /* Scrollbar */
@@ -47,63 +64,20 @@ h1, h2, h3, h4, h5, h6 {
 /* Touch targets */
 .touch-target { min-height: 48px; min-width: 48px; }
 
-/* Glass morphism */
-.glass {
-  background: rgba(255,255,255,0.04);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border: 1px solid rgba(255,255,255,0.06);
-}
-
-.glass-hover:hover {
-  background: rgba(255,255,255,0.08);
-  border-color: rgba(212,163,79,0.2);
-}
-
-/* Animations */
+/* Subtle animations */
 @keyframes fadeInUp {
-  from { opacity: 0; transform: translateY(24px); }
+  from { opacity: 0; transform: translateY(16px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
+@keyframes gentlePulse {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
 }
 
-@keyframes shimmer {
-  0% { background-position: -200% 0; }
-  100% { background-position: 200% 0; }
-}
-
-@keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-8px); }
-}
-
-@keyframes pulseGold {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(212,163,79,0.4); }
-  50% { box-shadow: 0 0 0 12px rgba(212,163,79,0); }
-}
-
-@keyframes starTwinkle {
-  0%, 100% { opacity: 0.2; }
-  50% { opacity: 0.8; }
-}
-
-@keyframes kenBurns {
-  0% { transform: scale(1) translate(0, 0); }
-  100% { transform: scale(1.08) translate(-1%, -1%); }
-}
-
-@keyframes progressFill {
-  from { width: 0%; }
-  to { width: 100%; }
-}
-
-@keyframes dotPulse {
-  0%, 80%, 100% { opacity: 0.3; transform: scale(0.8); }
-  40% { opacity: 1; transform: scale(1); }
+@keyframes slowSpin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 .animate-fade-in-up {
@@ -111,21 +85,39 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0;
 }
 
-.animate-fade-in {
-  animation: fadeIn 0.5s ease-out forwards;
-  opacity: 0;
+.animate-gentle-pulse {
+  animation: gentlePulse 3s ease-in-out infinite;
 }
 
-.animate-float {
-  animation: float 6s ease-in-out infinite;
+/* Spiritual card style */
+.card-spiritual {
+  background: white;
+  border: 1px solid #E8D8C8;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(139, 69, 19, 0.06);
+  transition: all 0.3s ease;
 }
 
-.animate-pulse-gold {
-  animation: pulseGold 2s ease-in-out infinite;
+.card-spiritual:hover {
+  box-shadow: 0 8px 32px rgba(139, 69, 19, 0.12);
+  border-color: #D4A05D;
 }
 
-/* Custom scrollbar for dark theme */
-::-webkit-scrollbar { width: 4px; }
-::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: rgba(212,163,79,0.2); border-radius: 2px; }
-::-webkit-scrollbar-thumb:hover { background: rgba(212,163,79,0.4); }
+/* Audio slider */
+input[type="range"].audio-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  border-radius: 3px;
+  background: #E8D8C8;
+  outline: none;
+}
+input[type="range"].audio-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #E07B2E;
+  cursor: pointer;
+}
