@@ -16,58 +16,39 @@
   --color-text-light: #FFFFFF;
   --color-text-muted: #616161;
   --color-border: #E0E0E0;
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
   --font-heading: "Playfair Display", Georgia, serif;
   --font-body: "Inter", system-ui, sans-serif;
   --font-kannada: "Noto Sans Kannada", sans-serif;
 }
 
 :root {
-  --background: #FAFAFA;
-  --foreground: #212121;
+  --color-primary: #1A237E;
+  --color-primary-light: #283593;
+  --color-primary-dark: #0D1457;
+  --color-saffron: #FF8F00;
+  --color-saffron-light: #FFA726;
+  --color-saffron-dark: #E65100;
+  --color-accent: #4CAF50;
+  --color-accent-light: #66BB6A;
+  --color-surface: #FAFAFA;
+  --color-surface-dark: #1A1A2E;
+  --color-text-dark: #212121;
+  --color-text-light: #FFFFFF;
+  --color-text-muted: #616161;
+  --color-border: #E0E0E0;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-body);
+  background: #FAFAFA;
+  color: #212121;
+  font-family: "Inter", system-ui, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-heading);
+  font-family: "Playfair Display", Georgia, serif;
 }
 
-/* Scrollbar styling for kiosk */
-.kiosk-scroll::-webkit-scrollbar {
-  display: none;
-}
-.kiosk-scroll {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
+.kiosk-scroll::-webkit-scrollbar { display: none; }
+.kiosk-scroll { -ms-overflow-style: none; scrollbar-width: none; }
 
-/* Audio player custom styling */
-input[type="range"].audio-slider {
-  -webkit-appearance: none;
-  appearance: none;
-  height: 6px;
-  border-radius: 3px;
-  background: #E0E0E0;
-  outline: none;
-}
-input[type="range"].audio-slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background: #FF8F00;
-  cursor: pointer;
-}
-
-/* PWA touch targets */
-.touch-target {
-  min-height: 48px;
-  min-width: 48px;
-}
+.touch-target { min-height: 48px; min-width: 48px; }
