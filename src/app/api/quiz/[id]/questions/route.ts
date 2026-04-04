@@ -42,7 +42,8 @@ export async function GET(
       try {
         options = JSON.parse(rawOptions);
       } catch {
-        options = [];
+        // Fallback: split by @@ delimiter
+        options = rawOptions ? rawOptions.split("@@") : [];
       }
 
       return {
@@ -57,6 +58,7 @@ export async function GET(
         quiz: {
           title: quiz.title,
           time_limit_minutes: quiz.time_limit_minutes,
+          passing_score: quiz.passing_score,
         },
         questions,
       },

@@ -35,9 +35,9 @@ export async function POST(
 
     const quiz = quizResult.rows[0];
 
-    // Fetch all questions for this quiz
+    // Fetch all questions with options for this quiz
     const questionsResult = await db.execute({
-      sql: "SELECT id, correct_answer FROM questions WHERE quiz_id = ?",
+      sql: "SELECT id, options_en, correct_answer FROM questions WHERE quiz_id = ?",
       args: [quizId],
     });
 
@@ -50,8 +50,18 @@ export async function POST(
     let score = 0;
     for (const row of questionsResult.rows) {
       const questionId = String(row.id);
-      const submittedAnswer = answers[questionId];
-      if (submittedAnswer !== undefined && submittedAnswer === row.correct_answer) {
+      const submittedIndex = answers[questionId];
+      if (submittedIndex === undefined) continue;
+      
+      // Parse options (JSON or @@ delimited)
+      let options: string[] = [];
+      const rawOptions = (row as any).options_en as string;
+      if (rawOptions) {
+        try { options = JSON.parse(rawOptions); } catch { options = rawOptions.split("@@"); }
+      }
+      
+      const selectedText = options[submittedIndex as number];
+      if (selectedText === row.correct_answer) {
         score++;
       }
     }
