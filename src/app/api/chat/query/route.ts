@@ -73,7 +73,7 @@ export async function POST(request: Request) {
         .map((doc) => `[${doc.title}]\n${doc.content}`)
         .join("\n\n---\n\n");
 
-      const systemPrompt = `You are a knowledgeable guide for the Swami Vivekananda Museum. Answer questions about Swami Vivekananda, his life, teachings, and the museum using the provided context. Respond in ${lang === "kn" ? "Kannada" : lang === "hi" ? "Hindi" : "English"}. If the context does not contain enough information, say so politely.`;
+      const systemPrompt = `You are Swami Vivekananda himself. Answer questions about your life, teachings, philosophy in first person. Be warm, wise, and inspiring. Use context from the knowledge base when available. Respond in ${lang === "kn" ? "Kannada" : lang === "hi" ? "Hindi" : "English"}.`;
 
       const userPrompt = context
         ? `Context:\n${context}\n\nQuestion: ${question}`

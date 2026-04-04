@@ -129,5 +129,40 @@ export async function initializeDatabase() {
       value TEXT NOT NULL DEFAULT '',
       updated_at TEXT NOT NULL DEFAULT (datetime('now'))
     );
+
+    CREATE TABLE IF NOT EXISTS exhibits (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      name TEXT NOT NULL,
+      description TEXT NOT NULL DEFAULT '',
+      kiosk_id INTEGER,
+      sort_order INTEGER NOT NULL DEFAULT 0,
+      is_active INTEGER NOT NULL DEFAULT 1,
+      created_at TEXT NOT NULL DEFAULT (datetime('now'))
+    );
+
+    CREATE TABLE IF NOT EXISTS exhibit_images (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      exhibit_id INTEGER NOT NULL,
+      image_url TEXT NOT NULL,
+      title TEXT NOT NULL DEFAULT '',
+      description TEXT NOT NULL DEFAULT '',
+      station_number INTEGER,
+      sort_order INTEGER NOT NULL DEFAULT 0,
+      created_at TEXT NOT NULL DEFAULT (datetime('now')),
+      FOREIGN KEY (exhibit_id) REFERENCES exhibits(id) ON DELETE CASCADE
+    );
+
+    CREATE TABLE IF NOT EXISTS travel_locations (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      name TEXT NOT NULL,
+      country TEXT NOT NULL,
+      lat REAL NOT NULL,
+      lng REAL NOT NULL,
+      year TEXT NOT NULL DEFAULT '',
+      description TEXT NOT NULL DEFAULT '',
+      phase TEXT NOT NULL DEFAULT '',
+      sort_order INTEGER NOT NULL DEFAULT 0,
+      created_at TEXT NOT NULL DEFAULT (datetime('now'))
+    );
   `);
 }

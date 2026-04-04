@@ -33,6 +33,14 @@ const modules = [
     color: "bg-primary-light",
     accent: "#3949AB",
   },
+  {
+    href: "/map",
+    title: "World Map",
+    description: "Trace Vivekananda's journey across the globe from India to the West",
+    icon: "🗺️",
+    color: "bg-saffron",
+    accent: "#FF6F00",
+  },
 ];
 
 export default function Home() {

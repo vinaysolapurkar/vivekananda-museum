@@ -41,5 +41,30 @@ export async function seedData() {
     } catch(e) {}
   }
 
+  // Seed travel locations
+  const locations = [
+    { name: "Kolkata", country: "India", lat: 22.5726, lng: 88.3639, year: "1863", description: "Birth and early life of Narendranath Datta, later known as Swami Vivekananda.", phase: "Early Life" },
+    { name: "Dakshineshwar", country: "India", lat: 22.6546, lng: 88.3577, year: "1881", description: "Met Sri Ramakrishna at Dakshineshwar Kali Temple, a turning point in his spiritual journey.", phase: "Spiritual Quest" },
+    { name: "Mysore", country: "India", lat: 12.2958, lng: 76.6394, year: "1892", description: "Visited the Maharaja of Mysore who became a patron of his mission to the West.", phase: "Wandering Monk" },
+    { name: "Chicago", country: "USA", lat: 41.8781, lng: -87.6298, year: "1893", description: "Delivered his iconic speech at the Parliament of the World's Religions, beginning with 'Sisters and Brothers of America'.", phase: "World Mission" },
+    { name: "Yokohama", country: "Japan", lat: 35.4437, lng: 139.6380, year: "1893", description: "Visited Japan on his way to the Parliament of Religions in Chicago.", phase: "World Mission" },
+    { name: "New York", country: "USA", lat: 40.7128, lng: -74.0060, year: "1894", description: "Founded the Vedanta Society of New York, spreading Vedantic philosophy in the West.", phase: "World Mission" },
+    { name: "London", country: "UK", lat: 51.5074, lng: -0.1278, year: "1895", description: "Delivered lectures on Vedanta and met prominent intellectuals including Max Müller.", phase: "World Mission" },
+    { name: "Paris", country: "France", lat: 48.8566, lng: 2.3522, year: "1900", description: "Visited Paris during his second trip to the West, attended the Congress of Religions.", phase: "Second Western Visit" },
+    { name: "Colombo", country: "Sri Lanka", lat: 6.9271, lng: 79.8612, year: "1897", description: "Triumphant return to the East, delivered lectures across Ceylon (Sri Lanka).", phase: "Return to India" },
+    { name: "Madras (Chennai)", country: "India", lat: 13.0827, lng: 80.2707, year: "1897", description: "Received a hero's welcome, delivered powerful lectures inspiring the youth of India.", phase: "Return to India" },
+    { name: "Almora", country: "India", lat: 29.5971, lng: 79.6591, year: "1898", description: "Retreated to the Himalayas for spiritual rejuvenation and meditation.", phase: "Later Years" },
+    { name: "Belur Math", country: "India", lat: 22.6320, lng: 88.3510, year: "1897", description: "Founded the Ramakrishna Mission and established Belur Math as its headquarters.", phase: "Legacy" },
+  ];
+
+  for (const loc of locations) {
+    try {
+      await db.execute({
+        sql: `INSERT OR IGNORE INTO travel_locations (name, country, lat, lng, year, description, phase, sort_order) VALUES (?, ?, ?, ?, ?, ?, ?, ?)`,
+        args: [loc.name, loc.country, loc.lat, loc.lng, loc.year, loc.description, loc.phase, locations.indexOf(loc)]
+      });
+    } catch(e) {}
+  }
+
   return { success: true };
 }
