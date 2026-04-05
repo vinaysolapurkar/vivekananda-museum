@@ -217,10 +217,13 @@ export default function AdminQuiz() {
               onChange={(e) => setEditingQ({ ...editingQ, difficulty: e.target.value })}
               className="px-3 py-2 border border-border rounded-lg focus:outline-none focus:border-primary"
             >
-              <option value="easy">Easy</option>
-              <option value="medium">Medium</option>
-              <option value="hard">Hard</option>
+              <option value="easy">Easy (Children &amp; All Ages)</option>
+              <option value="medium">Medium (All Ages)</option>
+              <option value="hard">Hard (Adults Only)</option>
             </select>
+            <p className="text-xs" style={{ color: '#8B7B6B' }}>
+              Easy = shown to children (12 &amp; under) + teens. Medium = shown to everyone. Hard = shown to adults (18+) + teens only.
+            </p>
           </div>
           <div className="flex gap-3 mt-4">
             <button onClick={saveQuestion} disabled={saving} className="px-6 py-2 bg-primary text-white rounded-lg font-medium disabled:opacity-50">
@@ -286,7 +289,13 @@ export default function AdminQuiz() {
                             {i + 1}. {ques.question_en}
                           </p>
                           <p className="text-xs text-text-muted mt-1">
-                            Difficulty: {ques.difficulty} · Answer: {String.fromCharCode(65 + ques.correct_answer)}
+                            <span className="inline-block px-1.5 py-0.5 rounded text-[10px] font-medium mr-1" style={{
+                              background: ques.difficulty === 'easy' ? '#5B7B5E20' : ques.difficulty === 'hard' ? '#C0652020' : '#C8963E20',
+                              color: ques.difficulty === 'easy' ? '#5B7B5E' : ques.difficulty === 'hard' ? '#C06520' : '#C8963E',
+                            }}>
+                              {ques.difficulty === 'easy' ? 'Children + All' : ques.difficulty === 'hard' ? 'Adults Only' : 'All Ages'}
+                            </span>
+                            Answer: {String.fromCharCode(65 + ques.correct_answer)}
                           </p>
                         </div>
                       ))}

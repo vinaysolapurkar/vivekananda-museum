@@ -19,6 +19,7 @@ export async function GET(
     const { id } = await params;
     const { searchParams } = new URL(request.url);
     const lang = getLang(searchParams);
+    const age = searchParams.get("age");
 
     const quizResult = await db.execute({
       sql: "SELECT * FROM quizzes WHERE id = ?",
@@ -31,8 +32,20 @@ export async function GET(
 
     const quiz = quizResult.rows[0];
 
+    // Filter questions by age: children (<=12) get easy+medium, teens get all, adults get medium+hard
+    let difficultyFilter = "";
+    if (age && !searchParams.get("admin")) {
+      const ageNum = Number(age);
+      if (ageNum <= 12) {
+        difficultyFilter = " AND difficulty IN ('easy', 'medium')";
+      } else if (ageNum >= 18) {
+        difficultyFilter = " AND difficulty IN ('medium', 'hard')";
+      }
+      // teens (13-17) get all questions
+    }
+
     const questionsResult = await db.execute({
-      sql: "SELECT * FROM questions WHERE quiz_id = ? ORDER BY sort_order, id",
+      sql: `SELECT * FROM questions WHERE quiz_id = ?${difficultyFilter} ORDER BY sort_order, id`,
       args: [Number(id)],
     });
 

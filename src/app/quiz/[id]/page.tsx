@@ -44,6 +44,7 @@ export default function QuizPage({
   const [timeLeft, setTimeLeft] = useState(0);
   const lastTouch = useRef(Date.now());
 
+  // Fetch quiz info on mount (without age filter, just for intro display)
   useEffect(() => {
     fetch(`/api/quiz/${id}/questions?lang=en`)
       .then((r) => r.json())
@@ -55,6 +56,17 @@ export default function QuizPage({
       .catch(() => {})
       .finally(() => setLoading(false));
   }, [id]);
+
+  // Re-fetch with age filter when quiz starts
+  const fetchQuestionsForAge = (visitorAge: string) => {
+    const ageParam = visitorAge ? `&age=${visitorAge}` : "";
+    fetch(`/api/quiz/${id}/questions?lang=en${ageParam}`)
+      .then((r) => r.json())
+      .then((data) => {
+        setQuestions(data.questions || []);
+        if (data.quiz) setTimeLeft(data.quiz.time_limit_minutes * 60);
+      });
+  };
 
   // Timer
   useEffect(() => {
@@ -103,6 +115,7 @@ export default function QuizPage({
 
   const startQuiz = () => {
     if (!name.trim()) return;
+    if (age) fetchQuestionsForAge(age);
     setPhase("quiz");
     setStarted(true);
   };
