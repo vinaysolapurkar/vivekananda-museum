@@ -88,15 +88,15 @@ export default function MapPage() {
       .pointLat("lat")
       .pointLng("lng")
       .pointColor("color")
-      .pointAltitude(0.01)
+      .pointAltitude("alt")
       .pointRadius("radius")
       .arcsData([])
       .arcColor("color")
-      .arcAltitude(0.15)
-      .arcStroke(0.5)
-      .arcDashLength(0.4)
-      .arcDashGap(0.2)
-      .arcDashAnimateTime(2000)
+      .arcAltitude(0.08)
+      .arcStroke("stroke")
+      .arcDashLength("dashLen")
+      .arcDashGap("dashGap")
+      .arcDashAnimateTime("animTime")
       .width(globeContainerRef.current.clientWidth)
       .height(globeContainerRef.current.clientHeight)
       (globeContainerRef.current);
@@ -149,24 +149,30 @@ export default function MapPage() {
     const visiblePoints = locations.slice(0, index + 1).map((l, i) => ({
       lat: l.lat,
       lng: l.lng,
-      color: i === index ? "#FFD700" : (PHASE_COLORS[l.phase] || "#D4A34F") + "AA",
-      radius: i === index ? 0.6 : 0.25,
+      color: i === index ? "#FFD700" : (PHASE_COLORS[l.phase] || "#D4A34F") + "66",
+      radius: i === index ? 0.5 : 0.15,
+      alt: i === index ? 0.02 : 0.005,
       name: l.name,
     }));
     globe.pointsData(visiblePoints);
 
-    // Update arcs: draw path up to current
-    const arcs = [];
-    for (let i = 0; i < index; i++) {
-      arcs.push({
-        startLat: locations[i].lat,
-        startLng: locations[i].lng,
-        endLat: locations[i + 1].lat,
-        endLng: locations[i + 1].lng,
-        color: [PHASE_COLORS[locations[i].phase] || "#D4A34F", PHASE_COLORS[locations[i + 1].phase] || "#D4A34F"],
-      });
+    // Only show the current flight arc (previous → current), no trail clutter
+    if (index > 0) {
+      const prev = locations[index - 1];
+      globe.arcsData([{
+        startLat: prev.lat,
+        startLng: prev.lng,
+        endLat: loc.lat,
+        endLng: loc.lng,
+        color: ["rgba(212,163,79,0.6)", PHASE_COLORS[loc.phase] || "#D4A34F"],
+        stroke: 1.2,
+        dashLen: 0.3,
+        dashGap: 0.15,
+        animTime: 1500,
+      }]);
+    } else {
+      globe.arcsData([]);
     }
-    globe.arcsData(arcs);
   }, [locations, visitedUpTo]);
 
   // Auto-play
