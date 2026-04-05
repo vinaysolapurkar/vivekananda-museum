@@ -17,23 +17,11 @@ interface TravelLocation {
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
 const PHASE_COLORS: Record<string, string> = {
-  "Formative Years": "#E8C06A",
-  "First Wanderings": "#D4A34F",
-  "Himalayas & Rajputana": "#C8963E",
-  "Gujarat Circuit": "#E07B2E",
-  "Southern India": "#9B3D34",
-  "Kanyakumari Resolve": "#dc3c3c",
-  "Preparation": "#C8A882",
-  "First Western Journey": "#7A9E7D",
-  "Parliament of Religions": "#FFD700",
-  "American Lectures": "#5B9BD5",
-  "European Mission": "#8B6FB0",
-  "Triumphal Return": "#E8C06A",
-  "Institutional Building": "#D4A34F",
-  "Kashmir & Final Years": "#7A9E7D",
-  "Second Western Journey": "#5B9BD5",
-  "Final Pilgrimages": "#C8963E",
-  "Mahasamadhi": "#dc3c3c",
+  "Early Life & Indian Wandering": "#F39C12",
+  "First Western Tour": "#3498DB",
+  "Return to India & Mission Building": "#2ECC71",
+  "Second Western Tour": "#9B59B6",
+  "Final Years & Mahasamadhi": "#E74C3C",
 };
 
 export default function MapPage() {
@@ -136,7 +124,7 @@ export default function MapPage() {
     globe.controls().autoRotate = false;
 
     // Determine zoom level based on phase
-    const isGlobal = ["First Western Journey", "Second Western Journey", "European Mission", "American Lectures", "Parliament of Religions"].includes(loc.phase);
+    const isGlobal = ["First Western Tour", "Second Western Tour"].includes(loc.phase);
     const altitude = isGlobal ? 1.8 : 0.8;
 
     // Fly to location
@@ -186,8 +174,8 @@ export default function MapPage() {
       flyTo(next);
       // Schedule next - longer pause at important locations
       const loc = locations[next];
-      const isImportant = ["Parliament of Religions", "Kanyakumari Resolve", "Mahasamadhi", "Institutional Building"].includes(loc.phase);
-      const delay = isImportant ? 8000 : 5000;
+      const isImportant = ["Final Years & Mahasamadhi"].includes(loc.phase);
+      const delay = isImportant ? 5000 : 3000;
       timerRef.current = setTimeout(() => playNext(), delay);
       return next;
     });
@@ -207,7 +195,7 @@ export default function MapPage() {
         if (next < locations.length) {
           flyTo(next);
           const loc = locations[next];
-          const isImportant = ["Parliament of Religions", "Kanyakumari Resolve", "Mahasamadhi"].includes(loc.phase);
+          const isImportant = ["Final Years & Mahasamadhi"].includes(loc.phase);
           timerRef.current = setTimeout(() => playNext(), isImportant ? 8000 : 5000);
         }
       }, 500);
@@ -388,7 +376,7 @@ export default function MapPage() {
             ▶ Begin the Journey
           </button>
           <p className="text-[10px] mt-3" style={{ color: 'rgba(155,138,114,0.4)' }}>
-            76 locations across 4 continents &middot; 1863–1902
+            433 locations across 4 continents &middot; 1863–1902
           </p>
         </div>
       )}
