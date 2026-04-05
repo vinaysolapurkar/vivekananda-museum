@@ -30,7 +30,7 @@ export default function AdminDashboard() {
   }, []);
 
   return (
-    <div className="max-w-5xl mx-auto">
+    <div className="w-full">
       <h1 className="text-2xl font-heading font-bold text-primary mb-6">Dashboard</h1>
 
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mb-8">

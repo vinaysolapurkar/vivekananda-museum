@@ -112,47 +112,50 @@ export default function QuizPage({
     return (
       <div
         className="fixed inset-0 flex flex-col items-center justify-center p-8"
-        style={{ background: '#0A0E27' }}
+        style={{ background: '#1a0f0a' }}
       >
         {/* Ambient */}
         <div className="absolute inset-0 pointer-events-none" style={{
           background: 'radial-gradient(ellipse at 50% 30%, rgba(212,163,79,0.04) 0%, transparent 60%)'
         }} />
+        {/* Vivekananda watermark */}
+        <div className="absolute inset-0 vivekananda-watermark opacity-[0.05] pointer-events-none" style={{
+          backgroundPosition: 'center center',
+          backgroundSize: 'auto 70%',
+        }} />
 
-        <div className="text-center max-w-lg relative z-10">
-          {/* Icon */}
+        <div className="text-center w-full px-8 relative z-10">
+          {/* Vivekananda portrait icon */}
           <div
-            className="w-20 h-20 rounded-2xl flex items-center justify-center mx-auto mb-8"
-            style={{ background: 'rgba(212,163,79,0.08)', border: '1px solid rgba(212,163,79,0.15)' }}
+            className="w-24 h-24 rounded-full overflow-hidden mx-auto mb-8"
+            style={{ border: '2px solid rgba(212,163,79,0.3)', boxShadow: '0 0 40px rgba(212,163,79,0.15)' }}
           >
-            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#D4A34F" strokeWidth="1.5">
-              <path d="M12 2L2 7l10 5 10-5-10-5z" /><path d="M2 17l10 5 10-5" /><path d="M2 12l10 5 10-5" />
-            </svg>
+            <img src="/images/vivekananda-portrait.jpg" alt="Swami Vivekananda" className="w-full h-full object-cover" />
           </div>
 
           <h1
             className="text-4xl font-semibold mb-3"
-            style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5F0E8' }}
+            style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5EDE0' }}
           >
             {quiz?.title || "Knowledge Quiz"}
           </h1>
-          <p className="text-base mb-10" style={{ color: '#8B8FA3' }}>
+          <p className="text-base mb-10" style={{ color: '#9B8A72' }}>
             Test your understanding of Swami Vivekananda&apos;s life and teachings.
           </p>
 
           {quiz && (
             <div className="flex gap-8 justify-center mb-10">
               <div className="text-center">
-                <div className="text-2xl font-semibold" style={{ fontFamily: '"Cormorant Garamond", serif', color: '#E8B84B' }}>{questions.length}</div>
-                <div className="text-xs mt-1" style={{ color: '#8B8FA3' }}>Questions</div>
+                <div className="text-2xl font-semibold" style={{ fontFamily: '"Cormorant Garamond", serif', color: '#E8C06A' }}>{questions.length}</div>
+                <div className="text-xs mt-1" style={{ color: '#9B8A72' }}>Questions</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-semibold" style={{ fontFamily: '"Cormorant Garamond", serif', color: '#E8B84B' }}>{quiz.time_limit_minutes}</div>
-                <div className="text-xs mt-1" style={{ color: '#8B8FA3' }}>Minutes</div>
+                <div className="text-2xl font-semibold" style={{ fontFamily: '"Cormorant Garamond", serif', color: '#E8C06A' }}>{quiz.time_limit_minutes}</div>
+                <div className="text-xs mt-1" style={{ color: '#9B8A72' }}>Minutes</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl font-semibold" style={{ fontFamily: '"Cormorant Garamond", serif', color: '#E8B84B' }}>{quiz.passing_score}%</div>
-                <div className="text-xs mt-1" style={{ color: '#8B8FA3' }}>To Pass</div>
+                <div className="text-2xl font-semibold" style={{ fontFamily: '"Cormorant Garamond", serif', color: '#E8C06A' }}>{quiz.passing_score}%</div>
+                <div className="text-xs mt-1" style={{ color: '#9B8A72' }}>To Pass</div>
               </div>
             </div>
           )}
@@ -165,12 +168,12 @@ export default function QuizPage({
               placeholder="Enter your name for the certificate"
               className="w-full px-6 py-4 rounded-xl text-center text-base focus:outline-none transition-all duration-300"
               style={{
-                background: 'rgba(255,255,255,0.04)',
-                border: '1px solid rgba(255,255,255,0.08)',
-                color: '#F5F0E8',
+                background: 'rgba(255,245,230,0.04)',
+                border: '1px solid rgba(212,163,79,0.1)',
+                color: '#F5EDE0',
               }}
               onFocus={(e) => { (e.target as HTMLElement).style.borderColor = 'rgba(212,163,79,0.4)'; }}
-              onBlur={(e) => { (e.target as HTMLElement).style.borderColor = 'rgba(255,255,255,0.08)'; }}
+              onBlur={(e) => { (e.target as HTMLElement).style.borderColor = 'rgba(212,163,79,0.1)'; }}
               onKeyDown={(e) => e.key === "Enter" && startQuiz()}
             />
             <button
@@ -179,7 +182,7 @@ export default function QuizPage({
               className="w-full py-4 rounded-xl font-medium text-base transition-all duration-300 disabled:opacity-30 active:scale-[0.98]"
               style={{
                 background: 'rgba(212,163,79,0.15)',
-                color: '#E8B84B',
+                color: '#E8C06A',
                 border: '1px solid rgba(212,163,79,0.3)',
               }}
             >
@@ -187,7 +190,7 @@ export default function QuizPage({
             </button>
           </div>
 
-          <p className="text-[10px] mt-6" style={{ color: 'rgba(139,143,163,0.4)' }}>
+          <p className="text-[10px] mt-6" style={{ color: 'rgba(155,138,114,0.4)' }}>
             Your progress is saved as you go
           </p>
         </div>
@@ -200,42 +203,39 @@ export default function QuizPage({
     return (
       <div
         className="fixed inset-0 flex flex-col items-center justify-center p-8 overflow-y-auto"
-        style={{ background: '#0A0E27' }}
+        style={{ background: '#1a0f0a' }}
       >
         <div className="absolute inset-0 pointer-events-none" style={{
           background: result.passed
             ? 'radial-gradient(ellipse at 50% 40%, rgba(212,163,79,0.06) 0%, transparent 60%)'
             : 'none'
         }} />
+        {/* Vivekananda watermark */}
+        <div className="absolute inset-0 vivekananda-watermark opacity-[0.04] pointer-events-none" style={{
+          backgroundPosition: 'center center',
+          backgroundSize: 'auto 65%',
+        }} />
 
-        <div className="text-center max-w-lg w-full relative z-10">
-          {/* Trophy/Book icon */}
+        <div className="text-center w-full px-8 relative z-10">
+          {/* Vivekananda portrait / Book icon */}
           <div
-            className="w-24 h-24 rounded-2xl flex items-center justify-center mx-auto mb-8"
+            className="w-24 h-24 rounded-full overflow-hidden mx-auto mb-8"
             style={{
-              background: result.passed ? 'rgba(212,163,79,0.1)' : 'rgba(255,255,255,0.04)',
-              border: result.passed ? '1px solid rgba(212,163,79,0.2)' : '1px solid rgba(255,255,255,0.06)',
+              border: result.passed ? '2px solid rgba(212,163,79,0.3)' : '2px solid rgba(255,255,255,0.1)',
+              boxShadow: result.passed ? '0 0 40px rgba(212,163,79,0.15)' : 'none',
             }}
           >
-            {result.passed ? (
-              <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#D4A34F" strokeWidth="1.5">
-                <path d="M6 9H4.5a2.5 2.5 0 010-5H6" /><path d="M18 9h1.5a2.5 2.5 0 000-5H18" /><path d="M4 22h16" /><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22" /><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22" /><path d="M18 2H6v7a6 6 0 1012 0V2z" />
-              </svg>
-            ) : (
-              <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="#8B8FA3" strokeWidth="1.5">
-                <path d="M4 19.5A2.5 2.5 0 016.5 17H20" /><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z" />
-              </svg>
-            )}
+            <img src="/images/vivekananda-portrait.jpg" alt="Swami Vivekananda" className="w-full h-full object-cover" style={{ opacity: result.passed ? 1 : 0.5 }} />
           </div>
 
           <h1
             className="text-3xl font-semibold mb-2"
-            style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5F0E8' }}
+            style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5EDE0' }}
           >
             {result.passed ? 'Congratulations!' : 'Good Effort!'}
           </h1>
 
-          <p className="mb-8 text-sm" style={{ color: '#8B8FA3' }}>
+          <p className="mb-8 text-sm" style={{ color: '#9B8A72' }}>
             {result.passed
               ? `${name}, you have demonstrated your knowledge of Swami Vivekananda's teachings.`
               : `Keep learning about Swami Vivekananda's wisdom. Try again!`}
@@ -245,16 +245,16 @@ export default function QuizPage({
           <div
             className="rounded-2xl p-8 mb-6"
             style={{
-              background: 'rgba(255,255,255,0.03)',
-              border: '1px solid rgba(255,255,255,0.06)',
+              background: 'rgba(255,245,230,0.03)',
+              border: '1px solid rgba(212,163,79,0.08)',
             }}
           >
-            <div className="text-5xl font-semibold mb-2" style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5F0E8' }}>
+            <div className="text-5xl font-semibold mb-2" style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5EDE0' }}>
               {result.score}/{result.total}
             </div>
             <div
               className="text-2xl font-semibold mb-4"
-              style={{ fontFamily: '"Cormorant Garamond", serif', color: result.passed ? '#D4A34F' : '#8B8FA3' }}
+              style={{ fontFamily: '"Cormorant Garamond", serif', color: result.passed ? '#D4A34F' : '#9B8A72' }}
             >
               {result.percentage}%
             </div>
@@ -263,7 +263,7 @@ export default function QuizPage({
                 <div
                   key={i}
                   className="w-3 h-3 rounded-full"
-                  style={{ background: i < result.score ? '#D4A34F' : 'rgba(255,255,255,0.06)' }}
+                  style={{ background: i < result.score ? '#D4A34F' : 'rgba(212,163,79,0.08)' }}
                 />
               ))}
             </div>
@@ -273,7 +273,7 @@ export default function QuizPage({
             <div className="space-y-3">
               <p
                 className="italic text-sm"
-                style={{ fontFamily: '"Cormorant Garamond", serif', color: '#8B8FA3' }}
+                style={{ fontFamily: '"Cormorant Garamond", serif', color: '#9B8A72' }}
               >
                 &ldquo;You have to grow from the inside out. None can teach you.&rdquo;
               </p>
@@ -282,7 +282,7 @@ export default function QuizPage({
                 className="block w-full py-4 rounded-xl font-medium text-base transition-all duration-300 active:scale-[0.98]"
                 style={{
                   background: 'rgba(212,163,79,0.15)',
-                  color: '#E8B84B',
+                  color: '#E8C06A',
                   border: '1px solid rgba(212,163,79,0.3)',
                 }}
               >
@@ -296,9 +296,9 @@ export default function QuizPage({
               onClick={() => { setPhase("quiz"); setAnswers({}); setCurrentQ(0); }}
               className="w-full py-4 rounded-xl font-medium text-base transition-all duration-300 active:scale-[0.98]"
               style={{
-                background: 'rgba(255,255,255,0.04)',
-                color: '#F5F0E8',
-                border: '1px solid rgba(255,255,255,0.08)',
+                background: 'rgba(255,245,230,0.04)',
+                color: '#F5EDE0',
+                border: '1px solid rgba(212,163,79,0.1)',
               }}
             >
               Try Again
@@ -308,7 +308,7 @@ export default function QuizPage({
           <button
             onClick={() => window.location.href = '/'}
             className="mt-4 text-sm transition-colors duration-300"
-            style={{ color: '#8B8FA3' }}
+            style={{ color: '#9B8A72' }}
           >
             &larr; Return to Home
           </button>
@@ -322,7 +322,7 @@ export default function QuizPage({
 
   if (loading) {
     return (
-      <div className="fixed inset-0 flex items-center justify-center" style={{ background: '#0A0E27' }}>
+      <div className="fixed inset-0 flex items-center justify-center" style={{ background: '#1a0f0a' }}>
         <div className="w-12 h-12 border-2 border-transparent rounded-full animate-spin" style={{ borderTopColor: '#D4A34F' }} />
       </div>
     );
@@ -331,11 +331,16 @@ export default function QuizPage({
   return (
     <div
       className="fixed inset-0 flex flex-col"
-      style={{ background: '#0A0E27' }}
+      style={{ background: '#1a0f0a' }}
     >
+      {/* Vivekananda watermark */}
+      <div className="absolute inset-0 vivekananda-watermark opacity-[0.02] pointer-events-none" style={{
+        backgroundPosition: 'right bottom',
+        backgroundSize: 'auto 50%',
+      }} />
       {/* Header */}
-      <header className="shrink-0 px-8 py-5 flex items-center justify-between">
-        <div className="text-sm" style={{ color: '#8B8FA3' }}>
+      <header className="shrink-0 px-8 py-5 flex items-center justify-between relative z-10">
+        <div className="text-sm" style={{ color: '#9B8A72' }}>
           Question {currentQ + 1} of {questions.length}
         </div>
 
@@ -351,18 +356,18 @@ export default function QuizPage({
           {formatTimer(timeLeft)}
         </div>
 
-        <div className="text-sm" style={{ color: 'rgba(139,143,163,0.5)' }}>
+        <div className="text-sm" style={{ color: 'rgba(155,138,114,0.5)' }}>
           {answeredCount} answered
         </div>
       </header>
 
       {/* Progress bar */}
-      <div className="shrink-0 h-[2px]" style={{ background: 'rgba(255,255,255,0.04)' }}>
+      <div className="shrink-0 h-[2px]" style={{ background: 'rgba(255,245,230,0.04)' }}>
         <div
           className="h-full transition-all duration-500"
           style={{
             width: `${((currentQ + 1) / questions.length) * 100}%`,
-            background: 'linear-gradient(90deg, #D4A34F, #E8B84B)',
+            background: 'linear-gradient(90deg, #D4A34F, #E8C06A)',
           }}
         />
       </div>
@@ -379,12 +384,12 @@ export default function QuizPage({
                 ? 'rgba(212,163,79,0.2)'
                 : answers[questions[i].id] !== undefined
                   ? 'rgba(212,163,79,0.1)'
-                  : 'rgba(255,255,255,0.04)',
+                  : 'rgba(255,245,230,0.04)',
               color: i === currentQ
-                ? '#E8B84B'
+                ? '#E8C06A'
                 : answers[questions[i].id] !== undefined
                   ? '#D4A34F'
-                  : 'rgba(139,143,163,0.5)',
+                  : 'rgba(155,138,114,0.5)',
               border: i === currentQ
                 ? '1px solid rgba(212,163,79,0.4)'
                 : '1px solid transparent',
@@ -396,17 +401,17 @@ export default function QuizPage({
       </div>
 
       {/* Question */}
-      <main className="flex-1 overflow-y-auto px-8 py-6 max-w-3xl mx-auto w-full">
+      <main className="flex-1 overflow-y-auto px-8 py-6 w-full">
         <div
           className="rounded-2xl p-8 mb-6"
           style={{
-            background: 'rgba(255,255,255,0.03)',
-            border: '1px solid rgba(255,255,255,0.06)',
+            background: 'rgba(255,245,230,0.03)',
+            border: '1px solid rgba(212,163,79,0.08)',
           }}
         >
           <h2
             className="text-2xl md:text-3xl font-semibold leading-relaxed"
-            style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5F0E8', lineHeight: '1.5' }}
+            style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5EDE0', lineHeight: '1.5' }}
           >
             {q?.question}
           </h2>
@@ -426,17 +431,17 @@ export default function QuizPage({
               }}
               className="w-full text-left px-6 py-5 rounded-xl transition-all duration-300 font-medium text-base"
               style={{
-                background: answers[q.id] === i ? 'rgba(212,163,79,0.1)' : 'rgba(255,255,255,0.02)',
-                border: answers[q.id] === i ? '1px solid rgba(212,163,79,0.3)' : '1px solid rgba(255,255,255,0.06)',
-                color: answers[q.id] === i ? '#F5F0E8' : 'rgba(245,240,232,0.7)',
+                background: answers[q.id] === i ? 'rgba(212,163,79,0.1)' : 'rgba(255,245,230,0.03)',
+                border: answers[q.id] === i ? '1px solid rgba(212,163,79,0.3)' : '1px solid rgba(212,163,79,0.08)',
+                color: answers[q.id] === i ? '#F5EDE0' : 'rgba(217,203,186,0.8)',
               }}
             >
               <span
                 className="inline-flex items-center justify-center w-9 h-9 rounded-full mr-4 text-sm font-medium shrink-0"
                 style={{
-                  background: answers[q.id] === i ? 'rgba(212,163,79,0.2)' : 'rgba(255,255,255,0.05)',
-                  color: answers[q.id] === i ? '#E8B84B' : '#8B8FA3',
-                  border: answers[q.id] === i ? '1px solid rgba(212,163,79,0.3)' : '1px solid rgba(255,255,255,0.06)',
+                  background: answers[q.id] === i ? 'rgba(212,163,79,0.2)' : 'rgba(255,245,230,0.05)',
+                  color: answers[q.id] === i ? '#E8C06A' : '#9B8A72',
+                  border: answers[q.id] === i ? '1px solid rgba(212,163,79,0.3)' : '1px solid rgba(212,163,79,0.08)',
                 }}
               >
                 {String.fromCharCode(65 + i)}
@@ -453,7 +458,7 @@ export default function QuizPage({
           onClick={() => setCurrentQ(Math.max(0, currentQ - 1))}
           disabled={currentQ === 0}
           className="px-6 py-4 rounded-xl font-medium disabled:opacity-20 transition-all duration-300"
-          style={{ background: 'rgba(255,255,255,0.03)', color: '#8B8FA3', border: '1px solid rgba(255,255,255,0.06)' }}
+          style={{ background: 'rgba(255,245,230,0.03)', color: '#9B8A72', border: '1px solid rgba(212,163,79,0.08)' }}
         >
           &larr; Previous
         </button>
@@ -464,7 +469,7 @@ export default function QuizPage({
             className="flex-1 py-4 rounded-xl font-medium text-base transition-all duration-300 active:scale-[0.98]"
             style={{
               background: 'rgba(212,163,79,0.12)',
-              color: '#E8B84B',
+              color: '#E8C06A',
               border: '1px solid rgba(212,163,79,0.25)',
             }}
           >
@@ -476,9 +481,9 @@ export default function QuizPage({
             disabled={submitting || answeredCount < questions.length}
             className="flex-1 py-4 rounded-xl font-medium text-base transition-all duration-300 disabled:opacity-30 active:scale-[0.98]"
             style={{
-              background: answeredCount === questions.length ? 'rgba(212,163,79,0.15)' : 'rgba(255,255,255,0.04)',
-              color: answeredCount === questions.length ? '#E8B84B' : '#8B8FA3',
-              border: answeredCount === questions.length ? '1px solid rgba(212,163,79,0.3)' : '1px solid rgba(255,255,255,0.06)',
+              background: answeredCount === questions.length ? 'rgba(212,163,79,0.15)' : 'rgba(255,245,230,0.04)',
+              color: answeredCount === questions.length ? '#E8C06A' : '#9B8A72',
+              border: answeredCount === questions.length ? '1px solid rgba(212,163,79,0.3)' : '1px solid rgba(212,163,79,0.08)',
             }}
           >
             {submitting ? "Submitting..." : `Submit Quiz (${answeredCount}/${questions.length})`}

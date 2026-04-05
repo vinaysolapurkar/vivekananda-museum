@@ -19,6 +19,7 @@ interface SlideImage {
   station_number: number | null;
   duration_seconds: number;
   category_id: number | null;
+  crop_bottom: number;
 }
 
 const inputStyle: React.CSSProperties = {
@@ -114,6 +115,7 @@ export default function AdminSlideshow() {
         title: editing.title, description: editing.description,
         station_number: editing.station_number, sort_order: editing.sort_order,
         duration_seconds: editing.duration_seconds,
+        crop_bottom: editing.crop_bottom,
       }),
     });
     setEditing(null); setMsg("Saved!");
@@ -141,7 +143,7 @@ export default function AdminSlideshow() {
   };
 
   return (
-    <div className="max-w-5xl mx-auto">
+    <div className="w-full">
       <div className="flex items-center justify-between mb-6">
         <div>
           <h1 className="text-2xl font-bold" style={{ fontFamily: 'Cormorant Garamond, serif', color: '#2C1810' }}>
@@ -270,6 +272,14 @@ export default function AdminSlideshow() {
                       <textarea rows={2} placeholder="Description" value={editing.description}
                         onChange={(e) => setEditing({ ...editing, description: e.target.value })} style={{ ...inputStyle, resize: 'vertical' as const }} />
                     </div>
+                    <div className="md:col-span-3 flex items-center gap-3">
+                      <label className="flex items-center gap-2 cursor-pointer select-none">
+                        <input type="checkbox" checked={editing.crop_bottom === 1}
+                          onChange={(e) => setEditing({ ...editing, crop_bottom: e.target.checked ? 1 : 0 })}
+                          className="w-4 h-4 rounded" />
+                        <span className="text-sm" style={{ color: '#2C1810' }}>Crop bottom watermark (NotebookLM)</span>
+                      </label>
+                    </div>
                   </div>
                   <div className="flex gap-2 mt-3">
                     <button onClick={saveImage} className="px-5 py-2 rounded-lg text-sm font-medium" style={{ background: '#7B2D26', color: 'white' }}>Save</button>
@@ -308,6 +318,7 @@ export default function AdminSlideshow() {
                         <p className="font-medium text-sm truncate" style={{ color: '#2C1810' }}>{img.title || "Untitled"}</p>
                         <div className="flex gap-3 text-xs mt-0.5" style={{ color: '#8B7B6B' }}>
                           <span>{img.duration_seconds || 5}s display</span>
+                          {img.crop_bottom === 1 && <span style={{ color: '#7B2D26' }}>Cropped</span>}
                           {img.station_number && <span style={{ color: '#C8963E' }}>Station {img.station_number}</span>}
                         </div>
                       </div>

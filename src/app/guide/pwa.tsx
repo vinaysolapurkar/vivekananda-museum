@@ -98,8 +98,12 @@ export function InstallBanner() {
   const handleInstall = async () => {
     if (!deferredPrompt) return;
     deferredPrompt.prompt();
-    const { outcome } = await (deferredPrompt as any).userChoice;
-    if (outcome === "accepted") setShow(false);
+    try {
+      const choiceResult = await (deferredPrompt as any).userChoice;
+      if (choiceResult?.outcome === "accepted") setShow(false);
+    } catch {
+      setShow(false);
+    }
   };
 
   return (

@@ -89,7 +89,7 @@ export default function AdminKnowledge() {
   };
 
   return (
-    <div className="max-w-4xl mx-auto">
+    <div className="w-full">
       <div className="flex items-center justify-between mb-6">
         <div>
           <h1 className="text-2xl font-bold" style={{ fontFamily: 'Cormorant Garamond, serif', color: '#2C1810' }}>

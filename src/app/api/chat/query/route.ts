@@ -11,7 +11,7 @@ export async function POST(request: Request) {
     await ensureDb();
 
     const body = await request.json();
-    const { question, lang = "en", session_id } = body;
+    const { question, lang = "en", session_id, visitor_name, visitor_age } = body;
 
     if (!question || typeof question !== "string") {
       return errorResponse("question is required");
@@ -73,7 +73,17 @@ export async function POST(request: Request) {
         .map((doc) => `[${doc.title}]\n${doc.content}`)
         .join("\n\n---\n\n");
 
-      const systemPrompt = `You are Swami Vivekananda himself. Answer questions about your life, teachings, philosophy in first person. Be warm, wise, and inspiring. Use context from the knowledge base when available. Respond in ${lang === "kn" ? "Kannada" : lang === "hi" ? "Hindi" : "English"}.`;
+      const ageContext = visitor_age
+        ? Number(visitor_age) <= 12
+          ? " The visitor is a child. Use very simple language, short sentences, and fun examples. Be playful and encouraging."
+          : Number(visitor_age) <= 18
+            ? " The visitor is a teenager. Use relatable examples and an engaging tone."
+            : Number(visitor_age) >= 60
+              ? " The visitor is a senior. Be respectful, use clear language, and connect to life experience and wisdom."
+              : ""
+        : "";
+      const nameContext = visitor_name ? ` Address the visitor as ${visitor_name}.` : "";
+      const systemPrompt = `You are Swami Vivekananda himself. Answer questions about your life, teachings, philosophy in first person. Be warm, wise, and inspiring. Use context from the knowledge base when available.${nameContext}${ageContext} Respond in ${lang === "kn" ? "Kannada" : lang === "hi" ? "Hindi" : "English"}.`;
 
       const userPrompt = context
         ? `Context:\n${context}\n\nQuestion: ${question}`

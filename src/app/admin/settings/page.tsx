@@ -65,7 +65,7 @@ export default function AdminSettings() {
   }
 
   return (
-    <div className="max-w-2xl mx-auto">
+    <div className="w-full">
       <h1 className="text-2xl font-heading font-bold text-primary mb-6">Settings</h1>
 
       {msg && (

@@ -162,10 +162,10 @@ export default function KioskDisplayPage({
 
   if (loading) {
     return (
-      <div className="fixed inset-0 flex items-center justify-center" style={{ background: "#0A0E27" }}>
+      <div className="fixed inset-0 flex items-center justify-center" style={{ background: "#1a0f0a" }}>
         <div className="text-center">
           <div className="w-12 h-12 border-2 border-transparent rounded-full animate-spin mb-6 mx-auto" style={{ borderTopColor: '#D4A34F' }} />
-          <p className="text-sm font-light" style={{ color: '#8B8FA3' }}>Loading exhibit...</p>
+          <p className="text-sm font-light" style={{ color: '#9B8A72' }}>Loading exhibit...</p>
         </div>
       </div>
     );
@@ -173,18 +173,18 @@ export default function KioskDisplayPage({
 
   if (error || totalItems === 0) {
     return (
-      <div className="fixed inset-0 flex items-center justify-center" style={{ background: "#0A0E27" }}>
+      <div className="fixed inset-0 flex items-center justify-center" style={{ background: "#1a0f0a" }}>
         <div className="text-center px-8">
-          <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#8B8FA3" strokeWidth="1" className="mx-auto mb-6">
+          <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#9B8A72" strokeWidth="1" className="mx-auto mb-6">
             <rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/>
           </svg>
           <h2
             className="text-3xl font-semibold mb-3"
-            style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5F0E8' }}
+            style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5EDE0' }}
           >
             Content Coming Soon
           </h2>
-          <p className="text-base" style={{ color: '#8B8FA3' }}>This exhibit is being prepared.</p>
+          <p className="text-base" style={{ color: '#9B8A72' }}>This exhibit is being prepared.</p>
         </div>
       </div>
     );
@@ -199,7 +199,7 @@ export default function KioskDisplayPage({
       <div
         ref={containerRef}
         className="fixed inset-0 overflow-hidden select-none cursor-none"
-        style={{ background: "#050811" }}
+        style={{ background: "#0f0806" }}
         onClick={goNext}
       >
         {/* Full-screen image with Ken Burns */}
@@ -219,16 +219,16 @@ export default function KioskDisplayPage({
         {/* Top gradient */}
         <div
           className="absolute top-0 left-0 right-0 h-32"
-          style={{ background: "linear-gradient(to bottom, rgba(5,8,17,0.8), transparent)" }}
+          style={{ background: "linear-gradient(to bottom, rgba(15,8,6,0.8), transparent)" }}
         />
 
         {/* Progress line at top */}
-        <div className="absolute top-0 left-0 right-0 h-[2px] z-30" style={{ background: 'rgba(255,255,255,0.06)' }}>
+        <div className="absolute top-0 left-0 right-0 h-[2px] z-30" style={{ background: 'rgba(212,163,79,0.08)' }}>
           <div
             className="h-full transition-all duration-1000 ease-linear"
             style={{
               width: `${progress}%`,
-              background: 'linear-gradient(90deg, #D4A34F, #E8B84B)',
+              background: 'linear-gradient(90deg, #D4A34F, #E8C06A)',
             }}
           />
         </div>
@@ -238,15 +238,15 @@ export default function KioskDisplayPage({
           <div>
             <h1
               className="text-xl font-semibold"
-              style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5F0E8' }}
+              style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5EDE0' }}
             >
               {exhibit?.name}
             </h1>
-            {img.title && <p className="text-sm mt-1" style={{ color: '#8B8FA3' }}>{img.title}</p>}
+            {img.title && <p className="text-sm mt-1" style={{ color: '#9B8A72' }}>{img.title}</p>}
           </div>
 
           {/* Slide counter */}
-          <span className="text-sm font-light" style={{ color: 'rgba(139,143,163,0.6)' }}>
+          <span className="text-sm font-light" style={{ color: 'rgba(155,138,114,0.5)' }}>
             {current + 1} / {totalItems}
           </span>
         </div>
@@ -255,7 +255,7 @@ export default function KioskDisplayPage({
         {(img.description || img.station_number) && (
           <div
             className="absolute bottom-0 left-0 right-0 z-20"
-            style={{ background: "linear-gradient(to top, rgba(5,8,17,0.9), transparent)" }}
+            style={{ background: "linear-gradient(to top, rgba(15,8,6,0.9), transparent)" }}
           >
             <div className="px-8 pb-8 pt-16">
               {img.station_number && (
@@ -267,7 +267,7 @@ export default function KioskDisplayPage({
                 </span>
               )}
               {img.description && (
-                <p className="text-base max-w-3xl leading-relaxed" style={{ color: 'rgba(245,240,232,0.8)' }}>
+                <p className="text-base leading-relaxed" style={{ color: 'rgba(217,203,186,0.85)' }}>
                   {img.description}
                 </p>
               )}
@@ -284,12 +284,12 @@ export default function KioskDisplayPage({
     <div
       ref={containerRef}
       className="fixed inset-0 overflow-hidden select-none cursor-none"
-      style={{ background: "#0A0E27" }}
+      style={{ background: "#1a0f0a" }}
       onClick={goNext}
     >
       {/* Ambient */}
       <div className="absolute inset-0" style={{
-        background: 'radial-gradient(ellipse at center, rgba(22,27,61,0.5) 0%, rgba(10,14,39,1) 70%)'
+        background: 'radial-gradient(ellipse at center, rgba(42,24,16,0.5) 0%, rgba(26,15,10,1) 70%)'
       }} />
 
       {/* Progress line at top */}
@@ -298,21 +298,21 @@ export default function KioskDisplayPage({
           className="h-full transition-all duration-1000 ease-linear"
           style={{
             width: `${progress}%`,
-            background: 'linear-gradient(90deg, #D4A34F, #E8B84B)',
+            background: 'linear-gradient(90deg, #D4A34F, #E8C06A)',
           }}
         />
       </div>
 
       <div className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-8 py-5">
         <div className="flex items-center gap-3">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#8B8FA3" strokeWidth="1.5">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#9B8A72" strokeWidth="1.5">
             <rect x="2" y="3" width="20" height="14" rx="2" /><line x1="8" y1="21" x2="16" y2="21" /><line x1="12" y1="17" x2="12" y2="21" />
           </svg>
-          <span className="text-sm font-light" style={{ color: '#8B8FA3' }}>
+          <span className="text-sm font-light" style={{ color: '#9B8A72' }}>
             Exhibit Display
           </span>
         </div>
-        <span className="text-sm font-light" style={{ color: 'rgba(139,143,163,0.6)' }}>
+        <span className="text-sm font-light" style={{ color: 'rgba(155,138,114,0.5)' }}>
           {current + 1} / {slides.length}
         </span>
       </div>
@@ -328,14 +328,14 @@ export default function KioskDisplayPage({
             />
           </div>
         )}
-        <div className="text-center max-w-4xl">
+        <div className="text-center w-full">
           <h1
             className="text-4xl md:text-6xl font-semibold mb-6 leading-tight"
-            style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5F0E8' }}
+            style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5EDE0' }}
           >
             {slide.title}
           </h1>
-          <div className="text-lg md:text-xl max-w-3xl mx-auto" style={{ color: 'rgba(245,240,232,0.7)', lineHeight: '1.8' }}>
+          <div className="text-lg md:text-xl w-full" style={{ color: 'rgba(217,203,186,0.8)', lineHeight: '1.8' }}>
             {slide.content.split("\n").map((para, i) => (
               <p key={i} className="mb-4">{para}</p>
             ))}
@@ -344,7 +344,7 @@ export default function KioskDisplayPage({
       </div>
 
       {/* Bottom hint */}
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex items-center gap-2 text-xs" style={{ color: 'rgba(139,143,163,0.25)' }}>
+      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex items-center gap-2 text-xs" style={{ color: 'rgba(155,138,114,0.25)' }}>
         <span>&larr; Swipe or press &rarr; to continue</span>
       </div>
 

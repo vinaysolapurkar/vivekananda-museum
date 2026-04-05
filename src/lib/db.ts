@@ -152,6 +152,31 @@ export async function initializeDatabase() {
       FOREIGN KEY (exhibit_id) REFERENCES exhibits(id) ON DELETE CASCADE
     );
 
+    CREATE TABLE IF NOT EXISTS slideshow_categories (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      name TEXT NOT NULL,
+      description TEXT NOT NULL DEFAULT '',
+      sort_order INTEGER NOT NULL DEFAULT 0,
+      is_active INTEGER NOT NULL DEFAULT 1,
+      cover_image_url TEXT NOT NULL DEFAULT '',
+      created_at TEXT NOT NULL DEFAULT (datetime('now'))
+    );
+
+    CREATE TABLE IF NOT EXISTS slideshow_images (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      title TEXT NOT NULL DEFAULT '',
+      description TEXT NOT NULL DEFAULT '',
+      image_url TEXT NOT NULL,
+      category_id INTEGER,
+      station_number INTEGER,
+      sort_order INTEGER NOT NULL DEFAULT 0,
+      duration_seconds INTEGER NOT NULL DEFAULT 5,
+      crop_bottom INTEGER NOT NULL DEFAULT 1,
+      is_active INTEGER NOT NULL DEFAULT 1,
+      created_at TEXT NOT NULL DEFAULT (datetime('now')),
+      FOREIGN KEY (category_id) REFERENCES slideshow_categories(id) ON DELETE CASCADE
+    );
+
     CREATE TABLE IF NOT EXISTS travel_locations (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
       name TEXT NOT NULL,
@@ -165,4 +190,11 @@ export async function initializeDatabase() {
       created_at TEXT NOT NULL DEFAULT (datetime('now'))
     );
   `);
+
+  // Add crop_bottom column if missing (migration for existing DBs)
+  try {
+    await db.execute({ sql: "ALTER TABLE slideshow_images ADD COLUMN crop_bottom INTEGER NOT NULL DEFAULT 1", args: [] });
+  } catch {
+    // Column already exists — ignore
+  }
 }

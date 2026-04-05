@@ -142,7 +142,7 @@ export default function MapPage() {
 
       // Tooltip
       marker.bindTooltip(
-        `<span style="font-family:Cormorant Garamond,serif;font-size:13px;font-weight:600;color:#F5F0E8">${loc.name}</span><br/><span style="font-size:10px;color:#D4A34F">${loc.year}</span>`,
+        `<span style="font-family:Cormorant Garamond,serif;font-size:13px;font-weight:600;color:#F5EDE0">${loc.name}</span><br/><span style="font-size:10px;color:#D4A34F">${loc.year}</span>`,
         {
           permanent: false,
           direction: "top",
@@ -180,31 +180,31 @@ export default function MapPage() {
 
   if (loading || !mapReady) {
     return (
-      <div className="fixed inset-0 flex items-center justify-center" style={{ background: "#0A0E27" }}>
+      <div className="fixed inset-0 flex items-center justify-center" style={{ background: "#1a0f0a" }}>
         <div className="text-center">
           <div className="w-12 h-12 border-2 border-transparent rounded-full animate-spin mb-6 mx-auto" style={{ borderTopColor: '#D4A34F' }} />
-          <p className="text-sm" style={{ color: '#8B8FA3' }}>Loading world map...</p>
+          <p className="text-sm" style={{ color: '#9B8A72' }}>Loading world map...</p>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="fixed inset-0 overflow-hidden" style={{ background: "#0A0E27" }}>
+    <div className="fixed inset-0 overflow-hidden" style={{ background: "#1a0f0a" }}>
       {/* Custom tooltip styles */}
       <style>{`
         .leaflet-dark-tooltip {
-          background: rgba(10,14,39,0.95) !important;
+          background: rgba(26,15,10,0.95) !important;
           border: 1px solid rgba(212,163,79,0.2) !important;
           border-radius: 8px !important;
           padding: 6px 10px !important;
           box-shadow: 0 4px 20px rgba(0,0,0,0.4) !important;
         }
         .leaflet-dark-tooltip::before {
-          border-top-color: rgba(10,14,39,0.95) !important;
+          border-top-color: rgba(26,15,10,0.95) !important;
         }
         .leaflet-container {
-          background: #0A0E27 !important;
+          background: #1a0f0a !important;
         }
       `}</style>
 
@@ -212,11 +212,11 @@ export default function MapPage() {
       <div className="absolute top-0 left-0 right-0 z-[1000] px-8 py-5">
         <h1
           className="text-2xl md:text-3xl font-semibold"
-          style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5F0E8' }}
+          style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5EDE0' }}
         >
           Vivekananda&apos;s World Travels
         </h1>
-        <p className="text-sm mt-1" style={{ color: '#8B8FA3' }}>
+        <p className="text-sm mt-1" style={{ color: '#9B8A72' }}>
           Journey of a Wandering Monk (1863&ndash;1902)
         </p>
       </div>
@@ -227,7 +227,7 @@ export default function MapPage() {
       {/* Info panel */}
       {selected && (
         <div
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 z-[1000] max-w-lg w-[calc(100%-2rem)]"
+          className="absolute bottom-8 left-1/2 -translate-x-1/2 z-[1000] w-[calc(100%-2rem)]"
           onClick={() => {
             setSelected(null);
             autoRotateRef.current = true;
@@ -236,7 +236,7 @@ export default function MapPage() {
           <div
             className="rounded-2xl p-6"
             style={{
-              background: 'rgba(10,14,39,0.92)',
+              background: 'rgba(26,15,10,0.92)',
               backdropFilter: 'blur(20px)',
               border: '1px solid rgba(212,163,79,0.15)',
               boxShadow: '0 8px 40px rgba(0,0,0,0.4)',
@@ -253,12 +253,12 @@ export default function MapPage() {
             </div>
             <h2
               className="text-2xl font-semibold mb-1"
-              style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5F0E8' }}
+              style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5EDE0' }}
             >
               {selected.name}
             </h2>
-            <p className="text-sm mb-3" style={{ color: '#8B8FA3' }}>{selected.country}</p>
-            <p className="leading-relaxed text-sm" style={{ color: 'rgba(245,240,232,0.75)' }}>{selected.description}</p>
+            <p className="text-sm mb-3" style={{ color: '#9B8A72' }}>{selected.country}</p>
+            <p className="leading-relaxed text-sm" style={{ color: 'rgba(217,203,186,0.8)' }}>{selected.description}</p>
           </div>
         </div>
       )}

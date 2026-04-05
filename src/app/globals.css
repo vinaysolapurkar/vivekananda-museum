@@ -39,8 +39,8 @@
 }
 
 :root {
-  --background: #FFF8F0;
-  --foreground: #2C1810;
+  --background: #1a0f0a;
+  --foreground: #F5EDE0;
 }
 
 * {
@@ -63,6 +63,15 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Touch targets */
 .touch-target { min-height: 48px; min-width: 48px; }
+
+/* Vivekananda watermark */
+.vivekananda-watermark {
+  background-image: url('/images/vivekananda-portrait.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  pointer-events: none;
+}
 
 /* Subtle animations */
 @keyframes fadeInUp {
