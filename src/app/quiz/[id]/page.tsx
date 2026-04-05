@@ -38,6 +38,7 @@ export default function QuizPage({
   const [currentQ, setCurrentQ] = useState(0);
   const [answers, setAnswers] = useState<Record<number, number>>({});
   const [name, setName] = useState("");
+  const [age, setAge] = useState("");
   const [result, setResult] = useState<Result | null>(null);
   const [submitting, setSubmitting] = useState(false);
   const [timeLeft, setTimeLeft] = useState(0);
@@ -167,6 +168,21 @@ export default function QuizPage({
               value={name}
               onChange={(e) => setName(e.target.value)}
               placeholder="Enter your name for the certificate"
+              className="w-full px-6 py-4 rounded-xl text-center text-base focus:outline-none transition-all duration-300"
+              style={{
+                background: 'rgba(255,245,230,0.04)',
+                border: '1px solid rgba(212,163,79,0.1)',
+                color: '#F5EDE0',
+              }}
+              onFocus={(e) => { (e.target as HTMLElement).style.borderColor = 'rgba(212,163,79,0.4)'; }}
+              onBlur={(e) => { (e.target as HTMLElement).style.borderColor = 'rgba(212,163,79,0.1)'; }}
+              onKeyDown={(e) => e.key === "Enter" && startQuiz()}
+            />
+            <input
+              type="number"
+              value={age}
+              onChange={(e) => setAge(e.target.value)}
+              placeholder="Your age (optional)"
               className="w-full px-6 py-4 rounded-xl text-center text-base focus:outline-none transition-all duration-300"
               style={{
                 background: 'rgba(255,245,230,0.04)',
