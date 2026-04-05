@@ -64,8 +64,10 @@ export default function Home() {
         }} />
 
         <div className="relative w-full px-6">
-          {/* Om */}
-          <div className="text-4xl mb-3 opacity-50" style={{ color: '#D4A34F' }}>ॐ</div>
+          {/* Logo */}
+          <div className="mb-4">
+            <img src="/images/logo.png" alt="Ramakrishna Math" className="w-24 h-24 mx-auto object-contain" style={{ filter: 'drop-shadow(0 2px 8px rgba(0,0,0,0.3))' }} />
+          </div>
 
           {/* Decorative line */}
           <div className="flex items-center justify-center gap-3 mb-5">
@@ -84,7 +86,7 @@ export default function Home() {
             fontFamily: 'Cormorant Garamond, serif', color: '#F5EDE0', fontWeight: 300, letterSpacing: '0.02em',
             textShadow: '0 2px 20px rgba(0,0,0,0.4)',
           }}>
-            Vivekananda Smriti
+            Viveka Smaraka
           </h1>
 
           <p className="text-base leading-relaxed" style={{

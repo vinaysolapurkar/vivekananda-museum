@@ -132,7 +132,7 @@ export default function KioskSlideshowPage() {
     );
   }
 
-  // Category selection screen
+  // ─── CATEGORY SELECTION ───
   if (!selectedCat) {
     return (
       <div className="fixed inset-0 overflow-auto" style={{
@@ -154,12 +154,12 @@ export default function KioskSlideshowPage() {
           background: 'linear-gradient(170deg, #3a1a12 0%, #2a1810 100%)',
         }}>
           <div className="relative z-10">
-            <div className="text-3xl mb-2 opacity-50" style={{ color: '#D4A34F' }}>ॐ</div>
+            <img src="/images/logo.png" alt="Ramakrishna Math" className="w-20 h-20 mx-auto mb-2 object-contain" style={{ filter: 'drop-shadow(0 2px 8px rgba(0,0,0,0.3))' }} />
             <h1 className="text-4xl font-light mb-2" style={{
               fontFamily: 'Cormorant Garamond, serif', color: '#F5EDE0',
               textShadow: '0 2px 16px rgba(0,0,0,0.4)',
             }}>
-              Vivekananda Smriti
+              Viveka Smaraka
             </h1>
             <p className="text-sm" style={{ color: '#9B8A72' }}>
               Select a topic to explore
@@ -214,69 +214,85 @@ export default function KioskSlideshowPage() {
     );
   }
 
-  // Slideshow view
+  // ─── SLIDESHOW VIEW ───
   const slide = images[current];
+  const progress = images.length > 0 ? ((current + 1) / images.length) * 100 : 0;
 
   return (
-    <div ref={containerRef} className="fixed inset-0 overflow-hidden select-none" style={{ background: '#0f0806' }}
-      onClick={goNext}>
-      <div className="absolute inset-0 transition-opacity duration-500 flex items-center justify-center" style={{ opacity: transitioning ? 0 : 1 }}>
+    <div
+      ref={containerRef}
+      className="fixed inset-0 overflow-hidden select-none"
+      style={{ background: '#0f0806' }}
+    >
+      {/* ── Slide image: exact viewport fit, no overflow ── */}
+      <div
+        className="transition-opacity duration-500"
+        style={{ opacity: transitioning ? 0 : 1 }}
+      >
         {slide?.image_url && (
-          slide.crop_bottom ? (
-            <div className="w-full h-full overflow-hidden">
-              <img
-                src={slide.image_url}
-                alt={slide.title}
-                className="w-full object-cover object-top"
-                style={{ height: '106%' }}
-              />
-            </div>
-          ) : (
-            <img src={slide.image_url} alt={slide.title} className="w-full h-full object-contain" />
-          )
+          <img
+            src={slide.image_url}
+            alt={slide.title}
+            style={{
+              display: 'block',
+              width: '100vw',
+              height: '100vh',
+              objectFit: 'contain',
+              objectPosition: 'center center',
+            }}
+          />
         )}
       </div>
 
-      <div className="absolute inset-x-0 bottom-0 h-40" style={{ background: 'linear-gradient(to top, rgba(15,8,6,0.8), transparent)' }} />
-
-      {(slide?.title || slide?.description) && (
-        <div className="absolute bottom-16 left-8 right-8 transition-opacity duration-500" style={{ opacity: transitioning ? 0 : 1 }}>
-          {slide.title && (
-            <h2 className="text-2xl font-bold mb-1" style={{ fontFamily: 'Cormorant Garamond, serif', color: '#F5EDE0', textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}>
-              {slide.title}
-            </h2>
-          )}
-          {slide.description && <p className="text-sm" style={{ color: 'rgba(217,203,186,0.7)' }}>{slide.description}</p>}
-        </div>
-      )}
-
-      {slide?.station_number && (
-        <div className="absolute top-6 left-6 px-3 py-1.5 rounded-full text-xs font-bold"
-          style={{ background: 'rgba(212,163,79,0.8)', color: '#1a0f0a' }}>
-          Station {slide.station_number}
-        </div>
-      )}
-
-      <div className="absolute top-6 right-6 px-3 py-1.5 rounded-full text-xs"
-        style={{ background: 'rgba(26,15,10,0.6)', color: '#C8A882', border: '1px solid rgba(212,163,79,0.15)' }}>
-        {selectedCat.name}
+      {/* ── Top: thin progress bar ── */}
+      <div className="absolute top-0 left-0 right-0 h-[3px] z-20" style={{ background: 'rgba(212,163,79,0.08)' }}>
+        <div
+          className="h-full transition-all duration-700 ease-linear"
+          style={{
+            width: `${progress}%`,
+            background: 'linear-gradient(90deg, #C8963E, #E8C06A)',
+          }}
+        />
       </div>
 
-      <div className="absolute top-0 left-0 right-0 h-1" style={{ background: 'rgba(212,163,79,0.1)' }}>
-        <div className="h-full transition-all duration-500"
-          style={{ width: `${((current + 1) / images.length) * 100}%`, background: 'linear-gradient(90deg, #C8963E, #E8C06A)' }} />
+      {/* ── Top-right: category + counter pill ── */}
+      <div className="absolute top-3 right-3 z-20 flex items-center gap-2">
+        <span
+          className="px-3 py-1 rounded-full text-[11px] font-medium"
+          style={{
+            background: 'rgba(15,8,6,0.7)',
+            color: '#C8A882',
+            backdropFilter: 'blur(8px)',
+            border: '1px solid rgba(212,163,79,0.1)',
+          }}
+        >
+          {selectedCat.name} &middot; {current + 1}/{images.length}
+        </span>
       </div>
 
-      <div className="absolute bottom-5 left-1/2 -translate-x-1/2 flex gap-1.5">
-        {images.map((_, i) => (
-          <div key={i} className="h-1 rounded-full transition-all duration-300"
-            style={{ width: i === current ? '20px' : '5px', background: i === current ? '#D4A34F' : 'rgba(212,163,79,0.2)' }} />
-        ))}
-      </div>
+      {/* ── Left/right tap zones for navigation (invisible) ── */}
+      <div
+        className="absolute top-0 left-0 bottom-0 w-1/3 z-10 cursor-pointer"
+        onClick={(e) => { e.stopPropagation(); goPrev(); }}
+      />
+      <div
+        className="absolute top-0 right-0 bottom-0 w-2/3 z-10 cursor-pointer"
+        onClick={(e) => { e.stopPropagation(); goNext(); }}
+      />
 
-      <div className="absolute bottom-5 right-6 text-xs font-mono" style={{ color: 'rgba(155,138,114,0.4)' }}>
-        {current + 1} / {images.length}
-      </div>
+      {/* ── Back button (top-left, small) ── */}
+      <button
+        className="absolute top-3 left-3 z-20 px-3 py-1 rounded-full text-[11px] font-medium transition-opacity hover:opacity-100 opacity-40"
+        style={{
+          background: 'rgba(15,8,6,0.7)',
+          color: '#C8A882',
+          backdropFilter: 'blur(8px)',
+          border: '1px solid rgba(212,163,79,0.1)',
+        }}
+        onClick={(e) => { e.stopPropagation(); setSelectedCat(null); setImages([]); setCurrent(0); }}
+      >
+        ← Topics
+      </button>
     </div>
   );
 }

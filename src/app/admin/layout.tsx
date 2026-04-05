@@ -53,7 +53,7 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
 
   if (authenticated === null) {
     return (
-      <div className="flex items-center justify-center min-h-screen" style={{ background: '#FFF8F0' }}>
+      <div className="admin-light flex items-center justify-center min-h-screen" style={{ background: '#FFF8F0', color: '#2C1810' }}>
         <div className="w-10 h-10 border-4 border-t-transparent rounded-full animate-spin" style={{ borderColor: '#E07B2E', borderTopColor: 'transparent' }} />
       </div>
     );
@@ -61,7 +61,7 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
 
   if (!authenticated) {
     return (
-      <div className="flex items-center justify-center min-h-screen" style={{ background: '#FFF8F0' }}>
+      <div className="admin-light flex items-center justify-center min-h-screen" style={{ background: '#FFF8F0', color: '#2C1810' }}>
         <div className="rounded-2xl shadow-lg p-8 w-full max-w-sm text-center" style={{ background: 'white', border: '1px solid #E8D8C8' }}>
           <div className="w-16 h-16 rounded-full flex items-center justify-center text-2xl mx-auto mb-4" style={{ background: '#7B2D26', color: 'white' }}>
             🔐
@@ -96,7 +96,7 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
   }
 
   return (
-    <div className="flex min-h-screen" style={{ background: '#FFF8F0' }}>
+    <div className="admin-light flex min-h-screen" style={{ background: '#FFF8F0', color: '#2C1810' }}>
       {/* Sidebar */}
       <aside
         className={`fixed inset-y-0 left-0 z-30 w-64 transform transition-transform md:translate-x-0 md:static md:shrink-0 ${
@@ -106,7 +106,7 @@ export default function AdminLayout({ children }: { children: ReactNode }) {
       >
         <div className="p-4" style={{ borderBottom: '1px solid rgba(255,255,255,0.1)' }}>
           <h1 className="font-bold text-lg" style={{ fontFamily: 'Cormorant Garamond, serif', color: '#FFF8F0' }}>Museum Admin</h1>
-          <p className="text-xs mt-0.5" style={{ color: 'rgba(255,248,240,0.5)' }}>Vivekananda Smriti</p>
+          <p className="text-xs mt-0.5" style={{ color: 'rgba(255,248,240,0.5)' }}>Viveka Smaraka</p>
         </div>
         <nav className="p-2 space-y-1">
           {navItems.map((item) => {

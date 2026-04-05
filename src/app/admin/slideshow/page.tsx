@@ -39,7 +39,9 @@ export default function AdminSlideshow() {
   const [newCatDesc, setNewCatDesc] = useState("");
   const [showNewCat, setShowNewCat] = useState(false);
   const [editingCat, setEditingCat] = useState<Category | null>(null);
+  const [uploadingPptx, setUploadingPptx] = useState(false);
   const fileRef = useRef<HTMLInputElement>(null);
+  const pptxRef = useRef<HTMLInputElement>(null);
 
   const fetchCategories = () => {
     setLoading(true);
@@ -104,6 +106,28 @@ export default function AdminSlideshow() {
       else { const d = await res.json(); setMsg(d.error || "Upload failed"); }
     } catch { setMsg("Upload error"); }
     finally { setUploading(false); }
+  };
+
+  const uploadPptx = async (file: File) => {
+    if (!selectedCat) return;
+    setUploadingPptx(true); setMsg("");
+    const fd = new FormData();
+    fd.append("file", file);
+    fd.append("category_id", String(selectedCat.id));
+    fd.append("duration_seconds", "8");
+    fd.append("crop_bottom", "1");
+    try {
+      const res = await fetch("/api/slideshow/upload-pptx", { method: "POST", body: fd });
+      const data = await res.json();
+      if (res.ok) {
+        setMsg(`PPTX imported! ${data.slides_extracted} slides extracted (watermark crop enabled)`);
+        fetchImages(selectedCat.id);
+        fetchCategories();
+      } else {
+        setMsg(data.error || "PPTX import failed");
+      }
+    } catch { setMsg("PPTX import error"); }
+    finally { setUploadingPptx(false); }
   };
 
   const saveImage = async () => {
@@ -240,15 +264,28 @@ export default function AdminSlideshow() {
             </div>
           ) : (
             <>
-              <div className="flex items-center justify-between mb-4">
+              <div className="flex items-center justify-between mb-4 flex-wrap gap-2">
                 <h2 className="text-xl font-semibold" style={{ fontFamily: 'Cormorant Garamond, serif', color: '#2C1810' }}>
                   {selectedCat.name}
                 </h2>
-                <button onClick={() => fileRef.current?.click()} disabled={uploading}
-                  className="px-4 py-2 rounded-lg font-medium text-sm disabled:opacity-50"
-                  style={{ background: '#E07B2E', color: 'white' }}>
-                  {uploading ? "Uploading..." : "+ Upload Images"}
-                </button>
+                <div className="flex gap-2">
+                  <button onClick={() => pptxRef.current?.click()} disabled={uploadingPptx}
+                    className="px-4 py-2 rounded-lg font-medium text-sm disabled:opacity-50"
+                    style={{ background: '#7B2D26', color: 'white' }}>
+                    {uploadingPptx ? "Importing..." : "📄 Upload PPTX"}
+                  </button>
+                  <button onClick={() => fileRef.current?.click()} disabled={uploading}
+                    className="px-4 py-2 rounded-lg font-medium text-sm disabled:opacity-50"
+                    style={{ background: '#E07B2E', color: 'white' }}>
+                    {uploading ? "Uploading..." : "🖼 Upload Images"}
+                  </button>
+                </div>
+                <input ref={pptxRef} type="file" accept=".pptx,.ppt" className="hidden"
+                  onChange={(e) => {
+                    const file = e.target.files?.[0];
+                    if (file) uploadPptx(file);
+                    e.target.value = "";
+                  }} />
                 <input ref={fileRef} type="file" accept="image/*" multiple className="hidden"
                   onChange={(e) => {
                     const files = e.target.files;

@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "@/app/globals.css";
 
 export const metadata: Metadata = {
-  title: "Vivekananda Smriti — Audio Guide",
+  title: "Viveka Smaraka — Audio Guide",
   description: "Guided audio tour through the museum — Ramakrishna Ashram, Mysore",
   manifest: "/manifest.json",
   appleWebApp: {

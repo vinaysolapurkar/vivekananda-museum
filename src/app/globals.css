@@ -57,6 +57,18 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-display);
 }
 
+/* Admin area: force dark text on inputs since body is now dark-themed */
+.admin-light input,
+.admin-light textarea,
+.admin-light select,
+.admin-light option {
+  color: #2C1810;
+}
+.admin-light input::placeholder,
+.admin-light textarea::placeholder {
+  color: #8B7B6B;
+}
+
 /* Scrollbar */
 .kiosk-scroll::-webkit-scrollbar { display: none; }
 .kiosk-scroll { -ms-overflow-style: none; scrollbar-width: none; }

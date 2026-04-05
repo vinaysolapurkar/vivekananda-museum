@@ -46,24 +46,47 @@ export async function POST(
       return errorResponse("Quiz has no questions", 400);
     }
 
-    // Grade answers
+    // Grade answers and collect correct answers for review
     let score = 0;
+    const review: Array<{ question_id: number; correct_index: number; selected_index: number; correct: boolean }> = [];
+
     for (const row of questionsResult.rows) {
       const questionId = String(row.id);
       const submittedIndex = answers[questionId];
       if (submittedIndex === undefined) continue;
-      
+
       // Parse options (JSON or @@ delimited)
       let options: string[] = [];
       const rawOptions = (row as any).options_en as string;
       if (rawOptions) {
         try { options = JSON.parse(rawOptions); } catch { options = rawOptions.split("@@"); }
       }
-      
-      const selectedText = options[submittedIndex as number];
-      if (selectedText === row.correct_answer) {
-        score++;
+
+      // Determine correct index: correct_answer can be an index (number) or text (string)
+      let correctIndex: number;
+      const correctVal = row.correct_answer;
+      if (typeof correctVal === "number") {
+        correctIndex = correctVal;
+      } else {
+        const parsed = Number(correctVal);
+        if (!isNaN(parsed) && String(parsed) === String(correctVal)) {
+          // It's a numeric string like "0", "1"
+          correctIndex = parsed;
+        } else {
+          // It's the text of the correct option
+          correctIndex = options.indexOf(correctVal as string);
+        }
       }
+
+      const isCorrect = Number(submittedIndex) === correctIndex;
+      if (isCorrect) score++;
+
+      review.push({
+        question_id: Number(row.id),
+        correct_index: correctIndex,
+        selected_index: Number(submittedIndex),
+        correct: isCorrect,
+      });
     }
 
     const percentage = Math.round((score / total) * 100);
@@ -103,6 +126,7 @@ export async function POST(
         passed,
         certificate_url: certificateUrl || null,
         attempt_id: attemptId,
+        review,
       },
       200,
       headers

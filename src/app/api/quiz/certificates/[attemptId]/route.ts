@@ -305,7 +305,7 @@ export async function GET(
     
     <div class="content">
       <div class="om-symbol">ॐ</div>
-      <div class="museum-name">Vivekananda Smriti</div>
+      <div class="museum-name">Viveka Smaraka</div>
       <div class="sub-name">Ramakrishna Ashram, Mysore</div>
       <div class="divider"></div>
       
@@ -339,7 +339,7 @@ export async function GET(
         </div>
         <div class="footer-item">
           <div class="footer-line"></div>
-          <div class="footer-value">Vivekananda Smriti</div>
+          <div class="footer-value">Viveka Smaraka</div>
           <div class="footer-label">Museum</div>
         </div>
         <div class="footer-item">

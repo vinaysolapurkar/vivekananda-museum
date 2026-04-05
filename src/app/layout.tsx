@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Vivekananda Smriti Museum",
+  title: "Viveka Smaraka Museum",
   description:
     "Digital Experience Platform — Ramakrishna Ashram, Mysore",
   manifest: "/manifest.json",

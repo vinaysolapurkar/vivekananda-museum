@@ -1,4 +1,4 @@
-const CACHE_NAME = 'audio-guide-v1';
+const CACHE_NAME = 'audio-guide-v2';
 const AUDIO_CACHE = 'audio-files-v1';
 
 const APP_SHELL = [
@@ -33,6 +33,10 @@ self.addEventListener('activate', (event) => {
 // Fetch strategy
 self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
+
+  // Only handle same-origin HTTP/HTTPS requests
+  if (url.origin !== self.location.origin) return;
+  if (!url.protocol.startsWith('http')) return;
 
   // Audio files: cache when played, serve from cache if available
   if (url.pathname.startsWith('/uploads/audio/') || url.pathname.endsWith('.mp3') || url.pathname.endsWith('.m4a')) {
@@ -97,10 +101,8 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // Everything else: network with cache fallback
-  event.respondWith(
-    fetch(event.request).catch(() => caches.match(event.request))
-  );
+  // Everything else: just use the network (don't intercept)
+  return;
 });
 
 // Message handler for cache operations from the app

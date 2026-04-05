@@ -22,6 +22,7 @@ interface Result {
   passed: boolean;
   certificate_url: string;
   attempt_id: number;
+  review?: Array<{ question_id: number; correct_index: number; selected_index: number; correct: boolean }>;
 }
 
 export default function QuizPage({
@@ -268,6 +269,38 @@ export default function QuizPage({
               ))}
             </div>
           </div>
+
+          {/* Answer review */}
+          {result.review && result.review.length > 0 && (
+            <div className="rounded-2xl p-5 mb-6 text-left" style={{ background: 'rgba(255,245,230,0.03)', border: '1px solid rgba(212,163,79,0.08)' }}>
+              <p className="text-xs font-medium uppercase tracking-wider mb-3" style={{ color: '#9B8A72' }}>Answer Review</p>
+              <div className="space-y-2">
+                {result.review.map((r, i) => {
+                  const q = questions[i];
+                  if (!q) return null;
+                  return (
+                    <div key={r.question_id} className="flex items-start gap-3 py-2" style={{ borderBottom: '1px solid rgba(212,163,79,0.06)' }}>
+                      <span className="shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold mt-0.5" style={{
+                        background: r.correct ? 'rgba(90,160,90,0.15)' : 'rgba(180,60,60,0.15)',
+                        color: r.correct ? '#6a6' : '#c66',
+                      }}>
+                        {r.correct ? '✓' : '✗'}
+                      </span>
+                      <div className="flex-1 min-w-0">
+                        <p className="text-sm font-medium mb-1" style={{ color: '#D9CBBA' }}>{q.question}</p>
+                        {!r.correct && (
+                          <p className="text-xs" style={{ color: '#9B8A72' }}>
+                            Your answer: <span style={{ color: '#c88' }}>{q.options[r.selected_index]}</span>
+                            {' · '}Correct: <span style={{ color: '#6a6' }}>{q.options[r.correct_index]}</span>
+                          </p>
+                        )}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          )}
 
           {result.passed && (
             <div className="space-y-3">

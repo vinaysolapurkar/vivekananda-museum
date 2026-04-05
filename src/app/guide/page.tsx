@@ -91,11 +91,8 @@ export default function GuidePage() {
             <span>&larr;</span> <span>Back to Home</span>
           </Link>
           <div className="flex items-center gap-4">
-            <div
-              className="w-14 h-14 rounded-2xl overflow-hidden shrink-0"
-              style={{ border: '1.5px solid rgba(212,163,79,0.3)', boxShadow: '0 4px 20px rgba(0,0,0,0.3)' }}
-            >
-              <img src="/images/vivekananda-portrait.jpg" alt="Swami Vivekananda" className="w-full h-full object-cover" style={{ filter: 'sepia(0.2)' }} />
+            <div className="w-14 h-14 shrink-0">
+              <img src="/images/logo.png" alt="Ramakrishna Math" className="w-full h-full object-contain" style={{ filter: 'drop-shadow(0 2px 6px rgba(0,0,0,0.3))' }} />
             </div>
             <div>
               <h1 className="text-3xl md:text-4xl font-semibold" style={{
@@ -279,7 +276,7 @@ export default function GuidePage() {
           &ldquo;Arise, awake, and stop not till the goal is reached.&rdquo;
         </p>
         <p className="text-[10px] mt-2" style={{ color: 'rgba(155,138,114,0.4)' }}>
-          Swami Vivekananda Smriti &middot; Ramakrishna Ashram, Mysore
+          Swami Viveka Smaraka &middot; Ramakrishna Ashram, Mysore
         </p>
       </footer>
     </div>
