@@ -6,14 +6,14 @@ export const metadata: Metadata = {
   description:
     "Digital Experience Platform — Ramakrishna Ashram, Mysore",
   manifest: "/manifest.json",
-  icons: { apple: "/icon-192.png" },
+  icons: { apple: "/icons/icon-192.svg" },
 };
 
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   maximumScale: 1,
-  themeColor: "#0A0E27",
+  themeColor: "#7B2D26",
 };
 
 export default function RootLayout({

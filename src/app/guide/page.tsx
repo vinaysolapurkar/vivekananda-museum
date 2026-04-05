@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
+import { useServiceWorker, InstallBanner, OfflineIndicator } from "./pwa";
 
 type Lang = "en" | "kn" | "hi";
 
@@ -46,11 +47,16 @@ export default function GuidePage() {
 
   useEffect(() => { fetchStations(); }, [fetchStations]);
 
+  const { isOnline } = useServiceWorker();
+
   const zones = ["all", ...Array.from(new Set(stations.map(s => s.gallery_zone).filter(Boolean)))];
   const filtered = selectedZone === "all" ? stations : stations.filter(s => s.gallery_zone === selectedZone);
 
   return (
     <div className="flex flex-col min-h-screen" style={{ background: '#0A0E27' }}>
+      <OfflineIndicator isOnline={isOnline} />
+      {/* Install Banner */}
+      <InstallBanner />
       {/* Header */}
       <header className="relative overflow-hidden px-6 py-8">
         <div className="absolute inset-0" style={{

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192">
+  <rect width="192" height="192" rx="32" fill="#7B2D26"/>
+  <!-- Lotus base -->
+  <g transform="translate(96,110)">
+    <!-- Center petal -->
+    <ellipse cx="0" cy="-30" rx="12" ry="32" fill="#FFF8F0" opacity="0.95"/>
+    <!-- Left petals -->
+    <ellipse cx="-20" cy="-22" rx="11" ry="28" fill="#FFF8F0" opacity="0.85" transform="rotate(-25)"/>
+    <ellipse cx="-36" cy="-12" rx="10" ry="24" fill="#FFF8F0" opacity="0.7" transform="rotate(-50)"/>
+    <!-- Right petals -->
+    <ellipse cx="20" cy="-22" rx="11" ry="28" fill="#FFF8F0" opacity="0.85" transform="rotate(25)"/>
+    <ellipse cx="36" cy="-12" rx="10" ry="24" fill="#FFF8F0" opacity="0.7" transform="rotate(50)"/>
+    <!-- Base curve -->
+    <path d="M-30,5 Q0,15 30,5" stroke="#FFF8F0" stroke-width="2.5" fill="none" opacity="0.6"/>
+  </g>
+  <!-- OM symbol -->
+  <text x="96" y="68" text-anchor="middle" font-size="42" font-family="serif" fill="#FFF8F0" opacity="0.9">\u0950</text>
+  <!-- Headphone arc for audio guide -->
+  <g transform="translate(96,145)" stroke="#D4A34F" stroke-width="2.5" fill="none" opacity="0.8">
+    <path d="M-18,0 A18,18 0 0,1 18,0"/>
+    <rect x="-22" y="-2" width="6" height="10" rx="2" fill="#D4A34F"/>
+    <rect x="16" y="-2" width="6" height="10" rx="2" fill="#D4A34F"/>
+  </g>
+</svg>

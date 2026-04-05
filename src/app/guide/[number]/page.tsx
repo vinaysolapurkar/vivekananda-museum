@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import { useSearchParams } from "next/navigation";
 import { use } from "react";
 import Link from "next/link";
+import { useServiceWorker, useCacheAudio, OfflineIndicator, OfflineReadyBadge } from "../pwa";
 
 interface Station {
   number: number;
@@ -36,6 +37,9 @@ export default function StationPage({
   const [duration, setDuration] = useState(0);
   const [started, setStarted] = useState(false);
 
+  const { isOnline } = useServiceWorker();
+  const { cached: audioCached, cacheNow } = useCacheAudio(station?.audio_url);
+
   useEffect(() => {
     setLoading(true);
     fetch(`/api/audio/stations/${number}?lang=${lang}`)
@@ -67,7 +71,10 @@ export default function StationPage({
   const togglePlay = () => {
     const audio = audioRef.current;
     if (!audio || !station?.audio_url) return;
-    if (!started) setStarted(true);
+    if (!started) {
+      setStarted(true);
+      cacheNow();
+    }
     if (playing) { audio.pause(); } else { audio.play(); }
     setPlaying(!playing);
   };
@@ -128,6 +135,7 @@ export default function StationPage({
 
   return (
     <div className="min-h-screen flex flex-col" style={{ background: '#0A0E27' }}>
+      <OfflineIndicator isOnline={isOnline} />
       {/* Header */}
       <header className="relative px-6 pt-8 pb-6 overflow-hidden">
         <div className="absolute inset-0" style={{
@@ -170,6 +178,7 @@ export default function StationPage({
               >
                 {title}
               </h1>
+              <OfflineReadyBadge cached={audioCached} />
             </div>
           </div>
         </div>
