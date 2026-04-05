@@ -53,7 +53,7 @@ export default function GuidePage() {
   const filtered = selectedZone === "all" ? stations : stations.filter(s => s.gallery_zone === selectedZone);
 
   return (
-    <div className="flex flex-col min-h-screen" style={{ background: '#0A0E27' }}>
+    <div className="flex flex-col min-h-screen" style={{ background: '#FFF8F0' }}>
       <OfflineIndicator isOnline={isOnline} />
       {/* Install Banner */}
       <InstallBanner />
