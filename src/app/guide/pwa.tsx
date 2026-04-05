@@ -16,7 +16,7 @@ export function useServiceWorker() {
 
     if ("serviceWorker" in navigator) {
       navigator.serviceWorker
-        .register("/sw.js", { scope: "/" })
+        .register("/sw.js", { scope: "/guide" })
         .then(() => setSwReady(true))
         .catch((err) => console.error("SW registration failed:", err));
     }
