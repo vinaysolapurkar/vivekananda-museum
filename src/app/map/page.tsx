@@ -27,12 +27,10 @@ const PHASE_COLORS: Record<string, string> = {
 export default function MapPage() {
   const [locations, setLocations] = useState<TravelLocation[]>([]);
   const [current, setCurrent] = useState(-1);
-  const [playing, setPlaying] = useState(false);
   const [loading, setLoading] = useState(true);
   const [globeReady, setGlobeReady] = useState(false);
   const globeContainerRef = useRef<HTMLDivElement>(null);
   const globeRef = useRef<any>(null);
-  const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const [visitedUpTo, setVisitedUpTo] = useState(-1);
 
   // Load globe.gl from CDN
@@ -89,10 +87,7 @@ export default function MapPage() {
       .height(globeContainerRef.current.clientHeight)
       (globeContainerRef.current);
 
-    // Set initial view to India
     globe.pointOfView({ lat: 20, lng: 78, altitude: 2.5 }, 0);
-
-    // Dim the globe slightly for better contrast
     const controls = globe.controls();
     controls.autoRotate = true;
     controls.autoRotateSpeed = 0.3;
@@ -100,7 +95,6 @@ export default function MapPage() {
 
     globeRef.current = globe;
 
-    // Handle resize
     const handleResize = () => {
       if (globeContainerRef.current && globeRef.current) {
         globeRef.current.width(globeContainerRef.current.clientWidth);
@@ -108,10 +102,7 @@ export default function MapPage() {
       }
     };
     window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
+    return () => { window.removeEventListener("resize", handleResize); };
   }, [globeReady, locations]);
 
   // Navigate to a location
@@ -120,103 +111,59 @@ export default function MapPage() {
     const loc = locations[index];
     const globe = globeRef.current;
 
-    // Stop auto-rotate during navigation
     globe.controls().autoRotate = false;
-
-    // Determine zoom level based on phase
     const isGlobal = ["First Western Tour", "Second Western Tour"].includes(loc.phase);
     const altitude = isGlobal ? 1.8 : 0.8;
 
-    // Fly to location
     globe.pointOfView({ lat: loc.lat, lng: loc.lng, altitude }, 2000);
-
     setCurrent(index);
-    setVisitedUpTo(Math.max(visitedUpTo, index));
+    setVisitedUpTo(prev => Math.max(prev, index));
 
-    // Update points: all visited locations shown
     const visiblePoints = locations.slice(0, index + 1).map((l, i) => ({
       lat: l.lat,
       lng: l.lng,
       color: i === index ? "#FFD700" : (PHASE_COLORS[l.phase] || "#D4A34F") + "66",
       radius: i === index ? 0.5 : 0.15,
       alt: i === index ? 0.02 : 0.005,
-      name: l.name,
     }));
     globe.pointsData(visiblePoints);
 
-    // Only show the current flight arc (previous → current), no trail clutter
     if (index > 0) {
       const prev = locations[index - 1];
       globe.arcsData([{
-        startLat: prev.lat,
-        startLng: prev.lng,
-        endLat: loc.lat,
-        endLng: loc.lng,
+        startLat: prev.lat, startLng: prev.lng,
+        endLat: loc.lat, endLng: loc.lng,
         color: ["rgba(212,163,79,0.6)", PHASE_COLORS[loc.phase] || "#D4A34F"],
-        stroke: 1.2,
-        dashLen: 0.3,
-        dashGap: 0.15,
-        animTime: 1500,
+        stroke: 1.2, dashLen: 0.3, dashGap: 0.15, animTime: 1500,
       }]);
     } else {
       globe.arcsData([]);
     }
-  }, [locations, visitedUpTo]);
+  }, [locations]);
 
-  // Auto-play
-  const playNext = useCallback(() => {
-    setCurrent(prev => {
-      const next = prev + 1;
-      if (next >= locations.length) {
-        setPlaying(false);
-        return prev;
-      }
-      flyTo(next);
-      // Schedule next - longer pause at important locations
-      const loc = locations[next];
-      const isImportant = ["Final Years & Mahasamadhi"].includes(loc.phase);
-      const delay = isImportant ? 5000 : 3000;
-      timerRef.current = setTimeout(() => playNext(), delay);
-      return next;
-    });
-  }, [locations, flyTo]);
-
-  const togglePlay = () => {
-    if (playing) {
-      setPlaying(false);
-      if (timerRef.current) clearTimeout(timerRef.current);
-    } else {
-      setPlaying(true);
-      const startIdx = current < 0 ? -1 : current;
-      setCurrent(startIdx);
-      // Small delay then start
-      timerRef.current = setTimeout(() => {
-        const next = startIdx + 1;
-        if (next < locations.length) {
-          flyTo(next);
-          const loc = locations[next];
-          const isImportant = ["Final Years & Mahasamadhi"].includes(loc.phase);
-          timerRef.current = setTimeout(() => playNext(), isImportant ? 8000 : 5000);
-        }
-      }, 500);
-    }
+  const goNext = () => {
+    const next = current + 1;
+    if (next < locations.length) flyTo(next);
   };
 
-  const goToLocation = (index: number) => {
-    if (playing) {
-      setPlaying(false);
-      if (timerRef.current) clearTimeout(timerRef.current);
-    }
-    flyTo(index);
+  const goPrev = () => {
+    const prev = current - 1;
+    if (prev >= 0) flyTo(prev);
   };
 
-  // Cleanup
+  // Keyboard navigation
   useEffect(() => {
-    return () => { if (timerRef.current) clearTimeout(timerRef.current); };
-  }, []);
+    const handler = (e: KeyboardEvent) => {
+      if (e.key === "ArrowRight" || e.key === " ") { e.preventDefault(); goNext(); }
+      if (e.key === "ArrowLeft") { e.preventDefault(); goPrev(); }
+    };
+    window.addEventListener("keydown", handler);
+    return () => window.removeEventListener("keydown", handler);
+  });
 
   const loc = current >= 0 && current < locations.length ? locations[current] : null;
   const phaseColor = loc ? (PHASE_COLORS[loc.phase] || "#D4A34F") : "#D4A34F";
+  const isLastLocation = current >= locations.length - 1;
 
   if (loading || !globeReady) {
     return (
@@ -233,7 +180,6 @@ export default function MapPage() {
 
   return (
     <div className="fixed inset-0 overflow-hidden" style={{ background: "#000" }}>
-      {/* Globe container */}
       <div ref={globeContainerRef} className="absolute inset-0" />
 
       {/* Header */}
@@ -252,28 +198,15 @@ export default function MapPage() {
               Journey of a Parivrajaka (1863&ndash;1902) &middot; {locations.length} locations
             </p>
           </div>
-          <div className="flex items-center gap-3">
-            <a href="/" className="px-3 py-1.5 rounded-full text-xs font-medium" style={{
-              background: 'rgba(255,255,255,0.1)', color: '#C8A882', border: '1px solid rgba(255,255,255,0.1)',
-            }}>
-              ← Home
-            </a>
-            <button
-              onClick={togglePlay}
-              className="px-5 py-2 rounded-full text-sm font-medium transition-all active:scale-95"
-              style={{
-                background: playing ? 'rgba(180,60,60,0.3)' : 'rgba(212,163,79,0.2)',
-                color: playing ? '#f88' : '#E8C06A',
-                border: playing ? '1px solid rgba(180,60,60,0.4)' : '1px solid rgba(212,163,79,0.3)',
-              }}
-            >
-              {playing ? "⏸ Pause" : "▶ Play Journey"}
-            </button>
-          </div>
+          <a href="/" className="px-3 py-1.5 rounded-full text-xs font-medium" style={{
+            background: 'rgba(255,255,255,0.1)', color: '#C8A882', border: '1px solid rgba(255,255,255,0.1)',
+          }}>
+            ← Home
+          </a>
         </div>
       </div>
 
-      {/* Timeline scrubber — left side */}
+      {/* Timeline — left side */}
       <div className="absolute left-3 top-20 bottom-20 z-10 w-48 overflow-y-auto kiosk-scroll" style={{
         maskImage: 'linear-gradient(to bottom, transparent, black 20px, black calc(100% - 20px), transparent)',
         WebkitMaskImage: 'linear-gradient(to bottom, transparent, black 20px, black calc(100% - 20px), transparent)',
@@ -286,7 +219,7 @@ export default function MapPage() {
             return (
               <button
                 key={l.id}
-                onClick={() => goToLocation(i)}
+                onClick={() => flyTo(i)}
                 className="w-full text-left px-3 py-1.5 rounded-lg text-[10px] leading-tight transition-all flex items-center gap-2"
                 style={{
                   background: isActive ? 'rgba(255,255,255,0.12)' : 'transparent',
@@ -304,79 +237,75 @@ export default function MapPage() {
         </div>
       </div>
 
-      {/* Info panel — bottom */}
-      {loc && (
+      {/* Info panel + navigation — bottom */}
+      {loc ? (
         <div className="absolute bottom-0 left-0 right-0 z-10" style={{
-          background: 'linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.6) 60%, transparent 100%)',
+          background: 'linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.7) 70%, transparent 100%)',
         }}>
-          <div className="px-6 pb-5 pt-12">
-            {/* Phase badge */}
+          <div className="px-6 pb-5 pt-14">
             <div className="flex items-center gap-3 mb-2">
               <div className="w-2.5 h-2.5 rounded-full" style={{ background: phaseColor, boxShadow: `0 0 8px ${phaseColor}` }} />
-              <span className="text-[10px] uppercase tracking-[0.2em] font-medium" style={{ color: phaseColor }}>
-                {loc.phase}
-              </span>
+              <span className="text-[10px] uppercase tracking-[0.2em] font-medium" style={{ color: phaseColor }}>{loc.phase}</span>
               <span className="text-[10px]" style={{ color: 'rgba(200,168,130,0.5)' }}>&middot;</span>
               <span className="text-[10px] font-mono" style={{ color: '#C8A882' }}>{loc.year}</span>
               <span className="text-[10px]" style={{ color: 'rgba(200,168,130,0.5)' }}>&middot;</span>
               <span className="text-[10px]" style={{ color: 'rgba(200,168,130,0.5)' }}>{current + 1} / {locations.length}</span>
             </div>
 
-            {/* Location name */}
-            <h2 className="text-3xl font-semibold mb-1" style={{
+            <h2 className="text-2xl font-semibold mb-1" style={{
               fontFamily: '"Cormorant Garamond", serif', color: '#F5EDE0',
               textShadow: '0 2px 12px rgba(0,0,0,0.5)',
             }}>
               {loc.name}
             </h2>
-            <p className="text-xs mb-3" style={{ color: '#9B8A72' }}>{loc.country}</p>
-
-            {/* Description */}
-            <p className="text-sm leading-relaxed" style={{ color: 'rgba(217,203,186,0.85)', maxWidth: '800px' }}>
+            <p className="text-xs mb-2" style={{ color: '#9B8A72' }}>{loc.country}</p>
+            <p className="text-sm leading-relaxed mb-4" style={{ color: 'rgba(217,203,186,0.85)', maxWidth: '800px' }}>
               {loc.description}
             </p>
 
-            {/* Navigation */}
-            <div className="flex items-center gap-3 mt-4">
+            {/* Navigation buttons — prominent */}
+            <div className="flex items-center gap-3">
               <button
-                onClick={() => goToLocation(Math.max(0, current - 1))}
+                onClick={goPrev}
                 disabled={current <= 0}
-                className="px-4 py-2 rounded-full text-xs font-medium disabled:opacity-20 transition-all"
+                className="px-6 py-3 rounded-xl text-sm font-medium disabled:opacity-20 transition-all active:scale-95"
                 style={{ background: 'rgba(255,255,255,0.08)', color: '#C8A882', border: '1px solid rgba(255,255,255,0.1)' }}
               >
                 ← Previous
               </button>
-              <button
-                onClick={() => goToLocation(Math.min(locations.length - 1, current + 1))}
-                disabled={current >= locations.length - 1}
-                className="px-4 py-2 rounded-full text-xs font-medium disabled:opacity-20 transition-all"
-                style={{ background: 'rgba(212,163,79,0.15)', color: '#E8C06A', border: '1px solid rgba(212,163,79,0.2)' }}
-              >
-                Next →
-              </button>
+              {isLastLocation ? (
+                <div className="px-6 py-3 rounded-xl text-sm font-medium" style={{ background: 'rgba(231,76,60,0.15)', color: '#E74C3C', border: '1px solid rgba(231,76,60,0.3)' }}>
+                  End of Journey &middot; Om Shanti
+                </div>
+              ) : (
+                <button
+                  onClick={goNext}
+                  className="px-6 py-3 rounded-xl text-sm font-medium transition-all active:scale-95"
+                  style={{ background: 'rgba(212,163,79,0.15)', color: '#E8C06A', border: '1px solid rgba(212,163,79,0.3)' }}
+                >
+                  Next →
+                </button>
+              )}
             </div>
           </div>
         </div>
-      )}
-
-      {/* Start prompt — when nothing selected */}
-      {!loc && !playing && (
+      ) : (
+        /* Start prompt */
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 text-center">
           <button
-            onClick={togglePlay}
+            onClick={() => flyTo(0)}
             className="px-8 py-3 rounded-full text-base font-medium transition-all active:scale-95"
             style={{
-              background: 'rgba(212,163,79,0.2)',
-              color: '#E8C06A',
+              background: 'rgba(212,163,79,0.2)', color: '#E8C06A',
               border: '1px solid rgba(212,163,79,0.3)',
               backdropFilter: 'blur(10px)',
               boxShadow: '0 4px 30px rgba(212,163,79,0.15)',
             }}
           >
-            ▶ Begin the Journey
+            Begin the Journey
           </button>
           <p className="text-[10px] mt-3" style={{ color: 'rgba(155,138,114,0.4)' }}>
-            433 locations across 4 continents &middot; 1863–1902
+            {locations.length} locations across 4 continents &middot; 1863–1902
           </p>
         </div>
       )}
