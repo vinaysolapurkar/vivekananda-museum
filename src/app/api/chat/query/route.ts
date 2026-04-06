@@ -117,14 +117,18 @@ export async function POST(request: Request) {
           : "I could not find relevant information. Please try rephrasing your question.";
       }
     } else {
-      // No API key - return matched context directly
+      // No API key - return the most relevant excerpt conversationally
       if (matchedDocs.length > 0) {
-        answer = matchedDocs
-          .map((doc) => `**${doc.title}**\n${doc.content}`)
-          .join("\n\n---\n\n");
+        // Take the best match and limit to a reasonable length
+        const bestDoc = matchedDocs[0];
+        const content = bestDoc.content.length > 800
+          ? bestDoc.content.substring(0, 800).replace(/\s+\S*$/, '') + '...'
+          : bestDoc.content;
+        const nameGreeting = visitor_name ? `${visitor_name}, ` : '';
+        answer = `${nameGreeting}${content}`;
       } else {
-        answer =
-          "I could not find relevant information in the knowledge base. Please try rephrasing your question.";
+        const nameGreeting = visitor_name ? `Dear ${visitor_name}, ` : '';
+        answer = `${nameGreeting}I appreciate your question. Could you ask me something specific about my life, teachings, the Ramakrishna Mission, or my travels? For example, you could ask about my speech in Chicago, my meeting with Sri Ramakrishna, or the philosophy of Vedanta.`;
       }
     }
 

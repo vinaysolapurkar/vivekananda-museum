@@ -382,7 +382,7 @@ export default function ChatPage() {
               {msg.sources && msg.sources.length > 0 && (
                 <div className="mt-3 pt-2" style={{ borderTop: '1px solid rgba(212,163,79,0.08)' }}>
                   <p className="text-[10px]" style={{ color: '#9B8A72' }}>
-                    Sources: {msg.sources.slice(0, 2).join(", ")}
+                    Sources: {msg.sources.slice(0, 2).map((s: any) => typeof s === 'string' ? s : s.title || s.name || JSON.stringify(s)).join(", ")}
                   </p>
                 </div>
               )}
