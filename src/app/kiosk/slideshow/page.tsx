@@ -270,28 +270,43 @@ export default function KioskSlideshowPage() {
         </span>
       </div>
 
-      {/* ── Left/right tap zones for navigation (invisible) ── */}
-      <div
-        className="absolute top-0 left-0 bottom-0 w-1/3 z-10 cursor-pointer"
-        onClick={(e) => { e.stopPropagation(); goPrev(); }}
-      />
-      <div
-        className="absolute top-0 right-0 bottom-0 w-2/3 z-10 cursor-pointer"
-        onClick={(e) => { e.stopPropagation(); goNext(); }}
-      />
+      {/* ── Navigation buttons — visible ── */}
+      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-20 flex items-center gap-3">
+        <button
+          onClick={(e) => { e.stopPropagation(); goPrev(); }}
+          disabled={current <= 0}
+          className="px-6 py-3 rounded-xl text-sm font-medium disabled:opacity-20 transition-all active:scale-95"
+          style={{ background: 'rgba(15,8,6,0.8)', color: '#C8A882', border: '1px solid rgba(212,163,79,0.15)', backdropFilter: 'blur(10px)' }}
+        >
+          ← Prev
+        </button>
+        <span className="text-xs font-mono px-3 py-2 rounded-lg" style={{
+          background: 'rgba(15,8,6,0.7)', color: '#9B8A72', backdropFilter: 'blur(10px)',
+        }}>
+          {current + 1} / {images.length}
+        </span>
+        <button
+          onClick={(e) => { e.stopPropagation(); goNext(); }}
+          disabled={current >= images.length - 1}
+          className="px-6 py-3 rounded-xl text-sm font-medium disabled:opacity-20 transition-all active:scale-95"
+          style={{ background: 'rgba(212,163,79,0.15)', color: '#E8C06A', border: '1px solid rgba(212,163,79,0.25)', backdropFilter: 'blur(10px)' }}
+        >
+          Next →
+        </button>
+      </div>
 
-      {/* ── Back button (top-left, small) ── */}
+      {/* ── Back button (top-left) ── */}
       <button
-        className="absolute top-3 left-3 z-20 px-3 py-1 rounded-full text-[11px] font-medium transition-opacity hover:opacity-100 opacity-40"
+        className="absolute top-3 left-3 z-20 px-4 py-2 rounded-xl text-xs font-medium transition-all active:scale-95"
         style={{
-          background: 'rgba(15,8,6,0.7)',
+          background: 'rgba(15,8,6,0.8)',
           color: '#C8A882',
           backdropFilter: 'blur(8px)',
           border: '1px solid rgba(212,163,79,0.1)',
         }}
         onClick={(e) => { e.stopPropagation(); setSelectedCat(null); setImages([]); setCurrent(0); }}
       >
-        ← Topics
+        ← Back to Topics
       </button>
     </div>
   );
