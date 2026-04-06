@@ -70,28 +70,22 @@ export default function KioskSlideshowPage() {
 
   const goNext = useCallback(() => {
     if (images.length === 0) return;
-    setTransitioning(true);
-    setTimeout(() => {
-      const next = current + 1;
+    if (timerRef.current) clearTimeout(timerRef.current);
+    setCurrent((prev) => {
+      const next = prev + 1;
       if (next >= images.length) {
         setSelectedCat(null);
         setImages([]);
-        setCurrent(0);
-      } else {
-        setCurrent(next);
-        logEvent("slide_view", String(images[next]?.id), images[next]?.title || "");
+        return 0;
       }
-      setTransitioning(false);
-    }, 400);
-  }, [images, current]);
+      return next;
+    });
+  }, [images]);
 
   const goPrev = useCallback(() => {
     if (images.length === 0) return;
-    setTransitioning(true);
-    setTimeout(() => {
-      setCurrent((prev) => Math.max(0, prev - 1));
-      setTransitioning(false);
-    }, 400);
+    if (timerRef.current) clearTimeout(timerRef.current);
+    setCurrent((prev) => Math.max(0, prev - 1));
   }, [images]);
 
   useEffect(() => {
