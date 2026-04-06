@@ -218,25 +218,23 @@ export default function KioskSlideshowPage() {
       className="fixed inset-0 overflow-hidden select-none"
       style={{ background: '#0f0806' }}
     >
-      {/* ── Slide image: exact viewport fit, no overflow ── */}
-      <div
-        className="transition-opacity duration-500"
-        style={{ opacity: transitioning ? 0 : 1 }}
-      >
-        {slide?.image_url && (
-          <img
-            src={slide.image_url}
-            alt={slide.title}
-            style={{
-              display: 'block',
-              width: '100vw',
-              height: '100vh',
-              objectFit: 'contain',
-              objectPosition: 'center center',
-            }}
-          />
-        )}
-      </div>
+      {/* ── Slide image: exact viewport fit ── */}
+      {slide?.image_url && (
+        <img
+          key={`slide-${current}-${slide.id}`}
+          src={slide.image_url}
+          alt={slide.title || `Slide ${current + 1}`}
+          style={{
+            position: 'absolute',
+            inset: 0,
+            display: 'block',
+            width: '100vw',
+            height: '100vh',
+            objectFit: 'contain',
+            objectPosition: 'center center',
+          }}
+        />
+      )}
 
       {/* ── Top: thin progress bar ── */}
       <div className="absolute top-0 left-0 right-0 h-[3px] z-20" style={{ background: 'rgba(212,163,79,0.08)' }}>
