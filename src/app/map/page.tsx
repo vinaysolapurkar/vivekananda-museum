@@ -16,29 +16,29 @@ interface TravelLocation {
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-const PHASE_COLORS: Record<string, string> = {
-  "Early Life & Indian Wandering": "#F39C12",
-  "First Western Tour": "#3498DB",
-  "Return to India & Mission Building": "#2ECC71",
-  "Second Western Tour": "#9B59B6",
-  "Final Years & Mahasamadhi": "#E74C3C",
-};
+const PHASES = [
+  { id: "Early Life & Indian Wandering", label: "Early Life & Wanderings", years: "1863–1893", color: "#F39C12", icon: "🇮🇳" },
+  { id: "First Western Tour", label: "First Western Tour", years: "1893–1897", color: "#3498DB", icon: "🌍" },
+  { id: "Return to India & Mission Building", label: "Return & Mission", years: "1897–1899", color: "#2ECC71", icon: "🏛" },
+  { id: "Second Western Tour", label: "Second Western Tour", years: "1899–1900", color: "#9B59B6", icon: "✈" },
+  { id: "Final Years & Mahasamadhi", label: "Final Years", years: "1900–1902", color: "#E74C3C", icon: "🕉" },
+];
+
+const PHASE_COLORS: Record<string, string> = Object.fromEntries(PHASES.map(p => [p.id, p.color]));
 
 export default function MapPage() {
   const [locations, setLocations] = useState<TravelLocation[]>([]);
   const [current, setCurrent] = useState(-1);
   const [loading, setLoading] = useState(true);
   const [globeReady, setGlobeReady] = useState(false);
+  const [expandedPhase, setExpandedPhase] = useState<string | null>(null);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
   const globeContainerRef = useRef<HTMLDivElement>(null);
   const globeRef = useRef<any>(null);
-  const [visitedUpTo, setVisitedUpTo] = useState(-1);
+  const activeItemRef = useRef<HTMLButtonElement>(null);
 
-  // Load globe.gl from CDN
   useEffect(() => {
-    if (typeof window !== "undefined" && (window as any).Globe) {
-      setGlobeReady(true);
-      return;
-    }
+    if (typeof window !== "undefined" && (window as any).Globe) { setGlobeReady(true); return; }
     const script = document.createElement("script");
     script.src = "https://unpkg.com/globe.gl@2.45.2/dist/globe.gl.min.js";
     script.onload = () => setGlobeReady(true);
@@ -46,7 +46,6 @@ export default function MapPage() {
     return () => { document.head.removeChild(script); };
   }, []);
 
-  // Fetch locations
   useEffect(() => {
     fetch("/api/map/locations")
       .then((r) => r.json())
@@ -58,11 +57,9 @@ export default function MapPage() {
       .catch(() => setLoading(false));
   }, []);
 
-  // Initialize globe
   useEffect(() => {
     if (!globeReady || !globeContainerRef.current || globeRef.current || locations.length === 0) return;
     const Globe = (window as any).Globe;
-
     const globe = Globe()
       .globeImageUrl("//unpkg.com/three-globe/example/img/earth-blue-marble.jpg")
       .bumpImageUrl("//unpkg.com/three-globe/example/img/earth-topology.png")
@@ -70,29 +67,17 @@ export default function MapPage() {
       .showAtmosphere(true)
       .atmosphereColor("#D4A34F")
       .atmosphereAltitude(0.15)
-      .pointsData([])
-      .pointLat("lat")
-      .pointLng("lng")
-      .pointColor("color")
-      .pointAltitude("alt")
-      .pointRadius("radius")
-      .arcsData([])
-      .arcColor("color")
-      .arcAltitude(0.08)
-      .arcStroke("stroke")
-      .arcDashLength("dashLen")
-      .arcDashGap("dashGap")
-      .arcDashAnimateTime("animTime")
+      .pointsData([]).pointLat("lat").pointLng("lng").pointColor("color").pointAltitude("alt").pointRadius("radius")
+      .arcsData([]).arcColor("color").arcAltitude(0.08).arcStroke("stroke")
+      .arcDashLength("dashLen").arcDashGap("dashGap").arcDashAnimateTime("animTime")
       .width(globeContainerRef.current.clientWidth)
       .height(globeContainerRef.current.clientHeight)
       (globeContainerRef.current);
 
     globe.pointOfView({ lat: 20, lng: 78, altitude: 2.5 }, 0);
-    const controls = globe.controls();
-    controls.autoRotate = true;
-    controls.autoRotateSpeed = 0.3;
-    controls.enableZoom = true;
-
+    globe.controls().autoRotate = true;
+    globe.controls().autoRotateSpeed = 0.3;
+    globe.controls().enableZoom = true;
     globeRef.current = globe;
 
     const handleResize = () => {
@@ -105,53 +90,45 @@ export default function MapPage() {
     return () => { window.removeEventListener("resize", handleResize); };
   }, [globeReady, locations]);
 
-  // Navigate to a location
   const flyTo = useCallback((index: number) => {
     if (!globeRef.current || index < 0 || index >= locations.length) return;
     const loc = locations[index];
     const globe = globeRef.current;
-
     globe.controls().autoRotate = false;
-    const isGlobal = ["First Western Tour", "Second Western Tour"].includes(loc.phase);
-    const altitude = isGlobal ? 1.8 : 0.8;
 
-    globe.pointOfView({ lat: loc.lat, lng: loc.lng, altitude }, 2000);
+    const isGlobal = ["First Western Tour", "Second Western Tour"].includes(loc.phase);
+    globe.pointOfView({ lat: loc.lat, lng: loc.lng, altitude: isGlobal ? 1.8 : 0.8 }, 2000);
     setCurrent(index);
-    setVisitedUpTo(prev => Math.max(prev, index));
+
+    // Expand the phase of this location
+    setExpandedPhase(loc.phase);
 
     const visiblePoints = locations.slice(0, index + 1).map((l, i) => ({
-      lat: l.lat,
-      lng: l.lng,
-      color: i === index ? "#FFD700" : (PHASE_COLORS[l.phase] || "#D4A34F") + "66",
-      radius: i === index ? 0.5 : 0.15,
-      alt: i === index ? 0.02 : 0.005,
+      lat: l.lat, lng: l.lng,
+      color: i === index ? "#FFD700" : (PHASE_COLORS[l.phase] || "#D4A34F") + "55",
+      radius: i === index ? 0.5 : 0.12,
+      alt: i === index ? 0.02 : 0.003,
     }));
     globe.pointsData(visiblePoints);
 
     if (index > 0) {
       const prev = locations[index - 1];
       globe.arcsData([{
-        startLat: prev.lat, startLng: prev.lng,
-        endLat: loc.lat, endLng: loc.lng,
-        color: ["rgba(212,163,79,0.6)", PHASE_COLORS[loc.phase] || "#D4A34F"],
+        startLat: prev.lat, startLng: prev.lng, endLat: loc.lat, endLng: loc.lng,
+        color: ["rgba(212,163,79,0.5)", PHASE_COLORS[loc.phase] || "#D4A34F"],
         stroke: 1.2, dashLen: 0.3, dashGap: 0.15, animTime: 1500,
       }]);
     } else {
       globe.arcsData([]);
     }
+
+    // Scroll active item into view
+    setTimeout(() => activeItemRef.current?.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 100);
   }, [locations]);
 
-  const goNext = () => {
-    const next = current + 1;
-    if (next < locations.length) flyTo(next);
-  };
+  const goNext = useCallback(() => { if (current + 1 < locations.length) flyTo(current + 1); }, [current, locations, flyTo]);
+  const goPrev = useCallback(() => { if (current > 0) flyTo(current - 1); }, [current, flyTo]);
 
-  const goPrev = () => {
-    const prev = current - 1;
-    if (prev >= 0) flyTo(prev);
-  };
-
-  // Keyboard navigation
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
       if (e.key === "ArrowRight" || e.key === " ") { e.preventDefault(); goNext(); }
@@ -159,129 +136,192 @@ export default function MapPage() {
     };
     window.addEventListener("keydown", handler);
     return () => window.removeEventListener("keydown", handler);
-  });
+  }, [goNext, goPrev]);
 
   const loc = current >= 0 && current < locations.length ? locations[current] : null;
   const phaseColor = loc ? (PHASE_COLORS[loc.phase] || "#D4A34F") : "#D4A34F";
-  const isLastLocation = current >= locations.length - 1;
+  const isLast = current >= locations.length - 1;
+
+  // Group locations by phase
+  const grouped: Record<string, { locations: TravelLocation[]; startIdx: number }> = {};
+  let idx = 0;
+  for (const l of locations) {
+    if (!grouped[l.phase]) grouped[l.phase] = { locations: [], startIdx: idx };
+    grouped[l.phase].locations.push(l);
+    idx++;
+  }
 
   if (loading || !globeReady) {
     return (
-      <div className="fixed inset-0 flex items-center justify-center" style={{
-        background: 'linear-gradient(170deg, #1a0f0a 0%, #0a0604 100%)',
-      }}>
+      <div className="fixed inset-0 flex items-center justify-center" style={{ background: '#080604' }}>
         <div className="text-center">
           <div className="w-12 h-12 border-2 border-transparent rounded-full animate-spin mb-6 mx-auto" style={{ borderTopColor: '#D4A34F' }} />
-          <p className="text-sm" style={{ color: '#9B8A72' }}>Loading the globe...</p>
+          <p className="text-sm" style={{ color: '#9B8A72', fontFamily: '"Cormorant Garamond", serif' }}>Loading the globe...</p>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="fixed inset-0 overflow-hidden" style={{ background: "#000" }}>
+    <div className="fixed inset-0 overflow-hidden" style={{ background: "#080604" }}>
       <div ref={globeContainerRef} className="absolute inset-0" />
 
-      {/* Header */}
-      <div className="absolute top-0 left-0 right-0 z-10 px-6 py-4" style={{
-        background: 'linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, transparent 100%)',
+      {/* ── Top bar ── */}
+      <div className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-5 py-3" style={{
+        background: 'linear-gradient(to bottom, rgba(8,6,4,0.8) 0%, transparent 100%)',
       }}>
-        <div className="flex items-center justify-between">
+        <div className="flex items-center gap-3">
+          <button
+            onClick={() => setSidebarOpen(!sidebarOpen)}
+            className="w-10 h-10 rounded-xl flex items-center justify-center text-lg transition-all active:scale-90"
+            style={{ background: 'rgba(255,255,255,0.06)', color: '#C8A882', border: '1px solid rgba(255,255,255,0.08)' }}
+          >
+            {sidebarOpen ? '✕' : '☰'}
+          </button>
           <div>
-            <h1 className="text-2xl font-semibold" style={{
-              fontFamily: '"Cormorant Garamond", serif', color: '#F5EDE0',
-              textShadow: '0 2px 8px rgba(0,0,0,0.5)',
-            }}>
-              Vivekananda&apos;s World Travels
+            <h1 className="text-lg font-semibold" style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5EDE0' }}>
+              Vivekananda&apos;s Travels
             </h1>
-            <p className="text-xs mt-0.5" style={{ color: '#9B8A72' }}>
-              Journey of a Parivrajaka (1863&ndash;1902) &middot; {locations.length} locations
-            </p>
+            {loc && (
+              <p className="text-[10px] font-mono" style={{ color: phaseColor }}>
+                {current + 1} / {locations.length}
+              </p>
+            )}
           </div>
-          <a href="/" className="px-3 py-1.5 rounded-full text-xs font-medium" style={{
-            background: 'rgba(255,255,255,0.1)', color: '#C8A882', border: '1px solid rgba(255,255,255,0.1)',
-          }}>
-            ← Home
-          </a>
         </div>
+        <a href="/" className="px-3 py-1.5 rounded-lg text-xs" style={{
+          background: 'rgba(255,255,255,0.06)', color: '#9B8A72', border: '1px solid rgba(255,255,255,0.08)',
+        }}>← Home</a>
       </div>
 
-      {/* Timeline — left side */}
-      <div className="absolute left-3 top-20 bottom-20 z-10 w-48 overflow-y-auto kiosk-scroll" style={{
-        maskImage: 'linear-gradient(to bottom, transparent, black 20px, black calc(100% - 20px), transparent)',
-        WebkitMaskImage: 'linear-gradient(to bottom, transparent, black 20px, black calc(100% - 20px), transparent)',
-      }}>
-        <div className="space-y-0.5 py-4">
-          {locations.map((l, i) => {
-            const isActive = i === current;
-            const isVisited = i <= visitedUpTo;
-            const color = PHASE_COLORS[l.phase] || "#D4A34F";
+      {/* ── Phase navigator sidebar ── */}
+      <div
+        className="absolute top-0 left-0 bottom-0 z-30 transition-transform duration-300 overflow-hidden"
+        style={{
+          width: '320px',
+          transform: sidebarOpen ? 'translateX(0)' : 'translateX(-320px)',
+          background: 'rgba(8,6,4,0.95)',
+          backdropFilter: 'blur(20px)',
+          borderRight: '1px solid rgba(212,163,79,0.08)',
+        }}
+      >
+        <div className="p-5 pt-16 h-full overflow-y-auto kiosk-scroll">
+          <p className="text-[10px] uppercase tracking-[0.2em] font-medium mb-4" style={{ color: '#9B8A72' }}>
+            Life Phases
+          </p>
+
+          {PHASES.map((phase) => {
+            const group = grouped[phase.id];
+            if (!group) return null;
+            const isOpen = expandedPhase === phase.id;
+            const hasActive = loc?.phase === phase.id;
+
             return (
-              <button
-                key={l.id}
-                onClick={() => flyTo(i)}
-                className="w-full text-left px-3 py-1.5 rounded-lg text-[10px] leading-tight transition-all flex items-center gap-2"
-                style={{
-                  background: isActive ? 'rgba(255,255,255,0.12)' : 'transparent',
-                  color: isActive ? '#F5EDE0' : isVisited ? '#9B8A72' : 'rgba(155,138,114,0.4)',
-                }}
-              >
-                <div className="w-1.5 h-1.5 rounded-full shrink-0" style={{
-                  background: isActive ? '#FFD700' : isVisited ? color : 'rgba(155,138,114,0.3)',
-                  boxShadow: isActive ? `0 0 6px ${color}` : 'none',
-                }} />
-                <span className="truncate">{l.name}</span>
-              </button>
+              <div key={phase.id} className="mb-2">
+                {/* Phase header */}
+                <button
+                  onClick={() => setExpandedPhase(isOpen ? null : phase.id)}
+                  className="w-full text-left px-3 py-3 rounded-xl flex items-center gap-3 transition-all"
+                  style={{
+                    background: hasActive ? 'rgba(255,255,255,0.06)' : 'transparent',
+                    border: hasActive ? `1px solid ${phase.color}30` : '1px solid transparent',
+                  }}
+                >
+                  <span className="text-lg">{phase.icon}</span>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-medium" style={{ color: hasActive ? '#F5EDE0' : '#C8A882' }}>{phase.label}</p>
+                    <p className="text-[10px]" style={{ color: '#9B8A72' }}>{phase.years} &middot; {group.locations.length} places</p>
+                  </div>
+                  <span className="text-xs" style={{ color: phase.color }}>{isOpen ? '▾' : '▸'}</span>
+                </button>
+
+                {/* Expanded location list */}
+                {isOpen && (
+                  <div className="ml-4 mt-1 mb-2 pl-3" style={{ borderLeft: `2px solid ${phase.color}30` }}>
+                    {group.locations.map((l, i) => {
+                      const globalIdx = group.startIdx + i;
+                      const isActive = globalIdx === current;
+                      return (
+                        <button
+                          key={l.id}
+                          ref={isActive ? activeItemRef : undefined}
+                          onClick={() => { flyTo(globalIdx); setSidebarOpen(false); }}
+                          className="w-full text-left px-2 py-1.5 rounded-lg text-xs transition-all flex items-center gap-2"
+                          style={{
+                            background: isActive ? `${phase.color}20` : 'transparent',
+                            color: isActive ? '#F5EDE0' : '#9B8A72',
+                          }}
+                        >
+                          <div className="w-1.5 h-1.5 rounded-full shrink-0" style={{
+                            background: isActive ? phase.color : `${phase.color}40`,
+                            boxShadow: isActive ? `0 0 6px ${phase.color}` : 'none',
+                          }} />
+                          <span className="truncate">{l.name.split(' — ')[0]}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                )}
+              </div>
             );
           })}
         </div>
       </div>
 
-      {/* Info panel + navigation — bottom */}
+      {/* ── Sidebar overlay ── */}
+      {sidebarOpen && (
+        <div className="absolute inset-0 z-20" onClick={() => setSidebarOpen(false)} />
+      )}
+
+      {/* ── Bottom info + navigation ── */}
       {loc ? (
         <div className="absolute bottom-0 left-0 right-0 z-10" style={{
-          background: 'linear-gradient(to top, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.7) 70%, transparent 100%)',
+          background: 'linear-gradient(to top, rgba(8,6,4,0.95) 0%, rgba(8,6,4,0.7) 70%, transparent 100%)',
         }}>
-          <div className="px-6 pb-5 pt-14">
-            <div className="flex items-center gap-3 mb-2">
-              <div className="w-2.5 h-2.5 rounded-full" style={{ background: phaseColor, boxShadow: `0 0 8px ${phaseColor}` }} />
-              <span className="text-[10px] uppercase tracking-[0.2em] font-medium" style={{ color: phaseColor }}>{loc.phase}</span>
-              <span className="text-[10px]" style={{ color: 'rgba(200,168,130,0.5)' }}>&middot;</span>
-              <span className="text-[10px] font-mono" style={{ color: '#C8A882' }}>{loc.year}</span>
-              <span className="text-[10px]" style={{ color: 'rgba(200,168,130,0.5)' }}>&middot;</span>
-              <span className="text-[10px]" style={{ color: 'rgba(200,168,130,0.5)' }}>{current + 1} / {locations.length}</span>
+          <div className="px-5 pb-4 pt-10">
+            {/* Phase + year + counter */}
+            <div className="flex items-center gap-2 mb-1.5">
+              <div className="w-2 h-2 rounded-full" style={{ background: phaseColor, boxShadow: `0 0 8px ${phaseColor}` }} />
+              <span className="text-[10px] uppercase tracking-[0.15em] font-semibold" style={{ color: phaseColor }}>{loc.phase}</span>
+              <span className="text-[10px]" style={{ color: 'rgba(155,138,114,0.4)' }}>&middot; {loc.year}</span>
             </div>
 
-            <h2 className="text-2xl font-semibold mb-1" style={{
+            {/* Name + country */}
+            <h2 className="text-xl font-semibold leading-tight" style={{
               fontFamily: '"Cormorant Garamond", serif', color: '#F5EDE0',
-              textShadow: '0 2px 12px rgba(0,0,0,0.5)',
             }}>
-              {loc.name}
+              {loc.name.split(' — ')[0]}
             </h2>
-            <p className="text-xs mb-2" style={{ color: '#9B8A72' }}>{loc.country}</p>
-            <p className="text-sm leading-relaxed mb-4" style={{ color: 'rgba(217,203,186,0.85)', maxWidth: '800px' }}>
-              {loc.description}
-            </p>
+            <p className="text-[11px] mt-0.5 mb-2" style={{ color: '#9B8A72' }}>{loc.country}</p>
 
-            {/* Navigation buttons — prominent */}
-            <div className="flex items-center gap-3">
+            {/* Description */}
+            {loc.description && (
+              <p className="text-xs leading-relaxed mb-3" style={{ color: 'rgba(217,203,186,0.8)', maxWidth: '700px' }}>
+                {loc.description.length > 250 ? loc.description.substring(0, 250).replace(/\s\S*$/, '') + '...' : loc.description}
+              </p>
+            )}
+
+            {/* Navigation */}
+            <div className="flex items-center gap-2">
               <button
                 onClick={goPrev}
                 disabled={current <= 0}
-                className="px-6 py-3 rounded-xl text-sm font-medium disabled:opacity-20 transition-all active:scale-95"
-                style={{ background: 'rgba(255,255,255,0.08)', color: '#C8A882', border: '1px solid rgba(255,255,255,0.1)' }}
+                className="px-5 py-2.5 rounded-xl text-xs font-medium disabled:opacity-20 transition-all active:scale-95"
+                style={{ background: 'rgba(255,255,255,0.06)', color: '#C8A882', border: '1px solid rgba(255,255,255,0.08)' }}
               >
-                ← Previous
+                ← Prev
               </button>
-              {isLastLocation ? (
-                <div className="px-6 py-3 rounded-xl text-sm font-medium" style={{ background: 'rgba(231,76,60,0.15)', color: '#E74C3C', border: '1px solid rgba(231,76,60,0.3)' }}>
-                  End of Journey &middot; Om Shanti
+              {isLast ? (
+                <div className="flex-1 text-center py-2.5 rounded-xl text-xs font-semibold" style={{
+                  background: 'rgba(231,76,60,0.12)', color: '#E74C3C', border: '1px solid rgba(231,76,60,0.2)',
+                }}>
+                  ॐ &nbsp;End of Journey &nbsp;·&nbsp; Om Shanti
                 </div>
               ) : (
                 <button
                   onClick={goNext}
-                  className="px-6 py-3 rounded-xl text-sm font-medium transition-all active:scale-95"
-                  style={{ background: 'rgba(212,163,79,0.15)', color: '#E8C06A', border: '1px solid rgba(212,163,79,0.3)' }}
+                  className="flex-1 py-2.5 rounded-xl text-xs font-medium transition-all active:scale-95"
+                  style={{ background: 'rgba(212,163,79,0.12)', color: '#E8C06A', border: '1px solid rgba(212,163,79,0.2)' }}
                 >
                   Next →
                 </button>
@@ -290,22 +330,23 @@ export default function MapPage() {
           </div>
         </div>
       ) : (
-        /* Start prompt */
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 text-center">
+        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10 text-center">
           <button
             onClick={() => flyTo(0)}
-            className="px-8 py-3 rounded-full text-base font-medium transition-all active:scale-95"
+            className="px-8 py-3 rounded-2xl text-sm font-semibold transition-all active:scale-95"
             style={{
-              background: 'rgba(212,163,79,0.2)', color: '#E8C06A',
-              border: '1px solid rgba(212,163,79,0.3)',
-              backdropFilter: 'blur(10px)',
-              boxShadow: '0 4px 30px rgba(212,163,79,0.15)',
+              background: 'rgba(212,163,79,0.15)', color: '#E8C06A',
+              border: '1px solid rgba(212,163,79,0.25)',
+              backdropFilter: 'blur(12px)',
+              boxShadow: '0 4px 30px rgba(212,163,79,0.1)',
+              fontFamily: '"Cormorant Garamond", serif',
+              letterSpacing: '0.05em',
             }}
           >
             Begin the Journey
           </button>
-          <p className="text-[10px] mt-3" style={{ color: 'rgba(155,138,114,0.4)' }}>
-            {locations.length} locations across 4 continents &middot; 1863–1902
+          <p className="text-[10px] mt-2 font-mono" style={{ color: 'rgba(155,138,114,0.4)' }}>
+            {locations.length} locations &middot; 1863–1902
           </p>
         </div>
       )}
