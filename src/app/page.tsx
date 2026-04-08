@@ -32,7 +32,7 @@ const modules = [
   {
     href: "/map",
     title: "World Travels",
-    subtitle: "Trace his journey from India to the West",
+    subtitle: "Interactive Cesium globe · 5 phases · timeline & country filters",
     symbol: "🌏",
     accent: "#C8A882",
   },
