@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swami Vivekananda — Travels of a World Teacher</title>
+
+  <!-- CesiumJS -->
+  <link rel="stylesheet" href="https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/Widgets/widgets.css" />
+  <script src="https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/Cesium.js"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Lora:ital,wght@0,400;0,500;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ─── Reset & Base ──────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg-dark:    #0D0702;   /* deep saffron-black */
+      --bg-panel:   #140A03;   /* dark ochre panel */
+      --bg-card:    #1A0E05;   /* card bg */
+      --bg-hover:   #221407;   /* hover state */
+      --border:     rgba(180,90,15,0.28);
+      --gold:       #C8701A;   /* burnt ochre — saffron monk robe */
+      --gold-dim:   rgba(200,112,26,0.65);
+      --text-main:  #F0E2CC;   /* warm cream */
+      --text-dim:   #A07040;   /* warm tan-ochre */
+      --text-muted: #6B4220;   /* deep warm ochre-brown */
+      --panel-w:    340px;
+      --header-h:   64px;
+      --timeline-h: 54px;
+      --transition: 0.25s ease;
+    }
+
+    html, body { height: 100%; overflow: hidden; background: var(--bg-dark); font-family: 'Inter', sans-serif; color: var(--text-main); }
+
+    /* ─── Loading Overlay ───────────────────────────────── */
+    #loading-overlay {
+      position: fixed; inset: 0; z-index: 9999;
+      background: var(--bg-dark);
+      display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 24px;
+    }
+    .loading-logo { font-family: 'Cinzel', serif; font-size: 28px; font-weight: 700; color: var(--gold); letter-spacing: 0.05em; text-align: center; }
+    .loading-sub  { font-size: 14px; color: var(--text-dim); letter-spacing: 0.08em; }
+    .loading-spinner { width: 48px; height: 48px; border: 3px solid rgba(200,112,26,0.22); border-top-color: var(--gold); border-radius: 50%; animation: spin 1s linear infinite; }
+    #loading-text { font-size: 13px; color: var(--text-muted); }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ─── Layout ────────────────────────────────────────── */
+    #app { display: flex; flex-direction: column; height: 100vh; }
+
+    /* ─── Header ────────────────────────────────────────── */
+    #header {
+      height: var(--header-h); flex-shrink: 0;
+      display: flex; align-items: center; gap: 12px;
+      padding: 0 16px;
+      background: linear-gradient(90deg, #160904 0%, #1C0D05 100%);
+      border-bottom: 1px solid var(--border);
+      z-index: 100; position: relative;
+    }
+    .header-logo { width: 40px; height: 40px; border-radius: 50%; border: 2px solid var(--gold); object-fit: cover; flex-shrink: 0; }
+    .header-titles { flex: 1; min-width: 0; }
+    .header-title { font-family: 'Cinzel', serif; font-size: 16px; font-weight: 700; color: var(--gold); letter-spacing: 0.04em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .header-sub   { font-size: 11px; color: var(--text-dim); letter-spacing: 0.06em; margin-top: 1px; }
+    .header-stats { display: flex; gap: 16px; flex-shrink: 0; font-size: 12px; color: var(--text-dim); }
+    .stat-item    { display: flex; flex-direction: column; align-items: center; gap: 2px; }
+    .stat-num     { font-size: 18px; font-weight: 600; color: var(--gold); font-family: 'Cinzel', serif; }
+
+    .header-btn {
+      background: rgba(200,112,26,0.12); border: 1px solid var(--border);
+      color: var(--gold); padding: 7px 12px; border-radius: 6px;
+      font-size: 11px; cursor: pointer; flex-shrink: 0; letter-spacing: 0.04em;
+      transition: background var(--transition); white-space: nowrap;
+    }
+    .header-btn:hover { background: rgba(200,112,26,0.26); }
+    .header-btn.playing {
+      background: rgba(231,76,60,0.15); border-color: rgba(231,76,60,0.4);
+      color: #e74c3c;
+    }
+    .header-btn.playing:hover { background: rgba(231,76,60,0.28); }
+
+    /* ─── Main row ───────────────────────────────────────── */
+    #main-row { flex: 1; display: flex; min-height: 0; position: relative; }
+
+    /* ─── Left Sidebar ───────────────────────────────────── */
+    #sidebar {
+      width: var(--panel-w); flex-shrink: 0;
+      background: var(--bg-panel);
+      border-right: 1px solid var(--border);
+      display: flex; flex-direction: column;
+      overflow: hidden; z-index: 10;
+      transition: width 0.3s cubic-bezier(0.4,0,0.2,1);
+      position: relative;
+    }
+    #sidebar.collapsed { width: 0; border-right-color: transparent; }
+
+    /* Sidebar toggle tab */
+    #sidebar-toggle {
+      position: absolute; right: -14px; top: 50%; transform: translateY(-50%);
+      z-index: 20; width: 14px; height: 48px;
+      background: var(--bg-panel); border: 1px solid var(--border);
+      border-left: none; border-radius: 0 6px 6px 0;
+      color: var(--gold-dim); font-size: 10px; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      transition: background var(--transition), color var(--transition);
+    }
+    #sidebar-toggle:hover { background: var(--bg-hover); color: var(--gold); }
+    #sidebar.collapsed + #sidebar-toggle,
+    #sidebar.collapsed ~ #sidebar-toggle { /* handled by JS text change */ }
+
+    /* Tabs */
+    .tab-bar { display: flex; border-bottom: 1px solid var(--border); flex-shrink: 0; }
+    .tab-btn { flex: 1; padding: 12px 8px; background: none; border: none; color: var(--text-dim); font-size: 12px; font-weight: 500; letter-spacing: 0.05em; cursor: pointer; transition: color var(--transition), border-bottom var(--transition); border-bottom: 2px solid transparent; }
+    .tab-btn.active { color: var(--gold); border-bottom-color: var(--gold); }
+    .tab-btn:hover:not(.active) { color: var(--text-main); }
+
+    .tab-panel { display: none; flex: 1; flex-direction: column; overflow: hidden; }
+    .tab-panel.active { display: flex; }
+
+    /* ── Phases tab ── */
+    #tab-phases { padding: 16px; overflow-y: auto; gap: 10px; }
+    .phase-legend-title { font-size: 11px; font-weight: 600; letter-spacing: 0.1em; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px; }
+    #phase-legend { display: flex; flex-direction: column; gap: 6px; }
+    .phase-item { display: flex; align-items: center; gap: 10px; padding: 10px 12px; border-radius: 8px; border: 1px solid transparent; background: var(--bg-card); cursor: pointer; transition: all var(--transition); opacity: 0.4; }
+    .phase-item.active { opacity: 1; border-color: var(--border); }
+    .phase-item:hover { background: var(--bg-hover); }
+    .phase-item.all-phases { border-color: rgba(200,112,26,0.36); }
+    .phase-dot   { width: 12px; height: 12px; border-radius: 50%; flex-shrink: 0; }
+    .phase-label { flex: 1; font-size: 12px; font-weight: 500; color: var(--text-main); }
+    .phase-years { font-size: 10px; color: var(--text-muted); flex-shrink: 0; }
+    .phase-descriptions { margin-top: 16px; display: flex; flex-direction: column; gap: 8px; }
+    .phase-desc-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; padding: 12px; }
+    .phase-desc-header { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+    .phase-desc-icon  { font-size: 16px; }
+    .phase-desc-name  { font-size: 12px; font-weight: 600; }
+    .phase-desc-years { font-size: 10px; color: var(--text-muted); margin-left: auto; }
+    .phase-desc-text  { font-size: 11px; color: var(--text-dim); line-height: 1.6; }
+
+    /* ── Countries tab ── */
+    #tab-countries { padding: 16px; overflow-y: auto; gap: 6px; flex-direction: column; }
+    .country-list-title { font-size: 11px; font-weight: 600; letter-spacing: 0.1em; color: var(--text-muted); text-transform: uppercase; margin-bottom: 10px; }
+    #country-list { display: flex; flex-direction: column; gap: 5px; }
+    .country-item { display: flex; align-items: center; gap: 10px; padding: 9px 12px; border-radius: 8px; border: 1px solid transparent; background: var(--bg-card); cursor: pointer; transition: all var(--transition); opacity: 0.4; }
+    .country-item.active { opacity: 1; border-color: var(--border); }
+    .country-item:hover { background: var(--bg-hover); }
+    .country-item.all-countries { border-color: rgba(200,112,26,0.36); }
+    .country-flag { font-size: 18px; flex-shrink: 0; width: 24px; text-align: center; }
+    .country-name { flex: 1; font-size: 12px; font-weight: 500; color: var(--text-main); }
+    .country-count { font-size: 10px; color: var(--text-muted); flex-shrink: 0; background: var(--bg-dark); padding: 2px 7px; border-radius: 10px; }
+
+    /* ── Locations tab ── */
+    #tab-locations { display: flex; flex-direction: column; }
+    .search-wrap { padding: 12px; flex-shrink: 0; border-bottom: 1px solid var(--border); }
+    #search-input { width: 100%; padding: 9px 12px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; color: var(--text-main); font-size: 13px; outline: none; transition: border-color var(--transition); }
+    #search-input:focus { border-color: var(--gold-dim); }
+    #search-input::placeholder { color: var(--text-muted); }
+    #location-list { flex: 1; overflow-y: auto; padding: 8px 0; }
+    #location-list::-webkit-scrollbar { width: 4px; }
+    #location-list::-webkit-scrollbar-track { background: transparent; }
+    #location-list::-webkit-scrollbar-thumb { background: rgba(200,112,26,0.24); border-radius: 2px; }
+    .phase-section  { margin-bottom: 4px; }
+    .phase-header   { display: flex; align-items: center; gap: 10px; padding: 10px 16px 6px; border-left: 3px solid transparent; margin: 6px 8px 4px; background: var(--bg-card); border-radius: 0 6px 6px 0; }
+    .phase-icon     { font-size: 16px; flex-shrink: 0; }
+    .phase-title    { font-size: 11px; font-weight: 600; letter-spacing: 0.04em; }
+    .phase-period   { font-size: 10px; color: var(--text-muted); margin-top: 1px; }
+    .loc-item       { display: flex; align-items: center; gap: 10px; padding: 9px 16px; cursor: pointer; transition: background var(--transition); border-left: 2px solid transparent; margin-left: 12px; }
+    .loc-item:hover { background: var(--bg-hover); }
+    .loc-item.active { background: rgba(200,112,26,0.10); border-left-color: var(--gold); }
+    .loc-dot  { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+    .loc-info { min-width: 0; }
+    .loc-name { font-size: 12px; font-weight: 500; color: var(--text-main); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .loc-meta { font-size: 10px; color: var(--text-muted); margin-top: 1px; }
+
+    /* ─── Globe ──────────────────────────────────────────── */
+    #cesiumContainer { flex: 1; }
+    .cesium-widget-credits, .cesium-viewer-bottom { display: none !important; }
+
+    /* ─── Info Panel (right overlay) ────────────────────── */
+    #info-panel {
+      position: absolute; right: 0; top: 0; bottom: 0;
+      width: 360px; background: var(--bg-panel);
+      border-left: 1px solid var(--border);
+      display: flex; flex-direction: column;
+      transform: translateX(100%); transition: transform 0.35s cubic-bezier(0.4,0,0.2,1);
+      z-index: 50; overflow: hidden;
+    }
+    #info-panel.open { transform: translateX(0); }
+
+    .info-panel-header {
+      padding: 18px 20px 14px;
+      background: linear-gradient(135deg, #190A04 0%, #221006 100%);
+      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+    .info-close-btn { float: right; background: none; border: none; color: var(--text-dim); font-size: 20px; cursor: pointer; line-height: 1; transition: color var(--transition); }
+    .info-close-btn:hover { color: var(--gold); }
+    .info-phase-badge { display: inline-block; padding: 3px 10px; border-radius: 20px; border: 1px solid; font-size: 10px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 10px; }
+    .info-title  { font-family: 'Cinzel', serif; font-size: 18px; font-weight: 700; color: var(--gold); line-height: 1.3; margin-bottom: 6px; }
+    .info-place  { font-size: 12px; color: var(--text-dim); margin-bottom: 4px; }
+    .info-date   { font-size: 12px; color: var(--text-muted); }
+
+    .info-panel-body { flex: 1; overflow-y: auto; padding: 0 0 16px; }
+    .info-panel-body::-webkit-scrollbar { width: 4px; }
+    .info-panel-body::-webkit-scrollbar-thumb { background: rgba(200,112,26,0.24); border-radius: 2px; }
+    .info-panel-content { padding: 16px 20px; }
+
+    /* Location image */
+    .info-image-wrap { position: relative; width: 100%; overflow: hidden; background: #0D0702; flex-shrink: 0; }
+    .info-image { display: block; width: 100%; height: 180px; object-fit: cover; object-position: center; }
+    .info-image-caption { position: absolute; bottom: 0; left: 0; right: 0; padding: 6px 10px; font-size: 9px; color: rgba(255,255,255,0.55); background: linear-gradient(transparent, rgba(0,0,0,0.65)); letter-spacing: 0.04em; }
+
+    .info-sig-wrap { background: rgba(200,112,26,0.09); border: 1px solid rgba(200,112,26,0.25); border-radius: 8px; padding: 12px 14px; margin-bottom: 14px; }
+    .info-sig-label { font-size: 9px; font-weight: 700; letter-spacing: 0.12em; color: var(--gold-dim); text-transform: uppercase; margin-bottom: 4px; }
+    .info-sig { font-family: 'Lora', serif; font-size: 13px; font-style: italic; color: var(--gold); line-height: 1.4; }
+
+    /* Location-specific quote */
+    .info-quote-wrap { background: rgba(180,90,15,0.10); border: 1px solid rgba(180,90,15,0.28); border-radius: 8px; padding: 12px 14px; margin-bottom: 14px; }
+    .info-quote-label { font-size: 9px; font-weight: 700; letter-spacing: 0.12em; color: rgba(180,90,15,0.90); text-transform: uppercase; margin-bottom: 6px; }
+    .info-quote-text { font-family: 'Lora', serif; font-size: 12px; font-style: italic; color: var(--text-dim); line-height: 1.6; }
+    .info-quote-text::before { content: '\201C'; }
+    .info-quote-text::after  { content: '\201D'; }
+
+    .info-desc-label { font-size: 9px; font-weight: 700; letter-spacing: 0.12em; color: var(--text-muted); text-transform: uppercase; margin-bottom: 8px; }
+    .info-desc { font-family: 'Lora', serif; font-size: 13px; line-height: 1.75; color: var(--text-dim); }
+    .info-desc-para { margin-bottom: 12px; }
+    .info-desc-para:last-child { margin-bottom: 0; }
+    .info-rich-badge { display: inline-block; padding: 2px 8px; border-radius: 10px; background: rgba(200,112,26,0.15); border: 1px solid rgba(200,112,26,0.36); font-size: 9px; font-weight: 600; letter-spacing: 0.08em; color: var(--gold-dim); text-transform: uppercase; margin-bottom: 10px; margin-left: 6px; vertical-align: middle; }
+
+
+    /* Info panel footer — Prev / Counter / Next */
+    .info-panel-footer {
+      flex-shrink: 0; padding: 12px 16px;
+      background: var(--bg-card); border-top: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: space-between; gap: 8px;
+    }
+    .info-nav-btn {
+      background: rgba(200,112,26,0.12); border: 1px solid var(--border);
+      color: var(--gold); padding: 7px 14px; border-radius: 6px;
+      font-size: 12px; cursor: pointer; flex-shrink: 0;
+      transition: background var(--transition);
+    }
+    .info-nav-btn:hover { background: rgba(200,112,26,0.26); }
+    .info-nav-btn:disabled { opacity: 0.35; cursor: default; }
+    #info-counter { font-size: 11px; color: var(--text-muted); letter-spacing: 0.06em; flex: 1; text-align: center; }
+
+    /* ─── Floating quote ──────────────────────────────────── */
+    /* ─── Zoom Control ───────────────────────────────────── */
+    #zoom-control {
+      display: flex; flex-direction: row; align-items: center; gap: 6px;
+      flex-shrink: 0; padding-left: 14px;
+      border-left: 1px solid var(--border); user-select: none;
+    }
+    .zoom-btn { width: 26px; height: 26px; display: flex; align-items: center; justify-content: center; background: rgba(200,112,26,0.12); border: 1px solid rgba(200,112,26,0.36); border-radius: 7px; color: var(--gold); font-size: 20px; font-weight: 300; line-height: 1; cursor: pointer; flex-shrink: 0; transition: background 0.2s, border-color 0.2s; }
+    .zoom-btn:hover  { background: rgba(200,112,26,0.26); border-color: rgba(200,112,26,0.70); }
+    .zoom-btn:active { background: rgba(200,112,26,0.38); }
+    .zoom-track-wrap { width: 120px; height: 20px; display: flex; align-items: center; }
+    #zoom-slider { width: 100%; height: 4px; margin: 0; cursor: pointer; appearance: none; -webkit-appearance: none; background: transparent; outline: none; }
+    #zoom-slider::-webkit-slider-runnable-track { height: 3px; background: linear-gradient(to right, var(--gold) calc(var(--val, 30) * 1%), rgba(200,112,26,0.22) calc(var(--val, 30) * 1%)); border-radius: 2px; }
+    #zoom-slider::-moz-range-track { height: 3px; background: rgba(200,112,26,0.22); border-radius: 2px; }
+    #zoom-slider::-moz-range-progress { height: 3px; background: var(--gold); border-radius: 2px; }
+    #zoom-slider::-webkit-slider-thumb { -webkit-appearance: none; width: 14px; height: 14px; border-radius: 50%; background: var(--gold); margin-top: -5.5px; border: 2px solid #0D0702; box-shadow: 0 0 8px rgba(200,112,26,0.60); transition: transform 0.15s, box-shadow 0.15s; cursor: pointer; }
+    #zoom-slider::-webkit-slider-thumb:hover { transform: scale(1.25); box-shadow: 0 0 14px rgba(200,112,26,0.80); }
+    #zoom-slider::-moz-range-thumb { width: 14px; height: 14px; border-radius: 50%; background: var(--gold); border: 2px solid #0D0702; box-shadow: 0 0 8px rgba(200,112,26,0.60); }
+    #zoom-label { font-size: 9px; color: var(--text-muted); letter-spacing: 0.06em; min-width: 40px; text-align: right; flex-shrink: 0; }
+
+    /* ─── Timeline Bar ───────────────────────────────────── */
+    #timeline-bar {
+      height: var(--timeline-h); flex-shrink: 0;
+      background: linear-gradient(90deg, #110803 0%, #170B04 100%);
+      border-top: 1px solid var(--border);
+      display: flex; align-items: center; gap: 10px;
+      padding: 0 16px; z-index: 30;
+    }
+    .tl-end-label { font-size: 11px; font-weight: 600; color: var(--text-muted); flex-shrink: 0; font-family: 'Cinzel', serif; }
+    .tl-track-wrap { flex: 1; position: relative; height: 28px; display: flex; align-items: center; }
+    /* Static background track */
+    .tl-track-bg { position: absolute; left: 0; right: 0; top: 50%; transform: translateY(-50%); height: 4px; background: rgba(200,112,26,0.18); border-radius: 2px; z-index: 0; }
+    /* Ochre fill between the two thumbs */
+    #tl-range-fill { position: absolute; top: 50%; transform: translateY(-50%); height: 4px; background: var(--gold); border-radius: 2px; pointer-events: none; z-index: 1; left: 0%; width: 100%; }
+    /* Phase tick marks */
+    #tl-ticks { position: absolute; top: 50%; left: 0; right: 0; transform: translateY(-50%); height: 14px; pointer-events: none; z-index: 2; }
+    .tl-tick { position: absolute; top: 0; bottom: 0; width: 3px; border-radius: 1px; transform: translateX(-50%); opacity: 0.55; }
+    /* Dual range inputs — stacked on top of each other */
+    .tl-range-input {
+      position: absolute; left: 0; width: 100%;
+      appearance: none; -webkit-appearance: none;
+      background: transparent; outline: none;
+      height: 4px; pointer-events: none; z-index: 3;
+    }
+    .tl-range-input::-webkit-slider-runnable-track { background: transparent; height: 4px; }
+    .tl-range-input::-moz-range-track   { background: transparent; height: 4px; border: none; }
+    .tl-range-input::-webkit-slider-thumb {
+      -webkit-appearance: none; width: 18px; height: 18px; border-radius: 50%;
+      background: var(--gold); margin-top: -7px;
+      border: 2px solid #0D0702; box-shadow: 0 0 10px rgba(200,112,26,0.70);
+      cursor: pointer; pointer-events: all;
+    }
+    .tl-range-input::-moz-range-thumb {
+      width: 18px; height: 18px; border-radius: 50%;
+      background: var(--gold); border: 2px solid #0D0702;
+      box-shadow: 0 0 10px rgba(200,112,26,0.70);
+      cursor: pointer; pointer-events: all;
+    }
+    #year-display { font-size: 12px; font-weight: 600; color: var(--gold); letter-spacing: 0.05em; min-width: 110px; text-align: center; flex-shrink: 0; }
+    #tl-reset-btn {
+      background: rgba(200,112,26,0.12); border: 1px solid var(--border);
+      color: var(--text-dim); padding: 5px 10px; border-radius: 5px;
+      font-size: 10px; cursor: pointer; flex-shrink: 0; letter-spacing: 0.04em;
+      transition: all var(--transition);
+    }
+    #tl-reset-btn:hover { background: rgba(200,112,26,0.26); color: var(--gold); }
+
+    /* Keyboard shortcut hint */
+    .tl-hint { font-size: 9px; color: var(--text-muted); letter-spacing: 0.05em; flex-shrink: 0; display: none; }
+    @media (min-width: 1100px) { .tl-hint { display: block; } }
+
+    /* ─── Responsive ─────────────────────────────────────── */
+    @media (max-width: 900px) {
+      :root { --panel-w: 280px; }
+      #info-panel { width: 300px; }
+      .header-stats { display: none; }
+    }
+    @media (max-width: 600px) {
+      #sidebar { width: 0; }
+      #info-panel { width: 100%; }
+      .header-title { font-size: 13px; }
+      .tl-end-label { display: none; }
+      /* Shrink zoom track on small screens */
+      .zoom-track-wrap { width: 70px; }
+      #zoom-label { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Loading Overlay -->
+<div id="loading-overlay">
+  <div class="loading-logo">Swami Vivekananda</div>
+  <div class="loading-sub">Travels of a World Teacher</div>
+  <div class="loading-spinner"></div>
+  <div id="loading-text">Loading globe & location data…</div>
+</div>
+
+<!-- App shell -->
+<div id="app">
+
+  <!-- Header -->
+  <header id="header">
+    <img class="header-logo"
+         src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Swami_Vivekananda-1893-09-signed.jpg/220px-Swami_Vivekananda-1893-09-signed.jpg"
+         alt="Swami Vivekananda" onerror="this.style.display='none'" />
+    <div class="header-titles">
+      <div class="header-title">Swami Vivekananda — Travels of a World Teacher</div>
+      <div class="header-sub">1863 · Kolkata &nbsp;→&nbsp; 1902 · Belur Math · 39 years · Five Continents</div>
+    </div>
+    <div class="header-stats">
+      <div class="stat-item"><span class="stat-num" id="stat-locs">—</span><span>Locations</span></div>
+      <div class="stat-item"><span class="stat-num" id="stat-countries">—</span><span>Countries</span></div>
+      <div class="stat-item"><span class="stat-num">5</span><span>Phases</span></div>
+    </div>
+    <button id="play-btn" class="header-btn" onclick="startPlay()" title="Auto-fly through all locations in order (Space)">▶ Play Journey</button>
+    <button class="header-btn" onclick="flyHome()" title="Reset camera to full globe view">⌂ Reset View</button>
+    <a href="/" class="header-btn" style="text-decoration:none" title="Return to main menu">← Home</a>
+  </header>
+
+  <!-- Main row -->
+  <div id="main-row">
+
+    <!-- Left sidebar -->
+    <aside id="sidebar">
+      <div class="tab-bar">
+        <button class="tab-btn active" data-tab="phases"    onclick="switchTab('phases')">PHASES</button>
+        <button class="tab-btn"        data-tab="locations" onclick="switchTab('locations')">LOCATIONS</button>
+        <button class="tab-btn"        data-tab="countries" onclick="switchTab('countries')">COUNTRIES</button>
+      </div>
+
+      <!-- Phases tab -->
+      <div class="tab-panel active" id="tab-phases">
+        <div class="phase-legend-title">Filter by Phase</div>
+        <div id="phase-legend"><!-- built by JS --></div>
+        <div class="phase-descriptions" id="phase-desc-container"><!-- built by JS --></div>
+      </div>
+
+      <!-- Countries tab -->
+      <div class="tab-panel" id="tab-countries">
+        <div class="country-list-title">Filter by Country</div>
+        <div id="country-list"><!-- built by JS --></div>
+      </div>
+
+      <!-- Locations tab -->
+      <div class="tab-panel" id="tab-locations">
+        <div class="search-wrap">
+          <input type="search" id="search-input" placeholder="🔍  Search locations…" />
+        </div>
+        <div id="location-list"><!-- built by JS --></div>
+      </div>
+    </aside>
+
+    <!-- Sidebar collapse toggle -->
+    <button id="sidebar-toggle" onclick="toggleSidebar()" title="Toggle sidebar (collapse/expand)">◀</button>
+
+    <!-- Globe -->
+    <div id="cesiumContainer"></div>
+
+    <!-- Info panel (slides in from right) -->
+    <div id="info-panel">
+      <div class="info-panel-header">
+        <button class="info-close-btn" onclick="closeInfoPanel(); deselectPin(selectedEntity); selectedEntity=null;">×</button>
+        <div id="info-phase-badge" class="info-phase-badge"></div>
+        <div id="info-title" class="info-title"></div>
+        <div id="info-place" class="info-place"></div>
+        <div id="info-date"  class="info-date"></div>
+      </div>
+
+      <div class="info-panel-body">
+
+        <!-- Location image (shown only when data has an image field) -->
+        <div id="info-image-wrap" class="info-image-wrap" style="display:none">
+          <img id="info-image" class="info-image" src="" alt="" />
+          <div id="info-image-caption" class="info-image-caption"></div>
+        </div>
+
+        <div class="info-panel-content">
+        <!-- Significance -->
+        <div class="info-sig-wrap">
+          <div class="info-sig-label">Significance</div>
+          <div id="info-sig" class="info-sig"></div>
+        </div>
+
+        <!-- Historical account -->
+        <div class="info-desc-label">
+          Historical Account
+          <span id="info-rich-badge" class="info-rich-badge" style="display:none">Detailed Account</span>
+        </div>
+        <div id="info-desc" class="info-desc"></div>
+
+        </div><!-- /info-panel-content -->
+      </div><!-- /info-panel-body -->
+
+      <!-- Footer: Prev / Counter / Next -->
+      <div class="info-panel-footer">
+        <button class="info-nav-btn" onclick="goPrev()" title="Previous location (← arrow key)">← Prev</button>
+        <span id="info-counter">— / —</span>
+        <button class="info-nav-btn" onclick="goNext()" title="Next location (→ arrow key)">Next →</button>
+      </div>
+    </div>
+
+  </div><!-- /main-row -->
+
+  <!-- Timeline bar — spans full width, below globe -->
+  <div id="timeline-bar">
+    <span class="tl-end-label">1863</span>
+    <div class="tl-track-wrap">
+      <div class="tl-track-bg"></div>
+      <div id="tl-range-fill"></div>
+      <div id="tl-ticks"></div>
+      <input type="range" class="tl-range-input" id="year-slider-start" min="1863" max="1902" value="1863" />
+      <input type="range" class="tl-range-input" id="year-slider-end"   min="1863" max="1902" value="1902" />
+    </div>
+    <span class="tl-end-label">1902</span>
+    <span id="year-display">All Years</span>
+    <button id="tl-reset-btn">Show All</button>
+    <span class="tl-hint">← → navigate &nbsp;·&nbsp; Space play &nbsp;·&nbsp; Esc close</span>
+
+    <!-- Zoom control — horizontal, inline in timeline bar -->
+    <div id="zoom-control">
+      <button id="zoom-out-btn" class="zoom-btn" title="Zoom out">−</button>
+      <div class="zoom-track-wrap">
+        <input type="range" id="zoom-slider" min="0" max="100" value="30" />
+      </div>
+      <button id="zoom-in-btn"  class="zoom-btn" title="Zoom in">+</button>
+      <div id="zoom-label">—</div>
+    </div>
+  </div>
+
+</div><!-- /app -->
+
+<script src="data/data.js"></script>
+<script src="data/phase_images.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
