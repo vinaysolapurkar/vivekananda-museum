@@ -174,7 +174,7 @@
     .loc-meta { font-size: 10px; color: var(--text-muted); margin-top: 1px; }
 
     /* ─── Globe ──────────────────────────────────────────── */
-    #cesiumContainer { flex: 1; }
+    #cesiumContainer { flex: 1; touch-action: none; }
     .cesium-widget-credits, .cesium-viewer-bottom { display: none !important; }
 
     /* ─── Info Panel (right overlay) ────────────────────── */
@@ -322,14 +322,57 @@
       #info-panel { width: 300px; }
       .header-stats { display: none; }
     }
+
     @media (max-width: 600px) {
-      #sidebar { width: 0; }
-      #info-panel { width: 100%; }
-      .header-title { font-size: 13px; }
-      .tl-end-label { display: none; }
-      /* Shrink zoom track on small screens */
-      .zoom-track-wrap { width: 70px; }
-      #zoom-label { display: none; }
+      :root {
+        --header-h:   54px;
+        --timeline-h: 64px;
+      }
+
+      /* ── Header ── */
+      #header { padding: 0 10px; gap: 8px; }
+      .header-logo  { width: 32px; height: 32px; }
+      .header-title { font-size: 12px; }
+      .header-sub   { display: none; }
+      #reset-btn    { display: none; }           /* hide Reset View — pinch replaces it */
+      .header-btn   { padding: 9px 10px; font-size: 11px; min-height: 40px; }
+
+      /* ── Sidebar — hide toggle tab (too narrow to tap) ── */
+      #sidebar        { width: 0; }
+      #sidebar-toggle { display: none; }
+
+      /* ── Info panel — full width, bigger touch targets ── */
+      #info-panel    { width: 100%; }
+      .info-title    { font-size: 15px; }
+      .info-close-btn {
+        font-size: 24px;
+        min-width: 44px; min-height: 44px;
+        display: flex; align-items: center; justify-content: center;
+        float: none; margin-left: auto;
+      }
+      .info-panel-header { display: flex; flex-direction: column; }
+      .info-nav-btn  {
+        flex: 1; text-align: center;
+        padding: 14px 10px; font-size: 14px; min-height: 50px;
+      }
+      #info-counter  { font-size: 12px; }
+
+      /* ── Timeline — hide zoom control (pinch-to-zoom works) ── */
+      .tl-end-label  { display: none; }
+      #zoom-control  { display: none; }
+      #timeline-bar  { padding: 0 10px; gap: 6px; }
+      #year-display  { font-size: 11px; min-width: 86px; }
+      #tl-reset-btn  { padding: 9px 10px; font-size: 10px; }
+
+      /* ── Timeline slider thumbs — bigger for fingers ── */
+      .tl-track-wrap { height: 40px; }
+      .tl-range-input::-webkit-slider-thumb {
+        width: 28px; height: 28px; margin-top: -12px;
+        box-shadow: 0 0 12px rgba(200,112,26,0.80);
+      }
+      .tl-range-input::-moz-range-thumb {
+        width: 28px; height: 28px;
+      }
     }
   </style>
 </head>
@@ -361,7 +404,7 @@
       <div class="stat-item"><span class="stat-num">5</span><span>Phases</span></div>
     </div>
     <button id="play-btn" class="header-btn" onclick="startPlay()" title="Auto-fly through all locations in order (Space)">▶ Play Journey</button>
-    <button class="header-btn" onclick="flyHome()" title="Reset camera to full globe view">⌂ Reset View</button>
+    <button id="reset-btn" class="header-btn" onclick="flyHome()" title="Reset camera to full globe view">⌂ Reset View</button>
     <a href="/" class="header-btn" style="text-decoration:none" title="Return to main menu">← Home</a>
   </header>
 
