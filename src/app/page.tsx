@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const modules = [
+const modules: { href: string; title: string; subtitle: string; symbol: string; accent: string; target?: string }[] = [
   {
     href: "/guide",
     title: "Audio Guide",
@@ -16,11 +16,12 @@ const modules = [
     accent: "#C8963E",
   },
   {
-    href: "/chat",
+    href: "https://madhuraank-sv-ai.hf.space",
     title: "Speak with Swamiji",
     subtitle: "AI-guided wisdom from his teachings",
     symbol: "🙏",
     accent: "#7A9E7D",
+    target: "_blank",
   },
   {
     href: "/quiz",
@@ -143,6 +144,7 @@ export default function Home() {
             <Link
               key={m.href}
               href={m.href}
+              {...(m.target ? { target: m.target, rel: "noopener noreferrer" } : {})}
               className="group rounded-2xl p-5 flex flex-col animate-fade-in-up transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]"
               style={{
                 animationDelay: `${i * 80}ms`,
