@@ -1,5 +1,6 @@
-import { writeFile, mkdir } from "fs/promises";
+import { mkdir } from "fs/promises";
 import { join } from "path";
+import sharp from "sharp";
 import db from "@/lib/db";
 import { ensureDb } from "@/lib/init-db";
 
@@ -37,11 +38,10 @@ export async function POST(request: Request) {
   const dir = join(process.cwd(), "public", "uploads", "slideshow");
   await mkdir(dir, { recursive: true });
 
-  const ext = file.name?.split(".").pop()?.toLowerCase() || "jpg";
-  const fileName = `slide_${Date.now()}.${ext}`;
+  const fileName = `slide_${Date.now()}.jpg`;
   const filePath = join(dir, fileName);
   const buffer = Buffer.from(await file.arrayBuffer());
-  await writeFile(filePath, buffer);
+  await sharp(buffer).jpeg({ quality: 82 }).toFile(filePath);
 
   const imageUrl = `/uploads/slideshow/${fileName}`;
 

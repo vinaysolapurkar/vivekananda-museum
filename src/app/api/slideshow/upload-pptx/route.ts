@@ -85,8 +85,8 @@ export async function POST(request: Request) {
 
     const imageBuffer = await mediaFile.async("nodebuffer");
 
-    // Output as PNG always (clean, lossless)
-    const outputName = `slide_${timestamp}_${String(i + 1).padStart(3, "0")}.png`;
+    // Output as JPEG (quality 82 — good balance of quality vs file size)
+    const outputName = `slide_${timestamp}_${String(i + 1).padStart(3, "0")}.jpg`;
     const outputPath = join(dir, outputName);
 
     if (shouldCrop) {
@@ -98,11 +98,11 @@ export async function POST(request: Request) {
 
       await sharp(imageBuffer)
         .extract({ left: 0, top: 0, width, height: cropHeight })
-        .png()
+        .jpeg({ quality: 82 })
         .toFile(outputPath);
     } else {
-      // Just convert to PNG without cropping
-      await sharp(imageBuffer).png().toFile(outputPath);
+      // Just convert to JPEG without cropping
+      await sharp(imageBuffer).jpeg({ quality: 82 }).toFile(outputPath);
     }
 
     const imageUrl = `/uploads/slideshow/${outputName}`;
