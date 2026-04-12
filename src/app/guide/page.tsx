@@ -233,12 +233,14 @@ export default function GuidePage() {
                   }}
                 >
                   {station.gallery_zone && (
-                    <span
-                      className="absolute top-2 right-2 text-[8px] px-2 py-0.5 rounded-full font-medium"
-                      style={{ background: 'rgba(212,163,79,0.1)', color: '#C8A882' }}
-                    >
-                      {station.gallery_zone}
-                    </span>
+                    <div className="absolute top-2 inset-x-0 flex justify-center px-1">
+                      <span
+                        className="text-[8px] px-2 py-0.5 rounded-full font-medium truncate max-w-full"
+                        style={{ background: 'rgba(212,163,79,0.1)', color: '#C8A882' }}
+                      >
+                        {station.gallery_zone}
+                      </span>
+                    </div>
                   )}
                   <span
                     className="text-3xl font-semibold mb-1 transition-colors group-hover:text-[#E8C06A]"
@@ -246,7 +248,7 @@ export default function GuidePage() {
                   >
                     {station.number}
                   </span>
-                  <span className="text-xs leading-tight line-clamp-2 px-1" style={{ color: '#C8A882' }}>
+                  <span className="text-xs leading-tight px-1 w-full" style={{ color: '#C8A882', textAlign: 'center', overflow: 'hidden', display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical' } as React.CSSProperties}>
                     {lang === 'kn' && station.title_kn ? station.title_kn :
                      lang === 'hi' && station.title_hi ? station.title_hi :
                      station.title || `Station ${station.number}`}

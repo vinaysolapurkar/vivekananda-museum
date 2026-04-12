@@ -4,9 +4,23 @@ import { ensureDb } from "@/lib/init-db";
 export async function GET(_: Request, { params }: { params: Promise<{ id: string }> }) {
   await ensureDb();
   const { id } = await params;
-  
+
   const cat = await db.execute({ sql: "SELECT * FROM slideshow_categories WHERE id = ?", args: [Number(id)] });
   if (cat.rows.length === 0) return Response.json({ error: "Not found" }, { status: 404 });
+
+  // If this is a group category, return its children with image counts
+  const children = await db.execute({
+    sql: `SELECT c.*, COUNT(i.id) as image_count
+          FROM slideshow_categories c
+          LEFT JOIN slideshow_images i ON i.category_id = c.id AND i.is_active = 1
+          WHERE c.parent_id = ? AND c.is_active = 1
+          GROUP BY c.id ORDER BY c.sort_order ASC, c.id ASC`,
+    args: [Number(id)],
+  });
+
+  if (children.rows.length > 0) {
+    return Response.json({ category: cat.rows[0], children: children.rows });
+  }
 
   const images = await db.execute({
     sql: "SELECT * FROM slideshow_images WHERE category_id = ? AND is_active = 1 ORDER BY sort_order ASC, id ASC",

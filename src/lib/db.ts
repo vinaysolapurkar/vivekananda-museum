@@ -197,4 +197,11 @@ export async function initializeDatabase() {
   } catch {
     // Column already exists — ignore
   }
+
+  // Add parent_id for grouped/nested category navigation
+  try {
+    await db.execute({ sql: "ALTER TABLE slideshow_categories ADD COLUMN parent_id INTEGER REFERENCES slideshow_categories(id)", args: [] });
+  } catch {
+    // Column already exists — ignore
+  }
 }
