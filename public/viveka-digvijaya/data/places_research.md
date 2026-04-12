@@ -1,24 +1,30 @@
 # Swami Vivekananda's Places — Research Notes
 
-*References drawn from two sources:*
+*References drawn from five sources:*
 
 1. **Complete Works of Swami Vivekananda** — Swamiji's own words, letters, and lectures
 
 2. **The Life of Swami Vivekananda** (1960) — authoritative biography by Eastern & Western disciples
 
+3. **The Master As I Saw Him** (Sister Nivedita, 1910) — eyewitness account by his close disciple
 
-*Each entry includes: period of visit, significance, and relevant passages from both sources.*
+4. **Swami Vivekananda In America: New Discoveries** (Marie Louise Burke, 1958) — detailed study of the American tour using newspaper archives and firsthand accounts
+
+5. **Vivekananda on Himself** (Centenary, 1959) — Swamiji's own letters and accounts of his life and travels
+
+
+*Each entry includes: period of visit, significance, and relevant passages from all available sources.*
 
 
 ---
 
 ## Contents
 
-- **Early Life & Indian Wandering (1863–1893)** — 118 locations (83 with Complete Works refs, 78 with Biography refs)
-- **First Western Tour & Parliament of Religions (1893–1897)** — 195 locations (167 with Complete Works refs, 130 with Biography refs)
-- **Return to India & Mission Building (1897–1899)** — 90 locations (76 with Complete Works refs, 81 with Biography refs)
-- **Second Western Tour (1899–1900)** — 23 locations (16 with Complete Works refs, 21 with Biography refs)
-- **Final Years in India (1900–1902)** — 7 locations (7 with Complete Works refs, 7 with Biography refs)
+- **Early Life & Indian Wandering (1863–1893)** — 118 locations (CW: 83, Biography: 78, Nivedita: 23, America: 3, Himself: 26)
+- **First Western Tour & Parliament of Religions (1893–1897)** — 195 locations (CW: 167, Biography: 130, Nivedita: 53, America: 43, Himself: 16)
+- **Return to India & Mission Building (1897–1899)** — 90 locations (CW: 76, Biography: 81, Nivedita: 34, America: 7, Himself: 21)
+- **Second Western Tour (1899–1900)** — 23 locations (CW: 16, Biography: 21, Nivedita: 7, America: 6, Himself: 6)
+- **Final Years in India (1900–1902)** — 7 locations (CW: 7, Biography: 7, Nivedita: 6, America: 0, Himself: 6)
 
 ---
 
@@ -94,6 +100,9 @@ Narendranath Datta — who would become Swami Vivekananda — was born here on 1
 *— p. 24*
 
 
+*Swami Vivekananda In America: no direct reference found.*
+
+
 ---
 
 ### Balaram Bose's House
@@ -125,7 +134,71 @@ Balaram Bose was one of Sri Ramakrishna's most devoted householder disciples. Hi
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> 177
+>                THE HOL Y WOMEN
+> knowledge that prompts           our   own words
+> and deeds.
+>    Something after this fashion was the
+> vision that grew upon me, of the world into
+> which I had entered, as the Swami's disciple,
+> on my arrival in Calcutta, early in November
+> 1898.  During the months between that date
+> and the following July, I saw him always in
+> the midst of his own people, without even the
+>
+> friendly interventionof a European home.
+> I became myself one of the people, living
+> with them in surroundings which his genius
+> had created. And thus enveloped by his inter-
+
+*— KSHIR BHOWANI*
+
+> old   altar-pieces,   against     a   golden     back-
+> ground of religious ardour and simplicity,
+> and all alike glorified by the presence of one
+> who, to us    in   his   immediate    circle,   formed
+> their central point.      We were a party of four
+> Western women, one of whom was Mrs,
+> Ole Bull of Cambridge, Massachusetts, and
+> another a member of the higher official
+> world of Anglo-Indian Calcutta.      Side by
+> side with us travelled the Swami, surrounded
+>
+> by his brethren (or gurubhais) and disciples.
+> Once arived at Almora, he and his party
+> became the guests of Mr. and Mrs. Sevier,
+> who were then residing there, and we occupi-
+> ed a bungalow some distance away. Thus
+
+*— THE SWAMI IN LONDON*
+
+> glean the record of the life that was lived at
+> this period in the monastery. When he ar-
+> rived    had taken him some two or three
+>            it
+>
+> months, by means of railway service, to earn
+> his   way to Calcutta from his old home              he
+> found the Swami on the point of setting out
+> once more.         But    for   his   sake this journey
+> was abandoned, and the departure that was
+> to    have taken place that            evening did   not
+>      THE ORDER OF RAMAKRISHNA.
+> occur till twelve months later. "The Swami's
+> mission           began   with    me,"   says   this   first
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -138,6 +211,108 @@ Balaram Bose was one of Sri Ramakrishna's most devoted householder disciples. Hi
 
 
 After Ramakrishna's passing in 1886, the young disciples rented this dilapidated house and established the first Ramakrishna Math. Narendra and his brothers lived here as renunciates, conducting rigorous spiritual practice.
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (2 references):
+
+> "
+> Paramahamsas     from the Viveka Chuda-
+> moni of Sankaracharya, there passed, as
+> the disciple would put it, "a whole night
+>
+> fermenting."  Such experiences lasted per-
+> haps for two weeks, and then the party left
+> Allahabad, and by twos and threes returned
+> to the monastery, in the village of Baranagore
+> on   the   banks        of   the      Ganges.   But now
+> there   came a time,         in the    year 1890,    when
+> the Swami left his brothers, not to return, till
+> the great triumph of the year 1897.
+>     This time he set out with a monk known
+> as Akhandananda, who took him to Almora
+> and left him there, enjoying the hospitality
+> of a family who had formerly befriended
+
+*— THE SWAMI IN LONDON*
+
+> 96
+>             THE LEADER LOST.
+> the occasional residence of one Premananda,.
+> and the new member of the fold, 'as dish-
+> washer', removed to a house some distance
+> away, but still in the immediate neighbour-
+> hood of Dakshineshwar, and the monastery
+> which had previously been at Baranagore
+> was now known as the Alum Bazar Math.
+>     Akhandananda at this time was always
+> "chasing," always in pursuit of the absent
+> leader.   Every now and then he would hear
+> of him in some town, and would arrive there,
+>
+> only in time to hear that he was gone, leav-
+> ing no trace.   Once the Swami Trigunatita
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (8 references):
+
+> — SWAMI VIVEKANANDA.
+>
+> 85
+>
+> CHAPTER IV
+> THF BARANAGORE MATH AND
+> PERIPATETIC DAYS
+>
+> A
+>
+> Then came the sad day when our old teacher died.
+> We nursed him as best,we could. We had no friends;
+> who would listen to a few boys, with their crank notions?
+> Nobody. At least, in India, boys are nobodies. Just think
+
+*— p. 97*
+
+> Sometimes the thing comes upon them in a flash.
+> There was a boy, for instance, who used to come to read
+> the Upanishads with Abhedananda. One day, he turned
+> and said, “Sir, is all this really true?’ “Oh, Yes!"
+> said Ajbhedananda, “Te may be difficult to realise, but
+> it is certainly true.” And next day, that boy was a
+> silent Sannyasin, nude, on his way to Kedarnath!
+>
+> Baranagore: 19-11-1888 — A good deal of study
+> is given to Sanskrit scriptures in this Math. This Math
+> is not wanting in men of perseverence, talent and penet-
+> rative intellect.
+>
+> Baghbazar: 28-11-1888 — 1 had an attack of
+> fever dgain. I am ailing much.
+>
+> Baranagore: 4-2-1889 — I am going now ona
+
+*— p. 109*
+
+> the rest of the house for many, many days.”
+>
+> April 9, 1887 - Now and then I feel great scepticism.
+>
+> At Baburam’s house it seemed to me thatnothing
+> existed, as if there were no such thing as God.
+>
+> Whatever spiritual discipline we are practising here
+> (Baranagore Math) is in obedience to the Master's
+> command. But it is strange that Ram Babu criticises us
+>
+> 96
+>
+> for our spiritual practices, He says, “We have seen him
+
+*— p. 107*
 
 
 ---
@@ -210,6 +385,15 @@ The Math was relocated to Alambazar in 1892 and remained here until the permanen
 *— Complete Works of Swami Vivekananda*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Ghusuree Village
@@ -220,6 +404,15 @@ The Math was relocated to Alambazar in 1892 and remained here until the permanen
 
 
 A retreat house used by Vivekananda and his brother disciples for meditation and spiritual practice during his early wandering years.
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -234,6 +427,12 @@ A retreat house used by Vivekananda and his brother disciples for meditation and
 The Datta family moved to Rajballavpara Lane after financial difficulties. Vivekananda experienced extreme poverty here following his father's death in 1884, yet never lost his spiritual focus.
 
 
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Gopal Lal Seal's House
@@ -244,6 +443,12 @@ The Datta family moved to Rajballavpara Lane after financial difficulties. Vivek
 
 
 Vivekananda received his passage to the Parliament of World's Religions, partly funded through the efforts of patrons including the Maharaja of Khetri. Associated with final preparations before his western journey.
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -377,6 +582,121 @@ It was here that the young Narendra first met Sri Ramakrishna in 1881. The templ
 *— p. 41*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (3 references):
+
+> who      live beside the Ganges serves the
+>
+> purpose of a carriage,              could come up to the
+>
+> very foot of the steps, and the river between
+> us and the opposite village, was from half
+> to three-quarters of a mile broad.    mile          A
+> or    so further up        the eastern bank, could be
+> seen the towers and trees of Dakshineswar,
+> that     temple-garden         in    which   the    Swami
+> and      his    brothers had        once been boys,        at
+> the         Ramakrishna
+>          feet    of                        Paramahamsa.
+> The house which was in                     actual   use    at
+> that time as the             Monastery, lay     some half
+> mile      or    so    to   the south…
+
+*— THE SWAMI IN LONDON*
+
+> 192
+>                      GOPALER-MA
+>
+>     Gopal's Mother was an old old woman.
+> She had already been old, fifteen or twenty
+> years before, when she had first walked over,
+> one day at noon, from her cell at Kamarhatty,
+> by the Ganges-side, to see the Master in the
+> garden at Dakshineswar.              He received her,
+> so they    say,      standing   at   his    door, as if he
+> expected her.         And she, whose chosen wor-
+> ship had       been    for many years        Gopala, the
+> Babe Krishna, the Christ-Child of Hinduism,
+>    saw Him revealed to her, as in a vision, as
+> she drew near.   How true she always was to
+> this! Never once through all the years that
+
+*— KSHIR BHOWANI*
+
+> at five, and forgotten by her husband till she
+> was eighteen how she then, with her mother's
+>               ;
+>
+> permission, made her way on foot from her
+> village-home to the temple of Dakshineswar
+> on the Ganges-side, and appeared before
+> him; how he remembered the bond, but spoke
+> of the ideals of the life he had adopted   ;   and
+> how she responded by bidding him Godspeed
+> in that life, and asking only to be taught by
+> him as the Guru, all these things have been
+> told of her many times over.   From that time
+> she lived faithfully by his side for many years,
+
+*— KSHIR BHOWANI*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (8 references):
+
+> ers he needed came to him unsought. From every sect
+> some old saint would come and offer to teach him and to
+> each he listened eagerly. But he worshipped only
+> Mother. All co him was Mother.
+>
+> He is born to no purpose, who, having the privilege of being
+> born a man, is unable to realise God in this life.
+>
+> SRI RAMAKRISHNA
+>
+> Each soul is potentially divine. The goal is to manifest this
+> divine within, by controlling nature external and internal.
+>
+> SWAMI VIVEKANANDA.
+
+*— p. 19*
+
+> co-operation it would have been very difficult for us to
+> bring out the present volume.
+>
+> The excerpts are from :
+>
+> 1. The Complete works of Swami Vivekananda- 8 volumes
+> (published by the Advaita Ashrama, Calcutta 14)
+>
+> 2. The Gospel of Sri Ramakrishna,
+> (published by Sri Ramakrishna Math, Mylapore,
+>
+> Madras 4)
+>
+> 3. Sri Ramakrishna - The Great Master,
+> (published by Sri Ramakrishna Math, Mylapore,
+> Madras 4)
+
+*— p. 4*
+
+> Calcutta 14)
+>
+> 6. New Discoveries - Swami Vivekananda in America
+>
+> (published by Advaita Ashram, Caloutta 14)
+>
+> This selected compilation, which includes Swamiji's own
+> words about his beloved Guru Sri Ramakrishna, we
+> believe, will be a highly valuable and handy document and
+> will remain a source of inspiration to the coming generation.
+>
+> Publisher
+
+*— p. 5*
+
+
 ---
 
 ### Kamarpukur
@@ -470,6 +790,15 @@ Birthplace of Sri Ramakrishna. Vivekananda and brother disciples visited here to
 > Sri Ramakrishn.
 
 *— p. 42*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -587,6 +916,15 @@ During Christmas Eve 1886, Narendra and his brother disciples informally took mo
 *— p. 170*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Baidyanath Dham, Deoghar
@@ -675,6 +1013,71 @@ One of the twelve Jyotirlinga shrines of Shiva. Vivekananda visited Baidyanath d
 > moved with…
 
 *— p. 653*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (3 references):
+
+> disorder in the spleen or other organs. I am under
+> homeopathic treatment. Now I have to give up comple-
+> . tely the intention of going to Banaras. Whatever God
+> dispenses will happen, later on according to the state of
+> the body...... My going there is very uncertain. .-—~
+>
+> 4-7-1889 — Some relative of my former life (i.e
+> the life which I have renounced) has purchased a bunga-
+> low at Simultala (near Baidyanath - Bihar). The place
+> being credited with a healthy climate, I stayed there tor
+> some time. But the summer heat growing excessive, I
+> had an attack of acute diarrhoea, and I have just fled
+> away from the place. By the will of God, the last six or
+> seven years of my life have been full of…
+
+*— p. 110*
+
+> But there is the chain of iron, and there is the chain
+> of gold. Much good comes of the latter, and it drops off
+> by itself when all the good is reaped. The sons of my
+> Master are indeed the great objects of my service, and
+> here alone I feel I have some duty left for me. Perhaps,
+> I shall send brother K, down to Allahabad or somewhere
+> else as convenient.
+>
+> Baidyanath: 24-12-1889 - Lhave been staying for
+> the last few days at Baidyanath in Purna Babu’s lodge.
+> I am sutfering from indigestion, probably due to excess
+> of iron in the water...... I leave for Banaras tomorrow.
+>
+> My idea is to remain there for some time, and to
+> watch how Viswanath and Annapurna deal out my
+> lot. And my resolve is something…
+
+*— p. 114*
+
+> tation deep and long under the deodars (trees of God)
+> cross-legged a la Buddha.
+>
+> Lahore : 16-10-98 - I have not witnessed the Durga
+> Puja for the last nine years. So, I am starting for
+> Calcutta.
+>
+> Belur : Nov. 98 - The other day, I was a guest of
+> Babu Priyanath Mukherjee at Baidyanath. There I had
+> such a spell of asthma that I felt like dying. But from
+> within, with every breath arose the deep-toned sound,
+> “Iam He, I am He.” Resting on the pillow, I was
+> waiting for the vital breath to depart; and observing all
+> the time that from within was coming the sound of
+> “Tam He, Iam He!” I could hear along: “ qaeratga
+> seve marie feaay’ “The Brahman, the One without a
+> second, alone exists, nothing…
+
+*— p. 275*
 
 
 ---
@@ -809,6 +1212,106 @@ The eternal city on the Ganges held deep significance for Vivekananda. He visite
 *— p. 182*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> only to Sri Ramakrishna, knew that there
+> was none whose love to himself he had more
+> valued.
+>       Now he set himself to tell stories for an
+> hour, of       one or two others   whom he had
+> met.    TRAILINGA SWAMI he had seen |when
+> very, very old, more than a hundred, appa-
+> rently.   He was always silent. He would
+> lie in a    Siva-temple in Benares, with his feet
+> on the image, A madcap, seemingly. He al-
+> lowed people, however, to write him ques-
+> tions, and sometimes, if he fancied  one,
+> would write an answer          in Sanskrit.   This
+> man was lately dead.
+>    RAGHUNATH DASS had been dead two
+> months, when the Swami reached his ashra-
+> ma.    He had been a soldier originally in the
+
+*— GLIMPSES OF THE SAINTS*
+
+> At the end of his life again, similarly, he
+> arrived at Bodh-Gaya, on the morning of his
+>
+> thirty-ninth  birthday ;
+>                           and this journey,
+> ending with a visit to Benares, was the last
+> he ever made.
+>    At some time in the years of his Indian
+> wanderings, the Swami was allowed to touch
+> the relics of Buddha, probably near the place
+> where they were first discovered. And he
+> was never afterwards able to refer to this,
+> without some return of that passion of re-
+> verence and certitude which must then have
+
+*— PAST AND FUTURE IN INDIA*
+
+> when the winter again set in, he was so ill
+> as to be confined to bed.
+>
+>                           498
+>              BODH-GA YA AND BENARES
+>     Yet he made one more journey, lasting
+> through January and February 1902, when
+> he went, first to Bodh-Gaya and next to
+> Benares,    It was a fit end to all his wander-
+>
+> ings.   He arrived at Bodh-Gaya on the
+> morning of his last birthday, and nothing
+> could have exceeded the courtesy and hos-
+
+*— MONASTICISM AND MARRIAGE*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (2 references):
+
+> and my mind has run off with me there.
+>
+> 15-3-90 -I am leaving this place tomorrow. Let
+> me see which way destiny leads!
+>
+> 31-3-90 - I haven't been here for the last few days
+> and am again away today. I have asked brother
+> Gangadhar to come here, and if he comes. we go over to
+> Benares together. For some special reason, I shall
+> continue to stay in secret in a village some distance off
+> this place. The news of his arrival is not yet received
+> and his health being bad, Iam very anxious for his sake,
+> I have behaved very cruelly towards him — that is, I have
+> harassed him much to make him leave my company.
+> There is no help...... I am so very weak-hearted, so much
+> overmastered by the distractions of…
+
+*— p. 124*
+
+> I have had much light of late about Buddhism, and
+> I am ready to prove :
+>
+> 1. That Shiva worship in various forms antedated
+> the Buddhists, that the Buddhists tried to take hold of
+> the sacred places of the Shaivas but failing in that, made
+> new places in the precints just as you find now at Bodh-
+> Gaya and Sarnath (Benares).
+>
+> 2. The story in the Agni-Purana about Gayasura
+> does not refer to Budha at all-as Dr. Rajendralal will
+> have it - but simply to a pre-existing story.
+>
+> 3. Gaya wasa place of ancestor-worship already,
+> and foot-print worship the Buddhists copied from the
+> Hindus.
+
+*— p. 146*
+
+
 ---
 
 ### Ayodhya
@@ -924,6 +1427,15 @@ Birthplace of Lord Rama. Vivekananda visited Ayodhya during his wandering years,
 > perspective and…
 
 *— p. 184*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -1044,6 +1556,35 @@ Vivekananda passed through Lucknow during his wandering years, observing the ric
 *— p. 184*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> from the East, is
+>                    amongst the sights of the
+> world, and could  not fail of our leader's
+>                                            eager
+> praise.   The    industries       and   luxuries   of
+>
+>                       114
+>        THE PEASANTS WELCOME.
+> Lucknow must needs be dwelt upon and enu-
+> merated. But it was not only the great cities
+> of admitted beauty and historic importance,
+> that     Swami, in his eagerness, would
+>        the
+>
+>         impress on our memory.
+> strive to                        Perhaps
+> nowhere did his love seem more ardent,
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Vrindavan
@@ -1115,7 +1656,55 @@ Sacred town associated with Lord Krishna's childhood. Vivekananda visited this p
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (2 references):
+
+> shining in letters of gold! How many visions of the
+> Goddess Kali! How many other divine forms! But still
+> I have no peace. .
+>
+> ,
+>
+> B
+>
+> Brindaban, 12-8-1888— Leaving Ayodhya I have
+> reached Brindaban, and am putting up at Kala Babu’s
+> Kunja...... I have a mind to proceed very shortly to
+>
+> Hardwar.
+>
+> 20-8-1888 —I postpone my going to Hardwar for
+> some days.
+
+*— p. 108*
+
+> two days I could not go out to meet Babaji, and so a man
+> came from him to enquire about me. For this reason, I
+> fo today.......- Such amazing endurance and humility I
+> have never seen.
+>
+> 14-2-90 - I have heard from Brother Gangadhar.
+> He is now in Rambag Samadhi, Srinagar, Kashmir. I am
+> greatly suffering from lumbago......... Rakhal and Subodh
+> haveecome to Brindaban after visiting Omkar, Girnar,
+> Abu, Bombay and Dwaraka.
+>
+> 25-2-90 - The lumbago is giving a good deal of
+> trouble. It is three days since I came away from Babaji’s
+> place, but he enquires of me kindly almost every day.
+>
+> February: 90 - Brother Kali is having repeated
+> attacks of fever at Hrishikesh. I have sent hima wire
+
+*— p. 117*
 
 
 ---
@@ -1226,6 +1815,15 @@ Birthplace of Lord Krishna. Vivekananda visited Mathura as part of his pilgrimag
 > of purity and self-control that he was. He himself said that
 
 *— p. 46*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -1349,6 +1947,84 @@ Vivekananda visited Agra during his wandering years. The sight of the Taj Mahal 
 *— p. 53*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> selves.    The           instantaneous        estimate of   a
+> motive or a personality,              for instance,   cannot
+> be communicated, in its vividness, to any
+> other, yet remains irresistible to the mind
+> that makes it.            It   may be either true or
+> false,   that       is   to say,  it
+>                                      may be based on a
+> subtle species of observation, possible only
+> to  a few    or it may be only a vagrant
+>                 ;
+>
+> impulse of emotion.                Be this as it may, the
+> strong subjective impression will colour
+> much of the subsequent thought of him
+
+*— PAST AND FUTURE IN INDIA*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (8 references):
+
+> I have been talking with the Indian and European
+> savants on the subject, and hope to raise many objections
+> to this theory in detail when the time permits.
+>
+> Paris - Now! am staying on the sea coast of France.
+> The session of the Congress of History of Religion is over.
+> It was not a big affair; some twenty scholars chattered a
+> lot on the origin of the Salagrama and the origin of Jeho-
+> vah, and similar topics. I also said something on the
+> occasion.
+>
+> Paris 9-1900 - The body is somehow rolling on.
+> Work makes it ill, and rest makes it well - that is all.
+> Mother knows...Nivedita has gone to England. She and
+> Mrs. Bull are collecting funds.
+
+*— p. 318*
+
+> erect something as a memorial resembling their Skambha,
+> and the poor in a similar manner copied them ona _ redu-
+> ced scale, and, afterwards, the miniature memorials of the
+> poor Hindus became a new addition to the Skambha.
+>
+> One of the names of the Buddha Stupas (memorial
+> topes) is Dhatugarbha, that is ‘““metal-wombed.” Within
+> the Dhatu~garbha j= small cases made of stone, shaped
+> like the present Salagrama, used to preserve the ashes,
+> Gones and other remains of the distinguished Bauddha
+> Bhikshus, along with gold, silver and other metals. The
+> Salagrama-silas are natura] stones resembling in form
+> these artificially cut stone-cases of the Bauddha Dhatu-
+> garbha, and thus, being first worshipped…
+
+*— p. 316*
+
+> cannot crush me;it is my servant. Assert thy strength,
+> Thou Lord of Lords and God of Gods! Regain Thy lost
+> empire! Arise and walk and stop not!” and I would rise
+> up, re-invigorated, and here am I, living today.
+>
+> Real monasticism is not easy to attain. There is no
+> order of life so rigorous as this. If you stumble ever so
+> little, you are hurled down a precipice - and are smashed
+> to pieces. One day, I was travelling on foot from Agra
+> to Vrindaban. There was no farthing with me. I was
+> about a couple of miles from Vrindaban, when I found a
+> man smoking on the roadside. and I was seized with a
+> desire to smoke. I said to the man, “Hello, will you let
+> me have a puff at your chillum?" He seemed to…
+
+*— p. 129*
+
+
 ---
 
 ### Hardwar
@@ -1468,6 +2144,35 @@ The gateway to the Himalayas. Vivekananda visited Haridwar during Kumbh Mela, mi
 > ness, sincerity and manliness. As…
 
 *— p. 186*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (1 references):
+
+> ,
+>
+> B
+>
+> Brindaban, 12-8-1888— Leaving Ayodhya I have
+> reached Brindaban, and am putting up at Kala Babu’s
+> Kunja...... I have a mind to proceed very shortly to
+>
+> Hardwar.
+>
+> 20-8-1888 —I postpone my going to Hardwar for
+> some days.
+>
+> I saw many great men in Hrishikesh. One case that
+> I remember was that of a man who seemed to be mad,
+> He was coming nude down the street, with boys pursuing
+> and throwing stones at him. The man was bubbling
+
+*— p. 108*
 
 
 ---
@@ -1613,6 +2318,106 @@ The 'Yoga capital of the world' on the Ganges. Vivekananda spent time in meditat
 *— p. 189*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (2 references):
+
+> other.
+>       "He became a Vairagi," said the Swami,
+> "on    the   banks of the    Saraswati.   People
+> thought him ignorant, but I knew his power.
+> Daily he would feed thousands. Then would
+> come the grain-seller, after a while, with his
+>
+>                        242
+>                      AT HRISHIKESH
+>               Raghunath Dass would say, A
+>                                                      *
+> bill.    'H'm   !'
+>
+> thousand rupees you say ? Let me see.       It
+
+*— GLIMPSES OF THE SAINTS*
+
+> Nothing is impossible with the Lord !"
+> answered Raghunath Dass.     , . ^    .      >
+>
+>    "I saw many great men," went on the
+>
+> Swami, "in Hrishikesh. One case that I
+> remember was that of a man who seemed to
+> be mad. He was coming nude down the
+> street, with boys pursuing, and throwing
+> stones at him.  The whole man was bubbling
+> over with laughter, while blood was stream-
+> ing down his face and neck.           I   took him, and
+>
+>                            243
+
+*— GLIMPSES OF THE SAINTS*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (4 references):
+
+> reached Brindaban, and am putting up at Kala Babu’s
+> Kunja...... I have a mind to proceed very shortly to
+>
+> Hardwar.
+>
+> 20-8-1888 —I postpone my going to Hardwar for
+> some days.
+>
+> I saw many great men in Hrishikesh. One case that
+> I remember was that of a man who seemed to be mad,
+> He was coming nude down the street, with boys pursuing
+> and throwing stones at him. The man was bubbling
+> over with laughter, while blood was streaming down his
+> face and neck. I took him and bathed the wound,
+> putting ashes (made by burning a piece of cotton cloth)
+> on it, to stop bleeding. And all the time, with peals of
+
+*— p. 108*
+
+> passed at Banaras, I suffered from fever day and
+> night...... I have visited Pavahari Baba’s house - there are
+> high walls all round, and it is fashioned like an English
+> bungalow. There is a garden inside and big rooms,
+> chimneys etc. He allows nobody to enter. If he is so
+> inclined, he comes up to the door and speaks from inside -
+> that is all. One day I went and waited and waited in the
+> cold and had to return. After a few days’ stay at Banaras,
+> I shall start for Hrishikesh.
+>
+> It is so very difficult to meet Babaji. He does not
+> step out of his home.
+>
+> 4-2-90 — Through sotive good fortune, I have
+> obtained an interview with Babaji. A great sage indeed!
+> It is all very wonderful, and in this…
+
+*— p. 115*
+
+> Ghazipur: 3-3-90-1am a very soft-natured man
+> in spite of the stern Vedantic views I hold. And this
+> proves to be my undoing. At the slightest touch, I give
+> myself away; for howsoever I may try to think only af my
+> own good, I slip off in spite of myself to think of other
+> people’s interests. This time it was with a very stern
+> resolve that I set out to pursue my own good; but I had
+> torun off at the news of the illness of a brother at
+> Allahabad. And now comes this news from Hrishikesh,
+> and my mind has run off with me there.
+>
+> 15-3-90 -I am leaving this place tomorrow. Let
+> me see which way destiny leads!
+>
+> 31-3-90 - I haven't been here for the last few days
+> and am again away today. I have asked…
+
+*— p. 124*
+
+
 ---
 
 ### Uttarkashi
@@ -1628,7 +2433,16 @@ Vivekananda spent extended time in meditation at Uttarkashi in the deep Himalaya
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -1765,6 +2579,33 @@ Vivekananda visited Delhi during his wandering years. He explored the historical
 *— p. 216*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> ness     of     noble       women,        all    lived         again.
+> Nor would he permit that the Moham-
+> medan should be passed over.  Huma-
+> yoon, Sher  Shah, Akbar, Shah Jehan,
+> each of these, and a hundred more, found
+> a day and a place in his bead-roll of glisten-
+> ing names.         Now        it    was that coronation
+> song      of      Akbar        which            is     still     sung
+> about the streets of Delhi, that he would
+> give us, in the very tone and rhythm
+> of     Thanasena.            Again,        he         would       ex-
+>
+> plain     how         the    widows         of        the      Mogul
+> House         never     remarried,         but        lived       like
+> Hindu        …
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Alwar
@@ -1888,6 +2729,15 @@ Vivekananda visited the court of the Maharaja of Alwar, Mangal Singh, in 1891. I
 > that the Swami should pose for a photograph.…
 
 *— p. 226*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -2027,6 +2877,49 @@ The Pink City of Rajasthan. Vivekananda visited Jaipur during his wandering tour
 *— p. 227*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (2 references):
+
+> once saw a man who had kept his hands raised in this
+> way, and I asked him how it felt when he did it first.
+> He said it was awful torture. It was such a torture that
+> he had to go to a river and put himself in water, and that
+> allayed the pain for a little while. After a month, he did
+> not suffer much. Through such practices, powers
+> (Siddhis) can be attained.
+>
+> When I was in Jaipur, I met a great grammarian and
+> felt a desire to study Sanskrit grammar with him.
+> Although he was a great scholar in that branch, he had
+> not much aptitude for teaching. He explained to me the
+> commentary on the first aphorism for three days conti-
+> nuously, still I could not grasp a bit of it. On the fourth
+
+*— p. 130*
+
+> I shall make a lightning tour of Kathiawar—that is what
+> it will come to...
+>
+> 251
+>
+> Jaipur : 27-12-97 - I am not very well, but am
+> going to Calcutta in a few days and will be all right.
+>
+> Belur Math : 25-2-98 -— My health has not been
+> all right of late; at present, it is much better. Calcutta is
+> unusually cool just now, and the American friends who
+> are here are enjoying it ever so much. Today we take
+> possession of the land we have bought and though it is
+> not practicable to have the Mahotsav (of Sri Rama-
+
+*— p. 271*
+
+
 ---
 
 ### Ajmer (Ajmere)
@@ -2128,6 +3021,15 @@ Home of the Dargah of Moinuddin Chishti, one of India's most revered Sufi shrine
 > fever, but he soon got over it. After a stay of about a week…
 
 *— p. 547*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -2270,6 +3172,155 @@ The Maharaja of Khetri, Ajit Singh, became one of Vivekananda's most devoted sup
 *— p. 228*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (2 references):
+
+> different ideals, of which    either was highest
+> in its own world,     and yet each, to those who
+> believed in its fellow, almost as a crime.
+>     Occasionally, to one who      was much with
+> him, a word,    let       unconsciously, would
+>                        fall
+>
+> betray   the  inner  conflict.   He was riding
+> on  one  occasion,  with  the  Rajah of Khetri,
+> when   he  saw  that his arm   was bleeding pro-
+> fusely, and  found that the wound  had been caus-
+> ed by thorny
+>        a         branch  which  he had held aside
+> for himself to pass.          When the Swami    ex-
+>
+> postulated,   the     Rajput laughed the      matter
+
+*— THE SWAMI IN LONDON*
+
+> Our Master,   at any rate, regarded the
+> Order    to   which he belonged as one whose
+> lot   was cast   for all time with the cause of
+> Woman and the People.      This was the cry
+> that rose to his lips instinctively, when he
+> dictated to the phonograph in America, the
+>
+> message that he would send to the Rajah of
+> Khetri.  It was the one thought, too, with
+>
+>                         359
+>              WOMAN AND THE PEOPLE
+> which he would turn to the disciple at his side,
+> whenever he felt himself nearer than usual
+> to death, in a foreign country, alone, "Never
+>         "
+
+*— PAST AND FUTURE IN INDIA*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (4 references):
+
+> not, however, until January 14, 1899, that the Udbodhan made its first
+> appearance with Swami Trigunatita as its editor and manager.
+>      The publication of books, which today forms an important
+> function of the Ramakrishna Order, was also undertaken during
+> Swamiji’s lifetime, his own works being published in both English
+> and Bengali by the Math.
+>      An important part of the work of the Ramakrishna Mission was
+> the opening of temporary relief centers in times of disaster. In 1897
+> Swami Akhandananda, who had earlier established schools in Khetri
+> under Swamiji’s encouragement and detailed direction, began to work
+> in the famine-stricken district of Murshidabad in Bengal in an effort
+> to give what…
+
+*— SWAMI VIVEKANANDA:     NEW DISCOVERIES*
+
+> in Calcutta. In the following letter we learn for the first time that
+> Swamiji held none too high an opinion of Keshab, despite the fact
+> that Sri Ramakrishna had been deeply fond of him:
+>
+>                         541 Dearborn Avenue.               Chicago
+>                                                       24th May ’94
+>      Dear Adhyapakji.
+>           Herewith I forward to you a letter from one of our ruling
+>      princes of Rajputana His Highness the Maharaja of Khetri.
+>           And another from the opium comissiner [sic] late
+>     minister of Junagad one of the largest states in India and a
+>      man who is called the Gladstone of India
+>           These I hope would convince you of my being…
+
+*— V.*
+
+> contrary to that i.e. to ask you to remain still there where the
+> people are jewellers of human beings.
+>        Swami Akhundanandji is here now-a-days. He has
+> written a separate letter to your holiness enclosed with this.
+> Jug Mohan is at Jeypore but I am sure he will be much pleased
+> when he hears that I have written his dundavets [prostrations]
+> to you without his request.
+>        We have at last catched the tiger which had been roaming
+> in our Khetri hills and had devoured about 50 buffaloes here
+> up to till it was nicely secured.
+>                                        With my hearty dundavets
+>                                            I am proud of signing
+>                                       …
+
+*— V.*
+
+
+**From *Vivekananda on Himself* (1959)** (8 references):
+
+> eat?" The man said, ‘“Swamiji, my heartis yearning to
+> » give you food; but how can you eat chapaties baked by
+> my hands; If you allow me, I shall be most glad to bring
+> flour, lentils, and other things and you may cook them
+> yourself.” At that time, according to the monastic rules,
+> I did not touch fire. SoI said to him, ‘You had better
+> give me the chapaties cooked by you. I will gladly take
+> them.” Hearing this, the man shrank in fear; he was a
+> subject of the Maharajah of Khetri and was afraid that
+> if the Jatter came to hear that he, a cobbler, had given
+> Chapatis to a Sannyasin, he would be severely dealt with
+> and possibly banished from the State. I told him,
+> however, that he need not fear and…
+
+*— p. 134*
+
+> is bright and glorious, and now in the middle of the day
+> we are sitting outside reading, and the snow all about us !
+> The winter here is very mild in spite of the snow. The
+> airis dry and balmy, and the water beyond all praise.
+>
+> Belur Math: 26-1-1901 - 1 went to see Mrs.
+> Sevier in Mayavati. On my way, I learned of the sudden
+> death of the Raja of Khetri. It appears he was restoring
+> some old architectural monument at Agra, at his own
+> expense, and was up some tower on inspection. Part of
+> the tower came down, and he was instantly killed.
+>
+> Dacca: 29-3-1901 - My mother, aunt and cousin
+> came over five days ago to Dacca, as there was a great
+> sacred bath in the Brahmaputra river. Whenever a
+> particular…
+
+*— p. 326*
+
+> at one bound, I cleared the ocean.
+>
+> 1893: The Parliament of Religions is being organised
+> for this (pointing to himself) - My mind tells meso. You
+> will see it verified at no distant date.
+>
+> Bombay: 24-5-93 - Arrangements are all ready
+> for my starting for America on the 3lst next. The
+> Private Secretary to the Maharajah of Khetri has come
+> here to see me off.
+>
+> I want to give them dry, hard reason, softened in the
+> sweetest syrup of love and made spicy with intense work,
+> and cooked in the kitchen of Yoga, so that even a baby
+> can easily digest it.
+>
+> To put the Hindu ideas into English and then make
+
+*— p. 141*
+
+
 ---
 
 ### Mount Abu
@@ -2384,6 +3435,15 @@ India's only hill station in Rajasthan. Vivekananda visited the famous Dilwara J
 *— p. 230*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Ahmedabad
@@ -2417,6 +3477,15 @@ Vivekananda visited Ahmedabad, observing the prosperous trading community and it
 > In AnMEpABAD, of historic memories, after wandering about
 
 *— p. 232*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -2465,7 +3534,16 @@ Vivekananda climbed the Girnar Hills, one of the holiest Jain pilgrimage sites w
 *— lectures on tone building etc. \*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -2499,7 +3577,16 @@ One of the four sacred dhams (Char Dham) of Hinduism, associated with Lord Krish
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -2582,6 +3669,15 @@ The coastal city of Porbandar (later birthplace of Mahatma Gandhi). Vivekananda 
 > Before he left…
 
 *— p. 241*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -2682,6 +3778,48 @@ Vivekananda visited the progressive court of the Gaekwad of Baroda, a state know
 > of the small Rajput Chief of Khetri, and that, as he came…
 
 *— p. 257*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (2 references):
+
+> Efforts are being made to arrange a lecture under his
+> chairmanship. If the meeting for the lecture is held in a
+> day or two, I shall stay back, otherwise, I go out again on
+> my travels. Sevier is stillin Murree. His health is very
+> bad, going about in jolting tongas and jatkas. In October
+> I shall go down from here and shall deliver a few lectures
+> in the Punjab. After that, I may go via Sind to Cutch,
+> Bhuj and Kathiawar-even down to Poona if circumstances
+> are favourable; otherwise, I go to Rajputana via Baroda.
+> From Rajputana,I goto the North-Western Province,
+> then Nepal, and finally Calcutta-this is my present
+> programme. Everything, however, is in God’s hands.
+>
+> Srinagar (Kashmir) ; 15-9-97 -…
+
+*— p. 265*
+
+> heart, and the few words I tell you are only through the
+> force of that current gained by coming in contact with
+> them. Do not think I am myself something great!
+>
+> Abu: 30-4-91 - The two Commander Sahebs...
+> being men of high position were very kind to a poor
+> Fakir like me.
+>
+> Baroda: 26-4-92- I had not the least difficulty
+> in reaching the house ( of Sri Haridas Viharidas Desai,
+> Dewan of Junagad ) from the station of Nadiad...Mr.
+> Manibhai has provided every comfort for me...As to his
+> company, I have only seen him twice; once for a minute
+
+*— p. 136*
 
 
 ---
@@ -2821,6 +3959,137 @@ India's commercial capital. Vivekananda passed through Bombay multiple times —
 *— p. 244*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> boat to the shrine of Kanya Kumari, and
+> swam across the strait to the island, in spite
+> of sharks, to offer the worship he had vowed.
+> It was on his return northwards through
+>
+> Madras, that he formed the strong group of
+> disciples who became the means of sending
+> him to America, for which country he sailed
+> finally from   Bombay, about the beginning of
+> June 1893.
+>    Even this however he was                       not eager
+>
+>                             100
+>              THE CALL OF DESTINY.
+>  to do.     His disciples in Madras still tell how
+>  the first five hundred rupees collected for the
+
+*— THE SWAMI IN LONDON*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> the back of the third sheet, which read:            “I.ouis Rousselet,” an
+> unknown name which could mean anything or nothing. But \vhile
+> Swami Ashokananda was puzzling over the import of Swamiji’s writing,
+> the San Francisco Vedanta Society received a packet of secondhand
+> books that had been bought on sale, sight unseen. Among them was
+> a large illustrated travel book on India, long out of print—by Louis
+> Rousseletl On page 53v^ Avas the passage in question. For the reader’s
+> information, the title of this book is “India and Its Native Princes—
+> Travels in Central India and in the Presidencies of Bombay and
+> Bengal.” It is a translation of the French “LTnde des Rajahs” and was
+> first published by…
+
+*— SWAMI VIVEKANANDA; NEW DISCOVERIES*
+
+> the attitude to idolatrous religions is avowedly sympathetic
+>     rather than critical ; but one can scarcely escape a t^vinge of
+>     the old feeling at a sight of the fanUistic objects of worship.
+>     Nevertheless, the jx)pular Protestant notion of idolatry was
+>     emj)hatically repudiated by those who spoke in the name of
+>     image-worshippers.
+>
+>      In substantiation of this the article quotes briefly from the papers
+> of Dvivedi and of J. J, Modi, a Parsi of Bombay, and then goes on to
+> ejuote at great length from Swamiji’s “noble address," the “Pajjer on
+> Hinduism." Accompanying the article is a photograph of Swarniji
+> in profile.
+>      I’he change in the popular attitude tow'ard Eastern…
+
+*— THE PARLIAMENT OF RELIGIONS*
+
+> then show this letter to the Madras people.”
+>       Swamiji also wrote to his friend, the Dewan of Junagad State,
+> Haridas Viharidas Desai: “. . . The backbiters, I must tell you, have
+> not indirectly benefited me, on the other hand, they have injured me
+> immensely in view of the fact that our Hindu people did not move
+> a linger to tell the Americans that I represented them. Had our people
+> sent some words thanking the American people for their kindness to
+> me and stating that I was representing them? On the other hand
+> Mazoomdar, Bombay’s Nagarkar, and a Christian woman named Sorabji
+> have been telling the American people that I have donned the
+> Sannyasin’s garb only in America and that I was a…
+
+*— TRIALS AND TRIUMPH*
+
+
+**From *Vivekananda on Himself* (1959)** (8 references):
+
+> Belur Math,: 14-6-1901 - At Shillong, the hill
+> sanatorium of Assam, I had fever, Asthma, increase of
+> albumen, and my body swelled to almost twice its normal
+> size. These symptoms subsided, however, as soon as I
+> reached the Math. It is dreadfully hot this year, but a
+> bit of rain has commenced, and I hope we will soon have
+> the monsoon in full force. I have no plans just now except
+> that the Bombay Presidency wants me so urgently that
+> I think of going there soon.
+>
+> Belur Math: 5-7-1901 - My health has been and
+> is very bad. LIrecover for a few days only; then comes
+> the inevitable relapse. Well, this is the nature of the
+> disease anyway.
+>
+> Assam is, next to Kashmir, the most beautiful country
+
+*— p. 330*
+
+> Before proceeding to America, I wrote to Mother
+> (Sri Sarada Devi) to bless me. Her blessings came and
+> at one bound, I cleared the ocean.
+>
+> 1893: The Parliament of Religions is being organised
+> for this (pointing to himself) - My mind tells meso. You
+> will see it verified at no distant date.
+>
+> Bombay: 24-5-93 - Arrangements are all ready
+> for my starting for America on the 3lst next. The
+> Private Secretary to the Maharajah of Khetri has come
+> here to see me off.
+>
+> I want to give them dry, hard reason, softened in the
+> sweetest syrup of love and made spicy with intense work,
+> and cooked in the kitchen of Yoga, so that even a baby
+> can easily digest it.
+
+*— p. 141*
+
+> get hold of some new person without my friend’s know-
+> ledge. But this delay at Madras has dashed all my hopes
+> to the ground, and witha deep sigh, I give it up and the
+> Lord’s will be done ! ‘Thy will be done on earth as it is
+> in heaven, for Thine is the glory and the Kingdom for
+> ever and ever.
+>
+> Khetri: 27-4-93 - As to my taking ship I have
+> already made arrangements from Bombay...... The Raja
+> or my Gurubhais would be the last men to put any
+> obstacles in my way......As for the Rajaji, his love for me
+> is simply without limit.
+>
+> Khetri : 28-4-93- 1 am shortly going back to
+> Bombay, say in 20 days...... Here the Khetri Rajaji was
+> very, very anxious to see me and sent his Private
+> Secretary to…
+
+*— p. 138*
+
+
 ---
 
 ### Pune (Poona)
@@ -2938,6 +4207,67 @@ Pune was the intellectual centre of Maharashtra. Vivekananda visited and met Bal
 *— p. 488*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (3 references):
+
+> just next to him in age, is the Commander-in-Chief.
+> Efforts are being made to arrange a lecture under his
+> chairmanship. If the meeting for the lecture is held in a
+> day or two, I shall stay back, otherwise, I go out again on
+> my travels. Sevier is stillin Murree. His health is very
+> bad, going about in jolting tongas and jatkas. In October
+> I shall go down from here and shall deliver a few lectures
+> in the Punjab. After that, I may go via Sind to Cutch,
+> Bhuj and Kathiawar-even down to Poona if circumstances
+> are favourable; otherwise, I go to Rajputana via Baroda.
+> From Rajputana,I goto the North-Western Province,
+> then Nepal, and finally Calcutta-this is my present
+> programme. Everything, however,…
+
+*— p. 265*
+
+> and the other for 10 minutes at the most when he talked
+> about the system of education here. Of course, I have
+> seen the library and the pictures of Ravi Varma and that
+> is about all worth seeing here. So, I am going off this
+> evening to Bombay... At Nadiad, I met Mr. Manilal
+> Nanubhai. He is a very learned and pious gentleman
+> and I enjoyed his company much.
+>
+> Poona: 15-6-92 -I came down with the Thakore
+> Saheb of Mahabaleshwar and I am living here with him.
+> I would remain here a week or more and then proceed to
+> Rameshwar via Hyderabad...... Isaw the Surti tutor to
+> the Prince of Bhavnagar - He is a perfect gentleman. It
+> was quite a privilege to make his acquaitance, he is so
+> good and noble-natured…
+
+*— p. 137*
+
+> and I have a message for the world which I will deliver
+> without fear and without care for the future. To the
+> reformers I will point out that I am a greater reformer
+> than any of them. They want to reform only little bits.
+> I want root and branch reform. That is my position.
+>
+> Madras: 12-2-97 - 1 am to start by S. S. Mombasa
+> next Sunday for Calcutta. I had to give up invitations
+> from Poona and other places on account of bad health.
+> I am very much pulled down by hard work and heat.
+>
+> I did not go to America for the Parliament of Reli-
+> gions, but this demon of a feeling (for the people of India)
+> was in me and within my soul. I travelled twelve years
+> all over India, finding no way to work for my…
+
+*— p. 248*
+
+
 ---
 
 ### Belgaum (Belagavi)
@@ -3036,6 +4366,15 @@ Vivekananda passed through Belgaum on his journey from Maharashtra to Karnataka.
 *— p. 251*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Bengaluru (Bangalore)
@@ -3084,6 +4423,32 @@ Vivekananda visited the Mysore Diwan (Prime Minister) Sheshadri Iyer in Bangalor
 > the guest of this great statesman for some…
 
 *— p. 252*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (1 references):
+
+> Hyderabad: 21-2-93- A young graduate came
+> to receive me at the station, and also a Bengali gentleman,
+> At present I am living with the Bengali gentleman;
+> (father of late Sarojini Naidu-Dr. Aghorenath Chatterjee)
+> tomorrow, I go to live with the young friend for a few
+> days and then I see the different sights here, and in a
+> few days expect to be at Madras...... I cannot bear
+> heat at all. So the next thing I would do would be to go
+> back to Bangalore and then to Ootacamund to pass the
+> summer there. My brain boils in heat.
+>
+> 124
+>
+> So all my plans have been dashed to the ground.
+
+*— p. 137*
 
 
 ---
@@ -3213,6 +4578,90 @@ Vivekananda had a remarkable audience with the Maharaja of Mysore, Chamarajendra
 > he was grateful beyond words,…
 
 *— p. 281*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> look upon          it   as   if   it   had been peculiar to
+>
+>                                    360
+>                            ON CASTE
+> Hinduisim.            It was on seeing an Englishman
+>
+> hesitate       to     admit,      amongst         gentlemen,
+> that he     had once          killed cattle       in   Mysore,
+> that the       Swami exclaimed, "The opinion of
+> his caste      is   the last and finest restraint that
+> holds a man!" And with a few quick strokes
+> he    created        the     picture   of   the    difference
+> between those standards which differentiate
+> the law-abiding from the criminal, or the
+>
+> pious from the unbelieving, on the one
+
+*— PAST AND FUTURE IN INDIA*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (5 references):
+
+> self for having tried my best to discharge the duties laid
+> on me by my Guru; and well done or ill, Iam glad that I
+> have tried. I want no help from any human being in any
+> country.
+>
+> 1896 -—I got thoroughly used to the interviewer in
+> America... There I was representative of the Hindu reli-
+> gion at the world’s Parliament of Religions at Chicago in
+> 1893. The Raja of Mysore and some other friends sent
+> me there. I think I may lay claim to having had some
+> success in America. I had many invitations to other
+> great Americaccities besides Chicago. My visit was a
+> very long one, for with the exception of a visit to Eng-
+> land last summer, I remained about three years in
+> America. The American civilsation…
+
+*— p. 226*
+
+> from the orchard of Kumaraswamy, some cocoanuts,
+> two bottles of syrup, etc.
+>
+> The ship left Colombo in the morning of 25th June
+> (1899). Owing to the rolling of the ship, most of the
+> passengers were suffering from headache. A little girl
+> named Tootle was accompanying her father. She had
+> lost her mother. Our Nivedita became mother to Tootle.
+> Tootle was brought up in Mysore with her father who is
+> a planter. I asked her, “Tootle, how are you?’’ She
+> replied, “This bungalow is not good and rolls very much,
+> which makes me sick.’ To her every house was a
+> bungalow !
+>
+> After six days’ journey had been prolonged into four-
+> teen days, and our buffeting by terrible wind and rain
+> night and day, we at last…
+
+*— p. 299*
+
+> I find that whenever I have made a mistake in my
+> life, it has always been because self entered into the
+> calculation; where self has not been involved, my judge-
+> ment has gone straight to the mark.
+>
+> I had from before a desire to go to Chicago. When
+> at Madras, the people there of their own accord, in
+> conjunction with the H. H. of Mysore and Ramnad, made
+> every arrangement to send me up...Between the H. H. of
+> Khetri and myself there exist the closest ties of love.
+> Well, I, as a matter of course, wrote to him that I was
+> going to America. Now the Raja of Khetri thought in
+> his love that I was bound tosee him once before I
+> departed, especially as the Lord gave him an heir to the
+> throne and great…
+
+*— p. 135*
 
 
 ---
@@ -3354,6 +4803,35 @@ Vivekananda visited Hyderabad, the seat of the Nizam — one of India's wealthie
 *— p. 285*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (1 references):
+
+> is about all worth seeing here. So, I am going off this
+> evening to Bombay... At Nadiad, I met Mr. Manilal
+> Nanubhai. He is a very learned and pious gentleman
+> and I enjoyed his company much.
+>
+> Poona: 15-6-92 -I came down with the Thakore
+> Saheb of Mahabaleshwar and I am living here with him.
+> I would remain here a week or more and then proceed to
+> Rameshwar via Hyderabad...... Isaw the Surti tutor to
+> the Prince of Bhavnagar - He is a perfect gentleman. It
+> was quite a privilege to make his acquaitance, he is so
+> good and noble-natured a man.
+>
+> Bombay: 22-8-92- Yesterday I saw Mr.
+> Manahashukharam who has lodged a Sannyasi friend with
+> him. He is very kind to me and so is his son... After
+> remaining…
+
+*— p. 137*
+
+
 ---
 
 ### Madras (Chennai)
@@ -3480,6 +4958,172 @@ Madras (now Chennai) was pivotal in Vivekananda's life. The young disciple Alasi
 > and Sanskrit, found great pleasure and derived much benefit by…
 
 *— p. 255*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (6 references):
+
+> his people, which, it has been said elsewhere,
+> isrequired by India of all her epoch-makers.
+> Hitherto, the three philosophic systems   of
+> Un-ism, Dualism, and Modified Un-ism, or
+> Advaita,      Dvaita,   and Visishtadvaita         had
+> been regarded as offering to the          soul,   three
+> different ideals of liberation.       No attempt had
+> ever before been        made     to   reconcile   these
+> schools.    On reaching Madras,
+>                               however, in
+> 1897, Vivekananda boldly claimed that even
+>
+>                          303
+>             THE SWAMPS MISSION
+> the utmost realisations of Dualism and Modifi-
+> ed Unism, were but stages on the way to
+> Unism itself; and the final bliss,…
+
+*— PAST AND FUTURE IN INDIA*
+
+> cibly or so repeatedly as the steadiness with
+> which the other members of the Order fufilled
+> this part of the mission laid upon them.          Men
+> whose own lives were cast in the strictest
+> mould of Hindu orthodoxy, or even of
+> asceticism, were willing to eat with the
+>
+> Europeans whom their leader had accepted.
+> Was the Swami seen dining in Madras with
+> an Englishman and his wife ? Was it said that
+> while in the West he had touched beef or
+> wine ? Not a quiver was seen on the faces of
+> bis brethren. It was not for them to question,
+> not for them to explain, not even for them to
+> ask for final justification and excuse. What-
+> ever he did, wherever he might lead, it was
+> their place to be found…
+
+*— THE SWAMI IN LONDON*
+
+> glorified atmosphere in which he himself has
+> dwelt at the feet of another. But when                    we
+>
+>                              103
+>        THE ORDER OF RAMAKRISHNA.
+> Tread his speech before the Chicago Con-
+>  ference, or his equally remarkable "Reply to
+>  the     Madras   Address," or the                  lectures   in
+> which at Lahore,          in    1897, he portrayed the
+> lineaments of a  generalized and essential
+> Hinduism, we find ourselves in presence of
+> something gathered by his own labours, out
+> of his    own experience.              The power behind
+> all    these    utterances           lay    in   those   Indian
+>
+> wanderings of which the tale can probably
+
+*— THE SWAMI IN LONDON*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> Yours obediently
+>                                            Kali Krishna Dutta
+>                                            Cashier Sc Accountant
+>                                            Thos Cook Sc Sons
+>                                            Calcutta
+>     10-1 Old^Court House St.
+>     Calcutta 28th March/94
+>
+>      Although Swamiji often wrote to his Madras disciples, he did
+> not, as wx‘ know, communicate with his brother monks until he had
+> been in America nearly nine months. From '‘The Letters” we find
+> that his letter WTitten on March 19, 1894, to Swami Rama-
+> krishnananda (not, as is stated in the English edition, to Swami
+> Brahmananda), w^as his first to any one of them. It is little…
+
+*— IN AND AROUND CHICAGO*
+
+> minds and had the effect of turning them into hybrid products
+>   belonging neither to India nor to any other country. From Swamiji’s
+>   point of view, the schools and colleges of the missionaries only made
+>  more complete the process of denationalization begun by Cluistian
+>  conversion. He could hardly, therefore, find them objects of his
+>  unadulterated praise. Indeed, shortly before his passing, he expressed
+>  the opinion that the introduction of English education in India had
+>  set back her progress by at least fifty years.
+>        Hume also quoted from the Hindu, a daily paper of Madras, whose
+>  Hindu editor, a Mr. G. S. Iyer, had written appreciatively of the
+>  missionaries and their work. It…
+
+*— RETURN OF THE WARRIOR*
+
+> an official sanction from the heads of the various Hindu communities,
+> particularly that of Calcutta, was essential. But, after centuries of
+> subjugation under foreign rule, such was the inertia of the Hindus
+> that, jubilant as they were, it did not occur to them to take united and
+> official action to acknowledge publicly the champion of their country
+> and to thank the American people for their reception of him. Even
+> in these practical matters it was necessary for Swamiji to be their guide
+> and director.
+>      To a Madrasi disciple he wrote on June 29: “Now as to my
+> prospects here—it is well nigh zero. Why, because although I had
+> the best purpose it has been made null and void by these causes.…
+
+*— I*
+
+
+**From *Vivekananda on Himself* (1959)** (8 references):
+
+> The excerpts are from :
+>
+> 1. The Complete works of Swami Vivekananda- 8 volumes
+> (published by the Advaita Ashrama, Calcutta 14)
+>
+> 2. The Gospel of Sri Ramakrishna,
+> (published by Sri Ramakrishna Math, Mylapore,
+>
+> Madras 4)
+>
+> 3. Sri Ramakrishna - The Great Master,
+> (published by Sri Ramakrishna Math, Mylapore,
+> Madras 4)
+>
+> 4. The Master as I saw Him
+> (published by the Udbodhan Office, Caloutta 3)
+
+*— p. 4*
+
+> acquired mystic powers over spirits could tell fortunes,
+> and read the past and future of man’s life. So at
+> Manmatha’s request and to get rid of my mental suspense,
+> I agreed to goto this man. Covering the distance partly
+> by railway and partly on foot, we four of us - Manmatha,
+> Alasinga, myself and another - managed to reach the
+> place, and what met our eyes there was a man with
+> ghoulish, haggard, sootblack appearance, sitting close toa
+> cremation ground. His attendents used some Madrassi
+> dialect to explain to us that this was the man with perfect
+> power over the ghosts. At first, the man took absolutely
+> no notice of us, and then, when we were about to retire
+> from the place, he made a request to…
+
+*— p. 132*
+
+> In that case, I would have months left in my hands to
+> seek for somebody amongst our nothern princes to send
+> me over to America. But alas. it is now too late. First,
+> I cannot wander about in this heat - I would die.
+> Secondly, my fast friends in Rajputana would keep me
+> bound down to their sides if they get hold of me and
+> would not let me go over to Europe. So my plan was to
+> get hold of some new person without my friend’s know-
+> ledge. But this delay at Madras has dashed all my hopes
+> to the ground, and witha deep sigh, I give it up and the
+> Lord’s will be done ! ‘Thy will be done on earth as it is
+> in heaven, for Thine is the glory and the Kingdom for
+> ever and ever.
+>
+> Khetri: 27-4-93 - As to my…
+
+*— p. 138*
 
 
 ---
@@ -3609,6 +5253,106 @@ On 24 December 1892, Vivekananda swam to the rock at the southernmost tip of Ind
 > IN MADRAS AND HYDERABAD 275
 
 *— p. 285*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (2 references):
+
+> whole mind filled with the question of how
+> many pieces of bread will be brought to one
+> for supper !"
+>
+>    It was perhaps at the end of this period,
+>
+> and in expression of that propulsive energy
+> of which he spoke, that he made a vow
+> to worship the Mother at Cape Comorin.
+> In carrying this out, he was lavish of time,
+>
+> yet it must have taken him only about
+> two years to accomplish the vow. In the
+> course of his wanderings towards this end, he
+> seems     to    have touched upon and studied
+> every phase of Indian                  life.    The stories of
+> this period are never ended.                    The list of the
+
+*— THE SWAMI IN LONDON*
+
+> ;
+>
+> historic sights and natural beauties of his
+>
+> Mother-land, and finally reached Cape
+> Comorin too poor to pay for a seat in a ferry-
+> boat to the shrine of Kanya Kumari, and
+> swam across the strait to the island, in spite
+> of sharks, to offer the worship he had vowed.
+> It was on his return northwards through
+>
+> Madras, that he formed the strong group of
+> disciples who became the means of sending
+> him to America, for which country he sailed
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (3 references):
+
+> misery, in famine, in pain, in the grave, in heaven or in
+> hell he, who never gives me up, is my friend. Is such
+> friendship a joke? A man may have salvation through
+> such friendship. If we have that faithfulness, why, there
+> is the essence of all concentration. You need not wor-
+> ship any gods in the world if you have that faith, that
+> strength, that love. Any one that was there was with us
+> all throughout the hard time. That made us go from
+> the Himalayas to Cape Comorin, from the Indus to
+> Brahmaputra.
+>
+> This band of boys began to travel about. Gradually
+> we began to draw attention; ninety per cent was antago-
+> nism, very little of it was helpful. For we had one fault,
+> — we were boys - in poverty,…
+
+*— p. 101*
+
+> or two months earlier, so that I found myself drifting
+> about,in the streets here, without knowing anybody.
+>
+> That I went to America was not my doing, or your
+> doing, but the God of India, who is guiding her destiny
+> sent me.
+>
+> In view specially of the poverty and ignorance
+> (in India), I had no sleep. At Cape Comorin, sitting in
+> Mother Kumari's temple, sitting on the last bit of Indian
+> rock - I hit upon a plan: the first thing we need is men,
+> and the next is funds. Through the grace of the Guru,
+> I was sure to get men. I next travelled in search of funds.
+> I have come to America to earn money myself and then
+> return to my country, and devote the rest of my days to
+> the realisation of this one aim of…
+
+*— p. 147*
+
+> machinery which will bring noble idea to the door of
+> everybody and then let men and women settle their
+> own fate.
+>
+> Look at that handful of youngmen called into exis-
+> tence by the divine touch of Ramakrishna's feet. They
+>
+> have preached the message from Assam to Sindh, from
+> the Himalayas to the Cape Comorin. They have crossed
+>
+> 262
+>
+> the Himalayas at a height of twenty-thousand feet over
+> snow and ice on foot, and penetrated into the mysteries
+
+*— p. 283*
 
 
 ---
@@ -3748,6 +5492,15 @@ One of the Char Dham pilgrimage sites, associated with Lord Rama. Vivekananda vi
 *— p. 262*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Ramanathapuram (Ramnad)
@@ -3885,6 +5638,68 @@ The Raja of Ramnad (Bhaskara Setupati) was one of Vivekananda's earliest and mos
 *— p. 473*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (3 references):
+
+> departure, “Swami, how do you like your motherland
+> after four years’ experience of the luxrious, glorious,
+> powerful West?” I could only answer, “India I loved
+> before I came away, now the very dust of India has
+> become holy to me, the very air is now holy, it is now
+> the holy land, the place of pilgrimage, the Tirtha.”
+>
+> Pamban: 1897 - It is impossible for me to express
+> my gratitude to H. H. the Rajah of Ramnad for his love
+> towards me. If any good work has been done by me
+> and through me, India owes much to this good man, for
+> it was he who conceived the idea of my going to Chica-
+> go, and it was he who put that idea into my head and
+> persistently urged me on to accomplish it.
+>
+> Ramnad: 30-1-97 -…
+
+*— p. 246*
+
+> I find that whenever I have made a mistake in my
+> life, it has always been because self entered into the
+> calculation; where self has not been involved, my judge-
+> ment has gone straight to the mark.
+>
+> I had from before a desire to go to Chicago. When
+> at Madras, the people there of their own accord, in
+> conjunction with the H. H. of Mysore and Ramnad, made
+> every arrangement to send me up...Between the H. H. of
+> Khetri and myself there exist the closest ties of love.
+> Well, I, as a matter of course, wrote to him that I was
+> going to America. Now the Raja of Khetri thought in
+> his love that I was bound tosee him once before I
+> departed, especially as the Lord gave him an heir to the
+> throne and great…
+
+*— p. 135*
+
+> 229
+>
+> landed, to Ramnad, the nearly southernmost point of the
+> Indian Continent where I am just now as the guest of the
+> Rajah of Ramnad, my journey has been a huge procession,
+> crowds of people, illuminations, addresses etc. etc. A
+> monument forty feet high is being built on the spot
+> where I landed. The Rajah of Ramnad has presented
+> his address to “His Most Holiness” in a huge casket of
+> solid gold beautifully worked. Madras and Calcutta are
+> on the tiptoe of expectation as if the whole nation is
+> rising to honour me...... Iam onthe very height of des-
+> tiny. Yet, the mind turns to quietness and peace.
+
+*— p. 247*
+
+
 ---
 
 ### Madurai (Madura)
@@ -4012,6 +5827,15 @@ Vivekananda visited the magnificent Meenakshi Temple in Madurai, moved by the br
 *— p. 261*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Trivananthapuram (Travancore)
@@ -4100,6 +5924,15 @@ Vivekananda visited Trivandrum, home of the famous Padmanabhaswamy Temple (Lord 
 > Indriya Nigraha, the…
 
 *— p. 259*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -4227,6 +6060,123 @@ One of the four sacred Char Dhams of Hinduism, home of Lord Jagannath. Vivekanan
 *— p. 48*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> the    world.      Here     indeed,      we came           up
+> against a closed door, and had no key.
+> When the Swami said, in bold consciousness
+> of paradox,        that   the saints     had lived on
+>                      "                                "
+> mountain-tops  to enjoy the scenery,   and
+> when he advised his hearers to keep flowers
+> .and incense in their worship-rooms, and to
+> care much for the purity and cleansing of
+> food and      person,     we     did   not   understand
+> enough to connect the two extremes. But
+> in fact he was preaching our own doctrine
+>
+> of physical refinement, as it would be formu-
+> lated in India. And is it not true that until we
+> in the   West have succeeded in…
+
+*— THE SWAMI IN LONDON*
+
+> and,    all   acts    being       equally    the     expres-
+> sion of the        Immanent Unity, none can be
+> distinguished as in           any     special sense con-
+> stituting adoration.              Worship, worshipper,
+> and   worshipped are one.    Yet it is ad-
+> mitted, even by the Adwaitin, that systems
+> of  praise and prayer have the power to
+> "purify the heart" of him who uses them.
+> For     clearly,     the    thought of       self   is   more
+> quickly restrained in relation to that of
+> God, than to any other. Worship is thus
+> regarded as the school, or preparation, for
+> higher stages of spiritual development. But
+> the self-same sequence would seem to have
+> held good in the eyes of the Swami,…
+
+*— THE SWAMI IN LONDON*
+
+> Europe,          finds         its    expression            in       art,          in
+>
+> India        finds       it    in        religion.         As        we,           in
+>
+> the      presence              of    a        Greek        statue,             ex-
+>
+> perience only reverence for the ideal of
+> beauty, so the Hindu sees in the naked
+> saint only a glorified and childlike purity.
+>     There was one aspiration, however,
+> which   was held, in this new thought-
+> world,   to be   of the   same sovereign
+> and universal application in the religious
+> life    as    that       of     the        concentration                 of    the
+> mind.          This           was        the     freedom             of…
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (8 references):
+
+> and diverted by the shrill note of the whistle of a neigh-
+> bouring jute mill. Itold him about it and he advised
+> me to concentrate my mind on the very sound of the
+> whistle. I followed his advice and derived from it much
+> benefit. On another occasion I felt great difficulty in
+> totally forgetting my body during meditation and con-
+> centrating the mind wholly onthe ideal. I went to him
+> for counsel and he gave me the very instruction which
+> he himself had received from Tota Puri while practising
+> Samadhi at the time of his Vedantic Sadhana.
+>
+> He sharply pressed between my two eyebrows with
+> his finger nail and said, “Now concentrate your mind on
+> this painful sensation!” Asa result I found I could…
+
+*— p. 49*
+
+> Every new religion: wave requires a new centre.
+> The old religion can only be resivified by a new centre.
+> Hang your dogmas or doctrines, they never pay! It is
+> a character, a life, a centre, a God-man that must lead
+> the way, that must be the centre round which all other
+> elements will- gather themselves and then fall like a
+> tidal wave upon the society, carrying all before it, washing
+> away all impurities.
+>
+> Again, a piece of wood can only easily be cut along
+> the grain. So the old Hinduism can only be reformed
+> through Hinduism, and not through the new-fangled
+> reform movements. At the same time, the reformers
+> must be able to unite in themselves the culture of both
+> the East and the West. Now you…
+
+*— p. 66*
+
+> How I used to hate Kali and all Her ways! That
+> was the ground of my six years’ fight - that I could not
+> accept Her. But I had to accept Her at last! Rama-
+> krishna Paramahamsa dedicated me to Her, and I now
+> believe that She guides me in everything I do, and does
+> with me what She will... Yet I fought so long! I loved
+> him (the Master) you see, and that was what held me,
+> I saw his marvellous purity... I felt his wonderful love.
+> His greatness had not dawned on me then. All that
+> came afterwards, when I had given in. At that time I
+> thought him a brain-sick baby, always seeing visions and
+> the rest. All thar I hated. And then I too had to
+> accept Her!
+>
+> No, 7the thing that made me» do it is a…
+
+*— p. 51*
+
+
 ---
 
 ### 16 Bosepara Lane
@@ -4237,6 +6187,12 @@ One of the four sacred Char Dhams of Hinduism, home of Lord Jagannath. Vivekanan
 
 
 The family residence at 16 Bosepara Lane, Simulia, Kolkata, where Narendranath Datta grew up. The family moved here from Gourmohan Mukherjee Street. Vivekananda spent his formative teenage years at this address.
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -4318,7 +6274,16 @@ House of Nilambur Mukherjee in Ramakrishnapur, Howrah, where Vivekananda and bro
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -4400,7 +6365,16 @@ Ramakrishnapur village in Howrah was a retreat location for the young Ramakrishn
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -4469,7 +6443,16 @@ Barajaguli in Nadia district was visited during Vivekananda's wandering pilgrima
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -4498,7 +6481,16 @@ Kuppaghat on the banks of the Ganga at Bhagalpur is where Vivekananda stayed and
 *— notes of praise. But then the machine has already been set agoing, and even a boy can work it, or a fool add to it \*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -4592,6 +6584,15 @@ Bhagalpur on the Ganga was an important stop during Vivekananda's wandering year
 *— p. 206*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Tehri
@@ -4668,6 +6669,15 @@ Vivekananda visited the princely state of Tehri Garhwal during his Himalayan wan
 *— p. 210*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Jodhpur
@@ -4729,6 +6739,15 @@ Vivekananda visited Jodhpur during his wandering years in Rajputana. He spent ti
 *— p. 547*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Wadhwan
@@ -4762,6 +6781,15 @@ Wadhwan, a princely state in Saurashtra, was visited by Vivekananda during his K
 > wherever…
 
 *— p. 233*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -4890,6 +6918,15 @@ Limbdi, a small princely state in Saurashtra, was visited by Vivekananda. The Th
 *— p. 242*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Bhavnagar
@@ -4964,6 +7001,15 @@ Bhavnagar was visited by Vivekananda during his Gujarat wanderings. The port cit
 > till…
 
 *— p. 234*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -5059,6 +7105,15 @@ Girnar, the sacred mountain near Junagadh revered by Hindus, Jains, and Buddhist
 *— p. 193*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Bhuj
@@ -5112,6 +7167,15 @@ Vivekananda visited Bhuj, the capital of the Kutch region, during his Gujarat wa
 *— p. 285*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Veraval
@@ -5127,7 +7191,16 @@ Veraval was visited by Vivekananda as the gateway to the sacred Somnath temple. 
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -5145,7 +7218,16 @@ Narayan Sarovar, one of the five most sacred lakes (panch sarovars) in Hinduism,
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -5184,6 +7266,15 @@ Mandvi, the historic port city of Kutch, was visited by Vivekananda during his e
 *— p. 240*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Beyt Dwarka
@@ -5199,7 +7290,16 @@ Beyt Dwarka (Bet Dwarka), the sacred island off the coast of Gujarat believed to
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -5295,6 +7395,15 @@ Ashapuri near Bhavnagar was visited by Vivekananda during his Saurashtra wanderi
 *— p. 234*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Palitana
@@ -5310,7 +7419,16 @@ Palitana, the foremost Jain pilgrimage destination with 900+ temples on Shatrunj
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -5427,6 +7545,15 @@ Khandwa in central India was visited by Vivekananda during his parivrajaka (wand
 *— p. 240*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Ujjain
@@ -5452,7 +7579,16 @@ Ujjain, one of the seven sacred cities of Hinduism and home to the Mahakaleshwar
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -5470,7 +7606,16 @@ Maheshwar, the historic riverside town on the Narmada known as the domain of Que
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -5535,7 +7680,35 @@ Mahabaleshwar, the famous hill station in the Sahyadri mountains, was visited by
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (1 references):
+
+> about the system of education here. Of course, I have
+> seen the library and the pictures of Ravi Varma and that
+> is about all worth seeing here. So, I am going off this
+> evening to Bombay... At Nadiad, I met Mr. Manilal
+> Nanubhai. He is a very learned and pious gentleman
+> and I enjoyed his company much.
+>
+> Poona: 15-6-92 -I came down with the Thakore
+> Saheb of Mahabaleshwar and I am living here with him.
+> I would remain here a week or more and then proceed to
+> Rameshwar via Hyderabad...... Isaw the Surti tutor to
+> the Prince of Bhavnagar - He is a perfect gentleman. It
+> was quite a privilege to make his acquaitance, he is so
+> good and noble-natured a man.
+>
+> Bombay: 22-8-92- Yesterday I saw…
+
+*— p. 137*
 
 
 ---
@@ -5572,6 +7745,15 @@ Kolhapur, home to the Mahalakshmi temple (one of the Shakti Peethas), was visite
 *— p. 242*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Nagpur
@@ -5604,6 +7786,31 @@ Nagpur, the orange city and geographical heart of India, was visited by Vivekana
 > nature.
 
 *— p. 30*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (1 references):
+
+> the ground in search of food, filled the quarters with sweet
+>
+> *In the year 1877, while Vivekananda (then Naren) was a student
+> of third class, his father went to Raipur in the Central Provinces
+> (Madhya Pradesh). He arranged that this family should follow him
+> later on led by Naren. It was a journey partly by bullock cart via
+> Allahabad and Jubbulpore through dense forests and over
+> unfrequented roads, for the railways were in those days cons-
+> tructed only upto Nagpur.
+>
+> Vivekananda (1863-1902)
+>
+> Swami
+
+*— p. 8*
 
 
 ---
@@ -5639,6 +7846,15 @@ Thrissur, the cultural capital of Kerala, was visited by Vivekananda during his 
 *— p. 255*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Kodungalloor (Cranganore)
@@ -5654,7 +7870,16 @@ Kodungalloor (ancient Cranganore), one of the oldest towns in India with connect
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -5724,6 +7949,15 @@ Paramakudi in the Ramanathapuram district was a stop during Vivekananda's South 
 *— p. 475*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Manamadurai
@@ -5739,7 +7973,16 @@ Manamadurai in Sivaganga district, Tamil Nadu, was visited by Vivekananda during
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -5837,6 +8080,15 @@ Kumbakonam, renowned as the 'City of Temples' in the Cauvery delta, was visited 
 *— p. 476*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Pondicherry
@@ -5885,6 +8137,15 @@ Vivekananda visited Pondicherry, the French colonial enclave on the Coromandel c
 *— p. 277*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### R.R. Sabha, Madras
@@ -5900,7 +8161,16 @@ The R.R. Sabha (Raghunatha Rao Sabha) in Triplicane, Madras, was one of the venu
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -5918,7 +8188,16 @@ Castle Kernan in Triplicane, Madras, was one of the important residences where V
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -5999,6 +8278,15 @@ Margao (Madgaon), the commercial capital of Goa, was visited by Vivekananda duri
 *— p. 128*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Sitakund
@@ -6014,7 +8302,16 @@ Sitakund (Chandranath Hills) near Chittagong, one of the most ancient pilgrimage
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -6047,7 +8344,16 @@ Sandakphu on the Nepal-India border, the highest peak in West Bengal, was visite
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -6139,6 +8445,15 @@ Bareilly in the Rohilkhand region of Uttar Pradesh was visited by Vivekananda du
 > result of an impressive conversation with a gathering of students
 
 *— p. 533*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -6239,6 +8554,15 @@ Belgaum (now Belagavi) in northern Karnataka was visited by Vivekananda during h
 *— p. 251*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Ernakulam (Kochi)
@@ -6254,7 +8578,16 @@ Ernakulam, the mainland part of Kochi (Cochin), was visited by Vivekananda durin
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -6338,6 +8671,123 @@ Panaji, the capital of the former Portuguese colony of Goa, was visited by Vivek
 *— p. 128*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> clearly understood.
+>     In the Swami's               scheme of things how-
+> ever,   it    would almost seem as if such tasks
+> were to take that place in the spiritual edu-
+> cation which had previously been occupied
+>
+> by systems of devotion.                   To the Adwaitin,
+> or strict believer          in     the Indian philosophy
+> of Vedanta,           the   goal      lies     in      the    attain-
+>
+> ment of that mood in which all is One and
+> there is no second.              To one who has reached
+> this,   worship becomes impossible,                      for there
+>
+>                                  54
+>           THE CONFLICT OF IDEALS.
+
+*— THE SWAMI IN LONDON*
+
+> being.
+>
+>                                291
+>            THE SWAMFS MISSION
+> with phases only, of this supreme       realis-
+>
+> ation.
+>      As an expression   of this goal, however,
+>
+> every sincere belief was true.   "Bow thy head
+> and adore," had said Sri Ramakrishna, "where
+> others worship, for in that  form in which
+> man has called on Him, God will assuredly
+> appear." At each step between the earth and
+> the sun, said the Swami, we might conceiv-
+
+*— PAST AND FUTURE IN INDIA*
+
+> and again,                  times                       " The
+>                  many                repeated,
+> materialist     is   right   !     There    is    but    One.
+> Only he calls that One Matter, and I call it
+> God !" In another, and longer passage, he
+> describes the growth of the religious idea,
+> and the relation of its various forms to one
+>            "
+> another.     At first," he says, ''the goal
+> is far off, outside Nature, and far beyond
+>
+> it,   attracting us all towards       it.        This has to
+> be brought near, yet without being degraded
+> or     degenerated,       until,   when     it    has    come
+> closer    and   closer,     the God of Heaven be-
+> comes the God          in   …
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (8 references):
+
+> each he listened eagerly. But he worshipped only
+> Mother. All co him was Mother.
+>
+> He is born to no purpose, who, having the privilege of being
+> born a man, is unable to realise God in this life.
+>
+> SRI RAMAKRISHNA
+>
+> Each soul is potentially divine. The goal is to manifest this
+> divine within, by controlling nature external and internal.
+>
+> SWAMI VIVEKANANDA.
+>
+> 12
+
+*— p. 19*
+
+> ment, and what can I do in this matter?
+>
+> Verily, vey , I say unto you he who wants Him finds Him.
+> Go end verify it in your life. Try for three days, try with
+> genuine earnestness and you are sure to succeed.
+>
+> — SRI RAMAKRISHNA. :
+>
+> To be goad and to do good - that isthe whole of religion. ae
+> me — SWAMI VIVEKANANDA:
+>
+> 55
+>
+> CHAPTER IN
+
+*— p. 64*
+
+> make sure of my coming he sent his Private Secretary all
+> the way to Madras to fetch me. °
+>
+> There were my Gurubhais at Junagad...Of them one
+> is our leader. I met them after three years and we came
+> together as far as Abu and then I left them.
+>
+> Margoa: 1893- Ireached here safe. I went to
+> visit Panjim and a few other villages and temples nearby.
+> Ireturned just today. I have given up the intentién of
+> visiting Gokarna, Mahabaleswar and other places. I start
+> for Dharwar by the morning train tomorrow. Doctor
+> Yogdekar’s friend was very hospitable to me. The town
+> of Panjim is very neat and clean. Most of the Christians
+> here are literate. The Hindus are mostly uneducated.
+
+*— p. 136*
+
+
 ---
 
 ### Somnath Temple
@@ -6398,6 +8848,15 @@ Somnath, the first and most revered of the twelve Jyotirlingas of Lord Shiva, wa
 > courses my brain gets dizzy. How will you utilise all this talent?
 
 *— p. 237*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -6525,6 +8984,123 @@ Puri on the Bay of Bengal, home to the Jagannath Temple and one of the four sacr
 *— p. 48*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> the    world.      Here     indeed,      we came           up
+> against a closed door, and had no key.
+> When the Swami said, in bold consciousness
+> of paradox,        that   the saints     had lived on
+>                      "                                "
+> mountain-tops  to enjoy the scenery,   and
+> when he advised his hearers to keep flowers
+> .and incense in their worship-rooms, and to
+> care much for the purity and cleansing of
+> food and      person,     we     did   not   understand
+> enough to connect the two extremes. But
+> in fact he was preaching our own doctrine
+>
+> of physical refinement, as it would be formu-
+> lated in India. And is it not true that until we
+> in the   West have succeeded in…
+
+*— THE SWAMI IN LONDON*
+
+> and,    all   acts    being       equally    the     expres-
+> sion of the        Immanent Unity, none can be
+> distinguished as in           any     special sense con-
+> stituting adoration.              Worship, worshipper,
+> and   worshipped are one.    Yet it is ad-
+> mitted, even by the Adwaitin, that systems
+> of  praise and prayer have the power to
+> "purify the heart" of him who uses them.
+> For     clearly,     the    thought of       self   is   more
+> quickly restrained in relation to that of
+> God, than to any other. Worship is thus
+> regarded as the school, or preparation, for
+> higher stages of spiritual development. But
+> the self-same sequence would seem to have
+> held good in the eyes of the Swami,…
+
+*— THE SWAMI IN LONDON*
+
+> Europe,          finds         its    expression            in       art,          in
+>
+> India        finds       it    in        religion.         As        we,           in
+>
+> the      presence              of    a        Greek        statue,             ex-
+>
+> perience only reverence for the ideal of
+> beauty, so the Hindu sees in the naked
+> saint only a glorified and childlike purity.
+>     There was one aspiration, however,
+> which   was held, in this new thought-
+> world,   to be   of the   same sovereign
+> and universal application in the religious
+> life    as    that       of     the        concentration                 of    the
+> mind.          This           was        the     freedom             of…
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (8 references):
+
+> and diverted by the shrill note of the whistle of a neigh-
+> bouring jute mill. Itold him about it and he advised
+> me to concentrate my mind on the very sound of the
+> whistle. I followed his advice and derived from it much
+> benefit. On another occasion I felt great difficulty in
+> totally forgetting my body during meditation and con-
+> centrating the mind wholly onthe ideal. I went to him
+> for counsel and he gave me the very instruction which
+> he himself had received from Tota Puri while practising
+> Samadhi at the time of his Vedantic Sadhana.
+>
+> He sharply pressed between my two eyebrows with
+> his finger nail and said, “Now concentrate your mind on
+> this painful sensation!” Asa result I found I could…
+
+*— p. 49*
+
+> Every new religion: wave requires a new centre.
+> The old religion can only be resivified by a new centre.
+> Hang your dogmas or doctrines, they never pay! It is
+> a character, a life, a centre, a God-man that must lead
+> the way, that must be the centre round which all other
+> elements will- gather themselves and then fall like a
+> tidal wave upon the society, carrying all before it, washing
+> away all impurities.
+>
+> Again, a piece of wood can only easily be cut along
+> the grain. So the old Hinduism can only be reformed
+> through Hinduism, and not through the new-fangled
+> reform movements. At the same time, the reformers
+> must be able to unite in themselves the culture of both
+> the East and the West. Now you…
+
+*— p. 66*
+
+> How I used to hate Kali and all Her ways! That
+> was the ground of my six years’ fight - that I could not
+> accept Her. But I had to accept Her at last! Rama-
+> krishna Paramahamsa dedicated me to Her, and I now
+> believe that She guides me in everything I do, and does
+> with me what She will... Yet I fought so long! I loved
+> him (the Master) you see, and that was what held me,
+> I saw his marvellous purity... I felt his wonderful love.
+> His greatness had not dawned on me then. All that
+> came afterwards, when I had given in. At that time I
+> thought him a brain-sick baby, always seeing visions and
+> the rest. All thar I hated. And then I too had to
+> accept Her!
+>
+> No, 7the thing that made me» do it is a…
+
+*— p. 51*
+
+
 ---
 
 ### Bhubaneswar
@@ -6540,7 +9116,16 @@ Bhubaneswar, the ancient city of temples in Odisha, was visited by Vivekananda d
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -6558,7 +9143,16 @@ Visakhapatnam (Vizag) on the Coromandel coast was a stop during Vivekananda's So
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -6576,7 +9170,16 @@ Tirupati, home to the Tirumala Venkateswara Temple on the Tirumala hills, was vi
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -6706,6 +9309,15 @@ Vivekananda visited Madurai and the magnificent Meenakshi Amman temple during hi
 *— p. 261*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### 259, Ram Bagh, Meerut
@@ -6798,6 +9410,15 @@ The house at 259, Ram Bagh, Meerut served as the second Baranagar Math when Vive
 > to be mad. He was coming…
 
 *— p. 214*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -6939,6 +9560,33 @@ Vivekananda arrived at Nainital on 29 August 1890 with his guru-brother Swami Ak
 *— p. 573*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (1 references):
+
+> 253
+>
+> a Darn sight better way to Nirvana” than pouring obla-
+> tions to all that ever twinkled... Iam going to start a
+> paper — The Udbodhana — in Calcutta.
+>
+> Almora: 20-5-98 - After I reached Nainital,
+> Baburam went from here to Nanital on horseback against
+> everybody's advice, and while returning he also accom-
+> panied us on horseback. I was far behind asI was in a
+> dandi. WhenI reached the dak bungalow at night, I
+> heard that Baburam had again fallen from the horse and
+> had hurt one of his arms — though he had no fractures.
+> Lest I should rebuke him, he stayed in a private lodging
+> house. He did not meet that night. Next day, I was
+
+*— p. 273*
+
+
 ---
 
 ### Kakrighat
@@ -6970,7 +9618,16 @@ On the banks of the Kosi river between Nainital and Almora, Vivekananda meditate
 *— NOTES \*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -7047,6 +9704,15 @@ Vivekananda traversed the Garhwal Himalayas during his 1890 parivrajaka journey,
 *— p. 209*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Karna Prayag
@@ -7080,6 +9746,15 @@ At Karnaprayag — the sacred confluence of the Alaknanda and Pindar rivers — 
 *— p. 209*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Rudra prayag
@@ -7111,6 +9786,15 @@ At Rudraprayag — the confluence of the Alaknanda and Mandakini rivers — Vive
 > place) the…
 
 *— p. 209*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -7260,6 +9944,53 @@ Srinagar in Pauri Garhwal, on the banks of the Alaknanda river, was a significan
 *— p. 592*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (2 references):
+
+> in one eternal meditation.'
+>
+>                                 1   20
+>                 BEAUTY OF KASHMIR.
+>    We drove from Rawalpindi to Murree,
+> where we spent a few days. And then, partly
+> by tonga, partly by boat, we proceeded to
+> Srinagar in Kashmir, and made it our centre
+> and headquarters, during the wanderings of
+> the following months.
+>        It   would be easy to           lose oneself here in
+> the beauty of           our    journeys, in      descriptions
+> of mountain-forests on the road to Almora, or
+> of      cathedral-rocks            and      corn-embosomed
+> villages    the Jhelum Pass.
+>               in                  For, as one
+
+*— THE SWAMI IN LONDON*
+
+> saying farewell,     And, mother, of what
+> religion areyou ?" her whole face had
+> lighted up with pride and joy, and her
+> old voice had   rung out in triumph as
+> she answered loudly and clearly, "I thank
+> our God, by the mercy of the Lord,       I   am
+> a Mussulman !"
+>    Or I might tell of the avenue of lofty
+> Lombardy poplars outside Srinagar, so like
+> the well-known picture by Hobbema, where
+> we listened to discourse after discourse on
+> India and the Faith.
+>    Or I might linger over the harvest merri-
+> ment of the villagers, playing in reaped fields
+> on moonlit evenings or talk of the red bronze
+>                        ;
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Karbala stone
@@ -7398,6 +10129,75 @@ A memorial stone on the Bhowali–Almora road marks the spot where Vivekananda, 
 > thing told them in their heart of hearts…
 
 *— p. 334*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> haps for two weeks, and then the party left
+> Allahabad, and by twos and threes returned
+> to the monastery, in the village of Baranagore
+> on   the   banks        of   the      Ganges.   But now
+> there   came a time,         in the    year 1890,    when
+> the Swami left his brothers, not to return, till
+> the great triumph of the year 1897.
+>     This time he set out with a monk known
+> as Akhandananda, who took him to Almora
+> and left him there, enjoying the hospitality
+> of a family who had formerly befriended
+> himself on a journey to Thibet.   It is said
+>
+> that on the way up the mountains, the Swami
+> one day fainted with hunger, when a poor
+> Mohammedan found him, and prepared
+> and gave him a cucumber, which…
+
+*— THE SWAMI IN LONDON*
+
+> he retorted quickly. "But things do not grow
+> better.  They remain as they were, and we
+> grow        better,   by   the   changes   we   make
+>               '
+> in them.
+>    This last sentence has to myself the ring
+> of a Veda.        "We grow better, by the changes
+> we make in them." Similiarly, when we were
+> at Almora, I remember a certain elderly man
+> with a face full of amiable weakness, who
+> came to put to him a question about karma.
+> What were they to do, he asked, whose
+> karma it was, to see the strong oppress the
+> weak ? The Swami turned on him in surpris-
+> ed indignation. "Why thrash the strong, of
+> course !" he said. "You forget your own part
+> in this karma.         Yours is always the right to
+
+*— THE SWAMI IN LONDON*
+
+> stand, in many ways, that the remaining years
+> of his    life in   his father's   house had been al-
+> most more severe than those spent in most
+> monasteries.  And I, reading the Bhagavad
+> Gita under his guidance, long afterwards at
+>
+>                             135
+>           THE AWAKENER OF SOULS.
+> Almora, was made able to conceive of what
+> we     call    the love     of     God    as     a       burning
+> thirst.
+>
+>        Under the influence of the Swami Swa-
+> rupananda,        I
+>                       began seriously the attempt at
+> meditation.           And if it had not been for this
+> help of his, one of the greatest hours of my
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -7540,6 +10340,75 @@ The Sri Raghunath Mandir is one of the oldest and most revered Vaishnava temples
 *— p. 334*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> haps for two weeks, and then the party left
+> Allahabad, and by twos and threes returned
+> to the monastery, in the village of Baranagore
+> on   the   banks        of   the      Ganges.   But now
+> there   came a time,         in the    year 1890,    when
+> the Swami left his brothers, not to return, till
+> the great triumph of the year 1897.
+>     This time he set out with a monk known
+> as Akhandananda, who took him to Almora
+> and left him there, enjoying the hospitality
+> of a family who had formerly befriended
+> himself on a journey to Thibet.   It is said
+>
+> that on the way up the mountains, the Swami
+> one day fainted with hunger, when a poor
+> Mohammedan found him, and prepared
+> and gave him a cucumber, which…
+
+*— THE SWAMI IN LONDON*
+
+> he retorted quickly. "But things do not grow
+> better.  They remain as they were, and we
+> grow        better,   by   the   changes   we   make
+>               '
+> in them.
+>    This last sentence has to myself the ring
+> of a Veda.        "We grow better, by the changes
+> we make in them." Similiarly, when we were
+> at Almora, I remember a certain elderly man
+> with a face full of amiable weakness, who
+> came to put to him a question about karma.
+> What were they to do, he asked, whose
+> karma it was, to see the strong oppress the
+> weak ? The Swami turned on him in surpris-
+> ed indignation. "Why thrash the strong, of
+> course !" he said. "You forget your own part
+> in this karma.         Yours is always the right to
+
+*— THE SWAMI IN LONDON*
+
+> stand, in many ways, that the remaining years
+> of his    life in   his father's   house had been al-
+> most more severe than those spent in most
+> monasteries.  And I, reading the Bhagavad
+> Gita under his guidance, long afterwards at
+>
+>                             135
+>           THE AWAKENER OF SOULS.
+> Almora, was made able to conceive of what
+> we     call    the love     of     God    as     a       burning
+> thirst.
+>
+>        Under the influence of the Swami Swa-
+> rupananda,        I
+>                       began seriously the attempt at
+> meditation.           And if it had not been for this
+> help of his, one of the greatest hours of my
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Nadiad
@@ -7611,7 +10480,16 @@ Nadiad, a historic town in the Kheda district of Gujarat, was one of the stops S
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -7670,6 +10548,15 @@ During his years of wandering across India (1888-1893), Swami Vivekananda passed
 *— p. 30*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Manmathanath Bhattacharya's House
@@ -7685,7 +10572,16 @@ In late 1892, Swami Vivekananda arrived in Madras (Chennai) and was first hosted
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -7703,7 +10599,16 @@ G.G. Narasimhacharyar was among the devoted young men of Madras who gathered aro
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -7721,7 +10626,16 @@ The Harmston Grand Circus Pavilion in Madras served as the venue for a grand pub
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -7739,7 +10653,16 @@ Justice P. Subramania Iyer, a prominent High Court judge and admirer of Vivekana
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -7757,7 +10680,16 @@ Sashi Vilas was the home of Nanjunda Rao, one of the Madras devotees who offered
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -7775,7 +10707,16 @@ Yogi Parthasarathy was one of the earnest spiritual seekers in Madras who came i
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -7793,7 +10734,16 @@ Balaji Rao was among the devoted householder supporters of Swami Vivekananda in 
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -7811,7 +10761,16 @@ P. Aiyasami Alasinga Perumal was Swami Vivekananda's most devoted Madras discipl
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -7922,6 +10881,15 @@ Patters Garden in the Royapettah area of Madras was one of the venues associated
 *— p. 680*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Triplicane Literary Society
@@ -7976,6 +10944,15 @@ The Triplicane Literary Society was a prominent intellectual forum in Madras whe
 *— p. 482*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Justice Subramaniam Iyer's House
@@ -7991,7 +10968,16 @@ Justice P. Subramania Iyer's residence in Madras was one of the important stops 
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -8009,7 +10995,16 @@ Nagercoil, the southernmost town of Tamil Nadu near the tip of the Indian subcon
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -8149,6 +11144,15 @@ Rameshwaram, one of the holiest pilgrimage sites in India, was visited by Swami 
 *— p. 262*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Valangaiman, Kumbakonam
@@ -8244,6 +11248,15 @@ Valangaiman is a small town in the Tiruvarur district near Kumbakonam in the Cau
 *— p. 476*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Kunthukal
@@ -8273,7 +11286,16 @@ Kunthukal is a village in the Ramanathapuram district of Tamil Nadu. During his 
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -8376,6 +11398,15 @@ Pamban, the gateway island to Rameshwaram, was visited by Swami Vivekananda duri
 *— p. 472*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Sandukphu
@@ -8406,7 +11437,16 @@ Sandukphu (Sandakphu), the highest peak in the Darjeeling Himalayan region on th
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -8462,6 +11502,15 @@ Vivekananda set sail from Cochin on 31 May 1893, beginning his historic first vo
 > kariah, the acting Dewan of…
 
 *— p. 255*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -8607,6 +11656,135 @@ Vivekananda arrived at Colombo on his outward voyage to the Parliament of Religi
 *— p. 468*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (2 references):
+
+> VIVEKANANDA.
+>
+>       RAJA YOGA v
+>       KARMA YOGA
+>       BHAKTI YOGA
+>       GNANA YOGA s
+>       HARVARD ADDRESS
+>       COLOMBO TO ALMORA
+>       MY MASTER
+>       And other lectures and       writings,   may be
+> -ordered through the       Udbodhan Office, Gopal
+> Chunder Neogi's Lane, Bagh Bazar, Calcutta;
+> or through the      Office    of    the   Prabuddha
+> Bharata, Mayavati,         Lohaghat Post       Office,
+>
+> via    Almora, U. P.   ;
+
+*— THE END*
+
+> after the
+> room near Victoria Street. During July,
+> August, and September, he travelled in
+> France, Germany and Switzerland, with his
+> friends, Mr. and Mrs. Sevier, and Miss
+> H. F.    Muller.     In    December, he   left   for
+>
+> India, with   some of his disciples, by way of
+> Rome, and arrived at Colombo, in Ceylon,
+> on January the i5th, 1897.
+>    Many of the lectures which he gave
+> during the year 1896, have since been pub-
+>
+>                           22
+>      SECOND VISIT TO LONDON'
+> lished,   and in them, all the world may read
+> his message, and the interpretation by which
+
+*— THE SWAMI IN LONDON*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (2 references):
+
+> women was not formally organized at that time, the very fact that
+> Mother acknowledged its existence and regarded herself as its head gave
+> it spiritual substance. It was only a matter of time before the convent
+> would be realized—^as it has been—on the concrete plane.
+>      But though the convent for women was not, practically speaking,
+> organized during his lifetime as Swamiji would have wished, almost
+> every other branch along which the Ramakrishna Order was to grow
+> had been placed on a practical and sound basis. Between the day of
+> his arrival at Colombo on January 15, 1897, and the day of his passing
+> on July 4, 1902, he had organized Maths and Missions, relief centers,
+> orphanages and schools,…
+
+*— EPILOGUE*
+
+> who joined the party in Naples), headed at last for his motherland.
+>
+>      Although Swamiji knew that the people of India would respond
+> to his message, he was not prepared for the tremendous ovation that
+> greeted him. Traveling by stages from Colombo, where he had landed
+> on January 15, 1897, to Madras, he received everywhere the adoration
+> and homage of thousands upon thousands of his countrymen. Every¬
+> where the streets were elaborately decorated and lengthy speeches were
+> delivered in his praise. At one place his carriage was drawn by a group
+> of devotees, at another, hundreds flung themselves on the tracks in
+> front of his approaching train, forcing it to stop so that they might catch
+> a…
+
+*— II*
+
+
+**From *Vivekananda on Himself* (1959)** (6 references):
+
+> Buddhist monks and laymen, men and women, came out
+> beating drums and cymbals and set up an awful uproar.
+> The lecture had to stop, of course, and there was the im-
+> minent risk of bloodshed. With great difficulty I had to
+> persuade the Hindus that we at any rate might practise
+> a bit of non-injury (Ahimsa) if they did not. Then the
+> matter ended peacefully.
+>
+> Our Colombo friends had procured a permit for our
+> landing. So we landed and met our friends. Sir Coomara
+> Swami is the foremost man among the Hindus. Mr. Aru-
+> nachalam and other friends came to meet me. After
+> a long time, I partook of millagutawny, and the king
+> cocoanut. They put some green cocoanuts into my cabin.
+> I also visited the…
+
+*— p. 298*
+
+> 277
+>
+> Alasinga returned to Madras from Colombo, and we
+> also got on board our ship, with presents of some lemons
+> from the orchard of Kumaraswamy, some cocoanuts,
+> two bottles of syrup, etc.
+>
+> The ship left Colombo in the morning of 25th June
+> (1899). Owing to the rolling of the ship, most of the
+> passengers were suffering from headache. A little girl
+> named Tootle was accompanying her father. She had
+> lost her mother. Our Nivedita became mother to Tootle.
+> Tootle was brought up in Mysore with her father who is
+> a planter. I asked her, “Tootle, how are you?’’ She
+> replied, “This bungalow is not good and rolls very much,
+> which makes me sick.’ To her every house was a
+
+*— p. 299*
+
+> As the news of my not being permitted to land got
+> abroad, the crowd of boats began to increase still more.
+> I, too, began to feel exhaustion from leaning against the
+> railings too long. Then I bade farewell to my Madrasi
+> friends and entered my cabin. Alasinga got no opportu-
+> nity to consult with me about the Brahmavadin and the
+> Madras work; so he was going to accompany me to
+> Colombo. The ship left the harbour in the evening, when
+> I heard a great shout, and peeping through the cabin
+> window, I found that about a thousand Madrasi men,
+> women and children who had been sitting on the harbour
+> walls, gave this farewell shout when the ship started.
+
+*— p. 296*
+
+
 ---
 
 ### Jaffna, Sri Lanka
@@ -8743,6 +11921,15 @@ Vivekananda visited Jaffna in the north of Ceylon (Sri Lanka) during his 1897 re
 *— p. 469*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Kandy, Sri Lanka
@@ -8799,6 +11986,15 @@ Vivekananda visited Kandy, home of the famous Temple of the Tooth Relic of the B
 *— p. 468*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Trincomalee
@@ -8814,7 +12010,16 @@ Vivekananda visited Trincomalee during his 1897 return tour of Ceylon (Sri Lanka
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -8865,6 +12070,35 @@ Vivekananda stopped at Penang (then part of British Malaya) during his outward v
 *— p. 298*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (1 references):
+
+> . 128
+>
+> opportunity of getting off to have a look at the town.
+> We drove through the streets and the only thing I
+> remember was atemple in which there was a gigantic
+> Murti (image) of the Lord Budha in a reclining posture,
+> entering Nirvana.
+>
+> The next station was Penang, which is only a strip of
+> land along the sea in the body of the Malay Peninsula.
+> On our way from Penang to Singapore, we had glimpses of
+> Sumatra with its high mountains, and the captain pointed
+> out to me several places as the favourite haunts of pirates
+>
+> in days gone by.
+>
+> Singapore has a fine botanical garden with the most
+
+*— p. 142*
+
+
 ---
 
 ### Singapore city
@@ -8908,6 +12142,35 @@ Vivekananda passed through the British colony of Singapore on his voyage to the 
 > lands. The next halting-place was Singapore, the capital of…
 
 *— p. 298*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (1 references):
+
+> opportunity of getting off to have a look at the town.
+> We drove through the streets and the only thing I
+> remember was atemple in which there was a gigantic
+> Murti (image) of the Lord Budha in a reclining posture,
+> entering Nirvana.
+>
+> The next station was Penang, which is only a strip of
+> land along the sea in the body of the Malay Peninsula.
+> On our way from Penang to Singapore, we had glimpses of
+> Sumatra with its high mountains, and the captain pointed
+> out to me several places as the favourite haunts of pirates
+>
+> in days gone by.
+>
+> Singapore has a fine botanical garden with the most
+> splendid collection of palms. The beautiful fan-like palm
+> called the traveller's palm, grows here in abundance, and
+
+*— p. 142*
 
 
 ---
@@ -8960,7 +12223,87 @@ Vivekananda stopped at Hong Kong (then a British crown colony) during his outwar
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (1 references):
+
+> due consideration finally wrote in a letter to the Committee:
+>      . . The difficulties which I myself feel are not questions of distance
+>  and convenience, but rest on the fact that the Christian religion is the
+>  one religion. I do not understand how that religion can be regarded
+>  as a member of a Parliament of Religions without assuming the
+>  equality of the other intended members and the parity of their posi¬
+>  tion and claims.”
+>        Echoes were heard. For example, a letter from a minister in
+>  Hong Kong: “. . . If misled yourself, at least do not mislead others
+>  nor jcopardiyx, 1 pray you, the precious life of your soul by playing
+>  fast and loose with the truth and coquetting with false…
+
+*— THE PARLIAMENT OF RELIGIONS*
+
+
+**From *Vivekananda on Himself* (1959)** (3 references):
+
+> I went to see several temples. The biggest in Canton
+> is dedicated to the memory of the first Buddhistic
+> Emperor, and the five hundred first disciples of Buddhism.
+> The central figure is of course Buddha, and next beneath
+> Him, is seated the Emperor, and ranging on both sides
+> are the statues of the disciples, all beautifully carved out
+> of wood.
+>
+> From Canton back to Hong Kong, and thence to
+> Japan. The first port we touched was Nagasaki. We
+> landed for a few hours and drove through the town,
+> What a contrast! The Japanese are one of the cleanliest
+> peoples on earth. Everything is neat and tidy. Their
+> streets are all broad, straight and regularly paved. Their
+> little houses are cagelike, and their…
+
+*— p. 144*
+
+> risk of having his little head pulverised, pigtail and all;
+> but he does not care a fig. This busy life seems to have
+> no charm for him, and he is quite content to learn the
+> anatomy of a bit of rice cake given to him from time to
+> time by the madly busy mother. The Chinese child is
+> quite a philosopher, and calmly goes to work at an age
+> when your Indian boy can hardly crawl on all fours.
+>
+> Hong Kong is a very beautiful town. It is built on
+> the slopes of hills and on the tops too, which are much
+> cooler than the city. There is an almost perpendicular
+> tramway going to the top of the hill, dragged by wire-rope
+> and steam-power.
+>
+> We remained three days at Hong Kong and went to
+> see Canton, which is…
+
+*— p. 143*
+
+> Singapore has a fine botanical garden with the most
+> splendid collection of palms. The beautiful fan-like palm
+> called the traveller's palm, grows here in abundance, and
+> the breadfruit tree is everywhere. The celebrated
+> mangosteen is as plentiful here as mangoes in Madras,
+> but mango is nonpareil. Singapore possesses a fine
+> museum, too.
+>
+> Hong Kong next. Yon feel you have reached China,
+> the Chinese element predominates so much. All labour,
+> all trade seems to be in their hands. And Hong Kong is
+> real China. As soon as the steamer casts anchor, you are
+>
+> besieged by hundreds of Chinese boats to carry you to
+> the land. These boats with two helms are rather peculiar.
+>
+> The boatman lives in the boat…
+
+*— p. 142*
 
 
 ---
@@ -9028,6 +12371,33 @@ Vivekananda's ship first called at Nagasaki during his voyage to America. He was
 *— p. 777*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (1 references):
+
+> is dedicated to the memory of the first Buddhistic
+> Emperor, and the five hundred first disciples of Buddhism.
+> The central figure is of course Buddha, and next beneath
+> Him, is seated the Emperor, and ranging on both sides
+> are the statues of the disciples, all beautifully carved out
+> of wood.
+>
+> From Canton back to Hong Kong, and thence to
+> Japan. The first port we touched was Nagasaki. We
+> landed for a few hours and drove through the town,
+> What a contrast! The Japanese are one of the cleanliest
+> peoples on earth. Everything is neat and tidy. Their
+> streets are all broad, straight and regularly paved. Their
+> little houses are cagelike, and their pine-covered ever
+> green little hills form the…
+
+*— p. 144*
+
+
 ---
 
 ### Kobe
@@ -9069,6 +12439,31 @@ Vivekananda visited Kobe, Japan's major port city. He used his Japan stopover to
 > at Yokohama. He visited three of…
 
 *— p. 301*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (1 references):
+
+> streets are all broad, straight and regularly paved. Their
+> little houses are cagelike, and their pine-covered ever
+> green little hills form the background of almost every
+> town and village. Japan is the land of the picturesque!
+> Almost every house has a garden at the back, very nicely
+> laid out according to Japanese fashion with small shrubs,
+> grassplots, small artificial waters and small stone bridges.
+>
+> From Nagasaki to Kobe. Here I gave up the steamer
+> and took the land route to Yokohama, with a view to see
+> the interior of Japan.
+>
+> 131
+
+*— p. 144*
 
 
 ---
@@ -9120,6 +12515,15 @@ Japan's ancient imperial capital. Vivekananda visited Kyoto's renowned Buddhist 
 *— p. 301*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Osaka
@@ -9167,6 +12571,15 @@ Vivekananda passed through Osaka, Japan's commercial capital. He observed the en
 > acquainted…
 
 *— p. 301*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -9290,6 +12703,32 @@ Vivekananda departed from Yokohama across the Pacific Ocean, heading for Canada 
 *— p. 302*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (1 references):
+
+> little houses are cagelike, and their pine-covered ever
+> green little hills form the background of almost every
+> town and village. Japan is the land of the picturesque!
+> Almost every house has a garden at the back, very nicely
+> laid out according to Japanese fashion with small shrubs,
+> grassplots, small artificial waters and small stone bridges.
+>
+> From Nagasaki to Kobe. Here I gave up the steamer
+> and took the land route to Yokohama, with a view to see
+> the interior of Japan.
+>
+> 131
+>
+> I have seen three big cities in the interior - Osaka, a
+
+*— p. 144*
+
+
 ---
 
 ### Tokyo
@@ -9355,6 +12794,31 @@ Vivekananda visited Tokyo during his Japan stopover. He was particularly impress
 *— p. 301*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (1 references):
+
+> 131
+>
+> I have seen three big cities in the interior - Osaka, a
+> great manufacturing town; Kioto, the former capital,
+> and Tokyo, the present capital. Tokyo is nearly twice
+> the size of Calcutta with nearly double the population.
+>
+> The match factories are simply a sight to see.
+>
+> I saw quite a lot of temples. In every temple, there
+> are some Sanskrit Mantras written in old Bengali chara-
+> cters. Only afew of the priests know Sanskrit. But
+> they are an intelligent sect.
+
+*— p. 145*
+
+
 ---
 
 ### Vancouver
@@ -9402,6 +12866,33 @@ Vivekananda arrived at Vancouver on 25 July 1893 — his first setting foot on N
 > train to Chicago through Canada. Through city after city the
 
 *— p. 303*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (1 references):
+
+> rock - I hit upon a plan: the first thing we need is men,
+> and the next is funds. Through the grace of the Guru,
+> I was sure to get men. I next travelled in search of funds.
+> I have come to America to earn money myself and then
+> return to my country, and devote the rest of my days to
+> the realisation of this one aim of my life:
+>
+> Metcalf (Mass.U.S.A) 20-8-1893 - From Japan
+> I reached Vancouver. The way was by the Northern
+> Pacific. It was very.cold and I suffered much for want
+> of warm clothing. However, I reached Vancouver any-
+> how, and thence went through Canada to Chicago.
+> I remained about 12 days in Chicago. And almost every-
+> day I used to go to the Fair. It was a tremendous affair.
+> The lady to…
+
+*— p. 147*
 
 
 ---
@@ -9538,6 +13029,179 @@ The greatest moment of Vivekananda's life. On 11 September 1893, he stepped to t
 *— p. 241*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (6 references):
+
+> to see him daily, until November the 5th, that
+> is to say, six or seven weeks later.    After
+> that date, when our party was broken up,
+> the      Swami paid a few visits in New York
+> and its neighbourhood.     At the end of the
+>
+>                       275
+>                       IN THE WEST
+> month he passed through Chicago, where-
+> I then was, on his way to California.
+>                                       Again
+> I met him in New York in the following
+>
+> June (1900). There for a few weeks, and
+> later in        Paris for a similar length of time,
+> I     saw him frequently      ;
+>                                   and   in   September,
+
+*— PAST AND FUTURE IN INDIA*
+
+> 301
+>           THE SWAMPS MISSION
+> be disputed that the thought-area within
+> Hinduism, as actually realised, had been
+> coloured by the accumulation of a few distinct-
+> ive ideas, and these     were the main subjects
+> of the Swami's Address before the Parlia-
+> ment of Religions, at Chicago, in 1893.
+>     First of these special conceptions,    with
+> which India might be said to be identified,
+> was that of the cyclic character of the cosmos.
+> On the relation of Creator aud created,      as
+>
+> equal elements in a dualism which can never
+> be more than a relative truth, Hinduism had
+> a profound philosophy, which Vivekananda,
+
+*— PAST AND FUTURE IN INDIA*
+
+> "
+> standard for warfare.   Be the heroic Raj-
+> put wife !" he exclaimed in an undertone on
+> one occasion, to a girl who was about to
+> give way to emotion, at saying farewell to
+> her betrothed. And the words acted like a
+> charm.      His    last    words,   after   my    brief
+>                                         "
+> glimpse of him in         Chicago, were   Remem-
+> ber! the message of India           is   always
+>                                                   '
+>                                                       Not
+> the soul for Nature, but Nature for the soul\
+>      When   I   said good-bye to him in Brittany
+> in   September,     1900,    I   was on the eve of
+> returning alone      to   …
+
+*— PAST AND FUTURE IN INDIA*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> Until now, the information we have had regarding the weeks
+> between the midsummer of 1893, when Swami Vivekananda arrived
+> in America, and the opening of the Parliament of Religions in
+> September of the same year, has been scanty and derived largely from
+> one or two letters which he wrote to India. In “The Iafe of Swami
+> Vivekananda” it is told that when he arrived in Chicago in late
+> July to represent Hinduism at the Parliament of Religions he was
+> not only totally unknown in Amcriai and unequipped with any kind
+> of credential, but too late to register as a delegate to the Parliament
+> even if he had credentials. The Parliament of Religions, moreover,
+> was not scheduled to open until September 11.…
+
+*— I*
+
+> chapter, that Swamiji gave the women of the Boston Ramabai Circle
+> a true picture of India and of child widows and that it was a picture
+> which they did not relish.
+>      The first direct mention of Swamiji in the Boston papers is
+> tucked away in the “Personar’ column of the Evening Transcript of
+> August 23, 1893:
+>
+>          Swami Virckananda of India, a Brahmin monk who is
+>     on his way to the parliament of religions to be held at Chicago
+>     in September, is the guest of Miss Kate Sanborn at her
+>     '‘abandoned farm” in Metcalf, Mass.          Last evening he
+>     addressed the inmates of the Sherborn Reformatory for
+>     Women upon the manners, customs and mode of living in his
+>     country.
+>
+>   …
+
+*— II*
+
+> his country’s real needs and real genius, but he stayed only to give,
+>                                   56
+>                       BEFORE THE PARLIAMENT
+>
+> pouring himself out for tlie sake of Americans, for he could not see
+> hunger in any form, spiritual or physical, without filling it.
+>
+>      Among the papers preserved by Mrs. Prince Woods were two
+> letters written by Swamiji from Chicago a month or so after his first
+> visit to Salem. Although these letters pertain to a later period, they
+> belonged nevertheless to Mrs. Kate Tannatt Woods, and as completing
+> the account of Swamiji’s stay at 166 North street they are quoted
+> here:
+>
+>                                        Chicago, 10th October, 1893
+>   …
+
+*— BEFORE THE PARLIAMENT*
+
+
+**From *Vivekananda on Himself* (1959)** (8 references):
+
+> Time and again, have I received in this life the
+> marks of his grace. He stands behind and gets all the
+> work done by me. When lying helpless under a tree in an
+> agony of hunger, when I had not even a scrap of cloth
+> forskaupin, when I was resolved on travelling penniless -
+> round the world, even then help came in, always by rhe
+> grace of Sri Ramakrishna. And again when crowds
+> jostled with one another in the streets of Chicago to
+> have sight of this Vivekananda, then also I could digest
+> without difficulty all the honours - a hundredth pare of
+> which would have been enough to turn mad a ordi-
+> nary man - because I had his grace, and by his will,
+> victory followed everywhere.
+>
+> He (Sri Ramakrishna) was…
+
+*— p. 63*
+
+> I have come to America to earn money myself and then
+> return to my country, and devote the rest of my days to
+> the realisation of this one aim of my life:
+>
+> Metcalf (Mass.U.S.A) 20-8-1893 - From Japan
+> I reached Vancouver. The way was by the Northern
+> Pacific. It was very.cold and I suffered much for want
+> of warm clothing. However, I reached Vancouver any-
+> how, and thence went through Canada to Chicago.
+> I remained about 12 days in Chicago. And almost every-
+> day I used to go to the Fair. It was a tremendous affair.
+> The lady to whom Varada Rao introduced me. and her
+> husband, belong to the highest Chicago society, and they
+> were so very kind to me. I took my departure from
+
+*— p. 147*
+
+> 127
+>
+> Truth is my God, the universe my country.
+>
+> Before proceeding to America, I wrote to Mother
+> (Sri Sarada Devi) to bless me. Her blessings came and
+> at one bound, I cleared the ocean.
+>
+> 1893: The Parliament of Religions is being organised
+> for this (pointing to himself) - My mind tells meso. You
+> will see it verified at no distant date.
+>
+> Bombay: 24-5-93 - Arrangements are all ready
+> for my starting for America on the 3lst next. The
+> Private Secretary to the Maharajah of Khetri has come
+> here to see me off.
+
+*— p. 141*
+
+
 ---
 
 ### New York City
@@ -9663,6 +13327,166 @@ New York became Vivekananda's base in America. He founded the Vedanta Society of
 > teach freely, while living independently in a place of his…
 
 *— p. 348*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (5 references):
+
+> dently expected, to show him where his next
+> effort was to lie. A month later, I became
+> a guest  in the same house, and continued
+>
+> to see him daily, until November the 5th, that
+> is to say, six or seven weeks later.    After
+> that date, when our party was broken up,
+> the      Swami paid a few visits in New York
+> and its neighbourhood.     At the end of the
+>
+>                       275
+>                       IN THE WEST
+> month he passed through Chicago, where-
+> I then was, on his way to California.
+>                                       Again
+> I met him in New York in the following
+
+*— PAST AND FUTURE IN INDIA*
+
+> and          common-place
+>                      perceptions   of   the
+> senses,    ever
+>               for
+>                 finding expression,  in the
+> hard and narrow issues of conduct ? Well
+> might the            Swami     exclaim,       as   he did    in
+>
+> the     course of       a New York lecture,              almost
+> with a groan,           "Man, the           infinite   dreamer,
+> dreaming finite dreams !"
+>
+>                                455
+>                  ABOUT DEATH
+>     By his scorn of such, by his own pas-
+> sionate longing to wander off, silent and
+
+*— MONASTICISM AND MARRIAGE*
+
+> In answer to * question :            The artist is the wit-
+> ness   who        testifies of   the beautiful.           Art   is   the
+> most unselfish form of happiness in the world.
+>       APPENDIX C, TO CHAPTER XVL
+>  NOTES OF LECTURES DKLIVERED AT THE VEDANTA SOCIETY,
+>         NEW YORK SUNDAY AFTERNOONS JUNE, 1900.
+>                       ;
+>
+> THE UNITY.
+>       The different       sectarian   systems of India    alt
+
+*— THE END*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> she told it to a sympathetic friend long before she wrote lier memoirs.
+> It is to Mme. Paul Verdier, of Paris and San Francisco, that 'we are
+> indebted for this earlier and more complete version, for it was site
+> to whom Calve confided the following story and who shortly alter
+> hearing it jotted it down.
+>       Apparently it was in March of 1891, when Emma Cahe was
+> visiting Chicago with the Metropolitan Opera Company, that she first
+> met Swamiji. She was at the peak of her career, having recently had a
+> tremendous success in Europe and New York with her dramatic inter¬
+> pretation of the role of Carmen. The w^orld w^as at her feet; she w^is
+> entertained, as are most celebrities, by the cream of…
+
+*— IN AND AROUND CHICAGO*
+
+> ment, eager in his efforts to learn of those things that might
+>     be beneficial to his people, earnest in his desire to recognize
+>     the religions of all peoj)le as related to each other, and all
+>     sincere efforts in behalf of virtue and holiness, but at the
+>     same time he defended the Hindoo religion and philosophy
+>     with an eloquence and power that not only won admira¬
+>     tion for himself but consideration for his own teachings.
+>
+>     To a request of the New York World of October 1, 1893, for
+> “a sentiment or expression regarding the significance of the great
+> meeting” from each representative, Swamiji replied with a quotation
+> from the Gita and one from Vyasa:
+>
+>          “I am He…
+
+*— THE PARLIAMENT OF RELIGIONS*
+
+> He was a well-known journalist, author and philanthropist, extremely
+> active in organizing and promoting works of benevolence. He served
+> as secretary of the Massachusetts Board of Charities—the first of its
+> kind in America—and helped in founding many charitable institu¬
+> tions. He also founded the Concord Summer School of Philosophy
+> and wrote biographies of his friends, Alcott, Emerson, Thoreau,
+> Hawthorne and others. As will be seen later, Mr. Sanborn invited
+> Stvamiji to speak at a convention of the American Social Science
+> Association in Saratoga Springs, New York—the fashionable resort of
+> the era.
+>      But prior to going to Saratoga Springs, Swamiji passed a busy
+> week and a half in…
+
+*— BEFORE THE PARLIAMENT*
+
+
+**From *Vivekananda on Himself* (1959)** (8 references):
+
+> to the nail-set, as very dudish with mother of pearl
+> handles. she insisted and I had to take them, though I do
+> not know what to do with that brushing instrument.
+> Lord bless them all! She gave me one advice - never to
+> wear this Afrikee dress in society. Now Iam a society
+> man! Lord! what comes next? Long life brings queer
+> experiences !
+>
+> New York: 9-4-94 - I have lectured in many of
+> the big towns of America...I have made a good many
+> friends here, some of them very influential. Of course,
+> the orthodox clergymen are against me and seeing that
+> it is not easy to grapple with me, they try to hinder,
+> abuse and vilify me in every way...Lord bless them !
+>
+> I believe that the Satya-yuga will come when…
+
+*— p. 172*
+
+> I pity the Hindu who does not see the beauty in
+> Jesus Christ’s character. I pity the Christian who does
+> not reverence the Hindu Christ.
+>
+> Detroit: 12-3-94 - 1 am now living with Mr. Palmer.
+> He is a very nice gentleman... I spoke at an opera house
+> for two hours and a half, People were very much pleased.
+> I am going to Boston and New York...I am not going to
+> lecture in Michigan. Mr. Holden tried to persuade me
+> this morning to lecture in Michigan...To tell the truth
+> the more I am getting popularity and facility in speaking
+> the more I am getting fed up. My last address was the
+> best I ever delivered. Mr. Palmer was in ecstasies and
+> the audience remained almost spell-bound, so much so
+> that it was…
+
+*— p. 166*
+
+> 147
+>
+> gent face in its pictureque setting of yellow and orange
+> was hardly less interesting than these earnest words and
+> the rich rhythmical utterance he gave them” (here the
+> speech is quoted in extenso) - New York Critique.
+>
+> “He has preached in clubs and churches until his
+> faith has become familiar to us...His culture, his
+> eloquence and his fascinating personality have given us
+> a new idea of Hindu civilisation... His fine, intelligent
+> face and his deep musical voice, prepossessing one at
+> once in his favour ...He speaks without notes, present-
+> ing his facts and his conclusions with the greatest art
+
+*— p. 161*
 
 
 ---
@@ -9804,6 +13628,115 @@ Vivekananda visited Boston and interacted with Harvard faculty, including Profes
 > his illuminating…
 
 *— p. 327*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> In tlie letter that Swamiji wrote to India at this time, he mentions,
+> as has already been noted, that he is to speak before a women’s club
+> which was helping Ramal^ai. Ramabai, of whom we shall hear more
+> in a later chapter, was a Hindu woman who had been converted to
+> Cliristianity. In 1887-1889 she had been active in forming clubs in
+> America for the purpose of raising funds for Indian child widows,
+> whose plight she had graphically misrepresented.          Unfortunately I
+> could lind no report in the Boston papers of Swamiji’s talk before
+> the Boston Ramabai Circle. Nor was the 1893 Annual Rcjx)rt of that
+> club more informative. But despite the meagerncss of our informa¬
+> tion, we can at least be…
+
+*— II*
+
+> The little more that has been known regarding the pre-Parliament
+> period of Swamiji’s life has been pieced together from the letter quoted
+> above and dated August 20, 1893. We have known, for instance,
+>                                     15
+>                SVVAMI VIVEKANANDA:      NEW DISCOVERIES
+>
+> that during his stay at “Breezy Meadows” his hostess showed him
+> off as “a curio from India,” that he was gaped at for his “quaint dress,”
+> that he was on this account going to buy Western clothes in Boston,
+> that he was to speak at “a big ladies’ club . . . which is helping
+> Ramabai,” and that he visited and was deeply impressed by a women’s
+> reformatory. To these facts more now can be added,…
+
+*— SVVAMI VIVEKANANDA:      NEW DISCOVERIES*
+
+> Chicago, 10th October, 1893
+>     Dear Mrs. Tannatt Woods:
+>          I received your letter yesterday. Just now I am lecturing
+>     about Chicago—and am doing as I think very well—it is
+>     ranging from 30 to 80 dollars a lecture and just now I have
+>     been so well advertised in Chicago gratis by the Parliament
+>     of religions that it is not advisable to give up this field now.
+>     To which I am sure you will agree. However I may come
+>     soon to Boston but when I cannot say. Yesterday I returned
+>     from Streator where I got 87 dollars for a lecture. 1 have
+>     engagements every day this week. And hope more will come
+>     by the end of the week. My love to Mr. Woods and
+>     compliments to all…
+
+*— BEFORE THE PARLIAMENT*
+
+
+**From *Vivekananda on Himself* (1959)** (8 references):
+
+> ideas we had before starting have melted, and I have now
+> to fight against impossibilities. A hundred times] had a
+> mind to go out of the country and go back to India. But,
+> I am determined and I have a call from above; I see no
+> way, but His eyes see. And I must stick to my guns,
+> life or death...
+>
+> Just now I am living as the guest of an old lady in a
+> village near Boston. Iaccidently made her acquaintance in
+> the railway train, and she invited me to come over and live
+> with her. I have an advantage in living with her, saving
+> for some time my expenditure of £1 per day; and she has
+> the advantage of inviting her friends over here, and
+> showing them a curio from India! And allthis must be
+> borne.…
+
+*— p. 148*
+
+> in the business (of getting money), but would soon learn
+> the trade. I am very popular in Chicago. SoI want to
+> stay here a little more and get money.
+>
+> Tomorrow, Iam going to Jecture on Buddhism at
+> the ladies’ fortnightly club- which is the most influential
+> in this City. I think the success of my project probable.
+>
+> 2-11-93 - At a village near Boston, I made the
+> acquaintance of Dr. Wright, Professor of Greek in the
+> Harvard University. Hesympathised with me very much
+> and urged upon me the necessity of going to the Parlia-
+> ment of Religions, which he thought would give me an
+> introduction to the nation. As I was not acquainted
+> with anybody, the Professor undertook to arrange every-
+> thing for me,…
+
+*— p. 157*
+
+> I pity the Hindu who does not see the beauty in
+> Jesus Christ’s character. I pity the Christian who does
+> not reverence the Hindu Christ.
+>
+> Detroit: 12-3-94 - 1 am now living with Mr. Palmer.
+> He is a very nice gentleman... I spoke at an opera house
+> for two hours and a half, People were very much pleased.
+> I am going to Boston and New York...I am not going to
+> lecture in Michigan. Mr. Holden tried to persuade me
+> this morning to lecture in Michigan...To tell the truth
+> the more I am getting popularity and facility in speaking
+> the more I am getting fed up. My last address was the
+> best I ever delivered. Mr. Palmer was in ecstasies and
+> the audience remained almost spell-bound, so much so
+> that it was…
+
+*— p. 166*
 
 
 ---
@@ -9949,6 +13882,131 @@ Vivekananda spent two months at Thousand Island Park, New York, living and teach
 *— p. 369*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> them....     "What was that ? What was that ?"
+> said his friend, in a hoarse whisper, a few
+> minutes later.          It   had been one of those
+> rare cases in which an apparition is seen by
+> two persons at once.
+>     Experiences like these could not fail to
+> create a body of belief in the mind that
+> went through them, and in a letter written
+> from Thousand Island Park, dated August
+>           MAN THE HIGHEST BEING
+> 1895,      tne   Swami gives expression to this^
+> conviction.       He says " The older I grow,
+>                                   :
+
+*— MONASTICISM AND MARRIAGE*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (6 references):
+
+> into every person and every situation were so devoid of self-consciousness
+> and egotism that they enhanced rather than concealed his childlike
+> nature. The fact is that when Swamiji came to America he was already
+> established in the state of a Paramahamsa (a transcendental knower of
+> God), and had become in his total purity similar to a child, uncon¬
+> taminated and blissful. Now and then one catches hints of what his
+> inner state must have been during his wandering days in India. There
+> is, for instance, his confidence to Mary Hale written in a letter from
+> Thousand Island Park; “Every day I feel I have no duty to do; I am
+> always in eternal rest and peace. It is He that works. We are only
+> the…
+
+*— DAWN OF THE WORLD MISSION*
+
+> of his classes being discontinued during the summer months, a plan
+> was evolved which made it possible for him to escape from the
+> sweltering city and, at the same time, to train a group of men and
+> women to carry on his work—a plan which resulted in the most
+> spiritually fruitful days of his American mission. One of his students,
+> a Miss Butcher, offered him a small house she owned on Thousand
+>  Island Park, an island in the St. Lawrence River, for his own use
+> and that of as many students as it would accommodate. Swamiji
+> accepted, agreeing to join at Thousand Island Park any students who
+> were earnest enough to travel the three hundred miles from New York.
+>       In the meantime he accepted an…
+
+*— I*
+
+> Vedanta, using as his texts first one world scripture and then another—
+> the New Testament, the Gita, the Upanishads or the Vedanta-Sutras.
+> But his teaching did not stop with classes. On long walks through the
+> woods, at meals, even on the occasions when he prepared meals for his
+> disciples, he would turn each small occurrence into a spiritual lesson
+> and each hour of the day into a festival. In the cool, silent evenings
+> he would talk long to the group which gathered in breathless attention
+> on the upper veranda of the house.
+>      At Thousand Island Park Swamiji initiated two disciples into
+> sannyasa (the final vows of monasticism): Leon Landsberg, who thus
+> became Swami Kripananda, and a French…
+
+*— I*
+
+
+**From *Vivekananda on Himself* (1959)** (4 references):
+
+> N.Y. He will travel all over Germany, England, France
+> and Switzerland for six weeks. From there I shall go to
+> India, or I may return to America. I have a seed planted
+> here and wish it to grow. This winter’s work in N. Y.
+> was splendid and it may die if I suddenly go to India; so
+> I am not sure about going to India soon.
+>
+> Nothing noticeable has happened during this visit to
+> the Thousand Islands. The scenery is very beautiful and
+> I have some of my friends here with me to talk about
+> God and soul ad libitum... I am eating fruits and drink-
+> ing milk and so forth, and studying huge Sanskrit books
+> on Vedanta which they have kindly sent me from India...
+>
+> My reply to Madras (address) has produced…
+
+*— p. 215*
+
+> with me. Only let me be perfectly pure, perfectly sinc-
+> ere, and perfectly unselfish.
+>
+> New York 25-4-95-The day before yesterday, I
+> received a kind note from Miss F—including a cheque for
+> a hundred dollars for the Barbar House lectures. She is
+> coming to N. Y. next Saturday.
+>
+> I have arranged to go to the Thousand Islands. There
+> is a cottage belonging to Miss Dutcher, one of my stud-
+> ents, and a few of us will be there on rest and peace and
+> seclusion. I want to manufacture afew “Yogis” out of
+> the materials of the classes.
+>
+> New York: 5-5-95 -1 always thougth that although
+> Prof, Max Muller in all his writings on the Hindu religion
+> adds in the last a derogatory remark, he must see the
+
+*— p. 211*
+
+> He is one of the sincere souls I have had the privilege in
+> this life to come across.
+>
+> Just now I received a letter from an English gentle-
+> man in London who had lived in India in the Himalayas
+> with two of my brethren. He aske me to come to London.
+>
+> Percy N. H.: 17-6-95 : (on birch bark ) - Going
+> tomorrow to the Thousand Island care Miss Dutcher’s,
+> T. I. Park, N. Y. Ihave a chance of going to Europe in
+> August.
+>
+> New York: 22-6-95: Iam going on pretty nearly
+> in the same old fashion; talking when I can and silent
+> when forced to be. I do not know whether I will go to
+> Greenacre this summer. I saw Miss Farmer the other
+> day...She is a noble, noble lady.
+
+*— p. 214*
+
+
 ---
 
 ### Detroit
@@ -10083,6 +14141,57 @@ Vivekananda lectured in Detroit during his American lecture circuit. He attracte
 *— p. 327*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> for Detroit on Monday, February 12.
+>       In “The Life“ and other biographies very little has been said of
+> Swamiji’s visit to Detroit in 1894, and one is left with the ini|)rcssion
+> that this city was just another on his itinerary where he delixeied a
+> few lectures and received the usual amount of both acclaim and
+> criticism. Although it is true that we have been able to learn from
+> the memoirs of Sister Christine and Mrs. Mary Funke something of
+> the extraordinary and radiant power which he manifested during his
+> Detroit lectures, nowhere is there an intimation that the Detroit period
+> was one of the most important in bis American mission, almost ccjual
+> in significance to that of the Parliament…
+
+*— I*
+
+> letter which he wrote to Mrs. Tannatt Woods on November 11,
+>  1893. This letter was included in the first chapter of this book, and
+> tlic reader will perhaps remember that Swamiji said in it, “I am
+> starting to-morrow for Madison and Minneapolis.” This departure
+> from Chicago marked the beginning of Swamiji’s famous and
+> important lecture tour of the Midwest and South, which lasted until
+> Ai>i'il of 1894. But although the tour is famous and important, I
+> have been able to gather information about Swamiji's lectures in only
+> four cities prior to his visit to Detroit in l’>bruary of 1891. I liave
+> found that he visited not only Madison, Wisconsin, and Minneapolis,
+> Minnesota, in November of 1893 but,…
+
+*— I*
+
+> or at least versatile—in finding new sources of wealth, new patterns
+> of life, new inventions to profit by, new contentions to debate.”
+> Although in February of 1894 the first automobile liad not yet chugged
+>                                     178
+>                        THE CLIMAX AT DETROIT
+> along the streets, industry had long been thriving, and the people, of
+> whom there were a little over two hundred thousand, were energetic
+> and adventurous, alive to every issue and ready to battle for every
+> opinion. Detroit was, in a sense, a turbulent vortex of the contem¬
+> poraneous thought of the nation, both conservative and radical, and
+> tiiis fact, together with the fact that Swamiji’s pow'cr was…
+
+*— THE CLIMAX AT DETROIT*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Minneapolis
@@ -10196,6 +14305,63 @@ Vivekananda delivered lectures in Minneapolis as part of his extensive American 
 *— p. 330*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (7 references):
+
+> The first definite knowledge we have of the date on which
+> Swainiji left Illinois to widen his field of activity is contained in a
+> letter which he wrote to Mrs. Tannatt Woods on November 11,
+>  1893. This letter was included in the first chapter of this book, and
+> tlic reader will perhaps remember that Swamiji said in it, “I am
+> starting to-morrow for Madison and Minneapolis.” This departure
+> from Chicago marked the beginning of Swamiji’s famous and
+> important lecture tour of the Midwest and South, which lasted until
+> Ai>i'il of 1894. But although the tour is famous and important, I
+> have been able to gather information about Swamiji's lectures in only
+> four cities prior to his visit to Detroit in…
+
+*— I*
+
+> (Letterhead)
+>     George W. Hale,
+>     541 Dearborn Avenue,
+>     Chicago.                                        Nov. 19th 1893
+>
+>     Dear Mrs. Woods—
+>         Excuse my delay in answering your letter. I do not
+>     know when I will be able to see you again. I am starting
+>     tomorrow for Madison and Minneapolis. The English gentle¬
+>     man you speak of is Dr. Momerie of London. He is a well
+>     known worker amongst the fX)or of London and is a very
+>     sweet man. You perhaps do not know that the English
+>     church was the only religious denomination in the world who
+>     did not send to us a representative and Dr. Momerie came to
+>                                   37
+>                   SWAMI…
+
+*— BEFORE THE PARLIAMENT*
+
+> of the physical and mental suffering it cost him.
+>       For months, the majority of which fell in the dead of a severe
+> winter, Swamiji traveled almost incessantly, leciining many times a
+> week. As has been seen in the preceding thapters. he spent October
+> and most of Xovember in Chicago and nearbv towns.            Ibward the
+> end of November he traveled farther afield, presumably uiuler the
+> direction of the Slav ton Lyceum Lecture Bureau, and commenced his
+> long and arduous tour. 1 lie first cities on his itineiarv were Madison,
+> Minneapolis and Des Moines, all three of which he visited within the
+> space of one sliort week.
+>      Although after this we lose trace of Swamiji for almost two
+> months,…
+
+*— GAVE HIS FAREWELL LECTURE*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Memphis
@@ -10285,6 +14451,58 @@ Vivekananda ventured into the American Deep South, lecturing in Memphis. He was 
 > this…
 
 *— p. 327*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> But since Swamiji probably signed a contract with the lecture bureau
+> in November, that agency no doubt received a large share of the
+> proceeds from every lecture given thereafter—wlicther arranged under
+> its management or not.
+>       In Memphis Swamiji was the guest of Mr. Hu L. Brinkley, who
+> lived in what was variously known as "Miss Moon’s establishment” or
+> the “La Salette Academy.” Actually, although its name persisted in
+> current use, the La Salette Academy was nonexistent, having been
+> closed in 1891. Miss Virginia Moon, fondly known in Memphis as
+> “Miss Ginny,” turned the building in which the academy had been
+> housed into a boarding-house for six or seven bachelor gentlemen.
+> At the time of…
+
+*— I*
+
+> from Chicago marked the beginning of Swamiji’s famous and
+> important lecture tour of the Midwest and South, which lasted until
+> Ai>i'il of 1894. But although the tour is famous and important, I
+> have been able to gather information about Swamiji's lectures in only
+> four cities prior to his visit to Detroit in l’>bruary of 1891. I liave
+> found that he visited not only Madison, Wisconsin, and Minneapolis,
+> Minnesota, in November of 1893 but, in the same month, Dos Moijics,
+> Iowa. TJiese tliree cities constituted the first listings on his Mid-
+> ^vestern itinerary. Another discovery is that Sivamiji visited Memphis,
+> Tennessee, in January, 1894. The new information regarding his
+> ^ isits to these towns…
+
+*— I*
+
+> understand this, for although Swamiji w^as uncertain of the future at
+> this time, he had little intention of remaining in America for three
+> years, and certainly would not have wanted to commit himself to do
+> so. It is also difficult to understand why no one warned him tliat
+> almost as a matter of course attempts would be made to exploit him,
+> unless it were that his friends were as naive in this respect as was he.
+> In any case, if one is to believe w^hat one reads in newspapers, he
+> did sign a long-term contract. This information is to be found in
+> the Appeal-Avalanche of January 21, 1894, a Memphis, Tennessee,
+> newspaper. “He," this paper says, meaning “Swami Vive Kananda,"
+> “is under contract with…
+
+*— IN AND AROUND CHICAGO*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -10386,6 +14604,61 @@ Vivekananda visited Washington D.C. and lectured to distinguished audiences. He 
 > lectures given in San Francisco were, “Buddha's Message…
 
 *— p. 679*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> 244
+>                       THE CLIMAX AT DETROIT
+> industrialists were absorbed in making and spending their fortunes.
+> But Freer was an exception to the rule. “By one of those subtle
+> alchemies of personality that escape logic,” one account of him tells,
+> his interest was centered in Oriental art. Charles Freer gathered
+> what is said to be the greatest collection of Chinese and Japanese
+> masterpieces ever brought together in America. This entire collec¬
+> tion he later gave to the Smithsonian Institution of Washington, D. C.,
+> together with the building which houses it. Although Freer did not
+> start to gather his masterpieces in earnest until he retired in 1900,
+> very likely his house already showed…
+
+*— THE CLIMAX AT DETROIT*
+
+> 14                             105
+>
+>      One look at a hitherto unpublished photograph which lias
+> recently come to our hands is enough to show us something of what
+> Mrs. Hale meant, for one cannot fail to be moved by the childlike
+> tenderness of Swamiji’s appearance, and by the wonderful peace and
+> calm of his expression. Inasmuch as this picture was copyrighted in
+> Washington by the photographer, it was evidently taken after Swamiji
+> liad become famous, that is, after the first day of the Parliament. It has
+> come to us along with a group of five other photographs, all of which,
+> there is reason to believe, were taken in September of 1893, and all
+> of which have been published. One of these is no…
+
+*— II*
+
+> S. T. Douglass, George Nettleton, George S. Hosmer and
+>     Rev. Reed Stuart.
+>          A number of fashionable and private entertainments
+>     were given last week in honor of the social lion of the day,
+>     Swami Vive Kananda, the Hindoo monk. Tuesday evening
+>     [?] Miss Helen Bagley gave a luncheon at the Detroit club
+>     to a favored few. Thursday evening, the evening after the
+>     large public reception given by Mrs. John J. Bagley, at the
+>     family residence on Washington-ave, a select tea was given
+>     by Mrs. Bagley. Friday evening C. L. Freer entertained
+>     the Witenagamote club at his home on Ferry-ave., for
+>     Mr. Kananda. A number of other guests were present. All
+>     of these…
+
+*— “PERSONAL AND SOCIAL ”*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -10522,6 +14795,168 @@ Vivekananda visited London twice, lecturing to packed audiences and attracting d
 *— p. 383*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> until    I    came    to   India,      in the    early days of
+> 1898.    For as the fruit of this want of ex-
+> perience I have it, that at each step of his-
+> self-revelation as a personality, my Master
+> stands out in my memory against his proper
+> background, of Indian forest, city, and high-
+>
+> way,         an Eastern teacher            in    an   Eastern
+> world.        Even in far a- way London indeed,
+> the   first time I     saw him, the occasion must
+> have stirred in        his mind, as it does in mine,
+>
+> recalling      it   now, a host of associations con-
+> nected with his own sun-steeped land.                      The
+>                THE SWAMIIN LONDON
+> -time was a cold Sunday afternoon in Novem-
+
+*— XXVI.*
+
+> generalisations   of   a Hindu mind of   the
+>
+> highest order.
+>    The Swami remained in America until
+> August of the year 1895, when he came to
+> -Europe for the first time. In September he
+> found his way to England, and a month or
+> so later, he began teaching in London.
+>                                   I.
+>
+>                       IN    LONDON, 1895.
+>       It is strange to remember,                and yet it was
+> surely my good fortune, that though I heard
+> the teachings of my Master, the Swami
+
+*— XXVI.*
+
+> prove that the maintenance of society is an
+> object in itself."
+>     At the time,      I        understood him to     mean
+> 'humanity' by 'society,' and to be preaching
+> the ultimate    futility       of the world, and there-
+> fore of the    work done to aid it.             Was this
+> his   meaning   ?     In       that   case,   how   is   one
+> *o reconcile it with the fact that the service
+>            THM SWAMI IN LONDON
+> of humanity was always his whole hope ?'
+> Or was he merely     stating an idea,                 and
+> standing aside to give it its full value ?             Or
+> was his word 'society,' again, only a               faulty
+> translation    of    the   curious        Eastern    word
+> Samaj,…
+
+*— THE SWAMI IN LONDON*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> to write a book on this subject, therefore I want the three Bhashyas,
+> but only one volume of the Ramanuja has reached me as yet.”
+>      Swamiji’s desire to write this book was persistent. In June of
+>  1895 he wrote to Mary Hale: "The three great commentaries of the
+> Vedanta philosophy belonging to the three great sects of dualists, quali¬
+> fied monists and monists are being sent to me from India. . . . Then
+> I will have an intellectual feast indeed. I intend to write a book this
+> summer on the Vedanta philosophy.” Again, in 1896 he wrote to
+> Alasinga from London:        "I am busy writing something big on the
+> Vedanta philosophy. 1 am busy collecting passages from the various
+> Vedas bearing on the…
+
+*— DAWN OF THE WORLD MISSION*
+
+> letters, he left no doubt about the fact that he was continually receiving
+> divine guidance. ‘‘While I am on earth, Sri Ramakrishna is working
+> through me," he wrote to Swami Ramakrishnananda in 1895. “So long
+> as you believe this, there is no danger of any evil for you." And there
+> was his assurance to Alasinga: “1 6ee a greater Power than man, or
+> Ck)d, or devil at my back."
+>       That his decisions were not guided by reason or practical con¬
+> siderations alone is well illustrated by the fact that during the peak
+> of his success in London in 189G he decided to leave for India—^a
+> departure which from a common-sense point of view was, to say the
+> least, untimely. But to Miss MacLeod he wrote: “Of…
+
+*— CAWN OF THE WORLD MISSION*
+
+> give up his life for the highest angels as well as for the lowest worms.’’
+>                                    602
+>                       DAWN OF THE WORLD MISSION
+>
+>  How much this sounds like Swamiji himself, whose heart responded
+>  to the cry of all humanity and who once said, “I would be willing to
+>  go to a hundred thousand hells if thereby I could relieve the sufferings
+>  of even one man I” The serenity and compassion of Buddha were
+> reflected in Swamiji's features. One remembers how in London a
+> reporter remarked upon his “most striking resemblance to the classic
+> face of Buddha,” and how Sister Nivedita wrote in 1901: “Mr. Tata
+> told me that when Swami was in Japan everyone who saw him…
+
+*— DAWN OF THE WORLD MISSION*
+
+
+**From *Vivekananda on Himself* (1959)** (8 references):
+
+> absent here, and nobody even stares at me in the
+> streets...
+>
+> I am very much more at home here than anywhere
+> out of India...
+>
+> My friend being a Sanskrit scholar, we are busy
+> working on the great commentaries of Shankara, etc. I
+> am going to try to get up classes in October in London.
+>
+> It is taught in the West that society began 1800
+> years ago, with the New Testament. Before that there
+> was no society. That may be true with regard to the
+> West, but it is not true as regards the whole world.
+>
+> Often, while I was lecturing in London, a very
+> intellectual and intelligent friend of mine would argue
+
+*— p. 219*
+
+> 26-10-94: I am enjoying Baltimore and Washing-
+> ton very much. I will go hence to Philadelphia.
+>
+> The lady with whom I am staying is Mrs. Totten, a
+> niece of Miss Howe. I will be her guest more than a
+> week yet.
+>
+> A lady from London with whom one of my friends is
+> staying has sent an invitation to me to go over as her
+> guest.
+>
+> U.S.A.: 1894: Last winter I travelled a good deal
+> in this country, although the ‘weather was very severe.
+
+*— p. 194*
+
+> From that height, the universe looks like a mudpuddle.
+> Hari Om Tat Sat. He exists; nothing else does. I in
+> Thee and Thou in me. Be Thou, Lord, my eternal
+> refuge! Peace, Peace, Peace!
+>
+> N.Y. : 2-8-95 - lam going to Paris first with a
+> friend and start for Europe on the 17th of Aug. I will,
+> however, remain in Paris only a week...and then I go
+> over to London.
+>
+> Some Theosophists came to my classess in N. Y., but
+> as soon as human beings perceive the glory of the
+> Vedanta, all abracadabras fall off themselves. This has
+> been my uniform experience. Whenever mankind attains
+> a higher vision, the lower vision disappears of itself, Mul-
+> titude counts for nothing. A few heart-whole, sincere
+> and energetic…
+
+*— p. 217*
+
+
 ---
 
 ### Oxford
@@ -10651,6 +15086,66 @@ Vivekananda visited Oxford and met the great German-born Sanskrit scholar Friedr
 *— p. 443*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (3 references):
+
+> the year he would surely have had a Russian sleigh ride, but by mid-
+> April the snow had melted and spring was on its way. Nevertheless,
+> if the Russian sleigh was typical of Mrs. Breed’s expensive tastes, then,
+> winter or spring, Swamiji was entertained during his week in Lynn
+> with a good deal of imagination and flourish.
+>       Swamiji gave two lectures in Lynn, the first on the afternoon of
+> April 17 at the North Shore Club—a woman’s club of which Mrs. Breed
+> was a charter member—^and the second on the evening of April 18
+> before the general public at Oxford Hall. Unfortunately there is no
+> report of either to be found in the Lynn newspapers. With the
+> exception of a notation in the Calendar of…
+
+*— THE EASTERN TOUR—1*
+
+> the struggle of the soul to attain individual infinity.
+>
+>      A reporter of the Lynn City Item, who evidently had not read
+> the above article and who obviously had not attended Swamiji’s
+> lecture.s—indeed, who was on the whole not very alert, wrote another
+> announcement on April 20, a week later, as follows:
+>
+>          A learned Brahmin from India is to deliver two
+>     addresses in Oxford Hall, for the entertainment and probable
+>     instruction of the people of Lynn. Shades of Parson Cooke,
+>     defend usl And one of the addresses to the club composed
+>     wholly of women. How would that sound in Hindustan?
+>     The world is making rapid strides.
+>                                  S68
+>              …
+
+*— SUAMI VIVE KANANDA*
+
+> vindication of India became known to the country at large.
+>                                      366
+>                     THE EASTERN TOUR—I
+>
+>                  SUAMI VIVE KANANDA
+>
+>            The Learned Brahmin Coming to Lynn
+>
+>                 Monk of India in Oxford Hall.
+>
+>        Suami Vive Kananda, a learned Brahmin from India,
+>  who came over to America on an independent missionary tour
+>  of his own to see what he could do to aid in the return to
+>  spiritual conviction for this material and dollar-worshipping
+>  land, is coming to Lynn. He will speak to the North Shore
+>  Club Tuesday, April 17, at .3 p.m., and in Oxford Hall
+
+*— SUAMI VIVE KANANDA*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Annisquam, Massachusetts
@@ -10682,7 +15177,62 @@ Annisquam, a picturesque fishing village on Cape Ann, Massachusetts, was where V
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> Parliament of Religions, this week-end lastingly enriched the Wright
+> family—as well it might have, for none fortunate enough to have
+> Swamiji as a guest soon forgot him. The memory of this and later
+> meetings—of which there will be more in a following chapter—became
+> a part of the Wright family tradition, and Mr. John Wright, the son
+> of Professor and Mrs. Wright, through whose kindness his mother’s
+> letters and journals have been made available, today still speaks in
+> the family idiom of “Our Swami,” though he was but a child of two
+> when Swamiji first came to Annisquam.
+>       Mrs. Wright did indeed compose a story from her notes, a story
+> which has been found among her papers. In regard to it,…
+
+*— BEFORE THE PARLIAMENT*
+
+> “The Life” how Mrs. Bagley and her daughter, Helen Bagley, wrote
+> letters repudiating the scandal his enemies had spread in Detroit and
+>                                        316
+>                       RETURN OF THE WARRIOR
+> elsewhere through anonymous letters and whispering campaigns.
+>  The Bagley letters are so eloquent and throw so much light on
+> Swamiji’s stay in Detroit, that I believe they can be quoted here
+> without fear of burdening the reader.
+>      Writing to a friend from Annisquam, Massachusetts, on June 22,
+> 1894, Mrs. Bagley says:
+>
+>           You write of my dear friend, Vivekananda. I am glad
+>     of an opportunity to express my admiration of his character
+>     and it makes me most…
+
+*— RETURN OF THE WARRIOR*
+
+> him day by day, speak enthusiastically of his sterling qualities
+>     of character, and men in Detroit who judge most critically,
+>     and who are unsparing, admire and respect him. . . .
+>     He has been a guest in my house more than three weeks, and
+>     my sons as well as my son-in-law and my entire family found
+>     Swami Vivekananda a gentleman always, most courteous and
+>      polite, a charming companion and an ever-welcome guest.
+>     I have invited him to visit us at my summer-home here at
+>     Annisquam, and in my family he will always be honoured
+>     and welcomed. I am really sorry for those who say aught
+>     against him, more than I am angry, for they know so little
+>     what they are…
+
+*— RETURN OF THE WARRIOR*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -10818,6 +15368,59 @@ Salem, the historic Massachusetts port city famous for its witch trials, was one
 *— p. 705*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> antiques was brought to the notice of a student of Vedanta,       rirc
+> advertisement, placed by a Mrs. Prince Woods, offered for sale a
+> trunk and a walking stick which had belonged to Srvami Vivekananda.
+> Naturally enough, these articles were sent for, and a request was
+> made for further information regarding them. A correspondence
+> ensued between the Vedanta student and Mrs. Woods, in the course
+> of which the following facts came to light.
+>       In August, 1893, Swamiji had been invited by Mrs. Kate Tannatt
+> Woods to stay in her home at 166 North Street, Salem. He remained
+> there a week, during which time he lectured in Salem, was criticized
+> by the clergy (of which more later) and became beloved…
+
+*— BEFORE THE PARLIAMENT*
+
+> Indeed, one could hardly call it a garden ; it was a yard with weeds
+> growing in it. But when Swamiji had spoken there, it most likely
+> had been well kept. The liouse itself, flush with the sidewalk and
+> devoid of the gingerbread of a later period, was in good repair, newly
+> painted and probably but little different in appearance from what it
+> had been when Swamiji left liis trunk behind. The name on the
+> front door, however, w'as not Woods. The Woods family, I learned,
+> had moved away years before, and the present occupant had never
+> heard of a Hindu monk in Salem.
+>      From 166 North Street I found my way to the Essex Institute,
+> where the old Salem newspapers are filed away and where I looked…
+
+*— BEFORE THE PARLIAMENT*
+
+> never to speak of what we have done—but to keep on working
+>     for the love of doing God’s work’—is Vivekananda’s grand
+>     philosophy of life. He always makes me feel ashamed that
+>     I have ever thought for one moment I was burdened or that
+>     I ever spoke of any good act of my own. . . .
+>                                   29
+>                SWAMI VlVEKANAMDA:       NEW DISCOVERIES
+>
+>       Welcome as was the information regarding Swamiji in Salem, it
+> was incomplete, and in order to add to it a visit to that city was called
+> for. North Street, Salem, wide and shaded, is lined with old frame
+> houses, most of which were standing in 1893. As I walked along
+> looking for 166, I felt that this…
+
+*— BEFORE THE PARLIAMENT*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Swampscott, Massachusetts
@@ -10892,7 +15495,61 @@ Swampscott on the Massachusetts North Shore was a summer destination for Vivekan
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (3 references):
+
+> To return to the summer of 1894, the season when crowds of people
+>  left the hot cities for country homes or resorts, Swamiji, too, took
+>  what might be called a vacation. The only information we have at
+>  present regarding his activities during July is gathered from two
+>  letters published in Volume VIII of “The Complete Works.'’ The
+>  first of these was written to Mrs. Hale from Fishkill Landing, New
+>  York, where he was visiting Dr. and Mrs. Guernsey, and the second
+>  to the Hale sisters (by which term we generally mean the two
+>  McKindley sisters as well as the two Hale sisters) from Swampscott,
+>  Massachusetts. The Guernseys had evidently taken Swamiji into
+>  their family, much as the Hales had…
+
+*— I*
+
+> veiy^ careful now to take the hospitality of anybody here, especially
+> the rich. I had a few other invitations from some very rich people
+> here. I refused ; I have by this time seen the whole business through.
+> Lord bless you and yours. Mother Church, for your sincerity. Ohl it
+> is so rare in this world.”
+>                                  420
+>                         THE EASTERN TOUR—H
+>
+>      Nevertheless Swamiji did visit Swampscott in July. Whether he
+> had a change of heart regarding the “very rich lady,” or whether he
+> received another invitation from someone else in Swampscott, we do
+> not know. We only know at present that on July 26 he wrote from
+> Swampscott to the Hale sisters a light-hearted,…
+
+*— THE EASTERN TOUR—H*
+
+> queer gathering—They do not care much about social laws
+>     and are quite free and happy—Mrs. Mills is quite brilliant
+>     and so are many other ladies—A lady named Mrs. Chapin
+>     whom all along I had taken for a widder now proves to have a
+>     husband all along—Slie is a very beautiful lady—Another lady
+>     from Detroit, very cultured and with beautiful black eyes and
+>     long hair is going to take me to an island 15 miles into the sea.
+>     Hope we will have nice time—Mrs. Arthur Smith is here. Miss
+>     Guernsey went home from Swampscott . . . —It is a beautiful
+>     and nice place and the bathing is splendid—Cora Stockham
+>     has made a bathing dress for me and I am having as good times
+>  …
+
+*— THE EASTERN TOUR—II*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -10973,6 +15630,29 @@ Lawrence, the mill city on the Merrimack River, hosted Vivekananda for a lecture
 *— p. 375*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (1 references):
+
+> than his need for rest was his desire to place his work on a permanent
+> footing. Since many of his students themselves disliked the thought
+> of his classes being discontinued during the summer months, a plan
+> was evolved which made it possible for him to escape from the
+> sweltering city and, at the same time, to train a group of men and
+> women to carry on his work—a plan which resulted in the most
+> spiritually fruitful days of his American mission. One of his students,
+> a Miss Butcher, offered him a small house she owned on Thousand
+>  Island Park, an island in the St. Lawrence River, for his own use
+> and that of as many students as it would accommodate. Swamiji
+> accepted, agreeing to join at Thousand…
+
+*— I*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Melrose, Massachusetts
@@ -11004,7 +15684,32 @@ Melrose, a suburb north of Boston, was one of the New England communities where 
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (1 references):
+
+> Mrs. Bull would, of course, not hear of Swamiji’s finding peace
+> anywhere but at her home in Cambridge, to which, presumably, she
+>                                    4S8
+>                         THE EASTERN TOUR—II
+>
+> would soon return from New York and to which she invited him.
+> On September 26 he replied to her invitation; “I have received both
+> of your kind notes. I cannot express my gratitude for your kindness.
+> I will have to go back to Melrose on Saturday and remain there till
+> Monday. On Tuesday I will come over to your place. . . . For that
+> is exactly what I wanted, a quiet place to write. Of course much
+> less space will suffice me than what you have kindly proposed to put
+> at my disposal. I…
+
+*— THE EASTERN TOUR—II*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -11038,7 +15743,16 @@ Magnolia, the scenic summer resort village on Cape Ann, Massachusetts, was a sto
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -11093,7 +15807,61 @@ Plymouth, the historic landing place of the Pilgrim Fathers, was visited by Vive
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (5 references):
+
+> Colonel Higginson, of whom we will hear more later, had been
+> a delegate to the Parliament of Religions and was one of the more
+> liberal-minded writers of the age. He was interested in the Free
+> Religious Association, tlie motivating idea of which was contained in
+> his paper, “The Sympathy of Religions,” which he had read at the
+> Parliament and which had created a furor in Bosion. As we shah
+> learn further on, Swamiji was invited to speak at a meeting of the
+> Free Religious Association held in August, 1894, at Plymouth,
+> Massachusetts.
+>      The reader will have gathered from the above letter that Swamiji
+> arrived in Boston on Sunday, May 6, and, at the invitation of
+> Mrs. Howe, lectured before a…
+
+*— THE EASTERN TOUR—I*
+
+> atmosphere of intense spirituality. And during those same weeks he
+> himself perhaps began to see in a new light his mission to America.
+>
+>       On Saturday, August 11, 1894, Swamiji wrote from Greenacre to
+> the Hale sisters: “On Sunday I am going to lecture at Plymouth at
+> the ‘Sympathy of Religions’ of Col. Higginson.” In the early part of
+> his life Thomas Wentworth Higginson had been a pastor of various
+> Unitarian churches in Massachusetts. Later, having been an ardent
+> Abolitionist, he fought in the Civil War, in which he organized
+> and led the first regiment of Negro soldiers. But in 1864 Higginson
+> retired from the Army and became known, not as a military man but
+> as a writer, a liberal reformer…
+
+*— II*
+
+> to Miss Isabelle McKindley Swamiji wrote, as will be remembered,
+> “I have another invitation to lunch with Lyman Abbott day after
+> to-morrow.” Lyman Abbott, five foot three and of prominent nose
+>                                       374
+>                          THE EASTERN TOUR—I
+> and scraggly beard, was an extremely well-known clergyman who took
+> an active part in social and industrial reform and in the religious
+> and theological movements of the time. He was, when Swamiji knew
+> him, pastor of the Plymouth Congregational Church in Brooklyn and
+> the chief editor of the Outlook, an important and widely read magazine,
+> with whose editorial staff, one learns from “The I,ifc,” he invited
+> Swamiji to…
+
+*— THE EASTERN TOUR—I*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -11111,7 +15879,16 @@ Medford, a historic suburb north of Boston, was one of the many Massachusetts co
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -11129,7 +15906,16 @@ Groton, a rural New England town, was visited by Vivekananda during his American
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -11159,7 +15945,31 @@ Cincinnati, the Queen City of the West, was one of the Midwestern cities where V
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (1 references):
+
+> afraid of me and exclaim, ‘What a pest I Thousands of men and
+> women follow him 1 He is going to root out orthodoxy! ’ ” The word
+> “pest” was an understatement. To every narrow mind, Swamiji was
+> a bite noire to be eliminated at any cost.
+>       With this aim in mind, the Baptists of Detroit held a mass meeting
+> on March 5. Among the speakers was a Dr. W. E. Boggs of
+>      84                            265
+>                 SWAMI VIVEKANANDA:       NEW DISCO\'ERIES
+>   Cincinnati, Ohio, who had spent several years in India and could
+>   therefore, it was presumed, speak with authority. "India is the most
+>   idolatrous land on the face of the earth,” he declared. “The land is
+>  full of idols, not only in…
+
+*— SWAMI VIVEKANANDA:       NEW DISCO\'ERIES*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -11193,6 +16003,15 @@ Indianapolis, the Indiana state capital, hosted Vivekananda for a lecture during
 > this…
 
 *— p. 327*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -11281,6 +16100,59 @@ Vivekananda lectured in Iowa during his 1894 Midwest tour, likely in Des Moines 
 *— p. 327*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> starting to-morrow for Madison and Minneapolis.” This departure
+> from Chicago marked the beginning of Swamiji’s famous and
+> important lecture tour of the Midwest and South, which lasted until
+> Ai>i'il of 1894. But although the tour is famous and important, I
+> have been able to gather information about Swamiji's lectures in only
+> four cities prior to his visit to Detroit in l’>bruary of 1891. I liave
+> found that he visited not only Madison, Wisconsin, and Minneapolis,
+> Minnesota, in November of 1893 but, in the same month, Dos Moijics,
+> Iowa. TJiese tliree cities constituted the first listings on his Mid-
+> ^vestern itinerary. Another discovery is that Sivamiji visited Memphis,
+> Tennessee, in January,…
+
+*— I*
+
+> On Saturday, January 13, 1891, Swaraiji arrived in Memphis,
+>  invited by the members of the Nineteenth Century Club, some of
+> whom had attended the Parliament of Religions and had been deeply
+>  impressed by “the Hindu Monk.” It would seem from what w’e so
+> far know that many of Swamiji’s engagements were made inde¬
+>  pendently of the lecture bureau, negotiations being made directly
+>  between him and various dubs or inditiduals. For instance, the
+> Peripatetic Club invited Swamiji to speak in Minnea{)olis; Dr. H. O.
+> Breeden arranged for his lectures in Des Moines; the Nineteenth
+> Century Club brought him to Memjiliis; and, as will be seen in a
+> following chapter, the Unity Club first sponsored him in…
+
+*— I*
+
+> session, for it had been announced that Swami Vivekananda,
+>     the popular Hindu Monk, who looks so much like
+>     McCullough’s Othello, was to speak. Ladies, ladies every¬
+>     where filled the great auditorium.
+>
+> There was, no doubt, electricity in the air, and before long it began
+> to crackle, eventually calling forth one of Swamiji’s short but flaming
+> rebuke.s—one which has not hitherto been known.
+>      The Dubuque, Iowa, Times of September 29, 1893, gleefully
+> reviews this ninth day of the Parliament as though a tournament were
+> under consideration. The report, being somewhat imj)rcssionistic,
+> does not make it entirely clear at exactly what point in the proceed¬
+> ings Swamiji had heard…
+
+*— SWAMI VIVEKANANDA:       NEW DISCOVERIES*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Nashville, Tennessee
@@ -11296,7 +16168,16 @@ Nashville, the Athens of the South, was one of the Southern American cities wher
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -11437,6 +16318,81 @@ Cambridge, home to Harvard University, was a key intellectual center for Vivekan
 *— p. 486*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> The summer of 1898 stands out in my"
+> memory as a series of pictures, painted like
+> old   altar-pieces,   against     a   golden     back-
+> ground of religious ardour and simplicity,
+> and all alike glorified by the presence of one
+> who, to us    in   his   immediate    circle,   formed
+> their central point.      We were a party of four
+> Western women, one of whom was Mrs,
+> Ole Bull of Cambridge, Massachusetts, and
+> another a member of the higher official
+> world of Anglo-Indian Calcutta.      Side by
+> side with us travelled the Swami, surrounded
+>
+> by his brethren (or gurubhais) and disciples.
+> Once arived at Almora, he and his party
+> became the guests of Mr. and Mrs. Sevier,
+> who were then residing there,…
+
+*— THE SWAMI IN LONDON*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> to plunge into profound contemplation or to lift in ecstasy, make it
+> seem that, like other events in his life, the founding of the Greenacre
+> Religious Conferences in 1894 was part of the same divine plan that
+> Iiad brought him to America.
+>       It was Miss Sarah Farmer, whom Swamiji had met in New York,
+> who had invited him to Greenacre. Miss Farmer was the daughter
+> of the famous Moses Gerrish Farmer, who, some ten years prior to
+> Edison’s invention of a marketable electric bulb, had “lighted a house
+> in Cambridge with forty incandescent lamps in multiple circuit.”
+> Mr. Farmer, it is recorded, used frequently to tell his daughter that
+> the chief principle of the inventor was inspiration and that…
+
+*— SWAMI VIVEKANANDA; NEW DISCOVERIES*
+
+> in efligy, which is supposed to destroy once for all the old body,
+>     name and caste. The man then receives a new name,
+>     and is allowed to go forth and preach or travel, but must take
+>     no money for what he does.
+>
+>      As in New York, so in Boston, Swamiji no doubt made many new
+> friends as well as renewed the friendships of those whom he had met
+> earlier. Notable among these may have been Mrs. Ole Bull of
+> Cambridge, ^vho was to remain devoted to him for the rest of her life.
+> We do not know exactly when or where Swamiji first met Mrs. Bull.
+> If in Boston, then it may have been during his visit there in April, or,
+> more probably, during that of May. Swamiji did not visit Boston
+> again until…
+
+*— VIVEKANANDA'S ADDRESS*
+
+> of her journal, wx are able to learn something of his activities that
+> have hitherto been unknown and to feel something of the impact of
+> his personality upon those with w^hom he came in contact. As wall be
+> seen from the following excerpts, ^vhich Mrs. Wright’s son, Mr. John K.
+> Wright, has made available to us, her journal w^as WTitten for the most
+> part as though she wxre giving a day-by-day narrative of a mythical
+> family called the “Kirtlands.”
+>       (At the time of Swamiji’s visit to Boston the Wrights were
+> evidently preparing to move from their home in Cambridge to
+> Annisquam, where they usually spent their summers).
+>
+>                                                  May 7, 1894.
+>         …
+
+*— THE EASTERN TOUR—I*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Edinburgh
@@ -11471,6 +16427,15 @@ Vivekananda visited Edinburgh during his UK lecture tour in 1895. The Scottish c
 *— p. 700*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Manchester
@@ -11502,7 +16467,16 @@ Manchester, the industrial heartland of England, was visited by Vivekananda duri
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -11520,7 +16494,16 @@ Bristol on the River Avon was one of the English cities visited by Vivekananda d
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -11538,7 +16521,16 @@ Mannar, on the northwestern coast of Sri Lanka near the Palk Strait, was associa
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -11670,6 +16662,125 @@ The Hall of Columbus at the Art Institute of Chicago was the venue for the Parli
 > living, He surely would endow him with…
 
 *— p. 261*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (6 references):
+
+> to see him daily, until November the 5th, that
+> is to say, six or seven weeks later.    After
+> that date, when our party was broken up,
+> the      Swami paid a few visits in New York
+> and its neighbourhood.     At the end of the
+>
+>                       275
+>                       IN THE WEST
+> month he passed through Chicago, where-
+> I then was, on his way to California.
+>                                       Again
+> I met him in New York in the following
+>
+> June (1900). There for a few weeks, and
+> later in        Paris for a similar length of time,
+> I     saw him frequently      ;
+>                                   and   in   September,
+
+*— PAST AND FUTURE IN INDIA*
+
+> 301
+>           THE SWAMPS MISSION
+> be disputed that the thought-area within
+> Hinduism, as actually realised, had been
+> coloured by the accumulation of a few distinct-
+> ive ideas, and these     were the main subjects
+> of the Swami's Address before the Parlia-
+> ment of Religions, at Chicago, in 1893.
+>     First of these special conceptions,    with
+> which India might be said to be identified,
+> was that of the cyclic character of the cosmos.
+> On the relation of Creator aud created,      as
+>
+> equal elements in a dualism which can never
+> be more than a relative truth, Hinduism had
+> a profound philosophy, which Vivekananda,
+
+*— PAST AND FUTURE IN INDIA*
+
+> "
+> standard for warfare.   Be the heroic Raj-
+> put wife !" he exclaimed in an undertone on
+> one occasion, to a girl who was about to
+> give way to emotion, at saying farewell to
+> her betrothed. And the words acted like a
+> charm.      His    last    words,   after   my    brief
+>                                         "
+> glimpse of him in         Chicago, were   Remem-
+> ber! the message of India           is   always
+>                                                   '
+>                                                       Not
+> the soul for Nature, but Nature for the soul\
+>      When   I   said good-bye to him in Brittany
+> in   September,     1900,    I   was on the eve of
+> returning alone      to   …
+
+*— PAST AND FUTURE IN INDIA*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> Until now, the information we have had regarding the weeks
+> between the midsummer of 1893, when Swami Vivekananda arrived
+> in America, and the opening of the Parliament of Religions in
+> September of the same year, has been scanty and derived largely from
+> one or two letters which he wrote to India. In “The Iafe of Swami
+> Vivekananda” it is told that when he arrived in Chicago in late
+> July to represent Hinduism at the Parliament of Religions he was
+> not only totally unknown in Amcriai and unequipped with any kind
+> of credential, but too late to register as a delegate to the Parliament
+> even if he had credentials. The Parliament of Religions, moreover,
+> was not scheduled to open until September 11.…
+
+*— I*
+
+> chapter, that Swamiji gave the women of the Boston Ramabai Circle
+> a true picture of India and of child widows and that it was a picture
+> which they did not relish.
+>      The first direct mention of Swamiji in the Boston papers is
+> tucked away in the “Personar’ column of the Evening Transcript of
+> August 23, 1893:
+>
+>          Swami Virckananda of India, a Brahmin monk who is
+>     on his way to the parliament of religions to be held at Chicago
+>     in September, is the guest of Miss Kate Sanborn at her
+>     '‘abandoned farm” in Metcalf, Mass.          Last evening he
+>     addressed the inmates of the Sherborn Reformatory for
+>     Women upon the manners, customs and mode of living in his
+>     country.
+>
+>   …
+
+*— II*
+
+> his country’s real needs and real genius, but he stayed only to give,
+>                                   56
+>                       BEFORE THE PARLIAMENT
+>
+> pouring himself out for tlie sake of Americans, for he could not see
+> hunger in any form, spiritual or physical, without filling it.
+>
+>      Among the papers preserved by Mrs. Prince Woods were two
+> letters written by Swamiji from Chicago a month or so after his first
+> visit to Salem. Although these letters pertain to a later period, they
+> belonged nevertheless to Mrs. Kate Tannatt Woods, and as completing
+> the account of Swamiji’s stay at 166 North street they are quoted
+> here:
+>
+>                                        Chicago, 10th October, 1893
+>   …
+
+*— BEFORE THE PARLIAMENT*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -11806,6 +16917,73 @@ Vivekananda stayed at various addresses in Chicago between and after the Parliam
 *— p. 241*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (6 references):
+
+> to see him daily, until November the 5th, that
+> is to say, six or seven weeks later.    After
+> that date, when our party was broken up,
+> the      Swami paid a few visits in New York
+> and its neighbourhood.     At the end of the
+>
+>                       275
+>                       IN THE WEST
+> month he passed through Chicago, where-
+> I then was, on his way to California.
+>                                       Again
+> I met him in New York in the following
+>
+> June (1900). There for a few weeks, and
+> later in        Paris for a similar length of time,
+> I     saw him frequently      ;
+>                                   and   in   September,
+
+*— PAST AND FUTURE IN INDIA*
+
+> 301
+>           THE SWAMPS MISSION
+> be disputed that the thought-area within
+> Hinduism, as actually realised, had been
+> coloured by the accumulation of a few distinct-
+> ive ideas, and these     were the main subjects
+> of the Swami's Address before the Parlia-
+> ment of Religions, at Chicago, in 1893.
+>     First of these special conceptions,    with
+> which India might be said to be identified,
+> was that of the cyclic character of the cosmos.
+> On the relation of Creator aud created,      as
+>
+> equal elements in a dualism which can never
+> be more than a relative truth, Hinduism had
+> a profound philosophy, which Vivekananda,
+
+*— PAST AND FUTURE IN INDIA*
+
+> "
+> standard for warfare.   Be the heroic Raj-
+> put wife !" he exclaimed in an undertone on
+> one occasion, to a girl who was about to
+> give way to emotion, at saying farewell to
+> her betrothed. And the words acted like a
+> charm.      His    last    words,   after   my    brief
+>                                         "
+> glimpse of him in         Chicago, were   Remem-
+> ber! the message of India           is   always
+>                                                   '
+>                                                       Not
+> the soul for Nature, but Nature for the soul\
+>      When   I   said good-bye to him in Brittany
+> in   September,     1900,    I   was on the eve of
+> returning alone      to   …
+
+*— PAST AND FUTURE IN INDIA*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Vedanta Society of New York-History
@@ -11931,6 +17109,117 @@ Vivekananda founded the Vedanta Society of New York in November 1894, the first 
 > teach freely, while living independently in a place of his…
 
 *— p. 348*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> and      for        his     country,        which,       apparently
+> without         his    knowledge, fell in so many
+> cases     like       seed upon soil prepared for it,
+> and      have         sprung           up already,           in    widely
+> distant        parts        of    India,         into   hearts       and
+> lives    of devotion              to    the Motherland. Just
+> as      Sri     Ramakrishna,                in       fact,        without
+> knowing             any       books,   had been a living
+> epitome of the                   Vedanta so was Viveka-
+> nanda         of     the      national       life.      But of the
+> theory         of     this,      he was unconscious.              …
+
+*— THE SWAMI IN LONDON*
+
+> amongst my       people, that I have undertaken."
+> And the words stand in my own mind beside
+>
+>                            46
+>       THE MESSAGE OF THE GURU.
+> those which he afterwards wrote tome on
+> the eve of my departure, "/ will standby
+> you unto death, whether you work for India
+> or not, whether you give up Vedanta, or
+> remain    in   it.   The tusks     of   the elephant
+> come out, but they never go             back.  Even
+> so are the words of a man."
+>     But   these      references   to    the   Swami's
+> own  people were merely personal, and as
+> such were strictly subordinate. In his classes,
+> in his teachings, his one     longing seemed
+> to be for the salvation of men from ignorance.
+
+*— THE SWAMI IN LONDON*
+
+> clearly understood.
+>     In the Swami's               scheme of things how-
+> ever,   it    would almost seem as if such tasks
+> were to take that place in the spiritual edu-
+> cation which had previously been occupied
+>
+> by systems of devotion.                   To the Adwaitin,
+> or strict believer          in     the Indian philosophy
+> of Vedanta,           the   goal      lies     in      the    attain-
+>
+> ment of that mood in which all is One and
+> there is no second.              To one who has reached
+> this,   worship becomes impossible,                      for there
+>
+>                                  54
+>           THE CONFLICT OF IDEALS.
+
+*— THE SWAMI IN LONDON*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> ment, eager in his efforts to learn of those things that might
+>     be beneficial to his people, earnest in his desire to recognize
+>     the religions of all peoj)le as related to each other, and all
+>     sincere efforts in behalf of virtue and holiness, but at the
+>     same time he defended the Hindoo religion and philosophy
+>     with an eloquence and power that not only won admira¬
+>     tion for himself but consideration for his own teachings.
+>
+>     To a request of the New York World of October 1, 1893, for
+> “a sentiment or expression regarding the significance of the great
+> meeting” from each representative, Swamiji replied with a quotation
+> from the Gita and one from Vyasa:
+>
+>          “I am He…
+
+*— THE PARLIAMENT OF RELIGIONS*
+
+> more about it. 'Fhe steps leading to this discovery arc perhaps of
+> interest.
+>
+>                                  Ill
+>
+>       In the spring of 1950, an advertisement in a magazine devoted to
+> antiques was brought to the notice of a student of Vedanta,       rirc
+> advertisement, placed by a Mrs. Prince Woods, offered for sale a
+> trunk and a walking stick which had belonged to Srvami Vivekananda.
+> Naturally enough, these articles were sent for, and a request was
+> made for further information regarding them. A correspondence
+> ensued between the Vedanta student and Mrs. Woods, in the course
+> of which the following facts came to light.
+>       In August, 1893, Swamiji had been invited by Mrs. Kate…
+
+*— BEFORE THE PARLIAMENT*
+
+> He was a well-known journalist, author and philanthropist, extremely
+> active in organizing and promoting works of benevolence. He served
+> as secretary of the Massachusetts Board of Charities—the first of its
+> kind in America—and helped in founding many charitable institu¬
+> tions. He also founded the Concord Summer School of Philosophy
+> and wrote biographies of his friends, Alcott, Emerson, Thoreau,
+> Hawthorne and others. As will be seen later, Mr. Sanborn invited
+> Stvamiji to speak at a convention of the American Social Science
+> Association in Saratoga Springs, New York—the fashionable resort of
+> the era.
+>      But prior to going to Saratoga Springs, Swamiji passed a busy
+> week and a half in…
+
+*— BEFORE THE PARLIAMENT*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -12076,6 +17365,73 @@ In the summer of 1895, Vivekananda held informal Vedanta classes at Thousand Isl
 *— p. 369*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> them....     "What was that ? What was that ?"
+> said his friend, in a hoarse whisper, a few
+> minutes later.          It   had been one of those
+> rare cases in which an apparition is seen by
+> two persons at once.
+>     Experiences like these could not fail to
+> create a body of belief in the mind that
+> went through them, and in a letter written
+> from Thousand Island Park, dated August
+>           MAN THE HIGHEST BEING
+> 1895,      tne   Swami gives expression to this^
+> conviction.       He says " The older I grow,
+>                                   :
+
+*— MONASTICISM AND MARRIAGE*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (6 references):
+
+> into every person and every situation were so devoid of self-consciousness
+> and egotism that they enhanced rather than concealed his childlike
+> nature. The fact is that when Swamiji came to America he was already
+> established in the state of a Paramahamsa (a transcendental knower of
+> God), and had become in his total purity similar to a child, uncon¬
+> taminated and blissful. Now and then one catches hints of what his
+> inner state must have been during his wandering days in India. There
+> is, for instance, his confidence to Mary Hale written in a letter from
+> Thousand Island Park; “Every day I feel I have no duty to do; I am
+> always in eternal rest and peace. It is He that works. We are only
+> the…
+
+*— DAWN OF THE WORLD MISSION*
+
+> of his classes being discontinued during the summer months, a plan
+> was evolved which made it possible for him to escape from the
+> sweltering city and, at the same time, to train a group of men and
+> women to carry on his work—a plan which resulted in the most
+> spiritually fruitful days of his American mission. One of his students,
+> a Miss Butcher, offered him a small house she owned on Thousand
+>  Island Park, an island in the St. Lawrence River, for his own use
+> and that of as many students as it would accommodate. Swamiji
+> accepted, agreeing to join at Thousand Island Park any students who
+> were earnest enough to travel the three hundred miles from New York.
+>       In the meantime he accepted an…
+
+*— I*
+
+> Vedanta, using as his texts first one world scripture and then another—
+> the New Testament, the Gita, the Upanishads or the Vedanta-Sutras.
+> But his teaching did not stop with classes. On long walks through the
+> woods, at meals, even on the occasions when he prepared meals for his
+> disciples, he would turn each small occurrence into a spiritual lesson
+> and each hour of the day into a festival. In the cool, silent evenings
+> he would talk long to the group which gathered in breathless attention
+> on the upper veranda of the house.
+>      At Thousand Island Park Swamiji initiated two disciples into
+> sannyasa (the final vows of monasticism): Leon Landsberg, who thus
+> became Swami Kripananda, and a French…
+
+*— I*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Kamakura
@@ -12091,7 +17447,16 @@ Vivekananda visited Kamakura during his Japan sojourn en route to the Parliament
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -12109,7 +17474,16 @@ Swami Ramakrishnananda, one of the direct disciples of Sri Ramakrishna, was sent
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -12194,6 +17568,15 @@ Flora Cottage in Triplicane was the initial residence taken by Swami Ramakrishna
 > visitors until the evening, when the Swami paid a…
 
 *— p. 467*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -12333,6 +17716,55 @@ Victoria Hall in Madras was the venue for Swami Vivekananda's first major public
 *— p. 484*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (2 references):
+
+> London, in
+> April   of   the year following, and taught
+> continuously,   at  the house where he was
+>
+> living  with  his  good friend, Mr. E. T.
+> Sturdy,  in  S.   George's Road, and again,
+>         summer holidays, in a large class-
+> after the
+> room near Victoria Street. During July,
+> August, and September, he travelled in
+> France, Germany and Switzerland, with his
+> friends, Mr. and Mrs. Sevier, and Miss
+> H. F.    Muller.     In    December, he   left   for
+>
+> India, with   some of his disciples, by way of
+> Rome, and arrived at Colombo, in Ceylon,
+> on January the i5th, 1897.
+
+*— THE SWAMI IN LONDON*
+
+> none, on the contrary, was ever so possessed
+> by the vision of her greatness. To him,
+> she appeared as the giver of English civilsa-
+> tion.  For what, he would ask, had been the
+> England of Elizabeth          comparison with
+>                                      in
+>
+> the India of Akbar ?       Nay, what would
+> the England of Victoria have been, without
+> the wealth of India, behind her ? Where would
+>              THE CONFLICT OF IDEALS.
+> have been her refinement ? where would
+> have been her experience ? His country's
+> religion, history, geography, ethnology, pour-
+> ed from        his lips in         an inexhaustible stream.
+> With  equal delight he treated of details
+> and of the whole, or so it would often…
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Pachaiyappa's Hall
@@ -12348,7 +17780,16 @@ Pachaiyappa's Hall, part of the historic Pachaiyappa's College in Madras, was on
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -12366,7 +17807,16 @@ The Hindu Theological High School in Triplicane, Madras, was closely associated 
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -12384,7 +17834,16 @@ Sundar Nivas was one of the residences associated with Swami Vivekananda's trium
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -12518,6 +17977,125 @@ Erskine Mason Phelps was one of Vivekananda's early supporters in Chicago. Vivek
 *— p. 261*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (6 references):
+
+> to see him daily, until November the 5th, that
+> is to say, six or seven weeks later.    After
+> that date, when our party was broken up,
+> the      Swami paid a few visits in New York
+> and its neighbourhood.     At the end of the
+>
+>                       275
+>                       IN THE WEST
+> month he passed through Chicago, where-
+> I then was, on his way to California.
+>                                       Again
+> I met him in New York in the following
+>
+> June (1900). There for a few weeks, and
+> later in        Paris for a similar length of time,
+> I     saw him frequently      ;
+>                                   and   in   September,
+
+*— PAST AND FUTURE IN INDIA*
+
+> 301
+>           THE SWAMPS MISSION
+> be disputed that the thought-area within
+> Hinduism, as actually realised, had been
+> coloured by the accumulation of a few distinct-
+> ive ideas, and these     were the main subjects
+> of the Swami's Address before the Parlia-
+> ment of Religions, at Chicago, in 1893.
+>     First of these special conceptions,    with
+> which India might be said to be identified,
+> was that of the cyclic character of the cosmos.
+> On the relation of Creator aud created,      as
+>
+> equal elements in a dualism which can never
+> be more than a relative truth, Hinduism had
+> a profound philosophy, which Vivekananda,
+
+*— PAST AND FUTURE IN INDIA*
+
+> "
+> standard for warfare.   Be the heroic Raj-
+> put wife !" he exclaimed in an undertone on
+> one occasion, to a girl who was about to
+> give way to emotion, at saying farewell to
+> her betrothed. And the words acted like a
+> charm.      His    last    words,   after   my    brief
+>                                         "
+> glimpse of him in         Chicago, were   Remem-
+> ber! the message of India           is   always
+>                                                   '
+>                                                       Not
+> the soul for Nature, but Nature for the soul\
+>      When   I   said good-bye to him in Brittany
+> in   September,     1900,    I   was on the eve of
+> returning alone      to   …
+
+*— PAST AND FUTURE IN INDIA*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> Until now, the information we have had regarding the weeks
+> between the midsummer of 1893, when Swami Vivekananda arrived
+> in America, and the opening of the Parliament of Religions in
+> September of the same year, has been scanty and derived largely from
+> one or two letters which he wrote to India. In “The Iafe of Swami
+> Vivekananda” it is told that when he arrived in Chicago in late
+> July to represent Hinduism at the Parliament of Religions he was
+> not only totally unknown in Amcriai and unequipped with any kind
+> of credential, but too late to register as a delegate to the Parliament
+> even if he had credentials. The Parliament of Religions, moreover,
+> was not scheduled to open until September 11.…
+
+*— I*
+
+> chapter, that Swamiji gave the women of the Boston Ramabai Circle
+> a true picture of India and of child widows and that it was a picture
+> which they did not relish.
+>      The first direct mention of Swamiji in the Boston papers is
+> tucked away in the “Personar’ column of the Evening Transcript of
+> August 23, 1893:
+>
+>          Swami Virckananda of India, a Brahmin monk who is
+>     on his way to the parliament of religions to be held at Chicago
+>     in September, is the guest of Miss Kate Sanborn at her
+>     '‘abandoned farm” in Metcalf, Mass.          Last evening he
+>     addressed the inmates of the Sherborn Reformatory for
+>     Women upon the manners, customs and mode of living in his
+>     country.
+>
+>   …
+
+*— II*
+
+> his country’s real needs and real genius, but he stayed only to give,
+>                                   56
+>                       BEFORE THE PARLIAMENT
+>
+> pouring himself out for tlie sake of Americans, for he could not see
+> hunger in any form, spiritual or physical, without filling it.
+>
+>      Among the papers preserved by Mrs. Prince Woods were two
+> letters written by Swamiji from Chicago a month or so after his first
+> visit to Salem. Although these letters pertain to a later period, they
+> belonged nevertheless to Mrs. Kate Tannatt Woods, and as completing
+> the account of Swamiji’s stay at 166 North street they are quoted
+> here:
+>
+>                                        Chicago, 10th October, 1893
+>   …
+
+*— BEFORE THE PARLIAMENT*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### George W. Hale Home
@@ -12647,6 +18225,125 @@ George W. Hale was the father of the renowned astronomer George Ellery Hale. The
 > living, He surely would endow him with…
 
 *— p. 261*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (6 references):
+
+> to see him daily, until November the 5th, that
+> is to say, six or seven weeks later.    After
+> that date, when our party was broken up,
+> the      Swami paid a few visits in New York
+> and its neighbourhood.     At the end of the
+>
+>                       275
+>                       IN THE WEST
+> month he passed through Chicago, where-
+> I then was, on his way to California.
+>                                       Again
+> I met him in New York in the following
+>
+> June (1900). There for a few weeks, and
+> later in        Paris for a similar length of time,
+> I     saw him frequently      ;
+>                                   and   in   September,
+
+*— PAST AND FUTURE IN INDIA*
+
+> 301
+>           THE SWAMPS MISSION
+> be disputed that the thought-area within
+> Hinduism, as actually realised, had been
+> coloured by the accumulation of a few distinct-
+> ive ideas, and these     were the main subjects
+> of the Swami's Address before the Parlia-
+> ment of Religions, at Chicago, in 1893.
+>     First of these special conceptions,    with
+> which India might be said to be identified,
+> was that of the cyclic character of the cosmos.
+> On the relation of Creator aud created,      as
+>
+> equal elements in a dualism which can never
+> be more than a relative truth, Hinduism had
+> a profound philosophy, which Vivekananda,
+
+*— PAST AND FUTURE IN INDIA*
+
+> "
+> standard for warfare.   Be the heroic Raj-
+> put wife !" he exclaimed in an undertone on
+> one occasion, to a girl who was about to
+> give way to emotion, at saying farewell to
+> her betrothed. And the words acted like a
+> charm.      His    last    words,   after   my    brief
+>                                         "
+> glimpse of him in         Chicago, were   Remem-
+> ber! the message of India           is   always
+>                                                   '
+>                                                       Not
+> the soul for Nature, but Nature for the soul\
+>      When   I   said good-bye to him in Brittany
+> in   September,     1900,    I   was on the eve of
+> returning alone      to   …
+
+*— PAST AND FUTURE IN INDIA*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> Until now, the information we have had regarding the weeks
+> between the midsummer of 1893, when Swami Vivekananda arrived
+> in America, and the opening of the Parliament of Religions in
+> September of the same year, has been scanty and derived largely from
+> one or two letters which he wrote to India. In “The Iafe of Swami
+> Vivekananda” it is told that when he arrived in Chicago in late
+> July to represent Hinduism at the Parliament of Religions he was
+> not only totally unknown in Amcriai and unequipped with any kind
+> of credential, but too late to register as a delegate to the Parliament
+> even if he had credentials. The Parliament of Religions, moreover,
+> was not scheduled to open until September 11.…
+
+*— I*
+
+> chapter, that Swamiji gave the women of the Boston Ramabai Circle
+> a true picture of India and of child widows and that it was a picture
+> which they did not relish.
+>      The first direct mention of Swamiji in the Boston papers is
+> tucked away in the “Personar’ column of the Evening Transcript of
+> August 23, 1893:
+>
+>          Swami Virckananda of India, a Brahmin monk who is
+>     on his way to the parliament of religions to be held at Chicago
+>     in September, is the guest of Miss Kate Sanborn at her
+>     '‘abandoned farm” in Metcalf, Mass.          Last evening he
+>     addressed the inmates of the Sherborn Reformatory for
+>     Women upon the manners, customs and mode of living in his
+>     country.
+>
+>   …
+
+*— II*
+
+> his country’s real needs and real genius, but he stayed only to give,
+>                                   56
+>                       BEFORE THE PARLIAMENT
+>
+> pouring himself out for tlie sake of Americans, for he could not see
+> hunger in any form, spiritual or physical, without filling it.
+>
+>      Among the papers preserved by Mrs. Prince Woods were two
+> letters written by Swamiji from Chicago a month or so after his first
+> visit to Salem. Although these letters pertain to a later period, they
+> belonged nevertheless to Mrs. Kate Tannatt Woods, and as completing
+> the account of Swamiji’s stay at 166 North street they are quoted
+> here:
+>
+>                                        Chicago, 10th October, 1893
+>   …
+
+*— BEFORE THE PARLIAMENT*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -12780,6 +18477,73 @@ The Lyon Home in Chicago was one of the residences that welcomed Swami Vivekanan
 *— p. 261*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (6 references):
+
+> to see him daily, until November the 5th, that
+> is to say, six or seven weeks later.    After
+> that date, when our party was broken up,
+> the      Swami paid a few visits in New York
+> and its neighbourhood.     At the end of the
+>
+>                       275
+>                       IN THE WEST
+> month he passed through Chicago, where-
+> I then was, on his way to California.
+>                                       Again
+> I met him in New York in the following
+>
+> June (1900). There for a few weeks, and
+> later in        Paris for a similar length of time,
+> I     saw him frequently      ;
+>                                   and   in   September,
+
+*— PAST AND FUTURE IN INDIA*
+
+> 301
+>           THE SWAMPS MISSION
+> be disputed that the thought-area within
+> Hinduism, as actually realised, had been
+> coloured by the accumulation of a few distinct-
+> ive ideas, and these     were the main subjects
+> of the Swami's Address before the Parlia-
+> ment of Religions, at Chicago, in 1893.
+>     First of these special conceptions,    with
+> which India might be said to be identified,
+> was that of the cyclic character of the cosmos.
+> On the relation of Creator aud created,      as
+>
+> equal elements in a dualism which can never
+> be more than a relative truth, Hinduism had
+> a profound philosophy, which Vivekananda,
+
+*— PAST AND FUTURE IN INDIA*
+
+> "
+> standard for warfare.   Be the heroic Raj-
+> put wife !" he exclaimed in an undertone on
+> one occasion, to a girl who was about to
+> give way to emotion, at saying farewell to
+> her betrothed. And the words acted like a
+> charm.      His    last    words,   after   my    brief
+>                                         "
+> glimpse of him in         Chicago, were   Remem-
+> ber! the message of India           is   always
+>                                                   '
+>                                                       Not
+> the soul for Nature, but Nature for the soul\
+>      When   I   said good-bye to him in Brittany
+> in   September,     1900,    I   was on the eve of
+> returning alone      to   …
+
+*— PAST AND FUTURE IN INDIA*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Third Unitarian Church
@@ -12911,6 +18675,125 @@ The Third Unitarian Church in Chicago was one of the venues where Swami Vivekana
 *— p. 261*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (6 references):
+
+> to see him daily, until November the 5th, that
+> is to say, six or seven weeks later.    After
+> that date, when our party was broken up,
+> the      Swami paid a few visits in New York
+> and its neighbourhood.     At the end of the
+>
+>                       275
+>                       IN THE WEST
+> month he passed through Chicago, where-
+> I then was, on his way to California.
+>                                       Again
+> I met him in New York in the following
+>
+> June (1900). There for a few weeks, and
+> later in        Paris for a similar length of time,
+> I     saw him frequently      ;
+>                                   and   in   September,
+
+*— PAST AND FUTURE IN INDIA*
+
+> 301
+>           THE SWAMPS MISSION
+> be disputed that the thought-area within
+> Hinduism, as actually realised, had been
+> coloured by the accumulation of a few distinct-
+> ive ideas, and these     were the main subjects
+> of the Swami's Address before the Parlia-
+> ment of Religions, at Chicago, in 1893.
+>     First of these special conceptions,    with
+> which India might be said to be identified,
+> was that of the cyclic character of the cosmos.
+> On the relation of Creator aud created,      as
+>
+> equal elements in a dualism which can never
+> be more than a relative truth, Hinduism had
+> a profound philosophy, which Vivekananda,
+
+*— PAST AND FUTURE IN INDIA*
+
+> "
+> standard for warfare.   Be the heroic Raj-
+> put wife !" he exclaimed in an undertone on
+> one occasion, to a girl who was about to
+> give way to emotion, at saying farewell to
+> her betrothed. And the words acted like a
+> charm.      His    last    words,   after   my    brief
+>                                         "
+> glimpse of him in         Chicago, were   Remem-
+> ber! the message of India           is   always
+>                                                   '
+>                                                       Not
+> the soul for Nature, but Nature for the soul\
+>      When   I   said good-bye to him in Brittany
+> in   September,     1900,    I   was on the eve of
+> returning alone      to   …
+
+*— PAST AND FUTURE IN INDIA*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> Until now, the information we have had regarding the weeks
+> between the midsummer of 1893, when Swami Vivekananda arrived
+> in America, and the opening of the Parliament of Religions in
+> September of the same year, has been scanty and derived largely from
+> one or two letters which he wrote to India. In “The Iafe of Swami
+> Vivekananda” it is told that when he arrived in Chicago in late
+> July to represent Hinduism at the Parliament of Religions he was
+> not only totally unknown in Amcriai and unequipped with any kind
+> of credential, but too late to register as a delegate to the Parliament
+> even if he had credentials. The Parliament of Religions, moreover,
+> was not scheduled to open until September 11.…
+
+*— I*
+
+> chapter, that Swamiji gave the women of the Boston Ramabai Circle
+> a true picture of India and of child widows and that it was a picture
+> which they did not relish.
+>      The first direct mention of Swamiji in the Boston papers is
+> tucked away in the “Personar’ column of the Evening Transcript of
+> August 23, 1893:
+>
+>          Swami Virckananda of India, a Brahmin monk who is
+>     on his way to the parliament of religions to be held at Chicago
+>     in September, is the guest of Miss Kate Sanborn at her
+>     '‘abandoned farm” in Metcalf, Mass.          Last evening he
+>     addressed the inmates of the Sherborn Reformatory for
+>     Women upon the manners, customs and mode of living in his
+>     country.
+>
+>   …
+
+*— II*
+
+> his country’s real needs and real genius, but he stayed only to give,
+>                                   56
+>                       BEFORE THE PARLIAMENT
+>
+> pouring himself out for tlie sake of Americans, for he could not see
+> hunger in any form, spiritual or physical, without filling it.
+>
+>      Among the papers preserved by Mrs. Prince Woods were two
+> letters written by Swamiji from Chicago a month or so after his first
+> visit to Salem. Although these letters pertain to a later period, they
+> belonged nevertheless to Mrs. Kate Tannatt Woods, and as completing
+> the account of Swamiji’s stay at 166 North street they are quoted
+> here:
+>
+>                                        Chicago, 10th October, 1893
+>   …
+
+*— BEFORE THE PARLIAMENT*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Highland Park
@@ -12943,6 +18826,15 @@ Highland Park, a prosperous suburb north of Chicago on Lake Michigan, was visite
 > shining repartecs bearing on the matters of science…
 
 *— p. 417*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -13076,6 +18968,73 @@ Hull-House, the famous settlement house founded by Jane Addams in 1889, was visi
 *— p. 261*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (6 references):
+
+> to see him daily, until November the 5th, that
+> is to say, six or seven weeks later.    After
+> that date, when our party was broken up,
+> the      Swami paid a few visits in New York
+> and its neighbourhood.     At the end of the
+>
+>                       275
+>                       IN THE WEST
+> month he passed through Chicago, where-
+> I then was, on his way to California.
+>                                       Again
+> I met him in New York in the following
+>
+> June (1900). There for a few weeks, and
+> later in        Paris for a similar length of time,
+> I     saw him frequently      ;
+>                                   and   in   September,
+
+*— PAST AND FUTURE IN INDIA*
+
+> 301
+>           THE SWAMPS MISSION
+> be disputed that the thought-area within
+> Hinduism, as actually realised, had been
+> coloured by the accumulation of a few distinct-
+> ive ideas, and these     were the main subjects
+> of the Swami's Address before the Parlia-
+> ment of Religions, at Chicago, in 1893.
+>     First of these special conceptions,    with
+> which India might be said to be identified,
+> was that of the cyclic character of the cosmos.
+> On the relation of Creator aud created,      as
+>
+> equal elements in a dualism which can never
+> be more than a relative truth, Hinduism had
+> a profound philosophy, which Vivekananda,
+
+*— PAST AND FUTURE IN INDIA*
+
+> "
+> standard for warfare.   Be the heroic Raj-
+> put wife !" he exclaimed in an undertone on
+> one occasion, to a girl who was about to
+> give way to emotion, at saying farewell to
+> her betrothed. And the words acted like a
+> charm.      His    last    words,   after   my    brief
+>                                         "
+> glimpse of him in         Chicago, were   Remem-
+> ber! the message of India           is   always
+>                                                   '
+>                                                       Not
+> the soul for Nature, but Nature for the soul\
+>      When   I   said good-bye to him in Brittany
+> in   September,     1900,    I   was on the eve of
+> returning alone      to   …
+
+*— PAST AND FUTURE IN INDIA*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Hinsdale Unitarian Church
@@ -13091,7 +19050,16 @@ The Hinsdale Unitarian Church, in the western Chicago suburb of Hinsdale, was on
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -13225,6 +19193,125 @@ The Masonic Temple in Chicago, at the time one of the tallest buildings in the w
 *— p. 261*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (6 references):
+
+> to see him daily, until November the 5th, that
+> is to say, six or seven weeks later.    After
+> that date, when our party was broken up,
+> the      Swami paid a few visits in New York
+> and its neighbourhood.     At the end of the
+>
+>                       275
+>                       IN THE WEST
+> month he passed through Chicago, where-
+> I then was, on his way to California.
+>                                       Again
+> I met him in New York in the following
+>
+> June (1900). There for a few weeks, and
+> later in        Paris for a similar length of time,
+> I     saw him frequently      ;
+>                                   and   in   September,
+
+*— PAST AND FUTURE IN INDIA*
+
+> 301
+>           THE SWAMPS MISSION
+> be disputed that the thought-area within
+> Hinduism, as actually realised, had been
+> coloured by the accumulation of a few distinct-
+> ive ideas, and these     were the main subjects
+> of the Swami's Address before the Parlia-
+> ment of Religions, at Chicago, in 1893.
+>     First of these special conceptions,    with
+> which India might be said to be identified,
+> was that of the cyclic character of the cosmos.
+> On the relation of Creator aud created,      as
+>
+> equal elements in a dualism which can never
+> be more than a relative truth, Hinduism had
+> a profound philosophy, which Vivekananda,
+
+*— PAST AND FUTURE IN INDIA*
+
+> "
+> standard for warfare.   Be the heroic Raj-
+> put wife !" he exclaimed in an undertone on
+> one occasion, to a girl who was about to
+> give way to emotion, at saying farewell to
+> her betrothed. And the words acted like a
+> charm.      His    last    words,   after   my    brief
+>                                         "
+> glimpse of him in         Chicago, were   Remem-
+> ber! the message of India           is   always
+>                                                   '
+>                                                       Not
+> the soul for Nature, but Nature for the soul\
+>      When   I   said good-bye to him in Brittany
+> in   September,     1900,    I   was on the eve of
+> returning alone      to   …
+
+*— PAST AND FUTURE IN INDIA*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> Until now, the information we have had regarding the weeks
+> between the midsummer of 1893, when Swami Vivekananda arrived
+> in America, and the opening of the Parliament of Religions in
+> September of the same year, has been scanty and derived largely from
+> one or two letters which he wrote to India. In “The Iafe of Swami
+> Vivekananda” it is told that when he arrived in Chicago in late
+> July to represent Hinduism at the Parliament of Religions he was
+> not only totally unknown in Amcriai and unequipped with any kind
+> of credential, but too late to register as a delegate to the Parliament
+> even if he had credentials. The Parliament of Religions, moreover,
+> was not scheduled to open until September 11.…
+
+*— I*
+
+> chapter, that Swamiji gave the women of the Boston Ramabai Circle
+> a true picture of India and of child widows and that it was a picture
+> which they did not relish.
+>      The first direct mention of Swamiji in the Boston papers is
+> tucked away in the “Personar’ column of the Evening Transcript of
+> August 23, 1893:
+>
+>          Swami Virckananda of India, a Brahmin monk who is
+>     on his way to the parliament of religions to be held at Chicago
+>     in September, is the guest of Miss Kate Sanborn at her
+>     '‘abandoned farm” in Metcalf, Mass.          Last evening he
+>     addressed the inmates of the Sherborn Reformatory for
+>     Women upon the manners, customs and mode of living in his
+>     country.
+>
+>   …
+
+*— II*
+
+> his country’s real needs and real genius, but he stayed only to give,
+>                                   56
+>                       BEFORE THE PARLIAMENT
+>
+> pouring himself out for tlie sake of Americans, for he could not see
+> hunger in any form, spiritual or physical, without filling it.
+>
+>      Among the papers preserved by Mrs. Prince Woods were two
+> letters written by Swamiji from Chicago a month or so after his first
+> visit to Salem. Although these letters pertain to a later period, they
+> belonged nevertheless to Mrs. Kate Tannatt Woods, and as completing
+> the account of Swamiji’s stay at 166 North street they are quoted
+> here:
+>
+>                                        Chicago, 10th October, 1893
+>   …
+
+*— BEFORE THE PARLIAMENT*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### First Universalist Church
@@ -13354,6 +19441,73 @@ The First Universalist Church in Chicago was among the prominent religious insti
 > living, He surely would endow him with…
 
 *— p. 261*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (6 references):
+
+> to see him daily, until November the 5th, that
+> is to say, six or seven weeks later.    After
+> that date, when our party was broken up,
+> the      Swami paid a few visits in New York
+> and its neighbourhood.     At the end of the
+>
+>                       275
+>                       IN THE WEST
+> month he passed through Chicago, where-
+> I then was, on his way to California.
+>                                       Again
+> I met him in New York in the following
+>
+> June (1900). There for a few weeks, and
+> later in        Paris for a similar length of time,
+> I     saw him frequently      ;
+>                                   and   in   September,
+
+*— PAST AND FUTURE IN INDIA*
+
+> 301
+>           THE SWAMPS MISSION
+> be disputed that the thought-area within
+> Hinduism, as actually realised, had been
+> coloured by the accumulation of a few distinct-
+> ive ideas, and these     were the main subjects
+> of the Swami's Address before the Parlia-
+> ment of Religions, at Chicago, in 1893.
+>     First of these special conceptions,    with
+> which India might be said to be identified,
+> was that of the cyclic character of the cosmos.
+> On the relation of Creator aud created,      as
+>
+> equal elements in a dualism which can never
+> be more than a relative truth, Hinduism had
+> a profound philosophy, which Vivekananda,
+
+*— PAST AND FUTURE IN INDIA*
+
+> "
+> standard for warfare.   Be the heroic Raj-
+> put wife !" he exclaimed in an undertone on
+> one occasion, to a girl who was about to
+> give way to emotion, at saying farewell to
+> her betrothed. And the words acted like a
+> charm.      His    last    words,   after   my    brief
+>                                         "
+> glimpse of him in         Chicago, were   Remem-
+> ber! the message of India           is   always
+>                                                   '
+>                                                       Not
+> the soul for Nature, but Nature for the soul\
+>      When   I   said good-bye to him in Brittany
+> in   September,     1900,    I   was on the eve of
+> returning alone      to   …
+
+*— PAST AND FUTURE IN INDIA*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -13487,6 +19641,125 @@ Central Music Hall in Chicago was one of the principal venues where Swami Viveka
 *— p. 261*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (6 references):
+
+> to see him daily, until November the 5th, that
+> is to say, six or seven weeks later.    After
+> that date, when our party was broken up,
+> the      Swami paid a few visits in New York
+> and its neighbourhood.     At the end of the
+>
+>                       275
+>                       IN THE WEST
+> month he passed through Chicago, where-
+> I then was, on his way to California.
+>                                       Again
+> I met him in New York in the following
+>
+> June (1900). There for a few weeks, and
+> later in        Paris for a similar length of time,
+> I     saw him frequently      ;
+>                                   and   in   September,
+
+*— PAST AND FUTURE IN INDIA*
+
+> 301
+>           THE SWAMPS MISSION
+> be disputed that the thought-area within
+> Hinduism, as actually realised, had been
+> coloured by the accumulation of a few distinct-
+> ive ideas, and these     were the main subjects
+> of the Swami's Address before the Parlia-
+> ment of Religions, at Chicago, in 1893.
+>     First of these special conceptions,    with
+> which India might be said to be identified,
+> was that of the cyclic character of the cosmos.
+> On the relation of Creator aud created,      as
+>
+> equal elements in a dualism which can never
+> be more than a relative truth, Hinduism had
+> a profound philosophy, which Vivekananda,
+
+*— PAST AND FUTURE IN INDIA*
+
+> "
+> standard for warfare.   Be the heroic Raj-
+> put wife !" he exclaimed in an undertone on
+> one occasion, to a girl who was about to
+> give way to emotion, at saying farewell to
+> her betrothed. And the words acted like a
+> charm.      His    last    words,   after   my    brief
+>                                         "
+> glimpse of him in         Chicago, were   Remem-
+> ber! the message of India           is   always
+>                                                   '
+>                                                       Not
+> the soul for Nature, but Nature for the soul\
+>      When   I   said good-bye to him in Brittany
+> in   September,     1900,    I   was on the eve of
+> returning alone      to   …
+
+*— PAST AND FUTURE IN INDIA*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> Until now, the information we have had regarding the weeks
+> between the midsummer of 1893, when Swami Vivekananda arrived
+> in America, and the opening of the Parliament of Religions in
+> September of the same year, has been scanty and derived largely from
+> one or two letters which he wrote to India. In “The Iafe of Swami
+> Vivekananda” it is told that when he arrived in Chicago in late
+> July to represent Hinduism at the Parliament of Religions he was
+> not only totally unknown in Amcriai and unequipped with any kind
+> of credential, but too late to register as a delegate to the Parliament
+> even if he had credentials. The Parliament of Religions, moreover,
+> was not scheduled to open until September 11.…
+
+*— I*
+
+> chapter, that Swamiji gave the women of the Boston Ramabai Circle
+> a true picture of India and of child widows and that it was a picture
+> which they did not relish.
+>      The first direct mention of Swamiji in the Boston papers is
+> tucked away in the “Personar’ column of the Evening Transcript of
+> August 23, 1893:
+>
+>          Swami Virckananda of India, a Brahmin monk who is
+>     on his way to the parliament of religions to be held at Chicago
+>     in September, is the guest of Miss Kate Sanborn at her
+>     '‘abandoned farm” in Metcalf, Mass.          Last evening he
+>     addressed the inmates of the Sherborn Reformatory for
+>     Women upon the manners, customs and mode of living in his
+>     country.
+>
+>   …
+
+*— II*
+
+> his country’s real needs and real genius, but he stayed only to give,
+>                                   56
+>                       BEFORE THE PARLIAMENT
+>
+> pouring himself out for tlie sake of Americans, for he could not see
+> hunger in any form, spiritual or physical, without filling it.
+>
+>      Among the papers preserved by Mrs. Prince Woods were two
+> letters written by Swamiji from Chicago a month or so after his first
+> visit to Salem. Although these letters pertain to a later period, they
+> belonged nevertheless to Mrs. Kate Tannatt Woods, and as completing
+> the account of Swamiji’s stay at 166 North street they are quoted
+> here:
+>
+>                                        Chicago, 10th October, 1893
+>   …
+
+*— BEFORE THE PARLIAMENT*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Auditorium Theater
@@ -13618,6 +19891,125 @@ The Auditorium Theatre in Chicago, designed by Adler and Sullivan and one of the
 *— p. 261*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (6 references):
+
+> to see him daily, until November the 5th, that
+> is to say, six or seven weeks later.    After
+> that date, when our party was broken up,
+> the      Swami paid a few visits in New York
+> and its neighbourhood.     At the end of the
+>
+>                       275
+>                       IN THE WEST
+> month he passed through Chicago, where-
+> I then was, on his way to California.
+>                                       Again
+> I met him in New York in the following
+>
+> June (1900). There for a few weeks, and
+> later in        Paris for a similar length of time,
+> I     saw him frequently      ;
+>                                   and   in   September,
+
+*— PAST AND FUTURE IN INDIA*
+
+> 301
+>           THE SWAMPS MISSION
+> be disputed that the thought-area within
+> Hinduism, as actually realised, had been
+> coloured by the accumulation of a few distinct-
+> ive ideas, and these     were the main subjects
+> of the Swami's Address before the Parlia-
+> ment of Religions, at Chicago, in 1893.
+>     First of these special conceptions,    with
+> which India might be said to be identified,
+> was that of the cyclic character of the cosmos.
+> On the relation of Creator aud created,      as
+>
+> equal elements in a dualism which can never
+> be more than a relative truth, Hinduism had
+> a profound philosophy, which Vivekananda,
+
+*— PAST AND FUTURE IN INDIA*
+
+> "
+> standard for warfare.   Be the heroic Raj-
+> put wife !" he exclaimed in an undertone on
+> one occasion, to a girl who was about to
+> give way to emotion, at saying farewell to
+> her betrothed. And the words acted like a
+> charm.      His    last    words,   after   my    brief
+>                                         "
+> glimpse of him in         Chicago, were   Remem-
+> ber! the message of India           is   always
+>                                                   '
+>                                                       Not
+> the soul for Nature, but Nature for the soul\
+>      When   I   said good-bye to him in Brittany
+> in   September,     1900,    I   was on the eve of
+> returning alone      to   …
+
+*— PAST AND FUTURE IN INDIA*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> Until now, the information we have had regarding the weeks
+> between the midsummer of 1893, when Swami Vivekananda arrived
+> in America, and the opening of the Parliament of Religions in
+> September of the same year, has been scanty and derived largely from
+> one or two letters which he wrote to India. In “The Iafe of Swami
+> Vivekananda” it is told that when he arrived in Chicago in late
+> July to represent Hinduism at the Parliament of Religions he was
+> not only totally unknown in Amcriai and unequipped with any kind
+> of credential, but too late to register as a delegate to the Parliament
+> even if he had credentials. The Parliament of Religions, moreover,
+> was not scheduled to open until September 11.…
+
+*— I*
+
+> chapter, that Swamiji gave the women of the Boston Ramabai Circle
+> a true picture of India and of child widows and that it was a picture
+> which they did not relish.
+>      The first direct mention of Swamiji in the Boston papers is
+> tucked away in the “Personar’ column of the Evening Transcript of
+> August 23, 1893:
+>
+>          Swami Virckananda of India, a Brahmin monk who is
+>     on his way to the parliament of religions to be held at Chicago
+>     in September, is the guest of Miss Kate Sanborn at her
+>     '‘abandoned farm” in Metcalf, Mass.          Last evening he
+>     addressed the inmates of the Sherborn Reformatory for
+>     Women upon the manners, customs and mode of living in his
+>     country.
+>
+>   …
+
+*— II*
+
+> his country’s real needs and real genius, but he stayed only to give,
+>                                   56
+>                       BEFORE THE PARLIAMENT
+>
+> pouring himself out for tlie sake of Americans, for he could not see
+> hunger in any form, spiritual or physical, without filling it.
+>
+>      Among the papers preserved by Mrs. Prince Woods were two
+> letters written by Swamiji from Chicago a month or so after his first
+> visit to Salem. Although these letters pertain to a later period, they
+> belonged nevertheless to Mrs. Kate Tannatt Woods, and as completing
+> the account of Swamiji’s stay at 166 North street they are quoted
+> here:
+>
+>                                        Chicago, 10th October, 1893
+>   …
+
+*— BEFORE THE PARLIAMENT*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Cobb Hall
@@ -13743,6 +20135,73 @@ Cobb Hall at the newly founded University of Chicago was one of the venues where
 > living, He surely would endow him with…
 
 *— p. 261*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (6 references):
+
+> to see him daily, until November the 5th, that
+> is to say, six or seven weeks later.    After
+> that date, when our party was broken up,
+> the      Swami paid a few visits in New York
+> and its neighbourhood.     At the end of the
+>
+>                       275
+>                       IN THE WEST
+> month he passed through Chicago, where-
+> I then was, on his way to California.
+>                                       Again
+> I met him in New York in the following
+>
+> June (1900). There for a few weeks, and
+> later in        Paris for a similar length of time,
+> I     saw him frequently      ;
+>                                   and   in   September,
+
+*— PAST AND FUTURE IN INDIA*
+
+> 301
+>           THE SWAMPS MISSION
+> be disputed that the thought-area within
+> Hinduism, as actually realised, had been
+> coloured by the accumulation of a few distinct-
+> ive ideas, and these     were the main subjects
+> of the Swami's Address before the Parlia-
+> ment of Religions, at Chicago, in 1893.
+>     First of these special conceptions,    with
+> which India might be said to be identified,
+> was that of the cyclic character of the cosmos.
+> On the relation of Creator aud created,      as
+>
+> equal elements in a dualism which can never
+> be more than a relative truth, Hinduism had
+> a profound philosophy, which Vivekananda,
+
+*— PAST AND FUTURE IN INDIA*
+
+> "
+> standard for warfare.   Be the heroic Raj-
+> put wife !" he exclaimed in an undertone on
+> one occasion, to a girl who was about to
+> give way to emotion, at saying farewell to
+> her betrothed. And the words acted like a
+> charm.      His    last    words,   after   my    brief
+>                                         "
+> glimpse of him in         Chicago, were   Remem-
+> ber! the message of India           is   always
+>                                                   '
+>                                                       Not
+> the soul for Nature, but Nature for the soul\
+>      When   I   said good-bye to him in Brittany
+> in   September,     1900,    I   was on the eve of
+> returning alone      to   …
+
+*— PAST AND FUTURE IN INDIA*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -13876,6 +20335,73 @@ Dr. Perkins was among the sympathetic Americans who welcomed Swami Vivekananda i
 *— p. 261*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (6 references):
+
+> to see him daily, until November the 5th, that
+> is to say, six or seven weeks later.    After
+> that date, when our party was broken up,
+> the      Swami paid a few visits in New York
+> and its neighbourhood.     At the end of the
+>
+>                       275
+>                       IN THE WEST
+> month he passed through Chicago, where-
+> I then was, on his way to California.
+>                                       Again
+> I met him in New York in the following
+>
+> June (1900). There for a few weeks, and
+> later in        Paris for a similar length of time,
+> I     saw him frequently      ;
+>                                   and   in   September,
+
+*— PAST AND FUTURE IN INDIA*
+
+> 301
+>           THE SWAMPS MISSION
+> be disputed that the thought-area within
+> Hinduism, as actually realised, had been
+> coloured by the accumulation of a few distinct-
+> ive ideas, and these     were the main subjects
+> of the Swami's Address before the Parlia-
+> ment of Religions, at Chicago, in 1893.
+>     First of these special conceptions,    with
+> which India might be said to be identified,
+> was that of the cyclic character of the cosmos.
+> On the relation of Creator aud created,      as
+>
+> equal elements in a dualism which can never
+> be more than a relative truth, Hinduism had
+> a profound philosophy, which Vivekananda,
+
+*— PAST AND FUTURE IN INDIA*
+
+> "
+> standard for warfare.   Be the heroic Raj-
+> put wife !" he exclaimed in an undertone on
+> one occasion, to a girl who was about to
+> give way to emotion, at saying farewell to
+> her betrothed. And the words acted like a
+> charm.      His    last    words,   after   my    brief
+>                                         "
+> glimpse of him in         Chicago, were   Remem-
+> ber! the message of India           is   always
+>                                                   '
+>                                                       Not
+> the soul for Nature, but Nature for the soul\
+>      When   I   said good-bye to him in Brittany
+> in   September,     1900,    I   was on the eve of
+> returning alone      to   …
+
+*— PAST AND FUTURE IN INDIA*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### First Congretational Church
@@ -13954,7 +20480,16 @@ The First Congregational Church in Evanston, Illinois, was one of the venues whe
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -14035,7 +20570,16 @@ During his visits to Evanston, Illinois, Swami Vivekananda was hosted in the pri
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -14085,7 +20629,64 @@ Colonel Ralph Plumb was a civic leader and supporter in Streator, Illinois, who 
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (3 references):
+
+> thought—each to find its fulfillment in his ultimate message.)
+>       In a subsidiary attempt to find a basis for religious unity Swamiji
+> often pointed out the historical relationship between Eastern and
+> Western religions, declaring, for instance, to the indignation of
+> the orthodox, that Buddhism was the foundation of the Christian
+> religion, particularly of the Roman Catholic Church. He also
+> dwelt upon the common cultural heritage of all Indo-European
+> peoples. “By comparing philology,” reads a report of his lecture in
+> Streator on October 8, 1893, “he sought to establish the long admitted
+>                                     587
+>                 SWAMI VIVlKANANDA: NEW DISCOVERIES
+>
+> …
+
+*— DAWN OF THE WORLD MISSION*
+
+> tained the lecturers at her residence Thursday evening, and here the
+> vViYcd Vtclwres were delivered,”
+>
+>      Another evidence of Swamiji’s lecturing outside of Chicago comes
+> from the letter, given in the first chapter, which he wrote to
+>  Mrs. Tannatt Woods on October 10, 1893.        , . Just now,” Swamiji
+> ■wrote, “I am lecturing about Chicago—and am doing very well—it is
+> ranging from 30 to 80 dollars a lecture . . . Yesterday I returned from
+> Streator where I got 87 dollars for a lecture. I have engagements
+> every day this week. . .
+>      Streator is a relatively small city, ninety miles southwest of
+> Chicago. To judge from the announcement which ajipeared in the
+> Streator Daily Free Press of…
+
+*— SVVAMI VIVEKANANDA;       NEW DISCOVERIES*
+
+> Dear Mrs. Tannatt Woods:
+>          I received your letter yesterday. Just now I am lecturing
+>     about Chicago—and am doing as I think very well—it is
+>     ranging from 30 to 80 dollars a lecture and just now I have
+>     been so well advertised in Chicago gratis by the Parliament
+>     of religions that it is not advisable to give up this field now.
+>     To which I am sure you will agree. However I may come
+>     soon to Boston but when I cannot say. Yesterday I returned
+>     from Streator where I got 87 dollars for a lecture. 1 have
+>     engagements every day this week. And hope more will come
+>     by the end of the week. My love to Mr. Woods and
+>     compliments to all our friends.
+>                   …
+
+*— BEFORE THE PARLIAMENT*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -14135,7 +20736,16 @@ The Plumb Opera House in Streator, Illinois was the venue for Swami Vivekananda'
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -14250,6 +20860,15 @@ The First Congregational Church in Madison, Wisconsin was a lecture venue for Sw
 > Master, Shri…
 
 *— p. 394*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -14376,6 +20995,64 @@ The First Unitarian Church of Minneapolis was a lecture venue for Swami Vivekana
 > tration the aggressive and destructive…
 
 *— p. 330*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> crowded to overflowing and hundreds of questions were asked
+>     by auditors and answered by the great Sannyasi with wonder¬
+>     ful skill and lucidity. At the close of the session he was
+>     thronged with eager questioners who begged him to give a
+>     semi-public lecture somewhere on the subject of his religion.
+>     He said that he already had the project under consideration.
+>
+>      On page 200 of the same volume is a report of a lecture delivered
+> on Sunday, September 25, 1893, at the Third Unitarian Church, which
+> may have been the semipublic lecture that Swamiji had been requested
+> to give.
+>      The long hours of listening, of discussing, of lecturing were almost
+> continuous. Moreover, the…
+
+*— THE PARLIAMENT OF RELIGIONS*
+
+> The first definite knowledge we have of the date on which
+> Swainiji left Illinois to widen his field of activity is contained in a
+> letter which he wrote to Mrs. Tannatt Woods on November 11,
+>  1893. This letter was included in the first chapter of this book, and
+> tlic reader will perhaps remember that Swamiji said in it, “I am
+> starting to-morrow for Madison and Minneapolis.” This departure
+> from Chicago marked the beginning of Swamiji’s famous and
+> important lecture tour of the Midwest and South, which lasted until
+> Ai>i'il of 1894. But although the tour is famous and important, I
+> have been able to gather information about Swamiji's lectures in only
+> four cities prior to his visit to Detroit in…
+
+*— I*
+
+> (Letterhead)
+>     George W. Hale,
+>     541 Dearborn Avenue,
+>     Chicago.                                        Nov. 19th 1893
+>
+>     Dear Mrs. Woods—
+>         Excuse my delay in answering your letter. I do not
+>     know when I will be able to see you again. I am starting
+>     tomorrow for Madison and Minneapolis. The English gentle¬
+>     man you speak of is Dr. Momerie of London. He is a well
+>     known worker amongst the fX)or of London and is a very
+>     sweet man. You perhaps do not know that the English
+>     church was the only religious denomination in the world who
+>     did not send to us a representative and Dr. Momerie came to
+>                                   37
+>                   SWAMI…
+
+*— BEFORE THE PARLIAMENT*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -14519,6 +21196,15 @@ The Quincy House Hotel in Boston was among the lodgings used by Swami Vivekanand
 *— p. 327*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Hotel Bellevue
@@ -14658,6 +21344,15 @@ Hotel Bellevue in Boston was one of the hotels where Swami Vivekananda lodged du
 > his illuminating…
 
 *— p. 327*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -14801,6 +21496,15 @@ The Women's Club associated with Julia Ward Howe — poet, reformer and author o
 *— p. 327*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Round Table
@@ -14940,6 +21644,15 @@ The Round Table was an intellectual discussion club in Boston that invited Swami
 > his illuminating…
 
 *— p. 327*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -15088,6 +21801,72 @@ Association Hall in Boston was one of the public lecture venues used by Swami Vi
 *— p. 322*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> *o reconcile it with the fact that the service
+>            THM SWAMI IN LONDON
+> of humanity was always his whole hope ?'
+> Or was he merely     stating an idea,                 and
+> standing aside to give it its full value ?             Or
+> was his word 'society,' again, only a               faulty
+> translation    of    the   curious        Eastern    word
+> Samaj, coloured, as that          is,   with theocratic
+> associations,      and meaning something which
+> includes amongst other things, our idea of the
+> church ?
+>      He touched on the question of his own
+> position, as a      wandering teacher, and ex-
+> pressed      the    Indian diffidence with regard
+> to   religious       organisation,  or,  as…
+
+*— THE SWAMI IN LONDON*
+
+> stands out in my memory against his proper
+> background, of Indian forest, city, and high-
+>
+> way,         an Eastern teacher            in    an   Eastern
+> world.        Even in far a- way London indeed,
+> the   first time I     saw him, the occasion must
+> have stirred in        his mind, as it does in mine,
+>
+> recalling      it   now, a host of associations con-
+> nected with his own sun-steeped land.                      The
+>                THE SWAMIIN LONDON
+> -time was a cold Sunday afternoon in Novem-
+>
+> ber, and the place, it is true, a West-end draw-
+> ing room.   But he was seated, facing a half-
+> circle of listeners, with the fire on the
+> hearth behind            him,   and as he answered
+
+*— XXVI.*
+
+> dined occasionally with people of various
+> classes, both Indian and European, in Cal-
+> cutta.    This fact always caused the            Swami
+> uneasiness.    He feared a revulsion, probably,
+> against the extreme simplicity of orthodox
+> Hindu life. Undoubtedly also he thought a
+> strong reaction possible, in favour of the
+> associations of one's birth. He had seen a
+> great    religious   movement        shattered   in the
+>
+> West, by the petty social ambition of a woman
+> of over-much refinement.     Yet he never in-
+> terfered with   me in this matter, though a
+> single  word of authority would have been
+> enough at any time to have ended it. Nor
+> did he ever show his disapproval.     He took
+
+*— PAST AND FUTURE IN INDIA*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Procopeia Club
@@ -15227,6 +22006,15 @@ The Procopeia Club in Boston was among the private intellectual and social clubs
 > his illuminating…
 
 *— p. 327*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -15370,6 +22158,15 @@ The hall at 56 St Botolph Street in Boston was associated with the series of cla
 *— p. 327*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Twentieth Century Club
@@ -15509,6 +22306,32 @@ The Twentieth Century Club in Boston, a forum for progressive discussion on soci
 > his illuminating…
 
 *— p. 327*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> THE CONFLICT OF IDEALS.
+> whole             converging          and    centring upon a
+> single definite point,                   was thus the Swami's
+> worship of his own land. And the point
+> in which it was focussed was the convic-
+> tion         that       India       was not old and effete,
+> as      her        critics        had supposed, but young,
+> ripe        with        potentiality,           and   standing, at
+> the         beginning             of the        twentieth century,
+> on          the     threshold         of      even greater deve-
+> lopments               than        she     had    known in the
+> past.       Only once, however, do I remem-
+> ber      him to have given specific utterance
+>  …
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -15652,6 +22475,15 @@ Charles Fairchild was one of the devoted Boston supporters of Swami Vivekananda.
 *— p. 327*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Breezy Meadows
@@ -15715,6 +22547,61 @@ Breezy Meadows in Metcalf, Massachusetts was a summer retreat where Swami Viveka
 > saving for some time his expenditure of £1…
 
 *— p. 306*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (7 references):
+
+> Dr. Wright’s insistence and help, it is doubtful that Swamiji would
+> have attended the Parliament.
+>      The little more that has been known regarding the pre-Parliament
+> period of Swamiji’s life has been pieced together from the letter quoted
+> above and dated August 20, 1893. We have known, for instance,
+>                                     15
+>                SVVAMI VIVEKANANDA:      NEW DISCOVERIES
+>
+> that during his stay at “Breezy Meadows” his hostess showed him
+> off as “a curio from India,” that he was gaped at for his “quaint dress,”
+> that he was on this account going to buy Western clothes in Boston,
+> that he was to speak at “a big ladies’ club . . . which is helping
+> Ramabai,” and that he…
+
+*— SVVAMI VIVEKANANDA:      NEW DISCOVERIES*
+
+> even if he had credentials. The Parliament of Religions, moreover,
+> was not scheduled to open until September 11. Thus, even to attend
+> it as a spectator Swamiji had several weeks to wait in a strange land
+> where, as he writes in a letter to India, “The expense ... is awful.”
+> In order to lessen this expense, he left Chicago for Boston where he
+> liad been told the cost of living was lower. “Mysterious,” write his
+> biographers, “are the ways of the Lordl ” ; for it was on the train from
+> Chicago to Boston that Swamiji met “an old lady” who invited him
+> to live at her farm, called “Breezy Meadows,” in Massachusetts. It
+> was through this providential woman, of whom we shall hear more
+> later, that he met…
+
+*— I*
+
+> The Swami Vere Kananda of India, the Brahmin monk
+>     who was in this country for the purpose of attending the
+>     parliament of religions at Chicago next month, arrived in
+>     Boston yesterday, in company with Mr. F. B. Sanborn of
+>     Concord.
+>
+>      Mr. Franklin Benjamin Sanborn was a cousin of K;ite Sanborn
+> and W'as at first openly skeptical of her “Hindu saint.” He nonetheless
+> paid a visit to meet Swamiji at “Breezy Meadows,” where his attitude
+> at once underwent a change. He no doubt took keen delight in
+> Swaraiji’s company, and Swamiji in turn must have welcomed his.
+> He was a well-known journalist, author and philanthropist, extremely
+> active in organizing and promoting works of…
+
+*— BEFORE THE PARLIAMENT*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -15858,6 +22745,15 @@ The Boston Ladies Club was one of the women's clubs in the Boston area that host
 *— p. 327*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Sherborn Reformatory
@@ -15892,6 +22788,15 @@ Swami Vivekananda delivered a talk at the State Industrial School (Reformatory) 
 *— p. 307*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Charlotte Lane Boarding house
@@ -15923,7 +22828,16 @@ The Charlotte Lane Boarding House in Annisquam, the picturesque fishing village 
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -15957,7 +22871,16 @@ The Hyatt House in Annisquam, Massachusetts, was one of the summer residences as
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -16056,6 +22979,15 @@ The Universalist Church in Annisquam, Massachusetts was a venue where Swami Vive
 > he also gave before the same club his lecture on “The Great
 
 *— p. 677*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -16200,6 +23132,15 @@ Mechanics Hall in Boston was one of the large public lecture venues where Swami 
 *— p. 327*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Kate Tannatt Woods's house
@@ -16331,6 +23272,15 @@ Kate Tannatt Woods was an American author and journalist who became a supporter 
 > cal truths underlying religious sects and superstitions.
 
 *— p. 705*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -16466,6 +23416,15 @@ Wesley Church in Salem, Massachusetts was a lecture venue for Swami Vivekananda 
 *— p. 705*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### East Church
@@ -16476,6 +23435,15 @@ Wesley Church in Salem, Massachusetts was a lecture venue for Swami Vivekananda 
 
 
 The East Church in Salem, Massachusetts was among the historic Congregational churches in this ancient New England town that hosted Swami Vivekananda for a lecture during his New England tour. Salem's long tradition of religious inquiry — even if turbulent in its early history — had evolved by Vivekananda's time into a thoughtful openness to comparative religion, and he found receptive audiences here.
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -16509,7 +23477,16 @@ Northampton City Hall in western Massachusetts was a lecture venue for Swami Viv
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -16622,6 +23599,15 @@ Smith College in Northampton, Massachusetts — one of the leading women's colle
 > was to…
 
 *— p. 250*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -16757,6 +23743,15 @@ The Oxford Club lecture hall in Lynn, Massachusetts was a venue where Swami Vive
 *— p. 443*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Rockland Street
@@ -16831,7 +23826,16 @@ Rockland Street in Swampscott, Massachusetts was associated with Swami Vivekanan
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -16912,6 +23916,15 @@ Library Hall in Lawrence, Massachusetts was a lecture venue for Swami Vivekanand
 *— p. 375*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Rogers Hall
@@ -16943,7 +23956,16 @@ Rogers Hall in Melrose, Massachusetts was a lecture venue for Swami Vivekananda 
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -16977,7 +23999,16 @@ Evans Caswell's home in Melrose, Massachusetts was one of the private residences
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -17040,7 +24071,16 @@ The Magnolia Library in Magnolia, Massachusetts — a fashionable summer colony 
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -17074,7 +24114,16 @@ Gray Beach in Magnolia, Massachusetts was associated with Swami Vivekananda's su
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -17129,7 +24178,16 @@ The Davis Opera House in Plymouth, Massachusetts, the historic 'Plymouth Rock' t
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -17270,6 +24328,35 @@ Radcliffe College (now Radcliffe Institute for Advanced Study at Harvard), with 
 *— p. 486*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> The summer of 1898 stands out in my"
+> memory as a series of pictures, painted like
+> old   altar-pieces,   against     a   golden     back-
+> ground of religious ardour and simplicity,
+> and all alike glorified by the presence of one
+> who, to us    in   his   immediate    circle,   formed
+> their central point.      We were a party of four
+> Western women, one of whom was Mrs,
+> Ole Bull of Cambridge, Massachusetts, and
+> another a member of the higher official
+> world of Anglo-Indian Calcutta.      Side by
+> side with us travelled the Swami, surrounded
+>
+> by his brethren (or gurubhais) and disciples.
+> Once arived at Almora, he and his party
+> became the guests of Mr. and Mrs. Sevier,
+> who were then residing there,…
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Sever Hall
@@ -17280,6 +24367,35 @@ Radcliffe College (now Radcliffe Institute for Advanced Study at Harvard), with 
 
 
 Sever Hall at Harvard University was a lecture venue for Swami Vivekananda during his Cambridge period in 1896. Designed by H.H. Richardson, Sever Hall was one of Harvard's principal lecture and classroom buildings. Vivekananda's lectures at Harvard — before one of the world's most distinguished academic audiences — represented a high point in his American mission, as he presented Vedanta as a rigorous philosophical system worthy of the highest intellectual engagement.
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> The summer of 1898 stands out in my"
+> memory as a series of pictures, painted like
+> old   altar-pieces,   against     a   golden     back-
+> ground of religious ardour and simplicity,
+> and all alike glorified by the presence of one
+> who, to us    in   his   immediate    circle,   formed
+> their central point.      We were a party of four
+> Western women, one of whom was Mrs,
+> Ole Bull of Cambridge, Massachusetts, and
+> another a member of the higher official
+> world of Anglo-Indian Calcutta.      Side by
+> side with us travelled the Swami, surrounded
+>
+> by his brethren (or gurubhais) and disciples.
+> Once arived at Almora, he and his party
+> became the guests of Mr. and Mrs. Sevier,
+> who were then residing there,…
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -17420,6 +24536,35 @@ The Cambridge home of Sara Chapman Bull (Mrs. Ole Bull), widow of the Norwegian 
 *— p. 486*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> The summer of 1898 stands out in my"
+> memory as a series of pictures, painted like
+> old   altar-pieces,   against     a   golden     back-
+> ground of religious ardour and simplicity,
+> and all alike glorified by the presence of one
+> who, to us    in   his   immediate    circle,   formed
+> their central point.      We were a party of four
+> Western women, one of whom was Mrs,
+> Ole Bull of Cambridge, Massachusetts, and
+> another a member of the higher official
+> world of Anglo-Indian Calcutta.      Side by
+> side with us travelled the Swami, surrounded
+>
+> by his brethren (or gurubhais) and disciples.
+> Once arived at Almora, he and his party
+> became the guests of Mr. and Mrs. Sevier,
+> who were then residing there,…
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Mrs. Anna Richards House
@@ -17558,6 +24703,35 @@ Mrs. Anna Richards' home in Cambridge, Massachusetts was one of the private resi
 *— p. 486*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> The summer of 1898 stands out in my"
+> memory as a series of pictures, painted like
+> old   altar-pieces,   against     a   golden     back-
+> ground of religious ardour and simplicity,
+> and all alike glorified by the presence of one
+> who, to us    in   his   immediate    circle,   formed
+> their central point.      We were a party of four
+> Western women, one of whom was Mrs,
+> Ole Bull of Cambridge, Massachusetts, and
+> another a member of the higher official
+> world of Anglo-Indian Calcutta.      Side by
+> side with us travelled the Swami, surrounded
+>
+> by his brethren (or gurubhais) and disciples.
+> Once arived at Almora, he and his party
+> became the guests of Mr. and Mrs. Sevier,
+> who were then residing there,…
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Dane Hall
@@ -17685,6 +24859,35 @@ Dane Hall at Harvard University was associated with Swami Vivekananda's lectures
 > interest and utility, that they are of great cthical…
 
 *— p. 486*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> The summer of 1898 stands out in my"
+> memory as a series of pictures, painted like
+> old   altar-pieces,   against     a   golden     back-
+> ground of religious ardour and simplicity,
+> and all alike glorified by the presence of one
+> who, to us    in   his   immediate    circle,   formed
+> their central point.      We were a party of four
+> Western women, one of whom was Mrs,
+> Ole Bull of Cambridge, Massachusetts, and
+> another a member of the higher official
+> world of Anglo-Indian Calcutta.      Side by
+> side with us travelled the Swami, surrounded
+>
+> by his brethren (or gurubhais) and disciples.
+> Once arived at Almora, he and his party
+> became the guests of Mr. and Mrs. Sevier,
+> who were then residing there,…
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -17825,6 +25028,35 @@ Professor John Henry Wright of Harvard University played a pivotal role in Swami
 *— p. 486*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> The summer of 1898 stands out in my"
+> memory as a series of pictures, painted like
+> old   altar-pieces,   against     a   golden     back-
+> ground of religious ardour and simplicity,
+> and all alike glorified by the presence of one
+> who, to us    in   his   immediate    circle,   formed
+> their central point.      We were a party of four
+> Western women, one of whom was Mrs,
+> Ole Bull of Cambridge, Massachusetts, and
+> another a member of the higher official
+> world of Anglo-Indian Calcutta.      Side by
+> side with us travelled the Swami, surrounded
+>
+> by his brethren (or gurubhais) and disciples.
+> Once arived at Almora, he and his party
+> became the guests of Mr. and Mrs. Sevier,
+> who were then residing there,…
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Memorial Hall
@@ -17960,6 +25192,35 @@ Memorial Hall at Harvard University — the great Victorian Gothic building erec
 > interesting nature and of…
 
 *— p. 3*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> The summer of 1898 stands out in my"
+> memory as a series of pictures, painted like
+> old   altar-pieces,   against     a   golden     back-
+> ground of religious ardour and simplicity,
+> and all alike glorified by the presence of one
+> who, to us    in   his   immediate    circle,   formed
+> their central point.      We were a party of four
+> Western women, one of whom was Mrs,
+> Ole Bull of Cambridge, Massachusetts, and
+> another a member of the higher official
+> world of Anglo-Indian Calcutta.      Side by
+> side with us travelled the Swami, surrounded
+>
+> by his brethren (or gurubhais) and disciples.
+> Once arived at Almora, he and his party
+> became the guests of Mr. and Mrs. Sevier,
+> who were then residing there,…
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -18100,6 +25361,35 @@ Holworthy Hall, one of the oldest dormitories at Harvard University, was associa
 *— p. 486*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> The summer of 1898 stands out in my"
+> memory as a series of pictures, painted like
+> old   altar-pieces,   against     a   golden     back-
+> ground of religious ardour and simplicity,
+> and all alike glorified by the presence of one
+> who, to us    in   his   immediate    circle,   formed
+> their central point.      We were a party of four
+> Western women, one of whom was Mrs,
+> Ole Bull of Cambridge, Massachusetts, and
+> another a member of the higher official
+> world of Anglo-Indian Calcutta.      Side by
+> side with us travelled the Swami, surrounded
+>
+> by his brethren (or gurubhais) and disciples.
+> Once arived at Almora, he and his party
+> became the guests of Mr. and Mrs. Sevier,
+> who were then residing there,…
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Prof. James' house
@@ -18236,6 +25526,35 @@ The Cambridge home of Professor William James — the eminent philosopher and ps
 > interest and utility, that they are of great cthical…
 
 *— p. 486*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> The summer of 1898 stands out in my"
+> memory as a series of pictures, painted like
+> old   altar-pieces,   against     a   golden     back-
+> ground of religious ardour and simplicity,
+> and all alike glorified by the presence of one
+> who, to us    in   his   immediate    circle,   formed
+> their central point.      We were a party of four
+> Western women, one of whom was Mrs,
+> Ole Bull of Cambridge, Massachusetts, and
+> another a member of the higher official
+> world of Anglo-Indian Calcutta.      Side by
+> side with us travelled the Swami, surrounded
+>
+> by his brethren (or gurubhais) and disciples.
+> Once arived at Almora, he and his party
+> became the guests of Mr. and Mrs. Sevier,
+> who were then residing there,…
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -18382,6 +25701,35 @@ The Cambridge home of Josephine MacLeod (affectionately called 'Joe Joe' by Vive
 *— p. 486*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> The summer of 1898 stands out in my"
+> memory as a series of pictures, painted like
+> old   altar-pieces,   against     a   golden     back-
+> ground of religious ardour and simplicity,
+> and all alike glorified by the presence of one
+> who, to us    in   his   immediate    circle,   formed
+> their central point.      We were a party of four
+> Western women, one of whom was Mrs,
+> Ole Bull of Cambridge, Massachusetts, and
+> another a member of the higher official
+> world of Anglo-Indian Calcutta.      Side by
+> side with us travelled the Swami, surrounded
+>
+> by his brethren (or gurubhais) and disciples.
+> Once arived at Almora, he and his party
+> became the guests of Mr. and Mrs. Sevier,
+> who were then residing there,…
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Grand Army Hall
@@ -18397,7 +25745,16 @@ The Grand Army Hall in Medford, Massachusetts — named after the Grand Army of 
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -18415,7 +25772,16 @@ Mrs. Emily Ruth Gibson's home in Medford, Massachusetts was one of the private r
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -18457,7 +25823,64 @@ Swami Vivekananda visited a sanatorium in Saratoga Springs, the famous spa and r
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (7 references):
+
+> He was a well-known journalist, author and philanthropist, extremely
+> active in organizing and promoting works of benevolence. He served
+> as secretary of the Massachusetts Board of Charities—the first of its
+> kind in America—and helped in founding many charitable institu¬
+> tions. He also founded the Concord Summer School of Philosophy
+> and wrote biographies of his friends, Alcott, Emerson, Thoreau,
+> Hawthorne and others. As will be seen later, Mr. Sanborn invited
+> Stvamiji to speak at a convention of the American Social Science
+> Association in Saratoga Springs, New York—the fashionable resort of
+> the era.
+>      But prior to going to Saratoga Springs, Swamiji passed a busy
+> week and a half in…
+
+*— BEFORE THE PARLIAMENT*
+
+> of American life. He had spoken to the Ramabai Club; he had
+>                                  44
+>                       BEFORE THE PARLIAMENT
+>
+> met members of the clergy, the inmates of a prison, the American
+> club woman, and had even talked with the children. He could not
+> have had a better preparation for all that was to come.
+>      Swamiji’s last talk before the opening of the Parliament of
+> Religions was given in Saratoga on the evening of September 6. In
+> the Saratogian there was an advertisement entitled “Half Rate to
+> the World’s Fair,’’ which told of “The excellent Chicago train service
+> on the Delaware and Hudson Railroad.’’ There was a train which
+> left Albany at 4: 30 p.m. and arrived in…
+
+*— BEFORE THE PARLIAMENT*
+
+> The learned Monk from India who is spending a few
+>     days in this city, will speak in the East Church Sunday evening
+>     at 7-30. Swami (Rev.) Viva Kananda preached in the Epis¬
+>     copal church at Annisquam last Sunday evening, by invita¬
+>     tion of the pastor and Professor Wright of Harvard, who has
+>     shown him great kindness.
+>          On Monday night he leaves for Saratoga, where he will
+>     address the Social Science association. Later on he will speak
+>     before the Congress in Chicago. Like all men who are
+>     educated in the higher Universities of India, Viva Kananda
+>                                    35
+>                SWAMl VIVEKANANDA:     NEW DISCOVERIES
+>
+>     speaks English…
+
+*— TO SPEAK AGAIN*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -18584,6 +26007,15 @@ The Town Hall in Saratoga Springs, New York was a lecture venue for Swami Viveka
 *— p. 233*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Fishkill Landing - Beacon
@@ -18683,6 +26115,74 @@ Fishkill Landing (renamed Beacon in 1913) is a town on the eastern shore of the 
 *— p. 134*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (7 references):
+
+> much gained.
+>    Under the domination of these ideas, then,
+> it appeared self-evident to all of us, in that
+>
+> wonderful summer of 1898, that far beyond
+> any of the Saviours-made-visible, were those
+>
+>                        143
+>      FLASHES FROM THE BEACON FIRE.
+>
+>  greater souls who had entered into the Im-
+>  personal and the Unmanifested, never to re-
+> turn. "It is a sin even to think of the body,"
+>
+> the    Swami would say, now and again; or,
+>  "It is wrong to manifest power !"     And even
+> in thecompassion of a Buddha there was
+
+*— THE SWAMI IN LONDON*
+
+> who realises most deeply the freedom of the
+> disciple.   But devotion to the uttermost there
+> must be. And dry-rot, it is believed, invades
+> that spiritual life which seeks to base its
+>
+> message on itself.
+>    We had at this time, it will be remember-
+>                         141
+>   FLASHES FROM THE BEACON-FIRE.
+> ed, become part of a society in which solitude
+> was regarded as the greatest medium of self-
+> development. Nothing, said the Swami, bet-
+> ter illustrated to his own mind, the difference
+> between Eastern and Western methods of
+> thought, than the European idea that a man
+> could not live alone for twenty years, and re-
+> main quite sane, taken side by side with the
+
+*— THE SWAMI IN LONDON*
+
+> worshipped, and the other Amarnath, a moun-
+> tain-cave in which there is an ice-emblem of
+> Siva. And the        most notable events of our
+> summer were his pilgrimages to these two
+> shrines. But we also were ambitious. We
+> desired to be taught to meditate,            in system-
+> atic fashion, and         begged   to   be   allowed to
+>      FLASHES FROM THE BEACON FIRE.
+> make a retreat in some lonely place, where
+> we might keep hours of silence, and make
+> our attempts    under definite direction.      For
+> this season, tents were brought, and we camp-
+>
+> ed for a week on the edge of a       forest,    at
+> a place called Achhabal, in the beginning of
+> September. The pilgrimage to Amarnath had
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Dr. Guernsey's home
@@ -18730,7 +26230,16 @@ Dr. Guernsey was one of Swami Vivekananda's early New York supporters who hosted
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -18764,7 +26273,64 @@ Dr. Guernsey was one of Swami Vivekananda's early New York supporters who hosted
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> she told it to a sympathetic friend long before she wrote lier memoirs.
+> It is to Mme. Paul Verdier, of Paris and San Francisco, that 'we are
+> indebted for this earlier and more complete version, for it was site
+> to whom Calve confided the following story and who shortly alter
+> hearing it jotted it down.
+>       Apparently it was in March of 1891, when Emma Cahe was
+> visiting Chicago with the Metropolitan Opera Company, that she first
+> met Swamiji. She was at the peak of her career, having recently had a
+> tremendous success in Europe and New York with her dramatic inter¬
+> pretation of the role of Carmen. The w^orld w^as at her feet; she w^is
+> entertained, as are most celebrities, by the cream of…
+
+*— IN AND AROUND CHICAGO*
+
+> ment, eager in his efforts to learn of those things that might
+>     be beneficial to his people, earnest in his desire to recognize
+>     the religions of all peoj)le as related to each other, and all
+>     sincere efforts in behalf of virtue and holiness, but at the
+>     same time he defended the Hindoo religion and philosophy
+>     with an eloquence and power that not only won admira¬
+>     tion for himself but consideration for his own teachings.
+>
+>     To a request of the New York World of October 1, 1893, for
+> “a sentiment or expression regarding the significance of the great
+> meeting” from each representative, Swamiji replied with a quotation
+> from the Gita and one from Vyasa:
+>
+>          “I am He…
+
+*— THE PARLIAMENT OF RELIGIONS*
+
+> relate to a time subsequent to the one dealt with in this present
+> chapter, I will include them here as not only giving a new glimpse
+> of Swamiji but also as shedding some light on his hostess to whom
+> they were addressed—letters being often as revealing of their recipient
+> as of their author.
+>                                                       May, [1895]
+>     Dear Mrs. Woods:
+>
+>          Vivckananda is [at] 54 W. 33rd street.
+>          I know it is Consecration to give out—I was born
+>     knowing that truth, but I think it is a great blot on the
+>     Consecration when we tell of it—and I am always ashamed
+>     after I have told of my own good deeds. Vivckananda says
+>     he meets many people who…
+
+*— BEFORE THE PARLIAMENT*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -18832,7 +26398,62 @@ The original Waldorf Hotel on Fifth Avenue (later part of the Waldorf-Astoria) w
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> she told it to a sympathetic friend long before she wrote lier memoirs.
+> It is to Mme. Paul Verdier, of Paris and San Francisco, that 'we are
+> indebted for this earlier and more complete version, for it was site
+> to whom Calve confided the following story and who shortly alter
+> hearing it jotted it down.
+>       Apparently it was in March of 1891, when Emma Cahe was
+> visiting Chicago with the Metropolitan Opera Company, that she first
+> met Swamiji. She was at the peak of her career, having recently had a
+> tremendous success in Europe and New York with her dramatic inter¬
+> pretation of the role of Carmen. The w^orld w^as at her feet; she w^is
+> entertained, as are most celebrities, by the cream of…
+
+*— IN AND AROUND CHICAGO*
+
+> ment, eager in his efforts to learn of those things that might
+>     be beneficial to his people, earnest in his desire to recognize
+>     the religions of all peoj)le as related to each other, and all
+>     sincere efforts in behalf of virtue and holiness, but at the
+>     same time he defended the Hindoo religion and philosophy
+>     with an eloquence and power that not only won admira¬
+>     tion for himself but consideration for his own teachings.
+>
+>     To a request of the New York World of October 1, 1893, for
+> “a sentiment or expression regarding the significance of the great
+> meeting” from each representative, Swamiji replied with a quotation
+> from the Gita and one from Vyasa:
+>
+>          “I am He…
+
+*— THE PARLIAMENT OF RELIGIONS*
+
+> He was a well-known journalist, author and philanthropist, extremely
+> active in organizing and promoting works of benevolence. He served
+> as secretary of the Massachusetts Board of Charities—the first of its
+> kind in America—and helped in founding many charitable institu¬
+> tions. He also founded the Concord Summer School of Philosophy
+> and wrote biographies of his friends, Alcott, Emerson, Thoreau,
+> Hawthorne and others. As will be seen later, Mr. Sanborn invited
+> Stvamiji to speak at a convention of the American Social Science
+> Association in Saratoga Springs, New York—the fashionable resort of
+> the era.
+>      But prior to going to Saratoga Springs, Swamiji passed a busy
+> week and a half in…
+
+*— BEFORE THE PARLIAMENT*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -18866,7 +26487,16 @@ Mary Phillips was one of the devoted New York supporters of Swami Vivekananda wh
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -18900,7 +26530,16 @@ This pin marks a New York City location associated with Swami Vivekananda's time
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -18934,7 +26573,16 @@ Leon Landsberg (Swami Kripananda) was one of Swami Vivekananda's first American 
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -18984,7 +26632,16 @@ Emma Cecilia Thursby was one of America's most celebrated soprano singers of the
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -19018,7 +26675,16 @@ The Corbin mansion in New York City was one of the elegant residences associated
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -19052,7 +26718,16 @@ The home of Lorenzo Barbers in New York City was one of the private residences w
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -19086,7 +26761,16 @@ The Hall of Universal Brotherhood in New York City was a lecture venue associate
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -19120,7 +26804,16 @@ The Exodus Club in New York City was one of the private clubs and societies wher
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -19154,7 +26847,62 @@ Swami Vivekananda delivered public lectures at Mott Memorial Hall in New York Ci
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> she told it to a sympathetic friend long before she wrote lier memoirs.
+> It is to Mme. Paul Verdier, of Paris and San Francisco, that 'we are
+> indebted for this earlier and more complete version, for it was site
+> to whom Calve confided the following story and who shortly alter
+> hearing it jotted it down.
+>       Apparently it was in March of 1891, when Emma Cahe was
+> visiting Chicago with the Metropolitan Opera Company, that she first
+> met Swamiji. She was at the peak of her career, having recently had a
+> tremendous success in Europe and New York with her dramatic inter¬
+> pretation of the role of Carmen. The w^orld w^as at her feet; she w^is
+> entertained, as are most celebrities, by the cream of…
+
+*— IN AND AROUND CHICAGO*
+
+> ment, eager in his efforts to learn of those things that might
+>     be beneficial to his people, earnest in his desire to recognize
+>     the religions of all peoj)le as related to each other, and all
+>     sincere efforts in behalf of virtue and holiness, but at the
+>     same time he defended the Hindoo religion and philosophy
+>     with an eloquence and power that not only won admira¬
+>     tion for himself but consideration for his own teachings.
+>
+>     To a request of the New York World of October 1, 1893, for
+> “a sentiment or expression regarding the significance of the great
+> meeting” from each representative, Swamiji replied with a quotation
+> from the Gita and one from Vyasa:
+>
+>          “I am He…
+
+*— THE PARLIAMENT OF RELIGIONS*
+
+> He was a well-known journalist, author and philanthropist, extremely
+> active in organizing and promoting works of benevolence. He served
+> as secretary of the Massachusetts Board of Charities—the first of its
+> kind in America—and helped in founding many charitable institu¬
+> tions. He also founded the Concord Summer School of Philosophy
+> and wrote biographies of his friends, Alcott, Emerson, Thoreau,
+> Hawthorne and others. As will be seen later, Mr. Sanborn invited
+> Stvamiji to speak at a convention of the American Social Science
+> Association in Saratoga Springs, New York—the fashionable resort of
+> the era.
+>      But prior to going to Saratoga Springs, Swamiji passed a busy
+> week and a half in…
+
+*— BEFORE THE PARLIAMENT*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -19188,7 +26936,16 @@ Swami Vivekananda delivered public lectures at Mott Memorial Hall in New York Ci
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -19222,7 +26979,62 @@ Hardman Hall in New York City was among the prominent venues where Swami Vivekan
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> she told it to a sympathetic friend long before she wrote lier memoirs.
+> It is to Mme. Paul Verdier, of Paris and San Francisco, that 'we are
+> indebted for this earlier and more complete version, for it was site
+> to whom Calve confided the following story and who shortly alter
+> hearing it jotted it down.
+>       Apparently it was in March of 1891, when Emma Cahe was
+> visiting Chicago with the Metropolitan Opera Company, that she first
+> met Swamiji. She was at the peak of her career, having recently had a
+> tremendous success in Europe and New York with her dramatic inter¬
+> pretation of the role of Carmen. The w^orld w^as at her feet; she w^is
+> entertained, as are most celebrities, by the cream of…
+
+*— IN AND AROUND CHICAGO*
+
+> ment, eager in his efforts to learn of those things that might
+>     be beneficial to his people, earnest in his desire to recognize
+>     the religions of all peoj)le as related to each other, and all
+>     sincere efforts in behalf of virtue and holiness, but at the
+>     same time he defended the Hindoo religion and philosophy
+>     with an eloquence and power that not only won admira¬
+>     tion for himself but consideration for his own teachings.
+>
+>     To a request of the New York World of October 1, 1893, for
+> “a sentiment or expression regarding the significance of the great
+> meeting” from each representative, Swamiji replied with a quotation
+> from the Gita and one from Vyasa:
+>
+>          “I am He…
+
+*— THE PARLIAMENT OF RELIGIONS*
+
+> He was a well-known journalist, author and philanthropist, extremely
+> active in organizing and promoting works of benevolence. He served
+> as secretary of the Massachusetts Board of Charities—the first of its
+> kind in America—and helped in founding many charitable institu¬
+> tions. He also founded the Concord Summer School of Philosophy
+> and wrote biographies of his friends, Alcott, Emerson, Thoreau,
+> Hawthorne and others. As will be seen later, Mr. Sanborn invited
+> Stvamiji to speak at a convention of the American Social Science
+> Association in Saratoga Springs, New York—the fashionable resort of
+> the era.
+>      But prior to going to Saratoga Springs, Swamiji passed a busy
+> week and a half in…
+
+*— BEFORE THE PARLIAMENT*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -19256,7 +27068,62 @@ Swami Vivekananda spoke at the Madison Square Garden Concert Hall in New York Ci
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> she told it to a sympathetic friend long before she wrote lier memoirs.
+> It is to Mme. Paul Verdier, of Paris and San Francisco, that 'we are
+> indebted for this earlier and more complete version, for it was site
+> to whom Calve confided the following story and who shortly alter
+> hearing it jotted it down.
+>       Apparently it was in March of 1891, when Emma Cahe was
+> visiting Chicago with the Metropolitan Opera Company, that she first
+> met Swamiji. She was at the peak of her career, having recently had a
+> tremendous success in Europe and New York with her dramatic inter¬
+> pretation of the role of Carmen. The w^orld w^as at her feet; she w^is
+> entertained, as are most celebrities, by the cream of…
+
+*— IN AND AROUND CHICAGO*
+
+> ment, eager in his efforts to learn of those things that might
+>     be beneficial to his people, earnest in his desire to recognize
+>     the religions of all peoj)le as related to each other, and all
+>     sincere efforts in behalf of virtue and holiness, but at the
+>     same time he defended the Hindoo religion and philosophy
+>     with an eloquence and power that not only won admira¬
+>     tion for himself but consideration for his own teachings.
+>
+>     To a request of the New York World of October 1, 1893, for
+> “a sentiment or expression regarding the significance of the great
+> meeting” from each representative, Swamiji replied with a quotation
+> from the Gita and one from Vyasa:
+>
+>          “I am He…
+
+*— THE PARLIAMENT OF RELIGIONS*
+
+> He was a well-known journalist, author and philanthropist, extremely
+> active in organizing and promoting works of benevolence. He served
+> as secretary of the Massachusetts Board of Charities—the first of its
+> kind in America—and helped in founding many charitable institu¬
+> tions. He also founded the Concord Summer School of Philosophy
+> and wrote biographies of his friends, Alcott, Emerson, Thoreau,
+> Hawthorne and others. As will be seen later, Mr. Sanborn invited
+> Stvamiji to speak at a convention of the American Social Science
+> Association in Saratoga Springs, New York—the fashionable resort of
+> the era.
+>      But prior to going to Saratoga Springs, Swamiji passed a busy
+> week and a half in…
+
+*— BEFORE THE PARLIAMENT*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -19384,6 +27251,115 @@ The Ramakrishna-Vivekananda Center of New York traces its spiritual lineage dire
 > teach freely, while living independently in a place of his…
 
 *— p. 348*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (5 references):
+
+> dently expected, to show him where his next
+> effort was to lie. A month later, I became
+> a guest  in the same house, and continued
+>
+> to see him daily, until November the 5th, that
+> is to say, six or seven weeks later.    After
+> that date, when our party was broken up,
+> the      Swami paid a few visits in New York
+> and its neighbourhood.     At the end of the
+>
+>                       275
+>                       IN THE WEST
+> month he passed through Chicago, where-
+> I then was, on his way to California.
+>                                       Again
+> I met him in New York in the following
+
+*— PAST AND FUTURE IN INDIA*
+
+> and          common-place
+>                      perceptions   of   the
+> senses,    ever
+>               for
+>                 finding expression,  in the
+> hard and narrow issues of conduct ? Well
+> might the            Swami     exclaim,       as   he did    in
+>
+> the     course of       a New York lecture,              almost
+> with a groan,           "Man, the           infinite   dreamer,
+> dreaming finite dreams !"
+>
+>                                455
+>                  ABOUT DEATH
+>     By his scorn of such, by his own pas-
+> sionate longing to wander off, silent and
+
+*— MONASTICISM AND MARRIAGE*
+
+> In answer to * question :            The artist is the wit-
+> ness   who        testifies of   the beautiful.           Art   is   the
+> most unselfish form of happiness in the world.
+>       APPENDIX C, TO CHAPTER XVL
+>  NOTES OF LECTURES DKLIVERED AT THE VEDANTA SOCIETY,
+>         NEW YORK SUNDAY AFTERNOONS JUNE, 1900.
+>                       ;
+>
+> THE UNITY.
+>       The different       sectarian   systems of India    alt
+
+*— THE END*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> ment, eager in his efforts to learn of those things that might
+>     be beneficial to his people, earnest in his desire to recognize
+>     the religions of all peoj)le as related to each other, and all
+>     sincere efforts in behalf of virtue and holiness, but at the
+>     same time he defended the Hindoo religion and philosophy
+>     with an eloquence and power that not only won admira¬
+>     tion for himself but consideration for his own teachings.
+>
+>     To a request of the New York World of October 1, 1893, for
+> “a sentiment or expression regarding the significance of the great
+> meeting” from each representative, Swamiji replied with a quotation
+> from the Gita and one from Vyasa:
+>
+>          “I am He…
+
+*— THE PARLIAMENT OF RELIGIONS*
+
+> more about it. 'Fhe steps leading to this discovery arc perhaps of
+> interest.
+>
+>                                  Ill
+>
+>       In the spring of 1950, an advertisement in a magazine devoted to
+> antiques was brought to the notice of a student of Vedanta,       rirc
+> advertisement, placed by a Mrs. Prince Woods, offered for sale a
+> trunk and a walking stick which had belonged to Srvami Vivekananda.
+> Naturally enough, these articles were sent for, and a request was
+> made for further information regarding them. A correspondence
+> ensued between the Vedanta student and Mrs. Woods, in the course
+> of which the following facts came to light.
+>       In August, 1893, Swamiji had been invited by Mrs. Kate…
+
+*— BEFORE THE PARLIAMENT*
+
+> He was a well-known journalist, author and philanthropist, extremely
+> active in organizing and promoting works of benevolence. He served
+> as secretary of the Massachusetts Board of Charities—the first of its
+> kind in America—and helped in founding many charitable institu¬
+> tions. He also founded the Concord Summer School of Philosophy
+> and wrote biographies of his friends, Alcott, Emerson, Thoreau,
+> Hawthorne and others. As will be seen later, Mr. Sanborn invited
+> Stvamiji to speak at a convention of the American Social Science
+> Association in Saratoga Springs, New York—the fashionable resort of
+> the era.
+>      But prior to going to Saratoga Springs, Swamiji passed a busy
+> week and a half in…
+
+*— BEFORE THE PARLIAMENT*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -19532,6 +27508,33 @@ The home of Charles Higgins in Brooklyn was one of the residences where Swami Vi
 *— p. 348*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> personal,      and    are     made to apprehend
+> its   bearing, on     the    fate of our own  be-
+> loved dead.
+>       "I had a premonition," he writes fronv
+>
+>                             470
+>                     A LETTER.
+>
+> Brooklyn, to his bereaved friend, in January
+> 1895,  "f your father's giving up the old
+> body, and it is not my custom to write to
+>
+> any  one when   a wave of would-be inhar-
+> monious maya       strikes him.        But these are
+> the great turning-points in        life, and I know
+
+*— MONASTICISM AND MARRIAGE*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Pouch Mansion
@@ -19676,6 +27679,33 @@ Pouch Mansion was a notable venue in the New York area associated with events du
 > the thread…
 
 *— p. 348*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> personal,      and    are     made to apprehend
+> its   bearing, on     the    fate of our own  be-
+> loved dead.
+>       "I had a premonition," he writes fronv
+>
+>                             470
+>                     A LETTER.
+>
+> Brooklyn, to his bereaved friend, in January
+> 1895,  "f your father's giving up the old
+> body, and it is not my custom to write to
+>
+> any  one when   a wave of would-be inhar-
+> monious maya       strikes him.        But these are
+> the great turning-points in        life, and I know
+
+*— MONASTICISM AND MARRIAGE*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -19824,6 +27854,33 @@ The home of Charles Auel in Brooklyn was one of the residences where Swami Vivek
 *— p. 348*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> personal,      and    are     made to apprehend
+> its   bearing, on     the    fate of our own  be-
+> loved dead.
+>       "I had a premonition," he writes fronv
+>
+>                             470
+>                     A LETTER.
+>
+> Brooklyn, to his bereaved friend, in January
+> 1895,  "f your father's giving up the old
+> body, and it is not my custom to write to
+>
+> any  one when   a wave of would-be inhar-
+> monious maya       strikes him.        But these are
+> the great turning-points in        life, and I know
+
+*— MONASTICISM AND MARRIAGE*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### The Long Island Historical Society
@@ -19968,6 +28025,33 @@ The Long Island Historical Society (now the Brooklyn Historical Society) in Broo
 > the thread…
 
 *— p. 348*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> personal,      and    are     made to apprehend
+> its   bearing, on     the    fate of our own  be-
+> loved dead.
+>       "I had a premonition," he writes fronv
+>
+>                             470
+>                     A LETTER.
+>
+> Brooklyn, to his bereaved friend, in January
+> 1895,  "f your father's giving up the old
+> body, and it is not my custom to write to
+>
+> any  one when   a wave of would-be inhar-
+> monious maya       strikes him.        But these are
+> the great turning-points in        life, and I know
+
+*— MONASTICISM AND MARRIAGE*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -20116,6 +28200,33 @@ Robertson Hall in Brooklyn was a venue where Swami Vivekananda spoke or conducte
 *— p. 348*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> personal,      and    are     made to apprehend
+> its   bearing, on     the    fate of our own  be-
+> loved dead.
+>       "I had a premonition," he writes fronv
+>
+>                             470
+>                     A LETTER.
+>
+> Brooklyn, to his bereaved friend, in January
+> 1895,  "f your father's giving up the old
+> body, and it is not my custom to write to
+>
+> any  one when   a wave of would-be inhar-
+> monious maya       strikes him.        But these are
+> the great turning-points in        life, and I know
+
+*— MONASTICISM AND MARRIAGE*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Sarah Ellen Waldo's house
@@ -20243,6 +28354,66 @@ Sarah Ellen Waldo was an early American devotee and supporter of Swami Vivekanan
 *— p. 348*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (5 references):
+
+> dently expected, to show him where his next
+> effort was to lie. A month later, I became
+> a guest  in the same house, and continued
+>
+> to see him daily, until November the 5th, that
+> is to say, six or seven weeks later.    After
+> that date, when our party was broken up,
+> the      Swami paid a few visits in New York
+> and its neighbourhood.     At the end of the
+>
+>                       275
+>                       IN THE WEST
+> month he passed through Chicago, where-
+> I then was, on his way to California.
+>                                       Again
+> I met him in New York in the following
+
+*— PAST AND FUTURE IN INDIA*
+
+> and          common-place
+>                      perceptions   of   the
+> senses,    ever
+>               for
+>                 finding expression,  in the
+> hard and narrow issues of conduct ? Well
+> might the            Swami     exclaim,       as   he did    in
+>
+> the     course of       a New York lecture,              almost
+> with a groan,           "Man, the           infinite   dreamer,
+> dreaming finite dreams !"
+>
+>                                455
+>                  ABOUT DEATH
+>     By his scorn of such, by his own pas-
+> sionate longing to wander off, silent and
+
+*— MONASTICISM AND MARRIAGE*
+
+> In answer to * question :            The artist is the wit-
+> ness   who        testifies of   the beautiful.           Art   is   the
+> most unselfish form of happiness in the world.
+>       APPENDIX C, TO CHAPTER XVL
+>  NOTES OF LECTURES DKLIVERED AT THE VEDANTA SOCIETY,
+>         NEW YORK SUNDAY AFTERNOONS JUNE, 1900.
+>                       ;
+>
+> THE UNITY.
+>       The different       sectarian   systems of India    alt
+
+*— THE END*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Ridgely Manor
@@ -20342,6 +28513,15 @@ Ridgely Manor in Stone Ridge, New York, was the country estate where Swami Vivek
 *— p. 674*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Lyndhurst
@@ -20357,7 +28537,16 @@ Lyndhurst, the historic Gothic Revival estate in Irvington along the Hudson Rive
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -20446,6 +28635,15 @@ Swami Vivekananda delivered lectures at the Central Church of Christ in Des Moin
 *— p. 327*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Rev. Breeden's home
@@ -20530,6 +28728,15 @@ The home of Reverend Breeden in Des Moines, Iowa, was one of the residences wher
 > and other…
 
 *— p. 327*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -20618,6 +28825,15 @@ The Savery Hotel in Des Moines, Iowa, was where Swami Vivekananda stayed during 
 *— p. 327*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Drake University
@@ -20702,6 +28918,15 @@ Swami Vivekananda lectured at Drake University in Des Moines, Iowa, during his f
 > and other…
 
 *— p. 327*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -20795,6 +29020,15 @@ La Salette Academy in Memphis, Tennessee, was one of the venues where Swami Vive
 *— p. 327*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### The Tennessee Club
@@ -20886,6 +29120,15 @@ The Tennessee Club in Memphis, a prestigious social institution, was among the v
 *— p. 327*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Randolph Building
@@ -20975,6 +29218,15 @@ The Randolph Building in Memphis, Tennessee, was a venue associated with Swami V
 > this…
 
 *— p. 327*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -21071,6 +29323,15 @@ The Auditorium in Memphis, Tennessee, was one of the major public venues where S
 *— p. 327*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### The Woman's Council
@@ -21162,6 +29423,15 @@ The Woman's Council of Memphis, Tennessee, hosted Swami Vivekananda during his 1
 *— p. 327*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Young Men's Hebrew Association Hall
@@ -21251,6 +29521,15 @@ The Young Men's Hebrew Association Hall in Memphis, Tennessee, was one of the di
 > this…
 
 *— p. 327*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -21387,6 +29666,15 @@ The residence of Mrs. Bagley in Detroit, Michigan, was among the homes where Swa
 *— p. 327*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Detroit club
@@ -21519,6 +29807,15 @@ The Detroit Club, one of the city's premier social institutions, hosted Swami Vi
 > this…
 
 *— p. 327*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -21655,6 +29952,15 @@ Swami Vivekananda delivered lectures at the First Congregational Unitarian Churc
 *— p. 327*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### T W Palmer House
@@ -21787,6 +30093,15 @@ The home of Senator Thomas W. Palmer in Detroit was one of the distinguished res
 > this…
 
 *— p. 327*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -21923,6 +30238,15 @@ The Richelieu Hotel in Detroit, Michigan, served as Swami Vivekananda's base dur
 *— p. 327*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Temple Beth El
@@ -22055,6 +30379,15 @@ Swami Vivekananda lectured at Temple Beth El in Detroit, Michigan, in 1894. His 
 > this…
 
 *— p. 327*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -22191,6 +30524,15 @@ The Detroit Opera House was among the grandest venues where Swami Vivekananda de
 *— p. 327*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Detroit Auditorium
@@ -22325,6 +30667,15 @@ The Detroit Auditorium hosted Swami Vivekananda's public lectures during his vis
 *— p. 327*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Bay City Opera House
@@ -22356,7 +30707,16 @@ Swami Vivekananda lectured at the Bay City Opera House in Bay City, Michigan, du
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -22421,7 +30781,16 @@ The Academy of Music in Saginaw, Michigan, was the venue where Swami Vivekananda
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -22439,7 +30808,16 @@ Swami Vivekananda spoke at the Ada Opera House in Ada, Ohio, during his first We
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -22580,6 +30958,15 @@ The Memorial Opera House in Valparaiso, Indiana, hosted Swami Vivekananda during
 *— p. 649*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Greenacre Inn Conference
@@ -22627,7 +31014,58 @@ The Greenacre Inn Conference in Eliot, Maine, was an important venue of spiritua
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> of Greenacre had kicked over the traces of a narrow, stereotyped
+>  religion and were directing all their energies toward evolving a new
+>  pattern of faith. They were earnest, vital and unafraid. Among them,
+>  moreover, were thinkers, scholars atid people who, in one way or
+> another, were awake to the need of a spiritual renascence and who
+> were earnestly struggling to bring it into being. Nowhere else could
+> Swamiji have found in one place a group more receptive to his ideas
+> and more ready to benefit from his influence. These circumstances,
+> together with the fact that Greenacre offered to Swamiji the wide,
+> unpaved vistas of open country and days in which his mind was free
+> to plunge into profound…
+
+*— SWAMI VIVEKANANDA; NEW DISCOVERIES*
+
+> attainments as well as with his message that he invited him at once to
+> give a series of lectures on the Hindu Religion before the Brooklyn
+> Ethical Association.” (Actually, Janes invited Swamiji to give one
+> lecture, which led to a series, which, in turn, as will be seen further
+> on, was to have fateful consequences.)
+>      Swamiji thought highly of the work carried on at Greenacre. In
+>  1895 he wrote to Mrs. Bull, who had offered to contribute to his Indian
+> fund: “I sincerely believe that you ought to turn all your help to Miss
+> Farmer’s Greenacre work this year. India can wait as she is waiting
+> centuries and an immediate work at hand should always have the pref¬
+> erence.” In Miss Farmer’s…
+
+*— THE EASTERN TOUR—II*
+
+> Nevertheless Swamiji did visit Swampscott in July. Whether he
+> had a change of heart regarding the “very rich lady,” or whether he
+> received another invitation from someone else in Swampscott, we do
+> not know. We only know at present that on July 26 he wrote from
+> Swampscott to the Hale sisters a light-hearted, almost ecstatic letter,
+> which would indicate that his spirits were soaring. From this letter,
+> one also learns a little more of his activities. "... I am going to
+> Greenacre,” he wrote. “I had been to see Mrs. Breed. Mrs. Stone
+> was there, with whom is residing Mrs. Pullman and all the golden
+> bugs, my old friends hereabouts. They are kind as usual. On
+> my way back from Greenacre I am going…
+
+*— THE EASTERN TOUR—H*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -22677,7 +31115,16 @@ Lysekloster Pines in Eliot, Maine, was part of the Greenacre retreat grounds whe
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -22809,6 +31256,15 @@ The residence of the Vrooman brothers in Baltimore, Maryland, was among the home
 *— p. 343*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Hotel Rennert
@@ -22936,6 +31392,15 @@ The Hotel Rennert in Baltimore, Maryland, was one of the finest hotels in the ci
 > the strain was so great that he felt as if he had…
 
 *— p. 343*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -23082,6 +31547,15 @@ The Lyceum Theater in Baltimore, Maryland, was a venue where Swami Vivekananda d
 *— p. 327*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Geo Grafflin's House
@@ -23209,6 +31683,15 @@ The home of George Grafflin in Baltimore, Maryland, was among the private reside
 > the strain was so great that he felt as if he had…
 
 *— p. 343*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -23340,6 +31823,15 @@ Harris' Academy of Music Concert Hall in Baltimore, Maryland, was one of the pre
 *— p. 343*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Typographical Temple(People's Church)
@@ -23355,7 +31847,16 @@ Swami Vivekananda lectured at the Typographical Temple, also known as the People
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -23373,7 +31874,16 @@ The residence of Mrs. E. Totten in Washington D.C. was one of the distinguished 
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -23391,7 +31901,16 @@ Metzerott Music Hall in Washington D.C. was one of the premier public venues whe
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -23404,6 +31923,64 @@ Metzerott Music Hall in Washington D.C. was one of the premier public venues whe
 
 
 Unity Hall in Hartford, Connecticut, was the venue where Swami Vivekananda lectured during his visit to the city in 1895. Hartford's progressive intellectual culture made it a receptive host for his talks on Vedanta, and Unity Hall provided a fitting setting for his message of the unity underlying all religious traditions.
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (3 references):
+
+> December 6.
+>     During Swamiji’s last year in the West he accomplished an
+> incredible amount of work.   The first three months—December, 1895,
+> January and February, 1896—were spent in New York City, where he
+> held classes twice daily, wrote his books “Karma Yoga,” “Bhakti Yoga,”
+> and “Raja Yoga,” gave innumerable interviews and, in January and
+> February, delivered two series of free Sunday lectures, some of which
+> are included in “Jnana Yoga.”     In addition he lectured twice at
+> Hartford, Connecticut, and once at the Brooklyn Ethical Association.
+> Moreover, through correspondence, he continued to guide his work in
+> India, which included now the direction of the Brahmavadin, the
+> magazine his…
+
+*— EPILOGUE*
+
+> denied the general reports that Furkey was an uncivilized
+>      country.
+>           The platform was next occupied by Vive Kananda, a
+>      Monk of Madras, Hindoostan, who preached throughout India.
+>      He is interested in social science and is an intelligent and
+>      interesting speaker. He spoke on Mohammedan rule in India.
+>           The program for today embraces some very interesting
+>      topics, especially the paper on “Bimetallism,” by Col.
+>      Jacob Greene of Hartford. Vive Kananda will again speak,
+>      this time on the Use of Silver in India.
+>
+>                            LOCAL GOSSIP
+>           Swami Vive Kananda, an educated Hindoo who lately
+>      arrived in this country from India,…
+
+*— EVXNINC SESSION*
+
+> 'The Program for Today.
+>
+>          The second day’s session of the American Social Science
+>     association opened auspiciously yesterday morning, there being
+>     a large gathering.
+>          The addresses and papers all pertained to finance which,
+>     especially at this time, proved very interesting. . . . Col.
+>     Jacob L. Greene of Hartford, read a paper on “Bimetallism,”
+>     treating the subject in a tcry exhaustive manner. A paper
+>     by Dr. Charles B. Spahr of New York followed on the status
+>     of silver which was attentively listened to. A paper by
+>     President E. Benjamin Andrews of Brown University on “The
+>     Monetary experiment in India,” was a masterpiece for thought
+>     and…
+
+*— MONEY WAS THE SUBJECT*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -23519,6 +32096,29 @@ White Birch Lodge in Percy, New Hampshire, was a retreat destination in the scen
 *— p. 380*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (1 references):
+
+> women to carry on his work—a plan which resulted in the most
+> spiritually fruitful days of his American mission. One of his students,
+> a Miss Butcher, offered him a small house she owned on Thousand
+>  Island Park, an island in the St. Lawrence River, for his own use
+> and that of as many students as it would accommodate. Swamiji
+> accepted, agreeing to join at Thousand Island Park any students who
+> were earnest enough to travel the three hundred miles from New York.
+>       In the meantime he accepted an invitation from his friend and
+> disciple, Mr. Francis Leggett, to visit the latter's fishing camp at Percy,
+>  New Hampshire. Here for ten days he was free to wander alone in
+>  the birch woods and by the…
+
+*— I*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### E.T.Sturdy's house
@@ -23592,7 +32192,72 @@ The house of E. T. Sturdy in Caversham, near Reading, was one of Swami Vivekanan
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (3 references):
+
+> THE SWAMI VIVEKANANDA IN
+>         LONDON 1896.
+>    The       Swami   returned   to
+>                                  London, in
+> April   of   the year following, and taught
+> continuously,   at  the house where he was
+>
+> living  with  his  good friend, Mr. E. T.
+> Sturdy,  in  S.   George's Road, and again,
+>         summer holidays, in a large class-
+> after the
+> room near Victoria Street. During July,
+> August, and September, he travelled in
+> France, Germany and Switzerland, with his
+> friends, Mr. and Mrs. Sevier, and Miss
+> H. F.    Muller.     In    December, he   left   for
+
+*— THE SWAMI IN LONDON*
+
+> them, saying, "Swami! these were made for
+> worship, for they will bear no fruits!" But he
+> looked at her, smiling, and she could not
+> break the spell, to offer them.
+>    And    so he went.      We       all,   servants and
+>
+> boat-people, friends and disciples, parents and
+> children, accompanied him to the tonga on
+> the roadside, to say goodbye.    One sturdy
+> little figure, the four-year-old daughter of
+> his chief boatman, whose devotion to him
+> we had long noted, trotted determinedly at
+> his side, with a tray of fruit       for    his journey
+> on her black head, and stood, smiling fare-
+> well, as he drove away.  And we, not less
+> deeply   touched    than this        little   child,   but
+> infinitely less…
+
+*— KSHIR BHOWANI*
+
+> pot that hung from the roof by a few cords.
+> But the place was spotlessly           clean,   washed
+>
+>                           194
+>              BY THE GANGES-SIDE
+> constantly       Ganges-water of her own
+>                   by
+> sturdy carrying.   And in a niche near her
+> hand lay an old copy of the Ramayana, and
+> her great horn spectacles, and the little white
+> bag containing her beads. On those beads,
+> Gopaler-Ma had become a saint! Hour
+> after hour, day after day, for how many years,
+> had she sat, day and night, absorbed in them          !
+
+*— KSHIR BHOWANI*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -23716,6 +32381,69 @@ Prince Hall in London was one of the venues where Swami Vivekananda delivered pu
 > learning and scholarship…
 
 *— p. 228*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> until    I    came    to   India,      in the    early days of
+> 1898.    For as the fruit of this want of ex-
+> perience I have it, that at each step of his-
+> self-revelation as a personality, my Master
+> stands out in my memory against his proper
+> background, of Indian forest, city, and high-
+>
+> way,         an Eastern teacher            in    an   Eastern
+> world.        Even in far a- way London indeed,
+> the   first time I     saw him, the occasion must
+> have stirred in        his mind, as it does in mine,
+>
+> recalling      it   now, a host of associations con-
+> nected with his own sun-steeped land.                      The
+>                THE SWAMIIN LONDON
+> -time was a cold Sunday afternoon in Novem-
+
+*— XXVI.*
+
+> generalisations   of   a Hindu mind of   the
+>
+> highest order.
+>    The Swami remained in America until
+> August of the year 1895, when he came to
+> -Europe for the first time. In September he
+> found his way to England, and a month or
+> so later, he began teaching in London.
+>                                   I.
+>
+>                       IN    LONDON, 1895.
+>       It is strange to remember,                and yet it was
+> surely my good fortune, that though I heard
+> the teachings of my Master, the Swami
+
+*— XXVI.*
+
+> prove that the maintenance of society is an
+> object in itself."
+>     At the time,      I        understood him to     mean
+> 'humanity' by 'society,' and to be preaching
+> the ultimate    futility       of the world, and there-
+> fore of the    work done to aid it.             Was this
+> his   meaning   ?     In       that   case,   how   is   one
+> *o reconcile it with the fact that the service
+>            THM SWAMI IN LONDON
+> of humanity was always his whole hope ?'
+> Or was he merely     stating an idea,                 and
+> standing aside to give it its full value ?             Or
+> was his word 'society,' again, only a               faulty
+> translation    of    the   curious        Eastern    word
+> Samaj,…
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -23852,6 +32580,69 @@ Prince Hall in London was one of the venues where Swami Vivekananda delivered pu
 *— p. 383*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> until    I    came    to   India,      in the    early days of
+> 1898.    For as the fruit of this want of ex-
+> perience I have it, that at each step of his-
+> self-revelation as a personality, my Master
+> stands out in my memory against his proper
+> background, of Indian forest, city, and high-
+>
+> way,         an Eastern teacher            in    an   Eastern
+> world.        Even in far a- way London indeed,
+> the   first time I     saw him, the occasion must
+> have stirred in        his mind, as it does in mine,
+>
+> recalling      it   now, a host of associations con-
+> nected with his own sun-steeped land.                      The
+>                THE SWAMIIN LONDON
+> -time was a cold Sunday afternoon in Novem-
+
+*— XXVI.*
+
+> generalisations   of   a Hindu mind of   the
+>
+> highest order.
+>    The Swami remained in America until
+> August of the year 1895, when he came to
+> -Europe for the first time. In September he
+> found his way to England, and a month or
+> so later, he began teaching in London.
+>                                   I.
+>
+>                       IN    LONDON, 1895.
+>       It is strange to remember,                and yet it was
+> surely my good fortune, that though I heard
+> the teachings of my Master, the Swami
+
+*— XXVI.*
+
+> prove that the maintenance of society is an
+> object in itself."
+>     At the time,      I        understood him to     mean
+> 'humanity' by 'society,' and to be preaching
+> the ultimate    futility       of the world, and there-
+> fore of the    work done to aid it.             Was this
+> his   meaning   ?     In       that   case,   how   is   one
+> *o reconcile it with the fact that the service
+>            THM SWAMI IN LONDON
+> of humanity was always his whole hope ?'
+> Or was he merely     stating an idea,                 and
+> standing aside to give it its full value ?             Or
+> was his word 'society,' again, only a               faulty
+> translation    of    the   curious        Eastern    word
+> Samaj,…
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### 63 St George's Rd
@@ -23984,6 +32775,69 @@ Prince Hall in London was one of the venues where Swami Vivekananda delivered pu
 > please tell them to send me a cook and money…
 
 *— p. 383*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> until    I    came    to   India,      in the    early days of
+> 1898.    For as the fruit of this want of ex-
+> perience I have it, that at each step of his-
+> self-revelation as a personality, my Master
+> stands out in my memory against his proper
+> background, of Indian forest, city, and high-
+>
+> way,         an Eastern teacher            in    an   Eastern
+> world.        Even in far a- way London indeed,
+> the   first time I     saw him, the occasion must
+> have stirred in        his mind, as it does in mine,
+>
+> recalling      it   now, a host of associations con-
+> nected with his own sun-steeped land.                      The
+>                THE SWAMIIN LONDON
+> -time was a cold Sunday afternoon in Novem-
+
+*— XXVI.*
+
+> generalisations   of   a Hindu mind of   the
+>
+> highest order.
+>    The Swami remained in America until
+> August of the year 1895, when he came to
+> -Europe for the first time. In September he
+> found his way to England, and a month or
+> so later, he began teaching in London.
+>                                   I.
+>
+>                       IN    LONDON, 1895.
+>       It is strange to remember,                and yet it was
+> surely my good fortune, that though I heard
+> the teachings of my Master, the Swami
+
+*— XXVI.*
+
+> prove that the maintenance of society is an
+> object in itself."
+>     At the time,      I        understood him to     mean
+> 'humanity' by 'society,' and to be preaching
+> the ultimate    futility       of the world, and there-
+> fore of the    work done to aid it.             Was this
+> his   meaning   ?     In       that   case,   how   is   one
+> *o reconcile it with the fact that the service
+>            THM SWAMI IN LONDON
+> of humanity was always his whole hope ?'
+> Or was he merely     stating an idea,                 and
+> standing aside to give it its full value ?             Or
+> was his word 'society,' again, only a               faulty
+> translation    of    the   curious        Eastern    word
+> Samaj,…
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -24120,6 +32974,69 @@ Prince Hall in London was one of the venues where Swami Vivekananda delivered pu
 *— p. 383*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> until    I    came    to   India,      in the    early days of
+> 1898.    For as the fruit of this want of ex-
+> perience I have it, that at each step of his-
+> self-revelation as a personality, my Master
+> stands out in my memory against his proper
+> background, of Indian forest, city, and high-
+>
+> way,         an Eastern teacher            in    an   Eastern
+> world.        Even in far a- way London indeed,
+> the   first time I     saw him, the occasion must
+> have stirred in        his mind, as it does in mine,
+>
+> recalling      it   now, a host of associations con-
+> nected with his own sun-steeped land.                      The
+>                THE SWAMIIN LONDON
+> -time was a cold Sunday afternoon in Novem-
+
+*— XXVI.*
+
+> generalisations   of   a Hindu mind of   the
+>
+> highest order.
+>    The Swami remained in America until
+> August of the year 1895, when he came to
+> -Europe for the first time. In September he
+> found his way to England, and a month or
+> so later, he began teaching in London.
+>                                   I.
+>
+>                       IN    LONDON, 1895.
+>       It is strange to remember,                and yet it was
+> surely my good fortune, that though I heard
+> the teachings of my Master, the Swami
+
+*— XXVI.*
+
+> prove that the maintenance of society is an
+> object in itself."
+>     At the time,      I        understood him to     mean
+> 'humanity' by 'society,' and to be preaching
+> the ultimate    futility       of the world, and there-
+> fore of the    work done to aid it.             Was this
+> his   meaning   ?     In       that   case,   how   is   one
+> *o reconcile it with the fact that the service
+>            THM SWAMI IN LONDON
+> of humanity was always his whole hope ?'
+> Or was he merely     stating an idea,                 and
+> standing aside to give it its full value ?             Or
+> was his word 'society,' again, only a               faulty
+> translation    of    the   curious        Eastern    word
+> Samaj,…
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### 14 Grey Coat Gardens
@@ -24254,6 +33171,69 @@ Prince Hall in London was one of the venues where Swami Vivekananda delivered pu
 *— p. 383*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> until    I    came    to   India,      in the    early days of
+> 1898.    For as the fruit of this want of ex-
+> perience I have it, that at each step of his-
+> self-revelation as a personality, my Master
+> stands out in my memory against his proper
+> background, of Indian forest, city, and high-
+>
+> way,         an Eastern teacher            in    an   Eastern
+> world.        Even in far a- way London indeed,
+> the   first time I     saw him, the occasion must
+> have stirred in        his mind, as it does in mine,
+>
+> recalling      it   now, a host of associations con-
+> nected with his own sun-steeped land.                      The
+>                THE SWAMIIN LONDON
+> -time was a cold Sunday afternoon in Novem-
+
+*— XXVI.*
+
+> generalisations   of   a Hindu mind of   the
+>
+> highest order.
+>    The Swami remained in America until
+> August of the year 1895, when he came to
+> -Europe for the first time. In September he
+> found his way to England, and a month or
+> so later, he began teaching in London.
+>                                   I.
+>
+>                       IN    LONDON, 1895.
+>       It is strange to remember,                and yet it was
+> surely my good fortune, that though I heard
+> the teachings of my Master, the Swami
+
+*— XXVI.*
+
+> prove that the maintenance of society is an
+> object in itself."
+>     At the time,      I        understood him to     mean
+> 'humanity' by 'society,' and to be preaching
+> the ultimate    futility       of the world, and there-
+> fore of the    work done to aid it.             Was this
+> his   meaning   ?     In       that   case,   how   is   one
+> *o reconcile it with the fact that the service
+>            THM SWAMI IN LONDON
+> of humanity was always his whole hope ?'
+> Or was he merely     stating an idea,                 and
+> standing aside to give it its full value ?             Or
+> was his word 'society,' again, only a               faulty
+> translation    of    the   curious        Eastern    word
+> Samaj,…
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Unitarian Church
@@ -24384,6 +33364,69 @@ Swami Vivekananda lectured at a Unitarian Church in London during his 1895-1896 
 > please tell them to send me a cook and money…
 
 *— p. 383*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> until    I    came    to   India,      in the    early days of
+> 1898.    For as the fruit of this want of ex-
+> perience I have it, that at each step of his-
+> self-revelation as a personality, my Master
+> stands out in my memory against his proper
+> background, of Indian forest, city, and high-
+>
+> way,         an Eastern teacher            in    an   Eastern
+> world.        Even in far a- way London indeed,
+> the   first time I     saw him, the occasion must
+> have stirred in        his mind, as it does in mine,
+>
+> recalling      it   now, a host of associations con-
+> nected with his own sun-steeped land.                      The
+>                THE SWAMIIN LONDON
+> -time was a cold Sunday afternoon in Novem-
+
+*— XXVI.*
+
+> generalisations   of   a Hindu mind of   the
+>
+> highest order.
+>    The Swami remained in America until
+> August of the year 1895, when he came to
+> -Europe for the first time. In September he
+> found his way to England, and a month or
+> so later, he began teaching in London.
+>                                   I.
+>
+>                       IN    LONDON, 1895.
+>       It is strange to remember,                and yet it was
+> surely my good fortune, that though I heard
+> the teachings of my Master, the Swami
+
+*— XXVI.*
+
+> prove that the maintenance of society is an
+> object in itself."
+>     At the time,      I        understood him to     mean
+> 'humanity' by 'society,' and to be preaching
+> the ultimate    futility       of the world, and there-
+> fore of the    work done to aid it.             Was this
+> his   meaning   ?     In       that   case,   how   is   one
+> *o reconcile it with the fact that the service
+>            THM SWAMI IN LONDON
+> of humanity was always his whole hope ?'
+> Or was he merely     stating an idea,                 and
+> standing aside to give it its full value ?             Or
+> was his word 'society,' again, only a               faulty
+> translation    of    the   curious        Eastern    word
+> Samaj,…
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -24520,6 +33563,69 @@ The Sesame Club in London was among the intellectual and social clubs where Swam
 *— p. 383*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> until    I    came    to   India,      in the    early days of
+> 1898.    For as the fruit of this want of ex-
+> perience I have it, that at each step of his-
+> self-revelation as a personality, my Master
+> stands out in my memory against his proper
+> background, of Indian forest, city, and high-
+>
+> way,         an Eastern teacher            in    an   Eastern
+> world.        Even in far a- way London indeed,
+> the   first time I     saw him, the occasion must
+> have stirred in        his mind, as it does in mine,
+>
+> recalling      it   now, a host of associations con-
+> nected with his own sun-steeped land.                      The
+>                THE SWAMIIN LONDON
+> -time was a cold Sunday afternoon in Novem-
+
+*— XXVI.*
+
+> generalisations   of   a Hindu mind of   the
+>
+> highest order.
+>    The Swami remained in America until
+> August of the year 1895, when he came to
+> -Europe for the first time. In September he
+> found his way to England, and a month or
+> so later, he began teaching in London.
+>                                   I.
+>
+>                       IN    LONDON, 1895.
+>       It is strange to remember,                and yet it was
+> surely my good fortune, that though I heard
+> the teachings of my Master, the Swami
+
+*— XXVI.*
+
+> prove that the maintenance of society is an
+> object in itself."
+>     At the time,      I        understood him to     mean
+> 'humanity' by 'society,' and to be preaching
+> the ultimate    futility       of the world, and there-
+> fore of the    work done to aid it.             Was this
+> his   meaning   ?     In       that   case,   how   is   one
+> *o reconcile it with the fact that the service
+>            THM SWAMI IN LONDON
+> of humanity was always his whole hope ?'
+> Or was he merely     stating an idea,                 and
+> standing aside to give it its full value ?             Or
+> was his word 'society,' again, only a               faulty
+> translation    of    the   curious        Eastern    word
+> Samaj,…
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Townhall
@@ -24551,7 +33657,16 @@ The Town Hall in Maidenhead, Berkshire, was a venue where Swami Vivekananda lect
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -24585,7 +33700,16 @@ Pinkneys Green, a picturesque village near Maidenhead in Berkshire, is associate
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -24710,6 +33834,33 @@ Airlie Lodge in Wimbledon, south-west London, was a residence where Swami Viveka
 *— p. 440*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> 274
+>                      XVI
+>       GLIMPSES IN THE WEST.
+>    On July the 3ist, we arrived in London,
+> and the voyage that to myself had been
+> so memorable, was over.       The Swami
+> spent a few weeks in Wimbledon, but at
+> this time of the year, not many of his
+> friendswere in town, and before long he
+> acceded to the invitations which were cons-
+> tantly reaching him, and went on to America,
+> there to wait, in a beautiful country-home on
+> the Hudson, for the leading that he confi-
+>
+> dently expected, to show him where his next
+
+*— PAST AND FUTURE IN INDIA*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### 35 Woodside
@@ -24830,6 +33981,33 @@ Airlie Lodge in Wimbledon, south-west London, was a residence where Swami Viveka
 *— p. 440*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> 274
+>                      XVI
+>       GLIMPSES IN THE WEST.
+>    On July the 3ist, we arrived in London,
+> and the voyage that to myself had been
+> so memorable, was over.       The Swami
+> spent a few weeks in Wimbledon, but at
+> this time of the year, not many of his
+> friendswere in town, and before long he
+> acceded to the invitations which were cons-
+> tantly reaching him, and went on to America,
+> there to wait, in a beautiful country-home on
+> the Hudson, for the leading that he confi-
+>
+> dently expected, to show him where his next
+
+*— PAST AND FUTURE IN INDIA*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Matale, Sri Lanka
@@ -24845,7 +34023,16 @@ Matale in central Sri Lanka was one of the towns where Swami Vivekananda was rec
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -24930,6 +34117,15 @@ Anuradhapura (Anuradhapuram), the ancient capital of Sri Lanka with its magnific
 > successive nights, sleep was lost. On the way, however, a wel-
 
 *— p. 469*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -25065,6 +34261,87 @@ Swami Vivekananda visited Dhaka (then called Dacca), the principal city of East 
 *— p. 493*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> there, and had insisted on giving entertain-
+> ment without price to the party of stangers,
+> one of whom came from India. So true it was,
+> that to the oriental, untouched by modern
+>
+> secularity, all travellers were pilgrims, and
+> all   pilgrims guests.
+>        In the winter that followed,    he paid a
+> visit    to    Dacca, in East Bengal, and took a
+> large party up the Brahmaputra, to make
+> certain pilgrimages in Assam. How rapidly
+> his health was failing at this time, only those
+>
+> immediately around him knew.           None    of
+> us who were away, had any              suspicion.
+> He spent the summer of 1901 at Bellur,
+> 'hoping to hear again the sound of the
+
+*— MONASTICISM AND MARRIAGE*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (4 references):
+
+> Belur Math: 26-1-1901 - 1 went to see Mrs.
+> Sevier in Mayavati. On my way, I learned of the sudden
+> death of the Raja of Khetri. It appears he was restoring
+> some old architectural monument at Agra, at his own
+> expense, and was up some tower on inspection. Part of
+> the tower came down, and he was instantly killed.
+>
+> Dacca: 29-3-1901 - My mother, aunt and cousin
+> came over five days ago to Dacca, as there was a great
+> sacred bath in the Brahmaputra river. Whenever a
+> particular conjunction of planets takes place, which is
+> very rare, a huge concourse of people gather on the river
+> at a particular spot. This year, there has been more than
+> a hundred thousand people; for miles the river was cover-
+> ed with…
+
+*— p. 326*
+
+> of fish and meat. Whatever they do, they do with great
+> persistence. They use a good deal of oil and fat in their
+> food, which is not good, because taking too much oily and
+> fatty good produces fat in the body.
+>
+> About religious ideas, I noticed the people are very
+> conservative, and many have turned into fanatics in try-
+> ing to be liberal in religion. One day, a young man brou-
+> ght to me inthe house of Mohinin1 Babu at Dacca a
+> photograph and said, ‘‘Sir, please tell me who he is. Is
+> he an Avatara?” Itold him gently many times that I
+> knew nothing of it, when even on my telling him three
+> or four times, the boy did not cease from his persistent
+> questioning, I was constrained to say at last, “My…
+
+*— p. 327*
+
+> wife fed me with many delicacies prepared with her own
+> hand. The house is charming, like a peace retreat.
+> There I took a swimming bath ina village pond. After
+> that, I had such a sound sleep that I woke at half past
+> two in the afternoon. Of the few days, I had sound sleep
+> in my life, that in Nag Mahashaya’s house was one.
+> Rising from sleep, I had a plentiful repast. Nag Maha-
+> shaya’s wife presented mea cloth which I tied round my
+> head as a turban and started for Dacca. I found that the
+> photograph of Nag Mahashaya was being worshipped
+> there. The place where his remains lie interred ought to
+> be well kept. Even now itis not as it should be.
+>
+> Even while living the life of a householder,…
+
+*— p. 328*
+
+
 ---
 
 ### Cologne, Germany
@@ -25097,6 +34374,15 @@ Swami Vivekananda passed through Cologne, Germany, during his European travels i
 > intending not only to visit Berlin, but Dresden as well. The
 
 *— p. 437*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -25178,6 +34464,33 @@ Swami Vivekananda visited Berlin, the capital of the German Empire, during his E
 > style. Berlin with its wide streets, fine…
 
 *— p. 437*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (1 references):
+
+> thinking it might be needed, and whenever opportunity
+> occurred I used to drink a few drops of it. And every
+> time I drank, in the midst of the stream of humanity,
+> amid that bustle of civilisation, that hurry of frenzied
+> footsteps of millions of men and women in the West, the
+> mind at once became calm and still,as it were. That
+> stream of men, that intense activity of the West, that
+> clash and competition at every step, those seats of luxury
+> and celestial opulence—Paris, London, New York, Berlin,
+> Rome—all would disappear and I used to hear that
+> wonderful sound of “Hara, Hara,”
+>
+> 26-8-96 -I have been doing a great deal of mountain-
+> climbing and glacier-crossing in the Alps. Now I am
+> going to…
+
+*— p. 239*
 
 
 ---
@@ -25317,6 +34630,15 @@ Swami Vivekananda visited Kiel on the Baltic coast of Germany during his Europea
 *— p. 438*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Arabian Sea
@@ -25343,7 +34665,16 @@ Swami Vivekananda crossed the Arabian Sea on his historic voyage to America in 1
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -25482,6 +34813,15 @@ The port of Aden in present-day Yemen was a key stop on Swami Vivekananda's sea 
 > “It was one of those scorching summer noons in the United Provinces,
 
 *— p. 267*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -25638,6 +34978,166 @@ Permanent headquarters of the Ramakrishna Math and Mission, established by Vivek
 *— p. 514*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (4 references):
+
+> The Swami lived commonly at the mo-
+> nastery,   five or    six    miles out of Calcutta,
+> and on the opposite bank of the river. But,
+> on his frequent visits to town, he would
+> almost always send for me to join him, either
+> at the noon or     evening meal, and to those
+> who showed me kindness, he would always
+> make a special effort to offer hospitality at
+> Belur.
+>      Even his smallest        actions often        had a
+> meaning    that was not evident to a           new eye.
+> I               when he came to me one
+>     did not dream,
+>
+> day and asked me to cook for him a certain
+> invalid    dish,   that     there      was   any   special
+
+*— KSHIR BHOWANI*
+
+> 83
+>        THE ORDER OF RAMAKRISHNA.
+> after seeing them in their own country, to be
+> the greatest achievement of the English, he
+> answered,       'that   they had       known how      to
+> combine obedience with self-respect'.
+>     But    it   was not the Swami alone whom
+> we saw      at Belur.   We were accounted by
+> the monastery as a whole, as its guests.              So
+> back and forth would            toil    the
+>                                hospitable
+> monks, on errands of kindness and service
+> for us.    They milked the cow that gave us-
+> our supply, and when the servant whose
+>
+> duty it was at nightfall to carry the milk,
+
+*— THE SWAMI IN LONDON*
+
+> THE ORDER OF RAMA
+>                        KRISHNA
+>       It was amongst the lawns and trees of
+> the    Ganges-side that I came to know, in
+> a personal sense, the leader to whose work
+> my life was already given. At the time of
+> my landing in India (January 28th.          1898),
+> the ground and building         had just been pur-
+> chased     at     Belur,   which were afterwards
+> to be transformed into the Calcutta Monastery
+> of the Order of Ramakrishna.          A few
+> weeks later still, a party of friends arrived
+> from America, and with characteristic in-
+> trepidity took possession of the half-ruined
+> cottage,     to   make     it
+>                              simply but pleasantly
+> habitable.        It  …
+
+*— THE SWAMI IN LONDON*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> letters of introduction, he probably visited Boston. But be that as it
+>  may, it is certain that on April 14 he lectured at Northampton,
+>  Massachusetts, and on April 15 at Smith College, which is located in
+>  that city.
+>       We need not rely upon the newspapers alone for information
+>  regarding his visit to this quiet college town. As readers may remember,
+>  Martha Brown Fincke, one of the Smith College girls who came in
+>  contact with Swamiji, wrote her reminiscences forty-two years later at
+>  the request of the Swamis at Belur Math—^reminiscences which were
+>  published in Prabuddha Bharata of September, 1936, under the title
+>  “My Memories of Swami Vivekananda.” Although Mrs. Fincke’s
+>  memory…
+
+*— S55*
+
+> from the shrine he quoted his own poem “Kali, the Mother” and
+> said: “It all came true, every word of it; and I have proved it, for I
+> have hugged the Form of Death! ”
+>       The impact of the spiritual experiences through which Swamiji
+> had passed left his body shattered ; yet his work continued. Returning
+> to Calcutta in October he took up as strenuously as ever his task of
+> guiding the activities of his brother monks and disciples. In December
+> he installed the sacred relics of Sri Ramakrishna in the new Math
+> (Monastery) at Belur—where, earlier in the year, he had purchased
+> fifteen acres on the Ganga. A month later the monastery was moved
+> to these permanent headquarters and thenceforth became…
+
+*— EPILOGUE*
+
+> friends and helpers. Slie was also, it can be said, his disciple, for
+> though she often declared that she was only his friend, in her own
+> reminiscences she speaks of some instruction she had received from
+> him and of an experience slic had as a result of following it. Surely
+> receiving spiritual instruction from Sw^aniiji was enough to make her
+> a disciple. But however that may be, in 1899 Miss MacLeod, who
+> W'as affectionately knowm as “Tantine,” followed Sw^amiji to India,
+> where she joined him wdth a group of Anuaican and English disciples.
+> Loving India, she often stayed in her later life at the Belur Math,
+> where the upper floor of a guest house w^as kept in readiness for her.
+> Her…
+
+*— SWA MI VIVEKANANDA: NEW DISCOVERIES*
+
+
+**From *Vivekananda on Himself* (1959)** (8 references):
+
+> Vivekananda
+> Temple
+>
+> The Shri Ramakrishna
+> Temple at the
+> Belur Monastery
+>
+> Vv
+
+*— p. 279*
+
+> meals ready, till at last he would come and drag us
+> from our meditation by sheer force. Oh, what a wonder-
+> ful constancy of devotion we noticed in him!
+>
+> What was collected by begging and such other means,
+> was utilised for defraying the Math expenses.
+> Today, both Suresh Babu and Balaram Babu are no more.
+> Had they been alive, they would have been exceedingly
+> glad to see this Math (at Belur). Suresh Babu was ina
+> way the founder of this Math. It was he who used to
+> bear all the expenses of the Barangore Math. It was
+> Suresh Mitra who used to worry most for us in those
+> days. His devotion and faith have no parallel!
+>
+> Owing to want of funds, I would sometimes fight for
+> closing the Math altogether.…
+
+*— p. 98*
+
+> through which a murmuring stream flows, to have medi-
+> tation deep and long under the deodars (trees of God)
+> cross-legged a la Buddha.
+>
+> Lahore : 16-10-98 - I have not witnessed the Durga
+> Puja for the last nine years. So, I am starting for
+> Calcutta.
+>
+> Belur : Nov. 98 - The other day, I was a guest of
+> Babu Priyanath Mukherjee at Baidyanath. There I had
+> such a spell of asthma that I felt like dying. But from
+> within, with every breath arose the deep-toned sound,
+> “Iam He, I am He.” Resting on the pillow, I was
+> waiting for the vital breath to depart; and observing all
+> the time that from within was coming the sound of
+> “Tam He, Iam He!” I could hear along: “ qaeratga
+> seve marie feaay’ “The Brahman,…
+
+*— p. 275*
+
+
 ---
 
 ### Almora
@@ -25776,6 +35276,176 @@ Vivekananda visited Almora for rest and retreat in the cool Himalayan air. He co
 > thing told them in their heart of hearts…
 
 *— p. 334*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> haps for two weeks, and then the party left
+> Allahabad, and by twos and threes returned
+> to the monastery, in the village of Baranagore
+> on   the   banks        of   the      Ganges.   But now
+> there   came a time,         in the    year 1890,    when
+> the Swami left his brothers, not to return, till
+> the great triumph of the year 1897.
+>     This time he set out with a monk known
+> as Akhandananda, who took him to Almora
+> and left him there, enjoying the hospitality
+> of a family who had formerly befriended
+> himself on a journey to Thibet.   It is said
+>
+> that on the way up the mountains, the Swami
+> one day fainted with hunger, when a poor
+> Mohammedan found him, and prepared
+> and gave him a cucumber, which…
+
+*— THE SWAMI IN LONDON*
+
+> he retorted quickly. "But things do not grow
+> better.  They remain as they were, and we
+> grow        better,   by   the   changes   we   make
+>               '
+> in them.
+>    This last sentence has to myself the ring
+> of a Veda.        "We grow better, by the changes
+> we make in them." Similiarly, when we were
+> at Almora, I remember a certain elderly man
+> with a face full of amiable weakness, who
+> came to put to him a question about karma.
+> What were they to do, he asked, whose
+> karma it was, to see the strong oppress the
+> weak ? The Swami turned on him in surpris-
+> ed indignation. "Why thrash the strong, of
+> course !" he said. "You forget your own part
+> in this karma.         Yours is always the right to
+
+*— THE SWAMI IN LONDON*
+
+> stand, in many ways, that the remaining years
+> of his    life in   his father's   house had been al-
+> most more severe than those spent in most
+> monasteries.  And I, reading the Bhagavad
+> Gita under his guidance, long afterwards at
+>
+>                             135
+>           THE AWAKENER OF SOULS.
+> Almora, was made able to conceive of what
+> we     call    the love     of     God    as     a       burning
+> thirst.
+>
+>        Under the influence of the Swami Swa-
+> rupananda,        I
+>                       began seriously the attempt at
+> meditation.           And if it had not been for this
+> help of his, one of the greatest hours of my
+
+*— THE SWAMI IN LONDON*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (4 references):
+
+> similar Sevashramas were founded in Brindavan and Allahabad.
+>       The Maths at Belur, Madras and Mayavati, which were all
+> established by Swamiji, wxrc, as he wrote to Mary Hale, his “normal
+> schools”—the schools he had long dreamed of, from which monks
+> would spread throughout India bringing to the people both spiritual
+> and secular knowdedge. A branch monastary at Banaras and the
+> nucleus of one at Allahabad were also started before he passed away,
+> and it was his inspiration which later led Swami Shivananda to
+> establish a center at Almora. Moreover, societies were formed during
+> Swamiji’s lifetime by his lay disciples for the study and teaching of
+> Vedanta and the undertaking of practical…
+
+*— EPILOGUE*
+
+> though in entire sympathy with all other systems, this Ashrama is
+> dedicated to Advaita and Advaita alone."
+>      llie message of Sri Ramakrishna and Swamiji was disseminated
+> not only by the preaching activities of the Order, but through the
+> medium of the written word. Very dear to Swamiji’s heart were the
+> three magazines which he had established between 1895 and 1899.
+> The first of these, the Brahmavadin, was published in English by his
+>  Madrasi disciples and had been under w^ay since September of 1895.
+> In 1897, while he was in Almora, Swamiji arranged to revive the
+> defunct magazine, Prabuddha Bharala, an English language monthly,
+> the editor of which had recently died. With the help of the…
+
+*— SWAMI VIVEKANANDA:     NEW DISCOVERIES*
+
+> guided it and poured into it his tremendous spiritual vitality and
+> knowledge. On May 1, 1897, he called a meeting of his Master’s
+> monastic and lay disciples and inaugurated, with himself as General
+> President, the Ramakrislnia Mission Association, the purpose of which
+> was to establish the humanitarian work of the Older on an organized
+> basis.
+>       Swamiji’s poor health soon forced him to leave the hot, humid
+> climate of Bengal. On May 6, accompanied by a party of brother
+> monks and disciples, he left Calcutta for Almora, where Miss Muller
+> and Mr. Goodwin awaited him. But rest was a factor that played
+> little part in his life. Although the dry and cool air of Northern India
+> benefited him, his…
+
+*— SWAM! VIVEKANANDA: NEW DISCOVERIES*
+
+
+**From *Vivekananda on Himself* (1959)** (8 references):
+
+> and scatter broadcast over the earth his boundless inspi-
+> ration. We have been blessed with obtaining refuge at
+> the feet of the Master, and we are born to carry his
+> message to the world.
+>
+> Calcutta : May 5,97 - 1 have been to Darjeeling
+> for a month to recuperate my shattered health. I am
+> very much better now. The disease disappeared alto-
+> gether in Darjeeling. Iam going tomorrow to Almora,
+> another hill station, to perfect this improvement.
+>
+> Things are looking not very hopeful here, though
+> the whole nation has risen as one man to honour me and
+> people went almost mad over me! The price of the land
+> has gone very much high near Calcutta. My idea at
+> present is to start three centres at three…
+
+*— p. 251*
+
+> difficulties... As yet it is shaven heads, rags and casual
+> meals. This must change, however, and will, for are we
+> not working for it, head and heart ?... One of my boys
+> in training has been an executive engineer, in charge of
+> a district. That means a very big position here (in
+> India ). He gave it up like a straw!
+>
+> 20-6-97 -I am all right now. Yesterday, I came to
+> Almora and. shall not go any more to the garden.
+> Henceforth, Iam Miss Muller’s guest.
+>
+> 30-6-97-I am leaving this place next Monday.
+> Here I gave a lecture to an European audience in English,
+> and another to the Indian residents in Hindi. This was
+> my maiden speech in Hindi but everyone liked it for all
+> that... Next Saturday, there…
+
+*— p. 256*
+
+> will come here as soon as he recovers.
+>
+> 6-7-90 - Thad no wish to leave Ghazipur this time,
+> and certainly not to come to Calcutta, but Kali’s illness
+> made me go to Banaras, and Balaram's sudden death
+> brought me to Calcutta. So, Suresh babu and Balaram
+> Babu have both gone! G.C. Ghosh is supporting the
+> Math...J intend shortly, as soon as I can get my fare, to
+> go up to Almora and thence to some place in Gharwal on
+> the Ganges where I can settle down fora long meditation.
+> Gangadhar is accompanying me. Indeed it was with this
+> desire and intention that I brought him down from
+>
+> Kashmir.
+> I am in fine health now.
+>
+> I was once travelling in the Himalayas and the long
+
+*— p. 128*
 
 
 ---
@@ -25925,6 +35595,117 @@ Founded in 1899 at Vivekananda's inspiration, the Advaita Ashrama at Mayavati in
 *— p. 559*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> GNANA YOGA s
+>       HARVARD ADDRESS
+>       COLOMBO TO ALMORA
+>       MY MASTER
+>       And other lectures and       writings,   may be
+> -ordered through the       Udbodhan Office, Gopal
+> Chunder Neogi's Lane, Bagh Bazar, Calcutta;
+> or through the      Office    of    the   Prabuddha
+> Bharata, Mayavati,         Lohaghat Post       Office,
+>
+> via    Almora, U. P.   ;
+>                             or through the Office
+>
+> -of   the Brahmavadin, Triplicane, Madras.
+>  OTHER WORKS OF THE SISTER
+>                   NIVEDITA.
+
+*— THE END*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (5 references):
+
+> The first of these, the Brahmavadin, was published in English by his
+>  Madrasi disciples and had been under w^ay since September of 1895.
+> In 1897, while he was in Almora, Swamiji arranged to revive the
+> defunct magazine, Prabuddha Bharala, an English language monthly,
+> the editor of which had recently died. With the help of the Seviers
+> the editorial offices were moved from Madras to Almora and, with
+> Swaini Swarupananda as editor, the magazine was published as an organ
+> of the Ramakrishna Math and Mission. Later, the offices wtic
+> transferred to Mayavati, where, to this day, Prabuddha Bharala, or
+> Axvakened India, is edited monthly, spreading the ideals of the Order.
+> A third magazine was tlie…
+
+*— SWAMI VIVEKANANDA:     NEW DISCOVERIES*
+
+> To the surprise and unbounded joy of his brother monks and
+> disciples, Swamiji arrived unheralded at the Belur Math on the night
+> of December 9, 1900. He, too, was overjoyed to be back and to find
+> that during his absence the Indian work had been carried on faithfully
+> by Swami Brahrnananda and liis other brothers and his disciples. On
+> December 26 he wrote to Miss MacLeod: “They have worked all right
+> as far as they could ; . , . They are as good and faithful as ever.”
+>      Before taking up the work that awaited him in connection with
+> the many branches of the Ramakrishna Order, he traveled to Mayavati
+> where, indeed. Captain Sevier had passed away. Swamiji’s bad health,
+> together with the severe…
+
+*— IV*
+
+> [women sages] be born into the world. . . . Hence it is her Math
+>  [Convent] that I want first.” It can be said that this was perhaps the
+>  one wish that Sw^amiji did not realize during his lifetime. Yet in a
+>  sense it w’^as realized, for Holy Mother evidently agreed to his plan and
+>  recognized herself as the head of a monastic movement for women. In
+>                                      632
+> IHe Kh TK   \f \TH
+>                                  EPILOGUE
+> a letter which she wrote on August 30, 1902, to a monk at Mayavati,
+>  Mother gave “Convent for Women” as part of her address. (Inci¬
+> dentally, I have been fortunate enough to have seen and to have had
+> translated for me Holy Mother’s original…
+
+*— EPILOGUE*
+
+
+**From *Vivekananda on Himself* (1959)** (2 references):
+
+> 304
+>
+> is bright and glorious, and now in the middle of the day
+> we are sitting outside reading, and the snow all about us !
+> The winter here is very mild in spite of the snow. The
+> airis dry and balmy, and the water beyond all praise.
+>
+> Belur Math: 26-1-1901 - 1 went to see Mrs.
+> Sevier in Mayavati. On my way, I learned of the sudden
+> death of the Raja of Khetri. It appears he was restoring
+> some old architectural monument at Agra, at his own
+> expense, and was up some tower on inspection. Part of
+> the tower came down, and he was instantly killed.
+>
+> Dacca: 29-3-1901 - My mother, aunt and cousin
+> came over five days ago to Dacca, as there was a great
+> sacred bath in the Brahmaputra river. Whenever a
+
+*— p. 326*
+
+> Vedas.
+>
+> Dear Mrs. Sevier is calm. I am going up tomorrow
+> to pay her a visit.
+>
+> 15-12-1900 - Three days ago, I reached here. It
+> was quite unexpected, and everybody was so surprised.
+>
+> 26-12-1900 - 1am going to Mayavati tomorrow.
+>
+> Mayavati: 6-1-1901 —- The first day’s touch of Calcutta
+> brought the asthma back; and every night I used to get a
+> fit during the two weeks I was there. I am however
+> very well in the Himalayas.
+>
+> It is snowing heavily here, and I was caught in a
+> blizzard on the way; but, it is not very cold; all this expo-
+
+*— p. 325*
+
+
 ---
 
 ### Lahore
@@ -26052,6 +35833,110 @@ Vivekananda delivered powerful lectures in Lahore (now in Pakistan) during his 1
 *— p. 541*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (2 references):
+
+> glorified atmosphere in which he himself has
+> dwelt at the feet of another. But when                    we
+>
+>                              103
+>        THE ORDER OF RAMAKRISHNA.
+> Tread his speech before the Chicago Con-
+>  ference, or his equally remarkable "Reply to
+>  the     Madras   Address," or the                  lectures   in
+> which at Lahore,          in    1897, he portrayed the
+> lineaments of a  generalized and essential
+> Hinduism, we find ourselves in presence of
+> something gathered by his own labours, out
+> of his    own experience.              The power behind
+> all    these    utterances           lay    in   those   Indian
+>
+> wanderings of which the tale can probably
+> never be complete.  It…
+
+*— THE SWAMI IN LONDON*
+
+> to us, unspoken, that these             Her kisses might
+> make themselves known to mind       and nerves
+> as anguish, yet be     welcomed with rapture of
+> recognition.       Did he not say "There could
+> be bliss in torture"
+>       As soon as it could be arranged, we left
+> for Baramulla,  which we reached on Tuesday
+> evening,     October     the       eleventh.         It   had
+> been   settled that   he would go on to Lahore
+> the    following    afternoon,          while   we    waited
+> some days longer. On the way down the
+> river, we saw very little of him. He was
+> almost entirely silent, and took long walks by
+>
+>                              170
+>                    THE FAREWELL
+> the riverside alone,…
+
+*— KSHIR BHOWANI*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (4 references):
+
+> tremble with fear. But through the grace of the Divine
+> Mother, my mind is so strong that even the most terrible
+> dyspepsia shall not make me a coward—I am the child of
+> the Divine Mother, the source of all power and strength.
+> To me, cringing, fawning, whining, degrading inertia and
+> hell are one and the same thing.
+>
+> Jammu: 3-11-97 -Lam going to write to Sturdy
+> from Lahore, for which I start tomorrow. I have been
+> here for 15 days to get some land in Kashmir from the
+> Maharaja. I intend to come to Kashmir again next
+> summer if I am here, and start some work.
+>
+> Lahore : 11-11-97 - The lecture at Lahore is over
+> somehow. I shall start for Dehra-Dun in a day or two.
+> I have now postponed my tour to…
+
+*— p. 269*
+
+> 255
+>
+> goes to a nice quiet spot behind the hill, in a forest,
+> through which a murmuring stream flows, to have medi-
+> tation deep and long under the deodars (trees of God)
+> cross-legged a la Buddha.
+>
+> Lahore : 16-10-98 - I have not witnessed the Durga
+> Puja for the last nine years. So, I am starting for
+> Calcutta.
+>
+> Belur : Nov. 98 - The other day, I was a guest of
+> Babu Priyanath Mukherjee at Baidyanath. There I had
+> such a spell of asthma that I felt like dying. But from
+> within, with every breath arose the deep-toned sound,
+> “Iam He, I am He.” Resting on the pillow, I was
+
+*— p. 275*
+
+> also are fair and good-looking, though their eyes are not
+> beautiful. But, I have also never seen elsewhere villages
+> and towns so horribly dirty. In Srinagar, I am now
+> putting up at the house of Rishibar Babu. He is very
+> hospitable and kind. In a few days, I shall go out
+> somewhere else on excursions; but, while returning, I
+> shall come by way of Srinagar...As soon as we come
+> down to the plains (Ambala) from Kashmir, I shall go to
+> Lahore.
+>
+> 245
+>
+> Since reaching Dharmasala, I have been all right.
+> I like the cold places; there the body keeps well. I have
+
+*— p. 264*
+
+
 ---
 
 ### Amritsar
@@ -26128,6 +36013,35 @@ Vivekananda visited the sacred city of Amritsar and the Golden Temple (Harmandir
 > return to the plains in order to spread…
 
 *— p. 534*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (1 references):
+
+> Dharamsala. I intend to start work in the Punjab after
+> a few days’ more rest in the Punjab hills. The Punjab
+> and Rajputana are indeed fields for work.
+>
+> My health was very bad recently. Now I am very
+> slowly recovering. It will be alright if I stay in the hills
+> for some more days.
+>
+> Amritsar: 2-9-97 — Today, I am leaving by the 2
+> 0’ Clock train with all my party for Kashmir. The recent
+> stay at Dharamsala hills has improved my health much, and
+> the tonsilitis, fever, etc. have completely disappeared......
+> Niranjan, Latu, Krishna Lal, Dinanath, Gupta and
+> Achyut are all going to Kashmir with me.
+>
+> Srinagar (Kashmir): 13-9-97 - Now Kashmic.
+> There is no place so beautiful as this; and the people
+
+*— p. 264*
 
 
 ---
@@ -26230,6 +36144,51 @@ Vivekananda visited Rawalpindi (now in Pakistan) as part of his 1897 Punjab lect
 > by Tonga and partly by boat, they made their way to Srinagar,
 
 *— p. 589*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> which he never wearied, of Siva, the Great
+> God, silent, remote upon the mountains, ask-
+> ing nothing of men but solitude, and ''lost
+> in one eternal meditation.'
+>
+>                                 1   20
+>                 BEAUTY OF KASHMIR.
+>    We drove from Rawalpindi to Murree,
+> where we spent a few days. And then, partly
+> by tonga, partly by boat, we proceeded to
+> Srinagar in Kashmir, and made it our centre
+> and headquarters, during the wanderings of
+> the following months.
+>        It   would be easy to           lose oneself here in
+> the beauty of           our    journeys, in      descriptions
+> of mountain-forests on the road to Almora, or
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (1 references):
+
+> 248
+>
+> 97 ~ Reached Murree from Kashmir in the evening
+> of the day before yesterday.
+>
+> Murree : 10-10-97 - I am soon going to Rawalpindi
+> tomorrow or the day after; then, I visit Lahore and other
+> places via Jammu, and return to Rajputana via Karachi.
+>
+> I am doing well.
+>
+> Murree: 11-10-97 -1 feel I have been working as if
+> under an irresistible impulse for the last ten days, beginn-
+> ing from Kashmir. It my be either a physical or a mental
+
+*— p. 268*
 
 
 ---
@@ -26372,6 +36331,130 @@ Vivekananda visited Kashmir in 1897–1898 for spiritual retreat and meditation.
 *— p. 535*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> of mountain-forests on the road to Almora, or
+> of      cathedral-rocks            and      corn-embosomed
+> villages    the Jhelum Pass.
+>               in                  For, as one
+> returns upon that time, its record is found in
+> a constant succession of scenes of loveliness.
+> Not least of these pictures is the memory of
+> the  handsome old woman, wearing the crim-
+> son coronet and white veil of Kashmiri
+> peasants, who sat at her spinning-wheel
+> under a great chenaar-tree *in a farm-yard,
+> surrounded by    her daughters-in-law, when
+> we passed that, way, and stopped to visit her.
+> It    was the Swami's second call on her.                He
+>   *
+>       The Chenaar-tree is the Orie ntal Plane.
+
+*— THE SWAMI IN LONDON*
+
+> ed a bungalow some distance away. Thus
+>
+>                           "3
+>           IN NORTHERN INDIA.
+>
+> pleasantly grouped, it was possible to combine
+> a high degree of freedom and intercourse.
+> But when, after a month or so, we left Almora
+> for Kashmir, the Swami went with us, as the
+>
+> guest of Mrs. Ole Bull, and left behind him
+> all his attendants.
+>
+>     What scenes were those through which
+> we journeyed from the beginning of May
+> until the end of October    And with what
+>                               !
+
+*— THE SWAMI IN LONDON*
+
+> tell   his   beads   in   the   same manner, as the
+> humblest of the           women    about     him.   The
+> minutest rules of conduct, both secular and
+>
+> religious, would be scrupulously observed by
+> him on these occasions. Thus he one-d him-
+> self with the people, before rising to his          own
+> greatest heights.
+>        Two places in Kashmir are regarded as
+> extremely sacred, one is Kshir Bhowani,               a
+> spring at which the Divine Motherhood                 is
+>
+> worshipped, and the other Amarnath, a moun-
+> tain-cave in which there is an ice-emblem of
+> Siva. And the        most notable events of our
+> summer were his pilgrimages to these two
+> shrines. But we also were ambitious. We
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (8 references):
+
+> I shall go down from here and shall deliver a few lectures
+> in the Punjab. After that, I may go via Sind to Cutch,
+> Bhuj and Kathiawar-even down to Poona if circumstances
+> are favourable; otherwise, I go to Rajputana via Baroda.
+> From Rajputana,I goto the North-Western Province,
+> then Nepal, and finally Calcutta-this is my present
+> programme. Everything, however, is in God’s hands.
+>
+> Srinagar (Kashmir) ; 15-9-97 - Kashmir is the one
+> land fit for Yogis, to my mind. But the land is now
+> inhabited by a race which, though possessing great
+> physical beauty, is extremely dirty. I am going to travel
+> by water for a month, seeing the sights and getting
+> strong. But the city is very malarious just now,…
+
+*— p. 265*
+
+> brought me to Calcutta. So, Suresh babu and Balaram
+> Babu have both gone! G.C. Ghosh is supporting the
+> Math...J intend shortly, as soon as I can get my fare, to
+> go up to Almora and thence to some place in Gharwal on
+> the Ganges where I can settle down fora long meditation.
+> Gangadhar is accompanying me. Indeed it was with this
+> desire and intention that I brought him down from
+>
+> Kashmir.
+> I am in fine health now.
+>
+> I was once travelling in the Himalayas and the long
+> road stretched before us. We poor monks connot get
+> any one to carry us, so we had to make all the way on
+> foot. There wasan old man with us. The way goes up
+> and down for hundreds of miles, and when that old monk
+> saw what was before him,…
+
+*— p. 128*
+
+> A monk from Ceylon, P. C. Jinawar Vamar by name,
+> has written to me among other things that he wants to
+> visit India. Perhaps, he is the same monk who comes of
+> the Siamese royal family. His address is Wellawatta,
+> Ceylon. He believes in the Vedanta.
+>
+> Srinagar: 1-10-97 - I shall not try to describe
+> Kashmir. Suffice it to say, I never felt sorry to leave
+> any country except this paradise on earth; and I am trying
+> my best, if I can, to influence the Raja to start a centre;
+> so much to do here, and the material so hopeful.
+>
+> Kashmir is a veritable heaven on earth. Nowhere
+> else in the world is such a country as this. Mountains
+> and rivers, trees and plants, men and women, beast and
+> and birds—all vie…
+
+*— p. 266*
+
+
 ---
 
 ### Dhaka (East Bengal)
@@ -26505,6 +36588,87 @@ Vivekananda visited Dhaka (then East Bengal, now Bangladesh) in 1901. He deliver
 *— p. 493*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> there, and had insisted on giving entertain-
+> ment without price to the party of stangers,
+> one of whom came from India. So true it was,
+> that to the oriental, untouched by modern
+>
+> secularity, all travellers were pilgrims, and
+> all   pilgrims guests.
+>        In the winter that followed,    he paid a
+> visit    to    Dacca, in East Bengal, and took a
+> large party up the Brahmaputra, to make
+> certain pilgrimages in Assam. How rapidly
+> his health was failing at this time, only those
+>
+> immediately around him knew.           None    of
+> us who were away, had any              suspicion.
+> He spent the summer of 1901 at Bellur,
+> 'hoping to hear again the sound of the
+
+*— MONASTICISM AND MARRIAGE*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (4 references):
+
+> Belur Math: 26-1-1901 - 1 went to see Mrs.
+> Sevier in Mayavati. On my way, I learned of the sudden
+> death of the Raja of Khetri. It appears he was restoring
+> some old architectural monument at Agra, at his own
+> expense, and was up some tower on inspection. Part of
+> the tower came down, and he was instantly killed.
+>
+> Dacca: 29-3-1901 - My mother, aunt and cousin
+> came over five days ago to Dacca, as there was a great
+> sacred bath in the Brahmaputra river. Whenever a
+> particular conjunction of planets takes place, which is
+> very rare, a huge concourse of people gather on the river
+> at a particular spot. This year, there has been more than
+> a hundred thousand people; for miles the river was cover-
+> ed with…
+
+*— p. 326*
+
+> of fish and meat. Whatever they do, they do with great
+> persistence. They use a good deal of oil and fat in their
+> food, which is not good, because taking too much oily and
+> fatty good produces fat in the body.
+>
+> About religious ideas, I noticed the people are very
+> conservative, and many have turned into fanatics in try-
+> ing to be liberal in religion. One day, a young man brou-
+> ght to me inthe house of Mohinin1 Babu at Dacca a
+> photograph and said, ‘‘Sir, please tell me who he is. Is
+> he an Avatara?” Itold him gently many times that I
+> knew nothing of it, when even on my telling him three
+> or four times, the boy did not cease from his persistent
+> questioning, I was constrained to say at last, “My…
+
+*— p. 327*
+
+> wife fed me with many delicacies prepared with her own
+> hand. The house is charming, like a peace retreat.
+> There I took a swimming bath ina village pond. After
+> that, I had such a sound sleep that I woke at half past
+> two in the afternoon. Of the few days, I had sound sleep
+> in my life, that in Nag Mahashaya’s house was one.
+> Rising from sleep, I had a plentiful repast. Nag Maha-
+> shaya’s wife presented mea cloth which I tied round my
+> head as a turban and started for Dacca. I found that the
+> photograph of Nag Mahashaya was being worshipped
+> there. The place where his remains lie interred ought to
+> be well kept. Even now itis not as it should be.
+>
+> Even while living the life of a householder,…
+
+*— p. 328*
+
+
 ---
 
 ### Ramakrishna Mission Founded
@@ -26599,6 +36763,65 @@ On 1 May 1897, Vivekananda convened a meeting at Alambazar Math at which the Ram
 > ba and its structure. It reveals the growth of a gigantic
 
 *— p. 5*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (3 references):
+
+> awakened Kundalini Shakti, while the swan in the picture
+> stands forthe Paramatman. Therefore, the idea of the
+> picture is that by the union of Karma, Jnana, Bhakti and
+> Yoga, the vision of the Paramatman is obtained.
+>
+> (Once Sri Ranadaprasad Das Gupta, an expert artist and the
+> founder President of the Jubilee Art Academy, Calcutta, called on
+> Swamiji with a disciple of the latter. Then, Swamiji had the design
+> which he had sketched for the seal of the Ramakrishna Mission brought,
+> showed it to Ranada Babu and asked his opinion on tt. The artist at
+> Sirst could not catch the significance of the picture and asked Swamijt
+> to explain, which Swamijs did.)
+>
+> a
+
+*— p. 340*
+
+> 226
+>
+> CHAPTER VII
+>
+> RETURN TO INDIA AND FOUNDING
+> THE RAMAKRISHNA MISSION
+>
+> Westminster : 11-11-96 - I shall most probably start
+> (for India) on the 16th of December, or may be a day
+> or two later. I go from here to Italy, and after seeing a
+> few places there, join the steamer (North German Lloyd
+> S.S. Prinz Regent Luitpold) at Naples.
+>
+> The first edition of Raja-Yoga is sold out and a
+
+*— p. 244*
+
+> Baranagore Math and Peripatetic Days
+>
+> The Divine Call and the Chicago
+> Parliament of Religions
+>
+> March of Events
+>
+> Return to India and Founding of
+> Ramakrishna Mission ...
+>
+> The Plan of work
+>
+> Second visit to America and the
+> Paris Congress
+>
+> The Last Days .
+
+*— p. 6*
 
 
 ---
@@ -26739,6 +36962,70 @@ After returning from the West, Vivekananda visited Dakshineswar as a pilgrim ret
 *— p. 41*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> who      live beside the Ganges serves the
+>
+> purpose of a carriage,              could come up to the
+>
+> very foot of the steps, and the river between
+> us and the opposite village, was from half
+> to three-quarters of a mile broad.    mile          A
+> or    so further up        the eastern bank, could be
+> seen the towers and trees of Dakshineswar,
+> that     temple-garden         in    which   the    Swami
+> and      his    brothers had        once been boys,        at
+> the         Ramakrishna
+>          feet    of                        Paramahamsa.
+> The house which was in                     actual   use    at
+> that time as the             Monastery, lay     some half
+> mile      or    so    to   the south…
+
+*— THE SWAMI IN LONDON*
+
+> 192
+>                      GOPALER-MA
+>
+>     Gopal's Mother was an old old woman.
+> She had already been old, fifteen or twenty
+> years before, when she had first walked over,
+> one day at noon, from her cell at Kamarhatty,
+> by the Ganges-side, to see the Master in the
+> garden at Dakshineswar.              He received her,
+> so they    say,      standing   at   his    door, as if he
+> expected her.         And she, whose chosen wor-
+> ship had       been    for many years        Gopala, the
+> Babe Krishna, the Christ-Child of Hinduism,
+>    saw Him revealed to her, as in a vision, as
+> she drew near.   How true she always was to
+> this! Never once through all the years that
+
+*— KSHIR BHOWANI*
+
+> at five, and forgotten by her husband till she
+> was eighteen how she then, with her mother's
+>               ;
+>
+> permission, made her way on foot from her
+> village-home to the temple of Dakshineswar
+> on the Ganges-side, and appeared before
+> him; how he remembered the bond, but spoke
+> of the ideals of the life he had adopted   ;   and
+> how she responded by bidding him Godspeed
+> in that life, and asking only to be taught by
+> him as the Guru, all these things have been
+> told of her many times over.   From that time
+> she lived faithfully by his side for many years,
+
+*— KSHIR BHOWANI*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Meerut
@@ -26831,6 +37118,15 @@ Vivekananda visited Meerut as part of his 1897 lecture tour across Northern Indi
 > to be mad. He was coming…
 
 *— p. 214*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -26931,6 +37227,15 @@ Vivekananda lectured in Saharanpur during his 1897 North India tour after return
 *— p. 212*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Dehra Dun
@@ -27028,6 +37333,34 @@ Vivekananda visited Dehradun in the foothills of the Himalayas for rest and reco
 > for him?” But he only received…
 
 *— p. 211*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (1 references):
+
+> 15-11-97 - My health is good; only I have to get up
+> at night once or twice. I am having sound sleep; sleep is
+> not spoiled even after exhausting lectures; and I am doing
+> exercise everyday...
+>
+> I start for Dehra—Dun this very day.
+>
+> Dehra Dun: 24-11-97 - I am doing well now.
+>
+> I have been suffering for a long time from some pain
+> at the back of my neck... The day after tomorrow I am
+> leaving for Saharanpur, from there to Rajputana.
+>
+> Dethi: 8-12-97 —- We shall start for Khetri tomorrow.
+> Gradually the luggage has greatly increased. After
+> Khetri, I intend to send everybody to the Math (Belur).
+
+*— p. 270*
 
 
 ---
@@ -27141,6 +37474,15 @@ Vivekananda revisited Gujarat on his 1897 all-India tour, reconnecting with old 
 > in a cave in the high bank of…
 
 *— p. 193*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -27282,6 +37624,35 @@ Vivekananda returned to Hyderabad as part of his mission-building tour, where he
 *— p. 285*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (1 references):
+
+> is about all worth seeing here. So, I am going off this
+> evening to Bombay... At Nadiad, I met Mr. Manilal
+> Nanubhai. He is a very learned and pious gentleman
+> and I enjoyed his company much.
+>
+> Poona: 15-6-92 -I came down with the Thakore
+> Saheb of Mahabaleshwar and I am living here with him.
+> I would remain here a week or more and then proceed to
+> Rameshwar via Hyderabad...... Isaw the Surti tutor to
+> the Prince of Bhavnagar - He is a perfect gentleman. It
+> was quite a privilege to make his acquaitance, he is so
+> good and noble-natured a man.
+>
+> Bombay: 22-8-92- Yesterday I saw Mr.
+> Manahashukharam who has lodged a Sannyasi friend with
+> him. He is very kind to me and so is his son... After
+> remaining…
+
+*— p. 137*
+
+
 ---
 
 ### Rose Bank, Darjeeling
@@ -27417,6 +37788,69 @@ Rose Bank was a cottage in Darjeeling where Vivekananda stayed to rest and recup
 > to do unflinchingly the Swami’s bidding. So it was that he
 
 *— p. 657*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (6 references):
+
+> thought then that a thousand pounds, sufficient to start
+> at least the principal centre in Calcutta, ten or twelve
+> years ago. Since then the prices have gone up three or
+> four times.
+>
+> The work has been started anyhow. A rickety old
+> little house has been rented for six or seven shillings,
+> where about twenty-four young men are being trained.
+> I had to go to Darjeeling for a month to recover my
+> health, and I am very much better—without taking any
+> medicine, only by the exercise of mental healing. I am
+> going again to another hill-station tomorrow, as it is
+> very hot in the plains ... The London work is not doing
+> well at all, I hear. And that was the main reason why
+> I would not go to England, just…
+
+*— p. 253*
+
+> to receive me. Hundreds of thousands of persons, shout-
+> ing and cheering at every place, Rajahs drawing my
+> carriage, arches all over the streets of the capitals with
+> blazing mottos etc., etc.! But, unfortunately, I was
+> already exhausted by hard work in England and this
+> tremendous exertion in the heat of southern India pros-
+> trated me completely. I had, of course, to give up the
+> idea of visiting other parts of India and fly up to the
+> (nearest) hill station, Darjeeling. Now I feel much
+> better.
+>
+> I have just another chance of coming over to Europe.
+> Raja Ajit Sinha and several other Rajas start next
+> Saturday for England. Of course, they wanted hard to
+> get me to go over with them. But,…
+
+*— p. 250*
+
+> Belur Math: 2-3-98 - It was in southern India,
+> when I came from London and when the people were
+> feteing and feasting and pumping all the work out of me
+> that an old hereditary disease made its appearance...
+> The disease will take two or three years at worst to
+> carry me off.
+>
+> Darjeeling: 23-4-98 - My health was excellent
+> on my return from Sandukphu (11,924 ft.) and other
+> places, but after returning to Darjeeling, I had first an
+> attack of fever, and after recovering from that I am now
+> suffering from cough and cold. I try to escape from this
+> place everyday; but they have been constantly putting it
+> off for a long time. However, tomorrow, Sunday, I am
+> leaving; after halting at Kharsana (Kurseong)…
+
+*— p. 272*
 
 
 ---
@@ -27556,6 +37990,15 @@ The main bazaar area of Darjeeling visited by Vivekananda during his 1897 stay i
 *— p. 657*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Bhaita (Vaita Village), Darjeeling
@@ -27691,6 +38134,15 @@ The village of Bhaita (Vaita) near Darjeeling was visited by Vivekananda during 
 > to do unflinchingly the Swami’s bidding. So it was that he
 
 *— p. 657*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -27835,6 +38287,34 @@ Dharamagarh estate near the Advaita Ashrama in Mayavati was a property associate
 *— p. 3*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> GNANA YOGA s
+>       HARVARD ADDRESS
+>       COLOMBO TO ALMORA
+>       MY MASTER
+>       And other lectures and       writings,   may be
+> -ordered through the       Udbodhan Office, Gopal
+> Chunder Neogi's Lane, Bagh Bazar, Calcutta;
+> or through the      Office    of    the   Prabuddha
+> Bharata, Mayavati,         Lohaghat Post       Office,
+>
+> via    Almora, U. P.   ;
+>                             or through the Office
+>
+> -of   the Brahmavadin, Triplicane, Madras.
+>  OTHER WORKS OF THE SISTER
+>                   NIVEDITA.
+
+*— THE END*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Mrs. Sevier's Bungalow, Mayavati
@@ -27973,6 +38453,126 @@ The bungalow of Mr. and Mrs. Sevier at the Advaita Ashrama, Mayavati. Charlotte 
 > and so bidding farewell to his disciple,…
 
 *— p. 436*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (3 references):
+
+> Western women, one of whom was Mrs,
+> Ole Bull of Cambridge, Massachusetts, and
+> another a member of the higher official
+> world of Anglo-Indian Calcutta.      Side by
+> side with us travelled the Swami, surrounded
+>
+> by his brethren (or gurubhais) and disciples.
+> Once arived at Almora, he and his party
+> became the guests of Mr. and Mrs. Sevier,
+> who were then residing there, and we occupi-
+> ed a bungalow some distance away. Thus
+>
+>                           "3
+>           IN NORTHERN INDIA.
+>
+> pleasantly grouped, it was possible to combine
+> a high degree of freedom and intercourse.
+
+*— THE SWAMI IN LONDON*
+
+> living  with  his  good friend, Mr. E. T.
+> Sturdy,  in  S.   George's Road, and again,
+>         summer holidays, in a large class-
+> after the
+> room near Victoria Street. During July,
+> August, and September, he travelled in
+> France, Germany and Switzerland, with his
+> friends, Mr. and Mrs. Sevier, and Miss
+> H. F.    Muller.     In    December, he   left   for
+>
+> India, with   some of his disciples, by way of
+> Rome, and arrived at Colombo, in Ceylon,
+> on January the i5th, 1897.
+>    Many of the lectures which he gave
+> during the year 1896, have since been pub-
+
+*— THE SWAMI IN LONDON*
+
+> GNANA YOGA s
+>       HARVARD ADDRESS
+>       COLOMBO TO ALMORA
+>       MY MASTER
+>       And other lectures and       writings,   may be
+> -ordered through the       Udbodhan Office, Gopal
+> Chunder Neogi's Lane, Bagh Bazar, Calcutta;
+> or through the      Office    of    the   Prabuddha
+> Bharata, Mayavati,         Lohaghat Post       Office,
+>
+> via    Almora, U. P.   ;
+>                             or through the Office
+>
+> -of   the Brahmavadin, Triplicane, Madras.
+>  OTHER WORKS OF THE SISTER
+>                   NIVEDITA.
+
+*— THE END*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (8 references):
+
+> Dear Mrs. Sevier is calm. I am going up tomorrow
+> to pay her a visit.
+>
+> 15-12-1900 - Three days ago, I reached here. It
+> was quite unexpected, and everybody was so surprised.
+>
+> 26-12-1900 - 1am going to Mayavati tomorrow.
+>
+> Mayavati: 6-1-1901 —- The first day’s touch of Calcutta
+> brought the asthma back; and every night I used to get a
+> fit during the two weeks I was there. I am however
+> very well in the Himalayas.
+>
+> It is snowing heavily here, and I was caught in a
+> blizzard on the way; but, it is not very cold; all this expo-
+> sure to the snows for two days on my way here seems to
+> have done me a world of good.
+
+*— p. 325*
+
+> a desire either to visit a few places in Kashmir and then
+> choose an excellent site and live a quiet life there, or to
+> go on floating on the water. I shall do what the doctor
+> advises. The Raja isnot here now. His brother, one
+> just next to him in age, is the Commander-in-Chief.
+> Efforts are being made to arrange a lecture under his
+> chairmanship. If the meeting for the lecture is held in a
+> day or two, I shall stay back, otherwise, I go out again on
+> my travels. Sevier is stillin Murree. His health is very
+> bad, going about in jolting tongas and jatkas. In October
+> I shall go down from here and shall deliver a few lectures
+> in the Punjab. After that, I may go via Sind to Cutch,
+> Bhuj and…
+
+*— p. 265*
+
+> 303
+>
+> CHAPTER X
+> THE LAST DAYS
+>
+> Belur Math: 11-12-1900 - | arrived night before
+> last. Alas! my hurrying was of no use. Poor Captain
+> Sevier has passed away, a few days ago; thus two Great
+> Englishmen gave up their lives for us, the Hindus. This
+> is martyrdom if anything is.
+>
+> He was cremated on the banks of the river that
+> flows by his Ashrama, a la Hindu, covered with garlands,
+> the Brahmins carrying the body and boys chanting the
+> Vedas.
+
+*— p. 325*
 
 
 ---
@@ -28115,6 +38715,126 @@ Captain James Henry Sevier, one of Vivekananda's most devoted Western disciples,
 *— p. 436*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (3 references):
+
+> Western women, one of whom was Mrs,
+> Ole Bull of Cambridge, Massachusetts, and
+> another a member of the higher official
+> world of Anglo-Indian Calcutta.      Side by
+> side with us travelled the Swami, surrounded
+>
+> by his brethren (or gurubhais) and disciples.
+> Once arived at Almora, he and his party
+> became the guests of Mr. and Mrs. Sevier,
+> who were then residing there, and we occupi-
+> ed a bungalow some distance away. Thus
+>
+>                           "3
+>           IN NORTHERN INDIA.
+>
+> pleasantly grouped, it was possible to combine
+> a high degree of freedom and intercourse.
+
+*— THE SWAMI IN LONDON*
+
+> living  with  his  good friend, Mr. E. T.
+> Sturdy,  in  S.   George's Road, and again,
+>         summer holidays, in a large class-
+> after the
+> room near Victoria Street. During July,
+> August, and September, he travelled in
+> France, Germany and Switzerland, with his
+> friends, Mr. and Mrs. Sevier, and Miss
+> H. F.    Muller.     In    December, he   left   for
+>
+> India, with   some of his disciples, by way of
+> Rome, and arrived at Colombo, in Ceylon,
+> on January the i5th, 1897.
+>    Many of the lectures which he gave
+> during the year 1896, have since been pub-
+
+*— THE SWAMI IN LONDON*
+
+> GNANA YOGA s
+>       HARVARD ADDRESS
+>       COLOMBO TO ALMORA
+>       MY MASTER
+>       And other lectures and       writings,   may be
+> -ordered through the       Udbodhan Office, Gopal
+> Chunder Neogi's Lane, Bagh Bazar, Calcutta;
+> or through the      Office    of    the   Prabuddha
+> Bharata, Mayavati,         Lohaghat Post       Office,
+>
+> via    Almora, U. P.   ;
+>                             or through the Office
+>
+> -of   the Brahmavadin, Triplicane, Madras.
+>  OTHER WORKS OF THE SISTER
+>                   NIVEDITA.
+
+*— THE END*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (8 references):
+
+> Dear Mrs. Sevier is calm. I am going up tomorrow
+> to pay her a visit.
+>
+> 15-12-1900 - Three days ago, I reached here. It
+> was quite unexpected, and everybody was so surprised.
+>
+> 26-12-1900 - 1am going to Mayavati tomorrow.
+>
+> Mayavati: 6-1-1901 —- The first day’s touch of Calcutta
+> brought the asthma back; and every night I used to get a
+> fit during the two weeks I was there. I am however
+> very well in the Himalayas.
+>
+> It is snowing heavily here, and I was caught in a
+> blizzard on the way; but, it is not very cold; all this expo-
+> sure to the snows for two days on my way here seems to
+> have done me a world of good.
+
+*— p. 325*
+
+> a desire either to visit a few places in Kashmir and then
+> choose an excellent site and live a quiet life there, or to
+> go on floating on the water. I shall do what the doctor
+> advises. The Raja isnot here now. His brother, one
+> just next to him in age, is the Commander-in-Chief.
+> Efforts are being made to arrange a lecture under his
+> chairmanship. If the meeting for the lecture is held in a
+> day or two, I shall stay back, otherwise, I go out again on
+> my travels. Sevier is stillin Murree. His health is very
+> bad, going about in jolting tongas and jatkas. In October
+> I shall go down from here and shall deliver a few lectures
+> in the Punjab. After that, I may go via Sind to Cutch,
+> Bhuj and…
+
+*— p. 265*
+
+> 303
+>
+> CHAPTER X
+> THE LAST DAYS
+>
+> Belur Math: 11-12-1900 - | arrived night before
+> last. Alas! my hurrying was of no use. Poor Captain
+> Sevier has passed away, a few days ago; thus two Great
+> Englishmen gave up their lives for us, the Hindus. This
+> is martyrdom if anything is.
+>
+> He was cremated on the banks of the river that
+> flows by his Ashrama, a la Hindu, covered with garlands,
+> the Brahmins carrying the body and boys chanting the
+> Vedas.
+
+*— p. 325*
+
+
 ---
 
 ### Sister Nivedita's House, Almora
@@ -28252,6 +38972,75 @@ The house in Almora where Sister Nivedita (Margaret Noble) stayed during Vivekan
 > left Almora some time before ; and knowing that he must have…
 
 *— p. 206*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> haps for two weeks, and then the party left
+> Allahabad, and by twos and threes returned
+> to the monastery, in the village of Baranagore
+> on   the   banks        of   the      Ganges.   But now
+> there   came a time,         in the    year 1890,    when
+> the Swami left his brothers, not to return, till
+> the great triumph of the year 1897.
+>     This time he set out with a monk known
+> as Akhandananda, who took him to Almora
+> and left him there, enjoying the hospitality
+> of a family who had formerly befriended
+> himself on a journey to Thibet.   It is said
+>
+> that on the way up the mountains, the Swami
+> one day fainted with hunger, when a poor
+> Mohammedan found him, and prepared
+> and gave him a cucumber, which…
+
+*— THE SWAMI IN LONDON*
+
+> he retorted quickly. "But things do not grow
+> better.  They remain as they were, and we
+> grow        better,   by   the   changes   we   make
+>               '
+> in them.
+>    This last sentence has to myself the ring
+> of a Veda.        "We grow better, by the changes
+> we make in them." Similiarly, when we were
+> at Almora, I remember a certain elderly man
+> with a face full of amiable weakness, who
+> came to put to him a question about karma.
+> What were they to do, he asked, whose
+> karma it was, to see the strong oppress the
+> weak ? The Swami turned on him in surpris-
+> ed indignation. "Why thrash the strong, of
+> course !" he said. "You forget your own part
+> in this karma.         Yours is always the right to
+
+*— THE SWAMI IN LONDON*
+
+> stand, in many ways, that the remaining years
+> of his    life in   his father's   house had been al-
+> most more severe than those spent in most
+> monasteries.  And I, reading the Bhagavad
+> Gita under his guidance, long afterwards at
+>
+>                             135
+>           THE AWAKENER OF SOULS.
+> Almora, was made able to conceive of what
+> we     call    the love     of     God    as     a       burning
+> thirst.
+>
+>        Under the influence of the Swami Swa-
+> rupananda,        I
+>                       began seriously the attempt at
+> meditation.           And if it had not been for this
+> help of his, one of the greatest hours of my
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -28394,6 +39183,75 @@ Lala Badri Shah was a devoted patron and supporter of Vivekananda in Almora. His
 *— p. 334*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> haps for two weeks, and then the party left
+> Allahabad, and by twos and threes returned
+> to the monastery, in the village of Baranagore
+> on   the   banks        of   the      Ganges.   But now
+> there   came a time,         in the    year 1890,    when
+> the Swami left his brothers, not to return, till
+> the great triumph of the year 1897.
+>     This time he set out with a monk known
+> as Akhandananda, who took him to Almora
+> and left him there, enjoying the hospitality
+> of a family who had formerly befriended
+> himself on a journey to Thibet.   It is said
+>
+> that on the way up the mountains, the Swami
+> one day fainted with hunger, when a poor
+> Mohammedan found him, and prepared
+> and gave him a cucumber, which…
+
+*— THE SWAMI IN LONDON*
+
+> he retorted quickly. "But things do not grow
+> better.  They remain as they were, and we
+> grow        better,   by   the   changes   we   make
+>               '
+> in them.
+>    This last sentence has to myself the ring
+> of a Veda.        "We grow better, by the changes
+> we make in them." Similiarly, when we were
+> at Almora, I remember a certain elderly man
+> with a face full of amiable weakness, who
+> came to put to him a question about karma.
+> What were they to do, he asked, whose
+> karma it was, to see the strong oppress the
+> weak ? The Swami turned on him in surpris-
+> ed indignation. "Why thrash the strong, of
+> course !" he said. "You forget your own part
+> in this karma.         Yours is always the right to
+
+*— THE SWAMI IN LONDON*
+
+> stand, in many ways, that the remaining years
+> of his    life in   his father's   house had been al-
+> most more severe than those spent in most
+> monasteries.  And I, reading the Bhagavad
+> Gita under his guidance, long afterwards at
+>
+>                             135
+>           THE AWAKENER OF SOULS.
+> Almora, was made able to conceive of what
+> we     call    the love     of     God    as     a       burning
+> thirst.
+>
+>        Under the influence of the Swami Swa-
+> rupananda,        I
+>                       began seriously the attempt at
+> meditation.           And if it had not been for this
+> help of his, one of the greatest hours of my
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Vivekananda's Cottage, Almora
@@ -28532,6 +39390,75 @@ The cottage in Almora that served as Swami Vivekananda's primary residence durin
 > thing told them in their heart of hearts…
 
 *— p. 334*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> haps for two weeks, and then the party left
+> Allahabad, and by twos and threes returned
+> to the monastery, in the village of Baranagore
+> on   the   banks        of   the      Ganges.   But now
+> there   came a time,         in the    year 1890,    when
+> the Swami left his brothers, not to return, till
+> the great triumph of the year 1897.
+>     This time he set out with a monk known
+> as Akhandananda, who took him to Almora
+> and left him there, enjoying the hospitality
+> of a family who had formerly befriended
+> himself on a journey to Thibet.   It is said
+>
+> that on the way up the mountains, the Swami
+> one day fainted with hunger, when a poor
+> Mohammedan found him, and prepared
+> and gave him a cucumber, which…
+
+*— THE SWAMI IN LONDON*
+
+> he retorted quickly. "But things do not grow
+> better.  They remain as they were, and we
+> grow        better,   by   the   changes   we   make
+>               '
+> in them.
+>    This last sentence has to myself the ring
+> of a Veda.        "We grow better, by the changes
+> we make in them." Similiarly, when we were
+> at Almora, I remember a certain elderly man
+> with a face full of amiable weakness, who
+> came to put to him a question about karma.
+> What were they to do, he asked, whose
+> karma it was, to see the strong oppress the
+> weak ? The Swami turned on him in surpris-
+> ed indignation. "Why thrash the strong, of
+> course !" he said. "You forget your own part
+> in this karma.         Yours is always the right to
+
+*— THE SWAMI IN LONDON*
+
+> stand, in many ways, that the remaining years
+> of his    life in   his father's   house had been al-
+> most more severe than those spent in most
+> monasteries.  And I, reading the Bhagavad
+> Gita under his guidance, long afterwards at
+>
+>                             135
+>           THE AWAKENER OF SOULS.
+> Almora, was made able to conceive of what
+> we     call    the love     of     God    as     a       burning
+> thirst.
+>
+>        Under the influence of the Swami Swa-
+> rupananda,        I
+>                       began seriously the attempt at
+> meditation.           And if it had not been for this
+> help of his, one of the greatest hours of my
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -28674,6 +39601,75 @@ Thompson House in Almora was a residence associated with Western disciples visit
 *— p. 334*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> haps for two weeks, and then the party left
+> Allahabad, and by twos and threes returned
+> to the monastery, in the village of Baranagore
+> on   the   banks        of   the      Ganges.   But now
+> there   came a time,         in the    year 1890,    when
+> the Swami left his brothers, not to return, till
+> the great triumph of the year 1897.
+>     This time he set out with a monk known
+> as Akhandananda, who took him to Almora
+> and left him there, enjoying the hospitality
+> of a family who had formerly befriended
+> himself on a journey to Thibet.   It is said
+>
+> that on the way up the mountains, the Swami
+> one day fainted with hunger, when a poor
+> Mohammedan found him, and prepared
+> and gave him a cucumber, which…
+
+*— THE SWAMI IN LONDON*
+
+> he retorted quickly. "But things do not grow
+> better.  They remain as they were, and we
+> grow        better,   by   the   changes   we   make
+>               '
+> in them.
+>    This last sentence has to myself the ring
+> of a Veda.        "We grow better, by the changes
+> we make in them." Similiarly, when we were
+> at Almora, I remember a certain elderly man
+> with a face full of amiable weakness, who
+> came to put to him a question about karma.
+> What were they to do, he asked, whose
+> karma it was, to see the strong oppress the
+> weak ? The Swami turned on him in surpris-
+> ed indignation. "Why thrash the strong, of
+> course !" he said. "You forget your own part
+> in this karma.         Yours is always the right to
+
+*— THE SWAMI IN LONDON*
+
+> stand, in many ways, that the remaining years
+> of his    life in   his father's   house had been al-
+> most more severe than those spent in most
+> monasteries.  And I, reading the Bhagavad
+> Gita under his guidance, long afterwards at
+>
+>                             135
+>           THE AWAKENER OF SOULS.
+> Almora, was made able to conceive of what
+> we     call    the love     of     God    as     a       burning
+> thirst.
+>
+>        Under the influence of the Swami Swa-
+> rupananda,        I
+>                       began seriously the attempt at
+> meditation.           And if it had not been for this
+> help of his, one of the greatest hours of my
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Kasar Devi Temple, Almora
@@ -28812,6 +39808,75 @@ The ancient Kasar Devi temple on a ridge above Almora was visited by Vivekananda
 > thing told them in their heart of hearts…
 
 *— p. 334*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> haps for two weeks, and then the party left
+> Allahabad, and by twos and threes returned
+> to the monastery, in the village of Baranagore
+> on   the   banks        of   the      Ganges.   But now
+> there   came a time,         in the    year 1890,    when
+> the Swami left his brothers, not to return, till
+> the great triumph of the year 1897.
+>     This time he set out with a monk known
+> as Akhandananda, who took him to Almora
+> and left him there, enjoying the hospitality
+> of a family who had formerly befriended
+> himself on a journey to Thibet.   It is said
+>
+> that on the way up the mountains, the Swami
+> one day fainted with hunger, when a poor
+> Mohammedan found him, and prepared
+> and gave him a cucumber, which…
+
+*— THE SWAMI IN LONDON*
+
+> he retorted quickly. "But things do not grow
+> better.  They remain as they were, and we
+> grow        better,   by   the   changes   we   make
+>               '
+> in them.
+>    This last sentence has to myself the ring
+> of a Veda.        "We grow better, by the changes
+> we make in them." Similiarly, when we were
+> at Almora, I remember a certain elderly man
+> with a face full of amiable weakness, who
+> came to put to him a question about karma.
+> What were they to do, he asked, whose
+> karma it was, to see the strong oppress the
+> weak ? The Swami turned on him in surpris-
+> ed indignation. "Why thrash the strong, of
+> course !" he said. "You forget your own part
+> in this karma.         Yours is always the right to
+
+*— THE SWAMI IN LONDON*
+
+> stand, in many ways, that the remaining years
+> of his    life in   his father's   house had been al-
+> most more severe than those spent in most
+> monasteries.  And I, reading the Bhagavad
+> Gita under his guidance, long afterwards at
+>
+>                             135
+>           THE AWAKENER OF SOULS.
+> Almora, was made able to conceive of what
+> we     call    the love     of     God    as     a       burning
+> thirst.
+>
+>        Under the influence of the Swami Swa-
+> rupananda,        I
+>                       began seriously the attempt at
+> meditation.           And if it had not been for this
+> help of his, one of the greatest hours of my
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -28954,6 +40019,75 @@ Syahi Devi temple near Almora was visited by Vivekananda during his Himalayan tr
 *— p. 334*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> haps for two weeks, and then the party left
+> Allahabad, and by twos and threes returned
+> to the monastery, in the village of Baranagore
+> on   the   banks        of   the      Ganges.   But now
+> there   came a time,         in the    year 1890,    when
+> the Swami left his brothers, not to return, till
+> the great triumph of the year 1897.
+>     This time he set out with a monk known
+> as Akhandananda, who took him to Almora
+> and left him there, enjoying the hospitality
+> of a family who had formerly befriended
+> himself on a journey to Thibet.   It is said
+>
+> that on the way up the mountains, the Swami
+> one day fainted with hunger, when a poor
+> Mohammedan found him, and prepared
+> and gave him a cucumber, which…
+
+*— THE SWAMI IN LONDON*
+
+> he retorted quickly. "But things do not grow
+> better.  They remain as they were, and we
+> grow        better,   by   the   changes   we   make
+>               '
+> in them.
+>    This last sentence has to myself the ring
+> of a Veda.        "We grow better, by the changes
+> we make in them." Similiarly, when we were
+> at Almora, I remember a certain elderly man
+> with a face full of amiable weakness, who
+> came to put to him a question about karma.
+> What were they to do, he asked, whose
+> karma it was, to see the strong oppress the
+> weak ? The Swami turned on him in surpris-
+> ed indignation. "Why thrash the strong, of
+> course !" he said. "You forget your own part
+> in this karma.         Yours is always the right to
+
+*— THE SWAMI IN LONDON*
+
+> stand, in many ways, that the remaining years
+> of his    life in   his father's   house had been al-
+> most more severe than those spent in most
+> monasteries.  And I, reading the Bhagavad
+> Gita under his guidance, long afterwards at
+>
+>                             135
+>           THE AWAKENER OF SOULS.
+> Almora, was made able to conceive of what
+> we     call    the love     of     God    as     a       burning
+> thirst.
+>
+>        Under the influence of the Swami Swa-
+> rupananda,        I
+>                       began seriously the attempt at
+> meditation.           And if it had not been for this
+> help of his, one of the greatest hours of my
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Sri Raghunath Temple, Almora
@@ -29092,6 +40226,75 @@ The historic Sri Raghunath temple in Almora's bazaar area was visited by Vivekan
 > thing told them in their heart of hearts…
 
 *— p. 334*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> haps for two weeks, and then the party left
+> Allahabad, and by twos and threes returned
+> to the monastery, in the village of Baranagore
+> on   the   banks        of   the      Ganges.   But now
+> there   came a time,         in the    year 1890,    when
+> the Swami left his brothers, not to return, till
+> the great triumph of the year 1897.
+>     This time he set out with a monk known
+> as Akhandananda, who took him to Almora
+> and left him there, enjoying the hospitality
+> of a family who had formerly befriended
+> himself on a journey to Thibet.   It is said
+>
+> that on the way up the mountains, the Swami
+> one day fainted with hunger, when a poor
+> Mohammedan found him, and prepared
+> and gave him a cucumber, which…
+
+*— THE SWAMI IN LONDON*
+
+> he retorted quickly. "But things do not grow
+> better.  They remain as they were, and we
+> grow        better,   by   the   changes   we   make
+>               '
+> in them.
+>    This last sentence has to myself the ring
+> of a Veda.        "We grow better, by the changes
+> we make in them." Similiarly, when we were
+> at Almora, I remember a certain elderly man
+> with a face full of amiable weakness, who
+> came to put to him a question about karma.
+> What were they to do, he asked, whose
+> karma it was, to see the strong oppress the
+> weak ? The Swami turned on him in surpris-
+> ed indignation. "Why thrash the strong, of
+> course !" he said. "You forget your own part
+> in this karma.         Yours is always the right to
+
+*— THE SWAMI IN LONDON*
+
+> stand, in many ways, that the remaining years
+> of his    life in   his father's   house had been al-
+> most more severe than those spent in most
+> monasteries.  And I, reading the Bhagavad
+> Gita under his guidance, long afterwards at
+>
+>                             135
+>           THE AWAKENER OF SOULS.
+> Almora, was made able to conceive of what
+> we     call    the love     of     God    as     a       burning
+> thirst.
+>
+>        Under the influence of the Swami Swa-
+> rupananda,        I
+>                       began seriously the attempt at
+> meditation.           And if it had not been for this
+> help of his, one of the greatest hours of my
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -29234,6 +40437,75 @@ Dewaldhar estate in the Almora hills was associated with the Sevier family and o
 *— p. 334*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> haps for two weeks, and then the party left
+> Allahabad, and by twos and threes returned
+> to the monastery, in the village of Baranagore
+> on   the   banks        of   the      Ganges.   But now
+> there   came a time,         in the    year 1890,    when
+> the Swami left his brothers, not to return, till
+> the great triumph of the year 1897.
+>     This time he set out with a monk known
+> as Akhandananda, who took him to Almora
+> and left him there, enjoying the hospitality
+> of a family who had formerly befriended
+> himself on a journey to Thibet.   It is said
+>
+> that on the way up the mountains, the Swami
+> one day fainted with hunger, when a poor
+> Mohammedan found him, and prepared
+> and gave him a cucumber, which…
+
+*— THE SWAMI IN LONDON*
+
+> he retorted quickly. "But things do not grow
+> better.  They remain as they were, and we
+> grow        better,   by   the   changes   we   make
+>               '
+> in them.
+>    This last sentence has to myself the ring
+> of a Veda.        "We grow better, by the changes
+> we make in them." Similiarly, when we were
+> at Almora, I remember a certain elderly man
+> with a face full of amiable weakness, who
+> came to put to him a question about karma.
+> What were they to do, he asked, whose
+> karma it was, to see the strong oppress the
+> weak ? The Swami turned on him in surpris-
+> ed indignation. "Why thrash the strong, of
+> course !" he said. "You forget your own part
+> in this karma.         Yours is always the right to
+
+*— THE SWAMI IN LONDON*
+
+> stand, in many ways, that the remaining years
+> of his    life in   his father's   house had been al-
+> most more severe than those spent in most
+> monasteries.  And I, reading the Bhagavad
+> Gita under his guidance, long afterwards at
+>
+>                             135
+>           THE AWAKENER OF SOULS.
+> Almora, was made able to conceive of what
+> we     call    the love     of     God    as     a       burning
+> thirst.
+>
+>        Under the influence of the Swami Swa-
+> rupananda,        I
+>                       began seriously the attempt at
+> meditation.           And if it had not been for this
+> help of his, one of the greatest hours of my
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Bhim Tal
@@ -29266,6 +40538,15 @@ The picturesque lake town of Bhimtal in the Kumaon Himalayas was visited by Vive
 > before giving its English form. ‘The Rudra-prayer was…
 
 *— p. 589*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -29402,6 +40683,33 @@ Roshanara Bagh in north Delhi was associated with Vivekananda's visits to Delhi 
 *— p. 216*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> ness     of     noble       women,        all    lived         again.
+> Nor would he permit that the Moham-
+> medan should be passed over.  Huma-
+> yoon, Sher  Shah, Akbar, Shah Jehan,
+> each of these, and a hundred more, found
+> a day and a place in his bead-roll of glisten-
+> ing names.         Now        it    was that coronation
+> song      of      Akbar        which            is     still     sung
+> about the streets of Delhi, that he would
+> give us, in the very tone and rhythm
+> of     Thanasena.            Again,        he         would       ex-
+>
+> plain     how         the    widows         of        the      Mogul
+> House         never     remarried,         but        lived       like
+> Hindu        …
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Dharamshala (Dharmsala)
@@ -29501,6 +40809,15 @@ Dharamshala in the Kangra valley of Himachal Pradesh was visited by Vivekananda 
 > return to the plains in order to spread his ideas. Coming…
 
 *— p. 534*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -29605,6 +40922,15 @@ Ambala was visited by Vivekananda during his northern India tour after his retur
 *— p. 777*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Pampore (Pampur)
@@ -29685,6 +41011,74 @@ Pampore, the saffron town of Kashmir, was visited by Vivekananda during his 1898
 *— p. 543*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> of mountain-forests on the road to Almora, or
+> of      cathedral-rocks            and      corn-embosomed
+> villages    the Jhelum Pass.
+>               in                  For, as one
+> returns upon that time, its record is found in
+> a constant succession of scenes of loveliness.
+> Not least of these pictures is the memory of
+> the  handsome old woman, wearing the crim-
+> son coronet and white veil of Kashmiri
+> peasants, who sat at her spinning-wheel
+> under a great chenaar-tree *in a farm-yard,
+> surrounded by    her daughters-in-law, when
+> we passed that, way, and stopped to visit her.
+> It    was the Swami's second call on her.                He
+>   *
+>       The Chenaar-tree is the Orie ntal Plane.
+
+*— THE SWAMI IN LONDON*
+
+> ed a bungalow some distance away. Thus
+>
+>                           "3
+>           IN NORTHERN INDIA.
+>
+> pleasantly grouped, it was possible to combine
+> a high degree of freedom and intercourse.
+> But when, after a month or so, we left Almora
+> for Kashmir, the Swami went with us, as the
+>
+> guest of Mrs. Ole Bull, and left behind him
+> all his attendants.
+>
+>     What scenes were those through which
+> we journeyed from the beginning of May
+> until the end of October    And with what
+>                               !
+
+*— THE SWAMI IN LONDON*
+
+> tell   his   beads   in   the   same manner, as the
+> humblest of the           women    about     him.   The
+> minutest rules of conduct, both secular and
+>
+> religious, would be scrupulously observed by
+> him on these occasions. Thus he one-d him-
+> self with the people, before rising to his          own
+> greatest heights.
+>        Two places in Kashmir are regarded as
+> extremely sacred, one is Kshir Bhowani,               a
+> spring at which the Divine Motherhood                 is
+>
+> worshipped, and the other Amarnath, a moun-
+> tain-cave in which there is an ice-emblem of
+> Siva. And the        most notable events of our
+> summer were his pilgrimages to these two
+> shrines. But we also were ambitious. We
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Anant Nag
@@ -29763,6 +41157,68 @@ Anantnag in south Kashmir, historically known as Islamabad, was visited by Vivek
 > tions from Khetri. The Raja of that State was…
 
 *— p. 543*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (3 references):
+
+> ultimate arrival at the shrine.              The Tehsildar
+> came   afterwards, indeed, with a group of
+> friends, begging formal acceptance by the
+> Swami as         disciples   ;
+>                                   and   in    this,   no one
+> seemed     to    find    anything incongruous             or
+>
+> surprising.
+>    Leaving Islamabad, we caught up some-
+> where with the pilgrimage, and camped
+> with it,   for    that   night, at      Pawan, a place
+> famous for its holy springs.             I   can remember
+>
+>                                  156
+>            MO UNTAIN- VILLA GES.
+> yet the brilliance of the lights reflected in
+> the clear black waters of the tank that
+
+*— THE SWAMI IN LONDON*
+
+> ed congratulation, for any obstacle to be put
+> in the way of the fortunate member. And
+> aided thus, as well as by the State officer,
+> in charge of the journey, preparations went
+>
+> forward for this unique experience.
+>        Kashmir seemed,     in   those weeks, to be
+> full    of   pilgrims.   We left Achhabal, and
+> returned to our boats at Islamabad, for final
+>
+> arrangements, and everywhere we saw the
+> march of gathering hosts.            It   was all very
+> quiet and orderly and picturesque. Two or
+> three thousand people would encamp in a
+>
+>                           153
+
+*— THE SWAMI IN LONDON*
+
+> ment of the villagers, playing in reaped fields
+> on moonlit evenings or talk of the red bronze
+>                        ;
+>
+> of amaranth crops, or the green of young rice
+> under tall poplars at Islamabad. For-get-me-
+> nots of a brilliant blue form the   commonest
+> wild flower of the Kashmiri fields in summer r
+>                                                   -
+>
+>                            122
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -29903,6 +41359,33 @@ Baramulla (ancient Varahamula), the gateway to the Kashmir valley on the Jhelum 
 *— p. 538*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> self a child, seated on the lap of the               Mother,
+> and being caressed.          And the thought came
+> to us, unspoken, that these             Her kisses might
+> make themselves known to mind       and nerves
+> as anguish, yet be     welcomed with rapture of
+> recognition.       Did he not say "There could
+> be bliss in torture"
+>       As soon as it could be arranged, we left
+> for Baramulla,  which we reached on Tuesday
+> evening,     October     the       eleventh.         It   had
+> been   settled that   he would go on to Lahore
+> the    following    afternoon,          while   we    waited
+> some days longer. On the way down the
+> river, we saw very little of him. He was
+> almost entirely silent, and…
+
+*— KSHIR BHOWANI*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Jammu
@@ -30034,6 +41517,15 @@ Jammu, the 'City of Temples,' was visited by Vivekananda as part of his Kashmir 
 *— p. 538*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Kheer Bhawani temple (Kshir Bhavani)
@@ -30128,6 +41620,111 @@ Kheer Bhawani, the sacred spring temple of Goddess Ragnya Devi in Kashmir, was o
 > tions from Khetri. The Raja of that State was…
 
 *— p. 543*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (3 references):
+
+> we might keep hours of silence, and make
+> our attempts    under definite direction.      For
+> this season, tents were brought, and we camp-
+>
+> ed for a week on the edge of a       forest,    at
+> a place called Achhabal, in the beginning of
+> September. The pilgrimage to Amarnath had
+> been made at the beginning of August, and
+> the   Swami left us for Kshir Bhowani on the
+> thirtieth of September. Finally we parted
+> from him, and our journey was over, at Bara-
+> mulla, October the twelfth.
+>       Even apart from the greater revelations
+> and experiences, flashes from the beacon-fire
+> of that life in whose shadow we dwelt, fell
+>
+> constantly upon us. Once he had just return-
+
+*— THE SWAMI IN LONDON*
+
+> humblest of the           women    about     him.   The
+> minutest rules of conduct, both secular and
+>
+> religious, would be scrupulously observed by
+> him on these occasions. Thus he one-d him-
+> self with the people, before rising to his          own
+> greatest heights.
+>        Two places in Kashmir are regarded as
+> extremely sacred, one is Kshir Bhowani,               a
+> spring at which the Divine Motherhood                 is
+>
+> worshipped, and the other Amarnath, a moun-
+> tain-cave in which there is an ice-emblem of
+> Siva. And the        most notable events of our
+> summer were his pilgrimages to these two
+> shrines. But we also were ambitious. We
+> desired to be taught to meditate,            in system-
+
+*— THE SWAMI IN LONDON*
+
+> was allowed to know where he was, and
+> to enquire about his daily needs.   The next
+> evening  the doctor went, as  usual, but find-
+>
+> ing    him   lost   in   thought,   retired       without
+>
+> speaking, and the following day, September
+> the thirtieth, he had gone, leaving word that
+> he was not to be followed, to Kshir Bhowani,
+>
+>                           1   66
+>                      THE RETURN
+> the coloured springs.                 He was away, from
+> that day till October the sixth.
+>       *         *                *=                          *
+>
+>     In the afternoon of that day we saw him
+
+*— KSHIR BHOWANI*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (2 references):
+
+> temple, I was benumbed with cold.
+>
+> I saw three or four white pigeons; whether they live
+> in the cave or the neighbouring hills, I could not ascertain.
+>
+> I have heard that the sight of the pigeons brings to
+> fruition whatever desires you may have.
+>
+> Since hearing that Divine Voice (in'the Kshir Bhavani
+> temple), I cherish no more plans. The idea of building
+> Maths, etc. [have given up; as Mother wills so will it be.
+>
+> Whether it be internal or external, if you actually
+> hear with your ears such a disembodied voice, as I have
+> done, can you deny it and call it false? Divine Voices
+> are actually heard, just as you and I are talking.
+
+*— p. 267*
+
+> my head for twentyfour hours and would not come down.
+>
+> 247
+>
+> I underwent great religious austerities at Amarnath
+> and then in the temple of Kshir-Bhavani......
+>
+> On the way to Amarnath, I made a very steep ascent
+> onthe mountain. Pilgrims do not generally travel by
+> that path. But the determination came upon me that I
+> must go by that path, and soI did. The labour of the
+> strenuous ascent told on my body.
+>
+> I entered the cave with only my kaupin (loin cloth)
+
+*— p. 267*
 
 
 ---
@@ -30265,6 +41862,90 @@ Vivekananda undertook the arduous pilgrimage to the Amarnath Cave in 1898, one o
 > Shiva and Uma, and of…
 
 *— p. 595*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> amongst the mountains.
+>        Outside the Cave, there was no Brahminic
+>  exploitation of the helpless people.      Amar-
+>  nath is remarkable for its simplicity and close-
+>  ness to nature. But the pilgrimage culminates
+>  -on the great   day of Rakhibandhan, and our
+>
+>                         159
+>                       AMARNATH.
+> wrists    were     tied with      the red         and yellow
+> threads of that sacrament.                  Afterwards,    we
+> rested and had a meal, on some high boulders
+> beside the stream, before returning to our tents.
+>        The Swami was full of                the place.     He
+> felt   that     he had never been                to   anything
+> so beautiful.         He sat…
+
+*— THE SWAMI IN LONDON*
+
+> tent with the Swami's idea of freedom, to
+> have sought to impose his own conceptions
+> on a disciple. But everything in my past life
+> as an educationist had contributed to impress
+> on me now the necessity of taking on the
+> Indian consciousness, and the personal per-
+>
+> plexity associated with the memory of the pil-
+> grimage to       Amarnath was a witness not to
+>
+>                               210
+>                   A BORN EDUCATOR
+> be forgotten to the strong place which Indian
+> systems of worship held in that conscious-
+> ness. I set myself therefore to enter into
+> Kali worship, as one would set oneself to
+> learn         a new language, or take birth deli-
+
+*— KSHIR BHOWANI*
+
+> argued, was drenched with the blood of those
+> who had died for the faith. Here, at least,
+> let    him     practise a narrow       orthodoxy!    In
+> answer to       this,   as   became one who was, in
+> fact     'an   anachronism of the         future',   the
+>
+>                               J55
+>                     AMARNATH.
+> Swami made those practical concessions of
+> the moment that were expressive of his
+> love for the brethren, and drove his prin-
+> ciples    home to their minds with the greater
+> force    and vehemence. But, as he told the
+> tale of his warm discussions, the foreign mind
+>
+> could not help, with some amusement, noting
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (1 references):
+
+> my best, if I can, to influence the Raja to start a centre;
+> so much to do here, and the material so hopeful.
+>
+> Kashmir is a veritable heaven on earth. Nowhere
+> else in the world is such a country as this. Mountains
+> and rivers, trees and plants, men and women, beast and
+> and birds—all vie with one another for excellence.
+>
+> Since visiting Amarnath I feel as if Shiva is sitting on
+> my head for twentyfour hours and would not come down.
+>
+> 247
+>
+> I underwent great religious austerities at Amarnath
+
+*— p. 266*
 
 
 ---
@@ -30411,6 +42092,126 @@ Vivekananda stayed on a houseboat on the famous Dal Lake in Srinagar during his 
 *— p. 543*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (3 references):
+
+> was necessary, with its effort and its attain-
+> ment, to create the possibility of the life of
+> Sannyas. The faithful householder was as
+> essential     to     the Sanathan Dharmma as
+> the     faithful     monk. The inviolability of
+> marriage           and the inviolability of the
+>           PASSING OF THE SWAMI
+> monastic vow, were obverse and reverse
+> of a single medal. Without noble citizen-
+> ship,there could be no mighty apostolate.
+> Without the secular, no sacerdotal, without
+> temporal,      no   spiritual.   Thus   all   was one,
+> yet no detail might be wilfully neglected, for
+> through each atom shone the whole.          It
+>
+> was in fact his own old message               in   a new
+> form.    …
+
+*— MONASTICISM AND MARRIAGE*
+
+> He moved fearless and unhesitant through
+> the luxury of the West.        As determinedly as
+> I had seen him in India, dressed in the two
+> garments of simple folk, sitting on the floor
+> and eating with his fingers, so, equally with-
+> out doubt or shrinking, was his acceptance of
+> the complexity of the means of living in
+> America or France. Monk and king, he said,
+> were obverse and reverse of a single medal.
+> From the use of the best, to the renunciation
+> of all, was but one step.      India had thrown
+>
+>       prestige in the past, round poverty.
+> all her
+>
+> Some prestige was in the future to be cast
+> round wealth.
+
+*— PAST AND FUTURE IN INDIA*
+
+> manuscript lines on "Kali the Mother.
+> Writing in a fever of inspiration, he had
+> fallen on the floor, when he had finished
+>     *
+>        He had come, at the express invitation of the Maharajah,
+> to choose a piece of land, for the establishment of a math and Sans-
+> krit college.  But his choice was twice vetoed, on the list of agenda
+> for Council by Sir Adalbert Talbot, then acting as Resident.     Thus
+> it could not even be discussed.
+>
+>                                     164
+>             KALI THE MOTHER
+> as   we learnt    afterwards,    exhausted with
+
+*— KSHIR BHOWANI*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (8 references):
+
+> tlosed doors and had a fairly deep concentration of mind.
+> How long I meditated in that way, I cannot say.
+>
+> It was over, and [ still kept my seat, when from the
+> southern wall of our room a luminous figure stepped out
+> and stood in front of me. There was a wonderful radi-
+> ance on its visage, yet there seemed to be no play of
+> emotion onit. It was the figure of a sanyasin absolutely
+> calm, shaven headed, and staff and kamandalu (a sanya-
+> sin's wooden water-bowl) in hand. He gazed at me for
+> some time, and seemed as if he would address me. I too
+> gazed at him in speechless wonder. Then a kind of fright
+> seized me. I opened the door and hurried out of the
+> room. Then it struck me that it was foolish of…
+
+*— p. 13*
+
+> year is a bad year in America; thousands of their poor
+> are without work. Secondly, the missionaries and the—
+> try to thwart all my views. Thirdly; a year has rolled
+> by, and our countrymen could not even doso much for
+> me as to say to the American people that I was a real
+> Sannyasin and no cheat, and that I represented the
+> Hindu religion. Even this much, the expenditure of a
+> few words, they could not do! (yet) I love them; He
+> who has been with me through hills and dales, through
+> deserts or forest, will be with me, I hope.
+>
+> I am sincere to the backbone, and my greatest fault
+> is that I love my country only to well.
+>
+> 23-6-94: Mrs. Potter Palmer is the chief lady of
+> the United States. She was the…
+
+*— p. 179*
+
+> have faith in this, and lay it to heart.
+>
+> Every new religion: wave requires a new centre.
+> The old religion can only be resivified by a new centre.
+> Hang your dogmas or doctrines, they never pay! It is
+> a character, a life, a centre, a God-man that must lead
+> the way, that must be the centre round which all other
+> elements will- gather themselves and then fall like a
+> tidal wave upon the society, carrying all before it, washing
+> away all impurities.
+>
+> Again, a piece of wood can only easily be cut along
+> the grain. So the old Hinduism can only be reformed
+> through Hinduism, and not through the new-fangled
+> reform movements. At the same time, the reformers
+> must be able to unite in themselves the culture…
+
+*— p. 66*
+
+
 ---
 
 ### Ganderbal
@@ -30507,6 +42308,15 @@ Ganderbal on the Sindh river in central Kashmir was visited by Vivekananda durin
 *— p. 543*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Achabal
@@ -30587,6 +42397,15 @@ Achabal, with its magnificent Mughal garden and the spring of the Achabal Nag, w
 *— p. 543*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Guwahati (Gauhati)
@@ -30637,6 +42456,15 @@ Vivekananda visited Guwahati during his 1901 East Bengal tour. He visited the fa
 > thought his…
 
 *— p. 721*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -30748,6 +42576,50 @@ Vivekananda visited Shillong, then the capital of Assam and a picturesque hill s
 > 173-175.
 
 *— p. 777*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (2 references):
+
+> or eat from the hands of such and such?” - and so on.
+> To which I had to reply- “I am a Sannyasin and a
+> mendicant friar and what need have I to observe
+> so much outward formality with regard to food etc. Do
+> not your scriptures say - “avangstt grala sssgoraie”
+> “One should beg one’s food from door to door, aye even
+> from the house of an outcaste.”
+>
+> The Shillong hills are very beautiful. There I met
+> Sir Henry Cotton, the Chief Commissioner of Assam.
+> He asked me, ‘‘Swamiji, after travelling through Europe
+> and America, what have you come to see here in these
+> distant hills?” Such a good and kind-hearted man as
+> Sir Henry Cotton is rarely found. Hearing of my illness,
+> he sent the Civil Surgeon and…
+
+*— p. 329*
+
+> 308
+>
+> tour through East Bengal and Assam. As usual, I am
+> quite tired and broken down.
+>
+> Belur Math,: 14-6-1901 - At Shillong, the hill
+> sanatorium of Assam, I had fever, Asthma, increase of
+> albumen, and my body swelled to almost twice its normal
+> size. These symptoms subsided, however, as soon as I
+> reached the Math. It is dreadfully hot this year, but a
+> bit of rain has commenced, and I hope we will soon have
+> the monsoon in full force. I have no plans just now except
+> that the Bombay Presidency wants me so urgently that
+> I think of going there soon.
+
+*— p. 330*
 
 
 ---
@@ -30891,6 +42763,34 @@ Murree, the famous hill station near Rawalpindi and Islamabad, was visited by Vi
 *— p. 536*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> which he never wearied, of Siva, the Great
+> God, silent, remote upon the mountains, ask-
+> ing nothing of men but solitude, and ''lost
+> in one eternal meditation.'
+>
+>                                 1   20
+>                 BEAUTY OF KASHMIR.
+>    We drove from Rawalpindi to Murree,
+> where we spent a few days. And then, partly
+> by tonga, partly by boat, we proceeded to
+> Srinagar in Kashmir, and made it our centre
+> and headquarters, during the wanderings of
+> the following months.
+>        It   would be easy to           lose oneself here in
+> the beauty of           our    journeys, in      descriptions
+> of mountain-forests on the road to Almora, or
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Sialkot
@@ -30971,6 +42871,15 @@ Sialkot, an ancient city in Punjab (now Pakistan), was visited by Vivekananda du
 > Taking up the thread of the Swami's…
 
 *— p. 538*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -31115,6 +43024,34 @@ The bungalow of Captain James Henry Sevier at the Advaita Ashrama, Mayavati. Cap
 *— p. 3*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> GNANA YOGA s
+>       HARVARD ADDRESS
+>       COLOMBO TO ALMORA
+>       MY MASTER
+>       And other lectures and       writings,   may be
+> -ordered through the       Udbodhan Office, Gopal
+> Chunder Neogi's Lane, Bagh Bazar, Calcutta;
+> or through the      Office    of    the   Prabuddha
+> Bharata, Mayavati,         Lohaghat Post       Office,
+>
+> via    Almora, U. P.   ;
+>                             or through the Office
+>
+> -of   the Brahmavadin, Triplicane, Madras.
+>  OTHER WORKS OF THE SISTER
+>                   NIVEDITA.
+
+*— THE END*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Captain Sevier's Point, Mayavati
@@ -31257,6 +43194,34 @@ A viewpoint within the Mayavati estate named in memory of Captain James Henry Se
 *— p. 3*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> GNANA YOGA s
+>       HARVARD ADDRESS
+>       COLOMBO TO ALMORA
+>       MY MASTER
+>       And other lectures and       writings,   may be
+> -ordered through the       Udbodhan Office, Gopal
+> Chunder Neogi's Lane, Bagh Bazar, Calcutta;
+> or through the      Office    of    the   Prabuddha
+> Bharata, Mayavati,         Lohaghat Post       Office,
+>
+> via    Almora, U. P.   ;
+>                             or through the Office
+>
+> -of   the Brahmavadin, Triplicane, Madras.
+>  OTHER WORKS OF THE SISTER
+>                   NIVEDITA.
+
+*— THE END*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Sister Nivedita cottage (Oakley House)
@@ -31395,6 +43360,75 @@ Oakley House in Almora — now known as Nivedita House — was the residence whe
 > thing told them in their heart of hearts…
 
 *— p. 334*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> haps for two weeks, and then the party left
+> Allahabad, and by twos and threes returned
+> to the monastery, in the village of Baranagore
+> on   the   banks        of   the      Ganges.   But now
+> there   came a time,         in the    year 1890,    when
+> the Swami left his brothers, not to return, till
+> the great triumph of the year 1897.
+>     This time he set out with a monk known
+> as Akhandananda, who took him to Almora
+> and left him there, enjoying the hospitality
+> of a family who had formerly befriended
+> himself on a journey to Thibet.   It is said
+>
+> that on the way up the mountains, the Swami
+> one day fainted with hunger, when a poor
+> Mohammedan found him, and prepared
+> and gave him a cucumber, which…
+
+*— THE SWAMI IN LONDON*
+
+> he retorted quickly. "But things do not grow
+> better.  They remain as they were, and we
+> grow        better,   by   the   changes   we   make
+>               '
+> in them.
+>    This last sentence has to myself the ring
+> of a Veda.        "We grow better, by the changes
+> we make in them." Similiarly, when we were
+> at Almora, I remember a certain elderly man
+> with a face full of amiable weakness, who
+> came to put to him a question about karma.
+> What were they to do, he asked, whose
+> karma it was, to see the strong oppress the
+> weak ? The Swami turned on him in surpris-
+> ed indignation. "Why thrash the strong, of
+> course !" he said. "You forget your own part
+> in this karma.         Yours is always the right to
+
+*— THE SWAMI IN LONDON*
+
+> stand, in many ways, that the remaining years
+> of his    life in   his father's   house had been al-
+> most more severe than those spent in most
+> monasteries.  And I, reading the Bhagavad
+> Gita under his guidance, long afterwards at
+>
+>                             135
+>           THE AWAKENER OF SOULS.
+> Almora, was made able to conceive of what
+> we     call    the love     of     God    as     a       burning
+> thirst.
+>
+>        Under the influence of the Swami Swa-
+> rupananda,        I
+>                       began seriously the attempt at
+> meditation.           And if it had not been for this
+> help of his, one of the greatest hours of my
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -31537,6 +43571,75 @@ The Swami Vivekananda Memorial Rest Hall in Almora commemorates the Swami's repe
 *— p. 334*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> haps for two weeks, and then the party left
+> Allahabad, and by twos and threes returned
+> to the monastery, in the village of Baranagore
+> on   the   banks        of   the      Ganges.   But now
+> there   came a time,         in the    year 1890,    when
+> the Swami left his brothers, not to return, till
+> the great triumph of the year 1897.
+>     This time he set out with a monk known
+> as Akhandananda, who took him to Almora
+> and left him there, enjoying the hospitality
+> of a family who had formerly befriended
+> himself on a journey to Thibet.   It is said
+>
+> that on the way up the mountains, the Swami
+> one day fainted with hunger, when a poor
+> Mohammedan found him, and prepared
+> and gave him a cucumber, which…
+
+*— THE SWAMI IN LONDON*
+
+> he retorted quickly. "But things do not grow
+> better.  They remain as they were, and we
+> grow        better,   by   the   changes   we   make
+>               '
+> in them.
+>    This last sentence has to myself the ring
+> of a Veda.        "We grow better, by the changes
+> we make in them." Similiarly, when we were
+> at Almora, I remember a certain elderly man
+> with a face full of amiable weakness, who
+> came to put to him a question about karma.
+> What were they to do, he asked, whose
+> karma it was, to see the strong oppress the
+> weak ? The Swami turned on him in surpris-
+> ed indignation. "Why thrash the strong, of
+> course !" he said. "You forget your own part
+> in this karma.         Yours is always the right to
+
+*— THE SWAMI IN LONDON*
+
+> stand, in many ways, that the remaining years
+> of his    life in   his father's   house had been al-
+> most more severe than those spent in most
+> monasteries.  And I, reading the Bhagavad
+> Gita under his guidance, long afterwards at
+>
+>                             135
+>           THE AWAKENER OF SOULS.
+> Almora, was made able to conceive of what
+> we     call    the love     of     God    as     a       burning
+> thirst.
+>
+>        Under the influence of the Swami Swa-
+> rupananda,        I
+>                       began seriously the attempt at
+> meditation.           And if it had not been for this
+> help of his, one of the greatest hours of my
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Government Inter College
@@ -31675,6 +43778,75 @@ On 27 July 1897, Vivekananda delivered a public lecture at the Government Inter 
 > thing told them in their heart of hearts…
 
 *— p. 334*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> haps for two weeks, and then the party left
+> Allahabad, and by twos and threes returned
+> to the monastery, in the village of Baranagore
+> on   the   banks        of   the      Ganges.   But now
+> there   came a time,         in the    year 1890,    when
+> the Swami left his brothers, not to return, till
+> the great triumph of the year 1897.
+>     This time he set out with a monk known
+> as Akhandananda, who took him to Almora
+> and left him there, enjoying the hospitality
+> of a family who had formerly befriended
+> himself on a journey to Thibet.   It is said
+>
+> that on the way up the mountains, the Swami
+> one day fainted with hunger, when a poor
+> Mohammedan found him, and prepared
+> and gave him a cucumber, which…
+
+*— THE SWAMI IN LONDON*
+
+> he retorted quickly. "But things do not grow
+> better.  They remain as they were, and we
+> grow        better,   by   the   changes   we   make
+>               '
+> in them.
+>    This last sentence has to myself the ring
+> of a Veda.        "We grow better, by the changes
+> we make in them." Similiarly, when we were
+> at Almora, I remember a certain elderly man
+> with a face full of amiable weakness, who
+> came to put to him a question about karma.
+> What were they to do, he asked, whose
+> karma it was, to see the strong oppress the
+> weak ? The Swami turned on him in surpris-
+> ed indignation. "Why thrash the strong, of
+> course !" he said. "You forget your own part
+> in this karma.         Yours is always the right to
+
+*— THE SWAMI IN LONDON*
+
+> stand, in many ways, that the remaining years
+> of his    life in   his father's   house had been al-
+> most more severe than those spent in most
+> monasteries.  And I, reading the Bhagavad
+> Gita under his guidance, long afterwards at
+>
+>                             135
+>           THE AWAKENER OF SOULS.
+> Almora, was made able to conceive of what
+> we     call    the love     of     God    as     a       burning
+> thirst.
+>
+>        Under the influence of the Swami Swa-
+> rupananda,        I
+>                       began seriously the attempt at
+> meditation.           And if it had not been for this
+> help of his, one of the greatest hours of my
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -31822,6 +43994,57 @@ The Stimpson Mansion in Los Angeles was among the grand residences where Swami V
 *— p. 676*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (4 references):
+
+> to address the Congress and, through it, the world.   The electric effect
+> on the audience of the first words Swamiji spoke is well knowm.
+> Both Barrows and Houghton comment on the fact that                “when
+> Mr. Vivekananda addressed the audience as ‘Sisters and Brothers of
+> America,’ there arose a peal of applause that lasted for several
+> minutes,” and Swamiji himself tells us that “a deafening applause of
+> two minutes follotvcd . . .” Another reference to this incident comes
+> from Mrs. S. K. Blodgett, who much later became Sw'amiji’s hostess
+> in Los Angeles.   “I was at the Parliament of Religions in Chicago
+> in 1893,” she once told.   “When that young man got up and said,
+> ‘Sisters and…
+
+*— THE PARUAMENT OF RELIGIONS*
+
+> blanket, which accompanied the trunk and cane, was actually a large,
+>  coarsely woven, dark orange shawl, the kind sometimes worn by
+> wandering monks in India.
+>       From the letters of her daughter-in-law we learn that Mrs. Kate
+> Tannatt Woods, who was fifty-eight when Swamiji was her guest, was,
+> like Miss Kate Sanborn, an energetic lecturer and authoress. “[She]
+> died July 10, 1910 . . . then 75 years of age, but very youthful in
+> manner and looks, having lecture engagements all over the country.
+> She went to Los Angeles and all over the West Coast not long before
+> she passed on.” Duritig her lifetime she wrote “many books,” among
+> which were “Hester Hepworth,” a story of the witchcraft…
+
+*— BEFORE THE PARLIAMENT*
+
+> to audiences often composed of as many as two tliousand people, among
+> whom were prominent California clergymen. The impression he
+> created was tremendous, and at the request of some San Franciscans,
+> he moved to their city toward the end of I’chruary. There he worked
+> strenuously through March and April, lecturing and holding classes
+> almost incessantly. Aside from appearing in San Francisco, he delivered
+> lectures also in Oakland and Alameda, staying at the “Home of
+> Truth” in the latter city. In San Francisco Swamiji formed, as he had
+> in New York and Los Angeles, a Vedanta Society. Moreover, he
+> directed Swami Turiyananda to establish a retreat, “Shanti Ashrama,”
+> on a tract of land in the San…
+
+*— SWAMI VIVEKANANDA:       NEW DISCOVERIES*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Roxie Blodgett Cottage
@@ -31965,6 +44188,15 @@ The cottage of Roxie Blodgett in Los Angeles was a place where Swami Vivekananda
 > remained in Los Angeles till the middle of February.…
 
 *— p. 676*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -32112,6 +44344,57 @@ Blanchard Hall in Los Angeles was one of the venues where Swami Vivekananda deli
 *— p. 676*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (4 references):
+
+> to address the Congress and, through it, the world.   The electric effect
+> on the audience of the first words Swamiji spoke is well knowm.
+> Both Barrows and Houghton comment on the fact that                “when
+> Mr. Vivekananda addressed the audience as ‘Sisters and Brothers of
+> America,’ there arose a peal of applause that lasted for several
+> minutes,” and Swamiji himself tells us that “a deafening applause of
+> two minutes follotvcd . . .” Another reference to this incident comes
+> from Mrs. S. K. Blodgett, who much later became Sw'amiji’s hostess
+> in Los Angeles.   “I was at the Parliament of Religions in Chicago
+> in 1893,” she once told.   “When that young man got up and said,
+> ‘Sisters and…
+
+*— THE PARUAMENT OF RELIGIONS*
+
+> blanket, which accompanied the trunk and cane, was actually a large,
+>  coarsely woven, dark orange shawl, the kind sometimes worn by
+> wandering monks in India.
+>       From the letters of her daughter-in-law we learn that Mrs. Kate
+> Tannatt Woods, who was fifty-eight when Swamiji was her guest, was,
+> like Miss Kate Sanborn, an energetic lecturer and authoress. “[She]
+> died July 10, 1910 . . . then 75 years of age, but very youthful in
+> manner and looks, having lecture engagements all over the country.
+> She went to Los Angeles and all over the West Coast not long before
+> she passed on.” Duritig her lifetime she wrote “many books,” among
+> which were “Hester Hepworth,” a story of the witchcraft…
+
+*— BEFORE THE PARLIAMENT*
+
+> to audiences often composed of as many as two tliousand people, among
+> whom were prominent California clergymen. The impression he
+> created was tremendous, and at the request of some San Franciscans,
+> he moved to their city toward the end of I’chruary. There he worked
+> strenuously through March and April, lecturing and holding classes
+> almost incessantly. Aside from appearing in San Francisco, he delivered
+> lectures also in Oakland and Alameda, staying at the “Home of
+> Truth” in the latter city. In San Francisco Swamiji formed, as he had
+> in New York and Los Angeles, a Vedanta Society. Moreover, he
+> directed Swami Turiyananda to establish a retreat, “Shanti Ashrama,”
+> on a tract of land in the San…
+
+*— SWAMI VIVEKANANDA:       NEW DISCOVERIES*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Unity Church
@@ -32173,6 +44456,15 @@ Swami Vivekananda spoke at the Unity Church in Los Angeles during his 1900 Calif
 > in five hours it is done; in India they could not do it in fifty years; they are so unpractical in matters…
 
 *— Complete Works of Swami Vivekananda*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -32320,6 +44612,15 @@ Payne's Hall in Los Angeles was a venue where Swami Vivekananda lectured during 
 *— p. 676*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Home of Truth
@@ -32458,6 +44759,15 @@ The Home of Truth in Los Angeles was a New Thought spiritual centre associated w
 *— p. 676*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Echo Mountain House
@@ -32489,7 +44799,16 @@ Echo Mountain House, situated in the San Gabriel Mountains above Pasadena, was a
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -32507,7 +44826,16 @@ Mount Lowe in the San Gabriel Mountains was among the natural landmarks visited 
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -32525,7 +44853,16 @@ The home of Mrs. Newton in South Pasadena, California, was one of the residences
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -32543,7 +44880,16 @@ The home of Mrs. E. F. Bowler in South Pasadena, California, was among the priva
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -32680,6 +45026,15 @@ The Green Hotel in the Pasadena area of Southern California was associated with 
 *— p. 370*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Shakespeare club
@@ -32785,6 +45140,15 @@ The Shakespeare Club in South Pasadena, California, hosted Swami Vivekananda dur
 *— p. 677*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Universalist Church
@@ -32867,6 +45231,15 @@ The Universalist Church in South Pasadena, California, was a venue where Swami V
 *— p. 677*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Meads Sisters house
@@ -32882,7 +45255,16 @@ The home of the Meads Sisters in South Pasadena, California, was one of the welc
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -33023,6 +45405,15 @@ Swami Vivekananda lectured at the First Unitarian Church in Oakland, California,
 > and A. S. Wollberg,…
 
 *— p. 680*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -33170,6 +45561,15 @@ The home of George H. Perry in Alameda, California, was one of the Bay Area resi
 *— p. 682*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Alameda Home of Truth
@@ -33313,6 +45713,15 @@ The Alameda Home of Truth was a New Thought spiritual centre in Alameda, Califor
 > bonds and fly unto the Highest. One finds in this letter…
 
 *— p. 682*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -33460,6 +45869,15 @@ Tucker Hall in Alameda, California, was a venue where Swami Vivekananda lectured
 *— p. 682*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Home of Truth
@@ -33598,6 +46016,15 @@ The Home of Truth in San Francisco was one of the key New Thought centres associ
 > Psychology” and found that Californians were…
 
 *— p. 677*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -33740,6 +46167,15 @@ The California Street Home of Truth in San Francisco was a New Thought centre on
 *— p. 679*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### 1719 Turk St. House
@@ -33880,6 +46316,57 @@ The house at 1719 Turk Street in San Francisco was one of the residences associa
 *— p. 679*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (5 references):
+
+> extensive tract of scenic forest land not far from the park.
+>      In San krancisco Swamiji was in one of his most supernal moods.
+> He had known two years of extreme suffering, the nature and intensity
+> of which can perhaps be understood only by another eternally free soul
+> held as he by the Divine Mother in the relative world to do Her work.
+> Now his mind was at peace. His health also was better than it had
+> been in years. “1 never had a struggle in the jaws of death but
+> it meant a tremendous upheaval of the whole life,” he wrote to
+> Sister Nivedita from San Francisco.         “One such brought me         to
+> Ramakrishna, another sent me to the U.S., this has been the greatest
+> of all.”    Again on…
+
+*— EPILOGUE*
+
+> head of the Vedanta center in Chicago, that these three pages, covered
+> with Swamiji’s handwriting in pencil, came into the hands of Swami
+> Ashokananda. Welcome as they were, they presented a mastery, for
+> there was no indication from what source Swamiji had quoted, if he
+> had cpioted at all. The only clue was a single notation in his hand on
+> the back of the third sheet, which read:            “I.ouis Rousselet,” an
+> unknown name which could mean anything or nothing. But \vhile
+> Swami Ashokananda was puzzling over the import of Swamiji’s writing,
+> the San Francisco Vedanta Society received a packet of secondhand
+> books that had been bought on sale, sight unseen. Among them was
+> a large illustrated…
+
+*— SWAMI VIVEKANANDA; NEW DISCOVERIES*
+
+> spiritual power spread from person to person, and very likely n\any
+> came to him for private interviews seeking help and guidance. A
+> story of one such interview has been recounted by Mme. Emma C.alve
+> in her autobiography, "My Life,’’ and subsequently reproduced in
+> "The Life of Swami Vivekarianda.” But Mme. Calve evidently did
+> not choose to tell the whole story in her book. We are fortunate
+> enough to have in our possession an account of this same meeting as
+> she told it to a sympathetic friend long before she wrote lier memoirs.
+> It is to Mme. Paul Verdier, of Paris and San Francisco, that 'we are
+> indebted for this earlier and more complete version, for it was site
+> to whom Calve confided the…
+
+*— IN AND AROUND CHICAGO*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Golden Gate Hall
@@ -34016,6 +46503,57 @@ Golden Gate Hall in San Francisco was one of the public venues where Swami Vivek
 > “Krishna’s Message to the World”, “The…
 
 *— p. 679*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (5 references):
+
+> extensive tract of scenic forest land not far from the park.
+>      In San krancisco Swamiji was in one of his most supernal moods.
+> He had known two years of extreme suffering, the nature and intensity
+> of which can perhaps be understood only by another eternally free soul
+> held as he by the Divine Mother in the relative world to do Her work.
+> Now his mind was at peace. His health also was better than it had
+> been in years. “1 never had a struggle in the jaws of death but
+> it meant a tremendous upheaval of the whole life,” he wrote to
+> Sister Nivedita from San Francisco.         “One such brought me         to
+> Ramakrishna, another sent me to the U.S., this has been the greatest
+> of all.”    Again on…
+
+*— EPILOGUE*
+
+> head of the Vedanta center in Chicago, that these three pages, covered
+> with Swamiji’s handwriting in pencil, came into the hands of Swami
+> Ashokananda. Welcome as they were, they presented a mastery, for
+> there was no indication from what source Swamiji had quoted, if he
+> had cpioted at all. The only clue was a single notation in his hand on
+> the back of the third sheet, which read:            “I.ouis Rousselet,” an
+> unknown name which could mean anything or nothing. But \vhile
+> Swami Ashokananda was puzzling over the import of Swamiji’s writing,
+> the San Francisco Vedanta Society received a packet of secondhand
+> books that had been bought on sale, sight unseen. Among them was
+> a large illustrated…
+
+*— SWAMI VIVEKANANDA; NEW DISCOVERIES*
+
+> spiritual power spread from person to person, and very likely n\any
+> came to him for private interviews seeking help and guidance. A
+> story of one such interview has been recounted by Mme. Emma C.alve
+> in her autobiography, "My Life,’’ and subsequently reproduced in
+> "The Life of Swami Vivekarianda.” But Mme. Calve evidently did
+> not choose to tell the whole story in her book. We are fortunate
+> enough to have in our possession an account of this same meeting as
+> she told it to a sympathetic friend long before she wrote lier memoirs.
+> It is to Mme. Paul Verdier, of Paris and San Francisco, that 'we are
+> indebted for this earlier and more complete version, for it was site
+> to whom Calve confided the…
+
+*— IN AND AROUND CHICAGO*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -34158,6 +46696,15 @@ Washington Hall in San Francisco was a venue where Swami Vivekananda lectured du
 *— p. 681*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Union Square Hall
@@ -34298,6 +46845,15 @@ Union Square Hall in San Francisco, located near the city's famous public square
 *— p. 679*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Mount Shasta, CA
@@ -34313,7 +46869,16 @@ Mount Shasta, the majestic volcanic peak in northern California, was among the n
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -34456,6 +47021,15 @@ The home of Dr. Milburn Logan in San Francisco was one of the residences where S
 *— p. 679*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Camp Irving
@@ -34507,6 +47081,15 @@ Camp Irving at Camp Taylor in Marin County, California, was a retreat destinatio
 *— p. 682*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Rue Anatole
@@ -34522,7 +47105,16 @@ Rue Anatole in Perros-Guirec, a coastal town in Brittany, France, was the addres
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -34558,6 +47150,15 @@ Swami Vivekananda visited the Mont Blanc massif near Chamonix during his 1900 Eu
 *— p. 433*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Mont-Saint-Michel
@@ -34589,7 +47190,16 @@ Swami Vivekananda visited the iconic Mont-Saint-Michel in Normandy, France, duri
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -34719,6 +47329,90 @@ Swami Vivekananda visited Istanbul (then known as Constantinople) during his tra
 *— p. 707*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> find   himself associated, in his              visit,    rather
+>  with the foreigner than with them.                      In this
+>
+>  respect,        indeed,   it   would seem that he had
+>
+>                                 497
+>               PASSING OF THE SWAMI
+>
+> enjoyed his glimpse of Constantinople vastly
+> more than Egypt, for towards the end of
+> his life he was never tired of talking about
+> a certain old Turk who kept an eating-house
+> there, and had insisted on giving entertain-
+> ment without price to the party of stangers,
+> one of whom came from India. So true it was,
+> that to the oriental, untouched by modern
+
+*— MONASTICISM AND MARRIAGE*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (6 references):
+
+> of the famous Maxim gun-the gun that sends off a conti-
+> nuous round of balls, and is loaded and discharged auto-
+> matically, without intermission. An admirer of India and
+> China, Maxim is a good writer on religion, philosophy
+> etc. Having read my works long since, he holds me in
+> great - I should say, excessive admiration.
+>
+> The tour programme was as follows: from Paris to
+> Vienna and thence to Constantinople, by rail; then by
+> steamer to Athens and Greece, then across the Mediter-
+> ranean to Egypt, then Asia Minor, Jerusalem, and so on.
+>
+> Paris, in the year 1900 was the centre of the civilised
+> world, for it was the year of the Paris Exhibition and
+> there was an assemblage of eminent men and women…
+
+*— p. 312*
+
+> lecture. We saw Mr. Devanmall and Chobeji-a Gujarati
+> Brahmin. There are a good many Indians here, Hindu-
+> stanis, Mussalmans, etc. We had a talk on Turkish
+> Philology and heard of Noor Bey, whose grandfather was
+> a Frenchman. The women here have got no Purdah
+> system and are very free. We heard of Kurd Pasha, and
+> the massacre of Armenians.
+>
+> At 10 in the morning, we left Constantinople, passing
+> a night and a day on the sea, which was perfectly placid;
+> by degrees, we reached the Golden Horn and the sea
+> of Marmora. In one of the islands of the Marmora, we
+> saw a monastery of the Greek religion.
+>
+> While out in the morning on a visit to the Mediter-
+> ranean Archipelago, we came across Professor…
+
+*— p. 322*
+
+> Vienna is a small city after the model of Paris. The
+> thing most worth seeing in Vienna is the Museum, speci-
+> ally the scientific Museum, an institution of great benefit
+> to the students. Three days in Vienna were sufficient to
+> tire me.
+>
+> On the 28th Oct., at 9 P. M., we again took that
+> Orient Express train, which reached Constantinople on
+> the 30th. These two nights and one day, the train ran
+> through Hungary, Serbia and Bulgaria.
+>
+> Formerly, I had the notion that people of cold clima-
+> tes did not take hot chillies, which was merely a bad
+> habit of warm climate people. But the habit of taking
+> chillies, which we observed to begin with Hungary and
+> which reached its climax in Rumania, Bulgeria, etc.
+
+*— p. 320*
+
+
 ---
 
 ### Vienna, Austria
@@ -34828,6 +47522,72 @@ Swami Vivekananda visited Vienna, the imperial capital of Austria-Hungary, durin
 > Pére Hyacinthe was not…
 
 *— p. 708*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (4 references):
+
+> of the famous Maxim gun-the gun that sends off a conti-
+> nuous round of balls, and is loaded and discharged auto-
+> matically, without intermission. An admirer of India and
+> China, Maxim is a good writer on religion, philosophy
+> etc. Having read my works long since, he holds me in
+> great - I should say, excessive admiration.
+>
+> The tour programme was as follows: from Paris to
+> Vienna and thence to Constantinople, by rail; then by
+> steamer to Athens and Greece, then across the Mediter-
+> ranean to Egypt, then Asia Minor, Jerusalem, and so on.
+>
+> Paris, in the year 1900 was the centre of the civilised
+> world, for it was the year of the Paris Exhibition and
+> there was an assemblage of eminent men and women…
+
+*— p. 312*
+
+> tion. I left my old friends and acquaintances and put
+> up with a new friend, a Frenchman of ordinary means,
+> who knew no English, and my French, well, it was some-
+> thing quite extraordinary !
+>
+> I had this in mind that the inability to live like a
+> dumb man would naturally force me to talk French, and
+> I would attain fluency in that language inno time. But
+> on the contrary, I took to a tour through Vienna, Turkey,
+> Greece, Egypt and Jerusalem !
+>
+> I had three travelling companions-two of them
+> French and the third, an American. The French male
+> companion was Monsieur Jules Bois, a famous Philoso-
+> pher, and literatuer of France; and the French lady friend
+> was the world-renowned singer Madamoiselle…
+
+*— p. 309*
+
+> for, and a man from the hotel was waiting for us with a
+> carriage: we reached the hotel duly. It was out of
+> question to go out for sight-seeing during the night; so
+> the next morning we started to see the town.
+>
+> Vienna is a small city after the model of Paris. The
+> thing most worth seeing in Vienna is the Museum, speci-
+> ally the scientific Museum, an institution of great benefit
+> to the students. Three days in Vienna were sufficient to
+> tire me.
+>
+> On the 28th Oct., at 9 P. M., we again took that
+> Orient Express train, which reached Constantinople on
+> the 30th. These two nights and one day, the train ran
+> through Hungary, Serbia and Bulgaria.
+>
+> Formerly, I had the notion that people of cold clima-
+
+*— p. 320*
 
 
 ---
@@ -34955,6 +47715,50 @@ Swami Vivekananda visited Athens, the cradle of Western civilisation, during his
 *— p. 328*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (2 references):
+
+> nuous round of balls, and is loaded and discharged auto-
+> matically, without intermission. An admirer of India and
+> China, Maxim is a good writer on religion, philosophy
+> etc. Having read my works long since, he holds me in
+> great - I should say, excessive admiration.
+>
+> The tour programme was as follows: from Paris to
+> Vienna and thence to Constantinople, by rail; then by
+> steamer to Athens and Greece, then across the Mediter-
+> ranean to Egypt, then Asia Minor, Jerusalem, and so on.
+>
+> Paris, in the year 1900 was the centre of the civilised
+> world, for it was the year of the Paris Exhibition and
+> there was an assemblage of eminent men and women from
+> all quarters of the globe. The master minds of all…
+
+*— p. 312*
+
+> saw a monastery of the Greek religion.
+>
+> While out in the morning on a visit to the Mediter-
+> ranean Archipelago, we came across Professor Liper,
+> whose acquaintance I had already made in the Pachiappa
+> College at Madras. In one of the islands, we came upon
+> the ruins of a temple, which had probably been dedicated
+> to Neptune, judging from its position on the sea-shore. In
+> the evening, we reached Athens, and after passing a whole
+> night, under quarantine, we obtained permission for land-
+> ing in the morning. Port Peiraeus is a small town, but
+> very beautiful. From there we drove five miles to have
+> a look at the ancient walls of Athens which used to con-
+> nect the city with the port. Then we went…
+
+*— p. 322*
+
+
 ---
 
 ### Amsterdam, Holland
@@ -35042,6 +47846,15 @@ Swami Vivekananda visited Amsterdam in Holland during his 1900 European travels.
 *— p. 439*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Geneva
@@ -35091,6 +47904,15 @@ Swami Vivekananda visited Geneva during his 1900 European travels. The cosmopoli
 *— p. 433*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Zermatt, Switcherland
@@ -35123,6 +47945,15 @@ Swami Vivekananda visited Zermatt in the Swiss Alps during his 1900 European tra
 > too rarefied for the other two. The next…
 
 *— p. 436*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -35172,7 +48003,16 @@ Saas-Fee, the 'Pearl of the Alps' in the Swiss canton of Valais, was visited by 
 *— Complete Works of Swami Vivekananda*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -35274,6 +48114,15 @@ Swami Vivekananda visited Lucerne in central Switzerland during his 1900 Europea
 *— p. 444*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Schaffhausen, Switzerland
@@ -35306,6 +48155,15 @@ Schaffhausen in northern Switzerland, famous for the nearby Rhine Falls — the 
 > two days were spent. A visit…
 
 *— p. 436*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -35456,6 +48314,94 @@ During his second visit to America, Vivekananda established the Vedanta Society 
 *— p. 679*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (5 references):
+
+> extensive tract of scenic forest land not far from the park.
+>      In San krancisco Swamiji was in one of his most supernal moods.
+> He had known two years of extreme suffering, the nature and intensity
+> of which can perhaps be understood only by another eternally free soul
+> held as he by the Divine Mother in the relative world to do Her work.
+> Now his mind was at peace. His health also was better than it had
+> been in years. “1 never had a struggle in the jaws of death but
+> it meant a tremendous upheaval of the whole life,” he wrote to
+> Sister Nivedita from San Francisco.         “One such brought me         to
+> Ramakrishna, another sent me to the U.S., this has been the greatest
+> of all.”    Again on…
+
+*— EPILOGUE*
+
+> head of the Vedanta center in Chicago, that these three pages, covered
+> with Swamiji’s handwriting in pencil, came into the hands of Swami
+> Ashokananda. Welcome as they were, they presented a mastery, for
+> there was no indication from what source Swamiji had quoted, if he
+> had cpioted at all. The only clue was a single notation in his hand on
+> the back of the third sheet, which read:            “I.ouis Rousselet,” an
+> unknown name which could mean anything or nothing. But \vhile
+> Swami Ashokananda was puzzling over the import of Swamiji’s writing,
+> the San Francisco Vedanta Society received a packet of secondhand
+> books that had been bought on sale, sight unseen. Among them was
+> a large illustrated…
+
+*— SWAMI VIVEKANANDA; NEW DISCOVERIES*
+
+> spiritual power spread from person to person, and very likely n\any
+> came to him for private interviews seeking help and guidance. A
+> story of one such interview has been recounted by Mme. Emma C.alve
+> in her autobiography, "My Life,’’ and subsequently reproduced in
+> "The Life of Swami Vivekarianda.” But Mme. Calve evidently did
+> not choose to tell the whole story in her book. We are fortunate
+> enough to have in our possession an account of this same meeting as
+> she told it to a sympathetic friend long before she wrote lier memoirs.
+> It is to Mme. Paul Verdier, of Paris and San Francisco, that 'we are
+> indebted for this earlier and more complete version, for it was site
+> to whom Calve confided the…
+
+*— IN AND AROUND CHICAGO*
+
+
+**From *Vivekananda on Himself* (1959)** (2 references):
+
+> I am decidedly better in health. The healer thinks I
+> am not at liberty to go anywhere I choose; the process will
+> go on and I shall completely recover in a few months......
+> Iam here principally for health......
+>
+> Now it occurs to me that my mission from the plat-
+> form is finished.
+>
+> Los Angles: 15-2-1900 - Going to San Francisco
+> next week.
+>
+> Pasadena: 20-2-1900 -T have lost many relatives,
+> suffered much, and the most curious cause of suffering
+> when somebody goes off is the feeling that I was not good
+> enough to that person. When my father died, it was a
+> pang for months, and I had been so disobedient..... I was
+> in the glare, burning and panting all the time...... My life
+
+*— p. 306*
+
+> where I find ready listeners by hundreds prepared
+> beforehand by my books.
+>
+> 285
+>
+> San Francisco: 4-3-1900 - My health is about the
+> same; don’t find much difference; it is improving perhaps
+> but very imperceptibly. I can use my voice, however, to
+> make 3,000 people hear me as I did twice in Oakland,
+> and get good sleep too after two hours of speaking.
+>
+> San Francisco : 7-3-1900 -1 am so so in health. No
+> money. Hard work. No result. Worse than Los Angeles.
+> They come in crowds when the lecture is free-when there
+
+*— p. 307*
+
+
 ---
 
 ### Los Angeles
@@ -35601,6 +48547,110 @@ Vivekananda lectured in Los Angeles during his 1900 California visit, drawing la
 *— p. 676*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (4 references):
+
+> to address the Congress and, through it, the world.   The electric effect
+> on the audience of the first words Swamiji spoke is well knowm.
+> Both Barrows and Houghton comment on the fact that                “when
+> Mr. Vivekananda addressed the audience as ‘Sisters and Brothers of
+> America,’ there arose a peal of applause that lasted for several
+> minutes,” and Swamiji himself tells us that “a deafening applause of
+> two minutes follotvcd . . .” Another reference to this incident comes
+> from Mrs. S. K. Blodgett, who much later became Sw'amiji’s hostess
+> in Los Angeles.   “I was at the Parliament of Religions in Chicago
+> in 1893,” she once told.   “When that young man got up and said,
+> ‘Sisters and…
+
+*— THE PARUAMENT OF RELIGIONS*
+
+> blanket, which accompanied the trunk and cane, was actually a large,
+>  coarsely woven, dark orange shawl, the kind sometimes worn by
+> wandering monks in India.
+>       From the letters of her daughter-in-law we learn that Mrs. Kate
+> Tannatt Woods, who was fifty-eight when Swamiji was her guest, was,
+> like Miss Kate Sanborn, an energetic lecturer and authoress. “[She]
+> died July 10, 1910 . . . then 75 years of age, but very youthful in
+> manner and looks, having lecture engagements all over the country.
+> She went to Los Angeles and all over the West Coast not long before
+> she passed on.” Duritig her lifetime she wrote “many books,” among
+> which were “Hester Hepworth,” a story of the witchcraft…
+
+*— BEFORE THE PARLIAMENT*
+
+> to audiences often composed of as many as two tliousand people, among
+> whom were prominent California clergymen. The impression he
+> created was tremendous, and at the request of some San Franciscans,
+> he moved to their city toward the end of I’chruary. There he worked
+> strenuously through March and April, lecturing and holding classes
+> almost incessantly. Aside from appearing in San Francisco, he delivered
+> lectures also in Oakland and Alameda, staying at the “Home of
+> Truth” in the latter city. In San Francisco Swamiji formed, as he had
+> in New York and Los Angeles, a Vedanta Society. Moreover, he
+> directed Swami Turiyananda to establish a retreat, “Shanti Ashrama,”
+> on a tract of land in the San…
+
+*— SWAMI VIVEKANANDA:       NEW DISCOVERIES*
+
+
+**From *Vivekananda on Himself* (1959)** (5 references):
+
+> Almeda Calif : 2-5-1900 -I have been very ill, one
+> more relapse brought about by months of hard work.
+>
+> New York: 11-5-1900 - I have been much censured
+> by everyone for cutting off my long hair......... I had been
+> to Detroit and came back yesterday. Trying as soon as
+> possible to go ‘fo France, then to India......
+>
+> Los Angeles: 17-6-1900- Kali worship is not a
+> necessary step in any religion. Tbe Upanishads teach us
+> all that there is of religion. Kali worship is my special
+> fad. I only preach what is good for universal humanity.
+> If there is any curious method which applies entirely to
+> me, I keep it a secret and there it ends. I never taught
+> Kali worship to any body......
+
+*— p. 307*
+
+> San Francisco: 4-3-1900 - My health is about the
+> same; don’t find much difference; it is improving perhaps
+> but very imperceptibly. I can use my voice, however, to
+> make 3,000 people hear me as I did twice in Oakland,
+> and get good sleep too after two hours of speaking.
+>
+> San Francisco : 7-3-1900 -1 am so so in health. No
+> money. Hard work. No result. Worse than Los Angeles.
+> They come in crowds when the lecture is free-when there
+> is payment, they don’t.
+>
+> Almeda Calif : 20-4-1900 - A kind lady has given
+> me a pass up to New York to be used within three
+> months. The Mother will take care of me. She is not
+> going to strand me now after guarding me all my life.
+
+*— p. 307*
+
+> motherly...... I shall be very happy if I can make a lot
+> of money. I am making some.
+>
+> 284
+>
+> Los Angeles: 17-1-1900-Ihave been able to
+> remit Rs. 2,000/- to Saradananda with the help of Miss
+> MacLeod and Mrs. Leggett. Of course, they contributed
+> the best part. The rest was got by lectures......
+>
+> I am decidedly better in health. The healer thinks I
+> am not at liberty to go anywhere I choose; the process will
+> go on and I shall completely recover in a few months......
+> Iam here principally for health......
+
+*— p. 306*
+
+
 ---
 
 ### Pasadena
@@ -35744,6 +48794,54 @@ Vivekananda gave several lectures in Pasadena during his California tour in 1900
 *— p. 687*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (2 references):
+
+> Iam here principally for health......
+>
+> Now it occurs to me that my mission from the plat-
+> form is finished.
+>
+> Los Angles: 15-2-1900 - Going to San Francisco
+> next week.
+>
+> Pasadena: 20-2-1900 -T have lost many relatives,
+> suffered much, and the most curious cause of suffering
+> when somebody goes off is the feeling that I was not good
+> enough to that person. When my father died, it was a
+> pang for months, and I had been so disobedient..... I was
+> in the glare, burning and panting all the time...... My life
+> is made up of continuous blows, because of poverty,
+> treachery and my own foolishness !
+
+*— p. 306*
+
+> been taking rest at the Leggett's and doing nothing.
+> Abhedananda is here. He has been working hard.
+>
+> N.Y. : 22-12-99 - Thad a slight relapse of late,
+> for which the healer has rubbed several inches of my skin
+> off. Just now I am feeling it, the smart.
+>
+> I had a very hopeful note from Margo (Margaret E.
+> Noble)... I am grinding on in Pasadena ! hope some result
+> will come out of my work here. Some people here are
+> very enthusiastic; The Raja~Yoga book did indeed great
+> service on this coast. I am mentally very well, indeed; I
+> never really was so well as of late. The lectures for one
+> thing do not disturb my sleep, that is some gain. I am
+> doing some writing, too. The lectures here were taken
+>
+> down by…
+
+*— p. 303*
+
+
 ---
 
 ### Camp Taylor (Shanti Ashrama)
@@ -35827,6 +48925,46 @@ Vivekananda's favourite retreat in America. He called this place 'Shanti Ashrama
 > shraddha ceremony, 529
 
 *— p. 775*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (2 references):
+
+> whom were prominent California clergymen. The impression he
+> created was tremendous, and at the request of some San Franciscans,
+> he moved to their city toward the end of I’chruary. There he worked
+> strenuously through March and April, lecturing and holding classes
+> almost incessantly. Aside from appearing in San Francisco, he delivered
+> lectures also in Oakland and Alameda, staying at the “Home of
+> Truth” in the latter city. In San Francisco Swamiji formed, as he had
+> in New York and Los Angeles, a Vedanta Society. Moreover, he
+> directed Swami Turiyananda to establish a retreat, “Shanti Ashrama,”
+> on a tract of land in the San Antonio Valley, about ninety miles south¬
+> east of San Francisco, which…
+
+*— SWAMI VIVEKANANDA:       NEW DISCOVERIES*
+
+> Dushyanta and mother of Bharata, ancestor of a long race of Indian
+>     kings.
+>                                      637
+>
+> Shaiikara A great philosopher and knower of God of the eighth
+>      century A.D., who was the foremost exponent of and commentator
+>      on monistic Vedanta.
+> Shanti Ashrama (Lit., Peace Retreat) A retreat belonging to the
+>      Vedanta Society of Northern California.
+> Shariraka-Sutias The Vedanta-Sutras of Badarayana Vyasa, the apho¬
+>      risms on the Vedanta philosophy Avhich give it an organized form.
+>      Shariraka—the embodied spirit; Sutras—^aphorisms.
+> Shiva (Lit., the Auspicious One) A name of God, specifically in His
+>      aspects of destruction and compassion. Shiva is…
+
+*— GLOSSARY*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -35954,6 +49092,173 @@ Vivekananda attended and spoke at the Congress of History of Religions in Paris 
 *— p. 383*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (7 references):
+
+> determining concept of celibacy or brahma-
+> ckarya, in the Swami's own mind.       He
+> called souls to take this            vow as if he were
+> calling    them    to   the    most     honourable         of
+> warfare.    He regarded a monastic order as
+> "an army" behind a leader, and the teacher
+> whose followers were all citizens and house-
+> holders, as without an army.    There could
+> be no comparison, in his mind, between the
+> strength of a cause that had, and one that
+> had not, this support.
+>    Yet in marriage itself, he was not wholly
+> unable to see a career for the soul.                 I   can
+> never forget his story of an old couple                  who
+> were separated, after fifty years of…
+
+*— MONASTICISM AND MARRIAGE*
+
+> .arrived in Calcutta alone, in the beginning of
+> November.         I    was able     to find   my way at
+> once, from the station to the north end of
+> the   town.      But      once there,     with   insular
+>
+> rigidity,   I   insisted on being made the guest
+> of the      women.        The Swami was himself
+> staying, as     it
+>                       happened, at a sort of parish-
+> room of the Order,             in Calcutta.     Through
+> him, therefore, the negotiations were carried
+> on. The widow of Sri Ramakrishna                 Sarada
+> Devi, or "the Holy Mother," as she is called
+> amongst us was living close by, with her
+>                              181
+>                       THE HOLY WOMEN
+> community…
+
+*— KSHIR BHOWANI*
+
+> give the ferryman a penny !"     The lad might/
+> have answered that no ferryman could give
+> his passengers what he had acquired by
+>
+> twenty years of patient striving. But the
+> fact remains that to these teachers,   supreme-
+> ly sane, the world's art of navigation had its
+> own full value and its proper place.      Years
+> afterwards, in Paris,     some one approached
+> him with a question as to the general history
+> of the development of Indian ideas on these
+>
+> subjects.  "Did Buddha teach that the many
+> was real and the ego unreal, while Orthodox
+> Hinduism regards the One as the Real, and
+> the many as unreal ?" he was asked.      "Yes,"
+> answered the Swami,         "And what Rama-
+
+*— THE SWAMI IN LONDON*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (8 references):
+
+> spiritual power spread from person to person, and very likely n\any
+> came to him for private interviews seeking help and guidance. A
+> story of one such interview has been recounted by Mme. Emma C.alve
+> in her autobiography, "My Life,’’ and subsequently reproduced in
+> "The Life of Swami Vivekarianda.” But Mme. Calve evidently did
+> not choose to tell the whole story in her book. We are fortunate
+> enough to have in our possession an account of this same meeting as
+> she told it to a sympathetic friend long before she wrote lier memoirs.
+> It is to Mme. Paul Verdier, of Paris and San Francisco, that 'we are
+> indebted for this earlier and more complete version, for it was site
+> to whom Calve confided the…
+
+*— IN AND AROUND CHICAGO*
+
+> this book.
+>       Readers of the “Letters of Swami Vivekananda” will remember
+> that ill a letter, dated November 2, 1893, Swamiji asked his disciple,
+> Alasinga, for information regarding a Hindu boy. This re(]ucst as
+> it is given in the fourth English edition of the “Letters” reads: “A boy
+> called-Acharya has crop[)ed up in our midst. He has been loafing
+> about the city for the last three years. Loafing or no loafing, I like
+> him, but please write to me all about him, if you know anything.
+> He knows you. He came in the year of the Paris Exhibition
+> to Europe.”
+>       This “boy called-Acharya” is without question the same Nara-
+> simhacharya who is pictured in the photogra|.)h mentioned above
+> peering…
+
+*— THE PARLIAMENT OF RELIGIONS*
+
+> formation that “The Author Visited India and Travelled Extensively
+> There, For the Express Purpose of Collecting The Information
+> Contained in This Volume”—information, I might add, which was
+> predominantly false, calumnious and sensational. This book, profusely
+> illustrated with line drawings and replete with moral reflections on the
+> order of “Send, oh send the Bible there,” had a phenomenal success
+> among the intelligentsia. A preface cites testimonials from the presi¬
+> dents of twenty American colleges who gave unstinting praise lo the
+> lectures of Caleb Wright. A comparison of two editions of the l:)ook
+> shows that within a space of two years over 36,000 copies were printed.
+>      And this was…
+
+*— THE MIDWESTERN TOUR*
+
+
+**From *Vivekananda on Himself* (1959)** (8 references):
+
+> three days only. It is frightfully hot here in New York.
+> Kali (Abhedananda) went away about a week ago to the
+> mountains. He cannot come back till September. I am
+> all alone, and washing; I like it.
+>
+> New York : 24-7-1900 -1 am to start on Thursday
+> next, by the French steamer La Champagne.
+>
+> New York: 25-7-1900-I1 am starting for Paris
+>
+> tomorrow.
+>
+> PARIS
+>
+> Paris : 25-8-1900 - Now I am free, as [ have kept
+> no power or authority or position for me in the work. I
+> also have resigned the Presidentship of the Ramakrishna
+
+*— p. 308*
+
+> have been so great that whenever I have to speak any-
+> thing about him, I am afraid lest I should ignore or explain
+> away the truth, lest my little power should not suffice,
+> lest in trying to extol him I should present his picture
+> by painting him according to my lights and be little him
+> thereby! .
+>
+> Sri Ramakrishna’s was a different case. What com-
+> parison can there be between him and ordinary men?
+> He practised in his life all the different ideals of religions
+> to show that each of them leads but to the,One Truth
+> Shall you or Iever be able to do all that~fas done?
+> None of us aes understood him fully. ‘So I do not
+> venture to speak about him anywhere and everywhere.
+> He only knows what he really…
+
+*— p. 64*
+
+> thinking it might be needed, and whenever opportunity
+> occurred I used to drink a few drops of it. And every
+> time I drank, in the midst of the stream of humanity,
+> amid that bustle of civilisation, that hurry of frenzied
+> footsteps of millions of men and women in the West, the
+> mind at once became calm and still,as it were. That
+> stream of men, that intense activity of the West, that
+> clash and competition at every step, those seats of luxury
+> and celestial opulence—Paris, London, New York, Berlin,
+> Rome—all would disappear and I used to hear that
+> wonderful sound of “Hara, Hara,”
+>
+> 26-8-96 -I have been doing a great deal of mountain-
+> climbing and glacier-crossing in the Alps. Now I am
+> going to…
+
+*— p. 239*
+
+
 ---
 
 ### Cairo, Egypt
@@ -36078,6 +49383,172 @@ Vivekananda visited Cairo on his return journey from the West in 1900. He explor
 *— p. 707*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (7 references):
+
+> 496
+>                            XXVI.
+>
+>   THE PASSING OF THE SWAM!
+>    LATE in the year 1900, the Swami broke
+> offfrom the party of friends with whom he
+> was travelling in Egypt, and went home
+> suddenly, to India.             "He seemed so tired           !"'
+>
+> says one of those               who were with him            at
+> this time.  As he looked upon the Pyramids
+> and the Sphinx, and the rest of the great
+> sights in the neighbourhood of Cairo, it was
+
+*— MONASTICISM AND MARRIAGE*
+
+> with the foreigner than with them.                      In this
+>
+>  respect,        indeed,   it   would seem that he had
+>
+>                                 497
+>               PASSING OF THE SWAMI
+>
+> enjoyed his glimpse of Constantinople vastly
+> more than Egypt, for towards the end of
+> his life he was never tired of talking about
+> a certain old Turk who kept an eating-house
+> there, and had insisted on giving entertain-
+> ment without price to the party of stangers,
+> one of whom came from India. So true it was,
+> that to the oriental, untouched by modern
+>
+> secularity, all travellers were pilgrims, and
+
+*— MONASTICISM AND MARRIAGE*
+
+> any form of mere display.                      At the same
+>    *
+>        The Bashi-Bazouks were the bodyguard    of the Caliph.    For
+> many centuries, the members of the Turkish Guard consisted of
+> soldiers who had been kidnapped in early childhood from all races
+> and countries, and brought up in Islam. Their religion was thus
+> their passion, and the service of their land and sovereign, their
+> only bond of union. They were renowned throughout Europe for
+> their fierceness and courage. Their power was broken in Egypt by
+> Napoleon.
+>
+>                                366
+>                 THE EDUCATED WOMAN
+> time, woman had    as large an inheritance
+> as man, in all the thought and knowledge
+> that     formed …
+
+*— PAST AND FUTURE IN INDIA*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (4 references):
+
+> monumental learning and the brilliance with which he threw floods
+> of new light upon every subject. Yet, though outwardly active, he
+> was finding it increasingly difficult not to plunge at the slightest
+>                                    629
+>
+> provocation into profound meditation, oblivious of his surroundings,
+> lost to the world.
+>       In Egypt, to which he traveled with a party of friends and disciples
+> via Vienna, Athens and Constantinople, his meditative habit seemed
+> to reach a peak. He became more and more withdrawn and appeared
+> to his companions to be letiirig the world slip at last from his shoulders
+> like a mantle no longer wanted. Indeed, according to Mine. Erimia
+> Calve, who joined the…
+
+*— EPILOGUE*
+
+> But thorns were no match for Swamiji’s influence. Martha Brown
+> Fincke is an example of the hundreds of people who came close
+> to him and who received in their inner being the awakening touch
+> of his spiritual vitality. Although she did not at once follow his
+> teachings, it was only a matter of time before they bore fruit. Thus
+> her memoirs conclude:
+>
+>           One reads of the seeds found in Egyptian sarcophagi,
+>     buried thousands of years previously and yet retaining enough
+>     vitality to sprout when planted. Lying apparently lifeless
+>     in my mind and heart, the far-off memory of that great
+>     apostle from India has during the past year begun to send
+>     forth shoots. It has at last…
+
+*— THE EASTERN TOUR—I*
+
+> of porridge, went off to his daily toil and returned in the
+>     evening to another breakfast of porridge and called it
+>     dinner. In most of the provinces the farmers were so
+>     poor that they tx)uld not afford to eat any of the wheat
+>     raised. A day laborer on a farm received only 12 pence a
+>     day, but a dollar in India brought 10 times as much as it
+>     would in this country. Cotton was raised, but its fiber was
+>     so short it had to be woven by hand, and even then it was
+>     necessary to import American and Egyptian cotton to mix
+>     with it.
+>
+>      Swamiji had been in Detroit less than two weeks, but there were,
+> perhaps, few people who had not heard of him. On the evening of
+> his…
+
+*— VIVE KANANDA LEAVES.*
+
+
+**From *Vivekananda on Himself* (1959)** (5 references):
+
+> matically, without intermission. An admirer of India and
+> China, Maxim is a good writer on religion, philosophy
+> etc. Having read my works long since, he holds me in
+> great - I should say, excessive admiration.
+>
+> The tour programme was as follows: from Paris to
+> Vienna and thence to Constantinople, by rail; then by
+> steamer to Athens and Greece, then across the Mediter-
+> ranean to Egypt, then Asia Minor, Jerusalem, and so on.
+>
+> Paris, in the year 1900 was the centre of the civilised
+> world, for it was the year of the Paris Exhibition and
+> there was an assemblage of eminent men and women from
+> all quarters of the globe. The master minds of all countries
+> had met in Paris to spread the glory of their…
+
+*— p. 312*
+
+> temple of Olympian Zeus. Theatre Dionysius etc., as far
+> as the seashore. The third day, we set out for Eleusis,
+> which was the chief religious seat of the Greeks. Here it
+> was that the famous Eleusinian Mysteries used to be
+> played. The ancient theatre of this place has been built
+> anew by a rich Greek. The Olympian games too have
+> been revived in the present times. At 10 A. M. on the
+> fourth day, we got on board the Russian Steamer, Czar,
+> bound for Egypt. After reaching the deck, we came to
+> learn that the steamer was to start at 4 P.M. — perhaps,
+> we were too early or there would be some extra delay in
+> loading the cargo. So having no other alternative, we
+> went round and made acursory acquaintance…
+
+*— p. 323*
+
+> up with a new friend, a Frenchman of ordinary means,
+> who knew no English, and my French, well, it was some-
+> thing quite extraordinary !
+>
+> I had this in mind that the inability to live like a
+> dumb man would naturally force me to talk French, and
+> I would attain fluency in that language inno time. But
+> on the contrary, I took to a tour through Vienna, Turkey,
+> Greece, Egypt and Jerusalem !
+>
+> I had three travelling companions-two of them
+> French and the third, an American. The French male
+> companion was Monsieur Jules Bois, a famous Philoso-
+> pher, and literatuer of France; and the French lady friend
+> was the world-renowned singer Madamoiselle Calve. I
+> had previously been acquainted with her.
+
+*— p. 309*
+
+
 ---
 
 ### Port Said
@@ -36176,6 +49647,34 @@ Vivekananda passed through Port Said at the entrance of the Suez Canal on his re
 *— p. 459*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> actual living experiences.
+>    It was night, and the ship on which he
+>
+> had embarked at Naples, was still on her
+>
+>                        350
+>                                    HIS DREAM
+>
+>  way to Port Said, when he had this dream.
+>  An old and bearded man appeared before
+>                           "
+>  him, saying                      Observe well   this place that
+>
+>  I   show to you.                  You are now in the island
+>  of Crete.            This is the land in which Chris-
+>  tianity  began."   In support of this origin of
+
+*— PAST AND FUTURE IN INDIA*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Heidelberg, Germany
@@ -36210,6 +49709,15 @@ Vivekananda visited Heidelberg during his 1900 European tour. The famous univers
 *— p. 436*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Koblenz (Coblenz), Germany
@@ -36225,7 +49733,16 @@ Vivekananda passed through Koblenz at the confluence of the Rhine and Moselle ri
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -36260,6 +49777,15 @@ Vivekananda visited Cologne during his 1900 European tour. The city's magnificen
 > intending not only to visit Berlin, but Dresden as well. The
 
 *— p. 437*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -36311,6 +49837,15 @@ Milan was visited by Vivekananda during his 1900 European tour. The cultural and
 > historic interest. The art galleries were visited,…
 
 *— p. 456*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -36413,6 +49948,15 @@ Vivekananda visited Florence during his 1900 European tour. The cradle of the Re
 > three travellers entered into the spirit…
 
 *— p. 456*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -36538,6 +50082,111 @@ Vivekananda visited Rome during his 1900 European tour. The Eternal City, with i
 > of its…
 
 *— p. 458*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (2 references):
+
+> after the
+> room near Victoria Street. During July,
+> August, and September, he travelled in
+> France, Germany and Switzerland, with his
+> friends, Mr. and Mrs. Sevier, and Miss
+> H. F.    Muller.     In    December, he   left   for
+>
+> India, with   some of his disciples, by way of
+> Rome, and arrived at Colombo, in Ceylon,
+> on January the i5th, 1897.
+>    Many of the lectures which he gave
+> during the year 1896, have since been pub-
+>
+>                           22
+>      SECOND VISIT TO LONDON'
+> lished,   and in them, all the world may read
+> his message, and the interpretation by which
+
+*— THE SWAMI IN LONDON*
+
+> not return to-day.        He might be away, in fact,
+> either one or many days.             We never knew.
+> But always he returned from these lonely re-
+> treats with shining of radiance and peace,
+> and ever-deepening utterance of knowledge.
+> To all the disciples of Ramakrishna, religious
+> customs consecrated by the faith of others,
+>  have great significance. One of them speaks
+>  of the Scala Santa in Rome as moving him
+>
+>                              146
+>                      HOLY PLACES.
+> deeply. The ideal of the Order moreover, is
+> to participate in the worship of the accustom-
+> ed devotees in every detail. Thus I have seen
+> my own Master, when visiting holy places,
+> make the same offerings of milk and…
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (6 references):
+
+> occurred I used to drink a few drops of it. And every
+> time I drank, in the midst of the stream of humanity,
+> amid that bustle of civilisation, that hurry of frenzied
+> footsteps of millions of men and women in the West, the
+> mind at once became calm and still,as it were. That
+> stream of men, that intense activity of the West, that
+> clash and competition at every step, those seats of luxury
+> and celestial opulence—Paris, London, New York, Berlin,
+> Rome—all would disappear and I used to hear that
+> wonderful sound of “Hara, Hara,”
+>
+> 26-8-96 -I have been doing a great deal of mountain-
+> climbing and glacier-crossing in the Alps. Now I am
+> going to Germany, I have an invitation from Prof.
+> Deussen to visit…
+
+*— p. 239*
+
+> Ihave three English friends with me. Two of them,
+> Mr. and Mrs. Sevier, are going to settle in Almora. They
+> are my disciples, and they are going to build the Math
+> for me in the Himalayas.
+>
+> 3-12-96 - Iamto start for India onthe 16th with
+> Captain and Mrs. Sevier and Mr. Goodwin. The Seviers
+> and myself take steamer at Naples. And as there will be
+> four days at Rome, I will look in to say good-bye to
+> Alberta.
+>
+> Things are in a “Hum” here just now; the big hall for
+> the class at 39, Victoria, is full and yet more are coming.
+>
+> Well, the good old country now calls me; I must go.
+> So good-bye to all projects of visiting Russia this April.
+
+*— p. 244*
+
+> From Suez begins Asia. Once more Asia. What am
+> I? Asiatic, European or American? I feel a curious medley
+> of personalities in me,
+>
+> I land in afew days at Colombo and mean to “do”
+> Ceylon a bit...
+>
+> I enjoyed Rome more than anything in the West, and
+> after seeing Pompeii, I have lost all regard for the so-
+> called “modern civilisation”...... Iwas mistaken when [
+> told that sculpturing of the human figure was not devel-
+> oped in Indta as among the Greeks.
+>
+> Ihad acurious dream on my return voyage from
+> England. While our ship was passing through the Med-
+> iterranean Sea, in my sleep, a very old and venerable
+
+*— p. 245*
 
 
 ---
@@ -36680,6 +50329,35 @@ Naples was a stop for Vivekananda during his 1900 European tour. The southern It
 *— p. 454*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> be with his own       conviction that we are
+> now on the eve of a great new synthesis in
+> religion and partly in his vision itself,
+> which was stamped so vividly on his brain-
+> fibre    as to stand in his   memory amongst
+> actual living experiences.
+>    It was night, and the ship on which he
+>
+> had embarked at Naples, was still on her
+>
+>                        350
+>                                    HIS DREAM
+>
+>  way to Port Said, when he had this dream.
+>  An old and bearded man appeared before
+>                           "
+>  him, saying                      Observe well   this place that
+
+*— PAST AND FUTURE IN INDIA*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Hotel continental
@@ -36803,6 +50481,15 @@ Hotel Continental on the Rue de Rivoli near the Tuileries was one of the luxury 
 > . If the people in India want me to keep striclly to…
 
 *— p. 383*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -36930,6 +50617,15 @@ The American Cathedral (Cathedral of the Holy Trinity) on Avenue George V, Paris
 *— p. 383*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Leggetts' house
@@ -37053,6 +50749,15 @@ The house of the Leggett family (Francis and his sister Alberta) in Paris was a 
 > . If the people in India want me to keep striclly to…
 
 *— p. 383*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -37180,6 +50885,15 @@ Jules Bois was a prominent French occultist and writer who hosted Vivekananda at
 *— p. 383*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Perros-Guirec, Brittany
@@ -37281,6 +50995,72 @@ Perros-Guirec on the Pink Granite Coast of Brittany was where Vivekananda spent 
 *— p. 700*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (4 references):
+
+> by the same steamer as the Swami, and his
+> gurubhai Turiyananda,       for   London, which
+> we reached on the morning of July 3ist.      A
+> few weeks later he left England for America,
+> where I met him once more, late in Septem-
+> ber. After the five or six weeks which I
+>
+> spent there, as a guest in the same house as
+> he, and a fortnight in Brittany in the follow-
+>
+> ing year,  1900, I never again enjoyed any
+> long  unbroken   opportunity of being with
+> him. Towards the end of 1900 he returned
+> to India, but I remained in the West until
+> the beginning of 1902. And when I then
+> reached India, it was only as if to be present
+> at the closing scene, to receive the last bene-
+
+*— KSHIR BHOWANI*
+
+> her betrothed. And the words acted like a
+> charm.      His    last    words,   after   my    brief
+>                                         "
+> glimpse of him in         Chicago, were   Remem-
+> ber! the message of India           is   always
+>                                                   '
+>                                                       Not
+> the soul for Nature, but Nature for the soul\
+>      When   I   said good-bye to him in Brittany
+> in   September,     1900,    I   was on the eve of
+> returning alone      to    England, there to find
+> friends and means, if possible, for the Indian
+> work. I knew nothing as yet of the length of
+> my stay.  I had no
+>                    plans.  And the…
+
+*— PAST AND FUTURE IN INDIA*
+
+> June (1900). There for a few weeks, and
+> later in        Paris for a similar length of time,
+> I     saw him frequently      ;
+>                                   and   in   September,
+> finally,   spent a fortnight as his fellow-
+>             I
+>
+> guest, with  American friends, in Brittany.
+> So ends the priceless memory of the years of
+> my schooling under him. For when I next
+> saw my Master, in India in the first half of
+> 1902, it was only to receive his final blessing
+> and take a last farewell.
+>                        is
+>                    always serenely passive,
+>       Discipleship
+
+*— PAST AND FUTURE IN INDIA*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Chamonix
@@ -37314,6 +51094,15 @@ Chamonix at the foot of Mont Blanc was visited by Vivekananda during his 1900 Eu
 *— p. 433*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Normandy
@@ -37329,7 +51118,16 @@ Normandy's scenic coast was another area visited by Vivekananda and his disciple
 *Complete Works: no direct reference found.*
 
 
-*Biography: no direct reference found.*
+*Life of Swami Vivekananda: no direct reference found.*
+
+
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
@@ -37466,6 +51264,33 @@ Wimbledon was one of the London suburbs where Vivekananda stayed during his seco
 *— p. 383*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> 274
+>                      XVI
+>       GLIMPSES IN THE WEST.
+>    On July the 3ist, we arrived in London,
+> and the voyage that to myself had been
+> so memorable, was over.       The Swami
+> spent a few weeks in Wimbledon, but at
+> this time of the year, not many of his
+> friendswere in town, and before long he
+> acceded to the invitations which were cons-
+> tantly reaching him, and went on to America,
+> there to wait, in a beautiful country-home on
+> the Hudson, for the leading that he confi-
+>
+> dently expected, to show him where his next
+
+*— PAST AND FUTURE IN INDIA*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 ### Shanti Ashrama (Camp Taylor)
@@ -37567,6 +51392,46 @@ Shanti Ashrama (Camp Taylor) in northern California was established as the West 
 *— p. 775*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+**From *Swami Vivekananda In America* (Marie Louise Burke, 1958)** (2 references):
+
+> whom were prominent California clergymen. The impression he
+> created was tremendous, and at the request of some San Franciscans,
+> he moved to their city toward the end of I’chruary. There he worked
+> strenuously through March and April, lecturing and holding classes
+> almost incessantly. Aside from appearing in San Francisco, he delivered
+> lectures also in Oakland and Alameda, staying at the “Home of
+> Truth” in the latter city. In San Francisco Swamiji formed, as he had
+> in New York and Los Angeles, a Vedanta Society. Moreover, he
+> directed Swami Turiyananda to establish a retreat, “Shanti Ashrama,”
+> on a tract of land in the San Antonio Valley, about ninety miles south¬
+> east of San Francisco, which…
+
+*— SWAMI VIVEKANANDA:       NEW DISCOVERIES*
+
+> Dushyanta and mother of Bharata, ancestor of a long race of Indian
+>     kings.
+>                                      637
+>
+> Shaiikara A great philosopher and knower of God of the eighth
+>      century A.D., who was the foremost exponent of and commentator
+>      on monistic Vedanta.
+> Shanti Ashrama (Lit., Peace Retreat) A retreat belonging to the
+>      Vedanta Society of Northern California.
+> Shariraka-Sutias The Vedanta-Sutras of Badarayana Vyasa, the apho¬
+>      risms on the Vedanta philosophy Avhich give it an organized form.
+>      Shariraka—the embodied spirit; Sutras—^aphorisms.
+> Shiva (Lit., the Auspicious One) A name of God, specifically in His
+>      aspects of destruction and compassion. Shiva is…
+
+*— GLOSSARY*
+
+
+*Vivekananda on Himself: no direct reference found.*
+
+
 ---
 
 
@@ -37654,6 +51519,34 @@ Where the Buddha gave his first sermon. Vivekananda visited Sarnath during his f
 *— p. 742*
 
 
+*The Master As I Saw Him: no direct reference found.*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (1 references):
+
+> I have had much light of late about Buddhism, and
+> I am ready to prove :
+>
+> 1. That Shiva worship in various forms antedated
+> the Buddhists, that the Buddhists tried to take hold of
+> the sacred places of the Shaivas but failing in that, made
+> new places in the precints just as you find now at Bodh-
+> Gaya and Sarnath (Benares).
+>
+> 2. The story in the Agni-Purana about Gayasura
+> does not refer to Budha at all-as Dr. Rajendralal will
+> have it - but simply to a pre-existing story.
+>
+> 3. Gaya wasa place of ancestor-worship already,
+> and foot-print worship the Buddhists copied from the
+> Hindus.
+
+*— p. 146*
+
+
 ---
 
 ### Bodh Gaya
@@ -37666,120 +51559,7 @@ Where the Buddha gave his first sermon. Vivekananda visited Sarnath during his f
 Where the Buddha attained enlightenment beneath the Bodhi Tree. Vivekananda visited Bodh Gaya during his final pilgrimage. He experienced a profound state of samadhi here and later told a disciple: 'When I sat in meditation at Bodh Gaya, it was as if I became the Buddha himself.'
 
 
-**From the Complete Works** (12 references):
-
-> else. Flence is true the oft-repeated saying that Mukta souls are only in India and in no other country. But it is \
-> equally true that in future they will be in other countries as well; that is well and good, and a thing of great pleasure \
-> to us. There was a time in India when Dharma was compatible with Mukti. There were worshippers of Dharma, \
-> such as Yudhishthira, Arjuna, Duryodhana, Bhishma, and Kama, side by side with the aspirants of Mukti, such as \
-> Vyasa, Shuka, and Janaka. On the advent of Buddhism, Dharma was entirely neglected, and the path of Moksha \
-> alone became predominant. Hence, we read in the Agni Purana, in the language of similes, that the demon \
-> Gayasura \— that is,…
-
-*— Complete Works of Swami Vivekananda*
-
-> other countries as well; that is well and good, and a thing of great pleasure to us. There \
-> was a time in India when Dharma was compatible with Mukti. There were worshippers of \
-> Dharma, such as Yudhishthira, Arjuna, Duryodhana, Bhishma, and Kama, side by side \
-> with the aspirants of Mukti, such as Vyasa, Shuka, and Janaka. On the advent of \
-> Buddhism, Dharma was entirely neglected, and the path of Moksha alone became \
-> predominant. Hence, we read in the Agni Purana, in the language of similes, that the \
-> demon Gayasura \— that is, Buddha (Swamiji afterwards changed this view with reference to Buddha, \
-> as is evident from the letter dated Varanasi, the 9th February. 1902. in this volume.)…
-
-*— Complete Works of Swami Vivekananda*
-
-> is no glorification of the Shakti at the opening which is a great defect. Tell him to remedy it in the second edition. \
-> Always bear this in mind that we are now standing before the gaze of the world, and that people are watching every \
-> one of our actions and utterances. Remember this and work. \
-> \
-> ... Be on the look-out for a site for our Math. ... If it be at some little distance from Calcutta, no harm. Wherever \
-> we shall build our Math, there we shall have a stir made. Very glad to learn about Mahim Chakravarty. The Andes \
-> have turned into the holy Gaya, I see! Where is he? Please give him, Sj. Bijoy Goswami, and our other friends my \
-> cordial greetings. ... To beat an opponent one…
-
-*— Complete Works of Swami Vivekananda*
-
-> Anxiety is worse than the disease. Give a little money \— whatever is needed. If in this hell of a world one can \
-> bring a little joy and peace even for a day into the heart of a single person, that much alone is true; this I have \
-> learnt after suffering all my life; all else is mere moonshine. . . . \
-> \
-> Reply very soon. "Uncle" (Mr. Okakura was emdearingly so called. "Kura" approximating to "Khurha" in Bengali which means uncle; \
-> Swamiji out of fun calls him uncle.) and Niranjan have written a letter from Gwalior. . . Here it is now becoming hot \
-> gradually. This place was cooler than Bodh-Gaya. ... I was very pleased to hear that the Saraswati-Puja was \
-> celebrated by Nivedita with…
-
-*— Complete Works of Swami Vivekananda*
-
-
-**From *The Life of Swami Vivekananda* (1960)** (10 references):
-
-> Nirvana, and after that to go on a pilgrimage to Varanasi where
-> the Buddha first preached his Gospel unto man. Besides,
-> Varanasi has for me a special attraction!”
->
-> Reflecting on this visit, Sister Nivedita has written:
->
-> “When the winter again set in, he (the Swami) was so ill as to be
-> coufined to bed. Yet he made one more journey, lasting through January
-> and February 1902, when he went first to Buddha Gaya and next to Varanasi.
-> It was a fit ending to all his wanderings. He arrived at Buddha Gaya
-> on the morning of his last birthday, and nothing could have exceeded the
-> courtesy and hospitality of the Mahanta (head of the monastery). Here,
-> as afterwards at Varanasi, the confidence and…
-
-*— p. 741*
-
-> 142 LIFE OF SWAMI VIVEKANANDA
->
-> One day, on the 9th of April, 1886, shortly after his return, he
-> had the following conversation with the Master and his brother-
-> disciples.
->
-> Shri Ramakrishna (to Mahendra): “Naren had been to
-> Buddha Gaya.”
->
-> Mahendra (to Naren): “What is the philosophy of
-> Buddha?”
->
-> Naren: “He could not express in words what he had
-> realised ; therefore people call him an atheist.”
->
-> Shri Ramakrishna (by signs): “Why should he be an
-
-*— p. 153*
-
-> he could only say, after a long silence, with his voice choked
-> with emotion: “What shall 1 say of our all-merciful Lord! His
-> infinite grace I feel in that he has given even an unworthy self
-> like me the privilege of sitting on the same seat with such pure
-> souls as you who have renounced Kamini-Kanchana, ‘Lust and
-> Gold’, even from boyhood!”
->
-> After this, the Swami briefly addressed those who had
-> received the sacred thread, asking them to repeat the Gayatri
-> daily at least one hundred times. In the meantime Swami
-> Akhandananda arrived at the Math from his orphanage in
-> Murshidabad. Referring to him the Swami said, “Look! What
-> a great Karma-Yogi he is! Without fear, caring neither for life
-> nor for…
-
-*— p. 557*
-
-> philosophical side of his teachings, with such fervour, devotion
-> and insight that they simply marvelled. There was a boy
-> named Hari who had accompanied the elders to India. Mr.
-> Okakura and Hari were made comfortable as the guests of the
-> monastery. They loved the Swami dearly, who moved with
-> them freely and joined the boy in his boyish hobbies. Later the
-> news of the death of Hari while travelling in India, deeply
-> affected the Swami. Mr. Okakura requested the Swami to
-> accompany him to Buddha Gaya; and as the Swami desired to
-> visit Varanasi and had already made arrangements for his stay
-> there at Gopal Lal Villa, he accepted the invitation of his
-> Japanese friend, saying, “It would give me the…
-
-*— p. 740*
+*Swami Vivekananda In America: no direct reference found.*
 
 
 ---
@@ -37914,6 +51694,106 @@ In January 1902, months before his death, Vivekananda made his final pilgrimage 
 > shades of opinion. His outlook was…
 
 *— p. 182*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> only to Sri Ramakrishna, knew that there
+> was none whose love to himself he had more
+> valued.
+>       Now he set himself to tell stories for an
+> hour, of       one or two others   whom he had
+> met.    TRAILINGA SWAMI he had seen |when
+> very, very old, more than a hundred, appa-
+> rently.   He was always silent. He would
+> lie in a    Siva-temple in Benares, with his feet
+> on the image, A madcap, seemingly. He al-
+> lowed people, however, to write him ques-
+> tions, and sometimes, if he fancied  one,
+> would write an answer          in Sanskrit.   This
+> man was lately dead.
+>    RAGHUNATH DASS had been dead two
+> months, when the Swami reached his ashra-
+> ma.    He had been a soldier originally in the
+
+*— GLIMPSES OF THE SAINTS*
+
+> At the end of his life again, similarly, he
+> arrived at Bodh-Gaya, on the morning of his
+>
+> thirty-ninth  birthday ;
+>                           and this journey,
+> ending with a visit to Benares, was the last
+> he ever made.
+>    At some time in the years of his Indian
+> wanderings, the Swami was allowed to touch
+> the relics of Buddha, probably near the place
+> where they were first discovered. And he
+> was never afterwards able to refer to this,
+> without some return of that passion of re-
+> verence and certitude which must then have
+
+*— PAST AND FUTURE IN INDIA*
+
+> when the winter again set in, he was so ill
+> as to be confined to bed.
+>
+>                           498
+>              BODH-GA YA AND BENARES
+>     Yet he made one more journey, lasting
+> through January and February 1902, when
+> he went, first to Bodh-Gaya and next to
+> Benares,    It was a fit end to all his wander-
+>
+> ings.   He arrived at Bodh-Gaya on the
+> morning of his last birthday, and nothing
+> could have exceeded the courtesy and hos-
+
+*— MONASTICISM AND MARRIAGE*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (2 references):
+
+> and my mind has run off with me there.
+>
+> 15-3-90 -I am leaving this place tomorrow. Let
+> me see which way destiny leads!
+>
+> 31-3-90 - I haven't been here for the last few days
+> and am again away today. I have asked brother
+> Gangadhar to come here, and if he comes. we go over to
+> Benares together. For some special reason, I shall
+> continue to stay in secret in a village some distance off
+> this place. The news of his arrival is not yet received
+> and his health being bad, Iam very anxious for his sake,
+> I have behaved very cruelly towards him — that is, I have
+> harassed him much to make him leave my company.
+> There is no help...... I am so very weak-hearted, so much
+> overmastered by the distractions of…
+
+*— p. 124*
+
+> I have had much light of late about Buddhism, and
+> I am ready to prove :
+>
+> 1. That Shiva worship in various forms antedated
+> the Buddhists, that the Buddhists tried to take hold of
+> the sacred places of the Shaivas but failing in that, made
+> new places in the precints just as you find now at Bodh-
+> Gaya and Sarnath (Benares).
+>
+> 2. The story in the Agni-Purana about Gayasura
+> does not refer to Budha at all-as Dr. Rajendralal will
+> have it - but simply to a pre-existing story.
+>
+> 3. Gaya wasa place of ancestor-worship already,
+> and foot-print worship the Buddhists copied from the
+> Hindus.
+
+*— p. 146*
 
 
 ---
@@ -38054,6 +51934,130 @@ Vivekananda's last visit to the Kashmir Valley in 1901. Despite being in deterio
 > tions from Khetri. The Raja of that State was…
 
 *— p. 543*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (8 references):
+
+> of mountain-forests on the road to Almora, or
+> of      cathedral-rocks            and      corn-embosomed
+> villages    the Jhelum Pass.
+>               in                  For, as one
+> returns upon that time, its record is found in
+> a constant succession of scenes of loveliness.
+> Not least of these pictures is the memory of
+> the  handsome old woman, wearing the crim-
+> son coronet and white veil of Kashmiri
+> peasants, who sat at her spinning-wheel
+> under a great chenaar-tree *in a farm-yard,
+> surrounded by    her daughters-in-law, when
+> we passed that, way, and stopped to visit her.
+> It    was the Swami's second call on her.                He
+>   *
+>       The Chenaar-tree is the Orie ntal Plane.
+
+*— THE SWAMI IN LONDON*
+
+> ed a bungalow some distance away. Thus
+>
+>                           "3
+>           IN NORTHERN INDIA.
+>
+> pleasantly grouped, it was possible to combine
+> a high degree of freedom and intercourse.
+> But when, after a month or so, we left Almora
+> for Kashmir, the Swami went with us, as the
+>
+> guest of Mrs. Ole Bull, and left behind him
+> all his attendants.
+>
+>     What scenes were those through which
+> we journeyed from the beginning of May
+> until the end of October    And with what
+>                               !
+
+*— THE SWAMI IN LONDON*
+
+> tell   his   beads   in   the   same manner, as the
+> humblest of the           women    about     him.   The
+> minutest rules of conduct, both secular and
+>
+> religious, would be scrupulously observed by
+> him on these occasions. Thus he one-d him-
+> self with the people, before rising to his          own
+> greatest heights.
+>        Two places in Kashmir are regarded as
+> extremely sacred, one is Kshir Bhowani,               a
+> spring at which the Divine Motherhood                 is
+>
+> worshipped, and the other Amarnath, a moun-
+> tain-cave in which there is an ice-emblem of
+> Siva. And the        most notable events of our
+> summer were his pilgrimages to these two
+> shrines. But we also were ambitious. We
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (8 references):
+
+> I shall go down from here and shall deliver a few lectures
+> in the Punjab. After that, I may go via Sind to Cutch,
+> Bhuj and Kathiawar-even down to Poona if circumstances
+> are favourable; otherwise, I go to Rajputana via Baroda.
+> From Rajputana,I goto the North-Western Province,
+> then Nepal, and finally Calcutta-this is my present
+> programme. Everything, however, is in God’s hands.
+>
+> Srinagar (Kashmir) ; 15-9-97 - Kashmir is the one
+> land fit for Yogis, to my mind. But the land is now
+> inhabited by a race which, though possessing great
+> physical beauty, is extremely dirty. I am going to travel
+> by water for a month, seeing the sights and getting
+> strong. But the city is very malarious just now,…
+
+*— p. 265*
+
+> brought me to Calcutta. So, Suresh babu and Balaram
+> Babu have both gone! G.C. Ghosh is supporting the
+> Math...J intend shortly, as soon as I can get my fare, to
+> go up to Almora and thence to some place in Gharwal on
+> the Ganges where I can settle down fora long meditation.
+> Gangadhar is accompanying me. Indeed it was with this
+> desire and intention that I brought him down from
+>
+> Kashmir.
+> I am in fine health now.
+>
+> I was once travelling in the Himalayas and the long
+> road stretched before us. We poor monks connot get
+> any one to carry us, so we had to make all the way on
+> foot. There wasan old man with us. The way goes up
+> and down for hundreds of miles, and when that old monk
+> saw what was before him,…
+
+*— p. 128*
+
+> A monk from Ceylon, P. C. Jinawar Vamar by name,
+> has written to me among other things that he wants to
+> visit India. Perhaps, he is the same monk who comes of
+> the Siamese royal family. His address is Wellawatta,
+> Ceylon. He believes in the Vedanta.
+>
+> Srinagar: 1-10-97 - I shall not try to describe
+> Kashmir. Suffice it to say, I never felt sorry to leave
+> any country except this paradise on earth; and I am trying
+> my best, if I can, to influence the Raja to start a centre;
+> so much to do here, and the material so hopeful.
+>
+> Kashmir is a veritable heaven on earth. Nowhere
+> else in the world is such a country as this. Mountains
+> and rivers, trees and plants, men and women, beast and
+> and birds—all vie…
+
+*— p. 266*
 
 
 ---
@@ -38201,6 +52205,123 @@ On 4 July 1902, Swami Vivekananda attained Mahasamadhi (conscious exit from the 
 *— p. 519*
 
 
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (5 references):
+
+> The Swami lived commonly at the mo-
+> nastery,   five or    six    miles out of Calcutta,
+> and on the opposite bank of the river. But,
+> on his frequent visits to town, he would
+> almost always send for me to join him, either
+> at the noon or     evening meal, and to those
+> who showed me kindness, he would always
+> make a special effort to offer hospitality at
+> Belur.
+>      Even his smallest        actions often        had a
+> meaning    that was not evident to a           new eye.
+> I               when he came to me one
+>     did not dream,
+>
+> day and asked me to cook for him a certain
+> invalid    dish,   that     there      was   any   special
+
+*— KSHIR BHOWANI*
+
+> 83
+>        THE ORDER OF RAMAKRISHNA.
+> after seeing them in their own country, to be
+> the greatest achievement of the English, he
+> answered,       'that   they had       known how      to
+> combine obedience with self-respect'.
+>     But    it   was not the Swami alone whom
+> we saw      at Belur.   We were accounted by
+> the monastery as a whole, as its guests.              So
+> back and forth would            toil    the
+>                                hospitable
+> monks, on errands of kindness and service
+> for us.    They milked the cow that gave us-
+> our supply, and when the servant whose
+>
+> duty it was at nightfall to carry the milk,
+
+*— THE SWAMI IN LONDON*
+
+> THE ORDER OF RAMA
+>                        KRISHNA
+>       It was amongst the lawns and trees of
+> the    Ganges-side that I came to know, in
+> a personal sense, the leader to whose work
+> my life was already given. At the time of
+> my landing in India (January 28th.          1898),
+> the ground and building         had just been pur-
+> chased     at     Belur,   which were afterwards
+> to be transformed into the Calcutta Monastery
+> of the Order of Ramakrishna.          A few
+> weeks later still, a party of friends arrived
+> from America, and with characteristic in-
+> trepidity took possession of the half-ruined
+> cottage,     to   make     it
+>                              simply but pleasantly
+> habitable.        It  …
+
+*— THE SWAMI IN LONDON*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+**From *Vivekananda on Himself* (1959)** (8 references):
+
+> later on led by Naren. It was a journey partly by bullock cart via
+> Allahabad and Jubbulpore through dense forests and over
+> unfrequented roads, for the railways were in those days cons-
+> tructed only upto Nagpur.
+>
+> Vivekananda (1863-1902)
+>
+> Swami
+
+*— p. 9*
+
+> meals ready, till at last he would come and drag us
+> from our meditation by sheer force. Oh, what a wonder-
+> ful constancy of devotion we noticed in him!
+>
+> What was collected by begging and such other means,
+> was utilised for defraying the Math expenses.
+> Today, both Suresh Babu and Balaram Babu are no more.
+> Had they been alive, they would have been exceedingly
+> glad to see this Math (at Belur). Suresh Babu was ina
+> way the founder of this Math. It was he who used to
+> bear all the expenses of the Barangore Math. It was
+> Suresh Mitra who used to worry most for us in those
+> days. His devotion and faith have no parallel!
+>
+> Owing to want of funds, I would sometimes fight for
+> closing the Math altogether.…
+
+*— p. 98*
+
+> through which a murmuring stream flows, to have medi-
+> tation deep and long under the deodars (trees of God)
+> cross-legged a la Buddha.
+>
+> Lahore : 16-10-98 - I have not witnessed the Durga
+> Puja for the last nine years. So, I am starting for
+> Calcutta.
+>
+> Belur : Nov. 98 - The other day, I was a guest of
+> Babu Priyanath Mukherjee at Baidyanath. There I had
+> such a spell of asthma that I felt like dying. But from
+> within, with every breath arose the deep-toned sound,
+> “Iam He, I am He.” Resting on the pillow, I was
+> waiting for the vital breath to depart; and observing all
+> the time that from within was coming the sound of
+> “Tam He, Iam He!” I could hear along: “ qaeratga
+> seve marie feaay’ “The Brahman,…
+
+*— p. 275*
+
+
 ---
 
 ### Bodh Gaya — Last Pilgrimage
@@ -38211,6 +52332,9 @@ On 4 July 1902, Swami Vivekananda attained Mahasamadhi (conscious exit from the 
 
 
 Vivekananda visited Bodh Gaya in 1901 on his last pilgrimage. He sat in deep meditation under the Bodhi Tree and entered a state of samadhi. He told a disciple afterwards: 'When I sat there I became the Buddha.' This experience deepened his vision of the unity of all great religions.
+
+
+*Swami Vivekananda In America: no direct reference found.*
 
 
 ---
@@ -38353,6 +52477,34 @@ A scenic viewpoint at 6,500 ft within the Mayavati estate, named after Swami Swa
 > interesting nature and of…
 
 *— p. 3*
+
+
+**From *The Master As I Saw Him* (Sister Nivedita, 1910)** (1 references):
+
+> GNANA YOGA s
+>       HARVARD ADDRESS
+>       COLOMBO TO ALMORA
+>       MY MASTER
+>       And other lectures and       writings,   may be
+> -ordered through the       Udbodhan Office, Gopal
+> Chunder Neogi's Lane, Bagh Bazar, Calcutta;
+> or through the      Office    of    the   Prabuddha
+> Bharata, Mayavati,         Lohaghat Post       Office,
+>
+> via    Almora, U. P.   ;
+>                             or through the Office
+>
+> -of   the Brahmavadin, Triplicane, Madras.
+>  OTHER WORKS OF THE SISTER
+>                   NIVEDITA.
+
+*— THE END*
+
+
+*Swami Vivekananda In America: no direct reference found.*
+
+
+*Vivekananda on Himself: no direct reference found.*
 
 
 ---
