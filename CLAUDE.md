@@ -47,6 +47,23 @@ Schema tables: `stations`, `kiosks`, `slides`, `knowledge_base`, `chat_sessions`
 
 `/map` renders a fullscreen `<iframe src="/viveka-digvijaya/index.html">`. The entire VivekaDigvijaya app lives as static files under `public/viveka-digvijaya/` — it uses **CesiumJS** (not globe.gl), ArcGIS satellite tiles (no API key required), and loads data from `public/viveka-digvijaya/data/data.js` as `window` globals. The ochre/saffron colour theme is defined in the `<style>` block of `public/viveka-digvijaya/index.html` via CSS variables (`--gold: #C8701A`, etc.). To modify the globe UI, edit that HTML file directly.
 
+### RKM Centres Map
+
+`/rkm-centres` is a second static app served as `<iframe src="/rkm-centres/index.html">` from the home page. It shows ~323 Ramakrishna Math/Mission centres worldwide on a CesiumJS globe with `CLAMP_TO_GROUND` billboards. Static files live under `public/rkm-centres/`.
+
+**Key data files** (all loaded as `window` globals):
+- `public/rkm-centres/data/centres.js` — `window.CENTRES_DATA`: array of `{id, name, lat, lng, address, type, country}` for all 323 centres
+- `public/rkm-centres/data/images.js` — `window.CENTRE_IMAGES`: map of centre ID → image URL (building photos from belurmath.org Flickr/Wikipedia)
+- `public/rkm-centres/data/moreinfo_map.json` — centre name → belurmath.org "More Info" page URL
+- `public/rkm-centres/data/centre_details.js` — `window.CENTRE_DETAILS`: map of centre ID → `{year, activities[]}`, scraped from More Info pages (290/316 have year, 298/316 have activities)
+- `public/rkm-centres/images/` — 320 local JPG/PNG building photos committed to git
+
+**Name normalisation gotcha**: Centre names in `centres.js` may have `\n\n` (double newline) while `moreinfo_map.json` keys have `\n` (single newline). Always use `normName(n) = n.replace(/\s+/g,' ').trim()` when looking up by name.
+
+**Info panel** (`public/rkm-centres/js/app.js` `openInfo()`): When a pin is clicked, reads from `window.CENTRE_DETAILS[String(c.id)]` to populate year badge and activities list. HTML elements `#info-year-wrap`, `#info-year`, `#info-activities-wrap`, `#info-activities-list` are in `public/rkm-centres/index.html`.
+
+**belurmath.org More Info page structure**: Pages use WordPress Visual Composer (`wpb_text_column` blocks). Block 1 is usually the address; history paragraph + Activities heading + `<ul>` list items may be in block 2 or later (some pages have extra blocks in between). Always search ALL blocks, not just the 2nd. Skip blocks containing ChatGPT-artifact markers (`data-testid="conversation-turn"`, `text-token-text-primary`). Activities heading variants: `<h3><strong>Activities</strong></h3>`, `<p><strong>Activities:</strong></p>`, `<p><strong>Activities of the Math/Mission centre:</strong></p>`.
+
 ### Chat (RAG)
 
 `/api/chat/query` does keyword-based LIKE search across `knowledge_base.content`, then sends matched excerpts as context to the Claude API (`claude-sonnet-4-6` via `ANTHROPIC_API_KEY`). Upload PDFs at `/admin` to populate the knowledge base. The chatbot stays in character as Swami Vivekananda.
