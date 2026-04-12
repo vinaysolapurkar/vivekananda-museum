@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ramakrishna Math & Mission — Branch Centres</title>
+
+  <!-- CesiumJS -->
+  <link rel="stylesheet" href="https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/Widgets/widgets.css" />
+  <script src="https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/Cesium.js"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Lora:ital,wght@0,400;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg-dark:    #0D0702;
+      --bg-panel:   #140A03;
+      --bg-card:    #1A0E05;
+      --bg-hover:   #221407;
+      --border:     rgba(180,90,15,0.28);
+      --gold:       #C8701A;
+      --gold-dim:   rgba(200,112,26,0.65);
+      --text-main:  #F0E2CC;
+      --text-dim:   #A07040;
+      --text-muted: #6B4220;
+      --blue:       #4A90D9;
+      --panel-w:    320px;
+      --header-h:   60px;
+      --transition: 0.25s ease;
+    }
+
+    html, body { height: 100%; overflow: hidden; background: var(--bg-dark); font-family: 'Inter', sans-serif; color: var(--text-main); }
+
+    /* Loading */
+    #loading-overlay {
+      position: fixed; inset: 0; z-index: 9999;
+      background: var(--bg-dark);
+      display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px;
+    }
+    .loading-logo { font-family: 'Cinzel', serif; font-size: 22px; color: var(--gold); letter-spacing: 0.05em; text-align: center; }
+    .loading-sub  { font-size: 13px; color: var(--text-dim); letter-spacing: 0.06em; }
+    .loading-spinner { width: 44px; height: 44px; border: 3px solid rgba(200,112,26,0.2); border-top-color: var(--gold); border-radius: 50%; animation: spin 1s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* Layout */
+    #app { display: flex; flex-direction: column; height: 100vh; }
+
+    /* Header */
+    #header {
+      height: var(--header-h); flex-shrink: 0;
+      display: flex; align-items: center; gap: 12px;
+      padding: 0 16px;
+      background: linear-gradient(90deg, #160904 0%, #1C0D05 100%);
+      border-bottom: 1px solid var(--border);
+      z-index: 100;
+    }
+    .header-logo { width: 36px; height: 36px; border-radius: 50%; border: 2px solid var(--gold); object-fit: cover; flex-shrink: 0; }
+    .header-titles { flex: 1; min-width: 0; }
+    .header-title { font-family: 'Cinzel', serif; font-size: 15px; font-weight: 700; color: var(--gold); letter-spacing: 0.04em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .header-sub   { font-size: 10px; color: var(--text-dim); letter-spacing: 0.06em; margin-top: 1px; }
+    .header-stats { display: flex; gap: 14px; flex-shrink: 0; font-size: 11px; color: var(--text-dim); }
+    .stat-item    { display: flex; flex-direction: column; align-items: center; gap: 1px; }
+    .stat-num     { font-size: 16px; font-weight: 600; color: var(--gold); font-family: 'Cinzel', serif; }
+    .header-btn {
+      background: rgba(200,112,26,0.12); border: 1px solid var(--border);
+      color: var(--gold); padding: 7px 12px; border-radius: 6px;
+      font-size: 11px; cursor: pointer; flex-shrink: 0;
+      transition: background var(--transition); white-space: nowrap;
+      text-decoration: none; display: flex; align-items: center;
+    }
+    .header-btn:hover { background: rgba(200,112,26,0.26); }
+
+    /* Main row */
+    #main-row { flex: 1; display: flex; min-height: 0; position: relative; }
+
+    /* Sidebar */
+    #sidebar {
+      width: var(--panel-w); flex-shrink: 0;
+      background: var(--bg-panel);
+      border-right: 1px solid var(--border);
+      display: flex; flex-direction: column;
+      overflow: hidden; z-index: 10;
+      transition: width 0.3s cubic-bezier(0.4,0,0.2,1);
+      position: relative;
+    }
+    #sidebar.collapsed { width: 0; border-right-color: transparent; }
+
+    #sidebar-toggle {
+      position: absolute; right: -14px; top: 50%; transform: translateY(-50%);
+      z-index: 20; width: 14px; height: 48px;
+      background: var(--bg-panel); border: 1px solid var(--border);
+      border-left: none; border-radius: 0 6px 6px 0;
+      color: var(--gold-dim); font-size: 10px; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      transition: background var(--transition);
+    }
+    #sidebar-toggle:hover { background: var(--bg-hover); color: var(--gold); }
+
+    /* Legend */
+    .legend-bar {
+      display: flex; align-items: center; gap: 14px;
+      padding: 10px 16px; border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+    .legend-item { display: flex; align-items: center; gap: 5px; font-size: 11px; color: var(--text-dim); }
+    .legend-dot  { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+
+    /* Country filter chips */
+    .section-label { font-size: 10px; font-weight: 600; letter-spacing: 0.1em; color: var(--text-muted); text-transform: uppercase; padding: 10px 16px 6px; flex-shrink: 0; }
+    #country-filter { display: flex; flex-wrap: wrap; gap: 6px; padding: 0 12px 10px; flex-shrink: 0; overflow-y: auto; max-height: 160px; border-bottom: 1px solid var(--border); }
+    .country-chip {
+      padding: 4px 10px; border-radius: 20px; font-size: 11px; cursor: pointer;
+      background: var(--bg-card); border: 1px solid rgba(180,90,15,0.15);
+      color: var(--text-dim); transition: all var(--transition); white-space: nowrap;
+    }
+    .country-chip:hover { border-color: var(--border); color: var(--text-main); }
+    .country-chip.active { background: rgba(200,112,26,0.15); border-color: var(--gold); color: var(--gold); }
+    .chip-count { font-size: 9px; opacity: 0.7; margin-left: 2px; }
+
+    /* Search */
+    .search-wrap { padding: 10px 12px; flex-shrink: 0; border-bottom: 1px solid var(--border); }
+    #search-input { width: 100%; padding: 8px 12px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; color: var(--text-main); font-size: 12px; outline: none; transition: border-color var(--transition); }
+    #search-input:focus { border-color: var(--gold-dim); }
+    #search-input::placeholder { color: var(--text-muted); }
+
+    /* Showing count */
+    .showing-bar { padding: 6px 16px; font-size: 10px; color: var(--text-muted); flex-shrink: 0; }
+
+    /* Centre list */
+    #centre-list { flex: 1; overflow-y: auto; padding: 4px 0; }
+    #centre-list::-webkit-scrollbar { width: 4px; }
+    #centre-list::-webkit-scrollbar-thumb { background: rgba(200,112,26,0.24); border-radius: 2px; }
+
+    .list-group-header {
+      padding: 8px 16px 4px; font-size: 10px; font-weight: 700;
+      letter-spacing: 0.08em; color: var(--text-muted); text-transform: uppercase;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .list-group-count { background: var(--bg-dark); padding: 1px 7px; border-radius: 10px; font-size: 9px; color: var(--text-muted); }
+
+    .centre-item {
+      display: flex; align-items: center; gap: 8px;
+      padding: 8px 16px; cursor: pointer;
+      transition: background var(--transition);
+      border-left: 2px solid transparent; margin-left: 8px;
+    }
+    .centre-item:hover { background: var(--bg-hover); }
+    .centre-item.active { background: rgba(200,112,26,0.10); border-left-color: var(--gold); }
+    .centre-dot  { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+    .centre-name { font-size: 11px; color: var(--text-main); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+    /* Globe */
+    #cesiumContainer { flex: 1; touch-action: none; }
+    .cesium-widget-credits, .cesium-viewer-bottom { display: none !important; }
+
+    /* Info panel */
+    #info-panel {
+      position: absolute; right: 0; top: 0; bottom: 0;
+      width: 340px; background: var(--bg-panel);
+      border-left: 1px solid var(--border);
+      display: flex; flex-direction: column;
+      transform: translateX(100%); transition: transform 0.35s cubic-bezier(0.4,0,0.2,1);
+      z-index: 50; overflow: hidden;
+    }
+    #info-panel.open { transform: translateX(0); }
+
+    /* Info panel image */
+    .info-panel-image {
+      width: 100%; height: 180px; object-fit: cover; display: block;
+      background: var(--bg-card); flex-shrink: 0;
+    }
+    .info-panel-image[src=""] { display: none; }
+
+    .info-panel-header {
+      padding: 18px 20px 14px;
+      background: linear-gradient(135deg, #190A04 0%, #221006 100%);
+      border-bottom: 1px solid var(--border); flex-shrink: 0;
+    }
+    .info-close-btn { float: right; background: none; border: none; color: var(--text-dim); font-size: 20px; cursor: pointer; line-height: 1; transition: color var(--transition); }
+    .info-close-btn:hover { color: var(--gold); }
+    .info-type-badge { display: inline-block; padding: 3px 10px; border-radius: 20px; border: 1px solid; font-size: 10px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 10px; }
+    .info-name    { font-family: 'Cinzel', serif; font-size: 16px; font-weight: 700; color: var(--gold); line-height: 1.35; margin-bottom: 6px; }
+    .info-country { font-size: 12px; color: var(--text-dim); }
+
+    .info-panel-body { flex: 1; overflow-y: auto; padding: 16px 20px; }
+    .info-panel-body::-webkit-scrollbar { width: 4px; }
+    .info-panel-body::-webkit-scrollbar-thumb { background: rgba(200,112,26,0.24); border-radius: 2px; }
+
+    .info-field { margin-bottom: 14px; }
+    .info-field-label { font-size: 9px; font-weight: 700; letter-spacing: 0.12em; color: var(--text-muted); text-transform: uppercase; margin-bottom: 4px; }
+    .info-field-value { font-size: 12px; color: var(--text-dim); line-height: 1.6; white-space: pre-wrap; }
+    .info-field-value a { color: var(--gold); text-decoration: none; }
+    .info-field-value a:hover { text-decoration: underline; }
+
+    .info-year-badge {
+      display: inline-block; margin-bottom: 14px;
+      padding: 4px 12px; border-radius: 20px;
+      background: rgba(200,112,26,0.12); border: 1px solid rgba(200,112,26,0.35);
+      font-size: 11px; color: var(--gold); letter-spacing: 0.05em;
+    }
+    .info-activities-list {
+      margin: 0; padding: 0; list-style: none;
+    }
+    .info-activities-list li {
+      font-size: 12px; color: var(--text-dim); line-height: 1.55;
+      padding: 4px 0 4px 14px; position: relative;
+      border-bottom: 1px solid rgba(255,255,255,0.04);
+    }
+    .info-activities-list li:last-child { border-bottom: none; }
+    .info-activities-list li::before {
+      content: '›'; position: absolute; left: 0;
+      color: var(--gold); font-size: 14px; line-height: 1.4;
+    }
+
+    .info-panel-footer {
+      flex-shrink: 0; padding: 10px 14px;
+      background: var(--bg-card); border-top: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: space-between; gap: 8px;
+    }
+    .info-nav-btn {
+      background: rgba(200,112,26,0.12); border: 1px solid var(--border);
+      color: var(--gold); padding: 7px 14px; border-radius: 6px;
+      font-size: 12px; cursor: pointer;
+      transition: background var(--transition);
+    }
+    .info-nav-btn:hover { background: rgba(200,112,26,0.26); }
+    #info-counter { font-size: 11px; color: var(--text-muted); flex: 1; text-align: center; }
+
+    /* Zoom control */
+    #zoom-bar {
+      height: 44px; flex-shrink: 0;
+      background: linear-gradient(90deg, #110803 0%, #170B04 100%);
+      border-top: 1px solid var(--border);
+      display: flex; align-items: center; justify-content: flex-end;
+      padding: 0 16px; gap: 6px; z-index: 30;
+    }
+    #zoom-control {
+      display: flex; flex-direction: row; align-items: center; gap: 6px;
+      flex-shrink: 0; user-select: none;
+    }
+    .zoom-btn { width: 26px; height: 26px; display: flex; align-items: center; justify-content: center; background: rgba(200,112,26,0.12); border: 1px solid rgba(200,112,26,0.36); border-radius: 7px; color: var(--gold); font-size: 20px; font-weight: 300; line-height: 1; cursor: pointer; flex-shrink: 0; transition: background 0.2s, border-color 0.2s; }
+    .zoom-btn:hover  { background: rgba(200,112,26,0.26); border-color: rgba(200,112,26,0.70); }
+    .zoom-btn:active { background: rgba(200,112,26,0.38); }
+    .zoom-track-wrap { width: 120px; height: 20px; display: flex; align-items: center; }
+    #zoom-slider { width: 100%; height: 4px; margin: 0; cursor: pointer; appearance: none; -webkit-appearance: none; background: transparent; outline: none; }
+    #zoom-slider::-webkit-slider-runnable-track { height: 3px; background: linear-gradient(to right, var(--gold) calc(var(--val, 30) * 1%), rgba(200,112,26,0.22) calc(var(--val, 30) * 1%)); border-radius: 2px; }
+    #zoom-slider::-moz-range-track { height: 3px; background: rgba(200,112,26,0.22); border-radius: 2px; }
+    #zoom-slider::-moz-range-progress { height: 3px; background: var(--gold); border-radius: 2px; }
+    #zoom-slider::-webkit-slider-thumb { -webkit-appearance: none; width: 14px; height: 14px; border-radius: 50%; background: var(--gold); margin-top: -5.5px; border: 2px solid #0D0702; box-shadow: 0 0 8px rgba(200,112,26,0.60); transition: transform 0.15s, box-shadow 0.15s; cursor: pointer; }
+    #zoom-slider::-webkit-slider-thumb:hover { transform: scale(1.25); box-shadow: 0 0 14px rgba(200,112,26,0.80); }
+    #zoom-slider::-moz-range-thumb { width: 14px; height: 14px; border-radius: 50%; background: var(--gold); border: 2px solid #0D0702; box-shadow: 0 0 8px rgba(200,112,26,0.60); }
+    #zoom-label { font-size: 9px; color: var(--text-muted); letter-spacing: 0.06em; min-width: 40px; text-align: right; flex-shrink: 0; }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      :root { --panel-w: 0px; }
+      #sidebar { width: 0; }
+      #sidebar-toggle { display: none; }
+      #info-panel { width: 100%; }
+      .header-stats { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<div id="loading-overlay">
+  <img src="/images/logo.png" alt="RKM" style="width:60px;height:60px;object-fit:contain;filter:drop-shadow(0 2px 8px rgba(0,0,0,0.4))" onerror="this.style.display='none'" />
+  <div class="loading-logo">Ramakrishna Math &amp; Mission</div>
+  <div class="loading-sub">Branch Centres of the World</div>
+  <div class="loading-spinner"></div>
+</div>
+
+<div id="app">
+
+  <!-- Header -->
+  <header id="header">
+    <img class="header-logo" src="/images/logo.png" alt="RKM" onerror="this.style.display='none'" />
+    <div class="header-titles">
+      <div class="header-title">Ramakrishna Math &amp; Mission — Branch Centres</div>
+      <div class="header-sub">Belur Math Headquarters &nbsp;·&nbsp; Global Network</div>
+    </div>
+    <div class="header-stats">
+      <div class="stat-item"><span class="stat-num" id="stat-showing">—</span><span>Showing</span></div>
+      <div class="stat-item"><span class="stat-num" id="stat-total">—</span><span>Total</span></div>
+      <div class="stat-item"><span class="stat-num" id="stat-countries">—</span><span>Countries</span></div>
+    </div>
+    <button class="header-btn" onclick="flyHome()">⌂ Reset View</button>
+    <a href="/" class="header-btn" style="text-decoration:none">← Home</a>
+  </header>
+
+  <!-- Main row -->
+  <div id="main-row">
+
+    <!-- Sidebar -->
+    <aside id="sidebar">
+
+      <!-- Legend -->
+      <div class="legend-bar">
+        <div class="legend-item"><div class="legend-dot" style="background:#C8701A"></div> Math</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#4A90D9"></div> Mission</div>
+        <div class="legend-item" style="margin-left:auto;font-size:10px;color:var(--text-muted)">Click pin for details</div>
+      </div>
+
+      <!-- Country filter -->
+      <div class="section-label">Filter by Country</div>
+      <div id="country-filter"></div>
+
+      <!-- Search -->
+      <div class="search-wrap">
+        <input type="search" id="search-input" placeholder="🔍  Search centres…" />
+      </div>
+
+      <div class="showing-bar">Showing <strong id="stat-geocoded">—</strong> centres on map</div>
+
+      <!-- List -->
+      <div id="centre-list"></div>
+    </aside>
+
+    <!-- Sidebar toggle -->
+    <button id="sidebar-toggle" onclick="toggleSidebar()">◀</button>
+
+    <!-- Globe -->
+    <div id="cesiumContainer"></div>
+
+    <!-- Info panel -->
+    <div id="info-panel">
+      <img id="info-image" class="info-panel-image" src="" alt="" onerror="this.style.display='none'" />
+      <div class="info-panel-header">
+        <button class="info-close-btn" onclick="closeInfo()">×</button>
+        <div id="info-type-badge" class="info-type-badge"></div>
+        <div id="info-name" class="info-name"></div>
+        <div id="info-country" class="info-country"></div>
+      </div>
+
+      <div class="info-panel-body">
+        <div class="info-field" id="info-address-wrap">
+          <div class="info-field-label">Address</div>
+          <div class="info-field-value" id="info-address"></div>
+        </div>
+        <div class="info-field" id="info-phone-wrap">
+          <div class="info-field-label">Phone</div>
+          <div class="info-field-value" id="info-phone"></div>
+        </div>
+        <div class="info-field" id="info-email-wrap">
+          <div class="info-field-label">Email</div>
+          <div class="info-field-value"><a id="info-email" href="#"></a></div>
+        </div>
+
+        <div id="info-year-wrap" style="display:none">
+          <div class="info-year-badge">Established <span id="info-year"></span></div>
+        </div>
+
+        <div class="info-field" id="info-activities-wrap" style="display:none">
+          <div class="info-field-label">Activities</div>
+          <ul id="info-activities-list" class="info-activities-list"></ul>
+        </div>
+      </div>
+
+      <div class="info-panel-footer">
+        <button class="info-nav-btn" onclick="goPrev()">← Prev</button>
+        <span id="info-counter">— / —</span>
+        <button class="info-nav-btn" onclick="goNext()">Next →</button>
+      </div>
+    </div>
+
+  </div><!-- /main-row -->
+
+  <!-- Zoom bar -->
+  <div id="zoom-bar">
+    <div id="zoom-control">
+      <button id="zoom-out-btn" class="zoom-btn" title="Zoom out">−</button>
+      <div class="zoom-track-wrap">
+        <input type="range" id="zoom-slider" min="0" max="100" value="30" />
+      </div>
+      <button id="zoom-in-btn" class="zoom-btn" title="Zoom in">+</button>
+      <div id="zoom-label">—</div>
+    </div>
+  </div>
+
+</div><!-- /app -->
+
+<script src="data/centres.js"></script>
+<script src="data/images.js"></script>
+<script src="data/centre_details.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

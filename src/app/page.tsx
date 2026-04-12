@@ -37,6 +37,13 @@ const modules: { href: string; title: string; subtitle: string; symbol: string; 
     symbol: "🌏",
     accent: "#C8A882",
   },
+  {
+    href: "/centres",
+    title: "RKM Centres Map",
+    subtitle: "323 branch centres of Ramakrishna Math & Mission across 25 countries",
+    symbol: "🏛️",
+    accent: "#4A90D9",
+  },
 ];
 
 export default function Home() {
