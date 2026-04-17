@@ -196,8 +196,14 @@ function buildLegend() {
 // destination by the equivalent longitude offset so the pin sits at the
 // centre of what the user can actually see.
 function flyToLocationCentered(loc) {
-  const altitude = 1400000;   // ~1 400 km — city-region zoom, pin clearly visible
+  const MIN_ALTITUDE = 1400000;   // ~1 400 km — default zoom when coming from far away
   if (!viewer) return;
+
+  // Use current altitude if the user is already zoomed in closer; never zoom OUT.
+  const currentAlt = viewer.camera.positionCartographic
+    ? viewer.camera.positionCartographic.height
+    : MIN_ALTITUDE;
+  const altitude = Math.min(currentAlt, MIN_ALTITUDE);
 
   const canvas  = viewer.scene.canvas;
   const canvasW = canvas.clientWidth;
@@ -228,7 +234,7 @@ function flyToLocationCentered(loc) {
 
   viewer.camera.flyTo({
     destination: Cesium.Cartesian3.fromDegrees(loc.lng + dLng, loc.lat, altitude),
-    duration: 1.8,
+    duration: 1.2,
     easingFunction: Cesium.EasingFunction.CUBIC_OUT
   });
 }
@@ -739,32 +745,6 @@ function startPinAnimation(entity) {
     const t = Date.now() / 1000;
     return 1.325 + 0.125 * Math.sin(t * Math.PI * 2.2);
   }, false);
-
-  // Ripple ring — gold ellipse that expands and fades, then repeats
-  rippleEntity = viewer.entities.add({
-    position: Cesium.Cartesian3.fromDegrees(loc.lng, loc.lat, 0),
-    ellipse: {
-      semiMajorAxis: new Cesium.CallbackProperty(() => {
-        const frac = ((Date.now() - t0) % RIPPLE_PERIOD) / RIPPLE_PERIOD;
-        return Math.max(1, frac * RIPPLE_RADIUS);
-      }, false),
-      semiMinorAxis: new Cesium.CallbackProperty(() => {
-        const frac = ((Date.now() - t0) % RIPPLE_PERIOD) / RIPPLE_PERIOD;
-        return Math.max(1, frac * RIPPLE_RADIUS);
-      }, false),
-      material: new Cesium.ColorMaterialProperty(
-        new Cesium.CallbackProperty(() => {
-          const frac = ((Date.now() - t0) % RIPPLE_PERIOD) / RIPPLE_PERIOD;
-          // Ease-out fade: bright at start, trails off at edge
-          const alpha = Math.pow(1 - frac, 1.6) * 0.60;
-          return Cesium.Color.GOLD.withAlpha(alpha);
-        }, false)
-      ),
-      outline: false,
-      height: 0,
-      classificationType: Cesium.ClassificationType.TERRAIN,
-    }
-  });
 }
 
 function stopPinAnimation(entity) {
@@ -819,16 +799,13 @@ function showInfoPanel(loc) {
 
   // Rich description
   const descEl = document.getElementById('info-desc');
-  const badgeEl = document.getElementById('info-rich-badge');
   const richContent = PIN_CONTENT[loc.id];
   if (richContent && richContent.description && richContent.description.length) {
     descEl.innerHTML = richContent.description
       .map(p => `<p class="info-desc-para">${p.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</p>`)
       .join('');
-    if (badgeEl) badgeEl.style.display = 'inline-block';
   } else {
     descEl.textContent = loc.desc || '';
-    if (badgeEl) badgeEl.style.display = 'none';
   }
 
   // Location image

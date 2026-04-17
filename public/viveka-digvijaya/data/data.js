@@ -6122,7 +6122,8 @@ window.PIN_CONTENT_DATA = [
     "description": [
       "Narendranath Datta, who would become Swami Vivekananda, entered the world on 12 January 1863, on the eve of Makar Sankranti, in his father Vishwanath Datta's house. The birth came as an answer to the fervent prayers of his mother, Bhuvaneshwari Devi, whose spiritual aspirations had prepared the ground for the arrival of this extraordinary child who would reshape modern Hinduism and bridge East and West.",
       "Narendranath Datta — who would become Swami Vivekananda — was born here on 12 January 1863, on the eve of Makar Sankranti. The house belonged to his father Vishwanath Datta."
-    ]
+    ],
+    "image": "birth.jpg"
   },
   {
     "id": "balaram",
@@ -6152,7 +6153,8 @@ window.PIN_CONTENT_DATA = [
       "Every Sunday a meeting was held at Balaram Bose's house. Weekly report of the work done was recorded and further plans were discussed. (Apr 23, 1899).",
       "Swamiji made a transfer of gift to his mother Bhuvaneshwari Devi of the two properties on No 2 and 3 Gourmohan Mukherjee Street, purchased about six months earlier. (May 27 to 29, 1899).",
       "On May 12, 1901 Swamiji with his party reached Calcutta."
-    ]
+    ],
+    "image": "balaram.jpg"
   },
   {
     "id": "baranagar_math",
@@ -6164,7 +6166,8 @@ window.PIN_CONTENT_DATA = [
       "Many of his brother-monks decided to leave the Baranagore Math and go out as mendicants for Tapasya.",
       "Swami Vivekananda gave Gangadhar (Swami Akhandananda) the Sannyasa rite performing the 'Viraja-homa' in front of Thakur's picture and 'paduka' at the Baranagore Math.",
       "Swamiji set out in the third week of July 1890 with the determination not to return until he had achieved his spiritual goal. He told his brother-disciples: \"I shall not return until I acquire such realization that my very touch will transform a man.\""
-    ]
+    ],
+    "image": "baranagar_math.jpg"
   },
   {
     "id": "alambazar_math",
@@ -6186,28 +6189,32 @@ window.PIN_CONTENT_DATA = [
       "Swamiji returned to Darjeeling for taking rest on Mar 23. (March 21 to 23, 1897).",
       "Swamiji with the party arrived in Calcutta on Apr 28. On 29 April, Swamiji went to 10/2, Bosepara Lane and prostrated himself at Holy Mother's feet to seek her blessings for starting the future Ramakrishna Mission. 'Rules and Regulations for the monastic members of the Ramakrishna Order' formed.",
       "Swamiji is happy to know about Swami Akhandananda's service to the faminestricken people in Murshidabad. (Apr 28 to May 6, 1897)"
-    ]
+    ],
+    "image": "alambazar_math.jpg"
   },
   {
     "id": "ghusuree",
     "title": "Ghusuree Village",
     "description": [
       "Ghusuree village offered Vivekananda and his monastic brothers a secluded retreat for deepening their spiritual practice during the wandering years following their master's death, providing respite and space for the intensive meditation and sadhana that characterized their formative period as renunciates."
-    ]
+    ],
+    "image": "ghusuree.jpg"
   },
   {
     "id": "rajballavpara",
     "title": "Rajballavpara",
     "description": [
       "After his father Vishwanath Datta's death in 1884, the family descended into financial hardship and relocated to Rajballavpara Lane, where young Vivekananda confronted extreme poverty and material deprivation. Yet even as he struggled to support his family, his inner spiritual resolve remained unshaken, his focus on the transcendent never wavering despite the grinding realities of earthly want."
-    ]
+    ],
+    "image": "rajballavpara.jpg"
   },
   {
     "id": "gopal_seal",
     "title": "Gopal Lal Seal's House",
     "description": [
       "Gopal Lal Seal's house represented the bridge between Vivekananda's monastic life in India and his epochal journey to the West, serving as a place where the practical arrangements for his passage to the Parliament of World's Religions were finalized through the generous patronage of benefactors including the Maharaja of Khetri."
-    ]
+    ],
+    "image": "gopal_seal.jpg"
   },
   {
     "id": "dakshineswar",
@@ -6215,7 +6222,8 @@ window.PIN_CONTENT_DATA = [
     "description": [
       "The Dakshineswar Kali Temple on the banks of the Ganges became the crucible of Vivekananda's spiritual awakening when he first encountered Sri Ramakrishna there in 1881, a meeting that altered the trajectory of his life forever. Through repeated visits to this sacred temple complex, where Ramakrishna had dwelt for over three decades, the young Narendra transformed from an intellectually brilliant skeptic into a burning seeker consumed by the quest for divine truth and liberation.",
       "It was here that the young Narendra first met Sri Ramakrishna in 1881. The temple complex on the Ganges was Ramakrishna's home for over thirty years. Narendra's repeated visits here transformed him into a true spiritual seeker."
-    ]
+    ],
+    "image": "dakshineswar.jpg"
   },
   {
     "id": "belur_math",
@@ -6254,7 +6262,8 @@ window.PIN_CONTENT_DATA = [
       "Swami Brahmananda replied about Swamiji, 'Swamiji is Lord Shiva Himself'. On Nov 10, in the Math the pratima worship of Goddess Kali was also performed at night. Swamiji lost consciousness and went into 'Samadhi'.",
       "Brojendra rushed downstairs and called Swami Advaitananda, who checked his pulse and then called Swami Bodhananda to check the pulse. Bodhananda cried loudly. Swami Nirbhayananda was sent to call Dr Mahendra Nath Majumdar of Baranagore. Swami Premananda, Swami Nishchayananda and Ishwar Chandra Chakraborty started chanting 'Shri Ramakrishna' loudly in Swamiji's ears, hoping he would return from Samadhi. Swamiji's eyes were fixed in the centre, and his face assumed a divine expression with a sweet smile. Dr Majumdar found no sign of life, tried artificial respiration but failed.",
       "Swami Vivekananda passed away at the age of thirty-nine years, five months and twenty-four days. According to Yoga scripture, the life breath of an illumined yogi passes out through the opening on the top of the head, causing the blood to flow from the nostrils and the mouth. (July 1 to 4, 1902)."
-    ]
+    ],
+    "image": "belur_math.jpg"
   },
   {
     "id": "kamarpukur",
@@ -6262,539 +6271,616 @@ window.PIN_CONTENT_DATA = [
     "description": [
       "Vivekananda journeyed to Kamarpukur, the birthplace of Sri Ramakrishna, as part of his pilgrimage to honor his departed master following Ramakrishna's passing in 1886. Walking through the village where his guru had spent his childhood and early years, Swamiji encountered the humble environment that had nurtured the saint's extraordinary spiritual consciousness. The visit deepened his reverence for Ramakrishna and his understanding of how the Master's life was rooted in the simplicity and devotional atmosphere of rural Bengal.",
       "Birthplace of Sri Ramakrishna. Vivekananda and brother disciples visited here to pay homage after Ramakrishna's passing, experiencing firsthand the village environment that shaped their master's life."
-    ]
+    ],
+    "image": "kamarpukur.jpg"
   },
   {
     "id": "antpur",
     "title": "Antpur",
     "description": [
       "At Antpur in December 1886, Narendra and his brother disciples gathered for a transformative midnight ritual on Christmas Eve, formally taking monastic vows around a sacred fire. Inspired by the example of Jesus Christ's renunciation and universal love, they sealed their commitment to spiritual life and service to humanity, marking the unofficial birth of the Ramakrishna monastic order. This intimate ceremony at Antpur crystallized the monastic brotherhood that would eventually become the structured Ramakrishna Math and Mission."
-    ]
+    ],
+    "image": "antpur.jpg"
   },
   {
     "id": "deoghar",
     "title": "Baidyanath Dham, Deoghar",
     "description": [
       "During his wandering years, Vivekananda visited Baidyanath Dham at Deoghar, one of the twelve sacred Jyotirlinga shrines dedicated to Shiva scattered across the Indian subcontinent. The pilgrimage allowed him to witness firsthand the intensity of devotion that drew thousands of seekers to this holy site, deepening his appreciation for the diverse expressions of Hindu spirituality. At these temples of power and worship, Swamiji encountered the living faith of ordinary Indians and the timeless traditions that sustained the nation's spiritual life."
-    ]
+    ],
+    "image": "deoghar.jpg"
   },
   {
     "id": "varanasi",
     "title": "Varanasi (Benares)",
     "description": [
       "Varanasi held profound spiritual significance for Vivekananda across multiple visits during his wandering years and in his later life, including stops in 1888 and 1890. The eternal city on the Ganges became a place of mystical revelation where, according to tradition, the goddess Durga herself communicated to him the liberating truth: 'I myself am bearing the burden of my devotees.' This encounter crystallized his understanding of the divine mother's active compassion in human affairs. Before departing Varanasi after his early visits, he prophetically declared he would return to shake society like a bombshell, and later fulfilled that promise by establishing a Ramakrishna centre in the sacred city, bringing his master's teachings to this ancient seat of Hindu wisdom."
-    ]
+    ],
+    "image": "varanasi.jpg"
   },
   {
     "id": "sarnath",
     "title": "Sarnath",
     "description": [
       "Vivekananda visited Sarnath during his final pilgrimage in 1901, standing at the site where Buddha had delivered his first sermon and inaugurated a new spiritual age. Reflecting on this hallowed ground, he contemplated the underlying unity of India's great religious traditions—how different masters across centuries had awakened humanity to transcendent truth. The journey to Sarnath reinforced his conviction that all authentic spiritual paths, whether Hindu or Buddhist, emerged from the same eternal source and shared the common purpose of liberating the human spirit."
-    ]
+    ],
+    "image": "sarnath.jpg"
   },
   {
     "id": "ayodhya",
     "title": "Ayodhya",
     "description": [
       "During his wandering years in 1888, Vivekananda journeyed to Ayodhya, the birthplace of Lord Rama and one of Hinduism's most sacred pilgrimage sites. Walking through the devotional atmosphere of this ancient city, he witnessed the fervent faith of countless pilgrims drawn to honor the divine incarnation. The visit connected him deeply with India's epic spiritual heritage and the living tradition of devotion that had sustained Hindu civilization across millennia."
-    ]
+    ],
+    "image": "ayodhya.jpg"
   },
   {
     "id": "lucknow",
     "title": "Lucknow",
     "description": [
       "Passing through Lucknow during his wandering years in 1888, Vivekananda traversed this city of considerable historical and cultural importance with characteristic enthusiasm, absorbing its industries, luxuries, and architectural splendors. As he journeyed northward with his companions toward the Himalayan hill stations, he used Lucknow as an opportunity to reflect on India's rich past and present, sharing with his traveling party the significance of this great center of North Indian civilization and engaging with the scholars and thinkers he encountered there."
-    ]
+    ],
+    "image": "lucknow.jpg"
   },
   {
     "id": "vrindavan",
     "title": "Vrindavan",
     "description": [
       "In 1888, Vivekananda visited Vrindavan, the sacred town steeped in Krishna's childhood memories, during his wandering pilgrimage across India. The town's spiritual atmosphere moved him deeply, and he experienced profound states of devotion and meditation among its temples and sacred sites. He was particularly moved by encounters with images of the Mother Goddess here, experiences that further illuminated his understanding of the divine feminine in Indian spirituality and deepened his recognition of the great saints and realized souls as living ideals for humanity."
-    ]
+    ],
+    "image": "vrindavan.jpg"
   },
   {
     "id": "mathura",
     "title": "Mathura",
     "description": [
       "Vivekananda visited Mathura, the birthplace of Lord Krishna, during his pilgrimage through North India in 1888. As a major center of Vaishnava devotion, the city provided him with rich opportunities to contemplate the life and teachings of Krishna while observing the spiritual practices of countless pilgrims. His time here contributed to his later articulate reflections on the fundamental unity between the Shaiva and Vaishnava traditions, understanding both as expressions of the same eternal Indian spirituality."
-    ]
+    ],
+    "image": "mathura.jpg"
   },
   {
     "id": "agra",
     "title": "Agra",
     "description": [
       "During his wandering years in 1888, Vivekananda visited Agra and stood before the Taj Mahal, that sublime monument to love and artistic mastery. The magnificent structure stirred him profoundly as a testament to India's imperial grandeur and cultural genius. Yet the beauty of past achievement only deepened his anguish at witnessing the poverty and spiritual decline of contemporary India, igniting within him a burning resolve to revive the nation's ancient glory and awaken its dormant spiritual potential."
-    ]
+    ],
+    "image": "agra.jpg"
   },
   {
     "id": "haridwar",
     "title": "Hardwar",
     "description": [
       "In 1890, Vivekananda arrived at Haridwar during the great Kumbh Mela, the gateway to the Himalayas where countless sadhus and seekers gathered on the banks of the Ganges. Immersed in this vast ocean of Indian spiritual life, he mingled freely among the monks and ascetics, observing their practices and absorbing the monastery traditions. From Haridwar, he began his ascent into the high Himalayas, using the sacred city as his launching point for the mountain retreats that would deepen his spiritual realization."
-    ]
+    ],
+    "image": "haridwar.jpg"
   },
   {
     "id": "rishikesh",
     "title": "Hrishikesh",
     "description": [
       "Vivekananda visited Hrishikesh, the yoga capital on the Ganges, during his Himalayan wanderings in 1890 and again in 1897 after his triumphant return from the West. He spent contemplative periods in meditation and studied intensely with accomplished yogis, deepening his mastery of spiritual practices in an atmosphere saturated with monasticism. He was profoundly moved by encountering great realized souls here—wandering sadhus of extraordinary spiritual power whose unconventional behavior and inner freedom exemplified the heights of authentic spiritual attainment beyond conventional morality."
-    ]
+    ],
+    "image": "rishikesh.jpg"
   },
   {
     "id": "almora",
     "title": "Almora",
     "description": [
       "Vivekananda visited the hill station of Almora in 1897 and again in 1900, seeking rest and restoration in the crisp mountain air while continuing his intense spiritual and intellectual work. From this Himalayan retreat, he maintained an extensive correspondence, guiding disciples and planning his mission. Western seekers, including the remarkable Sister Nivedita, journeyed to meet him here, and the nearby Advaita Ashrama at Mayavati became a permanent monument to his vision of establishing centers for spiritual study and monastic practice in the mountains."
-    ]
+    ],
+    "image": "almora.jpg"
   },
   {
     "id": "mayavati",
     "title": "Advaita Ashrama, Mayavati",
     "description": [
       "In 1901, during what would be his final Himalayan journey, Vivekananda visited the Advaita Ashrama at Mayavati, the monastery he had inspired into existence just two years earlier in 1899. Perched in the high mountains near Almora, this institution embodied his vision of establishing centers for the study and practice of Advaita Vedanta. The ashrama became a beacon of spiritual learning and would go on to publish the influential journal Prabuddha Bharata, spreading Vedantic philosophy across India and the world."
-    ]
+    ],
+    "image": "mayavati.png"
   },
   {
     "id": "uttarkashi",
     "title": "Uttarkashi",
     "description": [
       "In 1890, Vivekananda ventured deep into the Himalayan wilderness to Uttarkashi, where he spent extended periods absorbed in meditation and spiritual practice. Here he encountered a accomplished yogi whose wisdom and encouragement proved to be a turning point in his life's direction. This sadhu recognized Swami's spiritual stature and urged him toward a greater mission—to carry the ancient teachings of Vedanta to the Western world, counsel that Vivekananda would take to heart as a divine calling."
-    ]
+    ],
+    "image": "uttarkashi.jpg"
   },
   {
     "id": "delhi",
     "title": "Delhi",
     "description": [
       "Under the assumed name Vividishananda, Vivekananda entered Delhi during his wandering years with his scanty belongings and royal bearing. The city's crisp air, grandeur, and layered historical memories filled him with both physical and spiritual elation. He stayed at the residence of Syamaldas, who welcomed him warmly, and during his time there he explored the monumental echoes of India's ancient capital—the Red Fort, Jama Masjid, and Humayun's Tomb—absorbing the civilisational depth that had shaped the subcontinent's spiritual and political consciousness."
-    ]
+    ],
+    "image": "delhi.jpg"
   },
   {
     "id": "alwar",
     "title": "Alwar",
     "description": [
       "In 1891, Vivekananda visited the court of Maharaja Mangal Singh of Alwar during his wandering through Rajputana. Here occurred one of his most celebrated exchanges on the nature of divine presence in images. When the Maharaja expressed contempt for image worship, Vivekananda demonstrated his teaching by asking a courtier to spit upon the Maharaja's portrait—a profound lesson that the sacred dwells equally in all forms, from the humblest image to the mightiest ruler."
-    ]
+    ],
+    "image": "alwar.jpg"
   },
   {
     "id": "jaipur",
     "title": "Jaipur (Jeypore)",
     "description": [
       "Vivekananda passed through Jaipur during his 1891 tour of Rajputana, engaging with the learned men of the royal court and absorbing the vibrant culture of the Pink City. His travels in the region took him to nearby sacred sites, including the village of Naravani where an annual fair drew pilgrims from across Rajputana to worship the Divine Mother. The journey deepened his understanding of how spiritual devotion manifested across India's diverse communities and landscapes."
-    ]
+    ],
+    "image": "jaipur.jpg"
   },
   {
     "id": "ajmer",
     "title": "Ajmer (Ajmere)",
     "description": [
       "Vivekananda visited Ajmer, home to the revered Dargah of Moinuddin Chishti, one of India's holiest Sufi shrines. During his wanderings through Rajputana, he observed how Islam had established itself as a living spiritual force within Indian soil. The pilgrimage reflected his broader conviction that divine aspiration transcends religious boundaries, and that the longing for the sacred beats within human hearts across all faiths and traditions."
-    ]
+    ],
+    "image": "ajmer.jpg"
   },
   {
     "id": "khetri",
     "title": "Khetri",
     "description": [
       "Vivekananda formed a lasting bond with Maharaja Ajit Singh of Khetri, who became one of his most devoted supporters. It was at Khetri in 1893 that the Maharaja bestowed upon him the name 'Vivekananda'—the name by which he would be known to history. The Maharaja's generosity extended further when he funded Vivekananda's passage to America for the Parliament of Religions in Chicago, recognizing in the wandering monk a messenger who would carry India's ancient wisdom to the West."
-    ]
+    ],
+    "image": "khetri.jpg"
   },
   {
     "id": "mount_abu",
     "title": "Mount Abu",
     "description": [
       "Vivekananda visited Mount Abu, Rajasthan's only hill station, where he encountered the magnificent Dilwara Jain temples. The extraordinary marble carvings and architectural splendor moved him deeply, tears flowing as he witnessed the devotional artistry of ages past. He recognized in these temples an expression of India's spiritual genius—a tangible manifestation of how faith, discipline, and aesthetic vision had merged to create works of transcendent beauty across the centuries."
-    ]
+    ],
+    "image": "mount_abu.jpg"
   },
   {
     "id": "ahmedabad",
     "title": "Ahmedabad",
     "description": [
       "During his 1891 travels through Gujarat, Vivekananda passed through Ahmedabad, observing the flourishing trading communities and the rich interplay of Hindu, Jain, and Islamic traditions that had shaped the city's unique character. He studied how different faiths coexisted and influenced one another within this prosperous center, gaining insight into the syncretic spirituality that had historically defined Indian civilization."
-    ]
+    ],
+    "image": "ahmedabad.jpg"
   },
   {
     "id": "junagadh",
     "title": "Junagadh",
     "description": [
       "Vivekananda climbed the Girnar Hills near Junagadh, ascending to the ancient temples that have served as a holy pilgrimage site for Jain devotees across centuries. Amidst these sacred heights, he spent time in meditation and study, reflecting on the enduring spiritual traditions that had sustained India's inner life through the ages. The journey deepened his reverence for the countless seekers who had walked these paths in pursuit of truth."
-    ]
+    ],
+    "image": "junagadh.jpg"
   },
   {
     "id": "dwarka",
     "title": "Dwarka",
     "description": [
       "In 1891, Vivekananda reached Dwarka, one of Hinduism's four most sacred pilgrimage sites and an ancient coastal shrine steeped in the memory of Lord Krishna. As a wandering monk on his transformative pan-India journey, he immersed himself in the Vaishnava devotional traditions that infused this holy city, deepening his understanding of the diverse spiritual expressions that sustained Hindu civilization. The visit reinforced his conviction that India's religious heritage contained infinite treasures worthy of transmission to the world."
-    ]
+    ],
+    "image": "dwarka.jpg"
   },
   {
     "id": "porbandar",
     "title": "Porbandar",
     "description": [
       "Arriving in Porbandar in 1891, Vivekananda stayed as an itinerant ascetic, engaging with local scholars and absorbing the rich religious atmosphere of this vibrant Saurashtra coastal city. His presence attracted intellectuals who were struck by his commanding personality and extraordinary insights into the Vedas and ancient philosophies. During his time here, he grew increasingly convinced that India held the keys to universal spiritual truth—the very conviction that would soon propel him westward to share Sanatana Dharma with the world."
-    ]
+    ],
+    "image": "porbandar.jpg"
   },
   {
     "id": "vadodara",
     "title": "Vadodara (Baroda)",
     "description": [
       "In 1892, Vivekananda visited Vadodara, a progressive state whose Gaekwad ruler championed education and reform. He engaged with the court's intellectual circles and observed firsthand how a Hindu kingdom was modernizing without abandoning its spiritual foundations—a living demonstration that India could embrace contemporary knowledge while preserving the eternal wisdom of its traditions."
-    ]
+    ],
+    "image": "vadodara.jpg"
   },
   {
     "id": "mumbai",
     "title": "Mumbai (Bombay)",
     "description": [
       "Vivekananda passed through Mumbai—India's dynamic commercial heart—multiple times between 1892 and 1897, each visit marking a turning point in his mission. In 1892, he prepared here for his fateful journey westward, embarking for the Parliament of Religions in Chicago. Upon his triumphant return in 1897, the city accorded him a hero's welcome, recognizing the global stature he had achieved. The metropolis's raw energy and modern vitality fascinated him, embodying the immense potential of a nation awakening to its own greatness."
-    ]
+    ],
+    "image": "mumbai.jpg"
   },
   {
     "id": "pune",
     "title": "Pune (Poona)",
     "description": [
       "In 1892, Vivekananda reached Pune, Maharashtra's intellectual fortress, where he encountered the region's foremost reformers including Bal Gangadhar Tilak and other luminaries reshaping Indian thought. He was profoundly moved by the political consciousness and social awakening he witnessed—a generation of educated Indians wrestling with tradition and modernity, preparing the soil for national renaissance. The city's ferment of ideas confirmed his belief that India possessed the intellectual vigor to reclaim her place among civilized nations."
-    ]
+    ],
+    "image": "pune.jpg"
   },
   {
     "id": "belgaum",
     "title": "Belgaum (Belagavi)",
     "description": [
       "Traveling from Maharashtra southward through Belgaum in 1892, Vivekananda journeyed through a landscape of cultural transition where Kannada speech and Dravidian practices gradually displaced the forms he knew from the north. This passage through Karnataka's gateway sharpened his awareness of India's magnificent diversity—how a single civilization contained multitudes, each region enriching the whole with its own spiritual and intellectual contributions."
-    ]
+    ],
+    "image": "belgaum.jpg"
   },
   {
     "id": "bangalore",
     "title": "Bengaluru (Bangalore)",
     "description": [
       "In Bangalore during 1892, Vivekananda's quiet beginning soon gave way to intense intellectual engagement when he made the acquaintance of Sir K. Seshadri Iyer, the Diwan of Mysore. Seshadri Iyer, a profound scholar himself, was astounded by the young monk's spiritual insight and learning, recognizing him as an extraordinary presence. This encounter proved transformative, as the Diwan became instrumental in introducing Vivekananda to the Maharaja of Mysore, an introduction that would dramatically alter the trajectory of his American journey."
-    ]
+    ],
+    "image": "bangalore.jpg"
   },
   {
     "id": "mysore",
     "title": "Mysuru (Mysore)",
     "description": [
       "The Maharaja of Mysore, Chamarajendra Wadiyar, received Vivekananda with great honor and, impressed by his vision and personal magnetism, reportedly offered to finance his voyage to America. Yet Vivekananda, bound by his monastic ideal of non-attachment and trusting in divine providence, declined the royal patronage. He would instead journey westward relying on his own efforts and faith—a decision that tested his conviction but proved the depth of his spiritual commitment."
-    ]
+    ],
+    "image": "mysore.jpg"
   },
   {
     "id": "hyderabad",
     "title": "Hyderabad",
     "description": [
       "In the closing months of 1892, Vivekananda journeyed to Hyderabad, the magnificent capital of one of India's most powerful Muslim rulers, the Nizam. The city's unique synthesis of Hindu and Islamic civilizations captivated him, and he engaged deeply with scholars from both traditions, observing how philosophical and spiritual wisdom transcended religious boundaries. His time there reinforced his conviction that India possessed profound treasures of knowledge and culture that the world urgently needed, even as he grew increasingly passionate about awakening the masses to their rights and dignity through education and social reform."
-    ]
+    ],
+    "image": "hyderabad.png"
   },
   {
     "id": "madras",
     "title": "Madras (Chennai)",
     "description": [
       "Madras became the crucible of Vivekananda's transformative mission. In late 1892, the young devotee Alasinga Perumal and a circle of ardent supporters welcomed him with fervent devotion, raising funds and spreading his message while urging him toward his historic journey to America. Upon his triumphant return in 1897, the city accorded him a hero's welcome, with a formal reception committee presenting addresses of gratitude for the spiritual light he had carried to the West and now brought back to illuminate his motherland."
-    ]
+    ],
+    "image": "madras.jpg"
   },
   {
     "id": "kanyakumari",
     "title": "Kanyakumari (Cape Comorin)",
     "description": [
       "On 24 December 1892, Vivekananda swam to the solitary rock at Cape Comorin where three oceans converge, and there spent three days in profound meditation. In that sacred solitude, sitting where the waters of the Arabian Sea, Indian Ocean, and Bay of Bengal meet, a luminous vision crystallized within him—a clear, undeniable calling to lift India from the depths of poverty and ignorance and to carry the eternal wisdom of Vedanta to the spiritually hungry West. This meditation marked the definitive threshold between his wandering years and his life's great mission."
-    ]
+    ],
+    "image": "kanyakumari.jpg"
   },
   {
     "id": "rameswaram",
     "title": "Rameswaram",
     "description": [
       "At the sacred Ramanathaswamy Temple, one of Hinduism's holiest pilgrimage sites, Vivekananda found an unexpected patron in the Raja of Ramnad, Bhaskara Setupati, whose devotion and generosity would prove instrumental in enabling his Western voyage. The Raja received him with royal honors, presented him with a carved rosewood pipe when the Swami declined material gifts, and bowed at his feet upon departure. Here, addressing assembled worshippers at the ancient temple, Vivekananda spoke on the true nature of worship, elevating the consciousness of all who gathered to hear his words."
-    ]
+    ],
+    "image": "rameswaram.jpg"
   },
   {
     "id": "ramnad",
     "title": "Ramanathapuram (Ramnad)",
     "description": [
       "The Raja of Ramnad became one of Vivekananda's most devoted early supporters, receiving him at Pamban with elaborate formal ceremonies and fervent hospitality. During his stay in the royal palace, the Swami engaged in penetrating spiritual conversations, expounding on the nature of Brahman and human potential for divine realization. The Raja's enthusiastic backing and willingness to sponsor the Swami's passage to America proved crucial, as Vivekananda departed with the ruler's blessings and the profound gratitude of the people, who saw in him a messenger of India's eternal spiritual heritage."
-    ]
+    ],
+    "image": "ramnad.jpg"
   },
   {
     "id": "madurai",
     "title": "Madurai (Madura)",
     "description": [
       "Vivekananda visited the breathtaking Meenakshi Temple in Madurai, its soaring gopurams piercing the sky with architectural grandeur that testified to India's unbroken capacity to sustain spiritual culture across countless centuries. He moved among the faithful devotees, witnessing the living pulse of Hindu spirituality and reflecting on how a civilization could maintain its deepest values and highest aspirations through ages of change. The temple's magnificence reinforced his vision of India's spiritual genius and deepened his resolve to revive this dormant power among his own people."
-    ]
+    ],
+    "image": "madurai.jpg"
   },
   {
     "id": "trivandrum",
     "title": "Trivananthapuram (Travancore)",
     "description": [
       "In Trivandrum, Vivekananda visited the illustrious Padmanabhaswamy Temple and engaged with the royal family and local scholars, finding in Kerala's unique social fabric—marked by high literacy and ancient matrilineal customs—evidence of India's diverse pathways to human dignity and knowledge. During his time there, he taught privately of the urgent national reforms required to raise India's masses from bondage and ignorance, speaking with characteristic intensity about the necessity of spreading education and social equality throughout the land."
-    ]
+    ],
+    "image": "trivandrum.jpg"
   },
   {
     "id": "cochin",
     "title": "Cochin (Kochi)",
     "description": [
       "On 31 May 1893, Vivekananda embarked from Cochin on the ship Peninsular, setting his face westward toward the vast unknown and leaving behind everything he had known. With letters of introduction and the blessings of those who had supported his vision, he sailed toward Colombo and beyond, carrying with him the spiritual fire of ancient India toward a new world that he would help awaken to the timeless truths of Vedanta."
-    ]
+    ],
+    "image": "cochin.jpg"
   },
   {
     "id": "puri",
     "title": "Puri (Jagannath Temple)",
     "description": [
       "During his wandering years in 1888, Vivekananda visited Puri and encountered the sacred Jagannath Temple, one of Hinduism's four cardinal pilgrimage sites. He was profoundly moved by the all-embracing tradition of the Jagannath cult, which transcended the rigid boundaries of caste by serving prasad—sacred food—to all devotees regardless of their social status. This experience reinforced his vision of a universal Hinduism where diverse spiritual paths converged toward the same divine goal, a principle that would later animate his teaching of harmony among religions."
-    ]
+    ],
+    "image": "puri.jpg"
   },
   {
     "id": "bodh_gaya",
     "title": "Bodh Gaya",
     "description": [
       "In 1901, during his final pilgrimage, Vivekananda journeyed to Bodh Gaya, the sacred site where Siddhartha Gautama achieved enlightenment beneath the Bodhi Tree. During his meditation in this hallowed place, he experienced a profound state of samadhi so intense that he felt he had become the Buddha himself. This mystical realization underscored his conviction that the deepest spiritual experiences transcended sectarian boundaries, and that the consciousness attained by all great saints was fundamentally one."
-    ]
+    ],
+    "image": "bodh_gaya.jpg"
   },
   {
     "id": "lahore",
     "title": "Lahore",
     "description": [
       "In 1897, Vivekananda received a grand reception in Lahore from leaders of both the Arya Samaj and traditional Hindu organizations. During his brief stay, he delivered three major lectures addressing the common spiritual foundations of Hinduism, focusing particularly on the path of devotion. His message resonated powerfully with audiences of diverse backgrounds—Hindus, Muslims, Brahmo Samajists, and Arya Samajists alike—as he called upon his listeners to cultivate both spiritual depth and practical strength of character for the regeneration of their nation."
-    ]
+    ],
+    "image": "lahore.jpg"
   },
   {
     "id": "amritsar",
     "title": "Amritsar",
     "description": [
       "Vivekananda arrived at Amritsar on 20 September 1897, where he was received with great honors at the station, though his stay was brief—only four or five hours at a private residence. Nevertheless, this visit to the sacred city and its Golden Temple offered him direct encounter with the Sikh tradition of universal community service and radical equality, principles that aligned closely with his own vision of spirituality wedded to social justice and the dignity of all human beings."
-    ]
+    ],
+    "image": "amritsar.jpg"
   },
   {
     "id": "rawalpindi",
     "title": "Rawalpindi",
     "description": [
       "As part of his 1897 Punjab and Kashmir tour in response to invitations from those regions, Vivekananda passed through Rawalpindi, continuing his mission to awaken India to both spiritual consciousness and practical strength. Though details of his specific activities there are sparse, this journey formed part of his larger northern Indian campaign where he delivered lectures and engaged in spiritual discourse with people of all communities."
-    ]
+    ],
+    "image": "rawalpindi.jpg"
   },
   {
     "id": "kashmir",
     "title": "Srinagar",
     "description": [
       "From late 1897 through 1898, Vivekananda retreated to the Vale of Kashmir for spiritual contemplation and meditation, profoundly affected by the region's extraordinary natural beauty. During this period of deep introspection, he experienced powerful visions and spiritual insights, including an appearance of the goddess Sharada who blessed his spiritual mission. This sojourn represented a crucial moment of inner consolidation where he renewed his spiritual resolve and clarified the spiritual work he had been called to undertake for his nation."
-    ]
+    ],
+    "image": "kashmir.jpg"
   },
   {
     "id": "dhaka",
     "title": "Dhaka (East Bengal)",
     "description": [
       "On 30 and 31 March 1901, Vivekananda delivered two major lectures in English to vast audiences at open-air meetings in Dacca (Dhaka). Speaking on \"What have I learnt?\" and \"The Religion We Are Born In,\" he addressed the people of East Bengal with a message that integrated their ancient spiritual legacy with the demands of practical regeneration. Before enormous crowds, he urged them to awaken to their civilizational heritage while simultaneously building the strength and organizations necessary for their nation's advancement."
-    ]
+    ],
+    "image": "dhaka.png"
   },
   {
     "id": "colombo",
     "title": "Colombo, Sri Lanka",
     "description": [
       "Colombo marked two pivotal moments in Vivekananda's trajectory: his initial departure point to the West in 1893, and most memorably, his triumphant return on 15 January 1897. On this homecoming, thousands of devotees crowded the docks in an overwhelming reception, greeting him as their spiritual champion returning victorious from his Western mission. The Hindu residents formally welcomed him as the first messenger to carry the Vedantic vision of the East back to the West, inaugurating his transformative lecture tour across Asia that would reshape Indian consciousness and Hindu self-understanding."
-    ]
+    ],
+    "image": "colombo.png"
   },
   {
     "id": "jaffna",
     "title": "Jaffna, Sri Lanka",
     "description": [
       "During his 1897 return tour of Ceylon, Vivekananda travelled north to Jaffna, where the Hindu community extended a formal welcome recognizing his spiritual mission. He delivered powerful public lectures to large audiences, emphasizing the strength and enduring glory of Hindu tradition. In this predominantly Buddhist stronghold, Swamiji expounded on the universality of religion, arguing that whether worshipped as Shiva, Vishnu, Buddha, or by countless other names, the divine remained one and the same—a message calling not merely for tolerance but for genuine sympathy between followers of different faiths."
-    ]
+    ],
+    "image": "jaffna.jpg"
   },
   {
     "id": "kandy",
     "title": "Kandy, Sri Lanka",
     "description": [
       "Vivekananda journeyed to Kandy, home of the sacred Temple of the Tooth Relic, where he reflected deeply on the complementary relationship between Buddhism and Hinduism. During his lectures in this spiritual center, he explored themes of universal religion and the common ground underlying Eastern traditions. His visits throughout Ceylon provided opportunities to engage with both Hindu and Buddhist communities, promoting understanding across religious boundaries."
-    ]
+    ],
+    "image": "kandy.jpg"
   },
   {
     "id": "trincomalee",
     "title": "Trincomalee",
     "description": [
       "Vivekananda visited Trincomalee as part of his 1897 return tour through Ceylon, where he was warmly received by the local community. He delivered lectures during his stay, continuing his mission to inspire and strengthen spiritual consciousness among the Indian diaspora and their descendants scattered throughout the island."
-    ]
+    ],
+    "image": "trincomalee.jpg"
   },
   {
     "id": "penang",
     "title": "Penang",
     "description": [
       "In June 1893, while en route to the Parliament of World's Religions in Chicago, Vivekananda stopped at Penang, a strip of land along the sea in the Malay Peninsula. Here he encountered a vibrant Indian diaspora and observed their temples, including the striking image of Buddha in a reclining posture entering Nirvana. His observations of the local Muslim Malay population and the port's historical associations with piracy gave him insight into the cosmopolitan character of British colonial outposts in Southeast Asia."
-    ]
+    ],
+    "image": "penang.png"
   },
   {
     "id": "singapore",
     "title": "Singapore city",
     "description": [
       "Vivekananda passed through Singapore during June 1893 on his westward voyage to America, observing this bustling British colony as a cosmopolitan trading hub where Indians, Chinese, and Malays coexisted. The diverse population and commercial energy of this port city reflected the interconnected nature of Eastern societies under colonial administration."
-    ]
+    ],
+    "image": "singapore.png"
   },
   {
     "id": "hong_kong",
     "title": "Hong Kong",
     "description": [
       "In July 1893, Vivekananda's ship called at Hong Kong, the British crown colony perched on China's coast. The port's energy, commerce, and strategic position impressed him as he reflected on the ancient civilisation of the East and the ways in which modern commerce was reshaping Asia's traditional societies."
-    ]
+    ],
+    "image": "hong_kong.png"
   },
   {
     "id": "nagasaki",
     "title": "Nagasaki",
     "description": [
       "Nagasaki was Vivekananda's first port of call in Japan during July 1893 as he voyaged toward America. The city's order, cleanliness, and beauty deeply impressed him, setting the tone for his enthusiasm about Japan's achievements. His observations of Japan would later fuel his passionate correspondence with disciples in India, urging them to study how the Japanese had successfully modernized while preserving their cultural essence."
-    ]
+    ],
+    "image": "nagasaki.jpg"
   },
   {
     "id": "kobe",
     "title": "Kobe",
     "description": [
       "Vivekananda explored Kobe during his July 1893 Japan stopover, marveling at this major port city's remarkable synthesis of ancient cultural traditions and modern progress. The picturesque landscape of pine-covered hills, the delicate architecture, and the distinctive dress and graceful movements of the Japanese people fascinated him as living examples of how an Eastern nation could embrace modernization without losing its spiritual and aesthetic character—a model he desperately wished India could emulate."
-    ]
+    ],
+    "image": "kobe.jpg"
   },
   {
     "id": "kyoto",
     "title": "Kyoto",
     "description": [
       "In July 1893, Vivekananda journeyed to Kyoto, Japan's ancient imperial capital, where he explored the renowned Buddhist temples and Shinto shrines that had endured through centuries. The experience profoundly moved him as he witnessed how Japan's living spiritual tradition seamlessly coexisted with rapid modernization — a harmony he found both beautiful and instructive. The picturesque landscape, with its carefully cultivated gardens featuring stone bridges and artificial waters, embodied for him a culture that had mastered the art of preserving the sacred while embracing progress, a lesson he believed India desperately needed to learn."
-    ]
+    ],
+    "image": "kyoto.jpg"
   },
   {
     "id": "osaka",
     "title": "Osaka",
     "description": [
       "Passing through Osaka in July 1893, Vivekananda observed Japan's thriving commercial capital with keen interest. The bustling energy and organized industry of the Japanese people captured his imagination, prompting reflections on how India might similarly harness its profound spiritual wealth for material advancement and national rejuvenation. Osaka represented for him a living example of a civilization that had achieved balance between material prosperity and cultural integrity."
-    ]
+    ],
+    "image": "osaka.jpg"
   },
   {
     "id": "yokohama",
     "title": "Yokohama",
     "description": [
       "From Yokohama in July 1893, Vivekananda embarked across the Pacific Ocean toward Canada and Chicago, marking his final departure from the East. This port city served as his gateway to the Western world, where he carried with him the message of Hinduism to a continent he had never before set foot upon. His voyage from Yokohama represented the culmination of years of preparation and the beginning of his transformative mission to awaken the spiritual consciousness of the West."
-    ]
+    ],
+    "image": "yokohama.jpg"
   },
   {
     "id": "tokyo",
     "title": "Tokyo",
     "description": [
       "During his July 1893 visit to Tokyo, Vivekananda observed firsthand Japan's remarkable transformation into a modern nation without sacrificing its cultural identity and spiritual heritage. The nation's rapid industrialization paired with the preservation of traditional customs — evident in the meticulous gardens and picturesque architecture adorning nearly every residence — fascinated him deeply. This synthesis of modernity and tradition became a powerful model in his mind for how India could similarly progress materially while maintaining its ancient spiritual foundations."
-    ]
+    ],
+    "image": "tokyo.jpg"
   },
   {
     "id": "vancouver",
     "title": "Vancouver",
     "description": [
       "On 25 July 1893, Vivekananda first touched North American soil as his ship arrived at Vancouver, British Columbia. From this Pacific port, he boarded the transcontinental train eastward, witnessing the vast prairies and expansive landscapes of Canada and America for the first time. This journey across the continent marked his transition from the Old World to the New, carrying with him the spiritual message of the East toward his destined encounter with the Western world."
-    ]
+    ],
+    "image": "vancouver.jpg"
   },
   {
     "id": "chicago",
     "title": "Chicago — Parliament of Religions",
     "description": [
       "On 11 September 1893, Vivekananda ascended the podium at the Parliament of World's Religions in Chicago and greeted the assembled delegates with words that would echo through history: 'Sisters and Brothers of America!' The audience, unprepared for such warmth and familiarity from an Indian monk, rose in spontaneous applause that lasted two minutes. Over the following weeks, his powerful addresses on Hinduism, Vedanta, and universal spirituality electrified the Western intelligentsia and established India's spiritual prestige on the global stage, transforming him from an unknown wanderer into an internationally celebrated prophet and seer whose very image was posted on Chicago streets."
-    ]
+    ],
+    "image": "chicago.jpg"
   },
   {
     "id": "new_york",
     "title": "New York City",
     "description": [
       "Following his triumph in Chicago, Vivekananda established New York City as his American base from 1894 onwards, founding the Vedanta Society of New York in 1894 — one of the oldest Vedanta organizations in the Western world. Over two extended visits spanning 1894–1896 and 1899–1900, he delivered lectures that attracted prominent intellectuals, socialites, and spiritual seekers hungry for Eastern wisdom. His New York years were marked by intense teaching and writing, during which he laid the philosophical and organizational foundations for spreading Vedantic thought throughout America, becoming a beacon of Hindu spirituality in the heart of the Western metropolis."
-    ]
+    ],
+    "image": "new_york.jpg"
   },
   {
     "id": "boston",
     "title": "Boston",
     "description": [
       "In Boston between 1893 and 1896, Vivekananda forged a crucial friendship with Harvard Professor John Henry Wright, a classicist of international renown. When Wright learned that the Swami lacked proper credentials for the Parliament of Religions, he famously declared: 'To ask for your credentials is like asking the sun to state its right to shine' — and promptly used his influence to secure Vivekananda's passage to Chicago. This encounter with Boston's intellectual elite demonstrated the profound respect Western scholarship could bestow upon authentic spiritual wisdom, and Wright's unwavering support proved instrumental in enabling Vivekananda's historic mission."
-    ]
+    ],
+    "image": "boston.jpg"
   },
   {
     "id": "thousand_islands",
     "title": "Thousand Islands",
     "description": [
       "In June 1895, Vivekananda arrived at Thousand Island Park in New York seeking respite from his exhausting lecture schedule in the city. Beginning on June 19th, he commenced daily teachings with the small group of disciples present, though not all had yet assembled at the secluded retreat. During this two-month sojourn in the tranquil setting, he composed most of his seminal work *Raja Yoga* while conducting intimate spiritual instruction. A devoted student, Miss Dutcher, built a new wing onto her cottage as a sanctuary for the Master's residence, transforming the modest dwelling into a proper teaching space. The period represented a rare convergence of scholarly productivity and direct transmission, where Vivekananda's spiritual authority crystallized through both written wisdom and personal guidance."
-    ]
+    ],
+    "image": "thousand_islands.jpg"
   },
   {
     "id": "detroit",
     "title": "Detroit",
     "description": [
       "In early 1894, Vivekananda lectured in Detroit as part of his crucial Midwestern tour, which began in November 1893 following his departure from Chicago. He stayed as the guest of Senator Palmer, a prominent political figure who provided both hospitality and social entrée to the city's intellectual circles. The monk's commanding presence and distinctive appearance—his broad forehead, intelligent eyes, and dignified bearing—made immediate impressions on those who encountered him. His lectures on Hinduism's universal principles resonated with American audiences eager to understand India's spiritual traditions, furthering his mission to dispel Western misconceptions about Indian culture while raising funds for his philanthropic vision in India."
-    ]
+    ],
+    "image": "detroit.jpg"
   },
   {
     "id": "minneapolis",
     "title": "Minneapolis",
     "description": [
       "Vivekananda reached Minneapolis in late November 1893, shortly after departing Chicago for his expansive Midwestern lecture circuit. At the First Unitarian Church, he expounded upon Brahminism and its subtle spiritual attractions to an attentive audience, presenting ancient Hindu principles with eloquence and philosophical depth. His visit to Minneapolis formed part of the itinerary he outlined in his November 11th letter to Mrs. Tannatt Woods, where he announced his departure for Madison and Minneapolis. The city became one of several crucial Midwestern stops where Vivekananda introduced American intellectuals and spiritual seekers to the richness of Hindu philosophy during this formative period of his American ministry."
-    ]
+    ],
+    "image": "minneapolis.jpg"
   },
   {
     "id": "memphis",
     "title": "Memphis",
     "description": [
       "In January 1894, Vivekananda ventured into the American Deep South, delivering lectures at the Memphis Auditorium to audiences described by local press as fair-sized and receptive. His address on Hinduism, introduced by Judge R. J., drew citizens curious about the celebrated Hindu monk whose eloquence had already garnered national attention. This Southern sojourn exposed Vivekananda to the profound racial divisions plaguing America, contrasts that would remain seared in his consciousness as manifestations of spiritual ignorance. His participation in the lecture circuit throughout the Midwest and South, lasting until April 1894, represented an ambitious effort to reach diverse American populations with his vision of universal religious truth."
-    ]
+    ],
+    "image": "memphis.jpg"
   },
   {
     "id": "washington_dc",
     "title": "Washington D.C.",
     "description": [
       "Vivekananda visited Washington D.C. during his extensive American tours, addressing distinguished audiences of politicians and intellectuals in the nation's capital. He lectured on India's spiritual contributions to world civilization, seeking to elevate Western understanding of Hindu philosophy and Indian culture among America's most influential circles. His presence in the capital reflected the growing recognition of his stature as a philosophical ambassador, capable of engaging with the highest echelons of American society. Through his Washington appearances, he continued his mission to dismantle Western prejudices while simultaneously securing resources and support for his visionary religious and philanthropic endeavors in India."
-    ]
+    ],
+    "image": "washington_dc.jpg"
   },
   {
     "id": "san_francisco",
     "title": "San Francisco",
     "description": [
       "During his 1900 visit to California, Vivekananda founded the Vedanta Society of San Francisco, establishing an enduring spiritual institution that would shape the American West's encounter with Hindu philosophy. He delivered extensive public lectures on the Gita and Vedanta philosophy at Red Men's Hall, Golden Gate Hall, and Union Square Hall, drawing audiences across the Bay Area. His teaching presence proved magnetic; students engaged in intimate exchanges with him, absorbing his distinctive pedagogy that emphasized self-realization and divine potential within each person. Though arriving relatively unknown outside ecclesiastical circles, he rapidly developed a devoted following whose members maintained Vedanta meetings in Los Angeles and Pasadena, spreading his influence throughout Southern California and securing the Western foundation for his movement."
-    ]
+    ],
+    "image": "san_francisco.jpg"
   },
   {
     "id": "los_angeles",
     "title": "Los Angeles",
     "description": [
       "Vivekananda lectured extensively in Los Angeles during his 1900 California tour, captivating large audiences with addresses at the Shakespeare Club and other venues. His most popular lectures—\"Christ the Messenger\" and \"The Way to the Realisation of a Universal Religion\"—demonstrated his ability to synthesize Eastern and Western spiritual traditions for American audiences. He addressed audiences on \"The Epics of Ancient India,\" presenting Hindu civilization's grandeur and philosophical sophistication. Wealthy patrons and spiritually inclined Californians became his devoted students, facilitating the establishment of Vedanta meetings that would persist long after his departure."
-    ]
+    ],
+    "image": "los_angeles.jpg"
   },
   {
     "id": "pasadena",
     "title": "Pasadena",
     "description": [
       "During his 1900 California visit, Vivekananda journeyed to the adjacent town of Pasadena, delivering lectures at the Universalist Church and the Shakespeare Club to audiences of considerable size and distinction. His addresses \"Christ the Messenger\" and \"The Way to the Realisation of a Universal Religion\" proved particularly popular with Pasadena's spiritually curious population. Miss Kate Sanborn and other wealthy California devotees became ardent supporters of his Vedanta work, providing both material assistance and social platform for his teachings. Pasadena thus became one of several Southern California centers where his influence took root during this pivotal period of American expansion for the Vedanta movement."
-    ]
+    ],
+    "image": "pasadena.jpg"
   },
   {
     "id": "camp_taylor",
     "title": "Camp Taylor (Shanti Ashrama)",
     "description": [
       "In 1900, Vivekananda discovered his ideal refuge at Camp Taylor in California's San Antonio Valley, which he christened 'Shanti Ashrama'—the Abode of Peace. Situated fifty miles from the nearest railway station and twelve miles from any habitation except a distant post office, the retreat occupied virgin forestland on the eastern slope of Mount Hamilton in Santa Clara County, nestled in the uplands at considerable elevation. Here, surrounded by hills that reminded him of the Himalayas, Vivekananda lived simply and devoted himself to meditation and teaching, finding in this secluded sanctuary the tranquility he had long sought during his years of intensive work across America."
-    ]
+    ],
+    "image": "camp_taylor.jpg"
   },
   {
     "id": "london",
     "title": "London",
     "description": [
       "Between 1895 and 1900, Vivekananda made two transformative visits to London, establishing Vedanta as a living force in English intellectual and spiritual circles. During his first visit in late 1895, he began teaching in London drawing rooms and lecture halls, attracting distinguished audiences and gifted disciples including the remarkable Margaret Noble, who became Sister Nivedita, and Josephine MacLeod. His second visit in 1899–1900 saw him continuing this work with renewed energy, delivering lectures and conducting classes with such intensity and clarity that Vedanta teachings became firmly rooted in England, influencing a generation of British seekers."
-    ]
+    ],
+    "image": "london.jpg"
   },
   {
     "id": "oxford",
     "title": "Oxford",
     "description": [
       "During his London sojourn in 1896, Vivekananda was invited to Oxford University, where on May 28 he met the celebrated Orientalist Professor Friedrich Max Müller at his residence. This encounter between the living exponent of Vedanta and the German-born Sanskrit scholar who had devoted his life to translating the Vedas proved deeply moving for both men. Their conversations about Ramakrishna's teachings and Vedantic philosophy were carefully recorded, creating a memorable exchange between Eastern spiritual wisdom and Western scholarly erudition that enriched both perspectives."
-    ]
+    ],
+    "image": "oxford.png"
   },
   {
     "id": "paris",
     "title": "Paris",
     "description": [
       "In August 1900, Vivekananda travelled to Paris to participate in the Congress of History of Religions, held in conjunction with the World's Fair. While there, he engaged with French intellectuals and scholars, including the notable writer Jules Bois, and spent time contemplating the treasures of the Louvre. His presence at this international gathering of religious scholars allowed him to present Vedantic philosophy to a cosmopolitan European audience and deepen his understanding of how Eastern and Western spiritual traditions could mutually enrich one another."
-    ]
+    ],
+    "image": "paris.jpg"
   },
   {
     "id": "cairo",
     "title": "Cairo, Egypt",
     "description": [
       "Late in 1900, as Vivekananda journeyed homeward from the West, he paused in Cairo to explore the Pyramids, the Sphinx, and the ancient monuments surrounding the city. Standing before these sublime remnants of a great civilization, he reflected deeply on the parallels between Egyptian and Hindu spiritual traditions, and marvelled at how different ancient cultures had pursued their own paths toward understanding the divine—the Egyptians developing their own responses to the eternal questions that had always stirred the Hindu mind. Yet as fatigue overtook him during these travels, his thoughts increasingly turned toward India and home."
-    ]
+    ],
+    "image": "cairo.jpg"
   },
   {
     "id": "port_said",
     "title": "Port Said",
     "description": [
       "In 1900, Vivekananda passed through Port Said at the entrance of the Suez Canal on his homeward journey, at the threshold between Europe and Asia. This symbolic crossing at the junction of two worlds mirrored the great arc of his own life's work—carrying the spiritual wealth of the East to the West, and returning enriched by the encounter, poised to rebuild his motherland with renewed vision and purpose."
-    ]
+    ],
+    "image": "port_said.jpg"
   },
   {
     "id": "alambazar_return",
@@ -6802,63 +6888,72 @@ window.PIN_CONTENT_DATA = [
     "description": [
       "On 1 May 1897, Vivekananda convened a historic meeting at Alambazar Math in Calcutta where the Ramakrishna Mission was formally founded, crystallizing the spiritual vision that had been developing through his years of teaching and travel. The Mission was established with twin complementary aims: to disseminate Vedantic philosophy for the liberation of individual souls, and to serve suffering humanity as manifestations of God—embodying Ramakrishna's revolutionary teaching that 'Shiva dwells in the form of the poor.' This synthesis of spiritual wisdom and selfless service became the enduring expression of Vivekananda's life work.",
       "On 1 May 1897, Vivekananda convened a meeting at Alambazar Math at which the Ramakrishna Mission was formally founded. Its twin aims: to spread Vedanta for individual liberation, and to serve humanity as manifestations of God — 'Shiva in the form of the poor.'"
-    ]
+    ],
+    "image": "alambazar_return.png"
   },
   {
     "id": "dakshineswar_return",
     "title": "Dakshineswar — Return Pilgrimage",
     "description": [
       "Upon his return from the West in 1897, Vivekananda made a pilgrimage to Dakshineswar, the temple-garden along the Ganges where his guru Sri Ramakrishna had lived and where his own spiritual awakening had begun. In this sacred place, he reconnected with the source of his transformation—the spot where Ramakrishna's touch had opened his inner vision and changed the course of his life. This return journey was not merely nostalgic; it was a spiritual homecoming that grounded his vast work in the eternal foundation from which it had sprung."
-    ]
+    ],
+    "image": "dakshineswar_return.jpg"
   },
   {
     "id": "meerut_lecture",
     "title": "Meerut",
     "description": [
       "During his 1897 lecture tour across Northern India, Vivekananda's disciple Akhandananda visited Meerut to receive medical treatment from Dr. Trailokya Nath Ghosh, remaining under his care for a month and a half. While the primary purpose was recuperation rather than public lecturing, the visit reflected the Swami's expanding network of supporters and medical professionals across Northern India who aided the mission's work during this period of intensive travel and teaching."
-    ]
+    ],
+    "image": "meerut_lecture.jpg"
   },
   {
     "id": "saharanpur_tour",
     "title": "Saharanpur",
     "description": [
       "Vivekananda and his monastic companions passed through Saharanpur in 1897 during their Northern India tour, staying at the residence of Banku Behari Babu, a local pleader. Upon learning that fellow disciple Akhandananda was undergoing treatment in nearby Meerut, the Swami and his party immediately made their way there to reunite with him, demonstrating the close-knit bonds among the monastic brotherhood and their coordinated movements across the Gangetic plains."
-    ]
+    ],
+    "image": "saharanpur_tour.jpg"
   },
   {
     "id": "dehradun",
     "title": "Dehra Dun",
     "description": [
       "In late November 1897, Vivekananda rested in Dehra Dun while coordinating the medical care of Akhandananda, who had developed bronchitis. The Swami personally arranged for Dr. Maclaren, the Civil Surgeon, to examine his ailing disciple and shifted his travel plans from Ganeshprayag to the plains to ensure proper treatment. This period revealed Vivekananda's deep pastoral concern for his brothers and his pragmatic approach to managing health crises during his rigorous mission work."
-    ]
+    ],
+    "image": "dehradun.jpg"
   },
   {
     "id": "vadodara_return",
     "title": "Kathiawar",
     "description": [
       "Vivekananda returned to Gujarat during his 1897 all-India tour, reconnecting with patrons and establishing fresh contacts throughout Kathiawar. The magnetic force of his personality and profound spiritual teachings left lasting impressions on those who encountered him, while the missionary workers he dispatched to various cities throughout the region found receptive audiences eager to embrace Ramakrishna's gospel through the Swami's simplified and direct presentation of Vedantic truths."
-    ]
+    ],
+    "image": "vadodara_return.jpg"
   },
   {
     "id": "hyderabad_return",
     "title": "Hyderabad — Mission Work",
     "description": [
       "During his mission-building tour of 1897, Vivekananda visited Hyderabad to strengthen the Ramakrishna Mission's presence and guide local leaders in applying Vedantic principles to social service. He passionately advocated for the education and uplift of the downtrodden masses, insisting that educated Indians had a sacred duty to combat priestcraft, social inequality, and national disorganization through practical spirituality rooted in social responsibility."
-    ]
+    ],
+    "image": "hyderabad_return.png"
   },
   {
     "id": "varanasi_final",
     "title": "Varanasi — Last Pilgrimage",
     "description": [
       "In January 1902, months before his death, Vivekananda made his final sacred pilgrimage to Varanasi, the eternal city of Shiva and wisdom. Here he inaugurated the Advaita Ashrama and delivered profound discourses on Vedanta to devoted disciples gathered around him. Speaking of the Divine Mother and the imminent end of his earthly journey, he shared stories of great saints and sages he had encountered, his words carrying the weight of a life nearing its completion and a legacy approaching its full revelation."
-    ]
+    ],
+    "image": "varanasi_final.png"
   },
   {
     "id": "kashmir_final",
     "title": "Kashmir — Final Himalayas",
     "description": [
       "In 1901, despite visibly deteriorating health, Vivekananda made his last journey to the Kashmir Valley, a region of profound spiritual beauty that had always drawn his meditative spirit. As his body weakened, he expressed readiness to leave the physical form, having completed his work and work-play on earth. This final sojourn in the beloved Himalayas represented a return to contemplation and peace, a conscious preparation for the great transition he sensed drawing near."
-    ]
+    ],
+    "image": "kashmir_final.jpg"
   },
   {
     "id": "belur_final",
@@ -6866,2365 +6961,9796 @@ window.PIN_CONTENT_DATA = [
     "description": [
       "On the evening of 4 July 1902, Swami Vivekananda entered his room at Belur Math for meditation, instructing his disciples not to disturb him. At 9:20 pm, at the age of thirty-nine, his head drooped as he consciously departed from his body in Mahasamadhi—a deliberate, yogic exit that fulfilled his own prophecy of not living to forty. His body was cremated on the banks of the Ganges near the Math, as the nation lost a towering spiritual giant whose brief life had ignited a renaissance of Hindu consciousness and established institutions that would carry his vision across generations.",
       "On 4 July 1902, Swami Vivekananda attained Mahasamadhi (conscious exit from the body) at Belur Math at the age of 39. He had meditated in his room alone that evening, instructing disciples not to disturb him. At 9:20 pm, his head drooped — he had left his body. His passing fulfilled his own prediction that he would not live to forty. He was cremated on the banks of the Ganges at Belur Math."
-    ]
+    ],
+    "image": "belur_final.jpg"
   },
   {
     "id": "bodhgaya_final",
     "title": "Bodh Gaya — Last Pilgrimage",
     "description": [
       "In 1901, Vivekananda made his final pilgrimage to Bodh Gaya, the sacred site of Buddha's enlightenment. Sitting in deep meditation beneath the ancient Bodhi Tree, he experienced a profound state of samadhi that dissolved the boundaries of individual consciousness. Emerging from this transcendent experience, he told a disciple that in that moment of union with the tree and the ground, he had become the Buddha himself. This experience crystallized his vision of the fundamental unity underlying all the world's great religious traditions, confirming his conviction that the deepest truths of spirituality transcend sectarian divisions."
-    ]
+    ],
+    "image": "bodhgaya_final.jpg"
   },
   {
     "id": "bosepara_lane",
     "title": "16 Bosepara Lane",
     "description": [
       "The house at 16 Bosepara Lane in Simulia, Kolkata, became the formative home of young Narendranath Datta between 1877 and 1884, after the family relocated from their previous residence on Gourmohan Mukherjee Street. During these crucial teenage years, the future Swami Vivekananda grew intellectually and spiritually within its walls, absorbing influences that would shape his philosophical outlook and spiritual seeking. This modest Kolkata address witnessed the unfolding of a brilliant mind grappling with questions of faith, reason, and the nature of reality."
-    ]
+    ],
+    "image": "bosepara_lane.jpg"
   },
   {
     "id": "nilambur_house",
     "title": "Nilambur Mukherjee Garden",
     "description": [
       "The garden house of Nilambur Mukherjee in Ramakrishnapur, Howrah, served as a spiritual refuge for Vivekananda and his brother monks during the early years of their monastic community following Sri Ramakrishna Paramahamsa's passing. In 1887, this tranquil setting became a monastery where the young disciples engaged in intensive spiritual practice and meditation, away from the distractions of urban life. The house represented a crucial period of consolidation and deepening of their monastic discipline under the guidance of their departed master's teachings."
-    ]
+    ],
+    "image": "nilambur_house.jpg"
   },
   {
     "id": "ramakrishnapur",
     "title": "Ramakrishnapur, Howrah",
     "description": [
       "The riverside village of Ramakrishnapur in Howrah offered a serene sanctuary for the grieving disciples of Sri Ramakrishna during the uncertain years following their master's death in 1886. The gentle flow of the Ganges and the quiet natural surroundings created an ideal environment for the young monks to deepen their spiritual practice and process their profound loss. This period of retreat in the peaceful village allowed Vivekananda and his companions to consolidate their understanding of the master's teachings and define their future spiritual mission."
-    ]
+    ],
+    "image": "ramakrishnapur.png"
   },
   {
     "id": "rosebank_darjeeling",
     "title": "Rose Bank, Darjeeling",
     "description": [
       "Vivekananda arrived at Rose Bank cottage in Darjeeling in 1897, seeking restoration of his physical health after the demanding rigors of his first tour through America and England. The cool, crisp mountain air of the Himalayas provided relief from his exhausted body, while the serene alpine setting offered space for reflection on his Western mission and its remarkable reception. During this mountain sojourn, he reconnected with brother monks and received an outpouring of letters from devoted followers in America and Europe, all urging his prompt return to continue the work he had begun in the West."
-    ]
+    ],
+    "image": "rosebank_darjeeling.jpg"
   },
   {
     "id": "chowk_bazar_darjeeling",
     "title": "Chauk Bazaar, Darjeeling",
     "description": [
       "During his 1897 stay in Darjeeling, Vivekananda moved freely through the bustling bazaar areas, engaging with local residents and devotees who sought his presence and teachings. The cosmopolitan atmosphere of Darjeeling's marketplace provided a living laboratory for his observations about human nature and spiritual aspiration across different cultures and social stations. His wanderings through these busy commercial streets reflected his characteristic openness to people from all walks of life."
-    ]
+    ],
+    "image": "chowk_bazar_darjeeling.jpg"
   },
   {
     "id": "bhaita_darjeeling",
     "title": "Bhaita (Vaita Village), Darjeeling",
     "description": [
       "The village of Bhaita in the Darjeeling hills offered Vivekananda an opportunity to observe and interact with the mountain people during his 1897 recuperative stay in the region. His time in this modest Himalayan settlement deepened his understanding of how ordinary people lived their spiritual lives and faced the challenges of existence in the remote foothills. These encounters reinforced his conviction that spirituality was not confined to monastic orders or the educated elite, but belonged to all humanity."
-    ]
+    ],
+    "image": "bhaita_darjeeling.jpg"
   },
   {
     "id": "barajaguli",
     "title": "Barajaguli, Nadia",
     "description": [
       "Vivekananda's wanderings through Barajaguli in the Nadia district during 1889 took him to the birthplace of Sri Chaitanya Mahaprabhu, the great bhakti saint whose life and teachings embodied the path of devotional love to the Divine. The spiritual resonance of this sacred region, steeped in Chaitanya's revolutionary message of divine love for all beings, aligned perfectly with Vivekananda's own vision of practical spirituality rooted in service to humanity. His pilgrimage through these hallowed grounds reinforced the connection between India's mystical heritage and his mission to awaken the spiritual consciousness of the world."
-    ]
+    ],
+    "image": "barajaguli.jpg"
   },
   {
     "id": "kuppaghat",
     "title": "Kuppaghat, Bhagalpur",
     "description": [
       "In 1888, during his years of wandering as a parivrajaka monk, Vivekananda found solace at Kuppaghat on the banks of the Ganga near Bhagalpur. He established himself in a small ashrama here, dedicating himself to deep meditation and spiritual practice. The riverside location provided the solitude and contemplative atmosphere he sought, allowing him to shed worldly attachments and deepen his inner realization during this formative period of his spiritual journey."
-    ]
+    ],
+    "image": "kuppaghat.jpg"
   },
   {
     "id": "bhagalpur",
     "title": "Bhagalpur",
     "description": [
       "Bhagalpur held significance in Vivekananda's wandering years as an important stopping point along the Ganga. The ancient silk city's sacred ghats, where ascetics traditionally gathered, aligned with his quest for spiritual renewal. As he traveled through new places and encountered different communities, Vivekananda found that the solitude and village air delighted him, allowing him to free himself from old impressions and the burden of worldly concerns while pursuing his spiritual mission."
-    ]
+    ],
+    "image": "bhagalpur.jpg"
   },
   {
     "id": "dharamagarh_mayavati",
     "title": "Dharamagarh Estate, Mayavati",
     "description": [
       "During his 1901 pilgrimage to the Himalayas, Vivekananda visited the Dharamagarh estate near Mayavati in the Almora district. This property was closely associated with the Sevier family, devoted Western disciples who had established the Advaita Ashrama under the Swami's spiritual guidance. The estate served as a base for his mountain retreat and work in spreading Vedantic teachings to both Eastern and Western seekers gathered in the Himalayan region."
-    ]
+    ],
+    "image": "dharamagarh_mayavati.png"
   },
   {
     "id": "sevier_bungalow",
     "title": "Mrs. Sevier's Bungalow, Mayavati",
     "description": [
       "The bungalow of Captain and Mrs. Charlotte Sevier at the Advaita Ashrama in Mayavati became a cherished residence for Vivekananda during his Himalayan visits from 1898 to 1901. The Seviers, as devoted disciples, placed their home and resources at his service, providing him with hospitality and support for his spiritual work. In March 1899, Vivekananda sent written reflections on Vedantic philosophy to be incorporated into the Ashrama's prospectus, indicating his active engagement with the community from this location."
-    ]
+    ],
+    "image": "sevier_bungalow.png"
   },
   {
     "id": "captain_sevier_grave",
     "title": "Captain Sevier's Samadhi, Mayavati",
     "description": [
       "Captain James Henry Sevier, one of Vivekananda's most devoted Western disciples, attained mahasamadhi at the Advaita Ashrama in Mayavati in 1900. His samadhi, a sacred memorial tomb erected within the Ashrama grounds, stands as a testament to the deep spiritual bond between the Swami and his Western followers. The site remains a sacred place within the ashrama, embodying the Swami's ideal of disciples dedicating their lives entirely to spiritual pursuits and service to humanity."
-    ]
+    ],
+    "image": "captain_sevier_grave.png"
   },
   {
     "id": "nivedita_almora",
     "title": "Sister Nivedita's House, Almora",
     "description": [
       "Sister Nivedita, formerly Margaret Noble, stayed in Almora during Vivekananda's 1898 Himalayan tour, marking a transformative period in her spiritual initiation. Under the Swami's direct guidance, she experienced the grandeur of the mountains and immersed herself in Indian spiritual life. Her time in Almora as part of the Swami's traveling party of Western women disciples deepened her commitment to his vision of bringing Eastern wisdom to the West while serving India's spiritual renaissance."
-    ]
+    ],
+    "image": "nivedita_almora.jpg"
   },
   {
     "id": "lala_badri_shah_almora",
     "title": "Lala Badri Shah's House, Almora",
     "description": [
       "Lala Badri Shah emerged as a devoted patron and supporter of Vivekananda during his multiple visits to Almora between 1898 and 1901. His home served as a regular haven for the Swami and his disciples, providing warm hospitality and tangible support for the spiritual work unfolding in the Himalayan region. Through his generous assistance, Lala Badri Shah became instrumental in sustaining the Swami's mountain retreat and helping establish the Advaita Ashrama as a center for Vedantic learning and practice."
-    ]
+    ],
+    "image": "lala_badri_shah_almora.jpg"
   },
   {
     "id": "vivekananda_cottage_almora",
     "title": "Vivekananda's Cottage, Almora",
     "description": [
       "Vivekananda's cottage in Almora served as his primary mountain residence during his multiple visits from 1898 to 1901, becoming a vibrant center of spiritual discourse and philosophical inquiry. From this retreat, he received visitors, guided his Western and Indian disciples, and composed significant writings that would shape the dissemination of Vedantic thought. The cottage atmosphere reflected his desire to bring together seekers from diverse backgrounds, fostering deep spiritual conversations that embodied his vision of universal Vedanta."
-    ]
+    ],
+    "image": "vivekananda_cottage_almora.jpg"
   },
   {
     "id": "thompson_house_almora",
     "title": "Thompson House, Almora",
     "description": [
       "In 1898, Vivekananda arrived in Almora with a diverse party that included Western women disciples such as Mrs. Ole Bull of Cambridge, Massachusetts, and members of the Anglo-Indian elite, along with his monastic brothers and Indian devotees. The Swami and his entourage became guests at Thompson House, which served as a gathering point within the growing international community that had formed around him during his Himalayan sojourns. This residence became one of several homes and cottages in the region where the Swami maintained his center of spiritual work, facilitating exchanges between his Eastern monastic tradition and Western seekers drawn to his teachings."
-    ]
+    ],
+    "image": "thompson_house_almora.jpg"
   },
   {
     "id": "kasar_devi_temple",
     "title": "Kasar Devi Temple, Almora",
     "description": [
       "During his 1898 stay in Almora, Vivekananda visited the ancient Kasar Devi temple perched on a ridge above the town. The sacred site, with its reputation as a powerful spiritual location, attracted the Swami's contemplative practice, and he spent time in meditation at this elevated sanctuary. The temple's serene environment and its significance in the local spiritual landscape aligned with his quest for renewal during his Himalayan pilgrimage."
-    ]
+    ],
+    "image": "kasar_devi_temple.jpg"
   },
   {
     "id": "syahi_devi_temple",
     "title": "Syahi Devi Temple, Almora",
     "description": [
       "The forested hilltop shrine of Syahi Devi near Almora was part of Vivekananda's spiritual itinerary during his 1898 Himalayan journey. As a traditional pilgrimage destination revered in the Kumaon region, the temple represented the living devotional traditions of the mountains that the Swami sought to understand and honor. His visits to such sacred sites reflected his reverence for all forms of worship and his desire to experience the spiritual heritage of the Himalayan foothills."
-    ]
+    ],
+    "image": "syahi_devi_temple.jpg"
   },
   {
     "id": "raghunath_temple_almora",
     "title": "Sri Raghunath Temple, Almora",
     "description": [
       "While in Almora in 1898, Vivekananda visited the historic Sri Raghunath temple located in the town's bazaar area, continuing his lifelong veneration of Lord Rama and engagement with Vaishnava sacred spaces. The temple visit was characteristic of his spiritual practice during his wandering years, when he sought out places of worship across India to deepen his understanding of living Hindu traditions and to connect with devotees of all spiritual paths."
-    ]
+    ],
+    "image": "raghunath_temple_almora.jpg"
   },
   {
     "id": "dewaldhar_estate",
     "title": "Dewaldhar Estate, Almora",
     "description": [
       "The scenic Dewaldhar estate in the Almora hills became a retreat for Vivekananda and his growing circle of Western disciples during his 1898 stay in the mountains. The property, associated with families like the Seviers who had embraced his teachings, offered a tranquil environment where the Swami could rest and engage in spiritual work away from the demands of his public activities. The estate exemplified how Western devotees were creating spaces of sanctuary in the Himalayan foothills to support his mission."
-    ]
+    ],
+    "image": "dewaldhar_estate.jpg"
   },
   {
     "id": "bhim_tal",
     "title": "Bhim Tal",
     "description": [
       "During his final Himalayan journey around 1900, Vivekananda traveled through the Kumaon hills to the picturesque lake town of Bhimtal, where the serene waters and forested surroundings provided an ideal setting for meditation and contemplation. The journey through this region, with its almost tropical hill forests and natural beauty, offered the Swami moments of spiritual renewal as he moved between the mountains and the plains, reflecting on his life's work and teachings."
-    ]
+    ],
+    "image": "bhim_tal.jpg"
   },
   {
     "id": "tehri",
     "title": "Tehri",
     "description": [
       "During his 1890 Himalayan pilgrimage, Vivekananda visited the princely state of Tehri Garhwal in the dramatic landscape of the Garhwal hills along the Bhagirathi river. His sojourn included meetings with local dignities and opportunities for meditation in this remote mountain kingdom, where he continued his practice of combining spiritual discipline with engagement in the world around him. The experience of Tehri added to his deepening knowledge of India's diverse regions and ruling classes."
-    ]
+    ],
+    "image": "tehri.jpg"
   },
   {
     "id": "roshanara_bagh",
     "title": "Roshanara Bagh, Delhi",
     "description": [
       "In late 1897, during his return to Delhi following his triumphal tour of America and Europe, Vivekananda stayed in the city and used Roshanara Bagh, the historic Mughal-era garden, as a gathering place for meetings with devotees and seekers. The grand setting, steeped in Delhi's imperial history, provided an appropriate venue for the Swami to address his growing circle of followers and to continue organizing his spiritual and organizational work. His presence in Delhi marked his reentry into active work in India after his transformative years abroad."
-    ]
+    ],
+    "image": "roshanara_bagh.jpg"
   },
   {
     "id": "jodhpur",
     "title": "Jodhpur",
     "description": [
       "During his wandering years across Rajputana in 1891, Vivekananda arrived in Jodhpur and gained the attention of the Maharaja, who was profoundly moved by the young monk's spiritual presence and intellect. When the Maharaja offered material assistance to Vivekananda, the swami initially hesitated, feeling it compromised his independence. The Maharaja's response—invoking the ancient Kshatriya duty to protect dharma—gave Vivekananda pause, and he recognized the deeper principle underlying the offer. The fortified Blue City with its imposing architecture and martial history left a lasting impression on the wandering ascetic as he traversed the princely states of Rajasthan."
-    ]
+    ],
+    "image": "jodhpur.jpg"
   },
   {
     "id": "wadhwan",
     "title": "Wadhwan",
     "description": [
       "Vivekananda's journey through Saurashtra in 1891 brought him to Wadhwan, a small princely state where the local ruler extended traditional hospitality to the wandering monk. During his stay, Vivekananda engaged with the spiritual landscape of Gujarat, meeting with scholars and seekers who were drawn to his powerful teachings. The princely state served as another important waypoint in his extended pilgrimage through western India, where he encountered the diverse cultural and religious tapestry of the region."
-    ]
+    ],
+    "image": "wadhwan.png"
   },
   {
     "id": "limbdi",
     "title": "Limbdi",
     "description": [
       "In Limbdi, a Saurashtra principality, Vivekananda experienced the warmth of royal patronage when the Thakore Saheb came to his aid during a moment of difficulty. When the swami found himself in financial straits, he entrusted a young devotee with a note explaining his predicament, and the Thakore Saheb personally responded to the request for assistance. This encounter exemplified the spiritual magnetism that drew Rajput rulers to support the wandering monk, and Limbdi's ruler later extended an earnest invitation for Vivekananda to settle there permanently—an offer the swami graciously declined, saying he could not rest while his work remained unfinished."
-    ]
+    ],
+    "image": "limbdi.jpg"
   },
   {
     "id": "bhavnagar",
     "title": "Bhavnagar",
     "description": [
       "Vivekananda's visit to the coastal city of Bhavnagar during his 1891 Gujarat journey brought him into contact with the princely ruler and his court. The port city's proximity to Palitana and its position as a center of commerce and culture made it a significant stop along his wandering path. Following an incident that had tested his safety during solitary travels, the Prince of Bhavnagar counseled Vivekananda about the risks of his unguarded wanderings and provided recommendations to trustworthy contacts throughout the region, helping the swami navigate his journeys with greater circumspection."
-    ]
+    ],
+    "image": "bhavnagar.jpg"
   },
   {
     "id": "girnar",
     "title": "Girnar",
     "description": [
       "Vivekananda's spiritual pilgrimage brought him to Girnar, the ancient sacred mountain near Junagadh that has drawn seekers of all faiths—Hindu, Jain, and Buddhist—for millennia. The swami climbed this storied peak with its clusters of temples and sanctuaries, where he meditated among the sacred sites that crowned the mountain. At Girnar, Vivekananda communed with the divine presence that generations of pilgrims had sought in this hallowed place, absorbing the spiritual atmosphere accumulated over centuries of worship and devotion."
-    ]
+    ],
+    "image": "girnar.jpg"
   },
   {
     "id": "bhuj",
     "title": "Bhuj",
     "description": [
       "During his extensive wanderings through Gujarat in 1891, Vivekananda visited Bhuj, the principal city of the Kutch region, where the unique cultural landscape and arid terrain presented a distinct spiritual environment. The remote desert kingdom, isolated by the surrounding Rann, offered the wandering monk encounter with people whose lives were shaped by this stark and singular geography. His presence in this distant corner of India demonstrated the far reach of his spiritual mission even in the least accessible regions of the subcontinent."
-    ]
+    ],
+    "image": "bhuj.jpg"
   },
   {
     "id": "veraval",
     "title": "Veraval",
     "description": [
       "Vivekananda's pilgrimage through Saurashtra in 1891 brought him to Veraval, the ancient port city that serves as the gateway to the sacred Somnath temple. This coastal settlement holds profound historical and spiritual significance as the site of the Somnath Jyotirlinga, which had been destroyed and rebuilt repeatedly through the centuries. The swami visited this place of immense religious power, connecting with the layers of faith and resilience embedded in this holy shrine on the Arabian Sea coast."
-    ]
+    ],
+    "image": "veraval.jpg"
   },
   {
     "id": "narayan_sarovar",
     "title": "Narayan Sarovar",
     "description": [
       "Vivekananda ventured to the remote Narayan Sarovar during his wanderings through Kutch, seeking out one of Hinduism's five most sacred lakes. This isolated pilgrimage site near the westernmost tip of Kutch, far removed from the centers of population and power, drew the ascetic's spiritual magnetism. At this hallowed lake where countless devotees had performed their rituals and meditations, Vivekananda found himself in communion with the ancient sacred traditions that had preserved Hindu spirituality through the ages."
-    ]
+    ],
+    "image": "narayan_sarovar.jpg"
   },
   {
     "id": "mandvi",
     "title": "Mandvi",
     "description": [
       "During his 1891 Gujarat tour, Vivekananda traveled to the historic port city of Mandvi in Kutch, where he reunited with his brother-disciple Akhanda­nanda, who had been following him since Delhi. The two monks remained together in this shipbuilding town for about a fortnight before Akhanda­nanda continued his own pilgrimage at Swamiji's earnest desire to pursue solitary wandering. This meeting in Mandvi marked an important moment in Vivekananda's extensive exploration of western India, as he sought both spiritual solitude and the company of fellow seekers."
-    ]
+    ],
+    "image": "mandvi.jpg"
   },
   {
     "id": "beyt_dwarka",
     "title": "Beyt Dwarka",
     "description": [
       "Vivekananda's pilgrimage through Saurashtra in 1891 brought him to Beyt Dwarka, the sacred island off Gujarat's coast that tradition reveres as the actual historical residence of Lord Krishna. This visit to the island sanctuary allowed him to commune with one of Hinduism's most sacred sites and deepen his understanding of Krishna's divine legacy in the landscape itself."
-    ]
+    ],
+    "image": "beyt_dwarka.jpg"
   },
   {
     "id": "ashapuri",
     "title": "Ashapuri",
     "description": [
       "During his 1891 wanderings through Saurashtra's Kathiawar region, Vivekananda passed through Ashapuri near Bhavnagar, traversing the ancient pilgrim circuit on foot. His travels through these small towns with their temples reflected his commitment to understanding India's sacred geography firsthand, though his solitary journeys sometimes required caution and careful judgment about his surroundings and companions."
-    ]
+    ],
+    "image": "ashapuri.jpg"
   },
   {
     "id": "palitana",
     "title": "Palitana",
     "description": [
       "Vivekananda visited Palitana in 1891, standing before the magnificent cluster of over nine hundred temples crowning Shatrunjaya Hill, the foremost Jain pilgrimage destination. The sight of these marble sanctuaries carved into the sacred mountain and the profound Jain commitment to ahimsa left a deep impression on the wandering monk, who recognized in this tradition another expression of India's spiritual genius."
-    ]
+    ],
+    "image": "palitana.jpg"
   },
   {
     "id": "khandwa",
     "title": "Khandwa",
     "description": [
       "During his parivrajaka years around 1890, Vivekananda journeyed through central India's Narmada valley region, passing through Khandwa in present-day Madhya Pradesh. His travels through these territories reflected his systematic exploration of India's interior, gathering knowledge of its people, traditions, and spiritual landscape during his formative years as a wandering renunciate."
-    ]
+    ],
+    "image": "khandwa.jpg"
   },
   {
     "id": "ujjain",
     "title": "Ujjain",
     "description": [
       "Vivekananda visited Ujjain in 1890, one of Hinduism's seven sacred cities and home to the Mahakaleshwar Jyotirlinga. This ancient center of learning and spirituality held deep significance for him as he traced the sacred geography of India, understanding the living tradition of worship and pilgrimage that had sustained Hindu civilization through the centuries."
-    ]
+    ],
+    "image": "ujjain.jpg"
   },
   {
     "id": "maheshwar",
     "title": "Maheshwar",
     "description": [
       "Vivekananda journeyed to Maheshwar on the Narmada in 1890, revering this historic riverside town associated with the great Queen Ahilyabai Holkar's spiritual legacy. The sacred ghats and temples along the Narmada provided him moments of contemplation and connection to the river's spiritual sanctity, which held profound meaning in Hindu tradition and in his own spiritual practice."
-    ]
+    ],
+    "image": "maheshwar.jpg"
   },
   {
     "id": "mahabaleshwar",
     "title": "Mahabaleshwar",
     "description": [
       "During his Maharashtra travels in 1892, Vivekananda visited the hill station of Mahabaleshwar in the Sahyadri mountains, where the Krishna river originates at the ancient temple. This pilgrimage site's sacred significance as the birth-place of one of India's greatest rivers drew him to experience the divine landscape and the spiritual consciousness embedded in these mountains."
-    ]
+    ],
+    "image": "mahabaleshwar.jpg"
   },
   {
     "id": "kolhapur",
     "title": "Kolhapur",
     "description": [
       "During his South India journey in 1892, Vivekananda arrived at Kolhapur, home to the sacred Mahalakshmi temple, one of Hinduism's most revered Shakti Peethas. The royal city extended warm hospitality to the wandering monk, and he engaged with eager audiences through discourses that resonated with both scholars and devotees. His visit to this important pilgrimage center reinforced his mission to awaken spiritual consciousness across India's sacred sites."
-    ]
+    ],
+    "image": "kolhapur.jpg"
   },
   {
     "id": "nagpur",
     "title": "Nagpur",
     "description": [
       "Vivekananda passed through Nagpur during his parivrajaka years as he traversed the heart of central India, engaging with local scholars and spiritual seekers. The geographical center of the Indian subcontinent provided another opportunity for him to share his teachings with devotees encountered along his peripatetic journey through the heartland."
-    ]
+    ],
+    "image": "nagpur.jpg"
   },
   {
     "id": "thrissur",
     "title": "Thrissur (Trichur)",
     "description": [
       "In 1892, Vivekananda arrived in Thrissur, Kerala's cultural capital renowned for its temples and Vedic traditions. He interacted with the region's scholars and spiritual leaders, experiencing firsthand the sophisticated intellectual and religious milieu that characterized this center of classical arts and learning in South India."
-    ]
+    ],
+    "image": "thrissur.jpg"
   },
   {
     "id": "kodungalloor",
     "title": "Kodungalloor (Cranganore)",
     "description": [
       "Vivekananda visited Kodungalloor, the ancient port town of Cranganore with its remarkable layers of interfaith history as a center of early Jewish, Christian, and Muslim settlements. The sacred Bhagavati temple, among Kerala's most venerated shrines, provided a focal point for his engagement with the region's profound spiritual heritage during his South India pilgrimage."
-    ]
+    ],
+    "image": "kodungalloor.jpg"
   },
   {
     "id": "paramakudi",
     "title": "Paramakudi",
     "description": [
       "Paramakudi served as the first major stopping point after Vivekananda departed Ramnad during his 1892 South India tour through the Pandya Nadu region. The town received him with a large public demonstration and ceremonial address of welcome, reflecting the deep admiration and spiritual hunger that greeted him throughout the Tamil heartland as he journeyed toward Kanyakumari."
-    ]
+    ],
+    "image": "paramakudi.png"
   },
   {
     "id": "manamadurai",
     "title": "Manamadurai",
     "description": [
       "Manamadurai in Sivaganga district was one of numerous stops along Vivekananda's sacred route through Tamil Nadu's ancient temple towns. The region's spiritual landscape, anchored by its venerable Shiva temple, formed part of his pilgrimage toward the southern cape where he would meditate at the confluence of three seas."
-    ]
+    ],
+    "image": "manamadurai.jpg"
   },
   {
     "id": "kumbakonam",
     "title": "Kumbakonam",
     "description": [
       "Vivekananda visited Kumbakonam, the legendary 'City of Temples' nestled in the fertile Cauvery delta, where the local Hindu community formally welcomed him with an address of respect. The town's dozens of ancient temples and the sacred Mahamaham tank provided rich spiritual ground for his teachings on the Vedanta mission and India's religious renewal during his 1892 South India tour."
-    ]
+    ],
+    "image": "kumbakonam.jpg"
   },
   {
     "id": "pondicherry",
     "title": "Pondicherry",
     "description": [
       "In late 1892, after meditating at Kanyakumari, Vivekananda journeyed northward through the sacred landscape of Ramnad toward Pondicherry, the French colonial enclave on the Coromandel coast. This distinctive settlement, blending French and Tamil cultures, represented another waypoint in his transformative pilgrimage through South India before he would ultimately reach the scholarly centers of Madras and beyond."
-    ]
+    ],
+    "image": "pondicherry.jpg"
   },
   {
     "id": "chennai_rr_sabha",
     "title": "R.R. Sabha, Madras",
     "description": [
       "In 1893, the R.R. Sabha in Triplicane served as a vital platform for Vivekananda to address Madras audiences during his final preparations for the Parliament of Religions. The venue hosted public lectures where enthusiastic supporters gathered not only to hear the young monk expound on Hindu philosophy but also to organize fundraising efforts for his momentous journey to America. These farewell meetings reflected the deep connection Vivekananda had forged with the Madras intelligentsia, who recognized the significance of his mission to represent Vedantic thought on the world stage."
-    ]
+    ],
+    "image": "chennai_rr_sabha.jpg"
   },
   {
     "id": "chennai_castle_kernan",
     "title": "Castle Kernan, Madras",
     "description": [
       "Castle Kernan in Triplicane became a temporary sanctuary for Vivekananda during his final months in Madras before embarking for America in 1893. The residence hosted a steady stream of devoted admirers and supporters who came to seek his blessings and counsel as he prepared for his unprecedented voyage. From this base, Vivekananda coordinated his departure arrangements while continuing to inspire those around him with his vision of spiritual reformation for India."
-    ]
+    ],
+    "image": "chennai_castle_kernan.jpg"
   },
   {
     "id": "dharamshala",
     "title": "Dharamshala (Dharmsala)",
     "description": [
       "During his 1897 northern India tour following his return from America, Vivekananda discovered solace in Dharamshala's cool mountain air and serene setting in the Kangra valley. Nestled beneath the Dhauladhar range, this hill station provided respite for the Swami and his traveling party, including his devoted disciples. The town became a gathering place where he met with local devotees and contemplated the spiritual needs of the nation he had returned to serve."
-    ]
+    ],
+    "image": "dharamshala.jpg"
   },
   {
     "id": "ambala",
     "title": "Ambala",
     "description": [
       "Vivekananda passed through Ambala on August 19, 1897, as he traversed Punjab during his post-America tour of northern India. The railway junction served as a crucial transit point connecting Delhi to the Punjab region, and during his brief stay the Swami maintained his correspondence with followers across India, reflecting on the progress of his mission. It was in Ambala that his thoughts turned to the practical work of establishing institutions for spiritual education and social service."
-    ]
+    ],
+    "image": "ambala.jpg"
   },
   {
     "id": "pampore",
     "title": "Pampore (Pampur)",
     "description": [
       "During his 1898 Kashmir journey, Vivekananda traveled through Pampore, the heart of Kashmir's renowned saffron-growing region south of Srinagar. The landscape of vast saffron fields and the valley's natural beauty provided moments of peaceful contemplation as he journeyed through the region as the guest of Mrs. Ole Bull. His passage through this picturesque town formed part of his extended Kashmir pilgrimage, where he sought both spiritual renewal and deeper understanding of India's sacred geography."
-    ]
+    ],
+    "image": "pampore.jpg"
   },
   {
     "id": "anantnag",
     "title": "Anant Nag",
     "description": [
       "Vivekananda visited Anantnag, the ancient Islamabad of south Kashmir, during his 1898 pilgrimage through the valley. The town's proximity to sacred sites and its holy springs drew the Swami to this spiritually significant location, where local officials and seekers came to receive his teachings. After his time in Anantnag, he continued onward through Kashmir, integrating the experiences of these holy places into his vision of revitalized Hindu spirituality."
-    ]
+    ],
+    "image": "anantnag.jpg"
   },
   {
     "id": "baramulla",
     "title": "Baramula",
     "description": [
       "Between June 20-22, 1898, Vivekananda and his party, including disciples such as Nivedita and Dhira Mata, traversed the route toward Baramulla, the ancient gateway to the Kashmir valley on the Jhelum river. This historic town with its temple ruins marked an important threshold in his Kashmir journey, serving as the entry point from which he would journey deeper into the valley's sacred landscape. His passage through Baramulla connected him to centuries of pilgrims who had traversed this same route in search of spiritual fulfillment."
-    ]
+    ],
+    "image": "baramulla.jpg"
   },
   {
     "id": "jammu",
     "title": "Jammu",
     "description": [
       "Vivekananda arrived in Jammu, the City of Temples, as part of his comprehensive Kashmir and Punjab tour in 1898. The town served as his gateway to the valley, and his visit attracted considerable attention from local dignitaries and spiritual seekers. His time in Jammu, en route to deeper Kashmir, demonstrated the widespread appreciation his message had gained throughout northern India, with even palace officials and administrators seeking his counsel on matters both spiritual and worldly."
-    ]
+    ],
+    "image": "jammu.jpg"
   },
   {
     "id": "kheer_bhawani",
     "title": "Kheer Bhawani temple (Kshir Bhavani)",
     "description": [
       "During his 1898 Kashmir pilgrimage, Vivekananda journeyed to the sacred spring temple of Kheer Bhawani on September 30th, departing from his camp at Achabal where he had spent a contemplative week in early September. This revered shrine of Goddess Ragnya Devi became one of the most spiritually significant stops of his valley sojourn, where he underwent a profound mystical experience that would remain among the most powerful encounters of his spiritual life."
-    ]
+    ],
+    "image": "kheer_bhawani.jpg"
   },
   {
     "id": "amarnath",
     "title": "Amarnath cave temple",
     "description": [
       "In August 1898, Vivekananda undertook the demanding pilgrimage to the Amarnath Cave, one of the holiest sanctuaries of Lord Shiva nestled high in the Himalayan peaks. His ascent to the sacred ice Shiva Lingam at this altitude became a watershed moment in his spiritual journey, an encounter of such intensity that he would later describe it as one of the most transformative experiences of his entire life, deepening his understanding of Hindu mysticism and devotion."
-    ]
+    ],
+    "image": "amarnath.jpg"
   },
   {
     "id": "dal_lake",
     "title": "Dal Lake (Dalh Lake)",
     "description": [
       "Vivekananda resided on a houseboat on the Dal Lake in Srinagar during his 1898 Kashmir sojourn, from where he dispensed spiritual teachings to his Western disciples including Nivedita, Josephine MacLeod, and Sara Bull. Anchored against the majestic backdrop of the Himalayas, he shared profound wisdom with his companions while appreciating the unparalleled beauty of the valley, which he considered the ideal landscape for yogic contemplation and spiritual practice."
-    ]
+    ],
+    "image": "dal_lake.jpg"
   },
   {
     "id": "ganderbal",
     "title": "Ganderbal",
     "description": [
       "Before departing for Kheer Bhawani, Vivekananda moved his boat to Ganderbal on the Sindh river in central Kashmir, positioning himself near his disciples for a final few days together in the valley. This location on the route toward the sacred Kheer Bhawani temple marked a transition point in his pilgrimage itinerary, allowing him to remain close to his spiritual community before undertaking his next significant journey."
-    ]
+    ],
+    "image": "ganderbal.jpg"
   },
   {
     "id": "achabal",
     "title": "Achabal",
     "description": [
       "In early September 1898, Vivekananda established camp for a week at Achabal, drawn by its magnificent Mughal gardens and natural spring. It was amid these terraced gardens that he gathered with his companions for sustained spiritual practice under definite direction, finding in the verdant landscape and flowing waters an ideal setting for meditative retreat before announcing his intention to undertake the pilgrimage to Amarnath."
-    ]
+    ],
+    "image": "achabal.jpg"
   },
   {
     "id": "guwahati",
     "title": "Guwahati (Gauhati)",
     "description": [
       "During his 1901 tour of East Bengal, Vivekananda visited Guwahati and the renowned Kamakhya temple, one of the foremost Shakti Peethas of India perched on Nilachal Hill above the Brahmaputra river. Despite declining health from asthma and other ailments, he engaged compassionately with the local devotees, offering words of solace and spiritual wisdom that revealed his empathy even as his own physical suffering intensified."
-    ]
+    ],
+    "image": "guwahati.jpg"
   },
   {
     "id": "shillong",
     "title": "Shillong",
     "description": [
       "Vivekananda arrived in Shillong, then Assam's capital and a picturesque hill station in the Khasi hills, during his 1901 eastern India tour, seeking respite in its pleasant climate. However, the elevation provided little relief for his deteriorating health, compounded by diabetes and severe asthma attacks that had plagued him since Dacca, yet he continued to offer his presence and teachings to the local community during this final chapter of his eastern travels."
-    ]
+    ],
+    "image": "shillong.jpg"
   },
   {
     "id": "margao",
     "title": "Margao",
     "description": [
       "Vivekananda passed through Margao, the commercial heart of Portuguese-held Goa, during his wanderings through South India in 1892. This journey through the colonial territory exposed him to Goa's unique cultural synthesis, where centuries of Portuguese influence had created a distinctive blend of Indian and European civilizations distinct from the rest of the subcontinent."
-    ]
+    ],
+    "image": "margao.jpg"
   },
   {
     "id": "murree",
     "title": "Murree",
     "description": [
       "During his 1897 North India tour, Vivekananda visited the hill station of Murree in early October, where he retreated to recover from the intense spiritual and physical exertion of his Kashmir campaign. By October 11th, the Swami had grown introspective about his tireless work of the previous ten days, recognizing signs of exhaustion and reflecting on his demanding nature toward his disciples. Though unwell, he demonstrated characteristic compassion by visiting Mr. Sevier and persuading him to accept reduced monetary support. From Murree, he departed for Srinagar via Baramulla, continuing his influential journey through the northern regions where his teachings had garnered widespread appreciation from both common devotees and royal patrons."
-    ]
+    ],
+    "image": "murree.jpg"
   },
   {
     "id": "sialkot",
     "title": "Sialkot",
     "description": [
       "Vivekananda delivered his discourse on Bhakti at Sialkot during his 1897 Punjab tour, responding to invitations that drew him through this ancient Himalayan foothills region. His visit formed part of a broader northern campaign that took him through Punjab and Kashmir, where his religious teachings and social reformist ideas gained considerable traction among local audiences. Notably, during this tour the Swami primarily lectured in Hindi, bringing such vitality and philosophical depth to the language that the Maharaja of Kashmir himself requested written papers in that tongue—a testament to the unique power Vivekananda infused into his vernacular discourse."
-    ]
+    ],
+    "image": "sialkot.jpg"
   },
   {
     "id": "sitakund",
     "title": "Sitakund",
     "description": [
       "Vivekananda visited Sitakund, the ancient pilgrimage site near Chittagong crowned by the Chandranath Hills temple, during his early wanderings through Bengal. The sacred geography of this hilltop sanctuary, with its perpetually burning holy fire and deep roots in Hindu spiritual tradition, represented the kind of venerable religious landscape that drew the young monk to explore India's sacred geography and understand the devotional pulse of his homeland."
-    ]
+    ],
+    "image": "sitakund.jpg"
   },
   {
     "id": "sandakphu",
     "title": "Sandakphu",
     "description": [
       "During his early Himalayan wanderings in 1888, Vivekananda reached Sandakphu, the highest peak in West Bengal perched on the Nepal-India border. From this rarefied altitude, the young ascetic gazed upon four of the world's five tallest mountains, experiences that profoundly stirred his spiritual sensibilities and deepened his connection to the sublime grandeur of the Himalayas that would inspire him throughout his life."
-    ]
+    ],
+    "image": "sandakphu.jpg"
   },
   {
     "id": "heidelberg",
     "title": "Heidelberg, Germany",
     "description": [
       "Vivekananda visited Heidelberg during his 1900 European sojourn, engaging with the intellectual and scholarly traditions of this renowned university city on the Neckar. The philosophical and scientific culture of Heidelberg provided the Swami with opportunities to dialogue with German Indologists and thinkers, furthering his mission to bridge Eastern and Western intellectual traditions during his transformative Western tour."
-    ]
+    ],
+    "image": "heidelberg.jpg"
   },
   {
     "id": "koblenz",
     "title": "Koblenz (Coblenz), Germany",
     "description": [
       "Vivekananda passed through Koblenz at the confluence of the Rhine and Moselle during his 1900 European travels, experiencing the dramatic Rhine valley landscape that would mark a memorable segment of his German journey. The scenic beauty and historic significance of this strategic river city formed part of the aesthetic and cultural impressions that shaped his European experience."
-    ]
+    ],
+    "image": "koblenz.jpg"
   },
   {
     "id": "cologne",
     "title": "Cologne (Köln)",
     "description": [
       "During his 1900 European tour, Vivekananda visited Cologne and marveled at the soaring Gothic cathedral, one of Christendom's greatest architectural achievements. The Swami attended a service within the sanctuary, profoundly moved by the religious devotion crystallized in the cathedral's magnificent stonework and sacred space—a testament to his deep appreciation for how spiritual conviction manifests in the artistic and architectural expressions of different cultures."
-    ]
+    ],
+    "image": "cologne.jpg"
   },
   {
     "id": "milan",
     "title": "Milan, Italy",
     "description": [
       "Vivekananda's first experience in Italy came during his 1900 European tour when he visited Milan, where he was deeply impressed by Leonardo da Vinci's masterpiece 'The Last Supper.' The city's artistic treasures and spiritual resonance greatly appealed to the Swami, who found in Milan's cultural achievements a reflection of human genius devoted to religious expression. His engagement with these works demonstrated his capacity to appreciate the universal spiritual language embedded in Western art, even as his heart increasingly turned toward the call of his Indian motherland."
-    ]
+    ],
+    "image": "milan.jpg"
   },
   {
     "id": "florence",
     "title": "Florence, Italy",
     "description": [
       "During his 1900 European tour, Vivekananda traveled through Italy and experienced Florence's extraordinary artistic heritage. The Renaissance city captivated him with its rich cultural and spiritual legacy, allowing him to draw profound parallels between Italian artistic achievement and Indian aesthetic spirituality. He recognized how beauty served as a vehicle for the divine across cultures, deepening his understanding of universal spiritual expression. While in Italy, he also visited Milan and Pisa, marveling at their architectural treasures, particularly the intricate marble work that adorned these ancient cities."
-    ]
+    ],
+    "image": "florence.jpg"
   },
   {
     "id": "rome",
     "title": "Rome, Italy",
     "description": [
       "Vivekananda visited Rome during his 1900 European tour, where the Eternal City's ancient grandeur and religious significance profoundly moved him. The Christmas season in Rome filled the air with spiritual presence, and the Swami was deeply affected by the Christ-spirit pervading the city. He spent considerable time reflecting on the universal religious impulse evident in Rome's sacred sites, including the Vatican and St. Peter's Basilica, and spoke touchingly of parallels between the Christ-Child and the Indian divine figure of Krishna, recognizing the common spiritual yearning across civilizations."
-    ]
+    ],
+    "image": "rome.jpg"
   },
   {
     "id": "naples",
     "title": "Naples, Italy",
     "description": [
       "Naples served as a crucial port of call during Vivekananda's 1900 European journey homeward to India. On December 16, the Swami and his companions departed London for the Continent, with arrangements made for Mr. Goodwin to meet them at Naples. From this major Mediterranean port, his path led toward Egypt and ultimately back to India, marking a significant transition point in his transformative European mission as he prepared to return home and establish his spiritual work on Indian soil."
-    ]
+    ],
+    "image": "naples.jpg"
   },
   {
     "id": "hotel_continental_paris",
     "title": "Hotel continental",
     "description": [
       "The Hotel Continental on Rue de Rivoli served as Vivekananda's base during his influential 1900 Paris visit. Located near the Tuileries, this luxury establishment provided him with a central position from which to engage with Parisian intellectual and spiritual circles while attending the Congress of the History of Religions at the Paris World's Fair. The hotel became a gathering place for seekers and intellectuals drawn to his teachings on Vedanta and Indian philosophy."
-    ]
+    ],
+    "image": "hotel_continental_paris.jpg"
   },
   {
     "id": "american_cathedral_paris",
     "title": "American Cathedral",
     "description": [
       "The American Cathedral on Avenue George V in Paris became one of Vivekananda's platforms for sharing Vedantic wisdom during his 1900 Paris visit. Speaking to audiences of American and European seekers gathered in this sacred space, the Swami articulated the universal principles of Indian philosophy to Western audiences. His presence at this venue reflected the bridge-building mission that defined his European sojourn, bringing Eastern spiritual teachings into the heart of Western religious institutions."
-    ]
+    ],
+    "image": "american_cathedral_paris.jpg"
   },
   {
     "id": "leggetts_house_paris",
     "title": "Leggetts' house",
     "description": [
       "The Leggett family home in Paris became a center of Vivekananda's social and spiritual activity during his 1900 visit. Francis Leggett and his sister Alberta, devoted American disciples who had previously hosted the Swami in New York and London, welcomed him into their Paris residence as a continuation of their service. The household served as an intimate gathering place where the Swami discussed his spiritual vision and future work in India with close disciples and friends."
-    ]
+    ],
+    "image": "leggetts_house_paris.jpg"
   },
   {
     "id": "jules_bois_paris",
     "title": "Jules Bois' home",
     "description": [
       "Jules Bois, a prominent French occultist and writer deeply interested in Eastern mysticism, hosted Vivekananda at his Paris home during the 1900 visit. Bois represented the intellectual and spiritual avant-garde of fin-de-siècle Paris, and his engagement with the Swami reflected the growing European fascination with Eastern wisdom. Through Bois' salon, Vivekananda connected with French occultists and seekers curious about the philosophical foundations of Indian spirituality."
-    ]
+    ],
+    "image": "jules_bois_paris.jpg"
   },
   {
     "id": "perros_guirec",
     "title": "Perros-Guirec, Brittany",
     "description": [
       "Vivekananda spent the summer of 1900 recuperating at Perros-Guirec on the rugged Pink Granite Coast of Brittany, a seaside retreat arranged by his devoted disciples. Josephine MacLeod and other close companions accompanied him to this tranquil Breton setting, providing him respite during his intensive European mission. The coastal solitude of this picturesque location offered the Swami a period of rest and reflection between his demanding Paris activities and his subsequent travels to Vienna, Constantinople, and Athens before his unexpected return to India in December 1900."
-    ]
+    ],
+    "image": "perros_guirec.jpg"
   },
   {
     "id": "chamonix",
     "title": "Chamonix",
     "description": [
       "During his 1900 European journey, Vivekananda traveled to Chamonix in the French Alps, some forty miles from Geneva where he had spent three days bathing and visiting the Castle of Chillon. The towering majesty of Mont Blanc and the spectacular Alpine landscape stirred his spirit deeply, evoking memories of the Himalayan peaks he had cherished throughout his life. Amidst the grandeur of these mountains, he found solace in meditation, allowing the sublime natural beauty to deepen his spiritual practice."
-    ]
+    ],
+    "image": "chamonix.jpg"
   },
   {
     "id": "normandy",
     "title": "Normandy",
     "description": [
       "Normandy's scenic coastal landscape welcomed Vivekananda and his traveling companions during the summer of 1900, as they continued their journey through France. The rolling countryside and rugged coastline of this historic region provided a contemplative retreat, offering respite from the rigors of constant travel and teaching. The peaceful New England-like beauty of Normandy gave him space for reflection and rejuvenation."
-    ]
+    ],
+    "image": "normandy.png"
   },
   {
     "id": "annisquam",
     "title": "Annisquam, Massachusetts",
     "description": [
       "In August 1894, Vivekananda arrived at Annisquam, the charming fishing village on Cape Ann, where he stayed as the guest of Mrs. Ole Bull and her circle of devoted disciples. Dressed in his characteristic orange robe and turban, he spoke at the village church, beginning his lecture by emphasizing the Hindu principle of respect for all religions. The New England seaside provided an ideal setting for informal spiritual discourse with sincere seekers who treasured his presence."
-    ]
+    ],
+    "image": "annisquam.jpg"
   },
   {
     "id": "salem_ma",
     "title": "Salem, Massachusetts",
     "description": [
       "On August 28, 1894, Vivekananda arrived in Salem, the historic Massachusetts port city, where he addressed the Thought and Work club gathered at Wesley chapel on the subject of Indian religion and customs. Despite the warm afternoon weather, a considerable audience assembled to hear the Hindu monk speak on the spiritual traditions of his homeland. His visit left a lasting impression on the Salem community, with attendees remembering both his teachings and his gracious character."
-    ]
+    ],
+    "image": "salem_ma.jpg"
   },
   {
     "id": "swampscott_ma",
     "title": "Swampscott, Massachusetts",
     "description": [
       "In July 1894, Vivekananda accepted the invitation to visit Swampscott on Massachusetts's North Shore, a fashionable seaside resort where many city dwellers retreated during the summer heat. Though he had declined invitations from wealthy patrons elsewhere, recognizing the superficiality of much high society, he found value in this quieter coastal retreat. The peaceful interlude at Swampscott offered him necessary rest between his intensive schedule of lectures and spiritual instruction."
-    ]
+    ],
+    "image": "swampscott_ma.jpg"
   },
   {
     "id": "lawrence_ma",
     "title": "Lawrence, Massachusetts",
     "description": [
       "Lawrence, the industrial mill city on the Merrimack River, received Vivekananda's visit during his 1894 New England tour, where he brought the message of Vedanta to its working-class population. Though specific details of his lecture remain sparse, his presence in this working community reflected his commitment to reaching audiences beyond the wealthy intellectual circles of Boston. The mill workers and citizens encountered a spiritual teacher genuinely interested in their lives and spiritual aspirations."
-    ]
+    ],
+    "image": "lawrence_ma.jpg"
   },
   {
     "id": "melrose_ma",
     "title": "Melrose, Massachusetts",
     "description": [
       "Melrose, the suburb north of Boston, was among the New England communities where Vivekananda lectured during his American tour, drawing an audience of local seekers at Rogers Hall. The Boston-area residents who gathered to hear him speak were drawn to his profound teachings on Eastern philosophy and spirituality. His visit contributed to the growing network of serious spiritual students developing in the region."
-    ]
+    ],
+    "image": "melrose_ma.jpg"
   },
   {
     "id": "magnolia_ma",
     "title": "Magnolia, Massachusetts",
     "description": [
       "Magnolia, the picturesque summer resort village perched on Cape Ann, attracted Boston's intellectual and cultural elite, and Vivekananda's visit in 1894 drew the interest of this refined audience. The scenic beauty of the coastal community complemented his spiritual presence, creating an atmosphere conducive to meaningful discourse. His time in this fashionable haven allowed him to reach cultivated minds open to exploring Indian philosophy and the universal truths of Vedanta."
-    ]
+    ],
+    "image": "magnolia_ma.jpg"
   },
   {
     "id": "plymouth_ma",
     "title": "Plymouth, Massachusetts",
     "description": [
       "During his New England tour in 1894, Vivekananda visited Plymouth, the historic landing place of the Pilgrim Fathers, where he lectured to audiences drawn to his presentations. He found in the Pilgrims' struggle for religious freedom a resonant parallel to India's ancient heritage of spiritual inquiry, drawing connections between Western and Eastern traditions of seeking truth without constraint."
-    ]
+    ],
+    "image": "plymouth_ma.jpg"
   },
   {
     "id": "medford_ma",
     "title": "Medford, Massachusetts",
     "description": [
       "Vivekananda brought his message of Hindu philosophy and universal religion to the historic suburb of Medford north of Boston in 1894, speaking at the Grand Army Hall to audiences eager to encounter his vision of spirituality across all traditions."
-    ]
+    ],
+    "image": "medford_ma.jpg"
   },
   {
     "id": "groton_ma",
     "title": "Groton, Massachusetts",
     "description": [
       "The small rural Massachusetts town of Groton received Vivekananda during his American lecture tour, where some of his American disciples had extended invitations for him to share his teachings through both public lectures and intimate spiritual discussions."
-    ]
+    ],
+    "image": "groton_ma.jpg"
   },
   {
     "id": "cincinnati",
     "title": "Cincinnati, Ohio",
     "description": [
       "Cincinnati, the Queen City of the West, hosted Vivekananda during his 1894 Midwestern tour, where he addressed audiences at local halls on the philosophy of Vedanta and the spiritual heritage of India, contributing to his broader mission of bringing Eastern wisdom to American consciousness."
-    ]
+    ],
+    "image": "cincinnati.jpg"
   },
   {
     "id": "indianapolis",
     "title": "Indianapolis, Indiana",
     "description": [
       "The Indiana state capital of Indianapolis welcomed Vivekananda during his 1894 Midwest tour, providing another platform for him to speak on philosophy and spirituality as he worked to correct Western misconceptions about India while gathering support for his philanthropic and religious endeavors at home."
-    ]
+    ],
+    "image": "indianapolis.jpg"
   },
   {
     "id": "iowa_city",
     "title": "Iowa (Des Moines)",
     "description": [
       "Vivekananda lectured in Iowa during his notable 1894 Midwest tour, speaking at the Central Church in Des Moines on November 27 and scheduled to address the First Unitarian Church the following morning. His appearances drew considerable public attention, with newspaper coverage capturing the fascination his presence inspired among frontier audiences encountering this Indian monk's teachings on universal spirituality."
-    ]
+    ],
+    "image": "iowa_city.jpg"
   },
   {
     "id": "nashville",
     "title": "Nashville, Tennessee",
     "description": [
       "Nashville, known as the Athens of the South, heard Vivekananda's message of universal religious unity during his 1894 Southern tour, where he spoke to audiences about the equality of all human beings before the Absolute despite the racial divisions that marked the post-Civil War South."
-    ]
+    ],
+    "image": "nashville.jpg"
   },
   {
     "id": "cambridge_ma",
     "title": "Cambridge, Massachusetts",
     "description": [
       "Cambridge, home to Harvard University, became an important intellectual center for Vivekananda's American work, where he cultivated relationships with prominent Harvard scholars including William James and John Henry Wright. These connections proved instrumental in his path to the Parliament of Religions, as the professors' recommendations helped secure his place at this transformative event."
-    ]
+    ],
+    "image": "cambridge_ma.jpg"
   },
   {
     "id": "edinburgh",
     "title": "Edinburgh",
     "description": [
       "During his transformative 1895 UK lecture tour, Vivekananda brought his message of Vedanta to Edinburgh, Scotland's intellectually vibrant capital. The city's reputation as the Athens of the North made it an ideal venue for his philosophical discourses, where educated audiences engaged with his teachings on Indian spirituality and Hindu philosophy. His presence in this bastion of Scottish learning marked an important moment in introducing Eastern thought to Western intellectual circles."
-    ]
+    ],
+    "image": "edinburgh.jpg"
   },
   {
     "id": "manchester",
     "title": "Manchester",
     "description": [
       "Vivekananda carried his Vedanta message to Manchester during his 1895 tour of England, bringing the spiritual wisdom of India to this great industrial center of the North. His lectures in the mill city reached both working-class and middle-class audiences, translating Hindu philosophy into terms accessible to the practical British mind shaped by commerce and industry. This visit demonstrated his ability to communicate across class and cultural boundaries."
-    ]
+    ],
+    "image": "manchester.jpg"
   },
   {
     "id": "bristol",
     "title": "Bristol",
     "description": [
       "The historic port city of Bristol, nestled on the River Avon with centuries of maritime trade behind it, welcomed Vivekananda during his first UK tour in 1895. He delivered lectures on Indian philosophy to the city's receptive audiences, continuing his systematic dissemination of Vedanta across the English provinces. Bristol's cosmopolitan character, shaped by its connections to world trade, provided fertile ground for his message of universal spirituality."
-    ]
+    ],
+    "image": "bristol.jpg"
   },
   {
     "id": "wimbledon",
     "title": "Wimbledon, London",
     "description": [
       "Vivekananda arrived in London on July 31st, 1900, and spent his initial weeks in Wimbledon as the guest of devoted disciples. Though summer found many of his supporters absent from town, he conducted private classes and intimate meetings with those who remained, deepening their understanding of Vedanta before accepting invitations to travel onward. This quiet sojourn in the London suburb represented a brief respite in his ceaseless work of spiritual instruction."
-    ]
+    ],
+    "image": "wimbledon.png"
   },
   {
     "id": "mannar",
     "title": "Mannar",
     "description": [
       "Mannar, the northwestern gateway to Sri Lanka, marked a symbolic threshold in Vivekananda's triumphant return from his Western missionary journey. As he traveled homeward from America through Ceylon toward India, this coastal outpost represented his transition from the West back to his native land, where he would be received as a hero who had successfully transplanted Hindu wisdom in foreign soil."
-    ]
+    ],
+    "image": "mannar.png"
   },
   {
     "id": "art_institute_chicago",
     "title": "The Art Institute of Chicago",
     "description": [
       "On September 11, 1893, Vivekananda delivered his epochal address at the Parliament of the World's Religions held in the Hall of Columbus at the Art Institute of Chicago. Opening with the unforgettable words 'Sisters and Brothers of America,' he captivated an audience of seven thousand who rose in sustained applause at the conclusion of his speech. This single moment catapulted him to international prominence and established him as Hinduism's eloquent voice in the Western world."
-    ]
+    ],
+    "image": "art_institute_chicago.jpg"
   },
   {
     "id": "chicago_residence",
     "title": "Vivekananda's Chicago Residence",
     "description": [
       "Following his success at the Parliament, Vivekananda established himself in Chicago residences where he conducted Vedanta classes and received seekers eager to learn Hindu philosophy. He remained in the city through November 1893 and into 1894, building relationships with key supporters like the Hale family and laying the groundwork for organized Vedanta instruction in America. His extended Chicago stay transformed the city into the cradle of American Vedantism."
-    ]
+    ],
+    "image": "chicago_residence.jpg"
   },
   {
     "id": "vedanta_society_ny",
     "title": "Vedanta Society of New York-History",
     "description": [
       "In November 1894, Vivekananda founded the Vedanta Society of New York, establishing the first institutional expression of Vedanta in the Western world. Through regular classes and lectures at the Society, he systematically transmitted the core teachings of Advaita Vedanta to American students, creating an enduring organizational framework that would outlive his Western sojourn. This society became the model for Vedanta centers that would flourish across the continent."
-    ]
+    ],
+    "image": "vedanta_society_ny.png"
   },
   {
     "id": "thousand_islands_park",
     "title": "Thousand Island Park",
     "description": [
       "In June 1895, Vivekananda arrived at Thousand Islands Park on the St. Lawrence River to conduct daily teachings with his disciples. Beginning on June 19th with just three or four students present, he immediately commenced his regular instruction, unwilling to delay his work even as more followers were still assembling at the retreat. A devoted student, Miss Dutcher, who owned the cottage, constructed an additional wing nearly as large as the original building as a love offering to her teacher. These intimate sessions, recorded by Miss S. E. Waldo, would later become the foundation of 'Inspired Talks,' capturing some of Vivekananda's most profound spiritual teachings delivered in the quiet sanctuary of this riverside sanctuary."
-    ]
+    ],
+    "image": "thousand_islands_park.jpg"
   },
   {
     "id": "shanti_ashrama",
     "title": "Shanti Ashrama (Camp Taylor)",
     "description": [
       "During his second American tour in 1900, Vivekananda helped establish Shanti Ashrama (Camp Taylor) as a meditation and retreat center for the Vedanta Society on California's northern coast. Located near San Jose in the remote highlands of Santa Clara County at the edge of Mount Hamilton's eastern slope, the site offered the perfect sanctuary—surrounded by virgin forest and hills, isolated fifty miles from the nearest railway station. Though his public platform work was temporarily curtailed, Vivekananda delivered a series of talks on the Bhagavad Gita at San Francisco venues before withdrawing to this peaceful redwood forest refuge where he could focus on meditation and spiritual instruction away from the demands of constant lecturing."
-    ]
+    ],
+    "image": "shanti_ashrama.jpg"
   },
   {
     "id": "bareilly",
     "title": "Bareilly",
     "description": [
       "In August 1898, during his journey through the Punjab and Kashmir regions, Vivekananda reached Bareilly in the Rohilkhand district near the Himalayan foothills. The distinguished residents of this plains city formed a reception committee that warmly welcomed him and his party, arranging accommodations at their club-house. This stop marked an important pause in his northward pilgrimage through the Gangetic plains as he responded to pressing invitations across northern India, continuing his mission to connect with seekers and communities throughout the subcontinent."
-    ]
+    ],
+    "image": "bareilly.jpg"
   },
   {
     "id": "belgaum_karnataka",
     "title": "Belgaum (Belagavi)",
     "description": [
       "Belgaum, situated at the edge of the Deccan plateau in northern Karnataka, was a significant waypoint during Vivekananda's extensive South India journey in 1892. Positioned strategically between Maharashtra and Karnataka territories, the town represented an important crossing point as he traveled through the Indian peninsula, spreading his message of Vedantic philosophy and encountering the diverse spiritual traditions of the southern regions."
-    ]
+    ],
+    "image": "belgaum_karnataka.jpg"
   },
   {
     "id": "ernakulam",
     "title": "Ernakulam (Kochi)",
     "description": [
       "Ernakulam, the mainland gateway to Kochi's famous backwaters, received Vivekananda during his 1892 Kerala journey. This historic port city exposed him to the unique spiritual and cultural heritage of India's southernmost state, where ancient Vedic traditions had been preserved alongside the cosmopolitan influences of centuries of maritime trade and exchange."
-    ]
+    ],
+    "image": "ernakulam.jpg"
   },
   {
     "id": "goa_panaji",
     "title": "Panaji, Goa",
     "description": [
       "Vivekananda visited Panaji, the capital of the Portuguese colony of Goa, during his 1892 travels through western India. In this unique cultural landscape where Indian and Portuguese traditions had intermingled, he encountered the Basilica of Bom Jesus and observed the distinctive Goan synthesis of faiths and customs that reflected centuries of colonial and indigenous influences coexisting in the region."
-    ]
+    ],
+    "image": "goa_panaji.jpg"
   },
   {
     "id": "somnath",
     "title": "Somnath Temple",
     "description": [
       "In 1891, during his Gujarat wanderings, Vivekananda journeyed to Somnath, the holiest of the twelve Jyotirlingas sacred to Lord Shiva. He visited the ancient temple at Prabhas, the newer shrine built by Rani Ahalyabai of Indore, and bathed at the confluence of three sacred rivers at this revered pilgrimage site. The temple's storied history—repeatedly destroyed and magnificently rebuilt across millennia—profoundly moved Vivekananda, who saw in Somnath a powerful symbol of India's spiritual resilience and the indomitable strength of Hindu civilization to endure and regenerate itself through countless trials."
-    ]
+    ],
+    "image": "somnath.jpg"
   },
   {
     "id": "puri_puri",
     "title": "Puri — Jagannath Dham",
     "description": [
       "Puri's Jagannath Temple, one of Hinduism's four sacred dhams situated on the Bay of Bengal, captured Vivekananda's spiritual imagination during his 1889 pilgrimage. He was profoundly moved by the egalitarian spirit of Jagannath worship, which transcended the rigid caste distinctions that plagued contemporary Hindu society. This vision of a democratic sacred space where all devotees stood equal before the divine would later inspire his dream of building a universal temple in India itself—a sanctuary where every worshipper could commune with the divine through their own traditions, united by the ultimate truth symbolized by Om."
-    ]
+    ],
+    "image": "puri_puri.jpg"
   },
   {
     "id": "bhubaneswar",
     "title": "Bhubaneswar",
     "description": [
       "During his wandering pilgrimage in 1889, Vivekananda journeyed to Bhubaneswar, the ancient temple city of Odisha where centuries of Hindu architectural tradition converged in sacred stone. The concentration of hundreds of temples spanning the entire historical arc of temple design deeply moved him, offering a living repository of India's spiritual and aesthetic heritage. The pilgrimage through these sacred shrines reinforced his vision of a unified Hindu civilization expressed through devotional architecture."
-    ]
+    ],
+    "image": "bhubaneswar.jpg"
   },
   {
     "id": "visakhapatnam",
     "title": "Visakhapatnam",
     "description": [
       "In 1892, Vivekananda traveled to Visakhapatnam during his extensive journey through South India, following the eastern coastline where he engaged with local devotees and scholars. The coastal city served as an important stop in his pilgrimage, where he continued his mission of reconnecting with India's spiritual traditions and awakening national consciousness through personal encounters and discourse."
-    ]
+    ],
+    "image": "visakhapatnam.jpg"
   },
   {
     "id": "tirupati",
     "title": "Tirupati",
     "description": [
       "Vivekananda visited the sacred hills of Tirupati in 1892, paying homage at the Tirumala Venkateswara Temple, one of Hinduism's most revered Vaishnava shrines and the world's most visited pilgrimage destination. The ancient temple, steeped in centuries of devotional practice, represented the living continuity of South Indian religious life that he sought to understand and celebrate during his pilgrimage across the region."
-    ]
+    ],
+    "image": "tirupati.jpg"
   },
   {
     "id": "madurai_meenakshi",
     "title": "Madurai — Meenakshi Amman",
     "description": [
       "During his 1892 South India pilgrimage, Vivekananda reached Madurai and stood before the magnificent Meenakshi Amman temple, whose towering gopurams and intricate Dravidian architecture exemplified the pinnacle of South Indian sacred art. He was received with honors by local Zemindars and citizens, and even engaged in Tamil conversation with the Brahman cook of his host, immersing himself in the spiritual and cultural life of this ancient temple city that symbolized the enduring power of Hindu civilization."
-    ]
+    ],
+    "image": "madurai_meenakshi.jpg"
   },
   {
     "id": "kamakura",
     "title": "Kamakura",
     "description": [
       "In 1893, while traveling through Japan en route to the Parliament of Religions in Chicago, Vivekananda visited Kamakura and encountered the great bronze Buddha statue at Kotoku-in. The monumental figure, cast in meditation and radiating universal spiritual aspiration, resonated deeply with him as a symbol transcending national and religious boundaries—a testimony to the shared quest for enlightenment that united all human spiritual traditions."
-    ]
+    ],
+    "image": "kamakura.jpg"
   },
   {
     "id": "ram_bagh_meerut",
     "title": "259, Ram Bagh, Meerut",
     "description": [
       "During 1890–1891, Vivekananda and several brother-disciples established themselves at 259, Ram Bagh in Meerut, creating a second Baranagar Math in the garden house of a sympathetic patron. This period of collective monastic life during his wandering years provided a brief sanctuary where the young monks could practice together while their leader recovered from illness, forming a significant chapter in the consolidation of monastic brotherhood before their renewed dispersal into the world."
-    ]
+    ],
+    "image": "ram_bagh_meerut.jpg"
   },
   {
     "id": "captain_sevier_bungalow",
     "title": "Captain Sevier's Bungalow, Mayavati",
     "description": [
       "At the Advaita Ashrama in Mayavati between 1898 and 1900, Captain James Henry Sevier, one of Vivekananda's most devoted Western disciples, labored with extraordinary dedication to establish this mountain monastery at 6,500 feet in the Himalayas. Sevier's tireless work clearing the tea-estate grounds and developing the ashrama took a terrible toll on his health; he died in October 1900 and was cremated by the Sarada River according to Hindu rites, becoming a symbol of Western discipleship rendered in ultimate sacrifice to the Guru's vision."
-    ]
+    ],
+    "image": "captain_sevier_bungalow.png"
   },
   {
     "id": "swarupananda_point",
     "title": "Swami Swarupananda Point, Mayavati",
     "description": [
       "A scenic overlook at 6,500 feet within the Mayavati estate honors Swami Swarupananda, Vivekananda's direct monastic disciple and the first president of the Advaita Ashrama. Swarupananda played a crucial role in scouting and establishing the ashrama in 1898, serving as its leader until his death in 1906, and the viewpoint—commanding sweeping vistas of the snow-capped Himalayan range—stands as a memorial to his devotion and the ashrama's enduring spiritual mission in the mountains."
-    ]
+    ],
+    "image": "swarupananda_point.png"
   },
   {
     "id": "captain_sevier_point",
     "title": "Captain Sevier's Point, Mayavati",
     "description": [
       "During his stays at Mayavati between 1898 and 1900, Vivekananda witnessed the spiritual flowering of the Advaita Ashrama that Captain James Henry Sevier and his wife Charlotte had established at his inspiration. Captain Sevier's Point, named in the memory of this devoted co-founder, became a cherished vantage within the Mayavati estate, offering sweeping vistas of the snow-crowned Himalayan range that Sevier himself held dear. From the highest reaches of Dharmagarh within the ashrama's boundaries, the panoramic snowpeaks could be glimpsed in their full grandeur, a landscape that embodied the spiritual elevation Vivekananda sought to cultivate in this Himalayan sanctuary."
-    ]
+    ],
+    "image": "captain_sevier_point.png"
   },
   {
     "id": "nainital",
     "title": "Naini Tal",
     "description": [
       "Vivekananda first arrived at Nainital on 29 August 1890 with his brother-monk Swami Akhandananda, beginning an extraordinary walking pilgrimage through the high Himalayas that would carry them through Almora, Kakrighat, Rudraprayag, Srinagar and Tehri. Nearly eight years later, in May 1898, he returned to Nainital with a very different party—a group of Western disciples including the devoted Sister Nivedita—en route to Almora and the newly established Advaita Ashrama at Mayavati. The town held special joy for him during this second visit, graced by his pleasure in reuniting his disciples with the Raja of Khetri and in introducing them to the beauty of the Himalayan landscape that had so transformed him during his earlier wanderings."
-    ]
+    ],
+    "image": "nainital.jpg"
   },
   {
     "id": "kakrighat",
     "title": "Kakrighat",
     "description": [
       "On the banks of the Kosi river between Nainital and Almora, Vivekananda sat in meditation beneath a Peepal tree at Kakrighat in 1890 and experienced a shattering realization—that the entire cosmos dwelled within every living being, that the macrocosm and microcosm were one. This profound spiritual breakthrough, born from his intense absorption by the river's flowing waters and the forest's sacred silence, would later crystallize into some of his most celebrated philosophical teachings on the unity underlying all existence. The experience left him compelled to record fragments of his realization in Bengali, capturing insights that would illuminate his lectures for years to come."
-    ]
+    ],
+    "image": "kakrighat.jpg"
   },
   {
     "id": "garhwal",
     "title": "Garhwal",
     "description": [
       "During his 1890 parivrajaka journey through the Garhwal Himalayas, Vivekananda traversed sacred river confluences and mountain towns with his brother-monk Swami Akhandananda, sustained only by madhukari—food begged door-to-door according to monastic discipline. Weeks spent amid the forested slopes and soaring peaks of this ancient spiritual land, devoted entirely to prayer, austerity and deep meditation, allowed him to absorb the accumulated spiritual power of Garhwal's countless pilgrims and saints. The region's grandeur, from the temple towns to the high passes, reinforced his conviction that the Himalayas themselves were a living scripture, teaching the aspirant soul through silence and stone."
-    ]
+    ],
+    "image": "garhwal.jpg"
   },
   {
     "id": "karnaprayag",
     "title": "Karna Prayag",
     "description": [
       "At Karnaprayag, where the sacred Alaknanda and Pindar rivers merge, Vivekananda remained for eighteen days in 1890 with brother-monks Swami Turiyananda and Swami Akhandananda, making it one of the longest halts of his entire Himalayan wandering. The serene confluence and surrounding Garhwal peaks created the perfect crucible for intense spiritual practice and austerities, drawing the monks deeper into states of profound meditation and scriptural absorption. The confluence itself—symbolizing the meeting of individual souls with infinite consciousness—became a living temple for their inner work."
-    ]
+    ],
+    "image": "karnaprayag.jpg"
   },
   {
     "id": "rudraprayag",
     "title": "Rudra prayag",
     "description": [
       "During his 1890 pilgrimage through the Garhwal mountains, Vivekananda paused at Rudraprayag, the confluence of the Alaknanda and Mandakini rivers, accompanied by Swami Akhandananda and Swami Saradananda. Here, at this sacred junction where two great rivers embraced, the monks devoted themselves to meditation and scriptural study, finding in the waters and peaks around them eloquent expressions of the unity he sought to comprehend. The Panch Prayags of Garhwal held profound spiritual significance for Vivekananda—each confluence a living symbol of how all apparent divisions in creation ultimately merge into one undivided whole."
-    ]
+    ],
+    "image": "rudraprayag.jpg"
   },
   {
     "id": "srinagar_garhwal",
     "title": "Srinagar, Uttarkand",
     "description": [
       "In 1890, Vivekananda spent several days at Srinagar in Pauri Garhwal with Swami Akhandananda and Swami Saradananda, settled by the Alaknanda river among the forested hills. Here, sustained only by madhukari, the monks engaged in intensive prayer and scriptural study, absorbing the spiritual atmosphere that had drawn countless pilgrims to this ancient town. The solitude and sacred quietness of Srinagar's Garhwal setting provided exactly the environment Vivekananda needed during his years of wandering asceticism, where external simplicity could deepen internal spiritual realization."
-    ]
+    ],
+    "image": "srinagar_garhwal.jpg"
   },
   {
     "id": "oakley_house_almora",
     "title": "Sister Nivedita cottage (Oakley House)",
     "description": [
       "During the May 1898 Himalayan visit, Oakley House in Almora served as the residence for Vivekananda's Western disciples—Sara Bull, Josephine MacLeod, Sister Nivedita and Mrs. Patterson—while Vivekananda himself lodged nearby at Lala Badri Shah's house and visited each morning for breakfast. It was beneath a tree at Oakley House that Vivekananda granted Sister Nivedita a transformative blessing, helping her overcome the distraction and restlessness that had plagued her meditation practice. Under his direct guidance at this modest cottage, Nivedita truly learned the art of meditation for the first time, her mind settling into depths of peace she had never before experienced, marking a turning point in her spiritual life as a renunciate disciple."
-    ]
+    ],
+    "image": "oakley_house_almora.jpg"
   },
   {
     "id": "karbala_stone_almora",
     "title": "Karbala stone",
     "description": [
       "In 1890, during his arduous pilgrimage to the Himalayas, Vivekananda collapsed from exhaustion on the Bhowali–Almora road after walking from Kathgodam. A Muslim fakir named Zulfikar Ali discovered him and revived him with cucumber and water, an act of selfless compassion that profoundly moved the young monk. This encounter exemplified the universal brotherhood and interfaith harmony that would become central to Vivekananda's spiritual philosophy. The memorial stone marking this spot remains a place of pilgrimage, reminding devotees of the transformative power of human kindness transcending all religious boundaries."
-    ]
+    ],
+    "image": "karbala_stone_almora.jpg"
   },
   {
     "id": "vivekananda_rest_hall_almora",
     "title": "Swami Vivekananda memorial rest hall",
     "description": [
       "The Swami Vivekananda Memorial Rest Hall in Almora commemorates his transformative sojourns in the Kumaon hills. After his triumphant return from the West in 1897, Vivekananda made Almora a regular destination for his Himalayan retreats and lecture tours. He returned in 1898 accompanied by Sister Nivedita and Western disciples, deepening his engagement with the spiritual landscape of the mountains. The hall now serves as a gathering space for devotees, preserving the memory of these crucial periods when Vivekananda integrated his global vision with India's ancient spiritual heritage."
-    ]
+    ],
+    "image": "vivekananda_rest_hall_almora.jpg"
   },
   {
     "id": "govt_inter_college_almora",
     "title": "Government Inter College",
     "description": [
       "On 27 July 1897, Vivekananda delivered a landmark public lecture at Government Inter College addressing the subject of Vedic teaching in theory and practice—a historic moment as his first address to an Indian audience in Hindi. The lecture demonstrated his commitment to communicating Vedantic wisdom in India's own linguistic idiom, marking a pivotal point in his post-Western mission. The college later honored this momentous occasion by unveiling a statue and commemorative photograph of Vivekananda, and proposed naming its principal hall the Swami Vivekananda Sabhagaar in perpetual recognition of his visit."
-    ]
+    ],
+    "image": "govt_inter_college_almora.jpg"
   },
   {
     "id": "raghunath_mandir_almora",
     "title": "Sri Raghunath mandir",
     "description": [
       "The ancient Sri Raghunath Mandir, one of Almora's most sacred Vaishnava shrines dedicated to Lord Rama, welcomed Vivekananda during his wandering years in 1890 and again in 1897 when he returned as a celebrated spiritual leader. Nestled in the Kumaon hills, the temple embodied the living spirituality woven through India's sacred landscape that Vivekananda sought to revitalize. His visits to this venerable shrine reflected his deep reverence for India's devotional traditions and their enduring role in the nation's spiritual continuity."
-    ]
+    ],
+    "image": "raghunath_mandir_almora.jpg"
   },
   {
     "id": "nadiad",
     "title": "Nadiad",
     "description": [
       "During his extensive pilgrimage through western India in 1892, Vivekananda passed through Nadiad, a historic town in the Kheda district of Gujarat. Traveling incognito as a simple wandering monk, he moved through the region absorbing the rich religious and cultural atmosphere of Gujarat, encountering the lived spirituality of ordinary people. These journeys through towns like Nadiad provided him intimate glimpses into the faith and aspirations of common Indians before he continued onward through Porbandar and Kathiawar."
-    ]
+    ],
+    "image": "nadiad.jpg"
   },
   {
     "id": "central_provinces_forest",
     "title": "Central Provinces - Forest",
     "description": [
       "Between 1888 and 1893, Vivekananda wandered through the dense forests of the Central Provinces, regions that would later comprise parts of Madhya Pradesh and Chhattisgarh. These forest sojourns offered him profound solitude for deep meditation and spiritual contemplation away from the distractions of settled life. Living as a penniless itinerant monk dependent entirely on alms, he gained firsthand understanding of the widespread poverty afflicting India's masses while simultaneously accessing the transcendent peace these natural sanctuaries afforded, shaping his vision of spirituality rooted in India's material reality."
-    ]
+    ],
+    "image": "central_provinces_forest.png"
   },
   {
     "id": "manmathanath_house",
     "title": "Manmathanath Bhattacharya's House",
     "description": [
       "When Vivekananda arrived in Madras in late 1892, he found shelter at the residence of Manmathanath Bhattacharya, a Bengali civil servant residing in Triplicane. At this house, Vivekananda encountered the brilliant young men who would become his most devoted Madras disciples—Alasinga Perumal, G.G. Narasimhacharyar, and others—who were immediately captivated by his intellectual prowess and spiritual magnetism. These early meetings proved transformative, as his new disciples recognized in him a messenger of ancient wisdom suited for the modern age and persistently encouraged him to carry his message to the West."
-    ]
+    ],
+    "image": "manmathanath_house.jpg"
   },
   {
     "id": "ramakrishnananda_cottage",
     "title": "Swami Ramakrishnananda's Cottage",
     "description": [
       "Swami Ramakrishnananda, one of Sri Ramakrishna's direct disciples, was entrusted by Vivekananda to establish the Vedantic mission in South India and operated the early Madras Math from a modest cottage in Triplicane. When Vivekananda returned triumphantly from America in 1897, he visited this humble center, which had already begun flowering as a nucleus of spiritual activity. This cottage marked the beginning of what would eventually grow into the Ramakrishna Math, Chennai, anchoring Vivekananda's organizational vision for bringing Vedantic wisdom to South India's seekers."
-    ]
+    ],
+    "image": "ramakrishnananda_cottage.jpg"
   },
   {
     "id": "narasimhacharyar_house",
     "title": "G.G. Narasimhacharyar's House",
     "description": [
       "During his transformative 1892-93 stay in Madras, Swami Vivekananda found in G.G. Narasimhacharyar a devoted young scholar whose home became one of several gathering places for intimate philosophical discourse. Within these walls, Vivekananda expounded on the depths of Vedanta and India's spiritual heritage to circles of earnest seekers. Narasimhacharyar proved instrumental in the practical work of his mission, joining the network of supporters who laboured to secure funds and letters of introduction that would facilitate the swami's momentous voyage to America and the Parliament of Religions."
-    ]
+    ],
+    "image": "narasimhacharyar_house.jpg"
   },
   {
     "id": "harmston_circus_pavilion",
     "title": "Harmston Grand Circus Pavilion",
     "description": [
       "In 1893, as Swami Vivekananda prepared to sail for America, the Madras community organised a grand public farewell at the Harmston Grand Circus Pavilion, transforming the venue into a stage for their spiritual teacher's final words before his departure. Vivekananda delivered a stirring address that electrified the assembled devotees, speaking to the significance of representing Hindu philosophy to the Western world. The overwhelming enthusiasm and affection displayed by Madras society infused him with the confidence and spiritual fortitude needed to carry the message of Vedanta across the ocean."
-    ]
+    ],
+    "image": "harmston_circus_pavilion.jpg"
   },
   {
     "id": "subramaniam_iyer_beach_house",
     "title": "Justice Subramaniam Iyer's Beach House",
     "description": [
       "Justice P. Subramania Iyer, a distinguished High Court jurist and sincere admirer, extended the hospitality of his Marina beach house to Swami Vivekananda in early 1893, offering a tranquil sanctuary overlooking the Arabian Sea. In this contemplative setting, gazing across the waters during those decisive weeks before his departure, Vivekananda meditated deeply upon the spiritual mission that lay ahead. The vastness of the ocean mirrored the magnitude of his forthcoming work, and this quiet retreat became a space of profound inner preparation for his historic journey to represent Hinduism in the West."
-    ]
+    ],
+    "image": "subramaniam_iyer_beach_house.jpg"
   },
   {
     "id": "flora_cottage",
     "title": "Flora Cottage",
     "description": [
       "When Swami Ramakrishnananda arrived in Madras to establish the Vedanta mission, Flora Cottage in Triplicane served as his modest first residence, where he maintained the rhythm of daily worship and received an ever-growing circle of visitors seeking spiritual counsel. Upon his triumphant return in February 1897 following his transformative first tour of America and Europe, Swami Vivekananda visited this humble cottage, witnessing firsthand the foundation that his disciple had begun to lay for institutionalised Vedanta work in South India."
-    ]
+    ],
+    "image": "flora_cottage.jpg"
   },
   {
     "id": "sashi_vilas",
     "title": "Sashi Vilas - Nanjunda Rao's House",
     "description": [
       "Nanjunda Rao's residence, Sashi Vilas, opened its doors to Swami Vivekananda during his formative 1892-93 visit to Madras, becoming part of the informal network of supportive households that sustained the wandering teacher. Within this domestic sanctuary, Vivekananda found both material care and intellectual companionship as he crystallised his vision for representing Hinduism on the world stage. Nanjunda Rao's generosity exemplified the devotion of Madras householders who recognised in the young sannyasin a vessel for revitalising India's spiritual heritage."
-    ]
+    ],
+    "image": "sashi_vilas.jpg"
   },
   {
     "id": "yogi_parthasarathy_house",
     "title": "Yogi Parthasarathy's House",
     "description": [
       "Yogi Parthasarathy represented the earnest spiritual seekers of Madras who gravitated toward Swami Vivekananda during the swami's visits to the city in 1892-93, his household becoming one of several gathering spaces within the Triplicane community. Here, amid intimate circles of dedicated disciples, Vivekananda engaged in rigorous exploration of Vedantic philosophy and practical discussions about spreading his message. These homes of sincere practitioners formed the earliest organised sangha around Vivekananda in Madras, a foundation upon which systematic spiritual work would eventually flourish."
-    ]
+    ],
+    "image": "yogi_parthasarathy_house.jpg"
   },
   {
     "id": "balaji_rao_house",
     "title": "Balaji Rao's House",
     "description": [
       "Balaji Rao's home in Triplicane welcomed Swami Vivekananda as a sacred guest during the swami's 1892-93 sojourn in Madras, serving as an intimate forum for philosophical discourse on Vedanta's subtler dimensions. Within the warm hospitality of this Tamil household, Vivekananda shared insights that resonated deeply with the intellectual and spiritual aspirations of South Indian seekers. These private residences of devoted supporters formed an essential infrastructure of care and understanding that enabled the wandering monk to refine and communicate his transformative vision of modern Vedanta."
-    ]
+    ],
+    "image": "balaji_rao_house.jpg"
   },
   {
     "id": "alasinga_house",
     "title": "Alasinga Perumal's House",
     "description": [
       "P. Aiyasami Alasinga Perumal's residence in Triplicane became the nerve centre of Madras Vedanta activity, with the brilliant Tamil devotee serving as Swami Vivekananda's most devoted and tireless collaborator during the crucial 1892-93 period. From this household, Alasinga embarked on an extraordinary epistolary mission, penning numerous letters to American scholars, journalists, and spiritual seekers on Vivekananda's behalf, while simultaneously mobilising financial resources and editing the influential journal Brahmavadin. Vivekananda's affectionate address—'my Alasinga'—testified to his profound gratitude for a disciple whose administrative genius and unwavering loyalty transformed visionary ideals into concrete international reality."
-    ]
+    ],
+    "image": "alasinga_house.jpg"
   },
   {
     "id": "victoria_hall_chennai",
     "title": "Victoria Hall",
     "description": [
       "In February 1897, Swami Vivekananda delivered his first major public lecture in Madras at Victoria Hall, marking a triumphant homecoming after his celebrated appearance at the Parliament of Religions in Chicago. Before a vast and electrified audience, he expounded the message of Vedanta and articulated his vision for India's spiritual and cultural renewal. This stirring address launched his transformative lecturing tour across the subcontinent, establishing Madras as a stronghold of his philosophical mission and demonstrating the profound resonance his Western sojourn had given to his teachings."
-    ]
+    ],
+    "image": "victoria_hall_chennai.jpg"
   },
   {
     "id": "pachaiyappa_hall",
     "title": "Pachaiyappa's Hall",
     "description": [
       "Pachaiyappa's Hall, housed within the renowned Pachaiyappa's College founded by the philanthropist Pachaiyappa Mudaliar, served as another prominent platform for Vivekananda's oratory during his 1897 visit to Madras. The historic institution, with its tradition of intellectual discourse, provided an ideal venue for his lectures on Vedanta and India's spiritual destiny. His addresses drew large and enthusiastic crowds of educated Madras society, further amplifying the impact of his return from the West."
-    ]
+    ],
+    "image": "pachaiyappa_hall.png"
   },
   {
     "id": "hindu_theological_high_school",
     "title": "Hindu Theological High School",
     "description": [
       "During his 1897 lecture tour through Madras, Swami Vivekananda visited the Hindu Theological High School in Triplicane, an institution championed by his devoted disciples including Alasinga Perumal. The school represented an effort to integrate modern education with the ethical and spiritual foundations of Vedanta—a synthesis that embodied Vivekananda's own vision for India's renewal. His presence and encouragement at the institution reinforced the conviction among his followers that authentic Hindu education must unite intellectual rigor with spiritual wisdom."
-    ]
+    ],
+    "image": "hindu_theological_high_school.png"
   },
   {
     "id": "patters_garden",
     "title": "Patters Garden",
     "description": [
       "During his extended residence in Madras from late 1892 through early 1893, Swami Vivekananda inhabited various residences of his growing circle of supporters, including the garden bungalow at Patters Garden in Royapettah. The serene setting provided an intimate atmosphere for philosophical discourse and deep conversations with his devotees, complementing his formal public lectures with more personal instruction. These informal gatherings in sympathetic homes across the city allowed him to deepen his connection with the Madras community and cultivate the spiritual circle that would later sustain his mission."
-    ]
+    ],
+    "image": "patters_garden.jpg"
   },
   {
     "id": "triplicane_literary_society",
     "title": "Triplicane Literary Society",
     "description": [
       "The Triplicane Literary Society became an important intellectual forum where Swami Vivekananda presented his vision to Madras's English-educated elite and Tamil scholars. He delivered an address on aspects of his work in India, while also lecturing on topics including the future of India, Vedanta in practical life, and the necessity of spiritual revival. These formal presentations at the society complemented his informal home gatherings, allowing him to reach both the reflective intellectual class and personal seekers, thereby weaving his revolutionary ideas into the intellectual fabric of the city."
-    ]
+    ],
+    "image": "triplicane_literary_society.jpg"
   },
   {
     "id": "subramaniam_iyer_house",
     "title": "Justice Subramaniam Iyer's House",
     "description": [
       "Justice P. Subramania Iyer's residence in Madras became a crucial gathering point for Swami Vivekananda, with the distinguished jurist emerging as one of his most influential supporters. Justice Iyer's patronage and social standing proved instrumental in legitimizing Vivekananda's mission within conservative Tamil society and in facilitating the historic project to send him as Hinduism's representative to the Parliament of Religions in Chicago. His home thus served as both sanctuary and staging ground for one of the most consequential spiritual missions of the modern age."
-    ]
+    ],
+    "image": "subramaniam_iyer_house.jpg"
   },
   {
     "id": "sundar_nivas",
     "title": "Sundar Nivas",
     "description": [
       "Sundar Nivas was among the residences where Swami Vivekananda stayed during his triumphant return to Madras in February 1897, following his electrifying success at the Parliament of Religions in Chicago. The city received him with overwhelming enthusiasm and affection, and his stay at this address allowed him to receive the countless devotees and admirers who sought his darshan and guidance. From Sundar Nivas, Vivekananda prepared to embark on his transformative all-India lecture tour, carrying the spiritual fire of his Western mission back to the heart of his homeland."
-    ]
+    ],
+    "image": "sundar_nivas.jpg"
   },
   {
     "id": "nagercoil",
     "title": "Nagercoil",
     "description": [
       "In 1892, Swami Vivekananda visited Nagercoil, the southernmost town of Tamil Nadu, during his wandering pilgrimage through South India. Named after the sacred Nagaraja temple, this ancient sacred site marked an important waypoint on his spiritual journey toward Kanyakumari—the southernmost tip of the Indian subcontinent. His passage through Nagercoil formed part of the sacred pilgrimage that would culminate in his transformative meditation on the rock in the sea at Kanyakumari, where he experienced profound spiritual illumination about his future mission."
-    ]
+    ],
+    "image": "nagercoil.jpg"
   },
   {
     "id": "rameshwaram",
     "title": "Rameshwaram",
     "description": [
       "In 1892, Swami Vivekananda arrived at the sacred island shrine of Rameshwaram, one of Hinduism's four holiest pilgrimage destinations, during his transformative wandering pilgrimage through South India. At the Ramanathaswamy Temple, he was invited to address the assembled devotees, sharing his spiritual insights with the gathered community. The visit deepened his direct experience of India's living spiritual tradition among its masses, and he used the occasion to articulate his vision of India's spiritual treasury and its potential to enrich the Western world through Vedantic teachings."
-    ]
+    ],
+    "image": "rameshwaram.jpg"
   },
   {
     "id": "valangaiman_kumbakonam",
     "title": "Valangaiman, Kumbakonam",
     "description": [
       "During his 1892 pilgrimage through Tamil Nadu, Swami Vivekananda journeyed through the fertile Cauvery delta region, passing through the sacred temple towns near Kumbakonam where ancient Shaivite and Vaishnavite sanctuaries had flourished for centuries. The Hindu community of Kumbakonam presented him with an address of welcome, recognizing his representation of Hindu philosophy. This passage through the religiously vital delta region gave Vivekananda profound insight into the rich devotional and philosophical culture that permeated Tamil Nadu's spiritual landscape."
-    ]
+    ],
+    "image": "valangaiman_kumbakonam.jpg"
   },
   {
     "id": "kunthukal",
     "title": "Kunthukal",
     "description": [
       "As Swami Vivekananda traveled through the Ramnad region in 1892, he benefited from the patronage of Raja Bhaskara Setupathi of Ramnad, one of his most generous and influential supporters in South India. The Raja's authority and resources facilitated Vivekananda's movement through villages and towns in the Ramanathapuram district, including Kunthukal, as the monk made his sacred journey southward toward Rameshwaram and eventually Kanyakumari. This royal support proved instrumental in enabling Vivekananda's pilgrimage through Tamil Nadu's most spiritually significant regions."
-    ]
+    ],
+    "image": "kunthukal.jpg"
   },
   {
     "id": "pamban",
     "title": "Pamban",
     "description": [
       "When Swami Vivekananda arrived at Pamban in 1892, the gateway island to the sacred shrine of Rameshwaram, he was accorded a warm and ceremonial welcome by Raja Bhaskara Setupathi of Ramnad himself. Under a decorated pandal, the community presented an address of welcome to the traveling monk. In his reply, Vivekananda articulated his vision of India's spiritual foundation, emphasizing that the nation's true backbone lay not in political or military power but in its philosophical and spiritual heritage. This encounter at the threshold of the sacred island marked a significant moment in his pilgrimage southward."
-    ]
+    ],
+    "image": "pamban.jpg"
   },
   {
     "id": "erskine_phelps_house",
     "title": "Erskine Mason Phelps house",
     "description": [
       "When Swami Vivekananda arrived in Chicago in September 1893 for the Parliament of the World's Religions without prior formal invitation or accommodation, he found refuge in the hospitality of sympathetic American supporters. Erskine Mason Phelps, an early admirer of the Indian monk, opened his home to Vivekananda during this pivotal period. This act of personal kindness exemplified the network of warm-hearted individuals across America who would sustain and support Vivekananda's historic mission to introduce Vedantic philosophy to the Western world."
-    ]
+    ],
+    "image": "erskine_phelps_house.jpg"
   },
   {
     "id": "george_hale_home",
     "title": "George W. Hale Home",
     "description": [
       "The Hale family of Chicago, including George W. Hale, extended their warm hospitality to Swami Vivekananda during his revolutionary stay in the city surrounding the 1893 Parliament of the World's Religions. The Hale household provided Vivekananda with a welcoming foundation as he began his transformative engagement with American audiences and intellectual circles. The family's sustained interest in the Swami and his teachings demonstrated the deep connections he forged with progressive American thinkers and families who remained his supporters throughout his subsequent tours of the West."
-    ]
+    ],
+    "image": "george_hale_home.jpg"
   },
   {
     "id": "lyon_home_chicago",
     "title": "Lyon Home",
     "description": [
       "Among the network of Chicago residences that sheltered Swami Vivekananda during the Parliament of the World's Religions period in 1893, the Lyon Home stood as one of the generous sanctuaries provided by sympathetic American householders. These private homes became crucial bases for Vivekananda's work during a transformative moment when he was establishing his foothold in America. The hospitality of families like the Lyons enabled the Indian monk to recover from travel, prepare his lectures, and develop the relationships that would sustain his mission to introduce Vedantic wisdom to Western audiences."
-    ]
+    ],
+    "image": "lyon_home_chicago.jpg"
   },
   {
     "id": "third_unitarian_church_chicago",
     "title": "Third Unitarian Church",
     "description": [
       "Following his triumphant appearance at the Parliament of the World's Religions in 1893, Swami Vivekananda was invited to deliver lectures on Vedanta at the Third Unitarian Church in Chicago and other liberal religious venues throughout the city and beyond. Unitarian and Universalist congregations proved among the most receptive American audiences for his philosophical teachings, as these communities shared his emphasis on the universality of spiritual truth and the equality of all faiths. Vivekananda's extended lecturing schedule at such churches during 1893-1894 marked the beginning of his systematic work to introduce Vedantic philosophy to the American intellectual and religious establishment."
-    ]
+    ],
+    "image": "third_unitarian_church_chicago.jpg"
   },
   {
     "id": "highland_park_illinois",
     "title": "Highland Park",
     "description": [
       "In September 1893, immediately after his triumphant appearance at the Parliament of the World's Religions, Swami Vivekananda was introduced to prominent Chicago-area scientists at an elegant vegetarian dinner hosted by Professor Elisha Grey, the noted electrical inventor, and his wife at their residence in Highland Park. This early invitation into the homes of wealthy and influential supporters in the prosperous Lake Michigan suburb marked the beginning of Vivekananda's engagement with the well-to-do communities surrounding Chicago, where many of his first American devotees resided."
-    ]
+    ],
+    "image": "highland_park_illinois.jpg"
   },
   {
     "id": "hull_house_chicago",
     "title": "The Hull-House",
     "description": [
       "Swami Vivekananda visited Hull-House, Jane Addams' pioneering settlement house, during his Chicago period in 1893. The encounter brought together two visionary reformers working on opposite sides of the world—Addams devoted to progressive social reform in America, and Vivekananda carrying the message of service to the poor as worship of God, a principle that aligned profoundly with the settlement house movement's ideals and humanitarian vision."
-    ]
+    ],
+    "image": "hull_house_chicago.jpg"
   },
   {
     "id": "hinsdale_unitarian_church",
     "title": "Hinsdale Unitarian Church",
     "description": [
       "Swami Vivekananda lectured at the Hinsdale Unitarian Church in this western Chicago suburb, finding in Unitarian congregations particularly receptive audiences for his universalist message. The liberal theological outlook of Unitarian communities, with their embrace of diverse spiritual traditions and emphasis on reason and conscience, provided a natural home for his teaching that the unity of all religions constituted the essence of Vedanta."
-    ]
+    ],
+    "image": "hinsdale_unitarian_church.jpg"
   },
   {
     "id": "masonic_temple_chicago",
     "title": "Masonic Temple",
     "description": [
       "Following his sensational debut at the Parliament of the World's Religions in 1893, Swami Vivekananda leveraged the momentum of his success by addressing audiences at the Masonic Temple, Chicago's monumental architectural marvel and one of the world's tallest buildings at the time. The temple's prestigious assembly rooms offered an ideal stage for his continuing lectures on Vedanta and Hindu philosophy to the thousands of Chicagoans eager to hear more from the eloquent Indian monk."
-    ]
+    ],
+    "image": "masonic_temple_chicago.jpg"
   },
   {
     "id": "first_universalist_church_chicago",
     "title": "First Universalist Church",
     "description": [
       "Swami Vivekananda found a warm reception at the First Universalist Church during his Chicago engagement of 1893-1894, where his vision of universal spirituality resonated deeply with the congregation's belief in salvation for all humanity. These liberal religious communities provided ideal forums for him to expound Vedanta's central truth—that all spiritual paths ultimately converge in the realization of divine unity."
-    ]
+    ],
+    "image": "first_universalist_church_chicago.jpg"
   },
   {
     "id": "central_music_hall_chicago",
     "title": "Central Music Hall",
     "description": [
       "Central Music Hall served as one of the principal venues for Swami Vivekananda's lectures in the months following the Parliament of the World's Religions in September 1893. The prestigious downtown Chicago concert and lecture hall drew enthusiastic crowds of citizens who had not attended the Parliament itself, allowing Vivekananda to extend his message of Hinduism and Vedanta philosophy to the broader American public through these extension lectures."
-    ]
+    ],
+    "image": "central_music_hall_chicago.jpg"
   },
   {
     "id": "auditorium_theater_chicago",
     "title": "Auditorium Theater",
     "description": [
       "The magnificent Auditorium Theatre, designed by the celebrated architectural firm Adler and Sullivan, provided Swami Vivekananda with a grand stage worthy of his commanding presence during his 1893 Chicago period. The theatre's superb acoustics and architectural splendor made it an ideal venue for his powerful articulation of Vedantic philosophy to large audiences drawn by the excitement surrounding his Parliament appearance."
-    ]
+    ],
+    "image": "auditorium_theater_chicago.jpg"
   },
   {
     "id": "cobb_hall_chicago",
     "title": "Cobb Hall",
     "description": [
       "Swami Vivekananda engaged with the academic community of the University of Chicago during 1893-1894, lecturing at Cobb Hall in the newly founded institution that embodied progressive American scholarship. He presented Vedanta philosophy as a rational, scientifically grounded system compatible with modern thought, demonstrating to university audiences that Hindu philosophy possessed intellectual rigor and philosophical sophistication equal to Western traditions."
-    ]
+    ],
+    "image": "cobb_hall_chicago.jpg"
   },
   {
     "id": "dr_perkins_house_chicago",
     "title": "Dr. Perkins' house",
     "description": [
       "Dr. Perkins opened his Chicago home to Swami Vivekananda during the monk's momentous 1893 sojourn in the city, offering him hospitality during a transformative period following the Parliament of the World's Religions. Within this intimate domestic setting, Vivekananda engaged small circles of curious Americans in philosophical discourse on Vedanta, translating the ancient Hindu teachings into language and concepts accessible to Western minds. These parlour conversations proved as significant as his public lectures in cultivating the first generation of American seekers drawn to his universalist vision of religion."
-    ]
+    ],
+    "image": "dr_perkins_house_chicago.jpg"
   },
   {
     "id": "first_congretational_church_evanston",
     "title": "First Congretational Church",
     "description": [
       "In October 1893, Swami Vivekananda delivered a course of lectures at the First Congregational Church in Evanston, Illinois, creating an intellectual space comparable in spirit to the recently concluded Parliament of Religions in Chicago. The Evanston congregation, situated in a prosperous university town known for its educated and progressive residents, received his teachings on Hindu philosophy with genuine interest and respect. These lectures marked the beginning of Vivekananda's expansion beyond Chicago's urban centre into the surrounding communities of the Midwest."
-    ]
+    ],
+    "image": "first_congretational_church_evanston.jpg"
   },
   {
     "id": "houses_visited_evanston",
     "title": "Houses visited in Evanston",
     "description": [
       "During his Evanston visits in late 1893 and early 1894, Swami Vivekananda found welcome in the private residences of spiritually-minded families in this university town adjacent to Chicago. These households provided intimate forums where he could discuss Vedanta philosophy with Americans eager to understand Hindu spiritual thought beyond the framework of missionary representations. The domestic spaces of Evanston's progressive households became early American drawing rooms of Hindu wisdom, establishing a pattern of private patronage that would sustain his American ministry."
-    ]
+    ],
+    "image": "houses_visited_evanston.jpg"
   },
   {
     "id": "colonel_ralph_plumb",
     "title": "Colonel Ralph Plumb",
     "description": [
       "Colonel Ralph Plumb, a civic figure in Streator, Illinois, extended his hospitality to Swami Vivekananda during the monk's extensive lecture tour through the state in 1894. Plumb's willingness to host the Hindu sage reflected a growing American curiosity about Eastern spirituality and demonstrated that Vivekananda's message resonated beyond metropolitan centres. Through Plumb's introduction and support, Vivekananda reached audiences in smaller Illinois towns, carrying the universal principles of Vedanta to communities far from the lecture halls of Chicago and Eastern cities."
-    ]
+    ],
+    "image": "colonel_ralph_plumb.png"
   },
   {
     "id": "plumb_opera_house_streator",
     "title": "Plumb Opera House",
     "description": [
       "The Plumb Opera House in Streator provided the public stage for Swami Vivekananda's lecture to the Illinois coal-mining town in 1894, representing his determined effort to bring Hindu philosophy to America's working and middle-class communities. Named after the prominent Plumb family who championed his visit, the opera house drew local residents curious about this celebrated Hindu monk whose reputation had spread nationwide following the Parliament of Religions. His address demonstrated that Vedanta's message of human dignity and spiritual universalism held appeal far beyond academic and elite circles."
-    ]
+    ],
+    "image": "plumb_opera_house_streator.png"
   },
   {
     "id": "first_congregational_church_madison",
     "title": "First Congregational Church",
     "description": [
       "In November 1893, Swami Vivekananda delivered a lecture at the First Congregational Church in Madison, Wisconsin, where the local press recognized his message as containing 'much of sound philosophy and good religion' worthy of Christian consideration. The state capital's educated audience, enriched by the presence of the University of Wisconsin, engaged seriously with his exposition of Vedanta's central teaching of divinity inherent in the human soul. Madison's Congregational community proved receptive to his claim that Hindu philosophy and Christian ethics shared common ground in their ultimate concern for human spiritual perfection."
-    ]
+    ],
+    "image": "first_congregational_church_madison.jpg"
   },
   {
     "id": "first_unitarian_church_minneapolis",
     "title": "First Unitarian Church",
     "description": [
       "The First Unitarian Church of Minneapolis hosted Swami Vivekananda in November 1893, providing a congregation deeply aligned with his universalist vision of religion to hear him expound Brahminism's ancient principles. The Minneapolis audience sat in rapt attention as Vivekananda unveiled the central teaching of Hindu faith—that the soul is inherently divine and that religion consists of manifesting this divinity already present in human nature. The lecture drew such enthusiastic response that attendees subsequently requested a semi-public discourse on Hindu religion, demonstrating the profound impact of his Minneapolis visit."
-    ]
+    ],
+    "image": "first_unitarian_church_minneapolis.jpg"
   },
   {
     "id": "quincy_house_hotel_boston",
     "title": "Quincy House Hotel",
     "description": [
       "The Quincy House Hotel served as one of Swami Vivekananda's residences during his stays in Boston between 1893 and beyond, a city that became one of his most significant American centres. Boston's long tradition of transcendental thought, Unitarian liberalism, and openness to philosophical innovation created an ideal receptive environment for his teachings on the universality of Hindu wisdom. His multiple extended visits to this historic city allowed him to cultivate deep relationships with Boston's intellectual and spiritual elite, making it a crucial base for spreading Vedanta throughout New England and beyond."
-    ]
+    ],
+    "image": "quincy_house_hotel_boston.jpg"
   },
   {
     "id": "hotel_bellevue_boston",
     "title": "Hotel Bellevue",
     "description": [
       "During his extended stays in Boston between 1894 and 1895, Swami Vivekananda lodged at the Hotel Bellevue, using it as a base for his intensive lecture and teaching schedule across New England. The hotel anchored his presence in a city that had become one of his principal American strongholds, drawing large and devoted audiences hungry for his teachings on Vedanta and the unity of all religions. From this location, he maintained a rigorous schedule of public lectures, intimate classes, and private philosophical discussions that solidified his reputation as one of the most compelling spiritual voices in America."
-    ]
+    ],
+    "image": "hotel_bellevue_boston.jpg"
   },
   {
     "id": "womens_club_julia_ward_howe",
     "title": "Women's Club of Julia Ward Howe",
     "description": [
       "Swami Vivekananda spoke at the Women's Club associated with Julia Ward Howe, the renowned poet and reformer whose progressive circle became instrumental in spreading his message throughout Boston's educated elite. The gathering drew many reform-minded women who were captivated by his teachings on the universal principles underlying all faiths and the spiritual potential within every human being. These encounters at the club cultivated enduring friendships and shaped a devoted core of female supporters, including Sara Bull, whose devotion to him lasted throughout his life."
-    ]
+    ],
+    "image": "womens_club_julia_ward_howe.jpg"
   },
   {
     "id": "round_table_boston",
     "title": "Round Table",
     "description": [
       "The Round Table, one of Boston's distinguished intellectual discussion societies, provided an ideal forum for Swami Vivekananda to expound the philosophy of Vedanta to an audience of educated professionals deeply interested in exploring Indian thought. Drawing on Boston's rich legacy of philosophical inquiry descended from the Transcendentalist movement, the club's members engaged him in rigorous dialogue about the nature of consciousness, the principles of yoga, and the relationship between Eastern and Western spiritual traditions. His appearances there cemented his standing among the city's most intellectually discriminating circles."
-    ]
+    ],
+    "image": "round_table_boston.jpg"
   },
   {
     "id": "association_hall_boston",
     "title": "Association Hall",
     "description": [
       "Association Hall served as one of the prominent public venues where Swami Vivekananda delivered his popular lectures on Hinduism, Vedantic philosophy, and the underlying unity of world religions to large Boston audiences. The hall's capacity to draw substantial crowds reflected the widespread curiosity about his teachings among the city's general educated population, transcending the more intimate club settings. His lectures there covered pressing topics including Hindu customs and practices, addressing Western misunderstandings with his characteristic blend of philosophical depth and practical wisdom."
-    ]
+    ],
+    "image": "association_hall_boston.jpg"
   },
   {
     "id": "procopeia_club_boston",
     "title": "Procopeia Club",
     "description": [
       "At the Procopeia Club, a private intellectual gathering space, Swami Vivekananda engaged Boston's cultivated elite in intimate discussions and lectures that deepened their understanding of Vedantic thought. The club exemplified how his message spread through personal connections and private forums, where small groups of devoted listeners absorbed his teachings on yoga, metaphysics, and the spiritual dimensions of human life. These selective gatherings fostered lasting relationships with influential Bostonians who became lifelong supporters and advocates for his vision of universal spirituality."
-    ]
+    ],
+    "image": "procopeia_club_boston.jpg"
   },
   {
     "id": "hall_56_st_botolph_st",
     "title": "Hall at 56 St Botolph St",
     "description": [
       "Throughout 1894 and 1895, Swami Vivekananda held regular classes at the hall on St Botolph Street in Boston's Back Bay, the intellectual and artistic heart of the city, where he taught devoted students the disciplines of Raja Yoga, Jnana Yoga, and the deeper philosophy of Vedanta. The location became a center of serious spiritual practice, attracting serious seekers committed to systematic study and transformation. His systematic presentation of yoga philosophy and Vedantic wisdom at this venue established a template for the teaching work that would eventually extend far beyond Boston."
-    ]
+    ],
+    "image": "hall_56_st_botolph_st.jpg"
   },
   {
     "id": "twentieth_century_club_boston",
     "title": "Twentieth Century Club",
     "description": [
       "The Twentieth Century Club, dedicated to progressive discourse on social, literary, and philosophical questions, welcomed Swami Vivekananda as a speaker whose vision of universal spirituality aligned perfectly with the club's forward-looking membership. His message of the divinity inherent in every human soul and the fundamental unity underlying all religious traditions resonated deeply with Boston's intellectually progressive community. The encounter between Vivekananda and the club's members exemplified how his teachings found receptive audiences among those seeking to reconcile spirituality with modern ethical and social concerns."
-    ]
+    ],
+    "image": "twentieth_century_club_boston.jpg"
   },
   {
     "id": "charles_fairchild_home_boston",
     "title": "Charles Fairchild home",
     "description": [
       "The home of Charles Fairchild became a gathering place where Swami Vivekananda connected with Boston's most sympathetic and intellectually accomplished supporters, who formed a circle of devoted admirers centered on the dissemination of Vedantic wisdom. Fairchild's household exemplified the network of private residences that sustained Vivekananda's New England work, providing hospitality, intellectual companionship, and the kind of personal relationships that deepened his influence beyond formal lectures. Through such private venues, his message took root among some of Boston's most influential and educated citizens."
-    ]
+    ],
+    "image": "charles_fairchild_home_boston.jpg"
   },
   {
     "id": "breezy_meadows_metcalf",
     "title": "Breezy Meadows",
     "description": [
       "During his New England circuit in 1894, Swami Vivekananda found refuge at Breezy Meadows in Metcalf, Massachusetts, a pastoral retreat that offered respite from the demands of constant lecturing. The countryside setting provided an ideal environment for him to pursue his deeper work—studying, writing, and offering private instruction to his closer circle of disciples. In such tranquil surroundings, away from the busy Boston intellectual scene, Vivekananda continued his mission of transmitting Vedantic teachings to those ready to receive them."
-    ]
+    ],
+    "image": "breezy_meadows_metcalf.jpg"
   },
   {
     "id": "boston_ladies_club_metcalf",
     "title": "Boston Ladies Club",
     "description": [
       "Swami Vivekananda's lectures to the Boston Ladies Club drew audiences of well-educated, spiritually curious women who were captivated by his message of universal spiritual equality. His address to this prominent women's organization exemplified his conviction that the Vedantic principles of human dignity transcended gender, caste, and nationality. Through such appearances at women's clubs across the New England region, Vivekananda built a devoted network of supporters who would champion his teachings long after his departure from America."
-    ]
+    ],
+    "image": "boston_ladies_club_metcalf.jpg"
   },
   {
     "id": "sherborn_reformatory",
     "title": "Sherborn Reformatory",
     "description": [
       "When the Lady Superintendent of the Sherborn Reformatory for women invited Swami Vivekananda to visit the institution, he readily accepted, seeing the opportunity to bring his message of spiritual dignity to society's most marginalized members. His willingness to address the inmates reflected his core conviction that the divine spark resides equally in all human beings, regardless of their circumstances or past misdeeds. This visit embodied his practical application of Vedanta—the principle that service to suffering humanity constitutes worship of God."
-    ]
+    ],
+    "image": "sherborn_reformatory.jpg"
   },
   {
     "id": "charlotte_lane_boarding_house",
     "title": "Charlotte Lane Boarding house",
     "description": [
       "The Charlotte Lane Boarding House in Annisquam became a summer haven for Swami Vivekananda during 1894, offering the peaceful seaside atmosphere he sought for deeper work. Situated in this picturesque fishing village within Gloucester on Cape Ann, the boarding house provided an ideal setting where he could write, teach, and rest. Several American disciples gathered there to receive his instruction, making it a hub of Vedantic learning during the summer months."
-    ]
+    ],
+    "image": "charlotte_lane_boarding_house.jpg"
   },
   {
     "id": "hyatt_house_annisquam",
     "title": "The Hyatt House",
     "description": [
       "The Hyatt House served as another of Swami Vivekananda's summer residences in Annisquam during 1894, a period of intensive creative and spiritual work. It was during these weeks spent in the tranquil Cape Ann village that he labored on his lectures on Raja Yoga, which would later crystallize into the foundational text 'Raja Yoga.' The quiet coastal setting provided the contemplative space necessary for him to distill these teachings into their most powerful and accessible form."
-    ]
+    ],
+    "image": "hyatt_house_annisquam.jpg"
   },
   {
     "id": "universalist_church_annisquam",
     "title": "Universalist Church",
     "description": [
       "The Universalist Church in Annisquam welcomed Swami Vivekananda to address its congregation during his Cape Ann summers, attracted by the denomination's progressive theology and openness to universal spiritual truth. In this intimate New England village setting, he spoke to audiences eager to hear his teachings on the Self and the principles of Vedanta. His presence in such communities demonstrated how receptive even small American towns could be to India's ancient wisdom traditions."
-    ]
+    ],
+    "image": "universalist_church_annisquam.jpg"
   },
   {
     "id": "mechanics_hall_boston",
     "title": "Mechanics Hall",
     "description": [
       "Mechanics Hall provided one of Boston's principal venues for Swami Vivekananda's public lectures during his New England period, drawing substantial crowds drawn to his expositions on Vedanta, Raja Yoga, and the science of religion. The city's intellectual vigor and curiosity about Indian philosophy ensured that his talks attracted some of his largest American audiences. These well-attended lectures at Mechanics Hall solidified his reputation as one of the most compelling voices introducing Eastern spirituality to the Western mind."
-    ]
+    ],
+    "image": "mechanics_hall_boston.jpg"
   },
   {
     "id": "kate_tannatt_woods_house",
     "title": "Kate Tannatt Woods's house",
     "description": [
       "Kate Tannatt Woods, a progressive American author and journalist, extended her Salem, Massachusetts home to Swami Vivekananda during his New England tours, becoming part of the circle of literary-minded women supporters who championed his work. Woods and her family were among the thoughtful Americans captivated by his teachings on universal religion and spirituality. Through such private residences and the hospitality of figures like Woods, Vivekananda cultivated the personal relationships that amplified his influence in New England communities."
-    ]
+    ],
+    "image": "kate_tannatt_woods_house.jpg"
   },
   {
     "id": "wesley_church_salem",
     "title": "Wesley Church",
     "description": [
       "In August 1893, Swami Vivekananda addressed members of the Thought and Work Club at Wesley Chapel in Salem, Massachusetts, despite the warm afternoon weather. The gathering brought together the church's intellectual community to hear the Hindu monk speak informally on India's religion and customs. This appearance at the Methodist congregation reflected the growing openness of American denominations to comparative religion during the late nineteenth century, even in a town whose Puritan heritage had long defined New England Protestantism."
-    ]
+    ],
+    "image": "wesley_church_salem.jpg"
   },
   {
     "id": "east_church_salem",
     "title": "East Church",
     "description": [
       "The East Church in Salem hosted Swami Vivekananda during his New England tour in 1894, continuing the pattern of reception he found among the Congregational churches of historic New England. Salem's evolution from its turbulent Puritan past into a center of religious inquiry made it receptive ground for his presentation of Vedantic philosophy. The appearance demonstrated how even America's oldest religious institutions were beginning to engage seriously with Eastern thought through the medium of a living Hindu teacher."
-    ]
+    ],
+    "image": "east_church_salem.jpg"
   },
   {
     "id": "northampton_city_hall",
     "title": "Northampton City Hall",
     "description": [
       "On the evening of April 14, 1894, Swami Vivekananda lectured at Northampton City Hall, where he spoke to a cultivated audience about the fundamental spiritual kinship connecting all peoples across continents. His choice to speak in the civic hall rather than exclusively in churches underscored his democratic conviction that the universal principles of religion belonged to all people regardless of institutional affiliation. The prosperous Connecticut River valley town, enriched by Smith College's intellectual presence, provided an engaged audience for his message of human unity."
-    ]
+    ],
+    "image": "northampton_city_hall.jpg"
   },
   {
     "id": "smith_college_northampton",
     "title": "Smith College",
     "description": [
       "Swami Vivekananda's presence at Smith College during his 1894 New England visit resonated deeply with the institution's community of educated American women. His teachings on the spiritual equality of women and the divine potential within all human beings aligned naturally with the aspirations of America's leading women's college. Educated women formed a particularly devoted constituency among his earliest American disciples, and Smith College represented the institutional embodiment of the intellectual equality he championed."
-    ]
+    ],
+    "image": "smith_college_northampton.jpg"
   },
   {
     "id": "oxford_club_lecture_hall_lynn",
     "title": "Oxford Club lecture hall",
     "description": [
       "The Oxford Club lecture hall in Lynn, Massachusetts provided a venue for Swami Vivekananda to address the progressive thinkers of this historic shoe-manufacturing city north of Boston. His willingness to lecture in industrial communities demonstrated his commitment to sharing Vedantic philosophy across all social strata of American society. Lynn's working-class character and tradition of public intellectual engagement made it an important stop on his New England circuit."
-    ]
+    ],
+    "image": "oxford_club_lecture_hall_lynn.jpg"
   },
   {
     "id": "rockland_street_swampscott",
     "title": "Rockland Street",
     "description": [
       "Swami Vivekananda visited the seaside town of Swampscott during his New England tours, where several of his American supporters maintained summer residences along the rocky Massachusetts coast. The pleasant Atlantic shore resort attracted Boston's educated middle class, and Vivekananda conducted informal gatherings and discussions with interested residents on Rockland Street. These intimate settings in coastal communities complemented his more formal lecture appearances in urban halls."
-    ]
+    ],
+    "image": "rockland_street_swampscott.jpg"
   },
   {
     "id": "library_hall_lawrence",
     "title": "Library Hall",
     "description": [
       "Library Hall in Lawrence, Massachusetts welcomed Swami Vivekananda during his New England tour, bringing his message of Vedanta to the diverse immigrant population of this major textile-manufacturing city on the Merrimack River. His determination to lecture in industrial centers rather than confine himself to elite audiences demonstrated his conviction that spiritual truth transcended class boundaries. The appearance underscored his vision of a universal religion accessible to workers and thinkers alike."
-    ]
+    ],
+    "image": "library_hall_lawrence.jpg"
   },
   {
     "id": "rogers_hall_melrose",
     "title": "Rogers Hall",
     "description": [
       "Rogers Hall in Melrose, Massachusetts was among the suburban venues north of Boston where Swami Vivekananda lectured during his New England tour in 1894. The prosperous residential community's active cultural life and lecture-going tradition made it a natural stop for spreading the teachings of Vedanta beyond Boston proper. His appearances in such comfortable New England suburbs helped establish a broadbased network of support among the educated middle class that would sustain his American work."
-    ]
+    ],
+    "image": "rogers_hall_melrose.jpg"
   },
   {
     "id": "evans_caswell_house_melrose",
     "title": "Evans Caswell's house",
     "description": [
       "During his New England tours in 1894, Swami Vivekananda was received at Evans Caswell's home in Melrose, Massachusetts, where private drawing-room gatherings formed an essential part of his teaching method. These intimate settings in American homes allowed him to establish personal connections with his listeners that often proved more transformative than formal public lectures. The pattern of moving between private residences and public venues reflected his strategic approach to bringing Vedanta philosophy to New England's educated classes."
-    ]
+    ],
+    "image": "evans_caswell_house_melrose.jpg"
   },
   {
     "id": "magnolia_library_magnolia",
     "title": "Magnolia Library",
     "description": [
       "In 1894, Swami Vivekananda delivered lectures at the Magnolia Library in this fashionable Cape Ann summer colony, addressing an audience drawn largely from Boston's professional classes who spent their summers in this exclusive resort. The library served as an ideal venue for his presentation of Vedanta philosophy to educated New Englanders seeking intellectual and spiritual engagement. The setting reflected the Victorian culture of literary societies and reading rooms that provided genteel spaces for the discussion of ideas among the region's cultural elite."
-    ]
+    ],
+    "image": "magnolia_library_magnolia.jpg"
   },
   {
     "id": "gray_beach_magnolia",
     "title": "Gray Beach",
     "description": [
       "Swami Vivekananda spent time at Gray Beach in Magnolia during his 1894 summer stay in this scenic Massachusetts coastal village, finding in its rocky Atlantic shores a contemplative setting reminiscent of Kanyakumari's spiritual landscape. The dramatic seascape of Cape Ann provided a natural environment for reflection that held deep significance for his spiritual practice, echoing the meditative power he had experienced at India's southern shore."
-    ]
+    ],
+    "image": "gray_beach_magnolia.jpg"
   },
   {
     "id": "davis_opera_house_plymouth",
     "title": "Davis Opera House",
     "description": [
       "Swami Vivekananda lectured at the Davis Opera House in Plymouth, Massachusetts in 1894, the historic town where the Pilgrims first landed and established the foundations of American Puritanism. He recognized the symbolic resonance of bringing ancient Indian spiritual wisdom to the very birthplace of American religious tradition, viewing such encounters as the inevitable and enriching meeting of East and West that would define the coming age."
-    ]
+    ],
+    "image": "davis_opera_house_plymouth.jpg"
   },
   {
     "id": "radcliffe_college_cambridge",
     "title": "Radcliffe College(Fay House)",
     "description": [
       "During his rigorous Cambridge period in 1896, Swami Vivekananda addressed the intellectually ambitious students and faculty at Radcliffe College, Harvard's coordinate women's college, delivering some of his most academically demanding lectures in America. His engagement with Radcliffe reflected his commitment to presenting Vedantic philosophy as a sophisticated intellectual system worthy of engagement by the most advanced scholars of the Western world."
-    ]
+    ],
+    "image": "radcliffe_college_cambridge.png"
   },
   {
     "id": "sever_hall_cambridge",
     "title": "Sever Hall",
     "description": [
       "Swami Vivekananda delivered lectures at Sever Hall, Harvard University's principal lecture building, during his 1896 Cambridge period, presenting his philosophical teachings before one of the world's most distinguished academic audiences. Dressed in his traditional orange robes, his presence at Harvard represented a high point of his American mission—the successful translation of Vedantic thought into the rigorous intellectual discourse of Western academia at its most elite institution."
-    ]
+    ],
+    "image": "sever_hall_cambridge.jpg"
   },
   {
     "id": "sara_ole_bull_house_cambridge",
     "title": "Sara Ole Bull House",
     "description": [
       "Sara Chapman Bull, widow of the renowned Norwegian violinist Ole Bull, opened her elegant Cambridge home to Swami Vivekananda during his Boston and Cambridge periods from 1894 to 1896, becoming his most devoted American patron and steadfast supporter. Her residence served as the center of his New England circle, and in late 1894 he delivered from her home a memorable lecture on 'The Ideals of Indian Women' that expressed his gratitude for the kindness shown him by his American hosts. Mrs. Bull's generous financial support enabled him to pursue his American mission and eventually to establish Vedanta Society centers that would perpetuate his teachings long after his return to India."
-    ]
+    ],
+    "image": "sara_ole_bull_house_cambridge.jpg"
   },
   {
     "id": "mrs_anna_richards_house_cambridge",
     "title": "Mrs. Anna Richards House",
     "description": [
       "Mrs. Anna Richards' Cambridge home provided welcoming space for Swami Vivekananda's intimate gatherings and private discussions during his New England period from 1894 to 1896, where she was counted among the devoted women supporters who formed the core of his American circle. Her residence complemented the public lectures at Harvard and Radcliffe, offering the personal settings where his closest disciples deepened their commitment to Vedantic practice and philosophy."
-    ]
+    ],
+    "image": "mrs_anna_richards_house_cambridge.jpg"
   },
   {
     "id": "dane_hall_harvard",
     "title": "Dane Hall",
     "description": [
       "During his Cambridge period in 1896, Swami Vivekananda lectured at Dane Hall, one of Harvard University's academic buildings, where he engaged with some of America's most intellectually formidable minds. His presentations on Indian philosophy and Vedantic thought attracted the attention of distinguished scholars and faculty, including the pioneering psychologist William James, whose theoretical work on religious experience found a living exemplar in the Swami's teachings. These Harvard lectures represented a watershed moment in his American mission, demonstrating that the ancient wisdom of India could command respect and serious attention in the most rigorous academic environment in the nation."
-    ]
+    ],
+    "image": "dane_hall_harvard.jpg"
   },
   {
     "id": "prof_wright_house_cambridge",
     "title": "Prof.J.H Wright's house",
     "description": [
       "Professor John Henry Wright's Cambridge home served as Vivekananda's entry point into American intellectual life in 1893. The Greek scholar, profoundly moved by the young monk's erudition and spiritual presence, became his crucial advocate at a pivotal moment—when Wright penned the now-famous letter of introduction declaring that asking Vivekananda for credentials was like questioning the sun's right to shine. This letter secured the Swami's passage to the Parliament of the World's Religions in Chicago, fundamentally altering the trajectory of his life and work. Wright's home thus stands as the birthplace of Vivekananda's transformation from an unknown Indian ascetic into a recognized voice of Eastern spirituality in the West."
-    ]
+    ],
+    "image": "prof_wright_house_cambridge.jpg"
   },
   {
     "id": "memorial_hall_harvard",
     "title": "Memorial Hall",
     "description": [
       "The grand Victorian Gothic edifice of Memorial Hall, Harvard's tribute to its Civil War dead, became a stage for Swami Vivekananda's philosophical presentations in the spring of 1896. Before faculty members, undergraduates, and Cambridge's educated elite, he articulated the principles of Vedantic philosophy with such intellectual rigor that the ancient wisdom of India could stand as an equal in the most demanding academic forum in America. His lectures there marked a decisive moment when Eastern thought was no longer dismissed as mere mysticism but engaged as serious philosophy worthy of Harvard's attention."
-    ]
+    ],
+    "image": "memorial_hall_harvard.jpg"
   },
   {
     "id": "holworthy_hall_harvard",
     "title": "Holworthy Hall",
     "description": [
       "Holworthy Hall, one of Harvard's oldest dormitories nestled in the historic Yard, provided a setting for Swami Vivekananda's interactions with American scholars and curious students during his 1896 Cambridge sojourn. Within these ancient brick buildings that had sheltered generations of American intellectuals, he encountered a new generation of thinkers eager to understand Indian philosophy and the Vedantic worldview. His presence in Harvard's venerable precincts represented a significant moment when Eastern spirituality began to take root in the institutions that shaped American intellectual life."
-    ]
+    ],
+    "image": "holworthy_hall_harvard.jpg"
   },
   {
     "id": "prof_james_house_cambridge",
     "title": "Prof. James' house",
     "description": [
       "At Professor William James's Cambridge residence, Swami Vivekananda encountered one of America's most brilliant philosophical minds—a thinker whose theoretical investigations into the psychology of mysticism found their confirmation in the living presence of the Indian monk. James, whose groundbreaking work examined the varieties of religious experience, recognized in Vivekananda an embodiment of the mystical consciousness he had studied. Their Cambridge meetings represented a rare convergence of Western philosophical inquiry and Eastern spiritual realization, two great minds acknowledging each other's profound understanding across the boundaries of culture and tradition."
-    ]
+    ],
+    "image": "prof_james_house_cambridge.jpg"
   },
   {
     "id": "macleod_house_cambridge",
     "title": "MacLeod's house",
     "description": [
       "Josephine MacLeod's home in Cambridge became a spiritual gathering place during Swami Vivekananda's 1896 lecture series, serving as headquarters for his inner circle of American devotees. MacLeod, whom Vivekananda affectionately called 'Joe Joe,' had become one of his most dedicated disciples, and her house functioned as both residence and meeting ground for discussions that extended his formal lectures into intimate spiritual exchanges. This home would remain significant in the broader narrative of his American mission, as MacLeod herself later journeyed to India to deepen her spiritual practice under his direct guidance, becoming a lifelong link between the Indian and American branches of his movement."
-    ]
+    ],
+    "image": "macleod_house_cambridge.jpg"
   },
   {
     "id": "grand_army_hall_medford",
     "title": "Grand Army Hall",
     "description": [
       "The Grand Army Hall in Medford, a civic venue honoring the veterans of America's Civil War, provided Swami Vivekananda with a public forum to address the citizens of this Massachusetts town during his 1894 New England lecture circuit. The hall's use for community gatherings made it an ideal venue for reaching ordinary citizens beyond Boston's intellectual elite, allowing his message of Vedantic philosophy to penetrate the towns and smaller cities north of the metropolitan center. His appearance there reflected his democratic impulse to share Indian wisdom not merely with academic societies but with the broader American public."
-    ]
+    ],
+    "image": "grand_army_hall_medford.jpg"
   },
   {
     "id": "mrs_gibson_house_medford",
     "title": "Mrs. Emily Ruth Gibson's house",
     "description": [
       "Mrs. Emily Ruth Gibson's Medford residence opened its doors to Swami Vivekananda during his 1894 New England travels, becoming part of the network of private homes that sustained his lecture circuit through Massachusetts. As a progressive, spiritually minded woman, Mrs. Gibson represented the type of American hostess who facilitated his mission by providing intimate settings for deeper philosophical discussions with small groups of earnest seekers. Her home exemplified the quiet but essential role played by individual supporters who made his American journey possible, creating spaces where Eastern and Western spirituality could meet in conversation."
-    ]
+    ],
+    "image": "mrs_gibson_house_medford.jpg"
   },
   {
     "id": "sanatorium_saratoga_springs",
     "title": "Sanatorium",
     "description": [
       "During his 1895 New York period, Swami Vivekananda visited a sanatorium in Saratoga Springs, the celebrated upstate resort town renowned for its natural mineral springs and fashionable gathering of America's wealthy elite. The mineral springs and health-conscious atmosphere of this famous spa resonated with his philosophical interest in the interconnection between physical vitality and spiritual development. Vivekananda engaged with the summer society that converged here, sharing his teachings on Vedanta with interested supporters and patrons who sought both restoration and intellectual discourse."
-    ]
+    ],
+    "image": "sanatorium_saratoga_springs.jpg"
   },
   {
     "id": "town_hall_saratoga_springs",
     "title": "Town Hall",
     "description": [
       "Saratoga Springs' Town Hall served as a dignified civic venue for Swami Vivekananda's public lectures during his visits to this upstate New York resort in 1895. The hall provided an appropriate setting for his presentations on Vedanta philosophy and the spiritual traditions of ancient India to the community of summer visitors drawn from New York's intellectual and wealthy classes. These lectures helped establish his reputation among the educated circles of the Northeast."
-    ]
+    ],
+    "image": "town_hall_saratoga_springs.jpg"
   },
   {
     "id": "fishkill_landing_beacon",
     "title": "Fishkill Landing - Beacon",
     "description": [
       "Swami Vivekananda traveled to Fishkill Landing, a picturesque Hudson Valley community on the eastern shore of the Hudson River in Dutchess County, during his explorations of New York communities beyond Manhattan in 1895. The dramatic river landscapes and contemplative atmosphere of the Hudson Valley appealed to those seeking spiritual instruction, and his visit to this riverside town extended his influence beyond the urban centers. The region's natural beauty and settled communities provided alternative venues for his teaching work."
-    ]
+    ],
+    "image": "fishkill_landing_beacon.jpg"
   },
   {
     "id": "dr_guernsey_home_nyc",
     "title": "Dr. Guernsey's home",
     "description": [
       "Dr. Guernsey's home in New York City became an early refuge and gathering place for Swami Vivekananda during his initial years in America around 1894. As one of his earliest supporters from the medical profession, Dr. Guernsey offered hospitality and helped introduce the Swami to New York's educated circles. This home represented the personal networks of sympathetic hosts, particularly from the professional class, who sustained his emerging American mission."
-    ]
+    ],
+    "image": "dr_guernsey_home_nyc.jpg"
   },
   {
     "id": "54_west_33rd_st_nyc",
     "title": "54 West 33rd St (First HQ)",
     "description": [
       "At 54 West 33rd Street in Manhattan, Swami Vivekananda established the first formal headquarters for his organized Vedanta work in New York during 1894-1895. From this address, he conducted regular classes and lectures on Raja Yoga, Jnana Yoga, and Bhakti Yoga for his growing circle of American students. This location marked the inception of institutionalized Vedanta teaching in America, transforming his individual lectures into a systematic movement that would eventually crystallize as the Vedanta Society of New York."
-    ]
+    ],
+    "image": "54_west_33rd_st_nyc.jpg"
   },
   {
     "id": "waldorf_hotel_nyc",
     "title": "Waldorf Hotel",
     "description": [
       "The prestigious Waldorf Hotel on Fifth Avenue served as one of the fashionable Manhattan addresses where Swami Vivekananda stayed and received supporters during 1894-1895. His presence at this renowned establishment reflected the elevated social circles in which he moved, where wealthy patrons and society figures arranged meetings to discuss his teachings. The Waldorf exemplified the high-profile venues through which his American mission gained traction among the city's elite."
-    ]
+    ],
+    "image": "waldorf_hotel_nyc.jpg"
   },
   {
     "id": "mary_phillips_home_nyc",
     "title": "Mary Phillips's Home",
     "description": [
       "Mary Phillips' Manhattan home became an intimate gathering place for Swami Vivekananda and his circle of New York devotees during 1894-1895. Her residence hosted the informal discussions and private talks that deepened the engagement of his followers, complementing the public lectures he delivered across the city. Phillips represented the dedicated women supporters whose practical devotion and hospitality provided the essential domestic infrastructure sustaining his American work."
-    ]
+    ],
+    "image": "mary_phillips_home_nyc.jpg"
   },
   {
     "id": "unknown_place_new_york",
     "title": "Unknown place in New York",
     "description": [
       "During his extended periods in New York City, particularly 1894-1895, Swami Vivekananda visited numerous addresses across Manhattan whose precise locations have not been fully established in historical records. These unnamed venues hosted lectures, private classes, and meetings with supporters as he cultivated his growing circle of devotees throughout the metropolis. The gaps in documentation reflect both the intensity and fluidity of his American mission during these formative years."
-    ]
+    ],
+    "image": "unknown_place_new_york.jpg"
   },
   {
     "id": "leon_landsberg_home_nyc",
     "title": "Leon Landsberg's Home",
     "description": [
       "In 1894, Leon Landsberg's New York home became a significant gathering place for Swami Vivekananda's emerging American circle. Landsberg, a Jewish journalist and intellectual who would become known as Swami Kripananda, was among the first Americans to embrace monastic initiation into Vivekananda's teachings on Vedanta. His residence served as an intimate venue where the Swami's earliest American disciples assembled to explore the philosophical and spiritual foundations of his message, establishing one of the foundational nodes of Vedanta's foothold in New York."
-    ]
+    ],
+    "image": "leon_landsberg_home_nyc.jpg"
   },
   {
     "id": "emma_thursby_house_nyc",
     "title": "Emma Thursby's house",
     "description": [
       "Emma Thursby's New York home opened the doors of high society to Swami Vivekananda during his 1894 visit. The renowned soprano, one of America's most celebrated singers, became a devoted supporter whose social standing lent considerable prestige to the Swami's work in the city. Her parlours attracted members of New York's cultural and intellectual elite, creating an elegant setting where Vedanta philosophy encountered the minds shaping American artistic life. Her detailed notes of morning classes delivered that summer at Greenacre, Maine, preserved Vivekananda's teachings for posterity."
-    ]
+    ],
+    "image": "emma_thursby_house_nyc.jpg"
   },
   {
     "id": "corbin_mansion_nyc",
     "title": "Corbin mansion",
     "description": [
       "The Corbin mansion in New York represented the world of finance and business that Swami Vivekananda successfully engaged during his 1894 stay. Among the city's wealthy elite who hosted him in their elegant residences were figures commanding considerable economic influence. These mansions provided refined domestic settings where intimate philosophical discussions complemented his public lectures, demonstrating his ability to bridge the gap between high society and spiritual teaching."
-    ]
+    ],
+    "image": "corbin_mansion_nyc.jpg"
   },
   {
     "id": "home_lorenzo_barbers_nyc",
     "title": "Home of Lorenzo Barbers",
     "description": [
       "Lorenzo Barbers opened his New York home to Swami Vivekananda in 1894, contributing to the network of private residences that anchored the Swami's teachings in American domestic life. Such homes became laboratories for the practical application of Vedanta, where sustained personal relationships allowed the Swami's disciples to deepen their understanding beyond formal lectures. Through these intimate family connections, Vivekananda wove his universal philosophy into the daily existence of his earliest American followers."
-    ]
+    ],
+    "image": "home_lorenzo_barbers_nyc.jpg"
   },
   {
     "id": "hall_universal_brotherhood_nyc",
     "title": "Hall of Universal Brotherhood",
     "description": [
       "The Hall of Universal Brotherhood in New York City served as a public forum for Swami Vivekananda's teachings during 1894-1895, its very name embodying the central thrust of his American mission. From this stage, he expounded the universal principles underlying Raja Yoga and Vedantic philosophy, emphasizing the fundamental unity of all existence that transcended sectarian divides. The venue provided an accessible space where diverse New York audiences could encounter his vision of a spirituality liberated from narrow institutional boundaries."
-    ]
+    ],
+    "image": "hall_universal_brotherhood_nyc.jpg"
   },
   {
     "id": "exodus_club_nyc",
     "title": "Exodus club",
     "description": [
       "The Exodus Club in New York received Swami Vivekananda as a speaker in 1894, reflecting the diversity of venues through which he disseminated his teachings to American intellectuals and professionals. The club's members, drawn from educated circles across the city, encountered his Vedantic vision in an intimate setting that encouraged substantive dialogue. This variety of platforms—from fashionable private clubs to public halls—demonstrated the universal appeal of his message across different strata of American society."
-    ]
+    ],
+    "image": "exodus_club_nyc.jpg"
   },
   {
     "id": "mott_memorial_hall_nyc",
     "title": "Mott Memorial Hall",
     "description": [
       "Swami Vivekananda delivered public lectures at Mott Memorial Hall during his first American visit in 1894-1895, attracting substantial audiences eager to hear his exposition of Vedanta and Indian philosophy. The hall became one of the key venues through which he reached the broader New York public beyond the circles of wealthy patrons, demonstrating his capacity to communicate with diverse audiences. His lectures there contributed significantly to establishing Vedanta's presence as a serious philosophical force in American intellectual life."
-    ]
+    ],
+    "image": "mott_memorial_hall_nyc.jpg"
   },
   {
     "id": "west_39th_street_nyc",
     "title": "228 West Thirty-ninth Street(Second HQ)",
     "description": [
       "At 228 West Thirty-ninth Street, Swami Vivekananda established his second headquarters for Vedanta work in New York during 1895, consolidating the organizational structure of his American mission. The residence served as a center for regular classes and meetings where students could pursue sustained study of his teachings. This more permanent institutional base marked the transition from the early dispersed gatherings in private homes to a more organized framework for Vedanta's propagation in America."
-    ]
+    ],
+    "image": "west_39th_street_nyc.jpg"
   },
   {
     "id": "hardman_hall_nyc",
     "title": "Hardman Hall",
     "description": [
       "During 1894-1895, Swami Vivekananda utilized Hardman Hall as one of the prominent venues for his public lectures and classes on Vedanta in New York City. The hall became a gathering place for intellectuals and spiritual seekers drawn to his teachings on universal religion and Indian philosophy. His lectures at this venue attracted considerable attention from New York's intellectual circles, contributing to the growing recognition of Vedanta in American cultural discourse."
-    ]
+    ],
+    "image": "hardman_hall_nyc.jpg"
   },
   {
     "id": "madison_square_garden_concert_hall",
     "title": "Madison Square Garden Concert Hall",
     "description": [
       "In 1894, Swami Vivekananda graced the prestigious Madison Square Garden Concert Hall, one of the era's most distinguished venues, where he delivered inspiring discourses on Vedanta, universal religion, and the greatness of Indian civilization. Large crowds assembled to hear the eloquent Hindu monk speak, making it a significant venue in his mission to bring Eastern philosophy to Western audiences. The event underscored how successfully Vivekananda had captured the imagination of New York's educated populace during his groundbreaking first American tour."
-    ]
+    ],
+    "image": "madison_square_garden_concert_hall.jpg"
   },
   {
     "id": "ramakrishna_vivekananda_center_ny",
     "title": "Ramakrishna-Vivekananda Center of New York",
     "description": [
       "The Ramakrishna-Vivekananda Center of New York owes its spiritual foundation directly to Swami Vivekananda's pioneering work in the city during 1894-1895. Through his lectures, teachings, and personal interactions with devoted followers, Vivekananda established the intellectual and spiritual groundwork upon which this enduring institution was built. The center stands as a living testament to his vision of bringing Vedantic study and practice to the Western world, carrying forward the legacy he initiated during his transformative years in New York."
-    ]
+    ],
+    "image": "ramakrishna_vivekananda_center_ny.png"
   },
   {
     "id": "charles_higgins_home_brooklyn",
     "title": "Charles Higgins Home",
     "description": [
       "During 1895, the Brooklyn home of Charles Higgins served as one of the welcoming residences where Swami Vivekananda was hosted during his extensive travels through the New York metropolitan area. The hospitality extended by Higgins and other American devotees provided the monk with a base from which to conduct his lectures and meetings throughout Brooklyn and Manhattan. These private homes became essential to Vivekananda's mission, offering both shelter and opportunities to deepen his influence among America's intellectual and spiritual seekers."
-    ]
+    ],
+    "image": "charles_higgins_home_brooklyn.jpg"
   },
   {
     "id": "pouch_mansion_brooklyn",
     "title": "Pouch Mansion",
     "description": [
       "In April 1895, the Pouch Mansion gallery on Clinton Avenue in Brooklyn hosted a special meeting of the Brooklyn Ethical Association featuring Swami Vivekananda as the main speaker. He delivered a lecture on the customs of the Hindus, explaining their true meaning and correcting widespread misinterpretations in Western understanding. The event demonstrated the monk's systematic effort to educate American audiences about Hindu culture and philosophy, utilizing Brooklyn's cultural venues to reach diverse groups of intellectuals and society members."
-    ]
+    ],
+    "image": "pouch_mansion_brooklyn.jpg"
   },
   {
     "id": "charles_auel_house_brooklyn",
     "title": "Charles Auel's house",
     "description": [
       "Charles Auel's residence in Brooklyn became part of the network of supportive American homes that accommodated Swami Vivekananda during his 1895 stay in the New York area. These private residences were crucial to his extended lecture campaign, providing him with convenient bases from which to address various Brooklyn organizations and intellectual circles. The generosity of hosts like Auel enabled Vivekananda to sustain his rigorous schedule of public speaking and personal interactions with American seekers."
-    ]
+    ],
+    "image": "charles_auel_house_brooklyn.jpg"
   },
   {
     "id": "long_island_historical_society",
     "title": "The Long Island Historical Society",
     "description": [
       "During 1895, the Long Island Historical Society in Brooklyn Heights served as a venue through which Swami Vivekananda engaged with New York's cultural institutions and educated audiences. His participation in the society's programs reflected his strategy of reaching America's established intellectual centers and civic organizations. By speaking at such esteemed institutions, Vivekananda legitimized Vedantic philosophy within American cultural discourse and attracted serious scholars and thinkers to his message."
-    ]
+    ],
+    "image": "long_island_historical_society.jpg"
   },
   {
     "id": "robertson_hall_brooklyn",
     "title": "Robertson Hall",
     "description": [
       "Robertson Hall in Brooklyn functioned as one of the many venues where Swami Vivekananda conducted lectures and meetings during his intensive 1895 campaign in the New York area. His speaking engagements at such halls formed part of his systematic effort to disseminate Vedantic teachings throughout the metropolitan region. The breadth of his venue selections—from concert halls to community gathering spaces—testified to the widespread appeal his message had achieved among diverse American audiences."
-    ]
+    ],
+    "image": "robertson_hall_brooklyn.jpg"
   },
   {
     "id": "sarah_waldo_house",
     "title": "Sarah Ellen Waldo's house",
     "description": [
       "Sarah Ellen Waldo's Manhattan residence became a vital spiritual center during Swami Vivekananda's first Western tour of 1894-1895. The home served as a gathering place where the Swami engaged in intimate discussions of Vedantic philosophy with American seekers, and where he found respite between his demanding public lectures. Through Waldo's dedication and social connections, the teachings he shared within her home reached influential circles of New York society, establishing a bridge between Eastern philosophy and Western intellectual culture during his transformative early months in America."
-    ]
+    ],
+    "image": "sarah_waldo_house.jpg"
   },
   {
     "id": "ridgely_manor_stone_ridge",
     "title": "Ridgely Manor",
     "description": [
       "During the summer of 1895, Swami Vivekananda retreated to Ridgely Manor in Stone Ridge, New York, a peaceful Hudson Valley estate where he found temporary relief from the intensity of his lecture schedule. In this serene setting, he engaged in profound spiritual conversations with devoted American disciples, including Sister Nivedita and other close followers. The quiet months at Ridgely Manor allowed him space for reflection and deeper teaching on themes of renunciation and spiritual practice, even as he wrestled with concerns for those who sought his guidance."
-    ]
+    ],
+    "image": "ridgely_manor_stone_ridge.jpg"
   },
   {
     "id": "lyndhurst_irvington",
     "title": "Lyndhurst",
     "description": [
       "Lyndhurst, the magnificent Gothic Revival mansion overlooking the Hudson River in Irvington, represented the grand American estates that opened their doors to Swami Vivekananda during his 1895 travels through the Hudson Valley region. His presence at such prominent homes reflected the growing fascination of America's influential families with his message of universal spirituality and Indian wisdom, connecting him with the cultural and intellectual elite of the era."
-    ]
+    ],
+    "image": "lyndhurst_irvington.jpg"
   },
   {
     "id": "central_church_of_christ_des_moines",
     "title": "Central Church of Christ",
     "description": [
       "On November 27, 1894, Swami Vivekananda addressed the congregation of the Central Church of Christ in Des Moines, Iowa, delivering his teachings on Hinduism and universal religion to an engaged American audience. His lectures during this Des Moines visit demonstrated his ability to speak directly to American religious communities, dispelling misconceptions about Indian spirituality while presenting Vedantic philosophy in language that resonated with Western seekers and clergy alike."
-    ]
+    ],
+    "image": "central_church_of_christ_des_moines.jpg"
   },
   {
     "id": "rev_breedens_home_des_moines",
     "title": "Rev. Breeden's home",
     "description": [
       "During his November 1894 visit to Des Moines, Swami Vivekananda found hospitality in the home of Reverend Breeden, reflecting the openness of American religious leaders to engage with his radical vision of universal spirituality. The reverend's invitation to host the Hindu monk in his home signaled a willingness among American clergy to bridge denominational boundaries and explore the deeper teachings that transcended sectarian differences."
-    ]
+    ],
+    "image": "rev_breedens_home_des_moines.jpg"
   },
   {
     "id": "savery_hotel_des_moines",
     "title": "Savery Hotel",
     "description": [
       "The Savery Hotel served as Swami Vivekananda's lodging during his November 1894 stay in Des Moines, Iowa, providing him a base from which to conduct his lectures and meetings throughout the city. From this downtown location, he engaged with Des Moines' educated and religious populace, sharing his message of Vedanta and universal brotherhood while gathering support and funds for his philanthropic vision in India."
-    ]
+    ],
+    "image": "savery_hotel_des_moines.jpg"
   },
   {
     "id": "drake_university_des_moines",
     "title": "Drake University",
     "description": [
       "Swami Vivekananda brought his teachings on Vedanta and Indian philosophy to the academic community at Drake University in Des Moines during his 1894 visit. His appearance at the university demonstrated his capacity to engage with educated American audiences in intellectual forums, presenting Eastern wisdom in dialogue with Western learning and establishing his credibility among scholars and educators."
-    ]
+    ],
+    "image": "drake_university_des_moines.png"
   },
   {
     "id": "la_salette_academy_memphis",
     "title": "La Salette Academy",
     "description": [
       "In January 1894, Swami Vivekananda addressed audiences at La Salette Academy in Memphis, Tennessee, as part of his broader campaign to reinterpret Hinduism and Indian culture for American understanding. His lectures at the academy reached Memphis's educated and religious circles, presenting his message of tolerance and universal brotherhood while correcting Western misconceptions about Indian spirituality and philosophy."
-    ]
+    ],
+    "image": "la_salette_academy_memphis.jpg"
   },
   {
     "id": "tennessee_club_memphis",
     "title": "The Tennessee Club",
     "description": [
       "The Tennessee Club served as one of several prestigious venues where Swami Vivekananda was received during his January 1894 visit to Memphis. As a respected social institution, the club's hospitality demonstrated his acceptance among the city's established society, extending his reach beyond lecture halls to the intimate circles of Memphis's influential classes."
-    ]
+    ],
+    "image": "tennessee_club_memphis.jpg"
   },
   {
     "id": "randolph_building_memphis",
     "title": "Randolph Building",
     "description": [
       "The Randolph Building in Memphis hosted Swami Vivekananda's lectures in January 1894 as part of his ambitious American tour to share Vedantic philosophy across the South. The venue facilitated his mission to correct Western misconceptions about India and its spiritual traditions while generating support for his philanthropic endeavors back home."
-    ]
+    ],
+    "image": "randolph_building_memphis.jpg"
   },
   {
     "id": "auditorium_memphis",
     "title": "Auditorium",
     "description": [
       "The Auditorium in Memphis proved to be a major public forum for Swami Vivekananda's teachings during his January 1894 visit. Local newspapers lauded him as among the most eloquent speakers ever to grace the American platform, and Judge R. J. introduced him to audiences eager to hear about Hinduism from such a distinguished and articulate spokesman."
-    ]
+    ],
+    "image": "auditorium_memphis.jpg"
   },
   {
     "id": "womans_council_memphis",
     "title": "The Woman's Council",
     "description": [
       "The Woman's Council of Memphis welcomed Swami Vivekananda during his 1894 visit, reflecting the particular enthusiasm American women's organizations showed toward his message of spiritual equality and universal religion. His lectures to such groups resonated deeply, as they provided platforms for discussing the empowering spiritual teachings he brought from India."
-    ]
+    ],
+    "image": "womans_council_memphis.jpg"
   },
   {
     "id": "ymha_hall_memphis",
     "title": "Young Men's Hebrew Association Hall",
     "description": [
       "The Young Men's Hebrew Association Hall in Memphis provided Swami Vivekananda with yet another diverse venue during his January 1894 stay in the city. His presence at Jewish community spaces illustrated his universal appeal across religious boundaries and his ability to inspire audiences from varied faith traditions with his message of underlying spiritual unity."
-    ]
+    ],
+    "image": "ymha_hall_memphis.jpg"
   },
   {
     "id": "mrs_bagley_residence_detroit",
     "title": "Mrs.Bagley residence",
     "description": [
       "Mrs. Bagley's residence in Detroit offered Swami Vivekananda shelter and private spiritual fellowship during his 1894 visit to Michigan. These domestic settings allowed him respite from his rigorous speaking schedule while providing American families intimate access to his teachings and the opportunity for deeper philosophical conversations."
-    ]
+    ],
+    "image": "mrs_bagley_residence_detroit.jpg"
   },
   {
     "id": "detroit_club",
     "title": "Detroit club",
     "description": [
       "The Detroit Club, among the city's most prestigious social institutions, hosted Swami Vivekananda in 1894, bringing his Vedantic message directly to Detroit's civic and business leadership. Such exclusive venues amplified his influence among America's influential classes, establishing Vedanta within the circles of power and prestige."
-    ]
+    ],
+    "image": "detroit_club.jpg"
   },
   {
     "id": "first_congregational_unitarian_detroit",
     "title": "First Congregational Unitarian Church",
     "description": [
       "The First Congregational Unitarian Church in Detroit became a natural ally for Swami Vivekananda's 1894 lectures, as Unitarian congregations were particularly receptive to his vision of universal religion and interfaith harmony. His message of underlying spiritual unity resonated with their theological inclinations and progressive religious outlook."
-    ]
+    ],
+    "image": "first_congregational_unitarian_detroit.jpg"
   },
   {
     "id": "tw_palmer_house_detroit",
     "title": "T W Palmer House",
     "description": [
       "During his 1894 visit to Detroit, Swami Vivekananda was received as an honored guest at the T.W. Palmer House, the distinguished residence of Senator Thomas W. Palmer. This invitation reflected the considerable social standing Vivekananda had achieved in American society following his triumphant appearance at the Parliament of Religions. From Detroit, he proceeded onward to Bay City in late March, continuing his ambitious tour of the American Midwest."
-    ]
+    ],
+    "image": "tw_palmer_house_detroit.jpg"
   },
   {
     "id": "richelieu_hotel_detroit",
     "title": "Richelieu Hotel",
     "description": [
       "The sources do not provide direct evidence that the Richelieu Hotel served as Swami Vivekananda's base in Detroit during 1894. While contemporary newspaper accounts document his presence in the city and his time as a guest of Senator Palmer, the specific hotel where he stayed remains unclear from the available materials. The Hotel Vincent is mentioned in connection with his travels in the region."
-    ]
+    ],
+    "image": "richelieu_hotel_detroit.jpg"
   },
   {
     "id": "temple_beth_el_detroit",
     "title": "Temple Beth El",
     "description": [
       "The sources do not provide specific evidence that Swami Vivekananda lectured at Temple Beth El in Detroit during 1894. While his broader tour of Detroit and the surrounding Michigan cities is well-documented, and his philosophy embraced the universal harmony of all religions, no contemporary accounts directly reference a lecture at this Jewish house of worship."
-    ]
+    ],
+    "image": "temple_beth_el_detroit.jpg"
   },
   {
     "id": "detroit_opera_house",
     "title": "Detroit Opera House",
     "description": [
       "The sources do not provide specific evidence that Swami Vivekananda lectured at the Detroit Opera House during his 1894 visit. Though he delivered multiple public addresses throughout Detroit and the Michigan region during this tour, the exact venues of his Detroit lectures are not detailed in the available contemporary newspaper accounts."
-    ]
+    ],
+    "image": "detroit_opera_house.jpg"
   },
   {
     "id": "detroit_auditorium",
     "title": "Detroit Auditorium",
     "description": [
       "The sources do not provide specific evidence that Swami Vivekananda lectured at the Detroit Auditorium during his 1894 visit. While newspapers confirm his presence in Detroit and his numerous public engagements in the surrounding Michigan cities, the particular auditoriums and halls where he spoke in Detroit itself are not explicitly named in the available accounts."
-    ]
+    ],
+    "image": "detroit_auditorium.jpg"
   },
   {
     "id": "bay_city_opera_house",
     "title": "Bay City Opera House",
     "description": [
       "In late March 1894, Swami Vivekananda arrived in Bay City, Michigan, as a distinguished visitor, having traveled from Detroit where he had been the guest of Senator Palmer. The monk, dressed in his characteristic oriental robes, made a strong impression on observers with his striking appearance and keen intelligence, as he continued his mission to dispel Western misconceptions about India and its spiritual traditions."
-    ]
+    ],
+    "image": "bay_city_opera_house.jpg"
   },
   {
     "id": "academy_of_music_saginaw",
     "title": "Academy of Music",
     "description": [
       "On the evening of March 22, 1894, Swami Vivekananda addressed a small but deeply engaged audience at the Academy of Music in Saginaw, Michigan, speaking on the theme of religious harmony. Dressed in his distinctive oriental costume, he received an extremely cordial reception from the assembled listeners, continuing his tour of Michigan cities and bringing his teachings on Vedanta to audiences throughout the Great Lakes region."
-    ]
+    ],
+    "image": "academy_of_music_saginaw.jpg"
   },
   {
     "id": "ada_opera_house_ohio",
     "title": "Ada Opera house",
     "description": [
       "The sources do not provide specific details about Swami Vivekananda's visit to Ada, Ohio, or his appearance at the Ada Opera House during 1894. While his tour of the American Midwest is well-documented, information about this particular stop remains limited in the available historical records."
-    ]
+    ],
+    "image": "ada_opera_house_ohio.jpg"
   },
   {
     "id": "memorial_opera_house_valparaiso",
     "title": "Memorial Opera House",
     "description": [
       "In 1894, Swami Vivekananda brought his message of Vedanta philosophy to the Memorial Opera House in Valparaiso, Indiana, during his lecture tour of the American Midwest. The university town provided an intellectually receptive audience for his discourses on Indian spiritual heritage and the deeper meanings of Hindu philosophy. His talks on subjects like caste—which he explained not as a rigid religious hierarchy but as a system of trade guilds where each group considered itself superior—demonstrated his gift for reframing Eastern concepts for Western understanding."
-    ]
+    ],
+    "image": "memorial_opera_house_valparaiso.jpg"
   },
   {
     "id": "greenacre_inn_eliot",
     "title": "Greenacre Inn Conference",
     "description": [
       "Swami Vivekananda participated in the Greenacre Inn Conference in Eliot, Maine, during the summer of 1894, contributing to Sarah Farmer's pioneering interfaith gathering that drew spiritual thinkers from both East and West. His presence at this retreat deepened America's direct engagement with Indian philosophy and Vedantic teachings, creating meaningful exchanges between Eastern and Western spiritual seekers in an atmosphere of openness and mutual respect."
-    ]
+    ],
+    "image": "greenacre_inn_eliot.jpg"
   },
   {
     "id": "lysekloster_pines_eliot",
     "title": "Lysekloster Pines",
     "description": [
       "Lysekloster Pines, nestled within the Greenacre retreat grounds in Eliot, Maine, provided the tranquil pine-shaded setting where Swami Vivekananda spent time during the summer spiritual conferences of 1894. This peaceful environment fostered intimate meditation, philosophical discourse, and the spontaneous exchange of spiritual ideas between the swami and the American seekers who gathered there."
-    ]
+    ],
+    "image": "lysekloster_pines_eliot.jpg"
   },
   {
     "id": "vrooman_brothers_residence_baltimore",
     "title": "Vrooman brothers residence",
     "description": [
       "During his 1894 visit to Baltimore, Swami Vivekananda was hosted at the residence of the Vrooman brothers, whose family was part of the progressive American intellectual circles receptive to his message of universal religion and Vedantic philosophy. The brothers organized a series of lectures on 'Dynamic Religion' at the Lyceum Theater, with Vivekananda as a featured speaker, marking an important moment in Baltimore's introduction to Eastern spiritual thought."
-    ]
+    ],
+    "image": "vrooman_brothers_residence_baltimore.jpg"
   },
   {
     "id": "hotel_rennert_baltimore",
     "title": "Hotel Rennert",
     "description": [
       "The Hotel Rennert in Baltimore served as Swami Vivekananda's base during his 1894 visit to the city, from which he conducted his lecture engagements and received the many American admirers drawn to discuss Vedanta and Indian civilization with him. The hotel's prominence reflected his growing status as a significant spiritual teacher during his American tour."
-    ]
+    ],
+    "image": "hotel_rennert_baltimore.jpg"
   },
   {
     "id": "lyceum_theater_baltimore",
     "title": "Lyceum Theater",
     "description": [
       "The Lyceum Theater in Baltimore filled to capacity on October 15, 1894, for the first of the Vrooman Brothers' series on 'Dynamic Religion,' where Swami Vivekananda delivered brief but compelling remarks that captured marked attention from the audience. A week later, on October 22, the theater was packed from pit to dome with approximately 3,000 people attending his lecture on 'The Religion of Buddha,' demonstrating the swami's rapidly growing influence in Baltimore's intellectual circles."
-    ]
+    ],
+    "image": "lyceum_theater_baltimore.jpg"
   },
   {
     "id": "geo_grafflin_house_baltimore",
     "title": "Geo Grafflin's House",
     "description": [
       "George Grafflin's home in Baltimore welcomed Swami Vivekananda during his 1894 visit, offering one of the private settings where Baltimore's educated and spiritually curious residents could engage in intimate discussions of Vedantic philosophy and Indian spiritual wisdom with the renowned swami."
-    ]
+    ],
+    "image": "geo_grafflin_house_baltimore.jpg"
   },
   {
     "id": "harris_academy_concert_hall_baltimore",
     "title": "Harris' Academy of Music Concert Hall",
     "description": [
       "Harris' Academy of Music Concert Hall in Baltimore provided a premier venue for Swami Vivekananda's lectures during his 1894 visit to the city. The hall's distinguished reputation for hosting accomplished speakers ensured a large and appreciative audience for his expositions on the universal principles underlying Vedanta and the profound spiritual heritage of India."
-    ]
+    ],
+    "image": "harris_academy_concert_hall_baltimore.jpg"
   },
   {
     "id": "typographical_temple_dc",
     "title": "Typographical Temple(People's Church)",
     "description": [
       "During his first Western tour in 1894, Swami Vivekananda lectured at the Typographical Temple, also known as the People's Church, in Washington D.C. The venue's association with working people and progressive causes provided an ideal platform for his message of practical Vedanta. Speaking to audiences drawn from the laboring classes, he articulated the spiritual dignity inherent in all human beings and all forms of honest work, demonstrating how Vedantic philosophy spoke directly to the concerns and aspirations of ordinary Americans."
-    ]
+    ],
+    "image": "typographical_temple_dc.jpg"
   },
   {
     "id": "mrs_totten_residence_dc",
     "title": "Mrs.E.Totten residence",
     "description": [
       "Mrs. E. Totten's Washington D.C. residence became one of several distinguished homes where Swami Vivekananda was hosted during his 1894 visit to the nation's capital. These intimate private gatherings in the parlors and drawing rooms of influential residents allowed him to engage in deeper philosophical discussions with America's political and social elite, introducing Vedantic thought to those wielding power and shaping public discourse."
-    ]
+    ],
+    "image": "mrs_totten_residence_dc.jpg"
   },
   {
     "id": "metzerott_music_hall_dc",
     "title": "Metzerott Music Hall",
     "description": [
       "Metzerott Music Hall in Washington D.C. served as one of the premier public venues for Swami Vivekananda's lectures during his 1894 visit. The hall's reputation for hosting distinguished speakers ensured large audiences drawn by curiosity about this remarkable Indian monk and his teachings on Vedanta, providing him with an impressive platform to address the capital's intellectual and cultural classes."
-    ]
+    ],
+    "image": "metzerott_music_hall_dc.jpg"
   },
   {
     "id": "unity_hall_hartford",
     "title": "Unity Hall",
     "description": [
       "Unity Hall in Hartford, Connecticut, hosted Swami Vivekananda during his 1895 visit to the city. The venue's name reflected the philosophical harmony he sought to convey—the fundamental unity underlying all religious traditions. Hartford's progressive intellectual climate proved receptive to his message, and the hall provided a fitting setting for lectures that appealed to the city's spiritually-minded residents."
-    ]
+    ],
+    "image": "unity_hall_hartford.jpg"
   },
   {
     "id": "white_birch_lodge_percy",
     "title": "White Birch Lodge",
     "description": [
       "In early June 1895, after nearly exhausting himself with relentless class and public lecturing, Swami Vivekananda accepted an invitation to White Birch Lodge in Percy, New Hampshire. The scenic beauty and quietude of the White Mountains provided essential respite, allowing him to recover his strength amid the natural tranquility of the New England landscape before resuming his intensive work of spreading Vedantic teachings across America."
-    ]
+    ],
+    "image": "white_birch_lodge_percy.jpg"
   },
   {
     "id": "stimpson_mansion_la",
     "title": "Stimpson Mansion",
     "description": [
       "The Stimpson Mansion in Los Angeles welcomed Swami Vivekananda during his 1900 visit to Southern California, his second Western tour. Los Angeles's spiritually-minded residents, many of whom had developed deep reverence for Indian philosophy through his writings, entertained him at grand receptions in their homes. Such distinguished residences became gathering places where he could deepen connections with devoted followers and influential supporters of his spiritual mission."
-    ]
+    ],
+    "image": "stimpson_mansion_la.jpg"
   },
   {
     "id": "roxie_blodgett_cottage_la",
     "title": "Roxie Blodgett Cottage",
     "description": [
       "Roxie Blodgett's cottage in Los Angeles provided warm hospitality to Swami Vivekananda during his 1900 California visit. His devoted American followers like Blodgett offered comfortable accommodations and crucial assistance in organizing his lecture engagements throughout Southern California, helping to extend the reach of his teachings among Los Angeles's growing community of spiritual seekers."
-    ]
+    ],
+    "image": "roxie_blodgett_cottage_la.jpg"
   },
   {
     "id": "blanchard_hall_la",
     "title": "Blanchard Hall",
     "description": [
       "Blanchard Hall in Los Angeles hosted Swami Vivekananda's public lectures during his 1900 Southern California visit. The venue provided a public platform where he addressed large audiences on Vedanta, Raja Yoga, and India's ancient spiritual traditions, continuing his mission to bring the wisdom of the Vedas and Upanishads to American audiences receptive to universal spiritual principles."
-    ]
+    ],
+    "image": "blanchard_hall_la.jpg"
   },
   {
     "id": "unity_church_la",
     "title": "Unity Church",
     "description": [
       "During his 1900 California visit, Swami Vivekananda addressed audiences at the Unity Church in Los Angeles, finding in its congregation a naturally receptive group for his message. The Unity movement's focus on practical spirituality resonated deeply with Vivekananda's own philosophy of practical Vedanta, emphasizing the application of spiritual truths to daily life. This alignment between the Swami's teachings and the church's principles created an especially fruitful exchange of ideas between the Indian sage and California's New Thought seekers."
-    ]
+    ],
+    "image": "unity_church_la.jpg"
   },
   {
     "id": "paynes_hall_la",
     "title": "Payne's Hall",
     "description": [
       "Payne's Hall served as one of the lecture venues through which Swami Vivekananda disseminated Vedantic teachings to Los Angeles audiences during his 1900 southern California tour. As part of a broader circuit including other halls and private residences, the venue hosted presentations to those who had studied his writings and developed a profound interest in Indian philosophy and culture. His appearances at such public spaces, interspersed with private receptions hosted by distinguished citizens, extended his influence across the region."
-    ]
+    ],
+    "image": "paynes_hall_la.jpg"
   },
   {
     "id": "home_of_truth_la",
     "title": "Home of Truth",
     "description": [
       "The Home of Truth, a New Thought spiritual center in Los Angeles, became another gathering place for Swami Vivekananda's teachings during his 1900 visit to California. The center's emphasis on spiritual healing and mental metaphysics found common ground with Vedantic philosophy, attracting spiritual seekers from across the city who wished to hear the Swami's interpretations of ancient Indian wisdom. His presence at such venues reinforced the growing dialogue between Eastern spirituality and Western New Thought movements."
-    ]
+    ],
+    "image": "home_of_truth_la.jpg"
   },
   {
     "id": "echo_mountain_house_la",
     "title": "Echo Mountain House",
     "description": [
       "Swami Vivekananda journeyed to Echo Mountain House in the San Gabriel Mountains above Pasadena during his 1900 California stay, seeking respite from the intensity of his lecture schedule. The mountain retreat, perched high above Southern California's landscape, offered him a tranquil sanctuary for contemplation and reflection between his active teaching engagements. The panoramic vistas from this elevated location provided an inspiring natural setting that complemented his spiritual work."
-    ]
+    ],
+    "image": "echo_mountain_house_la.jpg"
   },
   {
     "id": "mount_lowe_la",
     "title": "Mount Lowe",
     "description": [
       "Mount Lowe's celebrated railway drew Swami Vivekananda during his excursion through the San Gabriel Mountains in 1900, allowing him to experience one of California's premier tourist attractions. The engineering marvel and breathtaking alpine scenery captivated the Swami as he traveled through the grand California landscape, offering him both physical recreation and spiritual inspiration. This journey into nature's grandeur punctuated his intensive work among the seekers of Los Angeles."
-    ]
+    ],
+    "image": "mount_lowe_la.jpg"
   },
   {
     "id": "mrs_newton_house_south_pasadena",
     "title": "Mrs.Newton's house",
     "description": [
       "Mrs. Newton's home in South Pasadena provided Swami Vivekananda with comfortable accommodation during his 1900 visit to the Pasadena area. The verdant, peaceful suburb offered a restorative environment between his demanding lecture engagements in Los Angeles, allowing him moments of quietude to recharge his spiritual energies. The hospitality of such devoted households formed an essential support network for his second Western missionary tour."
-    ]
+    ],
+    "image": "mrs_newton_house_south_pasadena.jpg"
   },
   {
     "id": "mrs_bowler_house_south_pasadena",
     "title": "Mrs.E.F.Bowler house",
     "description": [
       "Mrs. E.F. Bowler opened her South Pasadena home to Swami Vivekananda during his 1900 Southern California visit, exemplifying the warm welcome he received from American women devoted to spiritual advancement. These gracious hostesses played a vital role in sustaining his mission by providing lodging and creating intimate gatherings where spiritual seekers could encounter the Swami's teachings. Their generosity and faith enabled him to concentrate fully on his work of spreading Vedantic philosophy."
-    ]
+    ],
+    "image": "mrs_bowler_house_south_pasadena.jpg"
   },
   {
     "id": "green_hotel_pasadena",
     "title": "Green Hotel",
     "description": [
       "The Green Hotel in Pasadena served as accommodation for Swami Vivekananda during his 1900 California journey, placing him in a locale known for its cultural refinement and intellectual openness. The Pasadena area's elegant hospitality establishments and culturally vibrant community provided an appropriate setting for this phase of his second Western tour. The region's educated and spiritually-inclined residents formed an attentive audience for his profound teachings on Vedanta."
-    ]
+    ],
+    "image": "green_hotel_pasadena.jpg"
   },
   {
     "id": "shakespeare_club_south_pasadena",
     "title": "Shakespeare club",
     "description": [
       "During his 1900 California visit, Swami Vivekananda lectured at the Shakespeare Club in South Pasadena, where the club's educated and culturally-minded membership proved receptive to his eloquent discourses on Indian philosophy and Vedanta. Literary and cultural societies such as this provided ideal venues for spreading his message to audiences already inclined toward intellectual and spiritual inquiry."
-    ]
+    ],
+    "image": "shakespeare_club_south_pasadena.jpg"
   },
   {
     "id": "universalist_church_south_pasadena",
     "title": "Universalist Church",
     "description": [
       "The Universalist Church in South Pasadena hosted Swami Vivekananda during his 1900 California visit, where his lectures on universal spirituality and the realization of a universal religion drew huge audiences. His message of the divine self present in all beings resonated deeply with the Universalist congregation's belief in the salvation of all souls and the fundamental harmony underlying different religious traditions."
-    ]
+    ],
+    "image": "universalist_church_south_pasadena.jpg"
   },
   {
     "id": "meads_sisters_house_south_pasadena",
     "title": "Meads Sisters house",
     "description": [
       "The home of the Meads Sisters in South Pasadena provided welcoming hospitality to Swami Vivekananda during his 1900 stay in the Pasadena area. Among his devoted American followers in Southern California, the sisters assisted in spreading his Vedantic teachings within their community and contributed to the flourishing of spiritual study groups in the region."
-    ]
+    ],
+    "image": "meads_sisters_house_south_pasadena.jpg"
   },
   {
     "id": "first_unitarian_church_oakland",
     "title": "First Unitarian Church",
     "description": [
       "Swami Vivekananda lectured at the First Unitarian Church in Oakland during his 1900 West Coast visit, where the congregation's progressive and intellectually open approach to religious inquiry made them an ideal audience for his teachings. His exposition of the inherent divinity of the soul and the universality of spiritual truth found fertile ground among Oakland's Unitarian members."
-    ]
+    ],
+    "image": "first_unitarian_church_oakland.jpg"
   },
   {
     "id": "george_perry_house_alameda",
     "title": "George H.Perry house",
     "description": [
       "During his second Western tour in 1900, Swami Vivekananda was hosted at the home of George H. Perry in Alameda, where devoted California followers welcomed him warmly. His stay in this Bay Area community reflected the growing circle of supporters who sought his guidance on spiritual practice and Indian philosophy during the productive months of March through May 1900."
-    ]
+    ],
+    "image": "george_perry_house_alameda.jpg"
   },
   {
     "id": "alameda_home_of_truth",
     "title": "Alameda Home of Truth",
     "description": [
       "The Alameda Home of Truth served as one of several New Thought spiritual centres in California where Swami Vivekananda's teachings on Vedanta found receptive audiences during his 1900 visit. These organized centres provided structured venues for his lectures and attracted seekers interested in the practical application of universal spiritual principles that aligned with his message."
-    ]
+    ],
+    "image": "alameda_home_of_truth.jpg"
   },
   {
     "id": "tucker_hall_alameda",
     "title": "Tucker Hall",
     "description": [
       "Tucker Hall in Alameda hosted three lectures by Swami Vivekananda on the evenings of April 13, 16, and 18, 1900, on the subjects of Raja-Yoga, concentration and breathing techniques, and the practice of religion. These presentations exemplified his ability to translate ancient Hindu spiritual disciplines into practical guidance accessible to Western audiences seeking deeper religious understanding."
-    ]
+    ],
+    "image": "tucker_hall_alameda.jpg"
   },
   {
     "id": "home_of_truth_sf",
     "title": "Home of Truth",
     "description": [
       "The Home of Truth in San Francisco provided a key venue for Swami Vivekananda's extensive teaching activities during his 1900 California visit, when he delivered lectures and conducted classes for students eager to learn the Vedantic philosophy. San Francisco's vibrant spiritual community embraced his message, and the Home of Truth network facilitated the organized study and dissemination of his teachings throughout the Bay Area."
-    ]
+    ],
+    "image": "home_of_truth_sf.jpg"
   },
   {
     "id": "california_st_home_of_truth_sf",
     "title": "California St. Home of Truth",
     "description": [
       "During his 1900 San Francisco visit, Swami Vivekananda lectured on Vedanta philosophy and the Bhagavad Gita at the California Street Home of Truth, a New Thought centre situated on one of the city's prominent thoroughfares. The location attracted educated and spiritually curious residents from San Francisco's affluent neighbourhoods who came to learn from the renowned teacher. His presence created tremendous intellectual ferment throughout the city, drawing audiences who had previously heard of him through newspaper accounts of his 1893 Parliament of Religions lectures."
-    ]
+    ],
+    "image": "california_st_home_of_truth_sf.jpg"
   },
   {
     "id": "turk_st_house_sf",
     "title": "1719 Turk St. House",
     "description": [
       "The house at 1719 Turk Street in San Francisco served as one of Swami Vivekananda's residences during his extended stay from February through May 1900. From this and other addresses across the city, he conducted Vedanta classes and received visitors eager to learn about Indian spirituality and philosophy. During this period, his reputation grew substantially within San Francisco's intellectual and spiritual circles, attracting both formal class participants and those seeking private interviews for spiritual guidance."
-    ]
+    ],
+    "image": "turk_st_house_sf.jpg"
   },
   {
     "id": "golden_gate_hall_sf",
     "title": "Golden Gate Hall",
     "description": [
       "Golden Gate Hall was one of the primary public venues where Swami Vivekananda delivered his Sunday lectures during March and April 1900. Part of his rigorous San Francisco schedule, these public addresses at Golden Gate Hall were complemented by evening lectures three times weekly at other halls throughout the city, creating an extensive circuit of Vedanta teachings that captured the attention of Bay Area audiences."
-    ]
+    ],
+    "image": "golden_gate_hall_sf.jpg"
   },
   {
     "id": "washington_hall_sf",
     "title": "Washington Hall",
     "description": [
       "Washington Hall hosted three evening lectures weekly by Swami Vivekananda during his 1900 San Francisco residency. This venue became part of his intensive teaching schedule from late February through May, where he presented his transformative teachings on Vedanta philosophy to devoted audiences, establishing a strong foundation for Vedanta practice in the Bay Area."
-    ]
+    ],
+    "image": "washington_hall_sf.jpg"
   },
   {
     "id": "union_square_hall_sf",
     "title": "Union Square Hall",
     "description": [
       "Union Square Hall, centrally located in San Francisco near the city's famous public square, served as one of the Sunday lecture venues where Swami Vivekananda addressed audiences during March and April 1900. The accessible location enabled a broad cross-section of San Franciscans to gather and hear his powerful expositions on Vedanta and universal spirituality."
-    ]
+    ],
+    "image": "union_square_hall_sf.jpg"
   },
   {
     "id": "mount_shasta_ca",
     "title": "Mount Shasta, CA",
     "description": [
       "Swami Vivekananda journeyed to Mount Shasta during his 1900 California sojourn, drawn to the majestic volcanic peak's natural grandeur and spiritual significance. The towering mountain, long revered as a sacred site, provided an apt setting for contemplation that resonated deeply with his meditative temperament and his reverence for nature as a manifestation of the divine."
-    ]
+    ],
+    "image": "mount_shasta_ca.png"
   },
   {
     "id": "milburn_logan_home_sf",
     "title": "Dr.Milburn Logan's home",
     "description": [
       "Dr. Milburn Logan's San Francisco home provided hospitality to Swami Vivekananda during his 1900 Bay Area visit, offering lodging and support for his Vedanta mission. Dr. Logan numbered among the devoted California devotees who recognized the transformative potential of Vivekananda's teachings and generously extended their homes and resources to facilitate his spiritual work on the West Coast."
-    ]
+    ],
+    "image": "milburn_logan_home_sf.jpg"
   },
   {
     "id": "camp_irving_camp_taylor",
     "title": "Camp Irving",
     "description": [
       "Camp Irving at Camp Taylor in Marin County's redwood forests offered a peaceful retreat setting where Swami Vivekananda's students gathered for spiritual practice during his 1900 California period. The tranquil natural environment proved ideal for the intensive meditation and monastic disciplines that characterized the annual month-long retreats established to deepen the spiritual development of his devoted followers."
-    ]
+    ],
+    "image": "camp_irving_camp_taylor.jpg"
   },
   {
     "id": "et_sturdy_house_caversham",
     "title": "E.T.Sturdy's house",
     "description": [
       "E.T. Sturdy's house in Caversham near Reading became Swami Vivekananda's principal residence during his 1895-1896 sojourn in England. Sturdy, a devoted Sanskrit scholar and disciple, provided Swamiji with both shelter and intellectual companionship, assisting him in translating texts and organizing classes that introduced Vedanta to the English-speaking world. From this quiet refuge, Vivekananda conducted continuous teaching and laid the spiritual foundation that would establish his legacy in Britain."
-    ]
+    ],
+    "image": "et_sturdy_house_caversham.png"
   },
   {
     "id": "prince_hall_london",
     "title": "Prince Hall",
     "description": [
       "Prince Hall hosted Swami Vivekananda during his London lecture tour of 1895-1896, where he addressed audiences drawn from England's intellectual and cultured circles. These public lectures at distinguished venues proved instrumental in presenting Vedantic philosophy to Victorian Britain's thinking classes, establishing the spiritual teachings as a legitimate and worthy subject for serious consideration among the English educated elite."
-    ]
+    ],
+    "image": "prince_hall_london.jpg"
   },
   {
     "id": "oakley_street_london",
     "title": "80,  Oakley street",
     "description": [
       "During his 1895-1896 London visit, Swami Vivekananda occupied 80 Oakley Street in Chelsea, positioning himself in one of the capital's most culturally vibrant neighbourhoods. From this Chelsea address, he conducted classes and received the many English admirers and aspirants who sought his spiritual guidance, contributing to the establishment of a dedicated circle of Vedantic practitioners in the heart of London."
-    ]
+    ],
+    "image": "oakley_street_london.jpg"
   },
   {
     "id": "st_georges_rd_london",
     "title": "63 St George's Rd",
     "description": [
       "Swami Vivekananda taught Vedanta from 63 St George's Road during his 1895-1896 residence in London, where he cultivated a group of devoted English disciples. This address became a centre of spiritual instruction and philosophical inquiry, attracting sincere seekers who would subsequently carry his message across Britain and establish the foundations of the Vedanta movement throughout Europe."
-    ]
+    ],
+    "image": "st_georges_rd_london.jpg"
   },
   {
     "id": "victoria_st_london",
     "title": "39 Victoria St.",
     "description": [
       "Located near the seat of imperial power in Westminster, 39 Victoria Street served as one of Swami Vivekananda's bases during his 1895-1896 London mission. From this central address, he engaged with some of Victorian Britain's most prominent intellectual and spiritual figures, conducting philosophical discourse that brought Eastern wisdom to the attention of England's governing and cultural classes."
-    ]
+    ],
+    "image": "victoria_st_london.jpg"
   },
   {
     "id": "grey_coat_gardens_london",
     "title": "14 Grey Coat Gardens",
     "description": [
       "At 14 Grey Coat Gardens in Westminster, Swami Vivekananda maintained a quiet residence during his 1895-1896 English visit, where he engaged in deep conversations about spiritual philosophy and practice. The peaceful residential setting of this address provided an ideal environment for his teaching work, allowing him to impart Vedantic wisdom to sincere English disciples in an atmosphere conducive to serious spiritual study."
-    ]
+    ],
+    "image": "grey_coat_gardens_london.jpg"
   },
   {
     "id": "unitarian_church_london",
     "title": "Unitarian Church",
     "description": [
       "Swami Vivekananda lectured at a Unitarian Church in London during 1895-1896, finding in the Unitarian community a receptive audience for his teachings on the universality of religion. These engagements at liberal Protestant institutions helped establish a bridge between Eastern and Western spirituality, attracting educated Londoners who appreciated his message that all faiths express the same fundamental spiritual truth."
-    ]
+    ],
+    "image": "unitarian_church_london.jpg"
   },
   {
     "id": "sesame_club_london",
     "title": "Sesame Club",
     "description": [
       "The Sesame Club provided Swami Vivekananda with a prestigious platform during his 1895-1896 London stay, allowing him to address the city's educated elite gathered in its select rooms. Speaking before this influential intellectual society, he succeeded in introducing Vedantic philosophy to some of Britain's most prominent minds, thereby securing respectability and serious engagement with his spiritual teachings among the country's cultural leadership."
-    ]
+    ],
+    "image": "sesame_club_london.jpg"
   },
   {
     "id": "townhall_maidenhead",
     "title": "Townhall",
     "description": [
       "During his 1895-1896 sojourn in England, Swami Vivekananda carried his message beyond London's intellectual circles to the English countryside, delivering lectures at the Town Hall in Maidenhead, Berkshire. These civic venues provided him with opportunities to reach broader provincial audiences and demonstrate that Vedantic philosophy held relevance for audiences far removed from the capital's cosmopolitan atmosphere."
-    ]
+    ],
+    "image": "townhall_maidenhead.jpg"
   },
   {
     "id": "pinkneys_green_maidenhead",
     "title": "Pinkneys Green",
     "description": [
       "Pinkneys Green, a tranquil village near Maidenhead, offered Swami Vivekananda a peaceful retreat from the relentless demands of his English lecture schedule during 1895-1896. The pastoral landscape of rural Berkshire provided him with moments of contemplation and rest, creating a necessary counterbalance to his intensive engagement with London's intellectual and social circles."
-    ]
+    ],
+    "image": "pinkneys_green_maidenhead.jpg"
   },
   {
     "id": "airlie_lodge_wimbledon",
     "title": "Airlie Lodge",
     "description": [
       "Airlie Lodge in Wimbledon served as a residential base for Swami Vivekananda during his 1895-1896 English visit. The suburban setting of south-west London, conveniently situated between the intensity of metropolitan engagements and the quiet of the countryside, made Wimbledon an ideal location where he could maintain his schedule of lectures, informal gatherings, and spiritual instruction with his growing band of English disciples."
-    ]
+    ],
+    "image": "airlie_lodge_wimbledon.jpg"
   },
   {
     "id": "woodside_wimbledon",
     "title": "35 Woodside",
     "description": [
       "Swami Vivekananda made his residence at 35 Woodside in Wimbledon during 1895-1896, establishing himself within a network of sympathetic hosts in south-west London. From this address, he conducted informal Vedanta classes and received an expanding circle of seekers, while simultaneously maintaining his more formal lecture engagements across London and the surrounding counties."
-    ]
+    ],
+    "image": "woodside_wimbledon.jpg"
   },
   {
     "id": "rue_anatole_perros_guirec",
     "title": "Rue Anatole",
     "description": [
       "During his 1900 Continental travels, Swami Vivekananda stayed at Rue Anatole in Perros-Guirec, a charming coastal town in Brittany, France. The rugged maritime landscape and quiet atmosphere of this Breton settlement provided him with restorative solitude during his second and final Western tour, offering respite from the demands of his European travels."
-    ]
+    ],
+    "image": "rue_anatole_perros_guirec.jpg"
   },
   {
     "id": "mont_blanc_chamonix",
     "title": "Mont Blanc",
     "description": [
       "Swami Vivekananda journeyed to Chamonix in 1900 to experience the sublimity of Mont Blanc and the Alpine massif during his European travels. The soaring peaks and pristine mountain air of this celebrated alpine retreat inspired both his spirit and body, offering him profound aesthetic and spiritual renewal amid the natural grandeur of the highest Alps."
-    ]
+    ],
+    "image": "mont_blanc_chamonix.jpg"
   },
   {
     "id": "mont_saint_michel_normandy",
     "title": "Mont-Saint-Michel",
     "description": [
       "During his 1900 travels through France, Swami Vivekananda visited the legendary Mont-Saint-Michel, the magnificent medieval abbey rising from a tidal island in Normandy's English Channel. The architectural splendour and devotional intensity embodied in this ancient Benedictine sanctuary profoundly moved him, revealing to him the universal language of spiritual aspiration that transcended religious and cultural boundaries."
-    ]
+    ],
+    "image": "mont_saint_michel_normandy.jpg"
   },
   {
     "id": "matale_sri_lanka",
     "title": "Matale, Sri Lanka",
     "description": [
       "Matale in central Ceylon welcomed Swami Vivekananda with enthusiastic reverence during his triumphant 1897 return journey through the island. The Buddhist communities he encountered there, including those in this mountainous town, celebrated him as a champion of Eastern spirituality who had carried India's sacred wisdom across oceans to awaken the West to its spiritual heritage."
-    ]
+    ],
+    "image": "matale_sri_lanka.jpg"
   },
   {
     "id": "anuradhapura_sri_lanka",
     "title": "Anuradhapuram, Sri Lanka",
     "description": [
       "During his 1897 tour of Ceylon, Swami Vivekananda visited the ancient capital of Anuradhapura, where the magnificent Buddhist ruins and the sacred Bo tree—believed to be a descendant of the tree under which Buddha attained enlightenment—profoundly stirred his spiritual sensibilities. Standing amid these monuments to centuries of devotion, he perceived a living continuity between Buddhism and Vedanta, two great spiritual traditions that he saw as expressions of universal truth. In this stronghold of Buddhist faith, Vivekananda spoke eloquently of the fundamental unity underlying all religions, urging that whether worshipped as Shiva, Vishnu, Buddha, or by countless other names, the Divine remained one and the same. His reflections here reinforced his conviction that spiritual sympathy and tolerance between different faiths were not merely desirable but essential."
-    ]
+    ],
+    "image": "anuradhapura_sri_lanka.jpg"
   },
   {
     "id": "dhaka_dacca",
     "title": "Dhaka (Dacca)",
     "description": [
       "Swami Vivekananda arrived in Dhaka in March 1901 for what would prove to be one of the final major journeys of his life. The city's inhabitants received him with great reverence, organizing grand receptions to honour the renowned spiritual teacher. Over two days in late March, he delivered lectures in English to vast audiences, including discourses on \"What Have I Learnt?\" and \"The Religion We Are Born In,\" where he reflected on India's ancient spiritual legacy and the nature of religious tradition. His visit to this principal city of East Bengal, with its rich Nawabi culture and vibrant Hindu-Muslim heritage, represented a homecoming of sorts—a return to his native land after years of transformative travels in the West."
-    ]
+    ],
+    "image": "dhaka_dacca.png"
   },
   {
     "id": "cologne_germany",
     "title": "Cologne, Germany",
     "description": [
       "During his 1896 European travels, Swami Vivekananda journeyed up the Rhine to Cologne, where he paused to experience the city's magnificent Gothic cathedral. The grandeur of this architectural masterpiece, one of Europe's greatest monuments to spiritual aspiration, captivated him as he marvelled at its soaring spires and intricate design. He attended a service within its walls and visited the sanctuary, bearing witness to the devotion that had moved countless worshippers across centuries. The cathedral's majesty reinforced his recognition that the impulse toward transcendence manifested itself universally across all cultures and faiths."
-    ]
+    ],
+    "image": "cologne_germany.jpg"
   },
   {
     "id": "berlin_germany",
     "title": "Berlin, Germany",
     "description": [
       "Swami Vivekananda visited Berlin during his 1896 European sojourn, drawn to the German capital as a centre of intellectual ferment and philosophical inquiry. As a thinker deeply engaged with metaphysical questions and the nature of consciousness, he sought engagement with the German philosophical tradition that had shaped European thought in the nineteenth century. Berlin's universities and scholarly institutions represented the pinnacle of Western academic life, and his time there reflected his conviction that truth could be found in the earnest intellectual pursuits of Western civilization as well as in the spiritual traditions of the East."
-    ]
+    ],
+    "image": "berlin_germany.jpg"
   },
   {
     "id": "kiel_germany",
     "title": "Kiel, Germany",
     "description": [
       "Swami Vivekananda visited Kiel on the Baltic coast during his 1896 return journey to India, having been invited by the distinguished Orientalist Paul Deussen, a professor at the University of Kiel. Captain and Mrs. Sevier, his devoted companions, joined him in the port city, which then served as home to the Imperial German Navy and exemplified modern European industrial and military power. His time in Kiel, though brief, represented a significant intellectual exchange, as he engaged with Deussen, a respected scholar sympathetic to Hindu philosophy and Vedantic thought."
-    ]
+    ],
+    "image": "kiel_germany.jpg"
   },
   {
     "id": "istanbul_turkey",
     "title": "Istanbul (Constantinople), Turkey",
     "description": [
       "Swami Vivekananda caught his first glimpse of Constantinople as his train approached the ancient city during his 1900 travels, and he was struck by the compelling juxtaposition of decay and beauty that characterized it. The narrow, winding lanes with their crooked wooden houses, the grand drains running across ancient walls, and the evident poverty existed alongside an undeniable exotic charm that fascinated him. Though he was denied public permission to speak there, private conversaziones were arranged where he expounded the Vedanta to select audiences. In later years, he would fondly recall a certain old Turkish innkeeper who had generously provided him hospitality, embodying for him the universal kindness that transcended cultural and religious boundaries."
-    ]
+    ],
+    "image": "istanbul_turkey.jpg"
   },
   {
     "id": "vienna_austria",
     "title": "Vienna, Austria",
     "description": [
       "Swami Vivekananda visited Vienna in 1900 during his continental tour, passing through the imperial capital of Austria-Hungary as part of his broader engagement with European intellectual life. The city, steeped in the musical and philosophical traditions of Mozart, Beethoven, and the great European thinkers, represented another centre of the Western civilization whose strengths and limitations he sought to understand. His visit formed part of an ambitious itinerary that took him through the major cultural capitals of Europe, reflecting his determination to bridge East and West through personal encounter and dialogue."
-    ]
+    ],
+    "image": "vienna_austria.jpg"
   },
   {
     "id": "athens_greece",
     "title": "Athens, Greeze",
     "description": [
       "During his 1900 travels, Swami Vivekananda journeyed to Athens, the birthplace of Western philosophy and democratic ideals, where the Acropolis and Parthenon stood as eternal testaments to human aspiration toward the transcendent and the beautiful. He walked among the ruins of ancient Greek civilization, contemplating the philosophical legacy of Socrates, Plato, and Aristotle—thinkers whose non-dualistic intuitions he recognized as kindred to the Advaita Vedanta tradition of his own spiritual heritage. Standing in this cradle of Western thought, he perceived profound parallels between the metaphysical insights of Greek philosophy and the eternal truths enshrined in Hindu scriptures, further confirming his vision of universal spiritual wisdom."
-    ]
+    ],
+    "image": "athens_greece.jpg"
   },
   {
     "id": "amsterdam_holland",
     "title": "Amsterdam, Holland",
     "description": [
       "During his 1900 European travels, Swami Vivekananda visited Amsterdam, where he engaged with the intellectual currents of this prosperous Dutch capital. The city's long tradition of religious tolerance and philosophical inquiry—particularly its legacy as home to Spinoza's pantheistic thought—provided fertile ground for his reflections on Vedanta's core teaching of universal unity. Having recently returned from India with plans to establish his work on a firmer footing before heading home, Swamiji found in Amsterdam's cosmopolitan atmosphere an ideal setting to discuss and disseminate his vision of a spirituality grounded in the interconnectedness of all existence."
-    ]
+    ],
+    "image": "amsterdam_holland.png"
   },
   {
     "id": "sandukphu_nepal",
     "title": "Sandukphu",
     "description": [
       "Among the Himalayan peaks visited during his years of wandering as a parivrajaka between 1888 and 1893, Sandakphu—the highest point in the Darjeeling region straddling the Nepal-India border—held special significance for Swami Vivekananda. From its windswept summit, the vast panorama of the world's four mightiest peaks—Kanchenjunga, Everest, Lhotse, and Makalu—unfolded before him in sublime majesty. These towering heights, piercing the clouds and touching the infinite sky, deepened his meditative experience and reinforced his profound sense of the divine presence permeating all creation."
-    ]
+    ],
+    "image": "sandukphu_nepal.jpg"
   },
   {
     "id": "geneva_switzerland",
     "title": "Geneva",
     "description": [
       "Swami Vivekananda arrived in Geneva during his 1900 European journey after traveling through Paris, making his way with renewed spirits to this cosmopolitan city on the shores of Lac Léman. The Swiss city's long tradition as a centre of international diplomacy and humanitarian ideals resonated with his own vision of universal brotherhood transcending national and cultural boundaries. Here he found respite from his travels while meeting with European admirers and sympathizers of his teachings, sharing his message of Vedantic spirituality with those eager to understand his philosophy."
-    ]
+    ],
+    "image": "geneva_switzerland.jpg"
   },
   {
     "id": "zermatt_switzerland",
     "title": "Zermatt, Switcherland",
     "description": [
       "During his 1900 Alpine sojourn, Swami Vivekananda visited Zermatt, the dramatic mountain village dominated by the towering Matterhorn. The grandeur of these Swiss heights stirred his spiritual sensibilities as powerfully as the Himalayan peaks of his homeland, reminding him of the sacred mountains where he had wandered and meditated in earlier years. In this sublime setting, surrounded by the raw majesty of the Alps, he found space for both rest and deep contemplation on the eternal truths underlying the phenomenal world."
-    ]
+    ],
+    "image": "zermatt_switzerland.jpg"
   },
   {
     "id": "saas_fee_switzerland",
     "title": "Saas Fee, Switzerland",
     "description": [
       "Swami Vivekananda journeyed to Saas-Fee, the celebrated 'Pearl of the Alps' nestled in Valais canton, during the final major European tour of his life in 1900. Encircled by glaciers and peaks soaring above 4,000 metres, this high alpine village offered him an environment of pristine tranquillity and overwhelming natural splendour. The crystalline air, the austere beauty of the surrounding summits, and the profound silence of these heights provided an ideal setting for the spiritual renewal and meditation that marked the later years of his extraordinary journey."
-    ]
+    ],
+    "image": "saas_fee_switzerland.jpg"
   },
   {
     "id": "lucerne_switzerland",
     "title": "Lucerne, Switzerland",
     "description": [
       "Swami Vivekananda graced the picturesque city of Lucerne during his 1900 European travels, charmed by its famous Chapel Bridge and the sweeping alpine vistas reflected in its namesake lake. Nestled in central Switzerland, this scenic city served as a welcoming rest point between his various engagements across the continent during his second and final Western tour. The natural beauty and peaceful atmosphere of Lucerne provided him respite as he continued his mission to share Vedantic wisdom with Western audiences."
-    ]
+    ],
+    "image": "lucerne_switzerland.jpg"
   },
   {
     "id": "schaffhausen_switzerland",
     "title": "Schaffhausen, Switzerland",
     "description": [
       "During his 1900 European travels, Swami Vivekananda visited Schaffhausen in northern Switzerland, where he stood before the Rhine Falls—Europe's mightiest waterfall and a wonder of raw natural power. The thundering cascade of water plunging from the heights profoundly impressed his spiritual sensibility, and the awesome spectacle of such unbounded force and energy resonated deeply with his contemplative nature. This encounter with nature's raw majesty reinforced his meditations on the infinite creative power that animates all existence."
-    ]
+    ],
+    "image": "schaffhausen_switzerland.jpg"
   },
   {
     "id": "arabian_sea_aden",
     "title": "Arabian Sea",
     "description": [
       "Swami Vivekananda crossed the Arabian Sea twice during his momentous journeys to and from America—first embarking on his historic 1893 voyage to the Parliament of Religions in Chicago, and again on his return passages to India. The vast oceanic expanse, with its boundless horizon where sea and sky merged into an indivisible whole, became for him a natural meditation on infinity and the ultimate unity underlying all diversity. During these long sea crossings, he composed poetry and wrote letters that captured his deepening spiritual insights and his profound sense of connection to the universal consciousness."
-    ]
+    ],
+    "image": "arabian_sea_aden.png"
   },
   {
     "id": "aden_port_yemen",
     "title": "Aden port",
     "description": [
       "In 1893, Swami Vivekananda's vessel paused at the port of Aden, a vital maritime junction nestled at the mouth of the Red Sea where the Indian Ocean converged with shipping routes to Europe. This bustling harbor marked a threshold in his historic journey to America, offering him his first encounter with Arabian lands. As his ship lay anchored in these strategic waters, Swamiji gazed upon a landscape that represented the vast commercial and cultural interchange of the world—a fitting prelude to the transformative mission that awaited him across the Atlantic."
-    ]
+    ],
+    "image": "aden_port_yemen.jpg"
+  }
+];
+window.PIN_CONTENT_DATA = [
+  {
+    "id": "birth",
+    "title": "Birthplace of Vivekananda",
+    "description": [
+      "Narendranath Datta, who would become Swami Vivekananda, entered the world on 12 January 1863, on the eve of Makar Sankranti, in his father Vishwanath Datta's house. The birth came as an answer to the fervent prayers of his mother, Bhuvaneshwari Devi, whose spiritual aspirations had prepared the ground for the arrival of this extraordinary child who would reshape modern Hinduism and bridge East and West.",
+      "Narendranath Datta — who would become Swami Vivekananda — was born here on 12 January 1863, on the eve of Makar Sankranti. The house belonged to his father Vishwanath Datta."
+    ],
+    "image": "birth.jpg"
+  },
+  {
+    "id": "balaram",
+    "title": "Balaram Bose's House",
+    "description": [
+      "Balaram Bose's residence at Baghbazar served as a sanctuary for Sri Ramakrishna's circle of disciples, and Swamiji maintained his connection to this home throughout his early monastic years and beyond. On 1 May 1897, Vivekananda convened a historic gathering at this very house to formally establish the Ramakrishna Mission, transforming the spiritual legacy of his departed master into an organized force for service and renewal.",
+      "Swami Vivekananda stayed here from June 1st to June 4th; July 6th and July 15, 1890.",
+      "On May 1, 1897 at Balarambabu's house at Baghbazar, Swamiji called a meeting of all monastic and lay disciples of Sri Ramakrishna to establish an organization named the 'Ramakrishna Mission'. The organization would provide training to monks and Brahmacharis, guide people who would come and would serve people through charitable activities. Thus the Ramakrishna Mission was established. Swami Vivekananda became the General President and Swami Brahmananda and Swami Yogananda became the President and Vice-President of the Calcutta Centre. Swami Brahmananda implemented Swamiji's plan concerning the management of the Alambazar Monastery as well as the Ramakrishna Mission's philanthropic (humanitarian and charitable) activities. Swami Brahmananda was extremely practical and endowed with strong common sense. He had a tremendous spiritual power that enabled him to evaluate people's abilities.",
+      "On May 5, 1897 in the presence of Swamiji and others, a second meeting was held at Balarambabu's house. The resolutions were passed laying down the main principle on which the Movement of the Ramakrishna Mission would work. Office bearers for the Mission were appointed.",
+      "Swamiji reached Calcutta on Jan 21. Swamiji was in the house of Balaram Bose, Baghbazar. He was talking to the assembled people, including Surendranath Sen. Swamiji, Swamis Turiyananda, Yogananda, Premananda, along with Sri (M), some Brahmacharis and many other devotees assembled. Swamiji sang songs on the request of Sri Mahendranath Gupta (M).",
+      "An agreement was made for the purchase of a piece of land of seven acres with a building on the west bank of Ganga in Belur village from Bhagbat Narayan Singh of Patna, as the permanent abode of the Math. (Jan 21 to Feb 7, 1898).",
+      "Swamiji with Kalikrishna went to stay in Balarambabu's house at Baghbazar for a few days. Sister Nivedita proceeded to Calcutta to open her school.",
+      "Swamiji arranged her stay with Holy Mother who was then staying in Baghbazar at 10/2, Bosepara Lane. Swamiji often invited Nivedita to take food with him and asked his brother-disciples to join them. (Oct 31 to Nov 4, 1898).",
+      "A formal meeting was arranged in Balarambabu's house with Sister Nivedita as the president, before she opened the girls' school. She made an official request to the gathered householders for sending their girls to her school. People hesitated to promise but at the end Swamiji himself announced to Miss Noble pointing Haramohan babu that he (Haramohan babu) would definitely send his daughter to Sister's school. Sister became very happy and clapped in joy like a small girl. (Nov 12, 1898).",
+      "Swamiji and Nivedita came to Yogin ma's house at 59, Baghbazar Street to see the Jagaddhatri Puja on Nov 22, 1898.",
+      "Swamiji taught his orthodox Brahmin disciple Sharatchandra to give up his prejudice of 'don't-touchism' of the Hindus, by making him eat and drink with Nivedita from the same table.",
+      "Visited Calcutta Zoological Gardens. (Dec 12 to 14, 1898).",
+      "On Jan 22, 1899 Swamiji returned with Swami Saradananda from Baidyanath and stayed at Baghbazar. He told his brother-disciples to spread and preach the gospel of Shri Ramakrishna to other parts of India. Sister Nivedita used to prepare some food for Swamiji who shared that with every monk and Brahmachari present.",
+      "Swamiji's health improved slightly. Swamiji not only suffered from illness but also from the shock caused by the defection of his formerly devoted admirer, Miss F. Henrietta Muller.",
+      "Swami Yogananda is also suffering from phthisis. Dakshinaranjan Guha was devotedly nursing Swami Yogananda. (Jan 22 to Feb 2, 1899).",
+      "Swamiji with Nivedita met Devendranath Tagore on Feb 19.",
+      "To spread far and wide the teachings and ideas of Shri Ramakrishna and Swami Vivekananda, three magazines (Brahmavadin of Madras, Prabuddha Bharata of Almora and subsequently Mayavati and Udbodhan of Calcutta) had been started.",
+      "Plague broke out and quickly spread in the Baghbazar area.",
+      "Swamiji initiated Sister Nivedita as a 'Naisthik Brahmacharini', not as a sannyasini, and that might have caused her some disappointment.",
+      "Swami Yogananda passed away in Samadhi at 3.10 p.m. after saying, \"Om Ramakrishna\".",
+      "Under the guidance of Swamiji, plague relief work started - relief service, 'bustees' in four areas of the city were cleared of cartloads of filth and thoroughly disinfected under the direct supervision of the Swamis. (Mar 15 to Apr 2, 1899).",
+      "Every Sunday a meeting was held at Balaram Bose's house. Weekly report of the work done was recorded and further plans were discussed. (Apr 23, 1899).",
+      "Swamiji made a transfer of gift to his mother Bhuvaneshwari Devi of the two properties on No 2 and 3 Gourmohan Mukherjee Street, purchased about six months earlier. (May 27 to 29, 1899).",
+      "On May 12, 1901 Swamiji with his party reached Calcutta."
+    ],
+    "image": "balaram.jpg"
+  },
+  {
+    "id": "baranagar_math",
+    "title": "Ramakrishna Math, Baranagar",
+    "description": [
+      "After Sri Ramakrishna's passing in 1886, Narendra and his brother-disciples established the first Ramakrishna Math in this modest, dilapidated house on the banks of the Ganges at Baranagore. Here, during the intense years that followed, Swamiji and his brothers engaged in rigorous spiritual disciplines—meditation, worship, study of scriptures, and devotional singing—creating the monastic foundation that would eventually spread across the world.",
+      "Swami Vivekananda stayed here with his brother-disciples during the period — Jun 5 to Jul 5; Jul 7 to Jul 14; Jul 16 to Jul 20, 1890.",
+      "Swami Vivekananda passed his days in worship, prayer, meditation, singing devotional songs and study. In sorrow, as well as in ecstasy, Swamiji led them while the brother-disciples followed him.",
+      "Many of his brother-monks decided to leave the Baranagore Math and go out as mendicants for Tapasya.",
+      "Swami Vivekananda gave Gangadhar (Swami Akhandananda) the Sannyasa rite performing the 'Viraja-homa' in front of Thakur's picture and 'paduka' at the Baranagore Math.",
+      "Swamiji set out in the third week of July 1890 with the determination not to return until he had achieved his spiritual goal. He told his brother-disciples: \"I shall not return until I acquire such realization that my very touch will transform a man.\""
+    ],
+    "image": "baranagar_math.jpg"
+  },
+  {
+    "id": "alambazar_math",
+    "title": "Alambazar Math",
+    "description": [
+      "When the Math relocated to Alambazar in 1892, it became the operational center of the nascent Ramakrishna Mission. Upon his triumphant return from the West in 1897, Swamiji made this monastery his headquarters, where eager young men gathered to take monastic vows under his guidance and where the philosophical fruits of his spiritual vision were systematized and transmitted to the next generation of renunciates.",
+      "From Madras Swami Vivekananda reached Calcutta on Feb 20, 1897. Swamiji spent the daytime in the Seals' mansion in Cossipore, where his European friends resided but spent the night, at Alambazar Math.",
+      "Swami Premananda with Kalikrishna Basu reached the Math from Vrindaban. Swamiji heard about Kalikrishna beforehand from his brother-disciples. He received them affectionately.",
+      "Swamiji went to meet Vijay Krishna Goswami at his house in Harrison Road, and asked for his blessings as he wanted to establish ashramas in Calcutta, Madras, Kashi (Benares) and the Himalayas.",
+      "Swamiji asked Sudhir whether he had read the 'Katha Upanishad' which is grand and poetic. Sudhir humbly replied that he could recite from the 'Gita'. The very next day, Sudhir took the book on 'Katha Upanishad' and started chanting. Swamiji with his sonorous voice began to explain the verses in such an elevating way that everyone felt spiritually uplifted. Till the end of his life, Sudhir (later Swami Shuddhananda) could see Swamiji's face suffused with bliss, repeating in a resonant voice the message of hope from the Upanishad: 'Hear, ye children of immortal bliss!'.",
+      "Swamiji took charge of training the novices. Every day they had to attend the morning classes on the Gita, Upanishads and other scriptures. Every day they continued spiritual practices under the guidance of Swami Turiyananda.",
+      "Swamiji was given an address of welcome at the palatial residence of the late Raja Sir Radhakant Deb Bahadur, at Shobhabazar. Four thousand people had gathered including distinguished elites of Calcutta. The speech given by Swamiji in reply is famous as a masterpiece for its patriotic expressions.",
+      "Swamiji's inspiring words on Vairagya made several cultured and educated young men to join the Math.",
+      "Swamiji lovingly told Swami Ramakrishnananda that he had promised his friends in Madras that he would send one of his brother-disciples to open a Vedanta Centre there. Firmly believing the voice of their Leader indeed the voice of the Master, Swami Ramakrishnananda agreed to go to Madras.",
+      "On Mar 5 - Tithi-Puja* of Shri Ramakrishna, Swamiji initiated four Brahmacharis into sannyasa and renamed them as Swami Virajananda (Kalikrishna), Swami Nirbhayananda (Kanai), Swami Prakashananda (Sushil) and Swami Nityananda (Jogendranath Chatterjee). Swami Ramakrishnananda worshipped Shri Ramakrishna, and lit the fire in the Homa kunda while Swamiji performed the sannyasa ceremony. Swamiji gave 'mantra Initiation' to Asim Kumar Basu, son of Chunilal Basu.",
+      "Swamiji visited Dakshineswar Kali temple and spent the day with two European ladies, J.J. Goodwin, Girish Ghosh, Swami Niranjanananda, Sharatchandra, Haripada and others. (Feb 20 to March 7, 1897).",
+      "Arrived Sealdah to meet Raja of Khetri on Mar 21. Swamiji with Raja of Khetri visited the Kali temple at Dakshineswar. Later they went to the Alambazar Math. Swamiji spent the night with the Raja in Seth Dulichand's house.",
+      "Swamiji came to Bose Para house where Holy Mother was staying at that time. Swamiji asked for the blessings of Holy Mother for his future work.",
+      "Swamiji returned to Darjeeling for taking rest on Mar 23. (March 21 to 23, 1897).",
+      "Swamiji with the party arrived in Calcutta on Apr 28. On 29 April, Swamiji went to 10/2, Bosepara Lane and prostrated himself at Holy Mother's feet to seek her blessings for starting the future Ramakrishna Mission. 'Rules and Regulations for the monastic members of the Ramakrishna Order' formed.",
+      "Swamiji is happy to know about Swami Akhandananda's service to the faminestricken people in Murshidabad. (Apr 28 to May 6, 1897)"
+    ],
+    "image": "alambazar_math.jpg"
+  },
+  {
+    "id": "ghusuree",
+    "title": "Ghusuree Village",
+    "description": [
+      "Ghusuree village offered Vivekananda and his monastic brothers a secluded retreat for deepening their spiritual practice during the wandering years following their master's death, providing respite and space for the intensive meditation and sadhana that characterized their formative period as renunciates."
+    ],
+    "image": "ghusuree.jpg"
+  },
+  {
+    "id": "rajballavpara",
+    "title": "Rajballavpara",
+    "description": [
+      "After his father Vishwanath Datta's death in 1884, the family descended into financial hardship and relocated to Rajballavpara Lane, where young Vivekananda confronted extreme poverty and material deprivation. Yet even as he struggled to support his family, his inner spiritual resolve remained unshaken, his focus on the transcendent never wavering despite the grinding realities of earthly want."
+    ],
+    "image": "rajballavpara.jpg"
+  },
+  {
+    "id": "gopal_seal",
+    "title": "Gopal Lal Seal's House",
+    "description": [
+      "Gopal Lal Seal's house represented the bridge between Vivekananda's monastic life in India and his epochal journey to the West, serving as a place where the practical arrangements for his passage to the Parliament of World's Religions were finalized through the generous patronage of benefactors including the Maharaja of Khetri."
+    ],
+    "image": "gopal_seal.jpg"
+  },
+  {
+    "id": "dakshineswar",
+    "title": "Dakshineswar Kali Temple",
+    "description": [
+      "The Dakshineswar Kali Temple on the banks of the Ganges became the crucible of Vivekananda's spiritual awakening when he first encountered Sri Ramakrishna there in 1881, a meeting that altered the trajectory of his life forever. Through repeated visits to this sacred temple complex, where Ramakrishna had dwelt for over three decades, the young Narendra transformed from an intellectually brilliant skeptic into a burning seeker consumed by the quest for divine truth and liberation.",
+      "It was here that the young Narendra first met Sri Ramakrishna in 1881. The temple complex on the Ganges was Ramakrishna's home for over thirty years. Narendra's repeated visits here transformed him into a true spiritual seeker."
+    ],
+    "image": "dakshineswar.jpg"
+  },
+  {
+    "id": "belur_math",
+    "title": "Belur Math",
+    "description": [
+      "Belur Math emerged as the permanent headquarters of the Ramakrishna Math and Mission after Vivekananda secured the land in March 1898 through a generous donation from Miss Henrietta Muller of England, completing the main building by November of that year. Situated on the western bank of the Ganges just outside Calcutta, the monastery became the center of Vivekananda's efforts to establish a monastic order dedicated to both spiritual realization and humanitarian service. During his residence there from 1899 until his final days, Swamiji embodied a new vision of monasticism—one that would strengthen individuals amid the demands of daily life rather than retreat into solitude. He attained Mahasamadhi on July 4, 1902, leaving behind a living institution whose monks continued his legacy with devotion, while his room and the Ramakrishna Temple were preserved as sacred shrines for future generations of disciples.",
+      "On Feb 3, 1898, Swamiji signed the agreement for purchase of land from Bhagbat Narayan Singh (son of Neelmoni Singh) at a cost of Rs 39,000 contributed by Miss F. Henrietta Muller of England. On March 4, the plot was secured. On Nov 11, 1898 the new Math building at Belur was completed. Holy Mother Sri Sarada Devi sanctified the land with puja.",
+      "On Dec 16, 1898, Swamiji took classes for his Western disciples and the monks at the Math. On Dec 20, Holy Mother visited and stayed for a short time.",
+      "On Feb 3, 1899, Swamiji went to the Shrine for meditation and spoke about the ideals of the Sangha. On Feb 5, Swamiji took Swami Yogananda in a boat on the Ganga. On Feb 8, a feast was held in honour of Swami Brahmananda's birthday.",
+      "On March 2, 1899, Captain Sevier purchased the Mayavati estate (Advaita Ashrama). On March 13, the Ramakrishna tithi-puja was celebrated at Belur Math. On March 19, a public celebration was held attended by about 20,000 people; Sister Nivedita spoke.",
+      "A Punjabi visitor asked Swamiji why he was feeding dogs. Swamiji replied that the divine is present in all beings (Apr 3–4, 1899). Mahananda Kaviraj advised Swamiji to take a sea voyage for health reasons (Apr 6–10, 1899).",
+      "On May 7, 1899, Swamiji wished to hand over Math affairs to his brother-monks. He was very emotional and wept. On May 17, Nivedita booked ship tickets for the voyage. On June 11, Nag Mahashaya visited Belur Math.",
+      "On Dec 9, 1900, Swamiji arrived back in Belur Math. Captain Sevier had passed away. On Jan 19, 1901, Swamiji left Mayavati, reached Belur Math on Jan 24.",
+      "The Debottar Trust Deed was executed on Jan 30, 1901, and the Board of Trustees was established with Swami Brahmananda as President. On Feb 6, the Trust Deed was registered. The Bally Municipality raised a tax dispute, but the Calcutta High Court decreed in favour of Belur Math exempting it from Municipal Tax.",
+      "On Feb 20, 1901, a Special Puja was held and about 20,000 people attended Swamiji's birthday celebration. Swami Kalyanananda was instructed by Swamiji about serving the sick as service to God.",
+      "On March 13, 1901, Kali Puja was performed. On March 16, Mother Sevier came to take leave before departing for England. On March 18, Swamiji started for Dacca. (Jan 19 to Mar 18, 1901).",
+      "On May 13, 1901, Swamiji was back in the Belur Math and his disciples worried about his poor health. On the earnest request of Swami Niranjanananda, Swamiji agreed to undergo Ayurvedic treatment of Kaviraj Sri Mahananda Sen Gupta of Bahubazar.",
+      "Swamiji completed the full set of the Encyclopaedia Britannica. Swamiji gave a disciple an option to ask any question from any volume and successfully answered it. The disciple was astonished and Swamiji explained that only by observing strict Brahmacharya (continence) all learning could be mastered in a short time.",
+      "Once Brahmachari Krishnalal told Swamiji that he could not read the Shastras and Scriptures at the Math. Swamiji then and there said that Krishnalal should concentrate more on 'japam'. Brahmachari Krishnalal obeyed Swamiji with sincerity and succeeded. Later Swamiji once told Swami Shuddhananda that Krishnalal had realization through 'japam'.",
+      "Swamiji explained to Mary the idea behind the 'Mission-Seal' where 'the snake represents mysticism; the Sun knowledge; the worked up water activity; the lotus love; the swan the soul in the middle of all'.",
+      "Suresh Dutta was the person who first published the design of the future Belur Math Temple — that from a distance it would seem like an 'OM', as per the sketch of the future Belur Math Temple drawn by Swami Vijnanananda. The Belur Math had been exempted from the payment of Municipal Tax by order of High Court, as reported in the August issue of the Prabuddha Bharata. (May 13 to Aug 6, 1901).",
+      "Swamiji reached Belur Math from Darjeeling on Aug 22, 1901. One clerk came to see Swamiji. Swamiji advised him in detail how he should keep the files arranged, the hand-writing should be neat and clean. 'The work is not only to earn bread, it is for the country and its people — Karma is Brahma'. There always remained a force behind his talk which would lift the mind of the listener.",
+      "Once the sweeper was absent for a few days in the Math and all the toilets were very dirty with foul smell. Swamiji himself started cleaning and scrubbing those with the help of a boy. Some monks came to help him; but Swamiji stared hard at them and made them return. Swamiji demonstrated that one ideal teacher should teach what he practices. Swamiji taught – 'Cleanliness is next to Godliness'.",
+      "Swamiji taught Swami Nishchayananda that a monk should never be a burden to others. He asked his disciples to sacrifice themselves in the service of others, because 'Sacrificing everything for the good of others – that being true sannyasa'. Swamiji advised his disciples and the Brahmacharis to devote their lives to the service of the poor who are 'Daridra Narayana' (God in the form of poor), instead of personal Mukti.",
+      "Swamiji held a class for the junior monks which continued till evening. Seeing nobody in the shrine for vesper, Swami Premananda came to the classroom and asked them to join the vesper. Swamiji became very annoyed and rebuked Premananda harshly. Later Swamiji lamented for his harshness and came to the shrine and struck his forehead in front of Shri Ramakrishna's image.",
+      "Swamiji was watching the young monks playing football on the small ground in front of the Math. They made a ball with pieces of cloth. Swamiji said, 'Our country shall be free. But not with bloodshed'. Regarding the time, later he said to one of his brother-disciples that India would be free within fifty years.",
+      "Swamiji was especially fond of Kesta, one of the Santals. Swamiji invited the Santals to a feast. Salt-free food was prepared as per their (Santals') wish. They were very much pleased with those tasty food which they had never tasted. Swamiji told the monks and Brahmacharis of the Math, not to practice 'touchism' and to go out to bring together one and all.",
+      "Once while sleeping, Swamiji felt as if he got a jerk. He said 'It seems that somewhere, something has happened — some accident might have occurred and many people are hurt'. Later, it came in newspapers that there was a volcano eruption, and many people died in Fiji. Swami Vijnanananda was amazed to find that Swamiji had that psychic power to foresee things. And that made him more responsive to human miseries than a seismograph. (Aug 22 to Dec 31, 1901).",
+      "Mr Okakura Kakuzo, Miss MacLeod and Mr Shitoku Hori arrived in Calcutta and were delighted to meet Swamiji at the Math. Swamiji talked on the glorious life of Buddha and about the philosophical aspects of his teachings, with such fervour, devotion and insight that they were simply charmed.",
+      "Swamiji wanted to learn the science of Hatha Yoga for making his weak body strong. On the eve of the initiation Swamiji saw the form of Shri Ramakrishna looking steadfastly at him, as if very much aggrieved. Swamiji felt ashamed. Several nights in succession Swamiji had the vision of Sri Ramakrishna, so he abandoned the idea of taking initiation from Pavhari Baba.",
+      "Swamiji told Miss MacLeod that he would not cross forty. She said that Buddha did not do his great work until he was between forty and eighty. But Swamiji replied, 'The shade of a big tree will not let the smaller trees grow up. I must make room'. (Mar 8 to 31, 1902).",
+      "As Swamiji was feeling worse health wise, Kaviraj Mahananda Sen Gupta of Calcutta came and examined Swamiji. Given medicine. Intake of Salt and water not allowed. On March 11 – Tithi-puja of Shri Ramakrishna. There was a special puja from the morning and many devotees had prasad. First volume of Shri Ramakrishna-Kathamitra by Mahendranath Gupta in Bengali was published.",
+      "Swamiji desired to see all his Sannyasi disciples and wrote to them to visit him, even for a short time. The call went even to those beyond the seas. Some of them came; whereas others busy at various centres could not come. If they could have known what the call had meant, they would have left everything and come.",
+      "Swamiji came by boat from Calcutta and asked for Swami Brahmananda and asked him to make all arrangements for the Durga Puja at the Math and to bring pratima (clay idol/image). Swami Brahmananda told him about his vision of Mother Durga being worshipped at the Math. On Oct 18 Devi Durga was worshipped under the Bilva tree. The solemn vow (sankalpa) to do the Puja was done in the name of Holy Mother 'Sarada Devi'. Holy Mother was present all through. A pratima was brought to the Math for the first time on Oct 27. In the Math the pratima worship of Goddess Kali was also performed at night (Nov 10). Swamiji lost consciousness and went into 'Samadhi'.",
+      "Once Swami Nirbhayananda fell asleep on Swamiji's chest while fanning him. Lest his sleep be disturbed, Swamiji lay for a long time without moving. He got up from his bed only after Nirbhayananda woke up. Such was Swamiji's love for his attendants. Under the guidance of Swamiji, Jaggadhatri Puja was celebrated in his mother's house at Simla (Nov 20). Swamiji did not like the householders to sit together with the monks for prasad (meals).",
+      "Swami Brahmananda replied about Swamiji, 'Swamiji is Lord Shiva Himself'. On Nov 10, in the Math the pratima worship of Goddess Kali was also performed at night. Swamiji lost consciousness and went into 'Samadhi'.",
+      "Brojendra rushed downstairs and called Swami Advaitananda, who checked his pulse and then called Swami Bodhananda to check the pulse. Bodhananda cried loudly. Swami Nirbhayananda was sent to call Dr Mahendra Nath Majumdar of Baranagore. Swami Premananda, Swami Nishchayananda and Ishwar Chandra Chakraborty started chanting 'Shri Ramakrishna' loudly in Swamiji's ears, hoping he would return from Samadhi. Swamiji's eyes were fixed in the centre, and his face assumed a divine expression with a sweet smile. Dr Majumdar found no sign of life, tried artificial respiration but failed.",
+      "Swami Vivekananda passed away at the age of thirty-nine years, five months and twenty-four days. According to Yoga scripture, the life breath of an illumined yogi passes out through the opening on the top of the head, causing the blood to flow from the nostrils and the mouth. (July 1 to 4, 1902)."
+    ],
+    "image": "belur_math.jpg"
+  },
+  {
+    "id": "kamarpukur",
+    "title": "Kamarpukur",
+    "description": [
+      "Vivekananda journeyed to Kamarpukur, the birthplace of Sri Ramakrishna, as part of his pilgrimage to honor his departed master following Ramakrishna's passing in 1886. Walking through the village where his guru had spent his childhood and early years, Swamiji encountered the humble environment that had nurtured the saint's extraordinary spiritual consciousness. The visit deepened his reverence for Ramakrishna and his understanding of how the Master's life was rooted in the simplicity and devotional atmosphere of rural Bengal.",
+      "Birthplace of Sri Ramakrishna. Vivekananda and brother disciples visited here to pay homage after Ramakrishna's passing, experiencing firsthand the village environment that shaped their master's life."
+    ],
+    "image": "kamarpukur.jpg"
+  },
+  {
+    "id": "antpur",
+    "title": "Antpur",
+    "description": [
+      "At Antpur in December 1886, Narendra and his brother disciples gathered for a transformative midnight ritual on Christmas Eve, formally taking monastic vows around a sacred fire. Inspired by the example of Jesus Christ's renunciation and universal love, they sealed their commitment to spiritual life and service to humanity, marking the unofficial birth of the Ramakrishna monastic order. This intimate ceremony at Antpur crystallized the monastic brotherhood that would eventually become the structured Ramakrishna Math and Mission."
+    ],
+    "image": "antpur.jpg"
+  },
+  {
+    "id": "deoghar",
+    "title": "Baidyanath Dham, Deoghar",
+    "description": [
+      "During his wandering years, Vivekananda visited Baidyanath Dham at Deoghar, one of the twelve sacred Jyotirlinga shrines dedicated to Shiva scattered across the Indian subcontinent. The pilgrimage allowed him to witness firsthand the intensity of devotion that drew thousands of seekers to this holy site, deepening his appreciation for the diverse expressions of Hindu spirituality. At these temples of power and worship, Swamiji encountered the living faith of ordinary Indians and the timeless traditions that sustained the nation's spiritual life."
+    ],
+    "image": "deoghar.jpg"
+  },
+  {
+    "id": "varanasi",
+    "title": "Varanasi (Benares)",
+    "description": [
+      "Varanasi held profound spiritual significance for Vivekananda across multiple visits during his wandering years and in his later life, including stops in 1888 and 1890. The eternal city on the Ganges became a place of mystical revelation where, according to tradition, the goddess Durga herself communicated to him the liberating truth: 'I myself am bearing the burden of my devotees.' This encounter crystallized his understanding of the divine mother's active compassion in human affairs. Before departing Varanasi after his early visits, he prophetically declared he would return to shake society like a bombshell, and later fulfilled that promise by establishing a Ramakrishna centre in the sacred city, bringing his master's teachings to this ancient seat of Hindu wisdom."
+    ],
+    "image": "varanasi.jpg"
+  },
+  {
+    "id": "sarnath",
+    "title": "Sarnath",
+    "description": [
+      "Vivekananda visited Sarnath during his final pilgrimage in 1901, standing at the site where Buddha had delivered his first sermon and inaugurated a new spiritual age. Reflecting on this hallowed ground, he contemplated the underlying unity of India's great religious traditions—how different masters across centuries had awakened humanity to transcendent truth. The journey to Sarnath reinforced his conviction that all authentic spiritual paths, whether Hindu or Buddhist, emerged from the same eternal source and shared the common purpose of liberating the human spirit."
+    ],
+    "image": "sarnath.jpg"
+  },
+  {
+    "id": "ayodhya",
+    "title": "Ayodhya",
+    "description": [
+      "During his wandering years in 1888, Vivekananda journeyed to Ayodhya, the birthplace of Lord Rama and one of Hinduism's most sacred pilgrimage sites. Walking through the devotional atmosphere of this ancient city, he witnessed the fervent faith of countless pilgrims drawn to honor the divine incarnation. The visit connected him deeply with India's epic spiritual heritage and the living tradition of devotion that had sustained Hindu civilization across millennia."
+    ],
+    "image": "ayodhya.jpg"
+  },
+  {
+    "id": "lucknow",
+    "title": "Lucknow",
+    "description": [
+      "Passing through Lucknow during his wandering years in 1888, Vivekananda traversed this city of considerable historical and cultural importance with characteristic enthusiasm, absorbing its industries, luxuries, and architectural splendors. As he journeyed northward with his companions toward the Himalayan hill stations, he used Lucknow as an opportunity to reflect on India's rich past and present, sharing with his traveling party the significance of this great center of North Indian civilization and engaging with the scholars and thinkers he encountered there."
+    ],
+    "image": "lucknow.jpg"
+  },
+  {
+    "id": "vrindavan",
+    "title": "Vrindavan",
+    "description": [
+      "In 1888, Vivekananda visited Vrindavan, the sacred town steeped in Krishna's childhood memories, during his wandering pilgrimage across India. The town's spiritual atmosphere moved him deeply, and he experienced profound states of devotion and meditation among its temples and sacred sites. He was particularly moved by encounters with images of the Mother Goddess here, experiences that further illuminated his understanding of the divine feminine in Indian spirituality and deepened his recognition of the great saints and realized souls as living ideals for humanity."
+    ],
+    "image": "vrindavan.jpg"
+  },
+  {
+    "id": "mathura",
+    "title": "Mathura",
+    "description": [
+      "Vivekananda visited Mathura, the birthplace of Lord Krishna, during his pilgrimage through North India in 1888. As a major center of Vaishnava devotion, the city provided him with rich opportunities to contemplate the life and teachings of Krishna while observing the spiritual practices of countless pilgrims. His time here contributed to his later articulate reflections on the fundamental unity between the Shaiva and Vaishnava traditions, understanding both as expressions of the same eternal Indian spirituality."
+    ],
+    "image": "mathura.jpg"
+  },
+  {
+    "id": "agra",
+    "title": "Agra",
+    "description": [
+      "During his wandering years in 1888, Vivekananda visited Agra and stood before the Taj Mahal, that sublime monument to love and artistic mastery. The magnificent structure stirred him profoundly as a testament to India's imperial grandeur and cultural genius. Yet the beauty of past achievement only deepened his anguish at witnessing the poverty and spiritual decline of contemporary India, igniting within him a burning resolve to revive the nation's ancient glory and awaken its dormant spiritual potential."
+    ],
+    "image": "agra.jpg"
+  },
+  {
+    "id": "haridwar",
+    "title": "Hardwar",
+    "description": [
+      "In 1890, Vivekananda arrived at Haridwar during the great Kumbh Mela, the gateway to the Himalayas where countless sadhus and seekers gathered on the banks of the Ganges. Immersed in this vast ocean of Indian spiritual life, he mingled freely among the monks and ascetics, observing their practices and absorbing the monastery traditions. From Haridwar, he began his ascent into the high Himalayas, using the sacred city as his launching point for the mountain retreats that would deepen his spiritual realization."
+    ],
+    "image": "haridwar.jpg"
+  },
+  {
+    "id": "rishikesh",
+    "title": "Hrishikesh",
+    "description": [
+      "Vivekananda visited Hrishikesh, the yoga capital on the Ganges, during his Himalayan wanderings in 1890 and again in 1897 after his triumphant return from the West. He spent contemplative periods in meditation and studied intensely with accomplished yogis, deepening his mastery of spiritual practices in an atmosphere saturated with monasticism. He was profoundly moved by encountering great realized souls here—wandering sadhus of extraordinary spiritual power whose unconventional behavior and inner freedom exemplified the heights of authentic spiritual attainment beyond conventional morality."
+    ],
+    "image": "rishikesh.jpg"
+  },
+  {
+    "id": "almora",
+    "title": "Almora",
+    "description": [
+      "Vivekananda visited the hill station of Almora in 1897 and again in 1900, seeking rest and restoration in the crisp mountain air while continuing his intense spiritual and intellectual work. From this Himalayan retreat, he maintained an extensive correspondence, guiding disciples and planning his mission. Western seekers, including the remarkable Sister Nivedita, journeyed to meet him here, and the nearby Advaita Ashrama at Mayavati became a permanent monument to his vision of establishing centers for spiritual study and monastic practice in the mountains."
+    ],
+    "image": "almora.jpg"
+  },
+  {
+    "id": "mayavati",
+    "title": "Advaita Ashrama, Mayavati",
+    "description": [
+      "In 1901, during what would be his final Himalayan journey, Vivekananda visited the Advaita Ashrama at Mayavati, the monastery he had inspired into existence just two years earlier in 1899. Perched in the high mountains near Almora, this institution embodied his vision of establishing centers for the study and practice of Advaita Vedanta. The ashrama became a beacon of spiritual learning and would go on to publish the influential journal Prabuddha Bharata, spreading Vedantic philosophy across India and the world."
+    ],
+    "image": "mayavati.png"
+  },
+  {
+    "id": "uttarkashi",
+    "title": "Uttarkashi",
+    "description": [
+      "In 1890, Vivekananda ventured deep into the Himalayan wilderness to Uttarkashi, where he spent extended periods absorbed in meditation and spiritual practice. Here he encountered a accomplished yogi whose wisdom and encouragement proved to be a turning point in his life's direction. This sadhu recognized Swami's spiritual stature and urged him toward a greater mission—to carry the ancient teachings of Vedanta to the Western world, counsel that Vivekananda would take to heart as a divine calling."
+    ],
+    "image": "uttarkashi.jpg"
+  },
+  {
+    "id": "delhi",
+    "title": "Delhi",
+    "description": [
+      "Under the assumed name Vividishananda, Vivekananda entered Delhi during his wandering years with his scanty belongings and royal bearing. The city's crisp air, grandeur, and layered historical memories filled him with both physical and spiritual elation. He stayed at the residence of Syamaldas, who welcomed him warmly, and during his time there he explored the monumental echoes of India's ancient capital—the Red Fort, Jama Masjid, and Humayun's Tomb—absorbing the civilisational depth that had shaped the subcontinent's spiritual and political consciousness."
+    ],
+    "image": "delhi.jpg"
+  },
+  {
+    "id": "alwar",
+    "title": "Alwar",
+    "description": [
+      "In 1891, Vivekananda visited the court of Maharaja Mangal Singh of Alwar during his wandering through Rajputana. Here occurred one of his most celebrated exchanges on the nature of divine presence in images. When the Maharaja expressed contempt for image worship, Vivekananda demonstrated his teaching by asking a courtier to spit upon the Maharaja's portrait—a profound lesson that the sacred dwells equally in all forms, from the humblest image to the mightiest ruler."
+    ],
+    "image": "alwar.jpg"
+  },
+  {
+    "id": "jaipur",
+    "title": "Jaipur (Jeypore)",
+    "description": [
+      "Vivekananda passed through Jaipur during his 1891 tour of Rajputana, engaging with the learned men of the royal court and absorbing the vibrant culture of the Pink City. His travels in the region took him to nearby sacred sites, including the village of Naravani where an annual fair drew pilgrims from across Rajputana to worship the Divine Mother. The journey deepened his understanding of how spiritual devotion manifested across India's diverse communities and landscapes."
+    ],
+    "image": "jaipur.jpg"
+  },
+  {
+    "id": "ajmer",
+    "title": "Ajmer (Ajmere)",
+    "description": [
+      "Vivekananda visited Ajmer, home to the revered Dargah of Moinuddin Chishti, one of India's holiest Sufi shrines. During his wanderings through Rajputana, he observed how Islam had established itself as a living spiritual force within Indian soil. The pilgrimage reflected his broader conviction that divine aspiration transcends religious boundaries, and that the longing for the sacred beats within human hearts across all faiths and traditions."
+    ],
+    "image": "ajmer.jpg"
+  },
+  {
+    "id": "khetri",
+    "title": "Khetri",
+    "description": [
+      "Vivekananda formed a lasting bond with Maharaja Ajit Singh of Khetri, who became one of his most devoted supporters. It was at Khetri in 1893 that the Maharaja bestowed upon him the name 'Vivekananda'—the name by which he would be known to history. The Maharaja's generosity extended further when he funded Vivekananda's passage to America for the Parliament of Religions in Chicago, recognizing in the wandering monk a messenger who would carry India's ancient wisdom to the West."
+    ],
+    "image": "khetri.jpg"
+  },
+  {
+    "id": "mount_abu",
+    "title": "Mount Abu",
+    "description": [
+      "Vivekananda visited Mount Abu, Rajasthan's only hill station, where he encountered the magnificent Dilwara Jain temples. The extraordinary marble carvings and architectural splendor moved him deeply, tears flowing as he witnessed the devotional artistry of ages past. He recognized in these temples an expression of India's spiritual genius—a tangible manifestation of how faith, discipline, and aesthetic vision had merged to create works of transcendent beauty across the centuries."
+    ],
+    "image": "mount_abu.jpg"
+  },
+  {
+    "id": "ahmedabad",
+    "title": "Ahmedabad",
+    "description": [
+      "During his 1891 travels through Gujarat, Vivekananda passed through Ahmedabad, observing the flourishing trading communities and the rich interplay of Hindu, Jain, and Islamic traditions that had shaped the city's unique character. He studied how different faiths coexisted and influenced one another within this prosperous center, gaining insight into the syncretic spirituality that had historically defined Indian civilization."
+    ],
+    "image": "ahmedabad.jpg"
+  },
+  {
+    "id": "junagadh",
+    "title": "Junagadh",
+    "description": [
+      "Vivekananda climbed the Girnar Hills near Junagadh, ascending to the ancient temples that have served as a holy pilgrimage site for Jain devotees across centuries. Amidst these sacred heights, he spent time in meditation and study, reflecting on the enduring spiritual traditions that had sustained India's inner life through the ages. The journey deepened his reverence for the countless seekers who had walked these paths in pursuit of truth."
+    ],
+    "image": "junagadh.jpg"
+  },
+  {
+    "id": "dwarka",
+    "title": "Dwarka",
+    "description": [
+      "In 1891, Vivekananda reached Dwarka, one of Hinduism's four most sacred pilgrimage sites and an ancient coastal shrine steeped in the memory of Lord Krishna. As a wandering monk on his transformative pan-India journey, he immersed himself in the Vaishnava devotional traditions that infused this holy city, deepening his understanding of the diverse spiritual expressions that sustained Hindu civilization. The visit reinforced his conviction that India's religious heritage contained infinite treasures worthy of transmission to the world."
+    ],
+    "image": "dwarka.jpg"
+  },
+  {
+    "id": "porbandar",
+    "title": "Porbandar",
+    "description": [
+      "Arriving in Porbandar in 1891, Vivekananda stayed as an itinerant ascetic, engaging with local scholars and absorbing the rich religious atmosphere of this vibrant Saurashtra coastal city. His presence attracted intellectuals who were struck by his commanding personality and extraordinary insights into the Vedas and ancient philosophies. During his time here, he grew increasingly convinced that India held the keys to universal spiritual truth—the very conviction that would soon propel him westward to share Sanatana Dharma with the world."
+    ],
+    "image": "porbandar.jpg"
+  },
+  {
+    "id": "vadodara",
+    "title": "Vadodara (Baroda)",
+    "description": [
+      "In 1892, Vivekananda visited Vadodara, a progressive state whose Gaekwad ruler championed education and reform. He engaged with the court's intellectual circles and observed firsthand how a Hindu kingdom was modernizing without abandoning its spiritual foundations—a living demonstration that India could embrace contemporary knowledge while preserving the eternal wisdom of its traditions."
+    ],
+    "image": "vadodara.jpg"
+  },
+  {
+    "id": "mumbai",
+    "title": "Mumbai (Bombay)",
+    "description": [
+      "Vivekananda passed through Mumbai—India's dynamic commercial heart—multiple times between 1892 and 1897, each visit marking a turning point in his mission. In 1892, he prepared here for his fateful journey westward, embarking for the Parliament of Religions in Chicago. Upon his triumphant return in 1897, the city accorded him a hero's welcome, recognizing the global stature he had achieved. The metropolis's raw energy and modern vitality fascinated him, embodying the immense potential of a nation awakening to its own greatness."
+    ],
+    "image": "mumbai.jpg"
+  },
+  {
+    "id": "pune",
+    "title": "Pune (Poona)",
+    "description": [
+      "In 1892, Vivekananda reached Pune, Maharashtra's intellectual fortress, where he encountered the region's foremost reformers including Bal Gangadhar Tilak and other luminaries reshaping Indian thought. He was profoundly moved by the political consciousness and social awakening he witnessed—a generation of educated Indians wrestling with tradition and modernity, preparing the soil for national renaissance. The city's ferment of ideas confirmed his belief that India possessed the intellectual vigor to reclaim her place among civilized nations."
+    ],
+    "image": "pune.jpg"
+  },
+  {
+    "id": "belgaum",
+    "title": "Belgaum (Belagavi)",
+    "description": [
+      "Traveling from Maharashtra southward through Belgaum in 1892, Vivekananda journeyed through a landscape of cultural transition where Kannada speech and Dravidian practices gradually displaced the forms he knew from the north. This passage through Karnataka's gateway sharpened his awareness of India's magnificent diversity—how a single civilization contained multitudes, each region enriching the whole with its own spiritual and intellectual contributions."
+    ],
+    "image": "belgaum.jpg"
+  },
+  {
+    "id": "bangalore",
+    "title": "Bengaluru (Bangalore)",
+    "description": [
+      "In Bangalore during 1892, Vivekananda's quiet beginning soon gave way to intense intellectual engagement when he made the acquaintance of Sir K. Seshadri Iyer, the Diwan of Mysore. Seshadri Iyer, a profound scholar himself, was astounded by the young monk's spiritual insight and learning, recognizing him as an extraordinary presence. This encounter proved transformative, as the Diwan became instrumental in introducing Vivekananda to the Maharaja of Mysore, an introduction that would dramatically alter the trajectory of his American journey."
+    ],
+    "image": "bangalore.jpg"
+  },
+  {
+    "id": "mysore",
+    "title": "Mysuru (Mysore)",
+    "description": [
+      "The Maharaja of Mysore, Chamarajendra Wadiyar, received Vivekananda with great honor and, impressed by his vision and personal magnetism, reportedly offered to finance his voyage to America. Yet Vivekananda, bound by his monastic ideal of non-attachment and trusting in divine providence, declined the royal patronage. He would instead journey westward relying on his own efforts and faith—a decision that tested his conviction but proved the depth of his spiritual commitment."
+    ],
+    "image": "mysore.jpg"
+  },
+  {
+    "id": "hyderabad",
+    "title": "Hyderabad",
+    "description": [
+      "In the closing months of 1892, Vivekananda journeyed to Hyderabad, the magnificent capital of one of India's most powerful Muslim rulers, the Nizam. The city's unique synthesis of Hindu and Islamic civilizations captivated him, and he engaged deeply with scholars from both traditions, observing how philosophical and spiritual wisdom transcended religious boundaries. His time there reinforced his conviction that India possessed profound treasures of knowledge and culture that the world urgently needed, even as he grew increasingly passionate about awakening the masses to their rights and dignity through education and social reform."
+    ],
+    "image": "hyderabad.png"
+  },
+  {
+    "id": "madras",
+    "title": "Madras (Chennai)",
+    "description": [
+      "Madras became the crucible of Vivekananda's transformative mission. In late 1892, the young devotee Alasinga Perumal and a circle of ardent supporters welcomed him with fervent devotion, raising funds and spreading his message while urging him toward his historic journey to America. Upon his triumphant return in 1897, the city accorded him a hero's welcome, with a formal reception committee presenting addresses of gratitude for the spiritual light he had carried to the West and now brought back to illuminate his motherland."
+    ],
+    "image": "madras.jpg"
+  },
+  {
+    "id": "kanyakumari",
+    "title": "Kanyakumari (Cape Comorin)",
+    "description": [
+      "On 24 December 1892, Vivekananda swam to the solitary rock at Cape Comorin where three oceans converge, and there spent three days in profound meditation. In that sacred solitude, sitting where the waters of the Arabian Sea, Indian Ocean, and Bay of Bengal meet, a luminous vision crystallized within him—a clear, undeniable calling to lift India from the depths of poverty and ignorance and to carry the eternal wisdom of Vedanta to the spiritually hungry West. This meditation marked the definitive threshold between his wandering years and his life's great mission."
+    ],
+    "image": "kanyakumari.jpg"
+  },
+  {
+    "id": "rameswaram",
+    "title": "Rameswaram",
+    "description": [
+      "At the sacred Ramanathaswamy Temple, one of Hinduism's holiest pilgrimage sites, Vivekananda found an unexpected patron in the Raja of Ramnad, Bhaskara Setupati, whose devotion and generosity would prove instrumental in enabling his Western voyage. The Raja received him with royal honors, presented him with a carved rosewood pipe when the Swami declined material gifts, and bowed at his feet upon departure. Here, addressing assembled worshippers at the ancient temple, Vivekananda spoke on the true nature of worship, elevating the consciousness of all who gathered to hear his words."
+    ],
+    "image": "rameswaram.jpg"
+  },
+  {
+    "id": "ramnad",
+    "title": "Ramanathapuram (Ramnad)",
+    "description": [
+      "The Raja of Ramnad became one of Vivekananda's most devoted early supporters, receiving him at Pamban with elaborate formal ceremonies and fervent hospitality. During his stay in the royal palace, the Swami engaged in penetrating spiritual conversations, expounding on the nature of Brahman and human potential for divine realization. The Raja's enthusiastic backing and willingness to sponsor the Swami's passage to America proved crucial, as Vivekananda departed with the ruler's blessings and the profound gratitude of the people, who saw in him a messenger of India's eternal spiritual heritage."
+    ],
+    "image": "ramnad.jpg"
+  },
+  {
+    "id": "madurai",
+    "title": "Madurai (Madura)",
+    "description": [
+      "Vivekananda visited the breathtaking Meenakshi Temple in Madurai, its soaring gopurams piercing the sky with architectural grandeur that testified to India's unbroken capacity to sustain spiritual culture across countless centuries. He moved among the faithful devotees, witnessing the living pulse of Hindu spirituality and reflecting on how a civilization could maintain its deepest values and highest aspirations through ages of change. The temple's magnificence reinforced his vision of India's spiritual genius and deepened his resolve to revive this dormant power among his own people."
+    ],
+    "image": "madurai.jpg"
+  },
+  {
+    "id": "trivandrum",
+    "title": "Trivananthapuram (Travancore)",
+    "description": [
+      "In Trivandrum, Vivekananda visited the illustrious Padmanabhaswamy Temple and engaged with the royal family and local scholars, finding in Kerala's unique social fabric—marked by high literacy and ancient matrilineal customs—evidence of India's diverse pathways to human dignity and knowledge. During his time there, he taught privately of the urgent national reforms required to raise India's masses from bondage and ignorance, speaking with characteristic intensity about the necessity of spreading education and social equality throughout the land."
+    ],
+    "image": "trivandrum.jpg"
+  },
+  {
+    "id": "cochin",
+    "title": "Cochin (Kochi)",
+    "description": [
+      "On 31 May 1893, Vivekananda embarked from Cochin on the ship Peninsular, setting his face westward toward the vast unknown and leaving behind everything he had known. With letters of introduction and the blessings of those who had supported his vision, he sailed toward Colombo and beyond, carrying with him the spiritual fire of ancient India toward a new world that he would help awaken to the timeless truths of Vedanta."
+    ],
+    "image": "cochin.jpg"
+  },
+  {
+    "id": "puri",
+    "title": "Puri (Jagannath Temple)",
+    "description": [
+      "During his wandering years in 1888, Vivekananda visited Puri and encountered the sacred Jagannath Temple, one of Hinduism's four cardinal pilgrimage sites. He was profoundly moved by the all-embracing tradition of the Jagannath cult, which transcended the rigid boundaries of caste by serving prasad—sacred food—to all devotees regardless of their social status. This experience reinforced his vision of a universal Hinduism where diverse spiritual paths converged toward the same divine goal, a principle that would later animate his teaching of harmony among religions."
+    ],
+    "image": "puri.jpg"
+  },
+  {
+    "id": "bodh_gaya",
+    "title": "Bodh Gaya",
+    "description": [
+      "In 1901, during his final pilgrimage, Vivekananda journeyed to Bodh Gaya, the sacred site where Siddhartha Gautama achieved enlightenment beneath the Bodhi Tree. During his meditation in this hallowed place, he experienced a profound state of samadhi so intense that he felt he had become the Buddha himself. This mystical realization underscored his conviction that the deepest spiritual experiences transcended sectarian boundaries, and that the consciousness attained by all great saints was fundamentally one."
+    ],
+    "image": "bodh_gaya.jpg"
+  },
+  {
+    "id": "lahore",
+    "title": "Lahore",
+    "description": [
+      "In 1897, Vivekananda received a grand reception in Lahore from leaders of both the Arya Samaj and traditional Hindu organizations. During his brief stay, he delivered three major lectures addressing the common spiritual foundations of Hinduism, focusing particularly on the path of devotion. His message resonated powerfully with audiences of diverse backgrounds—Hindus, Muslims, Brahmo Samajists, and Arya Samajists alike—as he called upon his listeners to cultivate both spiritual depth and practical strength of character for the regeneration of their nation."
+    ],
+    "image": "lahore.jpg"
+  },
+  {
+    "id": "amritsar",
+    "title": "Amritsar",
+    "description": [
+      "Vivekananda arrived at Amritsar on 20 September 1897, where he was received with great honors at the station, though his stay was brief—only four or five hours at a private residence. Nevertheless, this visit to the sacred city and its Golden Temple offered him direct encounter with the Sikh tradition of universal community service and radical equality, principles that aligned closely with his own vision of spirituality wedded to social justice and the dignity of all human beings."
+    ],
+    "image": "amritsar.jpg"
+  },
+  {
+    "id": "rawalpindi",
+    "title": "Rawalpindi",
+    "description": [
+      "As part of his 1897 Punjab and Kashmir tour in response to invitations from those regions, Vivekananda passed through Rawalpindi, continuing his mission to awaken India to both spiritual consciousness and practical strength. Though details of his specific activities there are sparse, this journey formed part of his larger northern Indian campaign where he delivered lectures and engaged in spiritual discourse with people of all communities."
+    ],
+    "image": "rawalpindi.jpg"
+  },
+  {
+    "id": "kashmir",
+    "title": "Srinagar",
+    "description": [
+      "From late 1897 through 1898, Vivekananda retreated to the Vale of Kashmir for spiritual contemplation and meditation, profoundly affected by the region's extraordinary natural beauty. During this period of deep introspection, he experienced powerful visions and spiritual insights, including an appearance of the goddess Sharada who blessed his spiritual mission. This sojourn represented a crucial moment of inner consolidation where he renewed his spiritual resolve and clarified the spiritual work he had been called to undertake for his nation."
+    ],
+    "image": "kashmir.jpg"
+  },
+  {
+    "id": "dhaka",
+    "title": "Dhaka (East Bengal)",
+    "description": [
+      "On 30 and 31 March 1901, Vivekananda delivered two major lectures in English to vast audiences at open-air meetings in Dacca (Dhaka). Speaking on \"What have I learnt?\" and \"The Religion We Are Born In,\" he addressed the people of East Bengal with a message that integrated their ancient spiritual legacy with the demands of practical regeneration. Before enormous crowds, he urged them to awaken to their civilizational heritage while simultaneously building the strength and organizations necessary for their nation's advancement."
+    ],
+    "image": "dhaka.png"
+  },
+  {
+    "id": "colombo",
+    "title": "Colombo, Sri Lanka",
+    "description": [
+      "Colombo marked two pivotal moments in Vivekananda's trajectory: his initial departure point to the West in 1893, and most memorably, his triumphant return on 15 January 1897. On this homecoming, thousands of devotees crowded the docks in an overwhelming reception, greeting him as their spiritual champion returning victorious from his Western mission. The Hindu residents formally welcomed him as the first messenger to carry the Vedantic vision of the East back to the West, inaugurating his transformative lecture tour across Asia that would reshape Indian consciousness and Hindu self-understanding."
+    ],
+    "image": "colombo.png"
+  },
+  {
+    "id": "jaffna",
+    "title": "Jaffna, Sri Lanka",
+    "description": [
+      "During his 1897 return tour of Ceylon, Vivekananda travelled north to Jaffna, where the Hindu community extended a formal welcome recognizing his spiritual mission. He delivered powerful public lectures to large audiences, emphasizing the strength and enduring glory of Hindu tradition. In this predominantly Buddhist stronghold, Swamiji expounded on the universality of religion, arguing that whether worshipped as Shiva, Vishnu, Buddha, or by countless other names, the divine remained one and the same—a message calling not merely for tolerance but for genuine sympathy between followers of different faiths."
+    ],
+    "image": "jaffna.jpg"
+  },
+  {
+    "id": "kandy",
+    "title": "Kandy, Sri Lanka",
+    "description": [
+      "Vivekananda journeyed to Kandy, home of the sacred Temple of the Tooth Relic, where he reflected deeply on the complementary relationship between Buddhism and Hinduism. During his lectures in this spiritual center, he explored themes of universal religion and the common ground underlying Eastern traditions. His visits throughout Ceylon provided opportunities to engage with both Hindu and Buddhist communities, promoting understanding across religious boundaries."
+    ],
+    "image": "kandy.jpg"
+  },
+  {
+    "id": "trincomalee",
+    "title": "Trincomalee",
+    "description": [
+      "Vivekananda visited Trincomalee as part of his 1897 return tour through Ceylon, where he was warmly received by the local community. He delivered lectures during his stay, continuing his mission to inspire and strengthen spiritual consciousness among the Indian diaspora and their descendants scattered throughout the island."
+    ],
+    "image": "trincomalee.jpg"
+  },
+  {
+    "id": "penang",
+    "title": "Penang",
+    "description": [
+      "In June 1893, while en route to the Parliament of World's Religions in Chicago, Vivekananda stopped at Penang, a strip of land along the sea in the Malay Peninsula. Here he encountered a vibrant Indian diaspora and observed their temples, including the striking image of Buddha in a reclining posture entering Nirvana. His observations of the local Muslim Malay population and the port's historical associations with piracy gave him insight into the cosmopolitan character of British colonial outposts in Southeast Asia."
+    ],
+    "image": "penang.png"
+  },
+  {
+    "id": "singapore",
+    "title": "Singapore city",
+    "description": [
+      "Vivekananda passed through Singapore during June 1893 on his westward voyage to America, observing this bustling British colony as a cosmopolitan trading hub where Indians, Chinese, and Malays coexisted. The diverse population and commercial energy of this port city reflected the interconnected nature of Eastern societies under colonial administration."
+    ],
+    "image": "singapore.png"
+  },
+  {
+    "id": "hong_kong",
+    "title": "Hong Kong",
+    "description": [
+      "In July 1893, Vivekananda's ship called at Hong Kong, the British crown colony perched on China's coast. The port's energy, commerce, and strategic position impressed him as he reflected on the ancient civilisation of the East and the ways in which modern commerce was reshaping Asia's traditional societies."
+    ],
+    "image": "hong_kong.png"
+  },
+  {
+    "id": "nagasaki",
+    "title": "Nagasaki",
+    "description": [
+      "Nagasaki was Vivekananda's first port of call in Japan during July 1893 as he voyaged toward America. The city's order, cleanliness, and beauty deeply impressed him, setting the tone for his enthusiasm about Japan's achievements. His observations of Japan would later fuel his passionate correspondence with disciples in India, urging them to study how the Japanese had successfully modernized while preserving their cultural essence."
+    ],
+    "image": "nagasaki.jpg"
+  },
+  {
+    "id": "kobe",
+    "title": "Kobe",
+    "description": [
+      "Vivekananda explored Kobe during his July 1893 Japan stopover, marveling at this major port city's remarkable synthesis of ancient cultural traditions and modern progress. The picturesque landscape of pine-covered hills, the delicate architecture, and the distinctive dress and graceful movements of the Japanese people fascinated him as living examples of how an Eastern nation could embrace modernization without losing its spiritual and aesthetic character—a model he desperately wished India could emulate."
+    ],
+    "image": "kobe.jpg"
+  },
+  {
+    "id": "kyoto",
+    "title": "Kyoto",
+    "description": [
+      "In July 1893, Vivekananda journeyed to Kyoto, Japan's ancient imperial capital, where he explored the renowned Buddhist temples and Shinto shrines that had endured through centuries. The experience profoundly moved him as he witnessed how Japan's living spiritual tradition seamlessly coexisted with rapid modernization — a harmony he found both beautiful and instructive. The picturesque landscape, with its carefully cultivated gardens featuring stone bridges and artificial waters, embodied for him a culture that had mastered the art of preserving the sacred while embracing progress, a lesson he believed India desperately needed to learn."
+    ],
+    "image": "kyoto.jpg"
+  },
+  {
+    "id": "osaka",
+    "title": "Osaka",
+    "description": [
+      "Passing through Osaka in July 1893, Vivekananda observed Japan's thriving commercial capital with keen interest. The bustling energy and organized industry of the Japanese people captured his imagination, prompting reflections on how India might similarly harness its profound spiritual wealth for material advancement and national rejuvenation. Osaka represented for him a living example of a civilization that had achieved balance between material prosperity and cultural integrity."
+    ],
+    "image": "osaka.jpg"
+  },
+  {
+    "id": "yokohama",
+    "title": "Yokohama",
+    "description": [
+      "From Yokohama in July 1893, Vivekananda embarked across the Pacific Ocean toward Canada and Chicago, marking his final departure from the East. This port city served as his gateway to the Western world, where he carried with him the message of Hinduism to a continent he had never before set foot upon. His voyage from Yokohama represented the culmination of years of preparation and the beginning of his transformative mission to awaken the spiritual consciousness of the West."
+    ],
+    "image": "yokohama.jpg"
+  },
+  {
+    "id": "tokyo",
+    "title": "Tokyo",
+    "description": [
+      "During his July 1893 visit to Tokyo, Vivekananda observed firsthand Japan's remarkable transformation into a modern nation without sacrificing its cultural identity and spiritual heritage. The nation's rapid industrialization paired with the preservation of traditional customs — evident in the meticulous gardens and picturesque architecture adorning nearly every residence — fascinated him deeply. This synthesis of modernity and tradition became a powerful model in his mind for how India could similarly progress materially while maintaining its ancient spiritual foundations."
+    ],
+    "image": "tokyo.jpg"
+  },
+  {
+    "id": "vancouver",
+    "title": "Vancouver",
+    "description": [
+      "On 25 July 1893, Vivekananda first touched North American soil as his ship arrived at Vancouver, British Columbia. From this Pacific port, he boarded the transcontinental train eastward, witnessing the vast prairies and expansive landscapes of Canada and America for the first time. This journey across the continent marked his transition from the Old World to the New, carrying with him the spiritual message of the East toward his destined encounter with the Western world."
+    ],
+    "image": "vancouver.jpg"
+  },
+  {
+    "id": "chicago",
+    "title": "Chicago — Parliament of Religions",
+    "description": [
+      "On 11 September 1893, Vivekananda ascended the podium at the Parliament of World's Religions in Chicago and greeted the assembled delegates with words that would echo through history: 'Sisters and Brothers of America!' The audience, unprepared for such warmth and familiarity from an Indian monk, rose in spontaneous applause that lasted two minutes. Over the following weeks, his powerful addresses on Hinduism, Vedanta, and universal spirituality electrified the Western intelligentsia and established India's spiritual prestige on the global stage, transforming him from an unknown wanderer into an internationally celebrated prophet and seer whose very image was posted on Chicago streets."
+    ],
+    "image": "chicago.jpg"
+  },
+  {
+    "id": "new_york",
+    "title": "New York City",
+    "description": [
+      "Following his triumph in Chicago, Vivekananda established New York City as his American base from 1894 onwards, founding the Vedanta Society of New York in 1894 — one of the oldest Vedanta organizations in the Western world. Over two extended visits spanning 1894–1896 and 1899–1900, he delivered lectures that attracted prominent intellectuals, socialites, and spiritual seekers hungry for Eastern wisdom. His New York years were marked by intense teaching and writing, during which he laid the philosophical and organizational foundations for spreading Vedantic thought throughout America, becoming a beacon of Hindu spirituality in the heart of the Western metropolis."
+    ],
+    "image": "new_york.jpg"
+  },
+  {
+    "id": "boston",
+    "title": "Boston",
+    "description": [
+      "In Boston between 1893 and 1896, Vivekananda forged a crucial friendship with Harvard Professor John Henry Wright, a classicist of international renown. When Wright learned that the Swami lacked proper credentials for the Parliament of Religions, he famously declared: 'To ask for your credentials is like asking the sun to state its right to shine' — and promptly used his influence to secure Vivekananda's passage to Chicago. This encounter with Boston's intellectual elite demonstrated the profound respect Western scholarship could bestow upon authentic spiritual wisdom, and Wright's unwavering support proved instrumental in enabling Vivekananda's historic mission."
+    ],
+    "image": "boston.jpg"
+  },
+  {
+    "id": "thousand_islands",
+    "title": "Thousand Islands",
+    "description": [
+      "In June 1895, Vivekananda arrived at Thousand Island Park in New York seeking respite from his exhausting lecture schedule in the city. Beginning on June 19th, he commenced daily teachings with the small group of disciples present, though not all had yet assembled at the secluded retreat. During this two-month sojourn in the tranquil setting, he composed most of his seminal work *Raja Yoga* while conducting intimate spiritual instruction. A devoted student, Miss Dutcher, built a new wing onto her cottage as a sanctuary for the Master's residence, transforming the modest dwelling into a proper teaching space. The period represented a rare convergence of scholarly productivity and direct transmission, where Vivekananda's spiritual authority crystallized through both written wisdom and personal guidance."
+    ],
+    "image": "thousand_islands.jpg"
+  },
+  {
+    "id": "detroit",
+    "title": "Detroit",
+    "description": [
+      "In early 1894, Vivekananda lectured in Detroit as part of his crucial Midwestern tour, which began in November 1893 following his departure from Chicago. He stayed as the guest of Senator Palmer, a prominent political figure who provided both hospitality and social entrée to the city's intellectual circles. The monk's commanding presence and distinctive appearance—his broad forehead, intelligent eyes, and dignified bearing—made immediate impressions on those who encountered him. His lectures on Hinduism's universal principles resonated with American audiences eager to understand India's spiritual traditions, furthering his mission to dispel Western misconceptions about Indian culture while raising funds for his philanthropic vision in India."
+    ],
+    "image": "detroit.jpg"
+  },
+  {
+    "id": "minneapolis",
+    "title": "Minneapolis",
+    "description": [
+      "Vivekananda reached Minneapolis in late November 1893, shortly after departing Chicago for his expansive Midwestern lecture circuit. At the First Unitarian Church, he expounded upon Brahminism and its subtle spiritual attractions to an attentive audience, presenting ancient Hindu principles with eloquence and philosophical depth. His visit to Minneapolis formed part of the itinerary he outlined in his November 11th letter to Mrs. Tannatt Woods, where he announced his departure for Madison and Minneapolis. The city became one of several crucial Midwestern stops where Vivekananda introduced American intellectuals and spiritual seekers to the richness of Hindu philosophy during this formative period of his American ministry."
+    ],
+    "image": "minneapolis.jpg"
+  },
+  {
+    "id": "memphis",
+    "title": "Memphis",
+    "description": [
+      "In January 1894, Vivekananda ventured into the American Deep South, delivering lectures at the Memphis Auditorium to audiences described by local press as fair-sized and receptive. His address on Hinduism, introduced by Judge R. J., drew citizens curious about the celebrated Hindu monk whose eloquence had already garnered national attention. This Southern sojourn exposed Vivekananda to the profound racial divisions plaguing America, contrasts that would remain seared in his consciousness as manifestations of spiritual ignorance. His participation in the lecture circuit throughout the Midwest and South, lasting until April 1894, represented an ambitious effort to reach diverse American populations with his vision of universal religious truth."
+    ],
+    "image": "memphis.jpg"
+  },
+  {
+    "id": "washington_dc",
+    "title": "Washington D.C.",
+    "description": [
+      "Vivekananda visited Washington D.C. during his extensive American tours, addressing distinguished audiences of politicians and intellectuals in the nation's capital. He lectured on India's spiritual contributions to world civilization, seeking to elevate Western understanding of Hindu philosophy and Indian culture among America's most influential circles. His presence in the capital reflected the growing recognition of his stature as a philosophical ambassador, capable of engaging with the highest echelons of American society. Through his Washington appearances, he continued his mission to dismantle Western prejudices while simultaneously securing resources and support for his visionary religious and philanthropic endeavors in India."
+    ],
+    "image": "washington_dc.jpg"
+  },
+  {
+    "id": "san_francisco",
+    "title": "San Francisco",
+    "description": [
+      "During his 1900 visit to California, Vivekananda founded the Vedanta Society of San Francisco, establishing an enduring spiritual institution that would shape the American West's encounter with Hindu philosophy. He delivered extensive public lectures on the Gita and Vedanta philosophy at Red Men's Hall, Golden Gate Hall, and Union Square Hall, drawing audiences across the Bay Area. His teaching presence proved magnetic; students engaged in intimate exchanges with him, absorbing his distinctive pedagogy that emphasized self-realization and divine potential within each person. Though arriving relatively unknown outside ecclesiastical circles, he rapidly developed a devoted following whose members maintained Vedanta meetings in Los Angeles and Pasadena, spreading his influence throughout Southern California and securing the Western foundation for his movement."
+    ],
+    "image": "san_francisco.jpg"
+  },
+  {
+    "id": "los_angeles",
+    "title": "Los Angeles",
+    "description": [
+      "Vivekananda lectured extensively in Los Angeles during his 1900 California tour, captivating large audiences with addresses at the Shakespeare Club and other venues. His most popular lectures—\"Christ the Messenger\" and \"The Way to the Realisation of a Universal Religion\"—demonstrated his ability to synthesize Eastern and Western spiritual traditions for American audiences. He addressed audiences on \"The Epics of Ancient India,\" presenting Hindu civilization's grandeur and philosophical sophistication. Wealthy patrons and spiritually inclined Californians became his devoted students, facilitating the establishment of Vedanta meetings that would persist long after his departure."
+    ],
+    "image": "los_angeles.jpg"
+  },
+  {
+    "id": "pasadena",
+    "title": "Pasadena",
+    "description": [
+      "During his 1900 California visit, Vivekananda journeyed to the adjacent town of Pasadena, delivering lectures at the Universalist Church and the Shakespeare Club to audiences of considerable size and distinction. His addresses \"Christ the Messenger\" and \"The Way to the Realisation of a Universal Religion\" proved particularly popular with Pasadena's spiritually curious population. Miss Kate Sanborn and other wealthy California devotees became ardent supporters of his Vedanta work, providing both material assistance and social platform for his teachings. Pasadena thus became one of several Southern California centers where his influence took root during this pivotal period of American expansion for the Vedanta movement."
+    ],
+    "image": "pasadena.jpg"
+  },
+  {
+    "id": "camp_taylor",
+    "title": "Camp Taylor (Shanti Ashrama)",
+    "description": [
+      "In 1900, Vivekananda discovered his ideal refuge at Camp Taylor in California's San Antonio Valley, which he christened 'Shanti Ashrama'—the Abode of Peace. Situated fifty miles from the nearest railway station and twelve miles from any habitation except a distant post office, the retreat occupied virgin forestland on the eastern slope of Mount Hamilton in Santa Clara County, nestled in the uplands at considerable elevation. Here, surrounded by hills that reminded him of the Himalayas, Vivekananda lived simply and devoted himself to meditation and teaching, finding in this secluded sanctuary the tranquility he had long sought during his years of intensive work across America."
+    ],
+    "image": "camp_taylor.jpg"
+  },
+  {
+    "id": "london",
+    "title": "London",
+    "description": [
+      "Between 1895 and 1900, Vivekananda made two transformative visits to London, establishing Vedanta as a living force in English intellectual and spiritual circles. During his first visit in late 1895, he began teaching in London drawing rooms and lecture halls, attracting distinguished audiences and gifted disciples including the remarkable Margaret Noble, who became Sister Nivedita, and Josephine MacLeod. His second visit in 1899–1900 saw him continuing this work with renewed energy, delivering lectures and conducting classes with such intensity and clarity that Vedanta teachings became firmly rooted in England, influencing a generation of British seekers."
+    ],
+    "image": "london.jpg"
+  },
+  {
+    "id": "oxford",
+    "title": "Oxford",
+    "description": [
+      "During his London sojourn in 1896, Vivekananda was invited to Oxford University, where on May 28 he met the celebrated Orientalist Professor Friedrich Max Müller at his residence. This encounter between the living exponent of Vedanta and the German-born Sanskrit scholar who had devoted his life to translating the Vedas proved deeply moving for both men. Their conversations about Ramakrishna's teachings and Vedantic philosophy were carefully recorded, creating a memorable exchange between Eastern spiritual wisdom and Western scholarly erudition that enriched both perspectives."
+    ],
+    "image": "oxford.png"
+  },
+  {
+    "id": "paris",
+    "title": "Paris",
+    "description": [
+      "In August 1900, Vivekananda travelled to Paris to participate in the Congress of History of Religions, held in conjunction with the World's Fair. While there, he engaged with French intellectuals and scholars, including the notable writer Jules Bois, and spent time contemplating the treasures of the Louvre. His presence at this international gathering of religious scholars allowed him to present Vedantic philosophy to a cosmopolitan European audience and deepen his understanding of how Eastern and Western spiritual traditions could mutually enrich one another."
+    ],
+    "image": "paris.jpg"
+  },
+  {
+    "id": "cairo",
+    "title": "Cairo, Egypt",
+    "description": [
+      "Late in 1900, as Vivekananda journeyed homeward from the West, he paused in Cairo to explore the Pyramids, the Sphinx, and the ancient monuments surrounding the city. Standing before these sublime remnants of a great civilization, he reflected deeply on the parallels between Egyptian and Hindu spiritual traditions, and marvelled at how different ancient cultures had pursued their own paths toward understanding the divine—the Egyptians developing their own responses to the eternal questions that had always stirred the Hindu mind. Yet as fatigue overtook him during these travels, his thoughts increasingly turned toward India and home."
+    ],
+    "image": "cairo.jpg"
+  },
+  {
+    "id": "port_said",
+    "title": "Port Said",
+    "description": [
+      "In 1900, Vivekananda passed through Port Said at the entrance of the Suez Canal on his homeward journey, at the threshold between Europe and Asia. This symbolic crossing at the junction of two worlds mirrored the great arc of his own life's work—carrying the spiritual wealth of the East to the West, and returning enriched by the encounter, poised to rebuild his motherland with renewed vision and purpose."
+    ],
+    "image": "port_said.jpg"
+  },
+  {
+    "id": "alambazar_return",
+    "title": "Ramakrishna Mission Founded",
+    "description": [
+      "On 1 May 1897, Vivekananda convened a historic meeting at Alambazar Math in Calcutta where the Ramakrishna Mission was formally founded, crystallizing the spiritual vision that had been developing through his years of teaching and travel. The Mission was established with twin complementary aims: to disseminate Vedantic philosophy for the liberation of individual souls, and to serve suffering humanity as manifestations of God—embodying Ramakrishna's revolutionary teaching that 'Shiva dwells in the form of the poor.' This synthesis of spiritual wisdom and selfless service became the enduring expression of Vivekananda's life work.",
+      "On 1 May 1897, Vivekananda convened a meeting at Alambazar Math at which the Ramakrishna Mission was formally founded. Its twin aims: to spread Vedanta for individual liberation, and to serve humanity as manifestations of God — 'Shiva in the form of the poor.'"
+    ],
+    "image": "alambazar_return.png"
+  },
+  {
+    "id": "dakshineswar_return",
+    "title": "Dakshineswar — Return Pilgrimage",
+    "description": [
+      "Upon his return from the West in 1897, Vivekananda made a pilgrimage to Dakshineswar, the temple-garden along the Ganges where his guru Sri Ramakrishna had lived and where his own spiritual awakening had begun. In this sacred place, he reconnected with the source of his transformation—the spot where Ramakrishna's touch had opened his inner vision and changed the course of his life. This return journey was not merely nostalgic; it was a spiritual homecoming that grounded his vast work in the eternal foundation from which it had sprung."
+    ],
+    "image": "dakshineswar_return.jpg"
+  },
+  {
+    "id": "meerut_lecture",
+    "title": "Meerut",
+    "description": [
+      "During his 1897 lecture tour across Northern India, Vivekananda's disciple Akhandananda visited Meerut to receive medical treatment from Dr. Trailokya Nath Ghosh, remaining under his care for a month and a half. While the primary purpose was recuperation rather than public lecturing, the visit reflected the Swami's expanding network of supporters and medical professionals across Northern India who aided the mission's work during this period of intensive travel and teaching."
+    ],
+    "image": "meerut_lecture.jpg"
+  },
+  {
+    "id": "saharanpur_tour",
+    "title": "Saharanpur",
+    "description": [
+      "Vivekananda and his monastic companions passed through Saharanpur in 1897 during their Northern India tour, staying at the residence of Banku Behari Babu, a local pleader. Upon learning that fellow disciple Akhandananda was undergoing treatment in nearby Meerut, the Swami and his party immediately made their way there to reunite with him, demonstrating the close-knit bonds among the monastic brotherhood and their coordinated movements across the Gangetic plains."
+    ],
+    "image": "saharanpur_tour.jpg"
+  },
+  {
+    "id": "dehradun",
+    "title": "Dehra Dun",
+    "description": [
+      "In late November 1897, Vivekananda rested in Dehra Dun while coordinating the medical care of Akhandananda, who had developed bronchitis. The Swami personally arranged for Dr. Maclaren, the Civil Surgeon, to examine his ailing disciple and shifted his travel plans from Ganeshprayag to the plains to ensure proper treatment. This period revealed Vivekananda's deep pastoral concern for his brothers and his pragmatic approach to managing health crises during his rigorous mission work."
+    ],
+    "image": "dehradun.jpg"
+  },
+  {
+    "id": "vadodara_return",
+    "title": "Kathiawar",
+    "description": [
+      "Vivekananda returned to Gujarat during his 1897 all-India tour, reconnecting with patrons and establishing fresh contacts throughout Kathiawar. The magnetic force of his personality and profound spiritual teachings left lasting impressions on those who encountered him, while the missionary workers he dispatched to various cities throughout the region found receptive audiences eager to embrace Ramakrishna's gospel through the Swami's simplified and direct presentation of Vedantic truths."
+    ],
+    "image": "vadodara_return.jpg"
+  },
+  {
+    "id": "hyderabad_return",
+    "title": "Hyderabad — Mission Work",
+    "description": [
+      "During his mission-building tour of 1897, Vivekananda visited Hyderabad to strengthen the Ramakrishna Mission's presence and guide local leaders in applying Vedantic principles to social service. He passionately advocated for the education and uplift of the downtrodden masses, insisting that educated Indians had a sacred duty to combat priestcraft, social inequality, and national disorganization through practical spirituality rooted in social responsibility."
+    ],
+    "image": "hyderabad_return.png"
+  },
+  {
+    "id": "varanasi_final",
+    "title": "Varanasi — Last Pilgrimage",
+    "description": [
+      "In January 1902, months before his death, Vivekananda made his final sacred pilgrimage to Varanasi, the eternal city of Shiva and wisdom. Here he inaugurated the Advaita Ashrama and delivered profound discourses on Vedanta to devoted disciples gathered around him. Speaking of the Divine Mother and the imminent end of his earthly journey, he shared stories of great saints and sages he had encountered, his words carrying the weight of a life nearing its completion and a legacy approaching its full revelation."
+    ],
+    "image": "varanasi_final.png"
+  },
+  {
+    "id": "kashmir_final",
+    "title": "Kashmir — Final Himalayas",
+    "description": [
+      "In 1901, despite visibly deteriorating health, Vivekananda made his last journey to the Kashmir Valley, a region of profound spiritual beauty that had always drawn his meditative spirit. As his body weakened, he expressed readiness to leave the physical form, having completed his work and work-play on earth. This final sojourn in the beloved Himalayas represented a return to contemplation and peace, a conscious preparation for the great transition he sensed drawing near."
+    ],
+    "image": "kashmir_final.jpg"
+  },
+  {
+    "id": "belur_final",
+    "title": "Belur Math — Mahasamadhi",
+    "description": [
+      "On the evening of 4 July 1902, Swami Vivekananda entered his room at Belur Math for meditation, instructing his disciples not to disturb him. At 9:20 pm, at the age of thirty-nine, his head drooped as he consciously departed from his body in Mahasamadhi—a deliberate, yogic exit that fulfilled his own prophecy of not living to forty. His body was cremated on the banks of the Ganges near the Math, as the nation lost a towering spiritual giant whose brief life had ignited a renaissance of Hindu consciousness and established institutions that would carry his vision across generations.",
+      "On 4 July 1902, Swami Vivekananda attained Mahasamadhi (conscious exit from the body) at Belur Math at the age of 39. He had meditated in his room alone that evening, instructing disciples not to disturb him. At 9:20 pm, his head drooped — he had left his body. His passing fulfilled his own prediction that he would not live to forty. He was cremated on the banks of the Ganges at Belur Math."
+    ],
+    "image": "belur_final.jpg"
+  },
+  {
+    "id": "bodhgaya_final",
+    "title": "Bodh Gaya — Last Pilgrimage",
+    "description": [
+      "In 1901, Vivekananda made his final pilgrimage to Bodh Gaya, the sacred site of Buddha's enlightenment. Sitting in deep meditation beneath the ancient Bodhi Tree, he experienced a profound state of samadhi that dissolved the boundaries of individual consciousness. Emerging from this transcendent experience, he told a disciple that in that moment of union with the tree and the ground, he had become the Buddha himself. This experience crystallized his vision of the fundamental unity underlying all the world's great religious traditions, confirming his conviction that the deepest truths of spirituality transcend sectarian divisions."
+    ],
+    "image": "bodhgaya_final.jpg"
+  },
+  {
+    "id": "bosepara_lane",
+    "title": "16 Bosepara Lane",
+    "description": [
+      "The house at 16 Bosepara Lane in Simulia, Kolkata, became the formative home of young Narendranath Datta between 1877 and 1884, after the family relocated from their previous residence on Gourmohan Mukherjee Street. During these crucial teenage years, the future Swami Vivekananda grew intellectually and spiritually within its walls, absorbing influences that would shape his philosophical outlook and spiritual seeking. This modest Kolkata address witnessed the unfolding of a brilliant mind grappling with questions of faith, reason, and the nature of reality."
+    ],
+    "image": "bosepara_lane.jpg"
+  },
+  {
+    "id": "nilambur_house",
+    "title": "Nilambur Mukherjee Garden",
+    "description": [
+      "The garden house of Nilambur Mukherjee in Ramakrishnapur, Howrah, served as a spiritual refuge for Vivekananda and his brother monks during the early years of their monastic community following Sri Ramakrishna Paramahamsa's passing. In 1887, this tranquil setting became a monastery where the young disciples engaged in intensive spiritual practice and meditation, away from the distractions of urban life. The house represented a crucial period of consolidation and deepening of their monastic discipline under the guidance of their departed master's teachings."
+    ],
+    "image": "nilambur_house.jpg"
+  },
+  {
+    "id": "ramakrishnapur",
+    "title": "Ramakrishnapur, Howrah",
+    "description": [
+      "The riverside village of Ramakrishnapur in Howrah offered a serene sanctuary for the grieving disciples of Sri Ramakrishna during the uncertain years following their master's death in 1886. The gentle flow of the Ganges and the quiet natural surroundings created an ideal environment for the young monks to deepen their spiritual practice and process their profound loss. This period of retreat in the peaceful village allowed Vivekananda and his companions to consolidate their understanding of the master's teachings and define their future spiritual mission."
+    ],
+    "image": "ramakrishnapur.png"
+  },
+  {
+    "id": "rosebank_darjeeling",
+    "title": "Rose Bank, Darjeeling",
+    "description": [
+      "Vivekananda arrived at Rose Bank cottage in Darjeeling in 1897, seeking restoration of his physical health after the demanding rigors of his first tour through America and England. The cool, crisp mountain air of the Himalayas provided relief from his exhausted body, while the serene alpine setting offered space for reflection on his Western mission and its remarkable reception. During this mountain sojourn, he reconnected with brother monks and received an outpouring of letters from devoted followers in America and Europe, all urging his prompt return to continue the work he had begun in the West."
+    ],
+    "image": "rosebank_darjeeling.jpg"
+  },
+  {
+    "id": "chowk_bazar_darjeeling",
+    "title": "Chauk Bazaar, Darjeeling",
+    "description": [
+      "During his 1897 stay in Darjeeling, Vivekananda moved freely through the bustling bazaar areas, engaging with local residents and devotees who sought his presence and teachings. The cosmopolitan atmosphere of Darjeeling's marketplace provided a living laboratory for his observations about human nature and spiritual aspiration across different cultures and social stations. His wanderings through these busy commercial streets reflected his characteristic openness to people from all walks of life."
+    ],
+    "image": "chowk_bazar_darjeeling.jpg"
+  },
+  {
+    "id": "bhaita_darjeeling",
+    "title": "Bhaita (Vaita Village), Darjeeling",
+    "description": [
+      "The village of Bhaita in the Darjeeling hills offered Vivekananda an opportunity to observe and interact with the mountain people during his 1897 recuperative stay in the region. His time in this modest Himalayan settlement deepened his understanding of how ordinary people lived their spiritual lives and faced the challenges of existence in the remote foothills. These encounters reinforced his conviction that spirituality was not confined to monastic orders or the educated elite, but belonged to all humanity."
+    ],
+    "image": "bhaita_darjeeling.jpg"
+  },
+  {
+    "id": "barajaguli",
+    "title": "Barajaguli, Nadia",
+    "description": [
+      "Vivekananda's wanderings through Barajaguli in the Nadia district during 1889 took him to the birthplace of Sri Chaitanya Mahaprabhu, the great bhakti saint whose life and teachings embodied the path of devotional love to the Divine. The spiritual resonance of this sacred region, steeped in Chaitanya's revolutionary message of divine love for all beings, aligned perfectly with Vivekananda's own vision of practical spirituality rooted in service to humanity. His pilgrimage through these hallowed grounds reinforced the connection between India's mystical heritage and his mission to awaken the spiritual consciousness of the world."
+    ],
+    "image": "barajaguli.jpg"
+  },
+  {
+    "id": "kuppaghat",
+    "title": "Kuppaghat, Bhagalpur",
+    "description": [
+      "In 1888, during his years of wandering as a parivrajaka monk, Vivekananda found solace at Kuppaghat on the banks of the Ganga near Bhagalpur. He established himself in a small ashrama here, dedicating himself to deep meditation and spiritual practice. The riverside location provided the solitude and contemplative atmosphere he sought, allowing him to shed worldly attachments and deepen his inner realization during this formative period of his spiritual journey."
+    ],
+    "image": "kuppaghat.jpg"
+  },
+  {
+    "id": "bhagalpur",
+    "title": "Bhagalpur",
+    "description": [
+      "Bhagalpur held significance in Vivekananda's wandering years as an important stopping point along the Ganga. The ancient silk city's sacred ghats, where ascetics traditionally gathered, aligned with his quest for spiritual renewal. As he traveled through new places and encountered different communities, Vivekananda found that the solitude and village air delighted him, allowing him to free himself from old impressions and the burden of worldly concerns while pursuing his spiritual mission."
+    ],
+    "image": "bhagalpur.jpg"
+  },
+  {
+    "id": "dharamagarh_mayavati",
+    "title": "Dharamagarh Estate, Mayavati",
+    "description": [
+      "During his 1901 pilgrimage to the Himalayas, Vivekananda visited the Dharamagarh estate near Mayavati in the Almora district. This property was closely associated with the Sevier family, devoted Western disciples who had established the Advaita Ashrama under the Swami's spiritual guidance. The estate served as a base for his mountain retreat and work in spreading Vedantic teachings to both Eastern and Western seekers gathered in the Himalayan region."
+    ],
+    "image": "dharamagarh_mayavati.png"
+  },
+  {
+    "id": "sevier_bungalow",
+    "title": "Mrs. Sevier's Bungalow, Mayavati",
+    "description": [
+      "The bungalow of Captain and Mrs. Charlotte Sevier at the Advaita Ashrama in Mayavati became a cherished residence for Vivekananda during his Himalayan visits from 1898 to 1901. The Seviers, as devoted disciples, placed their home and resources at his service, providing him with hospitality and support for his spiritual work. In March 1899, Vivekananda sent written reflections on Vedantic philosophy to be incorporated into the Ashrama's prospectus, indicating his active engagement with the community from this location."
+    ],
+    "image": "sevier_bungalow.png"
+  },
+  {
+    "id": "captain_sevier_grave",
+    "title": "Captain Sevier's Samadhi, Mayavati",
+    "description": [
+      "Captain James Henry Sevier, one of Vivekananda's most devoted Western disciples, attained mahasamadhi at the Advaita Ashrama in Mayavati in 1900. His samadhi, a sacred memorial tomb erected within the Ashrama grounds, stands as a testament to the deep spiritual bond between the Swami and his Western followers. The site remains a sacred place within the ashrama, embodying the Swami's ideal of disciples dedicating their lives entirely to spiritual pursuits and service to humanity."
+    ],
+    "image": "captain_sevier_grave.png"
+  },
+  {
+    "id": "nivedita_almora",
+    "title": "Sister Nivedita's House, Almora",
+    "description": [
+      "Sister Nivedita, formerly Margaret Noble, stayed in Almora during Vivekananda's 1898 Himalayan tour, marking a transformative period in her spiritual initiation. Under the Swami's direct guidance, she experienced the grandeur of the mountains and immersed herself in Indian spiritual life. Her time in Almora as part of the Swami's traveling party of Western women disciples deepened her commitment to his vision of bringing Eastern wisdom to the West while serving India's spiritual renaissance."
+    ],
+    "image": "nivedita_almora.jpg"
+  },
+  {
+    "id": "lala_badri_shah_almora",
+    "title": "Lala Badri Shah's House, Almora",
+    "description": [
+      "Lala Badri Shah emerged as a devoted patron and supporter of Vivekananda during his multiple visits to Almora between 1898 and 1901. His home served as a regular haven for the Swami and his disciples, providing warm hospitality and tangible support for the spiritual work unfolding in the Himalayan region. Through his generous assistance, Lala Badri Shah became instrumental in sustaining the Swami's mountain retreat and helping establish the Advaita Ashrama as a center for Vedantic learning and practice."
+    ],
+    "image": "lala_badri_shah_almora.jpg"
+  },
+  {
+    "id": "vivekananda_cottage_almora",
+    "title": "Vivekananda's Cottage, Almora",
+    "description": [
+      "Vivekananda's cottage in Almora served as his primary mountain residence during his multiple visits from 1898 to 1901, becoming a vibrant center of spiritual discourse and philosophical inquiry. From this retreat, he received visitors, guided his Western and Indian disciples, and composed significant writings that would shape the dissemination of Vedantic thought. The cottage atmosphere reflected his desire to bring together seekers from diverse backgrounds, fostering deep spiritual conversations that embodied his vision of universal Vedanta."
+    ],
+    "image": "vivekananda_cottage_almora.jpg"
+  },
+  {
+    "id": "thompson_house_almora",
+    "title": "Thompson House, Almora",
+    "description": [
+      "In 1898, Vivekananda arrived in Almora with a diverse party that included Western women disciples such as Mrs. Ole Bull of Cambridge, Massachusetts, and members of the Anglo-Indian elite, along with his monastic brothers and Indian devotees. The Swami and his entourage became guests at Thompson House, which served as a gathering point within the growing international community that had formed around him during his Himalayan sojourns. This residence became one of several homes and cottages in the region where the Swami maintained his center of spiritual work, facilitating exchanges between his Eastern monastic tradition and Western seekers drawn to his teachings."
+    ],
+    "image": "thompson_house_almora.jpg"
+  },
+  {
+    "id": "kasar_devi_temple",
+    "title": "Kasar Devi Temple, Almora",
+    "description": [
+      "During his 1898 stay in Almora, Vivekananda visited the ancient Kasar Devi temple perched on a ridge above the town. The sacred site, with its reputation as a powerful spiritual location, attracted the Swami's contemplative practice, and he spent time in meditation at this elevated sanctuary. The temple's serene environment and its significance in the local spiritual landscape aligned with his quest for renewal during his Himalayan pilgrimage."
+    ],
+    "image": "kasar_devi_temple.jpg"
+  },
+  {
+    "id": "syahi_devi_temple",
+    "title": "Syahi Devi Temple, Almora",
+    "description": [
+      "The forested hilltop shrine of Syahi Devi near Almora was part of Vivekananda's spiritual itinerary during his 1898 Himalayan journey. As a traditional pilgrimage destination revered in the Kumaon region, the temple represented the living devotional traditions of the mountains that the Swami sought to understand and honor. His visits to such sacred sites reflected his reverence for all forms of worship and his desire to experience the spiritual heritage of the Himalayan foothills."
+    ],
+    "image": "syahi_devi_temple.jpg"
+  },
+  {
+    "id": "raghunath_temple_almora",
+    "title": "Sri Raghunath Temple, Almora",
+    "description": [
+      "While in Almora in 1898, Vivekananda visited the historic Sri Raghunath temple located in the town's bazaar area, continuing his lifelong veneration of Lord Rama and engagement with Vaishnava sacred spaces. The temple visit was characteristic of his spiritual practice during his wandering years, when he sought out places of worship across India to deepen his understanding of living Hindu traditions and to connect with devotees of all spiritual paths."
+    ],
+    "image": "raghunath_temple_almora.jpg"
+  },
+  {
+    "id": "dewaldhar_estate",
+    "title": "Dewaldhar Estate, Almora",
+    "description": [
+      "The scenic Dewaldhar estate in the Almora hills became a retreat for Vivekananda and his growing circle of Western disciples during his 1898 stay in the mountains. The property, associated with families like the Seviers who had embraced his teachings, offered a tranquil environment where the Swami could rest and engage in spiritual work away from the demands of his public activities. The estate exemplified how Western devotees were creating spaces of sanctuary in the Himalayan foothills to support his mission."
+    ],
+    "image": "dewaldhar_estate.jpg"
+  },
+  {
+    "id": "bhim_tal",
+    "title": "Bhim Tal",
+    "description": [
+      "During his final Himalayan journey around 1900, Vivekananda traveled through the Kumaon hills to the picturesque lake town of Bhimtal, where the serene waters and forested surroundings provided an ideal setting for meditation and contemplation. The journey through this region, with its almost tropical hill forests and natural beauty, offered the Swami moments of spiritual renewal as he moved between the mountains and the plains, reflecting on his life's work and teachings."
+    ],
+    "image": "bhim_tal.jpg"
+  },
+  {
+    "id": "tehri",
+    "title": "Tehri",
+    "description": [
+      "During his 1890 Himalayan pilgrimage, Vivekananda visited the princely state of Tehri Garhwal in the dramatic landscape of the Garhwal hills along the Bhagirathi river. His sojourn included meetings with local dignities and opportunities for meditation in this remote mountain kingdom, where he continued his practice of combining spiritual discipline with engagement in the world around him. The experience of Tehri added to his deepening knowledge of India's diverse regions and ruling classes."
+    ],
+    "image": "tehri.jpg"
+  },
+  {
+    "id": "roshanara_bagh",
+    "title": "Roshanara Bagh, Delhi",
+    "description": [
+      "In late 1897, during his return to Delhi following his triumphal tour of America and Europe, Vivekananda stayed in the city and used Roshanara Bagh, the historic Mughal-era garden, as a gathering place for meetings with devotees and seekers. The grand setting, steeped in Delhi's imperial history, provided an appropriate venue for the Swami to address his growing circle of followers and to continue organizing his spiritual and organizational work. His presence in Delhi marked his reentry into active work in India after his transformative years abroad."
+    ],
+    "image": "roshanara_bagh.jpg"
+  },
+  {
+    "id": "jodhpur",
+    "title": "Jodhpur",
+    "description": [
+      "During his wandering years across Rajputana in 1891, Vivekananda arrived in Jodhpur and gained the attention of the Maharaja, who was profoundly moved by the young monk's spiritual presence and intellect. When the Maharaja offered material assistance to Vivekananda, the swami initially hesitated, feeling it compromised his independence. The Maharaja's response—invoking the ancient Kshatriya duty to protect dharma—gave Vivekananda pause, and he recognized the deeper principle underlying the offer. The fortified Blue City with its imposing architecture and martial history left a lasting impression on the wandering ascetic as he traversed the princely states of Rajasthan."
+    ],
+    "image": "jodhpur.jpg"
+  },
+  {
+    "id": "wadhwan",
+    "title": "Wadhwan",
+    "description": [
+      "Vivekananda's journey through Saurashtra in 1891 brought him to Wadhwan, a small princely state where the local ruler extended traditional hospitality to the wandering monk. During his stay, Vivekananda engaged with the spiritual landscape of Gujarat, meeting with scholars and seekers who were drawn to his powerful teachings. The princely state served as another important waypoint in his extended pilgrimage through western India, where he encountered the diverse cultural and religious tapestry of the region."
+    ],
+    "image": "wadhwan.png"
+  },
+  {
+    "id": "limbdi",
+    "title": "Limbdi",
+    "description": [
+      "In Limbdi, a Saurashtra principality, Vivekananda experienced the warmth of royal patronage when the Thakore Saheb came to his aid during a moment of difficulty. When the swami found himself in financial straits, he entrusted a young devotee with a note explaining his predicament, and the Thakore Saheb personally responded to the request for assistance. This encounter exemplified the spiritual magnetism that drew Rajput rulers to support the wandering monk, and Limbdi's ruler later extended an earnest invitation for Vivekananda to settle there permanently—an offer the swami graciously declined, saying he could not rest while his work remained unfinished."
+    ],
+    "image": "limbdi.jpg"
+  },
+  {
+    "id": "bhavnagar",
+    "title": "Bhavnagar",
+    "description": [
+      "Vivekananda's visit to the coastal city of Bhavnagar during his 1891 Gujarat journey brought him into contact with the princely ruler and his court. The port city's proximity to Palitana and its position as a center of commerce and culture made it a significant stop along his wandering path. Following an incident that had tested his safety during solitary travels, the Prince of Bhavnagar counseled Vivekananda about the risks of his unguarded wanderings and provided recommendations to trustworthy contacts throughout the region, helping the swami navigate his journeys with greater circumspection."
+    ],
+    "image": "bhavnagar.jpg"
+  },
+  {
+    "id": "girnar",
+    "title": "Girnar",
+    "description": [
+      "Vivekananda's spiritual pilgrimage brought him to Girnar, the ancient sacred mountain near Junagadh that has drawn seekers of all faiths—Hindu, Jain, and Buddhist—for millennia. The swami climbed this storied peak with its clusters of temples and sanctuaries, where he meditated among the sacred sites that crowned the mountain. At Girnar, Vivekananda communed with the divine presence that generations of pilgrims had sought in this hallowed place, absorbing the spiritual atmosphere accumulated over centuries of worship and devotion."
+    ],
+    "image": "girnar.jpg"
+  },
+  {
+    "id": "bhuj",
+    "title": "Bhuj",
+    "description": [
+      "During his extensive wanderings through Gujarat in 1891, Vivekananda visited Bhuj, the principal city of the Kutch region, where the unique cultural landscape and arid terrain presented a distinct spiritual environment. The remote desert kingdom, isolated by the surrounding Rann, offered the wandering monk encounter with people whose lives were shaped by this stark and singular geography. His presence in this distant corner of India demonstrated the far reach of his spiritual mission even in the least accessible regions of the subcontinent."
+    ],
+    "image": "bhuj.jpg"
+  },
+  {
+    "id": "veraval",
+    "title": "Veraval",
+    "description": [
+      "Vivekananda's pilgrimage through Saurashtra in 1891 brought him to Veraval, the ancient port city that serves as the gateway to the sacred Somnath temple. This coastal settlement holds profound historical and spiritual significance as the site of the Somnath Jyotirlinga, which had been destroyed and rebuilt repeatedly through the centuries. The swami visited this place of immense religious power, connecting with the layers of faith and resilience embedded in this holy shrine on the Arabian Sea coast."
+    ],
+    "image": "veraval.jpg"
+  },
+  {
+    "id": "narayan_sarovar",
+    "title": "Narayan Sarovar",
+    "description": [
+      "Vivekananda ventured to the remote Narayan Sarovar during his wanderings through Kutch, seeking out one of Hinduism's five most sacred lakes. This isolated pilgrimage site near the westernmost tip of Kutch, far removed from the centers of population and power, drew the ascetic's spiritual magnetism. At this hallowed lake where countless devotees had performed their rituals and meditations, Vivekananda found himself in communion with the ancient sacred traditions that had preserved Hindu spirituality through the ages."
+    ],
+    "image": "narayan_sarovar.jpg"
+  },
+  {
+    "id": "mandvi",
+    "title": "Mandvi",
+    "description": [
+      "During his 1891 Gujarat tour, Vivekananda traveled to the historic port city of Mandvi in Kutch, where he reunited with his brother-disciple Akhanda­nanda, who had been following him since Delhi. The two monks remained together in this shipbuilding town for about a fortnight before Akhanda­nanda continued his own pilgrimage at Swamiji's earnest desire to pursue solitary wandering. This meeting in Mandvi marked an important moment in Vivekananda's extensive exploration of western India, as he sought both spiritual solitude and the company of fellow seekers."
+    ],
+    "image": "mandvi.jpg"
+  },
+  {
+    "id": "beyt_dwarka",
+    "title": "Beyt Dwarka",
+    "description": [
+      "Vivekananda's pilgrimage through Saurashtra in 1891 brought him to Beyt Dwarka, the sacred island off Gujarat's coast that tradition reveres as the actual historical residence of Lord Krishna. This visit to the island sanctuary allowed him to commune with one of Hinduism's most sacred sites and deepen his understanding of Krishna's divine legacy in the landscape itself."
+    ],
+    "image": "beyt_dwarka.jpg"
+  },
+  {
+    "id": "ashapuri",
+    "title": "Ashapuri",
+    "description": [
+      "During his 1891 wanderings through Saurashtra's Kathiawar region, Vivekananda passed through Ashapuri near Bhavnagar, traversing the ancient pilgrim circuit on foot. His travels through these small towns with their temples reflected his commitment to understanding India's sacred geography firsthand, though his solitary journeys sometimes required caution and careful judgment about his surroundings and companions."
+    ],
+    "image": "ashapuri.jpg"
+  },
+  {
+    "id": "palitana",
+    "title": "Palitana",
+    "description": [
+      "Vivekananda visited Palitana in 1891, standing before the magnificent cluster of over nine hundred temples crowning Shatrunjaya Hill, the foremost Jain pilgrimage destination. The sight of these marble sanctuaries carved into the sacred mountain and the profound Jain commitment to ahimsa left a deep impression on the wandering monk, who recognized in this tradition another expression of India's spiritual genius."
+    ],
+    "image": "palitana.jpg"
+  },
+  {
+    "id": "khandwa",
+    "title": "Khandwa",
+    "description": [
+      "During his parivrajaka years around 1890, Vivekananda journeyed through central India's Narmada valley region, passing through Khandwa in present-day Madhya Pradesh. His travels through these territories reflected his systematic exploration of India's interior, gathering knowledge of its people, traditions, and spiritual landscape during his formative years as a wandering renunciate."
+    ],
+    "image": "khandwa.jpg"
+  },
+  {
+    "id": "ujjain",
+    "title": "Ujjain",
+    "description": [
+      "Vivekananda visited Ujjain in 1890, one of Hinduism's seven sacred cities and home to the Mahakaleshwar Jyotirlinga. This ancient center of learning and spirituality held deep significance for him as he traced the sacred geography of India, understanding the living tradition of worship and pilgrimage that had sustained Hindu civilization through the centuries."
+    ],
+    "image": "ujjain.jpg"
+  },
+  {
+    "id": "maheshwar",
+    "title": "Maheshwar",
+    "description": [
+      "Vivekananda journeyed to Maheshwar on the Narmada in 1890, revering this historic riverside town associated with the great Queen Ahilyabai Holkar's spiritual legacy. The sacred ghats and temples along the Narmada provided him moments of contemplation and connection to the river's spiritual sanctity, which held profound meaning in Hindu tradition and in his own spiritual practice."
+    ],
+    "image": "maheshwar.jpg"
+  },
+  {
+    "id": "mahabaleshwar",
+    "title": "Mahabaleshwar",
+    "description": [
+      "During his Maharashtra travels in 1892, Vivekananda visited the hill station of Mahabaleshwar in the Sahyadri mountains, where the Krishna river originates at the ancient temple. This pilgrimage site's sacred significance as the birth-place of one of India's greatest rivers drew him to experience the divine landscape and the spiritual consciousness embedded in these mountains."
+    ],
+    "image": "mahabaleshwar.jpg"
+  },
+  {
+    "id": "kolhapur",
+    "title": "Kolhapur",
+    "description": [
+      "During his South India journey in 1892, Vivekananda arrived at Kolhapur, home to the sacred Mahalakshmi temple, one of Hinduism's most revered Shakti Peethas. The royal city extended warm hospitality to the wandering monk, and he engaged with eager audiences through discourses that resonated with both scholars and devotees. His visit to this important pilgrimage center reinforced his mission to awaken spiritual consciousness across India's sacred sites."
+    ],
+    "image": "kolhapur.jpg"
+  },
+  {
+    "id": "nagpur",
+    "title": "Nagpur",
+    "description": [
+      "Vivekananda passed through Nagpur during his parivrajaka years as he traversed the heart of central India, engaging with local scholars and spiritual seekers. The geographical center of the Indian subcontinent provided another opportunity for him to share his teachings with devotees encountered along his peripatetic journey through the heartland."
+    ],
+    "image": "nagpur.jpg"
+  },
+  {
+    "id": "thrissur",
+    "title": "Thrissur (Trichur)",
+    "description": [
+      "In 1892, Vivekananda arrived in Thrissur, Kerala's cultural capital renowned for its temples and Vedic traditions. He interacted with the region's scholars and spiritual leaders, experiencing firsthand the sophisticated intellectual and religious milieu that characterized this center of classical arts and learning in South India."
+    ],
+    "image": "thrissur.jpg"
+  },
+  {
+    "id": "kodungalloor",
+    "title": "Kodungalloor (Cranganore)",
+    "description": [
+      "Vivekananda visited Kodungalloor, the ancient port town of Cranganore with its remarkable layers of interfaith history as a center of early Jewish, Christian, and Muslim settlements. The sacred Bhagavati temple, among Kerala's most venerated shrines, provided a focal point for his engagement with the region's profound spiritual heritage during his South India pilgrimage."
+    ],
+    "image": "kodungalloor.jpg"
+  },
+  {
+    "id": "paramakudi",
+    "title": "Paramakudi",
+    "description": [
+      "Paramakudi served as the first major stopping point after Vivekananda departed Ramnad during his 1892 South India tour through the Pandya Nadu region. The town received him with a large public demonstration and ceremonial address of welcome, reflecting the deep admiration and spiritual hunger that greeted him throughout the Tamil heartland as he journeyed toward Kanyakumari."
+    ],
+    "image": "paramakudi.png"
+  },
+  {
+    "id": "manamadurai",
+    "title": "Manamadurai",
+    "description": [
+      "Manamadurai in Sivaganga district was one of numerous stops along Vivekananda's sacred route through Tamil Nadu's ancient temple towns. The region's spiritual landscape, anchored by its venerable Shiva temple, formed part of his pilgrimage toward the southern cape where he would meditate at the confluence of three seas."
+    ],
+    "image": "manamadurai.jpg"
+  },
+  {
+    "id": "kumbakonam",
+    "title": "Kumbakonam",
+    "description": [
+      "Vivekananda visited Kumbakonam, the legendary 'City of Temples' nestled in the fertile Cauvery delta, where the local Hindu community formally welcomed him with an address of respect. The town's dozens of ancient temples and the sacred Mahamaham tank provided rich spiritual ground for his teachings on the Vedanta mission and India's religious renewal during his 1892 South India tour."
+    ],
+    "image": "kumbakonam.jpg"
+  },
+  {
+    "id": "pondicherry",
+    "title": "Pondicherry",
+    "description": [
+      "In late 1892, after meditating at Kanyakumari, Vivekananda journeyed northward through the sacred landscape of Ramnad toward Pondicherry, the French colonial enclave on the Coromandel coast. This distinctive settlement, blending French and Tamil cultures, represented another waypoint in his transformative pilgrimage through South India before he would ultimately reach the scholarly centers of Madras and beyond."
+    ],
+    "image": "pondicherry.jpg"
+  },
+  {
+    "id": "chennai_rr_sabha",
+    "title": "R.R. Sabha, Madras",
+    "description": [
+      "In 1893, the R.R. Sabha in Triplicane served as a vital platform for Vivekananda to address Madras audiences during his final preparations for the Parliament of Religions. The venue hosted public lectures where enthusiastic supporters gathered not only to hear the young monk expound on Hindu philosophy but also to organize fundraising efforts for his momentous journey to America. These farewell meetings reflected the deep connection Vivekananda had forged with the Madras intelligentsia, who recognized the significance of his mission to represent Vedantic thought on the world stage."
+    ],
+    "image": "chennai_rr_sabha.jpg"
+  },
+  {
+    "id": "chennai_castle_kernan",
+    "title": "Castle Kernan, Madras",
+    "description": [
+      "Castle Kernan in Triplicane became a temporary sanctuary for Vivekananda during his final months in Madras before embarking for America in 1893. The residence hosted a steady stream of devoted admirers and supporters who came to seek his blessings and counsel as he prepared for his unprecedented voyage. From this base, Vivekananda coordinated his departure arrangements while continuing to inspire those around him with his vision of spiritual reformation for India."
+    ],
+    "image": "chennai_castle_kernan.jpg"
+  },
+  {
+    "id": "dharamshala",
+    "title": "Dharamshala (Dharmsala)",
+    "description": [
+      "During his 1897 northern India tour following his return from America, Vivekananda discovered solace in Dharamshala's cool mountain air and serene setting in the Kangra valley. Nestled beneath the Dhauladhar range, this hill station provided respite for the Swami and his traveling party, including his devoted disciples. The town became a gathering place where he met with local devotees and contemplated the spiritual needs of the nation he had returned to serve."
+    ],
+    "image": "dharamshala.jpg"
+  },
+  {
+    "id": "ambala",
+    "title": "Ambala",
+    "description": [
+      "Vivekananda passed through Ambala on August 19, 1897, as he traversed Punjab during his post-America tour of northern India. The railway junction served as a crucial transit point connecting Delhi to the Punjab region, and during his brief stay the Swami maintained his correspondence with followers across India, reflecting on the progress of his mission. It was in Ambala that his thoughts turned to the practical work of establishing institutions for spiritual education and social service."
+    ],
+    "image": "ambala.jpg"
+  },
+  {
+    "id": "pampore",
+    "title": "Pampore (Pampur)",
+    "description": [
+      "During his 1898 Kashmir journey, Vivekananda traveled through Pampore, the heart of Kashmir's renowned saffron-growing region south of Srinagar. The landscape of vast saffron fields and the valley's natural beauty provided moments of peaceful contemplation as he journeyed through the region as the guest of Mrs. Ole Bull. His passage through this picturesque town formed part of his extended Kashmir pilgrimage, where he sought both spiritual renewal and deeper understanding of India's sacred geography."
+    ],
+    "image": "pampore.jpg"
+  },
+  {
+    "id": "anantnag",
+    "title": "Anant Nag",
+    "description": [
+      "Vivekananda visited Anantnag, the ancient Islamabad of south Kashmir, during his 1898 pilgrimage through the valley. The town's proximity to sacred sites and its holy springs drew the Swami to this spiritually significant location, where local officials and seekers came to receive his teachings. After his time in Anantnag, he continued onward through Kashmir, integrating the experiences of these holy places into his vision of revitalized Hindu spirituality."
+    ],
+    "image": "anantnag.jpg"
+  },
+  {
+    "id": "baramulla",
+    "title": "Baramula",
+    "description": [
+      "Between June 20-22, 1898, Vivekananda and his party, including disciples such as Nivedita and Dhira Mata, traversed the route toward Baramulla, the ancient gateway to the Kashmir valley on the Jhelum river. This historic town with its temple ruins marked an important threshold in his Kashmir journey, serving as the entry point from which he would journey deeper into the valley's sacred landscape. His passage through Baramulla connected him to centuries of pilgrims who had traversed this same route in search of spiritual fulfillment."
+    ],
+    "image": "baramulla.jpg"
+  },
+  {
+    "id": "jammu",
+    "title": "Jammu",
+    "description": [
+      "Vivekananda arrived in Jammu, the City of Temples, as part of his comprehensive Kashmir and Punjab tour in 1898. The town served as his gateway to the valley, and his visit attracted considerable attention from local dignitaries and spiritual seekers. His time in Jammu, en route to deeper Kashmir, demonstrated the widespread appreciation his message had gained throughout northern India, with even palace officials and administrators seeking his counsel on matters both spiritual and worldly."
+    ],
+    "image": "jammu.jpg"
+  },
+  {
+    "id": "kheer_bhawani",
+    "title": "Kheer Bhawani temple (Kshir Bhavani)",
+    "description": [
+      "During his 1898 Kashmir pilgrimage, Vivekananda journeyed to the sacred spring temple of Kheer Bhawani on September 30th, departing from his camp at Achabal where he had spent a contemplative week in early September. This revered shrine of Goddess Ragnya Devi became one of the most spiritually significant stops of his valley sojourn, where he underwent a profound mystical experience that would remain among the most powerful encounters of his spiritual life."
+    ],
+    "image": "kheer_bhawani.jpg"
+  },
+  {
+    "id": "amarnath",
+    "title": "Amarnath cave temple",
+    "description": [
+      "In August 1898, Vivekananda undertook the demanding pilgrimage to the Amarnath Cave, one of the holiest sanctuaries of Lord Shiva nestled high in the Himalayan peaks. His ascent to the sacred ice Shiva Lingam at this altitude became a watershed moment in his spiritual journey, an encounter of such intensity that he would later describe it as one of the most transformative experiences of his entire life, deepening his understanding of Hindu mysticism and devotion."
+    ],
+    "image": "amarnath.jpg"
+  },
+  {
+    "id": "dal_lake",
+    "title": "Dal Lake (Dalh Lake)",
+    "description": [
+      "Vivekananda resided on a houseboat on the Dal Lake in Srinagar during his 1898 Kashmir sojourn, from where he dispensed spiritual teachings to his Western disciples including Nivedita, Josephine MacLeod, and Sara Bull. Anchored against the majestic backdrop of the Himalayas, he shared profound wisdom with his companions while appreciating the unparalleled beauty of the valley, which he considered the ideal landscape for yogic contemplation and spiritual practice."
+    ],
+    "image": "dal_lake.jpg"
+  },
+  {
+    "id": "ganderbal",
+    "title": "Ganderbal",
+    "description": [
+      "Before departing for Kheer Bhawani, Vivekananda moved his boat to Ganderbal on the Sindh river in central Kashmir, positioning himself near his disciples for a final few days together in the valley. This location on the route toward the sacred Kheer Bhawani temple marked a transition point in his pilgrimage itinerary, allowing him to remain close to his spiritual community before undertaking his next significant journey."
+    ],
+    "image": "ganderbal.jpg"
+  },
+  {
+    "id": "achabal",
+    "title": "Achabal",
+    "description": [
+      "In early September 1898, Vivekananda established camp for a week at Achabal, drawn by its magnificent Mughal gardens and natural spring. It was amid these terraced gardens that he gathered with his companions for sustained spiritual practice under definite direction, finding in the verdant landscape and flowing waters an ideal setting for meditative retreat before announcing his intention to undertake the pilgrimage to Amarnath."
+    ],
+    "image": "achabal.jpg"
+  },
+  {
+    "id": "guwahati",
+    "title": "Guwahati (Gauhati)",
+    "description": [
+      "During his 1901 tour of East Bengal, Vivekananda visited Guwahati and the renowned Kamakhya temple, one of the foremost Shakti Peethas of India perched on Nilachal Hill above the Brahmaputra river. Despite declining health from asthma and other ailments, he engaged compassionately with the local devotees, offering words of solace and spiritual wisdom that revealed his empathy even as his own physical suffering intensified."
+    ],
+    "image": "guwahati.jpg"
+  },
+  {
+    "id": "shillong",
+    "title": "Shillong",
+    "description": [
+      "Vivekananda arrived in Shillong, then Assam's capital and a picturesque hill station in the Khasi hills, during his 1901 eastern India tour, seeking respite in its pleasant climate. However, the elevation provided little relief for his deteriorating health, compounded by diabetes and severe asthma attacks that had plagued him since Dacca, yet he continued to offer his presence and teachings to the local community during this final chapter of his eastern travels."
+    ],
+    "image": "shillong.jpg"
+  },
+  {
+    "id": "margao",
+    "title": "Margao",
+    "description": [
+      "Vivekananda passed through Margao, the commercial heart of Portuguese-held Goa, during his wanderings through South India in 1892. This journey through the colonial territory exposed him to Goa's unique cultural synthesis, where centuries of Portuguese influence had created a distinctive blend of Indian and European civilizations distinct from the rest of the subcontinent."
+    ],
+    "image": "margao.jpg"
+  },
+  {
+    "id": "murree",
+    "title": "Murree",
+    "description": [
+      "During his 1897 North India tour, Vivekananda visited the hill station of Murree in early October, where he retreated to recover from the intense spiritual and physical exertion of his Kashmir campaign. By October 11th, the Swami had grown introspective about his tireless work of the previous ten days, recognizing signs of exhaustion and reflecting on his demanding nature toward his disciples. Though unwell, he demonstrated characteristic compassion by visiting Mr. Sevier and persuading him to accept reduced monetary support. From Murree, he departed for Srinagar via Baramulla, continuing his influential journey through the northern regions where his teachings had garnered widespread appreciation from both common devotees and royal patrons."
+    ],
+    "image": "murree.jpg"
+  },
+  {
+    "id": "sialkot",
+    "title": "Sialkot",
+    "description": [
+      "Vivekananda delivered his discourse on Bhakti at Sialkot during his 1897 Punjab tour, responding to invitations that drew him through this ancient Himalayan foothills region. His visit formed part of a broader northern campaign that took him through Punjab and Kashmir, where his religious teachings and social reformist ideas gained considerable traction among local audiences. Notably, during this tour the Swami primarily lectured in Hindi, bringing such vitality and philosophical depth to the language that the Maharaja of Kashmir himself requested written papers in that tongue—a testament to the unique power Vivekananda infused into his vernacular discourse."
+    ],
+    "image": "sialkot.jpg"
+  },
+  {
+    "id": "sitakund",
+    "title": "Sitakund",
+    "description": [
+      "Vivekananda visited Sitakund, the ancient pilgrimage site near Chittagong crowned by the Chandranath Hills temple, during his early wanderings through Bengal. The sacred geography of this hilltop sanctuary, with its perpetually burning holy fire and deep roots in Hindu spiritual tradition, represented the kind of venerable religious landscape that drew the young monk to explore India's sacred geography and understand the devotional pulse of his homeland."
+    ],
+    "image": "sitakund.jpg"
+  },
+  {
+    "id": "sandakphu",
+    "title": "Sandakphu",
+    "description": [
+      "During his early Himalayan wanderings in 1888, Vivekananda reached Sandakphu, the highest peak in West Bengal perched on the Nepal-India border. From this rarefied altitude, the young ascetic gazed upon four of the world's five tallest mountains, experiences that profoundly stirred his spiritual sensibilities and deepened his connection to the sublime grandeur of the Himalayas that would inspire him throughout his life."
+    ],
+    "image": "sandakphu.jpg"
+  },
+  {
+    "id": "heidelberg",
+    "title": "Heidelberg, Germany",
+    "description": [
+      "Vivekananda visited Heidelberg during his 1900 European sojourn, engaging with the intellectual and scholarly traditions of this renowned university city on the Neckar. The philosophical and scientific culture of Heidelberg provided the Swami with opportunities to dialogue with German Indologists and thinkers, furthering his mission to bridge Eastern and Western intellectual traditions during his transformative Western tour."
+    ],
+    "image": "heidelberg.jpg"
+  },
+  {
+    "id": "koblenz",
+    "title": "Koblenz (Coblenz), Germany",
+    "description": [
+      "Vivekananda passed through Koblenz at the confluence of the Rhine and Moselle during his 1900 European travels, experiencing the dramatic Rhine valley landscape that would mark a memorable segment of his German journey. The scenic beauty and historic significance of this strategic river city formed part of the aesthetic and cultural impressions that shaped his European experience."
+    ],
+    "image": "koblenz.jpg"
+  },
+  {
+    "id": "cologne",
+    "title": "Cologne (Köln)",
+    "description": [
+      "During his 1900 European tour, Vivekananda visited Cologne and marveled at the soaring Gothic cathedral, one of Christendom's greatest architectural achievements. The Swami attended a service within the sanctuary, profoundly moved by the religious devotion crystallized in the cathedral's magnificent stonework and sacred space—a testament to his deep appreciation for how spiritual conviction manifests in the artistic and architectural expressions of different cultures."
+    ],
+    "image": "cologne.jpg"
+  },
+  {
+    "id": "milan",
+    "title": "Milan, Italy",
+    "description": [
+      "Vivekananda's first experience in Italy came during his 1900 European tour when he visited Milan, where he was deeply impressed by Leonardo da Vinci's masterpiece 'The Last Supper.' The city's artistic treasures and spiritual resonance greatly appealed to the Swami, who found in Milan's cultural achievements a reflection of human genius devoted to religious expression. His engagement with these works demonstrated his capacity to appreciate the universal spiritual language embedded in Western art, even as his heart increasingly turned toward the call of his Indian motherland."
+    ],
+    "image": "milan.jpg"
+  },
+  {
+    "id": "florence",
+    "title": "Florence, Italy",
+    "description": [
+      "During his 1900 European tour, Vivekananda traveled through Italy and experienced Florence's extraordinary artistic heritage. The Renaissance city captivated him with its rich cultural and spiritual legacy, allowing him to draw profound parallels between Italian artistic achievement and Indian aesthetic spirituality. He recognized how beauty served as a vehicle for the divine across cultures, deepening his understanding of universal spiritual expression. While in Italy, he also visited Milan and Pisa, marveling at their architectural treasures, particularly the intricate marble work that adorned these ancient cities."
+    ],
+    "image": "florence.jpg"
+  },
+  {
+    "id": "rome",
+    "title": "Rome, Italy",
+    "description": [
+      "Vivekananda visited Rome during his 1900 European tour, where the Eternal City's ancient grandeur and religious significance profoundly moved him. The Christmas season in Rome filled the air with spiritual presence, and the Swami was deeply affected by the Christ-spirit pervading the city. He spent considerable time reflecting on the universal religious impulse evident in Rome's sacred sites, including the Vatican and St. Peter's Basilica, and spoke touchingly of parallels between the Christ-Child and the Indian divine figure of Krishna, recognizing the common spiritual yearning across civilizations."
+    ],
+    "image": "rome.jpg"
+  },
+  {
+    "id": "naples",
+    "title": "Naples, Italy",
+    "description": [
+      "Naples served as a crucial port of call during Vivekananda's 1900 European journey homeward to India. On December 16, the Swami and his companions departed London for the Continent, with arrangements made for Mr. Goodwin to meet them at Naples. From this major Mediterranean port, his path led toward Egypt and ultimately back to India, marking a significant transition point in his transformative European mission as he prepared to return home and establish his spiritual work on Indian soil."
+    ],
+    "image": "naples.jpg"
+  },
+  {
+    "id": "hotel_continental_paris",
+    "title": "Hotel continental",
+    "description": [
+      "The Hotel Continental on Rue de Rivoli served as Vivekananda's base during his influential 1900 Paris visit. Located near the Tuileries, this luxury establishment provided him with a central position from which to engage with Parisian intellectual and spiritual circles while attending the Congress of the History of Religions at the Paris World's Fair. The hotel became a gathering place for seekers and intellectuals drawn to his teachings on Vedanta and Indian philosophy."
+    ],
+    "image": "hotel_continental_paris.jpg"
+  },
+  {
+    "id": "american_cathedral_paris",
+    "title": "American Cathedral",
+    "description": [
+      "The American Cathedral on Avenue George V in Paris became one of Vivekananda's platforms for sharing Vedantic wisdom during his 1900 Paris visit. Speaking to audiences of American and European seekers gathered in this sacred space, the Swami articulated the universal principles of Indian philosophy to Western audiences. His presence at this venue reflected the bridge-building mission that defined his European sojourn, bringing Eastern spiritual teachings into the heart of Western religious institutions."
+    ],
+    "image": "american_cathedral_paris.jpg"
+  },
+  {
+    "id": "leggetts_house_paris",
+    "title": "Leggetts' house",
+    "description": [
+      "The Leggett family home in Paris became a center of Vivekananda's social and spiritual activity during his 1900 visit. Francis Leggett and his sister Alberta, devoted American disciples who had previously hosted the Swami in New York and London, welcomed him into their Paris residence as a continuation of their service. The household served as an intimate gathering place where the Swami discussed his spiritual vision and future work in India with close disciples and friends."
+    ],
+    "image": "leggetts_house_paris.jpg"
+  },
+  {
+    "id": "jules_bois_paris",
+    "title": "Jules Bois' home",
+    "description": [
+      "Jules Bois, a prominent French occultist and writer deeply interested in Eastern mysticism, hosted Vivekananda at his Paris home during the 1900 visit. Bois represented the intellectual and spiritual avant-garde of fin-de-siècle Paris, and his engagement with the Swami reflected the growing European fascination with Eastern wisdom. Through Bois' salon, Vivekananda connected with French occultists and seekers curious about the philosophical foundations of Indian spirituality."
+    ],
+    "image": "jules_bois_paris.jpg"
+  },
+  {
+    "id": "perros_guirec",
+    "title": "Perros-Guirec, Brittany",
+    "description": [
+      "Vivekananda spent the summer of 1900 recuperating at Perros-Guirec on the rugged Pink Granite Coast of Brittany, a seaside retreat arranged by his devoted disciples. Josephine MacLeod and other close companions accompanied him to this tranquil Breton setting, providing him respite during his intensive European mission. The coastal solitude of this picturesque location offered the Swami a period of rest and reflection between his demanding Paris activities and his subsequent travels to Vienna, Constantinople, and Athens before his unexpected return to India in December 1900."
+    ],
+    "image": "perros_guirec.jpg"
+  },
+  {
+    "id": "chamonix",
+    "title": "Chamonix",
+    "description": [
+      "During his 1900 European journey, Vivekananda traveled to Chamonix in the French Alps, some forty miles from Geneva where he had spent three days bathing and visiting the Castle of Chillon. The towering majesty of Mont Blanc and the spectacular Alpine landscape stirred his spirit deeply, evoking memories of the Himalayan peaks he had cherished throughout his life. Amidst the grandeur of these mountains, he found solace in meditation, allowing the sublime natural beauty to deepen his spiritual practice."
+    ],
+    "image": "chamonix.jpg"
+  },
+  {
+    "id": "normandy",
+    "title": "Normandy",
+    "description": [
+      "Normandy's scenic coastal landscape welcomed Vivekananda and his traveling companions during the summer of 1900, as they continued their journey through France. The rolling countryside and rugged coastline of this historic region provided a contemplative retreat, offering respite from the rigors of constant travel and teaching. The peaceful New England-like beauty of Normandy gave him space for reflection and rejuvenation."
+    ],
+    "image": "normandy.png"
+  },
+  {
+    "id": "annisquam",
+    "title": "Annisquam, Massachusetts",
+    "description": [
+      "In August 1894, Vivekananda arrived at Annisquam, the charming fishing village on Cape Ann, where he stayed as the guest of Mrs. Ole Bull and her circle of devoted disciples. Dressed in his characteristic orange robe and turban, he spoke at the village church, beginning his lecture by emphasizing the Hindu principle of respect for all religions. The New England seaside provided an ideal setting for informal spiritual discourse with sincere seekers who treasured his presence."
+    ],
+    "image": "annisquam.jpg"
+  },
+  {
+    "id": "salem_ma",
+    "title": "Salem, Massachusetts",
+    "description": [
+      "On August 28, 1894, Vivekananda arrived in Salem, the historic Massachusetts port city, where he addressed the Thought and Work club gathered at Wesley chapel on the subject of Indian religion and customs. Despite the warm afternoon weather, a considerable audience assembled to hear the Hindu monk speak on the spiritual traditions of his homeland. His visit left a lasting impression on the Salem community, with attendees remembering both his teachings and his gracious character."
+    ],
+    "image": "salem_ma.jpg"
+  },
+  {
+    "id": "swampscott_ma",
+    "title": "Swampscott, Massachusetts",
+    "description": [
+      "In July 1894, Vivekananda accepted the invitation to visit Swampscott on Massachusetts's North Shore, a fashionable seaside resort where many city dwellers retreated during the summer heat. Though he had declined invitations from wealthy patrons elsewhere, recognizing the superficiality of much high society, he found value in this quieter coastal retreat. The peaceful interlude at Swampscott offered him necessary rest between his intensive schedule of lectures and spiritual instruction."
+    ],
+    "image": "swampscott_ma.jpg"
+  },
+  {
+    "id": "lawrence_ma",
+    "title": "Lawrence, Massachusetts",
+    "description": [
+      "Lawrence, the industrial mill city on the Merrimack River, received Vivekananda's visit during his 1894 New England tour, where he brought the message of Vedanta to its working-class population. Though specific details of his lecture remain sparse, his presence in this working community reflected his commitment to reaching audiences beyond the wealthy intellectual circles of Boston. The mill workers and citizens encountered a spiritual teacher genuinely interested in their lives and spiritual aspirations."
+    ],
+    "image": "lawrence_ma.jpg"
+  },
+  {
+    "id": "melrose_ma",
+    "title": "Melrose, Massachusetts",
+    "description": [
+      "Melrose, the suburb north of Boston, was among the New England communities where Vivekananda lectured during his American tour, drawing an audience of local seekers at Rogers Hall. The Boston-area residents who gathered to hear him speak were drawn to his profound teachings on Eastern philosophy and spirituality. His visit contributed to the growing network of serious spiritual students developing in the region."
+    ],
+    "image": "melrose_ma.jpg"
+  },
+  {
+    "id": "magnolia_ma",
+    "title": "Magnolia, Massachusetts",
+    "description": [
+      "Magnolia, the picturesque summer resort village perched on Cape Ann, attracted Boston's intellectual and cultural elite, and Vivekananda's visit in 1894 drew the interest of this refined audience. The scenic beauty of the coastal community complemented his spiritual presence, creating an atmosphere conducive to meaningful discourse. His time in this fashionable haven allowed him to reach cultivated minds open to exploring Indian philosophy and the universal truths of Vedanta."
+    ],
+    "image": "magnolia_ma.jpg"
+  },
+  {
+    "id": "plymouth_ma",
+    "title": "Plymouth, Massachusetts",
+    "description": [
+      "During his New England tour in 1894, Vivekananda visited Plymouth, the historic landing place of the Pilgrim Fathers, where he lectured to audiences drawn to his presentations. He found in the Pilgrims' struggle for religious freedom a resonant parallel to India's ancient heritage of spiritual inquiry, drawing connections between Western and Eastern traditions of seeking truth without constraint."
+    ],
+    "image": "plymouth_ma.jpg"
+  },
+  {
+    "id": "medford_ma",
+    "title": "Medford, Massachusetts",
+    "description": [
+      "Vivekananda brought his message of Hindu philosophy and universal religion to the historic suburb of Medford north of Boston in 1894, speaking at the Grand Army Hall to audiences eager to encounter his vision of spirituality across all traditions."
+    ],
+    "image": "medford_ma.jpg"
+  },
+  {
+    "id": "groton_ma",
+    "title": "Groton, Massachusetts",
+    "description": [
+      "The small rural Massachusetts town of Groton received Vivekananda during his American lecture tour, where some of his American disciples had extended invitations for him to share his teachings through both public lectures and intimate spiritual discussions."
+    ],
+    "image": "groton_ma.jpg"
+  },
+  {
+    "id": "cincinnati",
+    "title": "Cincinnati, Ohio",
+    "description": [
+      "Cincinnati, the Queen City of the West, hosted Vivekananda during his 1894 Midwestern tour, where he addressed audiences at local halls on the philosophy of Vedanta and the spiritual heritage of India, contributing to his broader mission of bringing Eastern wisdom to American consciousness."
+    ],
+    "image": "cincinnati.jpg"
+  },
+  {
+    "id": "indianapolis",
+    "title": "Indianapolis, Indiana",
+    "description": [
+      "The Indiana state capital of Indianapolis welcomed Vivekananda during his 1894 Midwest tour, providing another platform for him to speak on philosophy and spirituality as he worked to correct Western misconceptions about India while gathering support for his philanthropic and religious endeavors at home."
+    ],
+    "image": "indianapolis.jpg"
+  },
+  {
+    "id": "iowa_city",
+    "title": "Iowa (Des Moines)",
+    "description": [
+      "Vivekananda lectured in Iowa during his notable 1894 Midwest tour, speaking at the Central Church in Des Moines on November 27 and scheduled to address the First Unitarian Church the following morning. His appearances drew considerable public attention, with newspaper coverage capturing the fascination his presence inspired among frontier audiences encountering this Indian monk's teachings on universal spirituality."
+    ],
+    "image": "iowa_city.jpg"
+  },
+  {
+    "id": "nashville",
+    "title": "Nashville, Tennessee",
+    "description": [
+      "Nashville, known as the Athens of the South, heard Vivekananda's message of universal religious unity during his 1894 Southern tour, where he spoke to audiences about the equality of all human beings before the Absolute despite the racial divisions that marked the post-Civil War South."
+    ],
+    "image": "nashville.jpg"
+  },
+  {
+    "id": "cambridge_ma",
+    "title": "Cambridge, Massachusetts",
+    "description": [
+      "Cambridge, home to Harvard University, became an important intellectual center for Vivekananda's American work, where he cultivated relationships with prominent Harvard scholars including William James and John Henry Wright. These connections proved instrumental in his path to the Parliament of Religions, as the professors' recommendations helped secure his place at this transformative event."
+    ],
+    "image": "cambridge_ma.jpg"
+  },
+  {
+    "id": "edinburgh",
+    "title": "Edinburgh",
+    "description": [
+      "During his transformative 1895 UK lecture tour, Vivekananda brought his message of Vedanta to Edinburgh, Scotland's intellectually vibrant capital. The city's reputation as the Athens of the North made it an ideal venue for his philosophical discourses, where educated audiences engaged with his teachings on Indian spirituality and Hindu philosophy. His presence in this bastion of Scottish learning marked an important moment in introducing Eastern thought to Western intellectual circles."
+    ],
+    "image": "edinburgh.jpg"
+  },
+  {
+    "id": "manchester",
+    "title": "Manchester",
+    "description": [
+      "Vivekananda carried his Vedanta message to Manchester during his 1895 tour of England, bringing the spiritual wisdom of India to this great industrial center of the North. His lectures in the mill city reached both working-class and middle-class audiences, translating Hindu philosophy into terms accessible to the practical British mind shaped by commerce and industry. This visit demonstrated his ability to communicate across class and cultural boundaries."
+    ],
+    "image": "manchester.jpg"
+  },
+  {
+    "id": "bristol",
+    "title": "Bristol",
+    "description": [
+      "The historic port city of Bristol, nestled on the River Avon with centuries of maritime trade behind it, welcomed Vivekananda during his first UK tour in 1895. He delivered lectures on Indian philosophy to the city's receptive audiences, continuing his systematic dissemination of Vedanta across the English provinces. Bristol's cosmopolitan character, shaped by its connections to world trade, provided fertile ground for his message of universal spirituality."
+    ],
+    "image": "bristol.jpg"
+  },
+  {
+    "id": "wimbledon",
+    "title": "Wimbledon, London",
+    "description": [
+      "Vivekananda arrived in London on July 31st, 1900, and spent his initial weeks in Wimbledon as the guest of devoted disciples. Though summer found many of his supporters absent from town, he conducted private classes and intimate meetings with those who remained, deepening their understanding of Vedanta before accepting invitations to travel onward. This quiet sojourn in the London suburb represented a brief respite in his ceaseless work of spiritual instruction."
+    ],
+    "image": "wimbledon.png"
+  },
+  {
+    "id": "mannar",
+    "title": "Mannar",
+    "description": [
+      "Mannar, the northwestern gateway to Sri Lanka, marked a symbolic threshold in Vivekananda's triumphant return from his Western missionary journey. As he traveled homeward from America through Ceylon toward India, this coastal outpost represented his transition from the West back to his native land, where he would be received as a hero who had successfully transplanted Hindu wisdom in foreign soil."
+    ],
+    "image": "mannar.png"
+  },
+  {
+    "id": "art_institute_chicago",
+    "title": "The Art Institute of Chicago",
+    "description": [
+      "On September 11, 1893, Vivekananda delivered his epochal address at the Parliament of the World's Religions held in the Hall of Columbus at the Art Institute of Chicago. Opening with the unforgettable words 'Sisters and Brothers of America,' he captivated an audience of seven thousand who rose in sustained applause at the conclusion of his speech. This single moment catapulted him to international prominence and established him as Hinduism's eloquent voice in the Western world."
+    ],
+    "image": "art_institute_chicago.jpg"
+  },
+  {
+    "id": "chicago_residence",
+    "title": "Vivekananda's Chicago Residence",
+    "description": [
+      "Following his success at the Parliament, Vivekananda established himself in Chicago residences where he conducted Vedanta classes and received seekers eager to learn Hindu philosophy. He remained in the city through November 1893 and into 1894, building relationships with key supporters like the Hale family and laying the groundwork for organized Vedanta instruction in America. His extended Chicago stay transformed the city into the cradle of American Vedantism."
+    ],
+    "image": "chicago_residence.jpg"
+  },
+  {
+    "id": "vedanta_society_ny",
+    "title": "Vedanta Society of New York-History",
+    "description": [
+      "In November 1894, Vivekananda founded the Vedanta Society of New York, establishing the first institutional expression of Vedanta in the Western world. Through regular classes and lectures at the Society, he systematically transmitted the core teachings of Advaita Vedanta to American students, creating an enduring organizational framework that would outlive his Western sojourn. This society became the model for Vedanta centers that would flourish across the continent."
+    ],
+    "image": "vedanta_society_ny.png"
+  },
+  {
+    "id": "thousand_islands_park",
+    "title": "Thousand Island Park",
+    "description": [
+      "In June 1895, Vivekananda arrived at Thousand Islands Park on the St. Lawrence River to conduct daily teachings with his disciples. Beginning on June 19th with just three or four students present, he immediately commenced his regular instruction, unwilling to delay his work even as more followers were still assembling at the retreat. A devoted student, Miss Dutcher, who owned the cottage, constructed an additional wing nearly as large as the original building as a love offering to her teacher. These intimate sessions, recorded by Miss S. E. Waldo, would later become the foundation of 'Inspired Talks,' capturing some of Vivekananda's most profound spiritual teachings delivered in the quiet sanctuary of this riverside sanctuary."
+    ],
+    "image": "thousand_islands_park.jpg"
+  },
+  {
+    "id": "shanti_ashrama",
+    "title": "Shanti Ashrama (Camp Taylor)",
+    "description": [
+      "During his second American tour in 1900, Vivekananda helped establish Shanti Ashrama (Camp Taylor) as a meditation and retreat center for the Vedanta Society on California's northern coast. Located near San Jose in the remote highlands of Santa Clara County at the edge of Mount Hamilton's eastern slope, the site offered the perfect sanctuary—surrounded by virgin forest and hills, isolated fifty miles from the nearest railway station. Though his public platform work was temporarily curtailed, Vivekananda delivered a series of talks on the Bhagavad Gita at San Francisco venues before withdrawing to this peaceful redwood forest refuge where he could focus on meditation and spiritual instruction away from the demands of constant lecturing."
+    ],
+    "image": "shanti_ashrama.jpg"
+  },
+  {
+    "id": "bareilly",
+    "title": "Bareilly",
+    "description": [
+      "In August 1898, during his journey through the Punjab and Kashmir regions, Vivekananda reached Bareilly in the Rohilkhand district near the Himalayan foothills. The distinguished residents of this plains city formed a reception committee that warmly welcomed him and his party, arranging accommodations at their club-house. This stop marked an important pause in his northward pilgrimage through the Gangetic plains as he responded to pressing invitations across northern India, continuing his mission to connect with seekers and communities throughout the subcontinent."
+    ],
+    "image": "bareilly.jpg"
+  },
+  {
+    "id": "belgaum_karnataka",
+    "title": "Belgaum (Belagavi)",
+    "description": [
+      "Belgaum, situated at the edge of the Deccan plateau in northern Karnataka, was a significant waypoint during Vivekananda's extensive South India journey in 1892. Positioned strategically between Maharashtra and Karnataka territories, the town represented an important crossing point as he traveled through the Indian peninsula, spreading his message of Vedantic philosophy and encountering the diverse spiritual traditions of the southern regions."
+    ],
+    "image": "belgaum_karnataka.jpg"
+  },
+  {
+    "id": "ernakulam",
+    "title": "Ernakulam (Kochi)",
+    "description": [
+      "Ernakulam, the mainland gateway to Kochi's famous backwaters, received Vivekananda during his 1892 Kerala journey. This historic port city exposed him to the unique spiritual and cultural heritage of India's southernmost state, where ancient Vedic traditions had been preserved alongside the cosmopolitan influences of centuries of maritime trade and exchange."
+    ],
+    "image": "ernakulam.jpg"
+  },
+  {
+    "id": "goa_panaji",
+    "title": "Panaji, Goa",
+    "description": [
+      "Vivekananda visited Panaji, the capital of the Portuguese colony of Goa, during his 1892 travels through western India. In this unique cultural landscape where Indian and Portuguese traditions had intermingled, he encountered the Basilica of Bom Jesus and observed the distinctive Goan synthesis of faiths and customs that reflected centuries of colonial and indigenous influences coexisting in the region."
+    ],
+    "image": "goa_panaji.jpg"
+  },
+  {
+    "id": "somnath",
+    "title": "Somnath Temple",
+    "description": [
+      "In 1891, during his Gujarat wanderings, Vivekananda journeyed to Somnath, the holiest of the twelve Jyotirlingas sacred to Lord Shiva. He visited the ancient temple at Prabhas, the newer shrine built by Rani Ahalyabai of Indore, and bathed at the confluence of three sacred rivers at this revered pilgrimage site. The temple's storied history—repeatedly destroyed and magnificently rebuilt across millennia—profoundly moved Vivekananda, who saw in Somnath a powerful symbol of India's spiritual resilience and the indomitable strength of Hindu civilization to endure and regenerate itself through countless trials."
+    ],
+    "image": "somnath.jpg"
+  },
+  {
+    "id": "puri_puri",
+    "title": "Puri — Jagannath Dham",
+    "description": [
+      "Puri's Jagannath Temple, one of Hinduism's four sacred dhams situated on the Bay of Bengal, captured Vivekananda's spiritual imagination during his 1889 pilgrimage. He was profoundly moved by the egalitarian spirit of Jagannath worship, which transcended the rigid caste distinctions that plagued contemporary Hindu society. This vision of a democratic sacred space where all devotees stood equal before the divine would later inspire his dream of building a universal temple in India itself—a sanctuary where every worshipper could commune with the divine through their own traditions, united by the ultimate truth symbolized by Om."
+    ],
+    "image": "puri_puri.jpg"
+  },
+  {
+    "id": "bhubaneswar",
+    "title": "Bhubaneswar",
+    "description": [
+      "During his wandering pilgrimage in 1889, Vivekananda journeyed to Bhubaneswar, the ancient temple city of Odisha where centuries of Hindu architectural tradition converged in sacred stone. The concentration of hundreds of temples spanning the entire historical arc of temple design deeply moved him, offering a living repository of India's spiritual and aesthetic heritage. The pilgrimage through these sacred shrines reinforced his vision of a unified Hindu civilization expressed through devotional architecture."
+    ],
+    "image": "bhubaneswar.jpg"
+  },
+  {
+    "id": "visakhapatnam",
+    "title": "Visakhapatnam",
+    "description": [
+      "In 1892, Vivekananda traveled to Visakhapatnam during his extensive journey through South India, following the eastern coastline where he engaged with local devotees and scholars. The coastal city served as an important stop in his pilgrimage, where he continued his mission of reconnecting with India's spiritual traditions and awakening national consciousness through personal encounters and discourse."
+    ],
+    "image": "visakhapatnam.jpg"
+  },
+  {
+    "id": "tirupati",
+    "title": "Tirupati",
+    "description": [
+      "Vivekananda visited the sacred hills of Tirupati in 1892, paying homage at the Tirumala Venkateswara Temple, one of Hinduism's most revered Vaishnava shrines and the world's most visited pilgrimage destination. The ancient temple, steeped in centuries of devotional practice, represented the living continuity of South Indian religious life that he sought to understand and celebrate during his pilgrimage across the region."
+    ],
+    "image": "tirupati.jpg"
+  },
+  {
+    "id": "madurai_meenakshi",
+    "title": "Madurai — Meenakshi Amman",
+    "description": [
+      "During his 1892 South India pilgrimage, Vivekananda reached Madurai and stood before the magnificent Meenakshi Amman temple, whose towering gopurams and intricate Dravidian architecture exemplified the pinnacle of South Indian sacred art. He was received with honors by local Zemindars and citizens, and even engaged in Tamil conversation with the Brahman cook of his host, immersing himself in the spiritual and cultural life of this ancient temple city that symbolized the enduring power of Hindu civilization."
+    ],
+    "image": "madurai_meenakshi.jpg"
+  },
+  {
+    "id": "kamakura",
+    "title": "Kamakura",
+    "description": [
+      "In 1893, while traveling through Japan en route to the Parliament of Religions in Chicago, Vivekananda visited Kamakura and encountered the great bronze Buddha statue at Kotoku-in. The monumental figure, cast in meditation and radiating universal spiritual aspiration, resonated deeply with him as a symbol transcending national and religious boundaries—a testimony to the shared quest for enlightenment that united all human spiritual traditions."
+    ],
+    "image": "kamakura.jpg"
+  },
+  {
+    "id": "ram_bagh_meerut",
+    "title": "259, Ram Bagh, Meerut",
+    "description": [
+      "During 1890–1891, Vivekananda and several brother-disciples established themselves at 259, Ram Bagh in Meerut, creating a second Baranagar Math in the garden house of a sympathetic patron. This period of collective monastic life during his wandering years provided a brief sanctuary where the young monks could practice together while their leader recovered from illness, forming a significant chapter in the consolidation of monastic brotherhood before their renewed dispersal into the world."
+    ],
+    "image": "ram_bagh_meerut.jpg"
+  },
+  {
+    "id": "captain_sevier_bungalow",
+    "title": "Captain Sevier's Bungalow, Mayavati",
+    "description": [
+      "At the Advaita Ashrama in Mayavati between 1898 and 1900, Captain James Henry Sevier, one of Vivekananda's most devoted Western disciples, labored with extraordinary dedication to establish this mountain monastery at 6,500 feet in the Himalayas. Sevier's tireless work clearing the tea-estate grounds and developing the ashrama took a terrible toll on his health; he died in October 1900 and was cremated by the Sarada River according to Hindu rites, becoming a symbol of Western discipleship rendered in ultimate sacrifice to the Guru's vision."
+    ],
+    "image": "captain_sevier_bungalow.png"
+  },
+  {
+    "id": "swarupananda_point",
+    "title": "Swami Swarupananda Point, Mayavati",
+    "description": [
+      "A scenic overlook at 6,500 feet within the Mayavati estate honors Swami Swarupananda, Vivekananda's direct monastic disciple and the first president of the Advaita Ashrama. Swarupananda played a crucial role in scouting and establishing the ashrama in 1898, serving as its leader until his death in 1906, and the viewpoint—commanding sweeping vistas of the snow-capped Himalayan range—stands as a memorial to his devotion and the ashrama's enduring spiritual mission in the mountains."
+    ],
+    "image": "swarupananda_point.png"
+  },
+  {
+    "id": "captain_sevier_point",
+    "title": "Captain Sevier's Point, Mayavati",
+    "description": [
+      "During his stays at Mayavati between 1898 and 1900, Vivekananda witnessed the spiritual flowering of the Advaita Ashrama that Captain James Henry Sevier and his wife Charlotte had established at his inspiration. Captain Sevier's Point, named in the memory of this devoted co-founder, became a cherished vantage within the Mayavati estate, offering sweeping vistas of the snow-crowned Himalayan range that Sevier himself held dear. From the highest reaches of Dharmagarh within the ashrama's boundaries, the panoramic snowpeaks could be glimpsed in their full grandeur, a landscape that embodied the spiritual elevation Vivekananda sought to cultivate in this Himalayan sanctuary."
+    ],
+    "image": "captain_sevier_point.png"
+  },
+  {
+    "id": "nainital",
+    "title": "Naini Tal",
+    "description": [
+      "Vivekananda first arrived at Nainital on 29 August 1890 with his brother-monk Swami Akhandananda, beginning an extraordinary walking pilgrimage through the high Himalayas that would carry them through Almora, Kakrighat, Rudraprayag, Srinagar and Tehri. Nearly eight years later, in May 1898, he returned to Nainital with a very different party—a group of Western disciples including the devoted Sister Nivedita—en route to Almora and the newly established Advaita Ashrama at Mayavati. The town held special joy for him during this second visit, graced by his pleasure in reuniting his disciples with the Raja of Khetri and in introducing them to the beauty of the Himalayan landscape that had so transformed him during his earlier wanderings."
+    ],
+    "image": "nainital.jpg"
+  },
+  {
+    "id": "kakrighat",
+    "title": "Kakrighat",
+    "description": [
+      "On the banks of the Kosi river between Nainital and Almora, Vivekananda sat in meditation beneath a Peepal tree at Kakrighat in 1890 and experienced a shattering realization—that the entire cosmos dwelled within every living being, that the macrocosm and microcosm were one. This profound spiritual breakthrough, born from his intense absorption by the river's flowing waters and the forest's sacred silence, would later crystallize into some of his most celebrated philosophical teachings on the unity underlying all existence. The experience left him compelled to record fragments of his realization in Bengali, capturing insights that would illuminate his lectures for years to come."
+    ],
+    "image": "kakrighat.jpg"
+  },
+  {
+    "id": "garhwal",
+    "title": "Garhwal",
+    "description": [
+      "During his 1890 parivrajaka journey through the Garhwal Himalayas, Vivekananda traversed sacred river confluences and mountain towns with his brother-monk Swami Akhandananda, sustained only by madhukari—food begged door-to-door according to monastic discipline. Weeks spent amid the forested slopes and soaring peaks of this ancient spiritual land, devoted entirely to prayer, austerity and deep meditation, allowed him to absorb the accumulated spiritual power of Garhwal's countless pilgrims and saints. The region's grandeur, from the temple towns to the high passes, reinforced his conviction that the Himalayas themselves were a living scripture, teaching the aspirant soul through silence and stone."
+    ],
+    "image": "garhwal.jpg"
+  },
+  {
+    "id": "karnaprayag",
+    "title": "Karna Prayag",
+    "description": [
+      "At Karnaprayag, where the sacred Alaknanda and Pindar rivers merge, Vivekananda remained for eighteen days in 1890 with brother-monks Swami Turiyananda and Swami Akhandananda, making it one of the longest halts of his entire Himalayan wandering. The serene confluence and surrounding Garhwal peaks created the perfect crucible for intense spiritual practice and austerities, drawing the monks deeper into states of profound meditation and scriptural absorption. The confluence itself—symbolizing the meeting of individual souls with infinite consciousness—became a living temple for their inner work."
+    ],
+    "image": "karnaprayag.jpg"
+  },
+  {
+    "id": "rudraprayag",
+    "title": "Rudra prayag",
+    "description": [
+      "During his 1890 pilgrimage through the Garhwal mountains, Vivekananda paused at Rudraprayag, the confluence of the Alaknanda and Mandakini rivers, accompanied by Swami Akhandananda and Swami Saradananda. Here, at this sacred junction where two great rivers embraced, the monks devoted themselves to meditation and scriptural study, finding in the waters and peaks around them eloquent expressions of the unity he sought to comprehend. The Panch Prayags of Garhwal held profound spiritual significance for Vivekananda—each confluence a living symbol of how all apparent divisions in creation ultimately merge into one undivided whole."
+    ],
+    "image": "rudraprayag.jpg"
+  },
+  {
+    "id": "srinagar_garhwal",
+    "title": "Srinagar, Uttarkand",
+    "description": [
+      "In 1890, Vivekananda spent several days at Srinagar in Pauri Garhwal with Swami Akhandananda and Swami Saradananda, settled by the Alaknanda river among the forested hills. Here, sustained only by madhukari, the monks engaged in intensive prayer and scriptural study, absorbing the spiritual atmosphere that had drawn countless pilgrims to this ancient town. The solitude and sacred quietness of Srinagar's Garhwal setting provided exactly the environment Vivekananda needed during his years of wandering asceticism, where external simplicity could deepen internal spiritual realization."
+    ],
+    "image": "srinagar_garhwal.jpg"
+  },
+  {
+    "id": "oakley_house_almora",
+    "title": "Sister Nivedita cottage (Oakley House)",
+    "description": [
+      "During the May 1898 Himalayan visit, Oakley House in Almora served as the residence for Vivekananda's Western disciples—Sara Bull, Josephine MacLeod, Sister Nivedita and Mrs. Patterson—while Vivekananda himself lodged nearby at Lala Badri Shah's house and visited each morning for breakfast. It was beneath a tree at Oakley House that Vivekananda granted Sister Nivedita a transformative blessing, helping her overcome the distraction and restlessness that had plagued her meditation practice. Under his direct guidance at this modest cottage, Nivedita truly learned the art of meditation for the first time, her mind settling into depths of peace she had never before experienced, marking a turning point in her spiritual life as a renunciate disciple."
+    ],
+    "image": "oakley_house_almora.jpg"
+  },
+  {
+    "id": "karbala_stone_almora",
+    "title": "Karbala stone",
+    "description": [
+      "In 1890, during his arduous pilgrimage to the Himalayas, Vivekananda collapsed from exhaustion on the Bhowali–Almora road after walking from Kathgodam. A Muslim fakir named Zulfikar Ali discovered him and revived him with cucumber and water, an act of selfless compassion that profoundly moved the young monk. This encounter exemplified the universal brotherhood and interfaith harmony that would become central to Vivekananda's spiritual philosophy. The memorial stone marking this spot remains a place of pilgrimage, reminding devotees of the transformative power of human kindness transcending all religious boundaries."
+    ],
+    "image": "karbala_stone_almora.jpg"
+  },
+  {
+    "id": "vivekananda_rest_hall_almora",
+    "title": "Swami Vivekananda memorial rest hall",
+    "description": [
+      "The Swami Vivekananda Memorial Rest Hall in Almora commemorates his transformative sojourns in the Kumaon hills. After his triumphant return from the West in 1897, Vivekananda made Almora a regular destination for his Himalayan retreats and lecture tours. He returned in 1898 accompanied by Sister Nivedita and Western disciples, deepening his engagement with the spiritual landscape of the mountains. The hall now serves as a gathering space for devotees, preserving the memory of these crucial periods when Vivekananda integrated his global vision with India's ancient spiritual heritage."
+    ],
+    "image": "vivekananda_rest_hall_almora.jpg"
+  },
+  {
+    "id": "govt_inter_college_almora",
+    "title": "Government Inter College",
+    "description": [
+      "On 27 July 1897, Vivekananda delivered a landmark public lecture at Government Inter College addressing the subject of Vedic teaching in theory and practice—a historic moment as his first address to an Indian audience in Hindi. The lecture demonstrated his commitment to communicating Vedantic wisdom in India's own linguistic idiom, marking a pivotal point in his post-Western mission. The college later honored this momentous occasion by unveiling a statue and commemorative photograph of Vivekananda, and proposed naming its principal hall the Swami Vivekananda Sabhagaar in perpetual recognition of his visit."
+    ],
+    "image": "govt_inter_college_almora.jpg"
+  },
+  {
+    "id": "raghunath_mandir_almora",
+    "title": "Sri Raghunath mandir",
+    "description": [
+      "The ancient Sri Raghunath Mandir, one of Almora's most sacred Vaishnava shrines dedicated to Lord Rama, welcomed Vivekananda during his wandering years in 1890 and again in 1897 when he returned as a celebrated spiritual leader. Nestled in the Kumaon hills, the temple embodied the living spirituality woven through India's sacred landscape that Vivekananda sought to revitalize. His visits to this venerable shrine reflected his deep reverence for India's devotional traditions and their enduring role in the nation's spiritual continuity."
+    ],
+    "image": "raghunath_mandir_almora.jpg"
+  },
+  {
+    "id": "nadiad",
+    "title": "Nadiad",
+    "description": [
+      "During his extensive pilgrimage through western India in 1892, Vivekananda passed through Nadiad, a historic town in the Kheda district of Gujarat. Traveling incognito as a simple wandering monk, he moved through the region absorbing the rich religious and cultural atmosphere of Gujarat, encountering the lived spirituality of ordinary people. These journeys through towns like Nadiad provided him intimate glimpses into the faith and aspirations of common Indians before he continued onward through Porbandar and Kathiawar."
+    ],
+    "image": "nadiad.jpg"
+  },
+  {
+    "id": "central_provinces_forest",
+    "title": "Central Provinces - Forest",
+    "description": [
+      "Between 1888 and 1893, Vivekananda wandered through the dense forests of the Central Provinces, regions that would later comprise parts of Madhya Pradesh and Chhattisgarh. These forest sojourns offered him profound solitude for deep meditation and spiritual contemplation away from the distractions of settled life. Living as a penniless itinerant monk dependent entirely on alms, he gained firsthand understanding of the widespread poverty afflicting India's masses while simultaneously accessing the transcendent peace these natural sanctuaries afforded, shaping his vision of spirituality rooted in India's material reality."
+    ],
+    "image": "central_provinces_forest.png"
+  },
+  {
+    "id": "manmathanath_house",
+    "title": "Manmathanath Bhattacharya's House",
+    "description": [
+      "When Vivekananda arrived in Madras in late 1892, he found shelter at the residence of Manmathanath Bhattacharya, a Bengali civil servant residing in Triplicane. At this house, Vivekananda encountered the brilliant young men who would become his most devoted Madras disciples—Alasinga Perumal, G.G. Narasimhacharyar, and others—who were immediately captivated by his intellectual prowess and spiritual magnetism. These early meetings proved transformative, as his new disciples recognized in him a messenger of ancient wisdom suited for the modern age and persistently encouraged him to carry his message to the West."
+    ],
+    "image": "manmathanath_house.jpg"
+  },
+  {
+    "id": "ramakrishnananda_cottage",
+    "title": "Swami Ramakrishnananda's Cottage",
+    "description": [
+      "Swami Ramakrishnananda, one of Sri Ramakrishna's direct disciples, was entrusted by Vivekananda to establish the Vedantic mission in South India and operated the early Madras Math from a modest cottage in Triplicane. When Vivekananda returned triumphantly from America in 1897, he visited this humble center, which had already begun flowering as a nucleus of spiritual activity. This cottage marked the beginning of what would eventually grow into the Ramakrishna Math, Chennai, anchoring Vivekananda's organizational vision for bringing Vedantic wisdom to South India's seekers."
+    ],
+    "image": "ramakrishnananda_cottage.jpg"
+  },
+  {
+    "id": "narasimhacharyar_house",
+    "title": "G.G. Narasimhacharyar's House",
+    "description": [
+      "During his transformative 1892-93 stay in Madras, Swami Vivekananda found in G.G. Narasimhacharyar a devoted young scholar whose home became one of several gathering places for intimate philosophical discourse. Within these walls, Vivekananda expounded on the depths of Vedanta and India's spiritual heritage to circles of earnest seekers. Narasimhacharyar proved instrumental in the practical work of his mission, joining the network of supporters who laboured to secure funds and letters of introduction that would facilitate the swami's momentous voyage to America and the Parliament of Religions."
+    ],
+    "image": "narasimhacharyar_house.jpg"
+  },
+  {
+    "id": "harmston_circus_pavilion",
+    "title": "Harmston Grand Circus Pavilion",
+    "description": [
+      "In 1893, as Swami Vivekananda prepared to sail for America, the Madras community organised a grand public farewell at the Harmston Grand Circus Pavilion, transforming the venue into a stage for their spiritual teacher's final words before his departure. Vivekananda delivered a stirring address that electrified the assembled devotees, speaking to the significance of representing Hindu philosophy to the Western world. The overwhelming enthusiasm and affection displayed by Madras society infused him with the confidence and spiritual fortitude needed to carry the message of Vedanta across the ocean."
+    ],
+    "image": "harmston_circus_pavilion.jpg"
+  },
+  {
+    "id": "subramaniam_iyer_beach_house",
+    "title": "Justice Subramaniam Iyer's Beach House",
+    "description": [
+      "Justice P. Subramania Iyer, a distinguished High Court jurist and sincere admirer, extended the hospitality of his Marina beach house to Swami Vivekananda in early 1893, offering a tranquil sanctuary overlooking the Arabian Sea. In this contemplative setting, gazing across the waters during those decisive weeks before his departure, Vivekananda meditated deeply upon the spiritual mission that lay ahead. The vastness of the ocean mirrored the magnitude of his forthcoming work, and this quiet retreat became a space of profound inner preparation for his historic journey to represent Hinduism in the West."
+    ],
+    "image": "subramaniam_iyer_beach_house.jpg"
+  },
+  {
+    "id": "flora_cottage",
+    "title": "Flora Cottage",
+    "description": [
+      "When Swami Ramakrishnananda arrived in Madras to establish the Vedanta mission, Flora Cottage in Triplicane served as his modest first residence, where he maintained the rhythm of daily worship and received an ever-growing circle of visitors seeking spiritual counsel. Upon his triumphant return in February 1897 following his transformative first tour of America and Europe, Swami Vivekananda visited this humble cottage, witnessing firsthand the foundation that his disciple had begun to lay for institutionalised Vedanta work in South India."
+    ],
+    "image": "flora_cottage.jpg"
+  },
+  {
+    "id": "sashi_vilas",
+    "title": "Sashi Vilas - Nanjunda Rao's House",
+    "description": [
+      "Nanjunda Rao's residence, Sashi Vilas, opened its doors to Swami Vivekananda during his formative 1892-93 visit to Madras, becoming part of the informal network of supportive households that sustained the wandering teacher. Within this domestic sanctuary, Vivekananda found both material care and intellectual companionship as he crystallised his vision for representing Hinduism on the world stage. Nanjunda Rao's generosity exemplified the devotion of Madras householders who recognised in the young sannyasin a vessel for revitalising India's spiritual heritage."
+    ],
+    "image": "sashi_vilas.jpg"
+  },
+  {
+    "id": "yogi_parthasarathy_house",
+    "title": "Yogi Parthasarathy's House",
+    "description": [
+      "Yogi Parthasarathy represented the earnest spiritual seekers of Madras who gravitated toward Swami Vivekananda during the swami's visits to the city in 1892-93, his household becoming one of several gathering spaces within the Triplicane community. Here, amid intimate circles of dedicated disciples, Vivekananda engaged in rigorous exploration of Vedantic philosophy and practical discussions about spreading his message. These homes of sincere practitioners formed the earliest organised sangha around Vivekananda in Madras, a foundation upon which systematic spiritual work would eventually flourish."
+    ],
+    "image": "yogi_parthasarathy_house.jpg"
+  },
+  {
+    "id": "balaji_rao_house",
+    "title": "Balaji Rao's House",
+    "description": [
+      "Balaji Rao's home in Triplicane welcomed Swami Vivekananda as a sacred guest during the swami's 1892-93 sojourn in Madras, serving as an intimate forum for philosophical discourse on Vedanta's subtler dimensions. Within the warm hospitality of this Tamil household, Vivekananda shared insights that resonated deeply with the intellectual and spiritual aspirations of South Indian seekers. These private residences of devoted supporters formed an essential infrastructure of care and understanding that enabled the wandering monk to refine and communicate his transformative vision of modern Vedanta."
+    ],
+    "image": "balaji_rao_house.jpg"
+  },
+  {
+    "id": "alasinga_house",
+    "title": "Alasinga Perumal's House",
+    "description": [
+      "P. Aiyasami Alasinga Perumal's residence in Triplicane became the nerve centre of Madras Vedanta activity, with the brilliant Tamil devotee serving as Swami Vivekananda's most devoted and tireless collaborator during the crucial 1892-93 period. From this household, Alasinga embarked on an extraordinary epistolary mission, penning numerous letters to American scholars, journalists, and spiritual seekers on Vivekananda's behalf, while simultaneously mobilising financial resources and editing the influential journal Brahmavadin. Vivekananda's affectionate address—'my Alasinga'—testified to his profound gratitude for a disciple whose administrative genius and unwavering loyalty transformed visionary ideals into concrete international reality."
+    ],
+    "image": "alasinga_house.jpg"
+  },
+  {
+    "id": "victoria_hall_chennai",
+    "title": "Victoria Hall",
+    "description": [
+      "In February 1897, Swami Vivekananda delivered his first major public lecture in Madras at Victoria Hall, marking a triumphant homecoming after his celebrated appearance at the Parliament of Religions in Chicago. Before a vast and electrified audience, he expounded the message of Vedanta and articulated his vision for India's spiritual and cultural renewal. This stirring address launched his transformative lecturing tour across the subcontinent, establishing Madras as a stronghold of his philosophical mission and demonstrating the profound resonance his Western sojourn had given to his teachings."
+    ],
+    "image": "victoria_hall_chennai.jpg"
+  },
+  {
+    "id": "pachaiyappa_hall",
+    "title": "Pachaiyappa's Hall",
+    "description": [
+      "Pachaiyappa's Hall, housed within the renowned Pachaiyappa's College founded by the philanthropist Pachaiyappa Mudaliar, served as another prominent platform for Vivekananda's oratory during his 1897 visit to Madras. The historic institution, with its tradition of intellectual discourse, provided an ideal venue for his lectures on Vedanta and India's spiritual destiny. His addresses drew large and enthusiastic crowds of educated Madras society, further amplifying the impact of his return from the West."
+    ],
+    "image": "pachaiyappa_hall.png"
+  },
+  {
+    "id": "hindu_theological_high_school",
+    "title": "Hindu Theological High School",
+    "description": [
+      "During his 1897 lecture tour through Madras, Swami Vivekananda visited the Hindu Theological High School in Triplicane, an institution championed by his devoted disciples including Alasinga Perumal. The school represented an effort to integrate modern education with the ethical and spiritual foundations of Vedanta—a synthesis that embodied Vivekananda's own vision for India's renewal. His presence and encouragement at the institution reinforced the conviction among his followers that authentic Hindu education must unite intellectual rigor with spiritual wisdom."
+    ],
+    "image": "hindu_theological_high_school.png"
+  },
+  {
+    "id": "patters_garden",
+    "title": "Patters Garden",
+    "description": [
+      "During his extended residence in Madras from late 1892 through early 1893, Swami Vivekananda inhabited various residences of his growing circle of supporters, including the garden bungalow at Patters Garden in Royapettah. The serene setting provided an intimate atmosphere for philosophical discourse and deep conversations with his devotees, complementing his formal public lectures with more personal instruction. These informal gatherings in sympathetic homes across the city allowed him to deepen his connection with the Madras community and cultivate the spiritual circle that would later sustain his mission."
+    ],
+    "image": "patters_garden.jpg"
+  },
+  {
+    "id": "triplicane_literary_society",
+    "title": "Triplicane Literary Society",
+    "description": [
+      "The Triplicane Literary Society became an important intellectual forum where Swami Vivekananda presented his vision to Madras's English-educated elite and Tamil scholars. He delivered an address on aspects of his work in India, while also lecturing on topics including the future of India, Vedanta in practical life, and the necessity of spiritual revival. These formal presentations at the society complemented his informal home gatherings, allowing him to reach both the reflective intellectual class and personal seekers, thereby weaving his revolutionary ideas into the intellectual fabric of the city."
+    ],
+    "image": "triplicane_literary_society.jpg"
+  },
+  {
+    "id": "subramaniam_iyer_house",
+    "title": "Justice Subramaniam Iyer's House",
+    "description": [
+      "Justice P. Subramania Iyer's residence in Madras became a crucial gathering point for Swami Vivekananda, with the distinguished jurist emerging as one of his most influential supporters. Justice Iyer's patronage and social standing proved instrumental in legitimizing Vivekananda's mission within conservative Tamil society and in facilitating the historic project to send him as Hinduism's representative to the Parliament of Religions in Chicago. His home thus served as both sanctuary and staging ground for one of the most consequential spiritual missions of the modern age."
+    ],
+    "image": "subramaniam_iyer_house.jpg"
+  },
+  {
+    "id": "sundar_nivas",
+    "title": "Sundar Nivas",
+    "description": [
+      "Sundar Nivas was among the residences where Swami Vivekananda stayed during his triumphant return to Madras in February 1897, following his electrifying success at the Parliament of Religions in Chicago. The city received him with overwhelming enthusiasm and affection, and his stay at this address allowed him to receive the countless devotees and admirers who sought his darshan and guidance. From Sundar Nivas, Vivekananda prepared to embark on his transformative all-India lecture tour, carrying the spiritual fire of his Western mission back to the heart of his homeland."
+    ],
+    "image": "sundar_nivas.jpg"
+  },
+  {
+    "id": "nagercoil",
+    "title": "Nagercoil",
+    "description": [
+      "In 1892, Swami Vivekananda visited Nagercoil, the southernmost town of Tamil Nadu, during his wandering pilgrimage through South India. Named after the sacred Nagaraja temple, this ancient sacred site marked an important waypoint on his spiritual journey toward Kanyakumari—the southernmost tip of the Indian subcontinent. His passage through Nagercoil formed part of the sacred pilgrimage that would culminate in his transformative meditation on the rock in the sea at Kanyakumari, where he experienced profound spiritual illumination about his future mission."
+    ],
+    "image": "nagercoil.jpg"
+  },
+  {
+    "id": "rameshwaram",
+    "title": "Rameshwaram",
+    "description": [
+      "In 1892, Swami Vivekananda arrived at the sacred island shrine of Rameshwaram, one of Hinduism's four holiest pilgrimage destinations, during his transformative wandering pilgrimage through South India. At the Ramanathaswamy Temple, he was invited to address the assembled devotees, sharing his spiritual insights with the gathered community. The visit deepened his direct experience of India's living spiritual tradition among its masses, and he used the occasion to articulate his vision of India's spiritual treasury and its potential to enrich the Western world through Vedantic teachings."
+    ],
+    "image": "rameshwaram.jpg"
+  },
+  {
+    "id": "valangaiman_kumbakonam",
+    "title": "Valangaiman, Kumbakonam",
+    "description": [
+      "During his 1892 pilgrimage through Tamil Nadu, Swami Vivekananda journeyed through the fertile Cauvery delta region, passing through the sacred temple towns near Kumbakonam where ancient Shaivite and Vaishnavite sanctuaries had flourished for centuries. The Hindu community of Kumbakonam presented him with an address of welcome, recognizing his representation of Hindu philosophy. This passage through the religiously vital delta region gave Vivekananda profound insight into the rich devotional and philosophical culture that permeated Tamil Nadu's spiritual landscape."
+    ],
+    "image": "valangaiman_kumbakonam.jpg"
+  },
+  {
+    "id": "kunthukal",
+    "title": "Kunthukal",
+    "description": [
+      "As Swami Vivekananda traveled through the Ramnad region in 1892, he benefited from the patronage of Raja Bhaskara Setupathi of Ramnad, one of his most generous and influential supporters in South India. The Raja's authority and resources facilitated Vivekananda's movement through villages and towns in the Ramanathapuram district, including Kunthukal, as the monk made his sacred journey southward toward Rameshwaram and eventually Kanyakumari. This royal support proved instrumental in enabling Vivekananda's pilgrimage through Tamil Nadu's most spiritually significant regions."
+    ],
+    "image": "kunthukal.jpg"
+  },
+  {
+    "id": "pamban",
+    "title": "Pamban",
+    "description": [
+      "When Swami Vivekananda arrived at Pamban in 1892, the gateway island to the sacred shrine of Rameshwaram, he was accorded a warm and ceremonial welcome by Raja Bhaskara Setupathi of Ramnad himself. Under a decorated pandal, the community presented an address of welcome to the traveling monk. In his reply, Vivekananda articulated his vision of India's spiritual foundation, emphasizing that the nation's true backbone lay not in political or military power but in its philosophical and spiritual heritage. This encounter at the threshold of the sacred island marked a significant moment in his pilgrimage southward."
+    ],
+    "image": "pamban.jpg"
+  },
+  {
+    "id": "erskine_phelps_house",
+    "title": "Erskine Mason Phelps house",
+    "description": [
+      "When Swami Vivekananda arrived in Chicago in September 1893 for the Parliament of the World's Religions without prior formal invitation or accommodation, he found refuge in the hospitality of sympathetic American supporters. Erskine Mason Phelps, an early admirer of the Indian monk, opened his home to Vivekananda during this pivotal period. This act of personal kindness exemplified the network of warm-hearted individuals across America who would sustain and support Vivekananda's historic mission to introduce Vedantic philosophy to the Western world."
+    ],
+    "image": "erskine_phelps_house.jpg"
+  },
+  {
+    "id": "george_hale_home",
+    "title": "George W. Hale Home",
+    "description": [
+      "The Hale family of Chicago, including George W. Hale, extended their warm hospitality to Swami Vivekananda during his revolutionary stay in the city surrounding the 1893 Parliament of the World's Religions. The Hale household provided Vivekananda with a welcoming foundation as he began his transformative engagement with American audiences and intellectual circles. The family's sustained interest in the Swami and his teachings demonstrated the deep connections he forged with progressive American thinkers and families who remained his supporters throughout his subsequent tours of the West."
+    ],
+    "image": "george_hale_home.jpg"
+  },
+  {
+    "id": "lyon_home_chicago",
+    "title": "Lyon Home",
+    "description": [
+      "Among the network of Chicago residences that sheltered Swami Vivekananda during the Parliament of the World's Religions period in 1893, the Lyon Home stood as one of the generous sanctuaries provided by sympathetic American householders. These private homes became crucial bases for Vivekananda's work during a transformative moment when he was establishing his foothold in America. The hospitality of families like the Lyons enabled the Indian monk to recover from travel, prepare his lectures, and develop the relationships that would sustain his mission to introduce Vedantic wisdom to Western audiences."
+    ],
+    "image": "lyon_home_chicago.jpg"
+  },
+  {
+    "id": "third_unitarian_church_chicago",
+    "title": "Third Unitarian Church",
+    "description": [
+      "Following his triumphant appearance at the Parliament of the World's Religions in 1893, Swami Vivekananda was invited to deliver lectures on Vedanta at the Third Unitarian Church in Chicago and other liberal religious venues throughout the city and beyond. Unitarian and Universalist congregations proved among the most receptive American audiences for his philosophical teachings, as these communities shared his emphasis on the universality of spiritual truth and the equality of all faiths. Vivekananda's extended lecturing schedule at such churches during 1893-1894 marked the beginning of his systematic work to introduce Vedantic philosophy to the American intellectual and religious establishment."
+    ],
+    "image": "third_unitarian_church_chicago.jpg"
+  },
+  {
+    "id": "highland_park_illinois",
+    "title": "Highland Park",
+    "description": [
+      "In September 1893, immediately after his triumphant appearance at the Parliament of the World's Religions, Swami Vivekananda was introduced to prominent Chicago-area scientists at an elegant vegetarian dinner hosted by Professor Elisha Grey, the noted electrical inventor, and his wife at their residence in Highland Park. This early invitation into the homes of wealthy and influential supporters in the prosperous Lake Michigan suburb marked the beginning of Vivekananda's engagement with the well-to-do communities surrounding Chicago, where many of his first American devotees resided."
+    ],
+    "image": "highland_park_illinois.jpg"
+  },
+  {
+    "id": "hull_house_chicago",
+    "title": "The Hull-House",
+    "description": [
+      "Swami Vivekananda visited Hull-House, Jane Addams' pioneering settlement house, during his Chicago period in 1893. The encounter brought together two visionary reformers working on opposite sides of the world—Addams devoted to progressive social reform in America, and Vivekananda carrying the message of service to the poor as worship of God, a principle that aligned profoundly with the settlement house movement's ideals and humanitarian vision."
+    ],
+    "image": "hull_house_chicago.jpg"
+  },
+  {
+    "id": "hinsdale_unitarian_church",
+    "title": "Hinsdale Unitarian Church",
+    "description": [
+      "Swami Vivekananda lectured at the Hinsdale Unitarian Church in this western Chicago suburb, finding in Unitarian congregations particularly receptive audiences for his universalist message. The liberal theological outlook of Unitarian communities, with their embrace of diverse spiritual traditions and emphasis on reason and conscience, provided a natural home for his teaching that the unity of all religions constituted the essence of Vedanta."
+    ],
+    "image": "hinsdale_unitarian_church.jpg"
+  },
+  {
+    "id": "masonic_temple_chicago",
+    "title": "Masonic Temple",
+    "description": [
+      "Following his sensational debut at the Parliament of the World's Religions in 1893, Swami Vivekananda leveraged the momentum of his success by addressing audiences at the Masonic Temple, Chicago's monumental architectural marvel and one of the world's tallest buildings at the time. The temple's prestigious assembly rooms offered an ideal stage for his continuing lectures on Vedanta and Hindu philosophy to the thousands of Chicagoans eager to hear more from the eloquent Indian monk."
+    ],
+    "image": "masonic_temple_chicago.jpg"
+  },
+  {
+    "id": "first_universalist_church_chicago",
+    "title": "First Universalist Church",
+    "description": [
+      "Swami Vivekananda found a warm reception at the First Universalist Church during his Chicago engagement of 1893-1894, where his vision of universal spirituality resonated deeply with the congregation's belief in salvation for all humanity. These liberal religious communities provided ideal forums for him to expound Vedanta's central truth—that all spiritual paths ultimately converge in the realization of divine unity."
+    ],
+    "image": "first_universalist_church_chicago.jpg"
+  },
+  {
+    "id": "central_music_hall_chicago",
+    "title": "Central Music Hall",
+    "description": [
+      "Central Music Hall served as one of the principal venues for Swami Vivekananda's lectures in the months following the Parliament of the World's Religions in September 1893. The prestigious downtown Chicago concert and lecture hall drew enthusiastic crowds of citizens who had not attended the Parliament itself, allowing Vivekananda to extend his message of Hinduism and Vedanta philosophy to the broader American public through these extension lectures."
+    ],
+    "image": "central_music_hall_chicago.jpg"
+  },
+  {
+    "id": "auditorium_theater_chicago",
+    "title": "Auditorium Theater",
+    "description": [
+      "The magnificent Auditorium Theatre, designed by the celebrated architectural firm Adler and Sullivan, provided Swami Vivekananda with a grand stage worthy of his commanding presence during his 1893 Chicago period. The theatre's superb acoustics and architectural splendor made it an ideal venue for his powerful articulation of Vedantic philosophy to large audiences drawn by the excitement surrounding his Parliament appearance."
+    ],
+    "image": "auditorium_theater_chicago.jpg"
+  },
+  {
+    "id": "cobb_hall_chicago",
+    "title": "Cobb Hall",
+    "description": [
+      "Swami Vivekananda engaged with the academic community of the University of Chicago during 1893-1894, lecturing at Cobb Hall in the newly founded institution that embodied progressive American scholarship. He presented Vedanta philosophy as a rational, scientifically grounded system compatible with modern thought, demonstrating to university audiences that Hindu philosophy possessed intellectual rigor and philosophical sophistication equal to Western traditions."
+    ],
+    "image": "cobb_hall_chicago.jpg"
+  },
+  {
+    "id": "dr_perkins_house_chicago",
+    "title": "Dr. Perkins' house",
+    "description": [
+      "Dr. Perkins opened his Chicago home to Swami Vivekananda during the monk's momentous 1893 sojourn in the city, offering him hospitality during a transformative period following the Parliament of the World's Religions. Within this intimate domestic setting, Vivekananda engaged small circles of curious Americans in philosophical discourse on Vedanta, translating the ancient Hindu teachings into language and concepts accessible to Western minds. These parlour conversations proved as significant as his public lectures in cultivating the first generation of American seekers drawn to his universalist vision of religion."
+    ],
+    "image": "dr_perkins_house_chicago.jpg"
+  },
+  {
+    "id": "first_congretational_church_evanston",
+    "title": "First Congretational Church",
+    "description": [
+      "In October 1893, Swami Vivekananda delivered a course of lectures at the First Congregational Church in Evanston, Illinois, creating an intellectual space comparable in spirit to the recently concluded Parliament of Religions in Chicago. The Evanston congregation, situated in a prosperous university town known for its educated and progressive residents, received his teachings on Hindu philosophy with genuine interest and respect. These lectures marked the beginning of Vivekananda's expansion beyond Chicago's urban centre into the surrounding communities of the Midwest."
+    ],
+    "image": "first_congretational_church_evanston.jpg"
+  },
+  {
+    "id": "houses_visited_evanston",
+    "title": "Houses visited in Evanston",
+    "description": [
+      "During his Evanston visits in late 1893 and early 1894, Swami Vivekananda found welcome in the private residences of spiritually-minded families in this university town adjacent to Chicago. These households provided intimate forums where he could discuss Vedanta philosophy with Americans eager to understand Hindu spiritual thought beyond the framework of missionary representations. The domestic spaces of Evanston's progressive households became early American drawing rooms of Hindu wisdom, establishing a pattern of private patronage that would sustain his American ministry."
+    ],
+    "image": "houses_visited_evanston.jpg"
+  },
+  {
+    "id": "colonel_ralph_plumb",
+    "title": "Colonel Ralph Plumb",
+    "description": [
+      "Colonel Ralph Plumb, a civic figure in Streator, Illinois, extended his hospitality to Swami Vivekananda during the monk's extensive lecture tour through the state in 1894. Plumb's willingness to host the Hindu sage reflected a growing American curiosity about Eastern spirituality and demonstrated that Vivekananda's message resonated beyond metropolitan centres. Through Plumb's introduction and support, Vivekananda reached audiences in smaller Illinois towns, carrying the universal principles of Vedanta to communities far from the lecture halls of Chicago and Eastern cities."
+    ],
+    "image": "colonel_ralph_plumb.png"
+  },
+  {
+    "id": "plumb_opera_house_streator",
+    "title": "Plumb Opera House",
+    "description": [
+      "The Plumb Opera House in Streator provided the public stage for Swami Vivekananda's lecture to the Illinois coal-mining town in 1894, representing his determined effort to bring Hindu philosophy to America's working and middle-class communities. Named after the prominent Plumb family who championed his visit, the opera house drew local residents curious about this celebrated Hindu monk whose reputation had spread nationwide following the Parliament of Religions. His address demonstrated that Vedanta's message of human dignity and spiritual universalism held appeal far beyond academic and elite circles."
+    ],
+    "image": "plumb_opera_house_streator.png"
+  },
+  {
+    "id": "first_congregational_church_madison",
+    "title": "First Congregational Church",
+    "description": [
+      "In November 1893, Swami Vivekananda delivered a lecture at the First Congregational Church in Madison, Wisconsin, where the local press recognized his message as containing 'much of sound philosophy and good religion' worthy of Christian consideration. The state capital's educated audience, enriched by the presence of the University of Wisconsin, engaged seriously with his exposition of Vedanta's central teaching of divinity inherent in the human soul. Madison's Congregational community proved receptive to his claim that Hindu philosophy and Christian ethics shared common ground in their ultimate concern for human spiritual perfection."
+    ],
+    "image": "first_congregational_church_madison.jpg"
+  },
+  {
+    "id": "first_unitarian_church_minneapolis",
+    "title": "First Unitarian Church",
+    "description": [
+      "The First Unitarian Church of Minneapolis hosted Swami Vivekananda in November 1893, providing a congregation deeply aligned with his universalist vision of religion to hear him expound Brahminism's ancient principles. The Minneapolis audience sat in rapt attention as Vivekananda unveiled the central teaching of Hindu faith—that the soul is inherently divine and that religion consists of manifesting this divinity already present in human nature. The lecture drew such enthusiastic response that attendees subsequently requested a semi-public discourse on Hindu religion, demonstrating the profound impact of his Minneapolis visit."
+    ],
+    "image": "first_unitarian_church_minneapolis.jpg"
+  },
+  {
+    "id": "quincy_house_hotel_boston",
+    "title": "Quincy House Hotel",
+    "description": [
+      "The Quincy House Hotel served as one of Swami Vivekananda's residences during his stays in Boston between 1893 and beyond, a city that became one of his most significant American centres. Boston's long tradition of transcendental thought, Unitarian liberalism, and openness to philosophical innovation created an ideal receptive environment for his teachings on the universality of Hindu wisdom. His multiple extended visits to this historic city allowed him to cultivate deep relationships with Boston's intellectual and spiritual elite, making it a crucial base for spreading Vedanta throughout New England and beyond."
+    ],
+    "image": "quincy_house_hotel_boston.jpg"
+  },
+  {
+    "id": "hotel_bellevue_boston",
+    "title": "Hotel Bellevue",
+    "description": [
+      "During his extended stays in Boston between 1894 and 1895, Swami Vivekananda lodged at the Hotel Bellevue, using it as a base for his intensive lecture and teaching schedule across New England. The hotel anchored his presence in a city that had become one of his principal American strongholds, drawing large and devoted audiences hungry for his teachings on Vedanta and the unity of all religions. From this location, he maintained a rigorous schedule of public lectures, intimate classes, and private philosophical discussions that solidified his reputation as one of the most compelling spiritual voices in America."
+    ],
+    "image": "hotel_bellevue_boston.jpg"
+  },
+  {
+    "id": "womens_club_julia_ward_howe",
+    "title": "Women's Club of Julia Ward Howe",
+    "description": [
+      "Swami Vivekananda spoke at the Women's Club associated with Julia Ward Howe, the renowned poet and reformer whose progressive circle became instrumental in spreading his message throughout Boston's educated elite. The gathering drew many reform-minded women who were captivated by his teachings on the universal principles underlying all faiths and the spiritual potential within every human being. These encounters at the club cultivated enduring friendships and shaped a devoted core of female supporters, including Sara Bull, whose devotion to him lasted throughout his life."
+    ],
+    "image": "womens_club_julia_ward_howe.jpg"
+  },
+  {
+    "id": "round_table_boston",
+    "title": "Round Table",
+    "description": [
+      "The Round Table, one of Boston's distinguished intellectual discussion societies, provided an ideal forum for Swami Vivekananda to expound the philosophy of Vedanta to an audience of educated professionals deeply interested in exploring Indian thought. Drawing on Boston's rich legacy of philosophical inquiry descended from the Transcendentalist movement, the club's members engaged him in rigorous dialogue about the nature of consciousness, the principles of yoga, and the relationship between Eastern and Western spiritual traditions. His appearances there cemented his standing among the city's most intellectually discriminating circles."
+    ],
+    "image": "round_table_boston.jpg"
+  },
+  {
+    "id": "association_hall_boston",
+    "title": "Association Hall",
+    "description": [
+      "Association Hall served as one of the prominent public venues where Swami Vivekananda delivered his popular lectures on Hinduism, Vedantic philosophy, and the underlying unity of world religions to large Boston audiences. The hall's capacity to draw substantial crowds reflected the widespread curiosity about his teachings among the city's general educated population, transcending the more intimate club settings. His lectures there covered pressing topics including Hindu customs and practices, addressing Western misunderstandings with his characteristic blend of philosophical depth and practical wisdom."
+    ],
+    "image": "association_hall_boston.jpg"
+  },
+  {
+    "id": "procopeia_club_boston",
+    "title": "Procopeia Club",
+    "description": [
+      "At the Procopeia Club, a private intellectual gathering space, Swami Vivekananda engaged Boston's cultivated elite in intimate discussions and lectures that deepened their understanding of Vedantic thought. The club exemplified how his message spread through personal connections and private forums, where small groups of devoted listeners absorbed his teachings on yoga, metaphysics, and the spiritual dimensions of human life. These selective gatherings fostered lasting relationships with influential Bostonians who became lifelong supporters and advocates for his vision of universal spirituality."
+    ],
+    "image": "procopeia_club_boston.jpg"
+  },
+  {
+    "id": "hall_56_st_botolph_st",
+    "title": "Hall at 56 St Botolph St",
+    "description": [
+      "Throughout 1894 and 1895, Swami Vivekananda held regular classes at the hall on St Botolph Street in Boston's Back Bay, the intellectual and artistic heart of the city, where he taught devoted students the disciplines of Raja Yoga, Jnana Yoga, and the deeper philosophy of Vedanta. The location became a center of serious spiritual practice, attracting serious seekers committed to systematic study and transformation. His systematic presentation of yoga philosophy and Vedantic wisdom at this venue established a template for the teaching work that would eventually extend far beyond Boston."
+    ],
+    "image": "hall_56_st_botolph_st.jpg"
+  },
+  {
+    "id": "twentieth_century_club_boston",
+    "title": "Twentieth Century Club",
+    "description": [
+      "The Twentieth Century Club, dedicated to progressive discourse on social, literary, and philosophical questions, welcomed Swami Vivekananda as a speaker whose vision of universal spirituality aligned perfectly with the club's forward-looking membership. His message of the divinity inherent in every human soul and the fundamental unity underlying all religious traditions resonated deeply with Boston's intellectually progressive community. The encounter between Vivekananda and the club's members exemplified how his teachings found receptive audiences among those seeking to reconcile spirituality with modern ethical and social concerns."
+    ],
+    "image": "twentieth_century_club_boston.jpg"
+  },
+  {
+    "id": "charles_fairchild_home_boston",
+    "title": "Charles Fairchild home",
+    "description": [
+      "The home of Charles Fairchild became a gathering place where Swami Vivekananda connected with Boston's most sympathetic and intellectually accomplished supporters, who formed a circle of devoted admirers centered on the dissemination of Vedantic wisdom. Fairchild's household exemplified the network of private residences that sustained Vivekananda's New England work, providing hospitality, intellectual companionship, and the kind of personal relationships that deepened his influence beyond formal lectures. Through such private venues, his message took root among some of Boston's most influential and educated citizens."
+    ],
+    "image": "charles_fairchild_home_boston.jpg"
+  },
+  {
+    "id": "breezy_meadows_metcalf",
+    "title": "Breezy Meadows",
+    "description": [
+      "During his New England circuit in 1894, Swami Vivekananda found refuge at Breezy Meadows in Metcalf, Massachusetts, a pastoral retreat that offered respite from the demands of constant lecturing. The countryside setting provided an ideal environment for him to pursue his deeper work—studying, writing, and offering private instruction to his closer circle of disciples. In such tranquil surroundings, away from the busy Boston intellectual scene, Vivekananda continued his mission of transmitting Vedantic teachings to those ready to receive them."
+    ],
+    "image": "breezy_meadows_metcalf.jpg"
+  },
+  {
+    "id": "boston_ladies_club_metcalf",
+    "title": "Boston Ladies Club",
+    "description": [
+      "Swami Vivekananda's lectures to the Boston Ladies Club drew audiences of well-educated, spiritually curious women who were captivated by his message of universal spiritual equality. His address to this prominent women's organization exemplified his conviction that the Vedantic principles of human dignity transcended gender, caste, and nationality. Through such appearances at women's clubs across the New England region, Vivekananda built a devoted network of supporters who would champion his teachings long after his departure from America."
+    ],
+    "image": "boston_ladies_club_metcalf.jpg"
+  },
+  {
+    "id": "sherborn_reformatory",
+    "title": "Sherborn Reformatory",
+    "description": [
+      "When the Lady Superintendent of the Sherborn Reformatory for women invited Swami Vivekananda to visit the institution, he readily accepted, seeing the opportunity to bring his message of spiritual dignity to society's most marginalized members. His willingness to address the inmates reflected his core conviction that the divine spark resides equally in all human beings, regardless of their circumstances or past misdeeds. This visit embodied his practical application of Vedanta—the principle that service to suffering humanity constitutes worship of God."
+    ],
+    "image": "sherborn_reformatory.jpg"
+  },
+  {
+    "id": "charlotte_lane_boarding_house",
+    "title": "Charlotte Lane Boarding house",
+    "description": [
+      "The Charlotte Lane Boarding House in Annisquam became a summer haven for Swami Vivekananda during 1894, offering the peaceful seaside atmosphere he sought for deeper work. Situated in this picturesque fishing village within Gloucester on Cape Ann, the boarding house provided an ideal setting where he could write, teach, and rest. Several American disciples gathered there to receive his instruction, making it a hub of Vedantic learning during the summer months."
+    ],
+    "image": "charlotte_lane_boarding_house.jpg"
+  },
+  {
+    "id": "hyatt_house_annisquam",
+    "title": "The Hyatt House",
+    "description": [
+      "The Hyatt House served as another of Swami Vivekananda's summer residences in Annisquam during 1894, a period of intensive creative and spiritual work. It was during these weeks spent in the tranquil Cape Ann village that he labored on his lectures on Raja Yoga, which would later crystallize into the foundational text 'Raja Yoga.' The quiet coastal setting provided the contemplative space necessary for him to distill these teachings into their most powerful and accessible form."
+    ],
+    "image": "hyatt_house_annisquam.jpg"
+  },
+  {
+    "id": "universalist_church_annisquam",
+    "title": "Universalist Church",
+    "description": [
+      "The Universalist Church in Annisquam welcomed Swami Vivekananda to address its congregation during his Cape Ann summers, attracted by the denomination's progressive theology and openness to universal spiritual truth. In this intimate New England village setting, he spoke to audiences eager to hear his teachings on the Self and the principles of Vedanta. His presence in such communities demonstrated how receptive even small American towns could be to India's ancient wisdom traditions."
+    ],
+    "image": "universalist_church_annisquam.jpg"
+  },
+  {
+    "id": "mechanics_hall_boston",
+    "title": "Mechanics Hall",
+    "description": [
+      "Mechanics Hall provided one of Boston's principal venues for Swami Vivekananda's public lectures during his New England period, drawing substantial crowds drawn to his expositions on Vedanta, Raja Yoga, and the science of religion. The city's intellectual vigor and curiosity about Indian philosophy ensured that his talks attracted some of his largest American audiences. These well-attended lectures at Mechanics Hall solidified his reputation as one of the most compelling voices introducing Eastern spirituality to the Western mind."
+    ],
+    "image": "mechanics_hall_boston.jpg"
+  },
+  {
+    "id": "kate_tannatt_woods_house",
+    "title": "Kate Tannatt Woods's house",
+    "description": [
+      "Kate Tannatt Woods, a progressive American author and journalist, extended her Salem, Massachusetts home to Swami Vivekananda during his New England tours, becoming part of the circle of literary-minded women supporters who championed his work. Woods and her family were among the thoughtful Americans captivated by his teachings on universal religion and spirituality. Through such private residences and the hospitality of figures like Woods, Vivekananda cultivated the personal relationships that amplified his influence in New England communities."
+    ],
+    "image": "kate_tannatt_woods_house.jpg"
+  },
+  {
+    "id": "wesley_church_salem",
+    "title": "Wesley Church",
+    "description": [
+      "In August 1893, Swami Vivekananda addressed members of the Thought and Work Club at Wesley Chapel in Salem, Massachusetts, despite the warm afternoon weather. The gathering brought together the church's intellectual community to hear the Hindu monk speak informally on India's religion and customs. This appearance at the Methodist congregation reflected the growing openness of American denominations to comparative religion during the late nineteenth century, even in a town whose Puritan heritage had long defined New England Protestantism."
+    ],
+    "image": "wesley_church_salem.jpg"
+  },
+  {
+    "id": "east_church_salem",
+    "title": "East Church",
+    "description": [
+      "The East Church in Salem hosted Swami Vivekananda during his New England tour in 1894, continuing the pattern of reception he found among the Congregational churches of historic New England. Salem's evolution from its turbulent Puritan past into a center of religious inquiry made it receptive ground for his presentation of Vedantic philosophy. The appearance demonstrated how even America's oldest religious institutions were beginning to engage seriously with Eastern thought through the medium of a living Hindu teacher."
+    ],
+    "image": "east_church_salem.jpg"
+  },
+  {
+    "id": "northampton_city_hall",
+    "title": "Northampton City Hall",
+    "description": [
+      "On the evening of April 14, 1894, Swami Vivekananda lectured at Northampton City Hall, where he spoke to a cultivated audience about the fundamental spiritual kinship connecting all peoples across continents. His choice to speak in the civic hall rather than exclusively in churches underscored his democratic conviction that the universal principles of religion belonged to all people regardless of institutional affiliation. The prosperous Connecticut River valley town, enriched by Smith College's intellectual presence, provided an engaged audience for his message of human unity."
+    ],
+    "image": "northampton_city_hall.jpg"
+  },
+  {
+    "id": "smith_college_northampton",
+    "title": "Smith College",
+    "description": [
+      "Swami Vivekananda's presence at Smith College during his 1894 New England visit resonated deeply with the institution's community of educated American women. His teachings on the spiritual equality of women and the divine potential within all human beings aligned naturally with the aspirations of America's leading women's college. Educated women formed a particularly devoted constituency among his earliest American disciples, and Smith College represented the institutional embodiment of the intellectual equality he championed."
+    ],
+    "image": "smith_college_northampton.jpg"
+  },
+  {
+    "id": "oxford_club_lecture_hall_lynn",
+    "title": "Oxford Club lecture hall",
+    "description": [
+      "The Oxford Club lecture hall in Lynn, Massachusetts provided a venue for Swami Vivekananda to address the progressive thinkers of this historic shoe-manufacturing city north of Boston. His willingness to lecture in industrial communities demonstrated his commitment to sharing Vedantic philosophy across all social strata of American society. Lynn's working-class character and tradition of public intellectual engagement made it an important stop on his New England circuit."
+    ],
+    "image": "oxford_club_lecture_hall_lynn.jpg"
+  },
+  {
+    "id": "rockland_street_swampscott",
+    "title": "Rockland Street",
+    "description": [
+      "Swami Vivekananda visited the seaside town of Swampscott during his New England tours, where several of his American supporters maintained summer residences along the rocky Massachusetts coast. The pleasant Atlantic shore resort attracted Boston's educated middle class, and Vivekananda conducted informal gatherings and discussions with interested residents on Rockland Street. These intimate settings in coastal communities complemented his more formal lecture appearances in urban halls."
+    ],
+    "image": "rockland_street_swampscott.jpg"
+  },
+  {
+    "id": "library_hall_lawrence",
+    "title": "Library Hall",
+    "description": [
+      "Library Hall in Lawrence, Massachusetts welcomed Swami Vivekananda during his New England tour, bringing his message of Vedanta to the diverse immigrant population of this major textile-manufacturing city on the Merrimack River. His determination to lecture in industrial centers rather than confine himself to elite audiences demonstrated his conviction that spiritual truth transcended class boundaries. The appearance underscored his vision of a universal religion accessible to workers and thinkers alike."
+    ],
+    "image": "library_hall_lawrence.jpg"
+  },
+  {
+    "id": "rogers_hall_melrose",
+    "title": "Rogers Hall",
+    "description": [
+      "Rogers Hall in Melrose, Massachusetts was among the suburban venues north of Boston where Swami Vivekananda lectured during his New England tour in 1894. The prosperous residential community's active cultural life and lecture-going tradition made it a natural stop for spreading the teachings of Vedanta beyond Boston proper. His appearances in such comfortable New England suburbs helped establish a broadbased network of support among the educated middle class that would sustain his American work."
+    ],
+    "image": "rogers_hall_melrose.jpg"
+  },
+  {
+    "id": "evans_caswell_house_melrose",
+    "title": "Evans Caswell's house",
+    "description": [
+      "During his New England tours in 1894, Swami Vivekananda was received at Evans Caswell's home in Melrose, Massachusetts, where private drawing-room gatherings formed an essential part of his teaching method. These intimate settings in American homes allowed him to establish personal connections with his listeners that often proved more transformative than formal public lectures. The pattern of moving between private residences and public venues reflected his strategic approach to bringing Vedanta philosophy to New England's educated classes."
+    ],
+    "image": "evans_caswell_house_melrose.jpg"
+  },
+  {
+    "id": "magnolia_library_magnolia",
+    "title": "Magnolia Library",
+    "description": [
+      "In 1894, Swami Vivekananda delivered lectures at the Magnolia Library in this fashionable Cape Ann summer colony, addressing an audience drawn largely from Boston's professional classes who spent their summers in this exclusive resort. The library served as an ideal venue for his presentation of Vedanta philosophy to educated New Englanders seeking intellectual and spiritual engagement. The setting reflected the Victorian culture of literary societies and reading rooms that provided genteel spaces for the discussion of ideas among the region's cultural elite."
+    ],
+    "image": "magnolia_library_magnolia.jpg"
+  },
+  {
+    "id": "gray_beach_magnolia",
+    "title": "Gray Beach",
+    "description": [
+      "Swami Vivekananda spent time at Gray Beach in Magnolia during his 1894 summer stay in this scenic Massachusetts coastal village, finding in its rocky Atlantic shores a contemplative setting reminiscent of Kanyakumari's spiritual landscape. The dramatic seascape of Cape Ann provided a natural environment for reflection that held deep significance for his spiritual practice, echoing the meditative power he had experienced at India's southern shore."
+    ],
+    "image": "gray_beach_magnolia.jpg"
+  },
+  {
+    "id": "davis_opera_house_plymouth",
+    "title": "Davis Opera House",
+    "description": [
+      "Swami Vivekananda lectured at the Davis Opera House in Plymouth, Massachusetts in 1894, the historic town where the Pilgrims first landed and established the foundations of American Puritanism. He recognized the symbolic resonance of bringing ancient Indian spiritual wisdom to the very birthplace of American religious tradition, viewing such encounters as the inevitable and enriching meeting of East and West that would define the coming age."
+    ],
+    "image": "davis_opera_house_plymouth.jpg"
+  },
+  {
+    "id": "radcliffe_college_cambridge",
+    "title": "Radcliffe College(Fay House)",
+    "description": [
+      "During his rigorous Cambridge period in 1896, Swami Vivekananda addressed the intellectually ambitious students and faculty at Radcliffe College, Harvard's coordinate women's college, delivering some of his most academically demanding lectures in America. His engagement with Radcliffe reflected his commitment to presenting Vedantic philosophy as a sophisticated intellectual system worthy of engagement by the most advanced scholars of the Western world."
+    ],
+    "image": "radcliffe_college_cambridge.png"
+  },
+  {
+    "id": "sever_hall_cambridge",
+    "title": "Sever Hall",
+    "description": [
+      "Swami Vivekananda delivered lectures at Sever Hall, Harvard University's principal lecture building, during his 1896 Cambridge period, presenting his philosophical teachings before one of the world's most distinguished academic audiences. Dressed in his traditional orange robes, his presence at Harvard represented a high point of his American mission—the successful translation of Vedantic thought into the rigorous intellectual discourse of Western academia at its most elite institution."
+    ],
+    "image": "sever_hall_cambridge.jpg"
+  },
+  {
+    "id": "sara_ole_bull_house_cambridge",
+    "title": "Sara Ole Bull House",
+    "description": [
+      "Sara Chapman Bull, widow of the renowned Norwegian violinist Ole Bull, opened her elegant Cambridge home to Swami Vivekananda during his Boston and Cambridge periods from 1894 to 1896, becoming his most devoted American patron and steadfast supporter. Her residence served as the center of his New England circle, and in late 1894 he delivered from her home a memorable lecture on 'The Ideals of Indian Women' that expressed his gratitude for the kindness shown him by his American hosts. Mrs. Bull's generous financial support enabled him to pursue his American mission and eventually to establish Vedanta Society centers that would perpetuate his teachings long after his return to India."
+    ],
+    "image": "sara_ole_bull_house_cambridge.jpg"
+  },
+  {
+    "id": "mrs_anna_richards_house_cambridge",
+    "title": "Mrs. Anna Richards House",
+    "description": [
+      "Mrs. Anna Richards' Cambridge home provided welcoming space for Swami Vivekananda's intimate gatherings and private discussions during his New England period from 1894 to 1896, where she was counted among the devoted women supporters who formed the core of his American circle. Her residence complemented the public lectures at Harvard and Radcliffe, offering the personal settings where his closest disciples deepened their commitment to Vedantic practice and philosophy."
+    ],
+    "image": "mrs_anna_richards_house_cambridge.jpg"
+  },
+  {
+    "id": "dane_hall_harvard",
+    "title": "Dane Hall",
+    "description": [
+      "During his Cambridge period in 1896, Swami Vivekananda lectured at Dane Hall, one of Harvard University's academic buildings, where he engaged with some of America's most intellectually formidable minds. His presentations on Indian philosophy and Vedantic thought attracted the attention of distinguished scholars and faculty, including the pioneering psychologist William James, whose theoretical work on religious experience found a living exemplar in the Swami's teachings. These Harvard lectures represented a watershed moment in his American mission, demonstrating that the ancient wisdom of India could command respect and serious attention in the most rigorous academic environment in the nation."
+    ],
+    "image": "dane_hall_harvard.jpg"
+  },
+  {
+    "id": "prof_wright_house_cambridge",
+    "title": "Prof.J.H Wright's house",
+    "description": [
+      "Professor John Henry Wright's Cambridge home served as Vivekananda's entry point into American intellectual life in 1893. The Greek scholar, profoundly moved by the young monk's erudition and spiritual presence, became his crucial advocate at a pivotal moment—when Wright penned the now-famous letter of introduction declaring that asking Vivekananda for credentials was like questioning the sun's right to shine. This letter secured the Swami's passage to the Parliament of the World's Religions in Chicago, fundamentally altering the trajectory of his life and work. Wright's home thus stands as the birthplace of Vivekananda's transformation from an unknown Indian ascetic into a recognized voice of Eastern spirituality in the West."
+    ],
+    "image": "prof_wright_house_cambridge.jpg"
+  },
+  {
+    "id": "memorial_hall_harvard",
+    "title": "Memorial Hall",
+    "description": [
+      "The grand Victorian Gothic edifice of Memorial Hall, Harvard's tribute to its Civil War dead, became a stage for Swami Vivekananda's philosophical presentations in the spring of 1896. Before faculty members, undergraduates, and Cambridge's educated elite, he articulated the principles of Vedantic philosophy with such intellectual rigor that the ancient wisdom of India could stand as an equal in the most demanding academic forum in America. His lectures there marked a decisive moment when Eastern thought was no longer dismissed as mere mysticism but engaged as serious philosophy worthy of Harvard's attention."
+    ],
+    "image": "memorial_hall_harvard.jpg"
+  },
+  {
+    "id": "holworthy_hall_harvard",
+    "title": "Holworthy Hall",
+    "description": [
+      "Holworthy Hall, one of Harvard's oldest dormitories nestled in the historic Yard, provided a setting for Swami Vivekananda's interactions with American scholars and curious students during his 1896 Cambridge sojourn. Within these ancient brick buildings that had sheltered generations of American intellectuals, he encountered a new generation of thinkers eager to understand Indian philosophy and the Vedantic worldview. His presence in Harvard's venerable precincts represented a significant moment when Eastern spirituality began to take root in the institutions that shaped American intellectual life."
+    ],
+    "image": "holworthy_hall_harvard.jpg"
+  },
+  {
+    "id": "prof_james_house_cambridge",
+    "title": "Prof. James' house",
+    "description": [
+      "At Professor William James's Cambridge residence, Swami Vivekananda encountered one of America's most brilliant philosophical minds—a thinker whose theoretical investigations into the psychology of mysticism found their confirmation in the living presence of the Indian monk. James, whose groundbreaking work examined the varieties of religious experience, recognized in Vivekananda an embodiment of the mystical consciousness he had studied. Their Cambridge meetings represented a rare convergence of Western philosophical inquiry and Eastern spiritual realization, two great minds acknowledging each other's profound understanding across the boundaries of culture and tradition."
+    ],
+    "image": "prof_james_house_cambridge.jpg"
+  },
+  {
+    "id": "macleod_house_cambridge",
+    "title": "MacLeod's house",
+    "description": [
+      "Josephine MacLeod's home in Cambridge became a spiritual gathering place during Swami Vivekananda's 1896 lecture series, serving as headquarters for his inner circle of American devotees. MacLeod, whom Vivekananda affectionately called 'Joe Joe,' had become one of his most dedicated disciples, and her house functioned as both residence and meeting ground for discussions that extended his formal lectures into intimate spiritual exchanges. This home would remain significant in the broader narrative of his American mission, as MacLeod herself later journeyed to India to deepen her spiritual practice under his direct guidance, becoming a lifelong link between the Indian and American branches of his movement."
+    ],
+    "image": "macleod_house_cambridge.jpg"
+  },
+  {
+    "id": "grand_army_hall_medford",
+    "title": "Grand Army Hall",
+    "description": [
+      "The Grand Army Hall in Medford, a civic venue honoring the veterans of America's Civil War, provided Swami Vivekananda with a public forum to address the citizens of this Massachusetts town during his 1894 New England lecture circuit. The hall's use for community gatherings made it an ideal venue for reaching ordinary citizens beyond Boston's intellectual elite, allowing his message of Vedantic philosophy to penetrate the towns and smaller cities north of the metropolitan center. His appearance there reflected his democratic impulse to share Indian wisdom not merely with academic societies but with the broader American public."
+    ],
+    "image": "grand_army_hall_medford.jpg"
+  },
+  {
+    "id": "mrs_gibson_house_medford",
+    "title": "Mrs. Emily Ruth Gibson's house",
+    "description": [
+      "Mrs. Emily Ruth Gibson's Medford residence opened its doors to Swami Vivekananda during his 1894 New England travels, becoming part of the network of private homes that sustained his lecture circuit through Massachusetts. As a progressive, spiritually minded woman, Mrs. Gibson represented the type of American hostess who facilitated his mission by providing intimate settings for deeper philosophical discussions with small groups of earnest seekers. Her home exemplified the quiet but essential role played by individual supporters who made his American journey possible, creating spaces where Eastern and Western spirituality could meet in conversation."
+    ],
+    "image": "mrs_gibson_house_medford.jpg"
+  },
+  {
+    "id": "sanatorium_saratoga_springs",
+    "title": "Sanatorium",
+    "description": [
+      "During his 1895 New York period, Swami Vivekananda visited a sanatorium in Saratoga Springs, the celebrated upstate resort town renowned for its natural mineral springs and fashionable gathering of America's wealthy elite. The mineral springs and health-conscious atmosphere of this famous spa resonated with his philosophical interest in the interconnection between physical vitality and spiritual development. Vivekananda engaged with the summer society that converged here, sharing his teachings on Vedanta with interested supporters and patrons who sought both restoration and intellectual discourse."
+    ],
+    "image": "sanatorium_saratoga_springs.jpg"
+  },
+  {
+    "id": "town_hall_saratoga_springs",
+    "title": "Town Hall",
+    "description": [
+      "Saratoga Springs' Town Hall served as a dignified civic venue for Swami Vivekananda's public lectures during his visits to this upstate New York resort in 1895. The hall provided an appropriate setting for his presentations on Vedanta philosophy and the spiritual traditions of ancient India to the community of summer visitors drawn from New York's intellectual and wealthy classes. These lectures helped establish his reputation among the educated circles of the Northeast."
+    ],
+    "image": "town_hall_saratoga_springs.jpg"
+  },
+  {
+    "id": "fishkill_landing_beacon",
+    "title": "Fishkill Landing - Beacon",
+    "description": [
+      "Swami Vivekananda traveled to Fishkill Landing, a picturesque Hudson Valley community on the eastern shore of the Hudson River in Dutchess County, during his explorations of New York communities beyond Manhattan in 1895. The dramatic river landscapes and contemplative atmosphere of the Hudson Valley appealed to those seeking spiritual instruction, and his visit to this riverside town extended his influence beyond the urban centers. The region's natural beauty and settled communities provided alternative venues for his teaching work."
+    ],
+    "image": "fishkill_landing_beacon.jpg"
+  },
+  {
+    "id": "dr_guernsey_home_nyc",
+    "title": "Dr. Guernsey's home",
+    "description": [
+      "Dr. Guernsey's home in New York City became an early refuge and gathering place for Swami Vivekananda during his initial years in America around 1894. As one of his earliest supporters from the medical profession, Dr. Guernsey offered hospitality and helped introduce the Swami to New York's educated circles. This home represented the personal networks of sympathetic hosts, particularly from the professional class, who sustained his emerging American mission."
+    ],
+    "image": "dr_guernsey_home_nyc.jpg"
+  },
+  {
+    "id": "54_west_33rd_st_nyc",
+    "title": "54 West 33rd St (First HQ)",
+    "description": [
+      "At 54 West 33rd Street in Manhattan, Swami Vivekananda established the first formal headquarters for his organized Vedanta work in New York during 1894-1895. From this address, he conducted regular classes and lectures on Raja Yoga, Jnana Yoga, and Bhakti Yoga for his growing circle of American students. This location marked the inception of institutionalized Vedanta teaching in America, transforming his individual lectures into a systematic movement that would eventually crystallize as the Vedanta Society of New York."
+    ],
+    "image": "54_west_33rd_st_nyc.jpg"
+  },
+  {
+    "id": "waldorf_hotel_nyc",
+    "title": "Waldorf Hotel",
+    "description": [
+      "The prestigious Waldorf Hotel on Fifth Avenue served as one of the fashionable Manhattan addresses where Swami Vivekananda stayed and received supporters during 1894-1895. His presence at this renowned establishment reflected the elevated social circles in which he moved, where wealthy patrons and society figures arranged meetings to discuss his teachings. The Waldorf exemplified the high-profile venues through which his American mission gained traction among the city's elite."
+    ],
+    "image": "waldorf_hotel_nyc.jpg"
+  },
+  {
+    "id": "mary_phillips_home_nyc",
+    "title": "Mary Phillips's Home",
+    "description": [
+      "Mary Phillips' Manhattan home became an intimate gathering place for Swami Vivekananda and his circle of New York devotees during 1894-1895. Her residence hosted the informal discussions and private talks that deepened the engagement of his followers, complementing the public lectures he delivered across the city. Phillips represented the dedicated women supporters whose practical devotion and hospitality provided the essential domestic infrastructure sustaining his American work."
+    ],
+    "image": "mary_phillips_home_nyc.jpg"
+  },
+  {
+    "id": "unknown_place_new_york",
+    "title": "Unknown place in New York",
+    "description": [
+      "During his extended periods in New York City, particularly 1894-1895, Swami Vivekananda visited numerous addresses across Manhattan whose precise locations have not been fully established in historical records. These unnamed venues hosted lectures, private classes, and meetings with supporters as he cultivated his growing circle of devotees throughout the metropolis. The gaps in documentation reflect both the intensity and fluidity of his American mission during these formative years."
+    ],
+    "image": "unknown_place_new_york.jpg"
+  },
+  {
+    "id": "leon_landsberg_home_nyc",
+    "title": "Leon Landsberg's Home",
+    "description": [
+      "In 1894, Leon Landsberg's New York home became a significant gathering place for Swami Vivekananda's emerging American circle. Landsberg, a Jewish journalist and intellectual who would become known as Swami Kripananda, was among the first Americans to embrace monastic initiation into Vivekananda's teachings on Vedanta. His residence served as an intimate venue where the Swami's earliest American disciples assembled to explore the philosophical and spiritual foundations of his message, establishing one of the foundational nodes of Vedanta's foothold in New York."
+    ],
+    "image": "leon_landsberg_home_nyc.jpg"
+  },
+  {
+    "id": "emma_thursby_house_nyc",
+    "title": "Emma Thursby's house",
+    "description": [
+      "Emma Thursby's New York home opened the doors of high society to Swami Vivekananda during his 1894 visit. The renowned soprano, one of America's most celebrated singers, became a devoted supporter whose social standing lent considerable prestige to the Swami's work in the city. Her parlours attracted members of New York's cultural and intellectual elite, creating an elegant setting where Vedanta philosophy encountered the minds shaping American artistic life. Her detailed notes of morning classes delivered that summer at Greenacre, Maine, preserved Vivekananda's teachings for posterity."
+    ],
+    "image": "emma_thursby_house_nyc.jpg"
+  },
+  {
+    "id": "corbin_mansion_nyc",
+    "title": "Corbin mansion",
+    "description": [
+      "The Corbin mansion in New York represented the world of finance and business that Swami Vivekananda successfully engaged during his 1894 stay. Among the city's wealthy elite who hosted him in their elegant residences were figures commanding considerable economic influence. These mansions provided refined domestic settings where intimate philosophical discussions complemented his public lectures, demonstrating his ability to bridge the gap between high society and spiritual teaching."
+    ],
+    "image": "corbin_mansion_nyc.jpg"
+  },
+  {
+    "id": "home_lorenzo_barbers_nyc",
+    "title": "Home of Lorenzo Barbers",
+    "description": [
+      "Lorenzo Barbers opened his New York home to Swami Vivekananda in 1894, contributing to the network of private residences that anchored the Swami's teachings in American domestic life. Such homes became laboratories for the practical application of Vedanta, where sustained personal relationships allowed the Swami's disciples to deepen their understanding beyond formal lectures. Through these intimate family connections, Vivekananda wove his universal philosophy into the daily existence of his earliest American followers."
+    ],
+    "image": "home_lorenzo_barbers_nyc.jpg"
+  },
+  {
+    "id": "hall_universal_brotherhood_nyc",
+    "title": "Hall of Universal Brotherhood",
+    "description": [
+      "The Hall of Universal Brotherhood in New York City served as a public forum for Swami Vivekananda's teachings during 1894-1895, its very name embodying the central thrust of his American mission. From this stage, he expounded the universal principles underlying Raja Yoga and Vedantic philosophy, emphasizing the fundamental unity of all existence that transcended sectarian divides. The venue provided an accessible space where diverse New York audiences could encounter his vision of a spirituality liberated from narrow institutional boundaries."
+    ],
+    "image": "hall_universal_brotherhood_nyc.jpg"
+  },
+  {
+    "id": "exodus_club_nyc",
+    "title": "Exodus club",
+    "description": [
+      "The Exodus Club in New York received Swami Vivekananda as a speaker in 1894, reflecting the diversity of venues through which he disseminated his teachings to American intellectuals and professionals. The club's members, drawn from educated circles across the city, encountered his Vedantic vision in an intimate setting that encouraged substantive dialogue. This variety of platforms—from fashionable private clubs to public halls—demonstrated the universal appeal of his message across different strata of American society."
+    ],
+    "image": "exodus_club_nyc.jpg"
+  },
+  {
+    "id": "mott_memorial_hall_nyc",
+    "title": "Mott Memorial Hall",
+    "description": [
+      "Swami Vivekananda delivered public lectures at Mott Memorial Hall during his first American visit in 1894-1895, attracting substantial audiences eager to hear his exposition of Vedanta and Indian philosophy. The hall became one of the key venues through which he reached the broader New York public beyond the circles of wealthy patrons, demonstrating his capacity to communicate with diverse audiences. His lectures there contributed significantly to establishing Vedanta's presence as a serious philosophical force in American intellectual life."
+    ],
+    "image": "mott_memorial_hall_nyc.jpg"
+  },
+  {
+    "id": "west_39th_street_nyc",
+    "title": "228 West Thirty-ninth Street(Second HQ)",
+    "description": [
+      "At 228 West Thirty-ninth Street, Swami Vivekananda established his second headquarters for Vedanta work in New York during 1895, consolidating the organizational structure of his American mission. The residence served as a center for regular classes and meetings where students could pursue sustained study of his teachings. This more permanent institutional base marked the transition from the early dispersed gatherings in private homes to a more organized framework for Vedanta's propagation in America."
+    ],
+    "image": "west_39th_street_nyc.jpg"
+  },
+  {
+    "id": "hardman_hall_nyc",
+    "title": "Hardman Hall",
+    "description": [
+      "During 1894-1895, Swami Vivekananda utilized Hardman Hall as one of the prominent venues for his public lectures and classes on Vedanta in New York City. The hall became a gathering place for intellectuals and spiritual seekers drawn to his teachings on universal religion and Indian philosophy. His lectures at this venue attracted considerable attention from New York's intellectual circles, contributing to the growing recognition of Vedanta in American cultural discourse."
+    ],
+    "image": "hardman_hall_nyc.jpg"
+  },
+  {
+    "id": "madison_square_garden_concert_hall",
+    "title": "Madison Square Garden Concert Hall",
+    "description": [
+      "In 1894, Swami Vivekananda graced the prestigious Madison Square Garden Concert Hall, one of the era's most distinguished venues, where he delivered inspiring discourses on Vedanta, universal religion, and the greatness of Indian civilization. Large crowds assembled to hear the eloquent Hindu monk speak, making it a significant venue in his mission to bring Eastern philosophy to Western audiences. The event underscored how successfully Vivekananda had captured the imagination of New York's educated populace during his groundbreaking first American tour."
+    ],
+    "image": "madison_square_garden_concert_hall.jpg"
+  },
+  {
+    "id": "ramakrishna_vivekananda_center_ny",
+    "title": "Ramakrishna-Vivekananda Center of New York",
+    "description": [
+      "The Ramakrishna-Vivekananda Center of New York owes its spiritual foundation directly to Swami Vivekananda's pioneering work in the city during 1894-1895. Through his lectures, teachings, and personal interactions with devoted followers, Vivekananda established the intellectual and spiritual groundwork upon which this enduring institution was built. The center stands as a living testament to his vision of bringing Vedantic study and practice to the Western world, carrying forward the legacy he initiated during his transformative years in New York."
+    ],
+    "image": "ramakrishna_vivekananda_center_ny.png"
+  },
+  {
+    "id": "charles_higgins_home_brooklyn",
+    "title": "Charles Higgins Home",
+    "description": [
+      "During 1895, the Brooklyn home of Charles Higgins served as one of the welcoming residences where Swami Vivekananda was hosted during his extensive travels through the New York metropolitan area. The hospitality extended by Higgins and other American devotees provided the monk with a base from which to conduct his lectures and meetings throughout Brooklyn and Manhattan. These private homes became essential to Vivekananda's mission, offering both shelter and opportunities to deepen his influence among America's intellectual and spiritual seekers."
+    ],
+    "image": "charles_higgins_home_brooklyn.jpg"
+  },
+  {
+    "id": "pouch_mansion_brooklyn",
+    "title": "Pouch Mansion",
+    "description": [
+      "In April 1895, the Pouch Mansion gallery on Clinton Avenue in Brooklyn hosted a special meeting of the Brooklyn Ethical Association featuring Swami Vivekananda as the main speaker. He delivered a lecture on the customs of the Hindus, explaining their true meaning and correcting widespread misinterpretations in Western understanding. The event demonstrated the monk's systematic effort to educate American audiences about Hindu culture and philosophy, utilizing Brooklyn's cultural venues to reach diverse groups of intellectuals and society members."
+    ],
+    "image": "pouch_mansion_brooklyn.jpg"
+  },
+  {
+    "id": "charles_auel_house_brooklyn",
+    "title": "Charles Auel's house",
+    "description": [
+      "Charles Auel's residence in Brooklyn became part of the network of supportive American homes that accommodated Swami Vivekananda during his 1895 stay in the New York area. These private residences were crucial to his extended lecture campaign, providing him with convenient bases from which to address various Brooklyn organizations and intellectual circles. The generosity of hosts like Auel enabled Vivekananda to sustain his rigorous schedule of public speaking and personal interactions with American seekers."
+    ],
+    "image": "charles_auel_house_brooklyn.jpg"
+  },
+  {
+    "id": "long_island_historical_society",
+    "title": "The Long Island Historical Society",
+    "description": [
+      "During 1895, the Long Island Historical Society in Brooklyn Heights served as a venue through which Swami Vivekananda engaged with New York's cultural institutions and educated audiences. His participation in the society's programs reflected his strategy of reaching America's established intellectual centers and civic organizations. By speaking at such esteemed institutions, Vivekananda legitimized Vedantic philosophy within American cultural discourse and attracted serious scholars and thinkers to his message."
+    ],
+    "image": "long_island_historical_society.jpg"
+  },
+  {
+    "id": "robertson_hall_brooklyn",
+    "title": "Robertson Hall",
+    "description": [
+      "Robertson Hall in Brooklyn functioned as one of the many venues where Swami Vivekananda conducted lectures and meetings during his intensive 1895 campaign in the New York area. His speaking engagements at such halls formed part of his systematic effort to disseminate Vedantic teachings throughout the metropolitan region. The breadth of his venue selections—from concert halls to community gathering spaces—testified to the widespread appeal his message had achieved among diverse American audiences."
+    ],
+    "image": "robertson_hall_brooklyn.jpg"
+  },
+  {
+    "id": "sarah_waldo_house",
+    "title": "Sarah Ellen Waldo's house",
+    "description": [
+      "Sarah Ellen Waldo's Manhattan residence became a vital spiritual center during Swami Vivekananda's first Western tour of 1894-1895. The home served as a gathering place where the Swami engaged in intimate discussions of Vedantic philosophy with American seekers, and where he found respite between his demanding public lectures. Through Waldo's dedication and social connections, the teachings he shared within her home reached influential circles of New York society, establishing a bridge between Eastern philosophy and Western intellectual culture during his transformative early months in America."
+    ],
+    "image": "sarah_waldo_house.jpg"
+  },
+  {
+    "id": "ridgely_manor_stone_ridge",
+    "title": "Ridgely Manor",
+    "description": [
+      "During the summer of 1895, Swami Vivekananda retreated to Ridgely Manor in Stone Ridge, New York, a peaceful Hudson Valley estate where he found temporary relief from the intensity of his lecture schedule. In this serene setting, he engaged in profound spiritual conversations with devoted American disciples, including Sister Nivedita and other close followers. The quiet months at Ridgely Manor allowed him space for reflection and deeper teaching on themes of renunciation and spiritual practice, even as he wrestled with concerns for those who sought his guidance."
+    ],
+    "image": "ridgely_manor_stone_ridge.jpg"
+  },
+  {
+    "id": "lyndhurst_irvington",
+    "title": "Lyndhurst",
+    "description": [
+      "Lyndhurst, the magnificent Gothic Revival mansion overlooking the Hudson River in Irvington, represented the grand American estates that opened their doors to Swami Vivekananda during his 1895 travels through the Hudson Valley region. His presence at such prominent homes reflected the growing fascination of America's influential families with his message of universal spirituality and Indian wisdom, connecting him with the cultural and intellectual elite of the era."
+    ],
+    "image": "lyndhurst_irvington.jpg"
+  },
+  {
+    "id": "central_church_of_christ_des_moines",
+    "title": "Central Church of Christ",
+    "description": [
+      "On November 27, 1894, Swami Vivekananda addressed the congregation of the Central Church of Christ in Des Moines, Iowa, delivering his teachings on Hinduism and universal religion to an engaged American audience. His lectures during this Des Moines visit demonstrated his ability to speak directly to American religious communities, dispelling misconceptions about Indian spirituality while presenting Vedantic philosophy in language that resonated with Western seekers and clergy alike."
+    ],
+    "image": "central_church_of_christ_des_moines.jpg"
+  },
+  {
+    "id": "rev_breedens_home_des_moines",
+    "title": "Rev. Breeden's home",
+    "description": [
+      "During his November 1894 visit to Des Moines, Swami Vivekananda found hospitality in the home of Reverend Breeden, reflecting the openness of American religious leaders to engage with his radical vision of universal spirituality. The reverend's invitation to host the Hindu monk in his home signaled a willingness among American clergy to bridge denominational boundaries and explore the deeper teachings that transcended sectarian differences."
+    ],
+    "image": "rev_breedens_home_des_moines.jpg"
+  },
+  {
+    "id": "savery_hotel_des_moines",
+    "title": "Savery Hotel",
+    "description": [
+      "The Savery Hotel served as Swami Vivekananda's lodging during his November 1894 stay in Des Moines, Iowa, providing him a base from which to conduct his lectures and meetings throughout the city. From this downtown location, he engaged with Des Moines' educated and religious populace, sharing his message of Vedanta and universal brotherhood while gathering support and funds for his philanthropic vision in India."
+    ],
+    "image": "savery_hotel_des_moines.jpg"
+  },
+  {
+    "id": "drake_university_des_moines",
+    "title": "Drake University",
+    "description": [
+      "Swami Vivekananda brought his teachings on Vedanta and Indian philosophy to the academic community at Drake University in Des Moines during his 1894 visit. His appearance at the university demonstrated his capacity to engage with educated American audiences in intellectual forums, presenting Eastern wisdom in dialogue with Western learning and establishing his credibility among scholars and educators."
+    ],
+    "image": "drake_university_des_moines.png"
+  },
+  {
+    "id": "la_salette_academy_memphis",
+    "title": "La Salette Academy",
+    "description": [
+      "In January 1894, Swami Vivekananda addressed audiences at La Salette Academy in Memphis, Tennessee, as part of his broader campaign to reinterpret Hinduism and Indian culture for American understanding. His lectures at the academy reached Memphis's educated and religious circles, presenting his message of tolerance and universal brotherhood while correcting Western misconceptions about Indian spirituality and philosophy."
+    ],
+    "image": "la_salette_academy_memphis.jpg"
+  },
+  {
+    "id": "tennessee_club_memphis",
+    "title": "The Tennessee Club",
+    "description": [
+      "The Tennessee Club served as one of several prestigious venues where Swami Vivekananda was received during his January 1894 visit to Memphis. As a respected social institution, the club's hospitality demonstrated his acceptance among the city's established society, extending his reach beyond lecture halls to the intimate circles of Memphis's influential classes."
+    ],
+    "image": "tennessee_club_memphis.jpg"
+  },
+  {
+    "id": "randolph_building_memphis",
+    "title": "Randolph Building",
+    "description": [
+      "The Randolph Building in Memphis hosted Swami Vivekananda's lectures in January 1894 as part of his ambitious American tour to share Vedantic philosophy across the South. The venue facilitated his mission to correct Western misconceptions about India and its spiritual traditions while generating support for his philanthropic endeavors back home."
+    ],
+    "image": "randolph_building_memphis.jpg"
+  },
+  {
+    "id": "auditorium_memphis",
+    "title": "Auditorium",
+    "description": [
+      "The Auditorium in Memphis proved to be a major public forum for Swami Vivekananda's teachings during his January 1894 visit. Local newspapers lauded him as among the most eloquent speakers ever to grace the American platform, and Judge R. J. introduced him to audiences eager to hear about Hinduism from such a distinguished and articulate spokesman."
+    ],
+    "image": "auditorium_memphis.jpg"
+  },
+  {
+    "id": "womans_council_memphis",
+    "title": "The Woman's Council",
+    "description": [
+      "The Woman's Council of Memphis welcomed Swami Vivekananda during his 1894 visit, reflecting the particular enthusiasm American women's organizations showed toward his message of spiritual equality and universal religion. His lectures to such groups resonated deeply, as they provided platforms for discussing the empowering spiritual teachings he brought from India."
+    ],
+    "image": "womans_council_memphis.jpg"
+  },
+  {
+    "id": "ymha_hall_memphis",
+    "title": "Young Men's Hebrew Association Hall",
+    "description": [
+      "The Young Men's Hebrew Association Hall in Memphis provided Swami Vivekananda with yet another diverse venue during his January 1894 stay in the city. His presence at Jewish community spaces illustrated his universal appeal across religious boundaries and his ability to inspire audiences from varied faith traditions with his message of underlying spiritual unity."
+    ],
+    "image": "ymha_hall_memphis.jpg"
+  },
+  {
+    "id": "mrs_bagley_residence_detroit",
+    "title": "Mrs.Bagley residence",
+    "description": [
+      "Mrs. Bagley's residence in Detroit offered Swami Vivekananda shelter and private spiritual fellowship during his 1894 visit to Michigan. These domestic settings allowed him respite from his rigorous speaking schedule while providing American families intimate access to his teachings and the opportunity for deeper philosophical conversations."
+    ],
+    "image": "mrs_bagley_residence_detroit.jpg"
+  },
+  {
+    "id": "detroit_club",
+    "title": "Detroit club",
+    "description": [
+      "The Detroit Club, among the city's most prestigious social institutions, hosted Swami Vivekananda in 1894, bringing his Vedantic message directly to Detroit's civic and business leadership. Such exclusive venues amplified his influence among America's influential classes, establishing Vedanta within the circles of power and prestige."
+    ],
+    "image": "detroit_club.jpg"
+  },
+  {
+    "id": "first_congregational_unitarian_detroit",
+    "title": "First Congregational Unitarian Church",
+    "description": [
+      "The First Congregational Unitarian Church in Detroit became a natural ally for Swami Vivekananda's 1894 lectures, as Unitarian congregations were particularly receptive to his vision of universal religion and interfaith harmony. His message of underlying spiritual unity resonated with their theological inclinations and progressive religious outlook."
+    ],
+    "image": "first_congregational_unitarian_detroit.jpg"
+  },
+  {
+    "id": "tw_palmer_house_detroit",
+    "title": "T W Palmer House",
+    "description": [
+      "During his 1894 visit to Detroit, Swami Vivekananda was received as an honored guest at the T.W. Palmer House, the distinguished residence of Senator Thomas W. Palmer. This invitation reflected the considerable social standing Vivekananda had achieved in American society following his triumphant appearance at the Parliament of Religions. From Detroit, he proceeded onward to Bay City in late March, continuing his ambitious tour of the American Midwest."
+    ],
+    "image": "tw_palmer_house_detroit.jpg"
+  },
+  {
+    "id": "richelieu_hotel_detroit",
+    "title": "Richelieu Hotel",
+    "description": [
+      "The sources do not provide direct evidence that the Richelieu Hotel served as Swami Vivekananda's base in Detroit during 1894. While contemporary newspaper accounts document his presence in the city and his time as a guest of Senator Palmer, the specific hotel where he stayed remains unclear from the available materials. The Hotel Vincent is mentioned in connection with his travels in the region."
+    ],
+    "image": "richelieu_hotel_detroit.jpg"
+  },
+  {
+    "id": "temple_beth_el_detroit",
+    "title": "Temple Beth El",
+    "description": [
+      "The sources do not provide specific evidence that Swami Vivekananda lectured at Temple Beth El in Detroit during 1894. While his broader tour of Detroit and the surrounding Michigan cities is well-documented, and his philosophy embraced the universal harmony of all religions, no contemporary accounts directly reference a lecture at this Jewish house of worship."
+    ],
+    "image": "temple_beth_el_detroit.jpg"
+  },
+  {
+    "id": "detroit_opera_house",
+    "title": "Detroit Opera House",
+    "description": [
+      "The sources do not provide specific evidence that Swami Vivekananda lectured at the Detroit Opera House during his 1894 visit. Though he delivered multiple public addresses throughout Detroit and the Michigan region during this tour, the exact venues of his Detroit lectures are not detailed in the available contemporary newspaper accounts."
+    ],
+    "image": "detroit_opera_house.jpg"
+  },
+  {
+    "id": "detroit_auditorium",
+    "title": "Detroit Auditorium",
+    "description": [
+      "The sources do not provide specific evidence that Swami Vivekananda lectured at the Detroit Auditorium during his 1894 visit. While newspapers confirm his presence in Detroit and his numerous public engagements in the surrounding Michigan cities, the particular auditoriums and halls where he spoke in Detroit itself are not explicitly named in the available accounts."
+    ],
+    "image": "detroit_auditorium.jpg"
+  },
+  {
+    "id": "bay_city_opera_house",
+    "title": "Bay City Opera House",
+    "description": [
+      "In late March 1894, Swami Vivekananda arrived in Bay City, Michigan, as a distinguished visitor, having traveled from Detroit where he had been the guest of Senator Palmer. The monk, dressed in his characteristic oriental robes, made a strong impression on observers with his striking appearance and keen intelligence, as he continued his mission to dispel Western misconceptions about India and its spiritual traditions."
+    ],
+    "image": "bay_city_opera_house.jpg"
+  },
+  {
+    "id": "academy_of_music_saginaw",
+    "title": "Academy of Music",
+    "description": [
+      "On the evening of March 22, 1894, Swami Vivekananda addressed a small but deeply engaged audience at the Academy of Music in Saginaw, Michigan, speaking on the theme of religious harmony. Dressed in his distinctive oriental costume, he received an extremely cordial reception from the assembled listeners, continuing his tour of Michigan cities and bringing his teachings on Vedanta to audiences throughout the Great Lakes region."
+    ],
+    "image": "academy_of_music_saginaw.jpg"
+  },
+  {
+    "id": "ada_opera_house_ohio",
+    "title": "Ada Opera house",
+    "description": [
+      "The sources do not provide specific details about Swami Vivekananda's visit to Ada, Ohio, or his appearance at the Ada Opera House during 1894. While his tour of the American Midwest is well-documented, information about this particular stop remains limited in the available historical records."
+    ],
+    "image": "ada_opera_house_ohio.jpg"
+  },
+  {
+    "id": "memorial_opera_house_valparaiso",
+    "title": "Memorial Opera House",
+    "description": [
+      "In 1894, Swami Vivekananda brought his message of Vedanta philosophy to the Memorial Opera House in Valparaiso, Indiana, during his lecture tour of the American Midwest. The university town provided an intellectually receptive audience for his discourses on Indian spiritual heritage and the deeper meanings of Hindu philosophy. His talks on subjects like caste—which he explained not as a rigid religious hierarchy but as a system of trade guilds where each group considered itself superior—demonstrated his gift for reframing Eastern concepts for Western understanding."
+    ],
+    "image": "memorial_opera_house_valparaiso.jpg"
+  },
+  {
+    "id": "greenacre_inn_eliot",
+    "title": "Greenacre Inn Conference",
+    "description": [
+      "Swami Vivekananda participated in the Greenacre Inn Conference in Eliot, Maine, during the summer of 1894, contributing to Sarah Farmer's pioneering interfaith gathering that drew spiritual thinkers from both East and West. His presence at this retreat deepened America's direct engagement with Indian philosophy and Vedantic teachings, creating meaningful exchanges between Eastern and Western spiritual seekers in an atmosphere of openness and mutual respect."
+    ],
+    "image": "greenacre_inn_eliot.jpg"
+  },
+  {
+    "id": "lysekloster_pines_eliot",
+    "title": "Lysekloster Pines",
+    "description": [
+      "Lysekloster Pines, nestled within the Greenacre retreat grounds in Eliot, Maine, provided the tranquil pine-shaded setting where Swami Vivekananda spent time during the summer spiritual conferences of 1894. This peaceful environment fostered intimate meditation, philosophical discourse, and the spontaneous exchange of spiritual ideas between the swami and the American seekers who gathered there."
+    ],
+    "image": "lysekloster_pines_eliot.jpg"
+  },
+  {
+    "id": "vrooman_brothers_residence_baltimore",
+    "title": "Vrooman brothers residence",
+    "description": [
+      "During his 1894 visit to Baltimore, Swami Vivekananda was hosted at the residence of the Vrooman brothers, whose family was part of the progressive American intellectual circles receptive to his message of universal religion and Vedantic philosophy. The brothers organized a series of lectures on 'Dynamic Religion' at the Lyceum Theater, with Vivekananda as a featured speaker, marking an important moment in Baltimore's introduction to Eastern spiritual thought."
+    ],
+    "image": "vrooman_brothers_residence_baltimore.jpg"
+  },
+  {
+    "id": "hotel_rennert_baltimore",
+    "title": "Hotel Rennert",
+    "description": [
+      "The Hotel Rennert in Baltimore served as Swami Vivekananda's base during his 1894 visit to the city, from which he conducted his lecture engagements and received the many American admirers drawn to discuss Vedanta and Indian civilization with him. The hotel's prominence reflected his growing status as a significant spiritual teacher during his American tour."
+    ],
+    "image": "hotel_rennert_baltimore.jpg"
+  },
+  {
+    "id": "lyceum_theater_baltimore",
+    "title": "Lyceum Theater",
+    "description": [
+      "The Lyceum Theater in Baltimore filled to capacity on October 15, 1894, for the first of the Vrooman Brothers' series on 'Dynamic Religion,' where Swami Vivekananda delivered brief but compelling remarks that captured marked attention from the audience. A week later, on October 22, the theater was packed from pit to dome with approximately 3,000 people attending his lecture on 'The Religion of Buddha,' demonstrating the swami's rapidly growing influence in Baltimore's intellectual circles."
+    ],
+    "image": "lyceum_theater_baltimore.jpg"
+  },
+  {
+    "id": "geo_grafflin_house_baltimore",
+    "title": "Geo Grafflin's House",
+    "description": [
+      "George Grafflin's home in Baltimore welcomed Swami Vivekananda during his 1894 visit, offering one of the private settings where Baltimore's educated and spiritually curious residents could engage in intimate discussions of Vedantic philosophy and Indian spiritual wisdom with the renowned swami."
+    ],
+    "image": "geo_grafflin_house_baltimore.jpg"
+  },
+  {
+    "id": "harris_academy_concert_hall_baltimore",
+    "title": "Harris' Academy of Music Concert Hall",
+    "description": [
+      "Harris' Academy of Music Concert Hall in Baltimore provided a premier venue for Swami Vivekananda's lectures during his 1894 visit to the city. The hall's distinguished reputation for hosting accomplished speakers ensured a large and appreciative audience for his expositions on the universal principles underlying Vedanta and the profound spiritual heritage of India."
+    ],
+    "image": "harris_academy_concert_hall_baltimore.jpg"
+  },
+  {
+    "id": "typographical_temple_dc",
+    "title": "Typographical Temple(People's Church)",
+    "description": [
+      "During his first Western tour in 1894, Swami Vivekananda lectured at the Typographical Temple, also known as the People's Church, in Washington D.C. The venue's association with working people and progressive causes provided an ideal platform for his message of practical Vedanta. Speaking to audiences drawn from the laboring classes, he articulated the spiritual dignity inherent in all human beings and all forms of honest work, demonstrating how Vedantic philosophy spoke directly to the concerns and aspirations of ordinary Americans."
+    ],
+    "image": "typographical_temple_dc.jpg"
+  },
+  {
+    "id": "mrs_totten_residence_dc",
+    "title": "Mrs.E.Totten residence",
+    "description": [
+      "Mrs. E. Totten's Washington D.C. residence became one of several distinguished homes where Swami Vivekananda was hosted during his 1894 visit to the nation's capital. These intimate private gatherings in the parlors and drawing rooms of influential residents allowed him to engage in deeper philosophical discussions with America's political and social elite, introducing Vedantic thought to those wielding power and shaping public discourse."
+    ],
+    "image": "mrs_totten_residence_dc.jpg"
+  },
+  {
+    "id": "metzerott_music_hall_dc",
+    "title": "Metzerott Music Hall",
+    "description": [
+      "Metzerott Music Hall in Washington D.C. served as one of the premier public venues for Swami Vivekananda's lectures during his 1894 visit. The hall's reputation for hosting distinguished speakers ensured large audiences drawn by curiosity about this remarkable Indian monk and his teachings on Vedanta, providing him with an impressive platform to address the capital's intellectual and cultural classes."
+    ],
+    "image": "metzerott_music_hall_dc.jpg"
+  },
+  {
+    "id": "unity_hall_hartford",
+    "title": "Unity Hall",
+    "description": [
+      "Unity Hall in Hartford, Connecticut, hosted Swami Vivekananda during his 1895 visit to the city. The venue's name reflected the philosophical harmony he sought to convey—the fundamental unity underlying all religious traditions. Hartford's progressive intellectual climate proved receptive to his message, and the hall provided a fitting setting for lectures that appealed to the city's spiritually-minded residents."
+    ],
+    "image": "unity_hall_hartford.jpg"
+  },
+  {
+    "id": "white_birch_lodge_percy",
+    "title": "White Birch Lodge",
+    "description": [
+      "In early June 1895, after nearly exhausting himself with relentless class and public lecturing, Swami Vivekananda accepted an invitation to White Birch Lodge in Percy, New Hampshire. The scenic beauty and quietude of the White Mountains provided essential respite, allowing him to recover his strength amid the natural tranquility of the New England landscape before resuming his intensive work of spreading Vedantic teachings across America."
+    ],
+    "image": "white_birch_lodge_percy.jpg"
+  },
+  {
+    "id": "stimpson_mansion_la",
+    "title": "Stimpson Mansion",
+    "description": [
+      "The Stimpson Mansion in Los Angeles welcomed Swami Vivekananda during his 1900 visit to Southern California, his second Western tour. Los Angeles's spiritually-minded residents, many of whom had developed deep reverence for Indian philosophy through his writings, entertained him at grand receptions in their homes. Such distinguished residences became gathering places where he could deepen connections with devoted followers and influential supporters of his spiritual mission."
+    ],
+    "image": "stimpson_mansion_la.jpg"
+  },
+  {
+    "id": "roxie_blodgett_cottage_la",
+    "title": "Roxie Blodgett Cottage",
+    "description": [
+      "Roxie Blodgett's cottage in Los Angeles provided warm hospitality to Swami Vivekananda during his 1900 California visit. His devoted American followers like Blodgett offered comfortable accommodations and crucial assistance in organizing his lecture engagements throughout Southern California, helping to extend the reach of his teachings among Los Angeles's growing community of spiritual seekers."
+    ],
+    "image": "roxie_blodgett_cottage_la.jpg"
+  },
+  {
+    "id": "blanchard_hall_la",
+    "title": "Blanchard Hall",
+    "description": [
+      "Blanchard Hall in Los Angeles hosted Swami Vivekananda's public lectures during his 1900 Southern California visit. The venue provided a public platform where he addressed large audiences on Vedanta, Raja Yoga, and India's ancient spiritual traditions, continuing his mission to bring the wisdom of the Vedas and Upanishads to American audiences receptive to universal spiritual principles."
+    ],
+    "image": "blanchard_hall_la.jpg"
+  },
+  {
+    "id": "unity_church_la",
+    "title": "Unity Church",
+    "description": [
+      "During his 1900 California visit, Swami Vivekananda addressed audiences at the Unity Church in Los Angeles, finding in its congregation a naturally receptive group for his message. The Unity movement's focus on practical spirituality resonated deeply with Vivekananda's own philosophy of practical Vedanta, emphasizing the application of spiritual truths to daily life. This alignment between the Swami's teachings and the church's principles created an especially fruitful exchange of ideas between the Indian sage and California's New Thought seekers."
+    ],
+    "image": "unity_church_la.jpg"
+  },
+  {
+    "id": "paynes_hall_la",
+    "title": "Payne's Hall",
+    "description": [
+      "Payne's Hall served as one of the lecture venues through which Swami Vivekananda disseminated Vedantic teachings to Los Angeles audiences during his 1900 southern California tour. As part of a broader circuit including other halls and private residences, the venue hosted presentations to those who had studied his writings and developed a profound interest in Indian philosophy and culture. His appearances at such public spaces, interspersed with private receptions hosted by distinguished citizens, extended his influence across the region."
+    ],
+    "image": "paynes_hall_la.jpg"
+  },
+  {
+    "id": "home_of_truth_la",
+    "title": "Home of Truth",
+    "description": [
+      "The Home of Truth, a New Thought spiritual center in Los Angeles, became another gathering place for Swami Vivekananda's teachings during his 1900 visit to California. The center's emphasis on spiritual healing and mental metaphysics found common ground with Vedantic philosophy, attracting spiritual seekers from across the city who wished to hear the Swami's interpretations of ancient Indian wisdom. His presence at such venues reinforced the growing dialogue between Eastern spirituality and Western New Thought movements."
+    ],
+    "image": "home_of_truth_la.jpg"
+  },
+  {
+    "id": "echo_mountain_house_la",
+    "title": "Echo Mountain House",
+    "description": [
+      "Swami Vivekananda journeyed to Echo Mountain House in the San Gabriel Mountains above Pasadena during his 1900 California stay, seeking respite from the intensity of his lecture schedule. The mountain retreat, perched high above Southern California's landscape, offered him a tranquil sanctuary for contemplation and reflection between his active teaching engagements. The panoramic vistas from this elevated location provided an inspiring natural setting that complemented his spiritual work."
+    ],
+    "image": "echo_mountain_house_la.jpg"
+  },
+  {
+    "id": "mount_lowe_la",
+    "title": "Mount Lowe",
+    "description": [
+      "Mount Lowe's celebrated railway drew Swami Vivekananda during his excursion through the San Gabriel Mountains in 1900, allowing him to experience one of California's premier tourist attractions. The engineering marvel and breathtaking alpine scenery captivated the Swami as he traveled through the grand California landscape, offering him both physical recreation and spiritual inspiration. This journey into nature's grandeur punctuated his intensive work among the seekers of Los Angeles."
+    ],
+    "image": "mount_lowe_la.jpg"
+  },
+  {
+    "id": "mrs_newton_house_south_pasadena",
+    "title": "Mrs.Newton's house",
+    "description": [
+      "Mrs. Newton's home in South Pasadena provided Swami Vivekananda with comfortable accommodation during his 1900 visit to the Pasadena area. The verdant, peaceful suburb offered a restorative environment between his demanding lecture engagements in Los Angeles, allowing him moments of quietude to recharge his spiritual energies. The hospitality of such devoted households formed an essential support network for his second Western missionary tour."
+    ],
+    "image": "mrs_newton_house_south_pasadena.jpg"
+  },
+  {
+    "id": "mrs_bowler_house_south_pasadena",
+    "title": "Mrs.E.F.Bowler house",
+    "description": [
+      "Mrs. E.F. Bowler opened her South Pasadena home to Swami Vivekananda during his 1900 Southern California visit, exemplifying the warm welcome he received from American women devoted to spiritual advancement. These gracious hostesses played a vital role in sustaining his mission by providing lodging and creating intimate gatherings where spiritual seekers could encounter the Swami's teachings. Their generosity and faith enabled him to concentrate fully on his work of spreading Vedantic philosophy."
+    ],
+    "image": "mrs_bowler_house_south_pasadena.jpg"
+  },
+  {
+    "id": "green_hotel_pasadena",
+    "title": "Green Hotel",
+    "description": [
+      "The Green Hotel in Pasadena served as accommodation for Swami Vivekananda during his 1900 California journey, placing him in a locale known for its cultural refinement and intellectual openness. The Pasadena area's elegant hospitality establishments and culturally vibrant community provided an appropriate setting for this phase of his second Western tour. The region's educated and spiritually-inclined residents formed an attentive audience for his profound teachings on Vedanta."
+    ],
+    "image": "green_hotel_pasadena.jpg"
+  },
+  {
+    "id": "shakespeare_club_south_pasadena",
+    "title": "Shakespeare club",
+    "description": [
+      "During his 1900 California visit, Swami Vivekananda lectured at the Shakespeare Club in South Pasadena, where the club's educated and culturally-minded membership proved receptive to his eloquent discourses on Indian philosophy and Vedanta. Literary and cultural societies such as this provided ideal venues for spreading his message to audiences already inclined toward intellectual and spiritual inquiry."
+    ],
+    "image": "shakespeare_club_south_pasadena.jpg"
+  },
+  {
+    "id": "universalist_church_south_pasadena",
+    "title": "Universalist Church",
+    "description": [
+      "The Universalist Church in South Pasadena hosted Swami Vivekananda during his 1900 California visit, where his lectures on universal spirituality and the realization of a universal religion drew huge audiences. His message of the divine self present in all beings resonated deeply with the Universalist congregation's belief in the salvation of all souls and the fundamental harmony underlying different religious traditions."
+    ],
+    "image": "universalist_church_south_pasadena.jpg"
+  },
+  {
+    "id": "meads_sisters_house_south_pasadena",
+    "title": "Meads Sisters house",
+    "description": [
+      "The home of the Meads Sisters in South Pasadena provided welcoming hospitality to Swami Vivekananda during his 1900 stay in the Pasadena area. Among his devoted American followers in Southern California, the sisters assisted in spreading his Vedantic teachings within their community and contributed to the flourishing of spiritual study groups in the region."
+    ],
+    "image": "meads_sisters_house_south_pasadena.jpg"
+  },
+  {
+    "id": "first_unitarian_church_oakland",
+    "title": "First Unitarian Church",
+    "description": [
+      "Swami Vivekananda lectured at the First Unitarian Church in Oakland during his 1900 West Coast visit, where the congregation's progressive and intellectually open approach to religious inquiry made them an ideal audience for his teachings. His exposition of the inherent divinity of the soul and the universality of spiritual truth found fertile ground among Oakland's Unitarian members."
+    ],
+    "image": "first_unitarian_church_oakland.jpg"
+  },
+  {
+    "id": "george_perry_house_alameda",
+    "title": "George H.Perry house",
+    "description": [
+      "During his second Western tour in 1900, Swami Vivekananda was hosted at the home of George H. Perry in Alameda, where devoted California followers welcomed him warmly. His stay in this Bay Area community reflected the growing circle of supporters who sought his guidance on spiritual practice and Indian philosophy during the productive months of March through May 1900."
+    ],
+    "image": "george_perry_house_alameda.jpg"
+  },
+  {
+    "id": "alameda_home_of_truth",
+    "title": "Alameda Home of Truth",
+    "description": [
+      "The Alameda Home of Truth served as one of several New Thought spiritual centres in California where Swami Vivekananda's teachings on Vedanta found receptive audiences during his 1900 visit. These organized centres provided structured venues for his lectures and attracted seekers interested in the practical application of universal spiritual principles that aligned with his message."
+    ],
+    "image": "alameda_home_of_truth.jpg"
+  },
+  {
+    "id": "tucker_hall_alameda",
+    "title": "Tucker Hall",
+    "description": [
+      "Tucker Hall in Alameda hosted three lectures by Swami Vivekananda on the evenings of April 13, 16, and 18, 1900, on the subjects of Raja-Yoga, concentration and breathing techniques, and the practice of religion. These presentations exemplified his ability to translate ancient Hindu spiritual disciplines into practical guidance accessible to Western audiences seeking deeper religious understanding."
+    ],
+    "image": "tucker_hall_alameda.jpg"
+  },
+  {
+    "id": "home_of_truth_sf",
+    "title": "Home of Truth",
+    "description": [
+      "The Home of Truth in San Francisco provided a key venue for Swami Vivekananda's extensive teaching activities during his 1900 California visit, when he delivered lectures and conducted classes for students eager to learn the Vedantic philosophy. San Francisco's vibrant spiritual community embraced his message, and the Home of Truth network facilitated the organized study and dissemination of his teachings throughout the Bay Area."
+    ],
+    "image": "home_of_truth_sf.jpg"
+  },
+  {
+    "id": "california_st_home_of_truth_sf",
+    "title": "California St. Home of Truth",
+    "description": [
+      "During his 1900 San Francisco visit, Swami Vivekananda lectured on Vedanta philosophy and the Bhagavad Gita at the California Street Home of Truth, a New Thought centre situated on one of the city's prominent thoroughfares. The location attracted educated and spiritually curious residents from San Francisco's affluent neighbourhoods who came to learn from the renowned teacher. His presence created tremendous intellectual ferment throughout the city, drawing audiences who had previously heard of him through newspaper accounts of his 1893 Parliament of Religions lectures."
+    ],
+    "image": "california_st_home_of_truth_sf.jpg"
+  },
+  {
+    "id": "turk_st_house_sf",
+    "title": "1719 Turk St. House",
+    "description": [
+      "The house at 1719 Turk Street in San Francisco served as one of Swami Vivekananda's residences during his extended stay from February through May 1900. From this and other addresses across the city, he conducted Vedanta classes and received visitors eager to learn about Indian spirituality and philosophy. During this period, his reputation grew substantially within San Francisco's intellectual and spiritual circles, attracting both formal class participants and those seeking private interviews for spiritual guidance."
+    ],
+    "image": "turk_st_house_sf.jpg"
+  },
+  {
+    "id": "golden_gate_hall_sf",
+    "title": "Golden Gate Hall",
+    "description": [
+      "Golden Gate Hall was one of the primary public venues where Swami Vivekananda delivered his Sunday lectures during March and April 1900. Part of his rigorous San Francisco schedule, these public addresses at Golden Gate Hall were complemented by evening lectures three times weekly at other halls throughout the city, creating an extensive circuit of Vedanta teachings that captured the attention of Bay Area audiences."
+    ],
+    "image": "golden_gate_hall_sf.jpg"
+  },
+  {
+    "id": "washington_hall_sf",
+    "title": "Washington Hall",
+    "description": [
+      "Washington Hall hosted three evening lectures weekly by Swami Vivekananda during his 1900 San Francisco residency. This venue became part of his intensive teaching schedule from late February through May, where he presented his transformative teachings on Vedanta philosophy to devoted audiences, establishing a strong foundation for Vedanta practice in the Bay Area."
+    ],
+    "image": "washington_hall_sf.jpg"
+  },
+  {
+    "id": "union_square_hall_sf",
+    "title": "Union Square Hall",
+    "description": [
+      "Union Square Hall, centrally located in San Francisco near the city's famous public square, served as one of the Sunday lecture venues where Swami Vivekananda addressed audiences during March and April 1900. The accessible location enabled a broad cross-section of San Franciscans to gather and hear his powerful expositions on Vedanta and universal spirituality."
+    ],
+    "image": "union_square_hall_sf.jpg"
+  },
+  {
+    "id": "mount_shasta_ca",
+    "title": "Mount Shasta, CA",
+    "description": [
+      "Swami Vivekananda journeyed to Mount Shasta during his 1900 California sojourn, drawn to the majestic volcanic peak's natural grandeur and spiritual significance. The towering mountain, long revered as a sacred site, provided an apt setting for contemplation that resonated deeply with his meditative temperament and his reverence for nature as a manifestation of the divine."
+    ],
+    "image": "mount_shasta_ca.png"
+  },
+  {
+    "id": "milburn_logan_home_sf",
+    "title": "Dr.Milburn Logan's home",
+    "description": [
+      "Dr. Milburn Logan's San Francisco home provided hospitality to Swami Vivekananda during his 1900 Bay Area visit, offering lodging and support for his Vedanta mission. Dr. Logan numbered among the devoted California devotees who recognized the transformative potential of Vivekananda's teachings and generously extended their homes and resources to facilitate his spiritual work on the West Coast."
+    ],
+    "image": "milburn_logan_home_sf.jpg"
+  },
+  {
+    "id": "camp_irving_camp_taylor",
+    "title": "Camp Irving",
+    "description": [
+      "Camp Irving at Camp Taylor in Marin County's redwood forests offered a peaceful retreat setting where Swami Vivekananda's students gathered for spiritual practice during his 1900 California period. The tranquil natural environment proved ideal for the intensive meditation and monastic disciplines that characterized the annual month-long retreats established to deepen the spiritual development of his devoted followers."
+    ],
+    "image": "camp_irving_camp_taylor.jpg"
+  },
+  {
+    "id": "et_sturdy_house_caversham",
+    "title": "E.T.Sturdy's house",
+    "description": [
+      "E.T. Sturdy's house in Caversham near Reading became Swami Vivekananda's principal residence during his 1895-1896 sojourn in England. Sturdy, a devoted Sanskrit scholar and disciple, provided Swamiji with both shelter and intellectual companionship, assisting him in translating texts and organizing classes that introduced Vedanta to the English-speaking world. From this quiet refuge, Vivekananda conducted continuous teaching and laid the spiritual foundation that would establish his legacy in Britain."
+    ],
+    "image": "et_sturdy_house_caversham.png"
+  },
+  {
+    "id": "prince_hall_london",
+    "title": "Prince Hall",
+    "description": [
+      "Prince Hall hosted Swami Vivekananda during his London lecture tour of 1895-1896, where he addressed audiences drawn from England's intellectual and cultured circles. These public lectures at distinguished venues proved instrumental in presenting Vedantic philosophy to Victorian Britain's thinking classes, establishing the spiritual teachings as a legitimate and worthy subject for serious consideration among the English educated elite."
+    ],
+    "image": "prince_hall_london.jpg"
+  },
+  {
+    "id": "oakley_street_london",
+    "title": "80,  Oakley street",
+    "description": [
+      "During his 1895-1896 London visit, Swami Vivekananda occupied 80 Oakley Street in Chelsea, positioning himself in one of the capital's most culturally vibrant neighbourhoods. From this Chelsea address, he conducted classes and received the many English admirers and aspirants who sought his spiritual guidance, contributing to the establishment of a dedicated circle of Vedantic practitioners in the heart of London."
+    ],
+    "image": "oakley_street_london.jpg"
+  },
+  {
+    "id": "st_georges_rd_london",
+    "title": "63 St George's Rd",
+    "description": [
+      "Swami Vivekananda taught Vedanta from 63 St George's Road during his 1895-1896 residence in London, where he cultivated a group of devoted English disciples. This address became a centre of spiritual instruction and philosophical inquiry, attracting sincere seekers who would subsequently carry his message across Britain and establish the foundations of the Vedanta movement throughout Europe."
+    ],
+    "image": "st_georges_rd_london.jpg"
+  },
+  {
+    "id": "victoria_st_london",
+    "title": "39 Victoria St.",
+    "description": [
+      "Located near the seat of imperial power in Westminster, 39 Victoria Street served as one of Swami Vivekananda's bases during his 1895-1896 London mission. From this central address, he engaged with some of Victorian Britain's most prominent intellectual and spiritual figures, conducting philosophical discourse that brought Eastern wisdom to the attention of England's governing and cultural classes."
+    ],
+    "image": "victoria_st_london.jpg"
+  },
+  {
+    "id": "grey_coat_gardens_london",
+    "title": "14 Grey Coat Gardens",
+    "description": [
+      "At 14 Grey Coat Gardens in Westminster, Swami Vivekananda maintained a quiet residence during his 1895-1896 English visit, where he engaged in deep conversations about spiritual philosophy and practice. The peaceful residential setting of this address provided an ideal environment for his teaching work, allowing him to impart Vedantic wisdom to sincere English disciples in an atmosphere conducive to serious spiritual study."
+    ],
+    "image": "grey_coat_gardens_london.jpg"
+  },
+  {
+    "id": "unitarian_church_london",
+    "title": "Unitarian Church",
+    "description": [
+      "Swami Vivekananda lectured at a Unitarian Church in London during 1895-1896, finding in the Unitarian community a receptive audience for his teachings on the universality of religion. These engagements at liberal Protestant institutions helped establish a bridge between Eastern and Western spirituality, attracting educated Londoners who appreciated his message that all faiths express the same fundamental spiritual truth."
+    ],
+    "image": "unitarian_church_london.jpg"
+  },
+  {
+    "id": "sesame_club_london",
+    "title": "Sesame Club",
+    "description": [
+      "The Sesame Club provided Swami Vivekananda with a prestigious platform during his 1895-1896 London stay, allowing him to address the city's educated elite gathered in its select rooms. Speaking before this influential intellectual society, he succeeded in introducing Vedantic philosophy to some of Britain's most prominent minds, thereby securing respectability and serious engagement with his spiritual teachings among the country's cultural leadership."
+    ],
+    "image": "sesame_club_london.jpg"
+  },
+  {
+    "id": "townhall_maidenhead",
+    "title": "Townhall",
+    "description": [
+      "During his 1895-1896 sojourn in England, Swami Vivekananda carried his message beyond London's intellectual circles to the English countryside, delivering lectures at the Town Hall in Maidenhead, Berkshire. These civic venues provided him with opportunities to reach broader provincial audiences and demonstrate that Vedantic philosophy held relevance for audiences far removed from the capital's cosmopolitan atmosphere."
+    ],
+    "image": "townhall_maidenhead.jpg"
+  },
+  {
+    "id": "pinkneys_green_maidenhead",
+    "title": "Pinkneys Green",
+    "description": [
+      "Pinkneys Green, a tranquil village near Maidenhead, offered Swami Vivekananda a peaceful retreat from the relentless demands of his English lecture schedule during 1895-1896. The pastoral landscape of rural Berkshire provided him with moments of contemplation and rest, creating a necessary counterbalance to his intensive engagement with London's intellectual and social circles."
+    ],
+    "image": "pinkneys_green_maidenhead.jpg"
+  },
+  {
+    "id": "airlie_lodge_wimbledon",
+    "title": "Airlie Lodge",
+    "description": [
+      "Airlie Lodge in Wimbledon served as a residential base for Swami Vivekananda during his 1895-1896 English visit. The suburban setting of south-west London, conveniently situated between the intensity of metropolitan engagements and the quiet of the countryside, made Wimbledon an ideal location where he could maintain his schedule of lectures, informal gatherings, and spiritual instruction with his growing band of English disciples."
+    ],
+    "image": "airlie_lodge_wimbledon.jpg"
+  },
+  {
+    "id": "woodside_wimbledon",
+    "title": "35 Woodside",
+    "description": [
+      "Swami Vivekananda made his residence at 35 Woodside in Wimbledon during 1895-1896, establishing himself within a network of sympathetic hosts in south-west London. From this address, he conducted informal Vedanta classes and received an expanding circle of seekers, while simultaneously maintaining his more formal lecture engagements across London and the surrounding counties."
+    ],
+    "image": "woodside_wimbledon.jpg"
+  },
+  {
+    "id": "rue_anatole_perros_guirec",
+    "title": "Rue Anatole",
+    "description": [
+      "During his 1900 Continental travels, Swami Vivekananda stayed at Rue Anatole in Perros-Guirec, a charming coastal town in Brittany, France. The rugged maritime landscape and quiet atmosphere of this Breton settlement provided him with restorative solitude during his second and final Western tour, offering respite from the demands of his European travels."
+    ],
+    "image": "rue_anatole_perros_guirec.jpg"
+  },
+  {
+    "id": "mont_blanc_chamonix",
+    "title": "Mont Blanc",
+    "description": [
+      "Swami Vivekananda journeyed to Chamonix in 1900 to experience the sublimity of Mont Blanc and the Alpine massif during his European travels. The soaring peaks and pristine mountain air of this celebrated alpine retreat inspired both his spirit and body, offering him profound aesthetic and spiritual renewal amid the natural grandeur of the highest Alps."
+    ],
+    "image": "mont_blanc_chamonix.jpg"
+  },
+  {
+    "id": "mont_saint_michel_normandy",
+    "title": "Mont-Saint-Michel",
+    "description": [
+      "During his 1900 travels through France, Swami Vivekananda visited the legendary Mont-Saint-Michel, the magnificent medieval abbey rising from a tidal island in Normandy's English Channel. The architectural splendour and devotional intensity embodied in this ancient Benedictine sanctuary profoundly moved him, revealing to him the universal language of spiritual aspiration that transcended religious and cultural boundaries."
+    ],
+    "image": "mont_saint_michel_normandy.jpg"
+  },
+  {
+    "id": "matale_sri_lanka",
+    "title": "Matale, Sri Lanka",
+    "description": [
+      "Matale in central Ceylon welcomed Swami Vivekananda with enthusiastic reverence during his triumphant 1897 return journey through the island. The Buddhist communities he encountered there, including those in this mountainous town, celebrated him as a champion of Eastern spirituality who had carried India's sacred wisdom across oceans to awaken the West to its spiritual heritage."
+    ],
+    "image": "matale_sri_lanka.jpg"
+  },
+  {
+    "id": "anuradhapura_sri_lanka",
+    "title": "Anuradhapuram, Sri Lanka",
+    "description": [
+      "During his 1897 tour of Ceylon, Swami Vivekananda visited the ancient capital of Anuradhapura, where the magnificent Buddhist ruins and the sacred Bo tree—believed to be a descendant of the tree under which Buddha attained enlightenment—profoundly stirred his spiritual sensibilities. Standing amid these monuments to centuries of devotion, he perceived a living continuity between Buddhism and Vedanta, two great spiritual traditions that he saw as expressions of universal truth. In this stronghold of Buddhist faith, Vivekananda spoke eloquently of the fundamental unity underlying all religions, urging that whether worshipped as Shiva, Vishnu, Buddha, or by countless other names, the Divine remained one and the same. His reflections here reinforced his conviction that spiritual sympathy and tolerance between different faiths were not merely desirable but essential."
+    ],
+    "image": "anuradhapura_sri_lanka.jpg"
+  },
+  {
+    "id": "dhaka_dacca",
+    "title": "Dhaka (Dacca)",
+    "description": [
+      "Swami Vivekananda arrived in Dhaka in March 1901 for what would prove to be one of the final major journeys of his life. The city's inhabitants received him with great reverence, organizing grand receptions to honour the renowned spiritual teacher. Over two days in late March, he delivered lectures in English to vast audiences, including discourses on \"What Have I Learnt?\" and \"The Religion We Are Born In,\" where he reflected on India's ancient spiritual legacy and the nature of religious tradition. His visit to this principal city of East Bengal, with its rich Nawabi culture and vibrant Hindu-Muslim heritage, represented a homecoming of sorts—a return to his native land after years of transformative travels in the West."
+    ],
+    "image": "dhaka_dacca.png"
+  },
+  {
+    "id": "cologne_germany",
+    "title": "Cologne, Germany",
+    "description": [
+      "During his 1896 European travels, Swami Vivekananda journeyed up the Rhine to Cologne, where he paused to experience the city's magnificent Gothic cathedral. The grandeur of this architectural masterpiece, one of Europe's greatest monuments to spiritual aspiration, captivated him as he marvelled at its soaring spires and intricate design. He attended a service within its walls and visited the sanctuary, bearing witness to the devotion that had moved countless worshippers across centuries. The cathedral's majesty reinforced his recognition that the impulse toward transcendence manifested itself universally across all cultures and faiths."
+    ],
+    "image": "cologne_germany.jpg"
+  },
+  {
+    "id": "berlin_germany",
+    "title": "Berlin, Germany",
+    "description": [
+      "Swami Vivekananda visited Berlin during his 1896 European sojourn, drawn to the German capital as a centre of intellectual ferment and philosophical inquiry. As a thinker deeply engaged with metaphysical questions and the nature of consciousness, he sought engagement with the German philosophical tradition that had shaped European thought in the nineteenth century. Berlin's universities and scholarly institutions represented the pinnacle of Western academic life, and his time there reflected his conviction that truth could be found in the earnest intellectual pursuits of Western civilization as well as in the spiritual traditions of the East."
+    ],
+    "image": "berlin_germany.jpg"
+  },
+  {
+    "id": "kiel_germany",
+    "title": "Kiel, Germany",
+    "description": [
+      "Swami Vivekananda visited Kiel on the Baltic coast during his 1896 return journey to India, having been invited by the distinguished Orientalist Paul Deussen, a professor at the University of Kiel. Captain and Mrs. Sevier, his devoted companions, joined him in the port city, which then served as home to the Imperial German Navy and exemplified modern European industrial and military power. His time in Kiel, though brief, represented a significant intellectual exchange, as he engaged with Deussen, a respected scholar sympathetic to Hindu philosophy and Vedantic thought."
+    ],
+    "image": "kiel_germany.jpg"
+  },
+  {
+    "id": "istanbul_turkey",
+    "title": "Istanbul (Constantinople), Turkey",
+    "description": [
+      "Swami Vivekananda caught his first glimpse of Constantinople as his train approached the ancient city during his 1900 travels, and he was struck by the compelling juxtaposition of decay and beauty that characterized it. The narrow, winding lanes with their crooked wooden houses, the grand drains running across ancient walls, and the evident poverty existed alongside an undeniable exotic charm that fascinated him. Though he was denied public permission to speak there, private conversaziones were arranged where he expounded the Vedanta to select audiences. In later years, he would fondly recall a certain old Turkish innkeeper who had generously provided him hospitality, embodying for him the universal kindness that transcended cultural and religious boundaries."
+    ],
+    "image": "istanbul_turkey.jpg"
+  },
+  {
+    "id": "vienna_austria",
+    "title": "Vienna, Austria",
+    "description": [
+      "Swami Vivekananda visited Vienna in 1900 during his continental tour, passing through the imperial capital of Austria-Hungary as part of his broader engagement with European intellectual life. The city, steeped in the musical and philosophical traditions of Mozart, Beethoven, and the great European thinkers, represented another centre of the Western civilization whose strengths and limitations he sought to understand. His visit formed part of an ambitious itinerary that took him through the major cultural capitals of Europe, reflecting his determination to bridge East and West through personal encounter and dialogue."
+    ],
+    "image": "vienna_austria.jpg"
+  },
+  {
+    "id": "athens_greece",
+    "title": "Athens, Greeze",
+    "description": [
+      "During his 1900 travels, Swami Vivekananda journeyed to Athens, the birthplace of Western philosophy and democratic ideals, where the Acropolis and Parthenon stood as eternal testaments to human aspiration toward the transcendent and the beautiful. He walked among the ruins of ancient Greek civilization, contemplating the philosophical legacy of Socrates, Plato, and Aristotle—thinkers whose non-dualistic intuitions he recognized as kindred to the Advaita Vedanta tradition of his own spiritual heritage. Standing in this cradle of Western thought, he perceived profound parallels between the metaphysical insights of Greek philosophy and the eternal truths enshrined in Hindu scriptures, further confirming his vision of universal spiritual wisdom."
+    ],
+    "image": "athens_greece.jpg"
+  },
+  {
+    "id": "amsterdam_holland",
+    "title": "Amsterdam, Holland",
+    "description": [
+      "During his 1900 European travels, Swami Vivekananda visited Amsterdam, where he engaged with the intellectual currents of this prosperous Dutch capital. The city's long tradition of religious tolerance and philosophical inquiry—particularly its legacy as home to Spinoza's pantheistic thought—provided fertile ground for his reflections on Vedanta's core teaching of universal unity. Having recently returned from India with plans to establish his work on a firmer footing before heading home, Swamiji found in Amsterdam's cosmopolitan atmosphere an ideal setting to discuss and disseminate his vision of a spirituality grounded in the interconnectedness of all existence."
+    ],
+    "image": "amsterdam_holland.png"
+  },
+  {
+    "id": "sandukphu_nepal",
+    "title": "Sandukphu",
+    "description": [
+      "Among the Himalayan peaks visited during his years of wandering as a parivrajaka between 1888 and 1893, Sandakphu—the highest point in the Darjeeling region straddling the Nepal-India border—held special significance for Swami Vivekananda. From its windswept summit, the vast panorama of the world's four mightiest peaks—Kanchenjunga, Everest, Lhotse, and Makalu—unfolded before him in sublime majesty. These towering heights, piercing the clouds and touching the infinite sky, deepened his meditative experience and reinforced his profound sense of the divine presence permeating all creation."
+    ],
+    "image": "sandukphu_nepal.jpg"
+  },
+  {
+    "id": "geneva_switzerland",
+    "title": "Geneva",
+    "description": [
+      "Swami Vivekananda arrived in Geneva during his 1900 European journey after traveling through Paris, making his way with renewed spirits to this cosmopolitan city on the shores of Lac Léman. The Swiss city's long tradition as a centre of international diplomacy and humanitarian ideals resonated with his own vision of universal brotherhood transcending national and cultural boundaries. Here he found respite from his travels while meeting with European admirers and sympathizers of his teachings, sharing his message of Vedantic spirituality with those eager to understand his philosophy."
+    ],
+    "image": "geneva_switzerland.jpg"
+  },
+  {
+    "id": "zermatt_switzerland",
+    "title": "Zermatt, Switcherland",
+    "description": [
+      "During his 1900 Alpine sojourn, Swami Vivekananda visited Zermatt, the dramatic mountain village dominated by the towering Matterhorn. The grandeur of these Swiss heights stirred his spiritual sensibilities as powerfully as the Himalayan peaks of his homeland, reminding him of the sacred mountains where he had wandered and meditated in earlier years. In this sublime setting, surrounded by the raw majesty of the Alps, he found space for both rest and deep contemplation on the eternal truths underlying the phenomenal world."
+    ],
+    "image": "zermatt_switzerland.jpg"
+  },
+  {
+    "id": "saas_fee_switzerland",
+    "title": "Saas Fee, Switzerland",
+    "description": [
+      "Swami Vivekananda journeyed to Saas-Fee, the celebrated 'Pearl of the Alps' nestled in Valais canton, during the final major European tour of his life in 1900. Encircled by glaciers and peaks soaring above 4,000 metres, this high alpine village offered him an environment of pristine tranquillity and overwhelming natural splendour. The crystalline air, the austere beauty of the surrounding summits, and the profound silence of these heights provided an ideal setting for the spiritual renewal and meditation that marked the later years of his extraordinary journey."
+    ],
+    "image": "saas_fee_switzerland.jpg"
+  },
+  {
+    "id": "lucerne_switzerland",
+    "title": "Lucerne, Switzerland",
+    "description": [
+      "Swami Vivekananda graced the picturesque city of Lucerne during his 1900 European travels, charmed by its famous Chapel Bridge and the sweeping alpine vistas reflected in its namesake lake. Nestled in central Switzerland, this scenic city served as a welcoming rest point between his various engagements across the continent during his second and final Western tour. The natural beauty and peaceful atmosphere of Lucerne provided him respite as he continued his mission to share Vedantic wisdom with Western audiences."
+    ],
+    "image": "lucerne_switzerland.jpg"
+  },
+  {
+    "id": "schaffhausen_switzerland",
+    "title": "Schaffhausen, Switzerland",
+    "description": [
+      "During his 1900 European travels, Swami Vivekananda visited Schaffhausen in northern Switzerland, where he stood before the Rhine Falls—Europe's mightiest waterfall and a wonder of raw natural power. The thundering cascade of water plunging from the heights profoundly impressed his spiritual sensibility, and the awesome spectacle of such unbounded force and energy resonated deeply with his contemplative nature. This encounter with nature's raw majesty reinforced his meditations on the infinite creative power that animates all existence."
+    ],
+    "image": "schaffhausen_switzerland.jpg"
+  },
+  {
+    "id": "arabian_sea_aden",
+    "title": "Arabian Sea",
+    "description": [
+      "Swami Vivekananda crossed the Arabian Sea twice during his momentous journeys to and from America—first embarking on his historic 1893 voyage to the Parliament of Religions in Chicago, and again on his return passages to India. The vast oceanic expanse, with its boundless horizon where sea and sky merged into an indivisible whole, became for him a natural meditation on infinity and the ultimate unity underlying all diversity. During these long sea crossings, he composed poetry and wrote letters that captured his deepening spiritual insights and his profound sense of connection to the universal consciousness."
+    ],
+    "image": "arabian_sea_aden.png"
+  },
+  {
+    "id": "aden_port_yemen",
+    "title": "Aden port",
+    "description": [
+      "In 1893, Swami Vivekananda's vessel paused at the port of Aden, a vital maritime junction nestled at the mouth of the Red Sea where the Indian Ocean converged with shipping routes to Europe. This bustling harbor marked a threshold in his historic journey to America, offering him his first encounter with Arabian lands. As his ship lay anchored in these strategic waters, Swamiji gazed upon a landscape that represented the vast commercial and cultural interchange of the world—a fitting prelude to the transformative mission that awaited him across the Atlantic."
+    ],
+    "image": "aden_port_yemen.jpg"
+  }
+];
+
+window.PIN_CONTENT_DATA = [
+  {
+    "id": "birth",
+    "title": "Birthplace of Vivekananda",
+    "description": [
+      "Narendranath Datta, who would become Swami Vivekananda, entered the world on 12 January 1863, on the eve of Makar Sankranti, in his father Vishwanath Datta's house. The birth came as an answer to the fervent prayers of his mother, Bhuvaneshwari Devi, whose spiritual aspirations had prepared the ground for the arrival of this extraordinary child who would reshape modern Hinduism and bridge East and West.",
+      "Narendranath Datta — who would become Swami Vivekananda — was born here on 12 January 1863, on the eve of Makar Sankranti. The house belonged to his father Vishwanath Datta."
+    ],
+    "image": "birth.jpg"
+  },
+  {
+    "id": "balaram",
+    "title": "Balaram Bose's House",
+    "description": [
+      "Balaram Bose's residence at Baghbazar served as a sanctuary for Sri Ramakrishna's circle of disciples, and Swamiji maintained his connection to this home throughout his early monastic years and beyond. On 1 May 1897, Vivekananda convened a historic gathering at this very house to formally establish the Ramakrishna Mission, transforming the spiritual legacy of his departed master into an organized force for service and renewal.",
+      "Swami Vivekananda stayed here from June 1st to June 4th; July 6th and July 15, 1890.",
+      "On May 1, 1897 at Balarambabu's house at Baghbazar, Swamiji called a meeting of all monastic and lay disciples of Sri Ramakrishna to establish an organization named the 'Ramakrishna Mission'. The organization would provide training to monks and Brahmacharis, guide people who would come and would serve people through charitable activities. Thus the Ramakrishna Mission was established. Swami Vivekananda became the General President and Swami Brahmananda and Swami Yogananda became the President and Vice-President of the Calcutta Centre. Swami Brahmananda implemented Swamiji's plan concerning the management of the Alambazar Monastery as well as the Ramakrishna Mission's philanthropic (humanitarian and charitable) activities. Swami Brahmananda was extremely practical and endowed with strong common sense. He had a tremendous spiritual power that enabled him to evaluate people's abilities.",
+      "On May 5, 1897 in the presence of Swamiji and others, a second meeting was held at Balarambabu's house. The resolutions were passed laying down the main principle on which the Movement of the Ramakrishna Mission would work. Office bearers for the Mission were appointed.",
+      "Swamiji reached Calcutta on Jan 21. Swamiji was in the house of Balaram Bose, Baghbazar. He was talking to the assembled people, including Surendranath Sen. Swamiji, Swamis Turiyananda, Yogananda, Premananda, along with Sri (M), some Brahmacharis and many other devotees assembled. Swamiji sang songs on the request of Sri Mahendranath Gupta (M).",
+      "An agreement was made for the purchase of a piece of land of seven acres with a building on the west bank of Ganga in Belur village from Bhagbat Narayan Singh of Patna, as the permanent abode of the Math. (Jan 21 to Feb 7, 1898).",
+      "Swamiji with Kalikrishna went to stay in Balarambabu's house at Baghbazar for a few days. Sister Nivedita proceeded to Calcutta to open her school.",
+      "Swamiji arranged her stay with Holy Mother who was then staying in Baghbazar at 10/2, Bosepara Lane. Swamiji often invited Nivedita to take food with him and asked his brother-disciples to join them. (Oct 31 to Nov 4, 1898).",
+      "A formal meeting was arranged in Balarambabu's house with Sister Nivedita as the president, before she opened the girls' school. She made an official request to the gathered householders for sending their girls to her school. People hesitated to promise but at the end Swamiji himself announced to Miss Noble pointing Haramohan babu that he (Haramohan babu) would definitely send his daughter to Sister's school. Sister became very happy and clapped in joy like a small girl. (Nov 12, 1898).",
+      "Swamiji and Nivedita came to Yogin ma's house at 59, Baghbazar Street to see the Jagaddhatri Puja on Nov 22, 1898.",
+      "Swamiji taught his orthodox Brahmin disciple Sharatchandra to give up his prejudice of 'don't-touchism' of the Hindus, by making him eat and drink with Nivedita from the same table.",
+      "Visited Calcutta Zoological Gardens. (Dec 12 to 14, 1898).",
+      "On Jan 22, 1899 Swamiji returned with Swami Saradananda from Baidyanath and stayed at Baghbazar. He told his brother-disciples to spread and preach the gospel of Shri Ramakrishna to other parts of India. Sister Nivedita used to prepare some food for Swamiji who shared that with every monk and Brahmachari present.",
+      "Swamiji's health improved slightly. Swamiji not only suffered from illness but also from the shock caused by the defection of his formerly devoted admirer, Miss F. Henrietta Muller.",
+      "Swami Yogananda is also suffering from phthisis. Dakshinaranjan Guha was devotedly nursing Swami Yogananda. (Jan 22 to Feb 2, 1899).",
+      "Swamiji with Nivedita met Devendranath Tagore on Feb 19.",
+      "To spread far and wide the teachings and ideas of Shri Ramakrishna and Swami Vivekananda, three magazines (Brahmavadin of Madras, Prabuddha Bharata of Almora and subsequently Mayavati and Udbodhan of Calcutta) had been started.",
+      "Plague broke out and quickly spread in the Baghbazar area.",
+      "Swamiji initiated Sister Nivedita as a 'Naisthik Brahmacharini', not as a sannyasini, and that might have caused her some disappointment.",
+      "Swami Yogananda passed away in Samadhi at 3.10 p.m. after saying, \"Om Ramakrishna\".",
+      "Under the guidance of Swamiji, plague relief work started - relief service, 'bustees' in four areas of the city were cleared of cartloads of filth and thoroughly disinfected under the direct supervision of the Swamis. (Mar 15 to Apr 2, 1899).",
+      "Every Sunday a meeting was held at Balaram Bose's house. Weekly report of the work done was recorded and further plans were discussed. (Apr 23, 1899).",
+      "Swamiji made a transfer of gift to his mother Bhuvaneshwari Devi of the two properties on No 2 and 3 Gourmohan Mukherjee Street, purchased about six months earlier. (May 27 to 29, 1899).",
+      "On May 12, 1901 Swamiji with his party reached Calcutta."
+    ],
+    "image": "balaram.jpg"
+  },
+  {
+    "id": "baranagar_math",
+    "title": "Ramakrishna Math, Baranagar",
+    "description": [
+      "After Sri Ramakrishna's passing in 1886, Narendra and his brother-disciples established the first Ramakrishna Math in this modest, dilapidated house on the banks of the Ganges at Baranagore. Here, during the intense years that followed, Swamiji and his brothers engaged in rigorous spiritual disciplines—meditation, worship, study of scriptures, and devotional singing—creating the monastic foundation that would eventually spread across the world.",
+      "Swami Vivekananda stayed here with his brother-disciples during the period — Jun 5 to Jul 5; Jul 7 to Jul 14; Jul 16 to Jul 20, 1890.",
+      "Swami Vivekananda passed his days in worship, prayer, meditation, singing devotional songs and study. In sorrow, as well as in ecstasy, Swamiji led them while the brother-disciples followed him.",
+      "Many of his brother-monks decided to leave the Baranagore Math and go out as mendicants for Tapasya.",
+      "Swami Vivekananda gave Gangadhar (Swami Akhandananda) the Sannyasa rite performing the 'Viraja-homa' in front of Thakur's picture and 'paduka' at the Baranagore Math.",
+      "Swamiji set out in the third week of July 1890 with the determination not to return until he had achieved his spiritual goal. He told his brother-disciples: \"I shall not return until I acquire such realization that my very touch will transform a man.\""
+    ],
+    "image": "baranagar_math.jpg"
+  },
+  {
+    "id": "alambazar_math",
+    "title": "Alambazar Math",
+    "description": [
+      "When the Math relocated to Alambazar in 1892, it became the operational center of the nascent Ramakrishna Mission. Upon his triumphant return from the West in 1897, Swamiji made this monastery his headquarters, where eager young men gathered to take monastic vows under his guidance and where the philosophical fruits of his spiritual vision were systematized and transmitted to the next generation of renunciates.",
+      "From Madras Swami Vivekananda reached Calcutta on Feb 20, 1897. Swamiji spent the daytime in the Seals' mansion in Cossipore, where his European friends resided but spent the night, at Alambazar Math.",
+      "Swami Premananda with Kalikrishna Basu reached the Math from Vrindaban. Swamiji heard about Kalikrishna beforehand from his brother-disciples. He received them affectionately.",
+      "Swamiji went to meet Vijay Krishna Goswami at his house in Harrison Road, and asked for his blessings as he wanted to establish ashramas in Calcutta, Madras, Kashi (Benares) and the Himalayas.",
+      "Swamiji asked Sudhir whether he had read the 'Katha Upanishad' which is grand and poetic. Sudhir humbly replied that he could recite from the 'Gita'. The very next day, Sudhir took the book on 'Katha Upanishad' and started chanting. Swamiji with his sonorous voice began to explain the verses in such an elevating way that everyone felt spiritually uplifted. Till the end of his life, Sudhir (later Swami Shuddhananda) could see Swamiji's face suffused with bliss, repeating in a resonant voice the message of hope from the Upanishad: 'Hear, ye children of immortal bliss!'.",
+      "Swamiji took charge of training the novices. Every day they had to attend the morning classes on the Gita, Upanishads and other scriptures. Every day they continued spiritual practices under the guidance of Swami Turiyananda.",
+      "Swamiji was given an address of welcome at the palatial residence of the late Raja Sir Radhakant Deb Bahadur, at Shobhabazar. Four thousand people had gathered including distinguished elites of Calcutta. The speech given by Swamiji in reply is famous as a masterpiece for its patriotic expressions.",
+      "Swamiji's inspiring words on Vairagya made several cultured and educated young men to join the Math.",
+      "Swamiji lovingly told Swami Ramakrishnananda that he had promised his friends in Madras that he would send one of his brother-disciples to open a Vedanta Centre there. Firmly believing the voice of their Leader indeed the voice of the Master, Swami Ramakrishnananda agreed to go to Madras.",
+      "On Mar 5 - Tithi-Puja* of Shri Ramakrishna, Swamiji initiated four Brahmacharis into sannyasa and renamed them as Swami Virajananda (Kalikrishna), Swami Nirbhayananda (Kanai), Swami Prakashananda (Sushil) and Swami Nityananda (Jogendranath Chatterjee). Swami Ramakrishnananda worshipped Shri Ramakrishna, and lit the fire in the Homa kunda while Swamiji performed the sannyasa ceremony. Swamiji gave 'mantra Initiation' to Asim Kumar Basu, son of Chunilal Basu.",
+      "Swamiji visited Dakshineswar Kali temple and spent the day with two European ladies, J.J. Goodwin, Girish Ghosh, Swami Niranjanananda, Sharatchandra, Haripada and others. (Feb 20 to March 7, 1897).",
+      "Arrived Sealdah to meet Raja of Khetri on Mar 21. Swamiji with Raja of Khetri visited the Kali temple at Dakshineswar. Later they went to the Alambazar Math. Swamiji spent the night with the Raja in Seth Dulichand's house.",
+      "Swamiji came to Bose Para house where Holy Mother was staying at that time. Swamiji asked for the blessings of Holy Mother for his future work.",
+      "Swamiji returned to Darjeeling for taking rest on Mar 23. (March 21 to 23, 1897).",
+      "Swamiji with the party arrived in Calcutta on Apr 28. On 29 April, Swamiji went to 10/2, Bosepara Lane and prostrated himself at Holy Mother's feet to seek her blessings for starting the future Ramakrishna Mission. 'Rules and Regulations for the monastic members of the Ramakrishna Order' formed.",
+      "Swamiji is happy to know about Swami Akhandananda's service to the faminestricken people in Murshidabad. (Apr 28 to May 6, 1897)"
+    ],
+    "image": "alambazar_math.jpg"
+  },
+  {
+    "id": "ghusuree",
+    "title": "Ghusuree Village",
+    "description": [
+      "Ghusuree village offered Vivekananda and his monastic brothers a secluded retreat for deepening their spiritual practice during the wandering years following their master's death, providing respite and space for the intensive meditation and sadhana that characterized their formative period as renunciates."
+    ],
+    "image": "ghusuree.jpg"
+  },
+  {
+    "id": "rajballavpara",
+    "title": "Rajballavpara",
+    "description": [
+      "After his father Vishwanath Datta's death in 1884, the family descended into financial hardship and relocated to Rajballavpara Lane, where young Vivekananda confronted extreme poverty and material deprivation. Yet even as he struggled to support his family, his inner spiritual resolve remained unshaken, his focus on the transcendent never wavering despite the grinding realities of earthly want."
+    ],
+    "image": "rajballavpara.jpg"
+  },
+  {
+    "id": "gopal_seal",
+    "title": "Gopal Lal Seal's House",
+    "description": [
+      "Gopal Lal Seal's house represented the bridge between Vivekananda's monastic life in India and his epochal journey to the West, serving as a place where the practical arrangements for his passage to the Parliament of World's Religions were finalized through the generous patronage of benefactors including the Maharaja of Khetri."
+    ],
+    "image": "gopal_seal.jpg"
+  },
+  {
+    "id": "dakshineswar",
+    "title": "Dakshineswar Kali Temple",
+    "description": [
+      "The Dakshineswar Kali Temple on the banks of the Ganges became the crucible of Vivekananda's spiritual awakening when he first encountered Sri Ramakrishna there in 1881, a meeting that altered the trajectory of his life forever. Through repeated visits to this sacred temple complex, where Ramakrishna had dwelt for over three decades, the young Narendra transformed from an intellectually brilliant skeptic into a burning seeker consumed by the quest for divine truth and liberation.",
+      "It was here that the young Narendra first met Sri Ramakrishna in 1881. The temple complex on the Ganges was Ramakrishna's home for over thirty years. Narendra's repeated visits here transformed him into a true spiritual seeker."
+    ],
+    "image": "dakshineswar.jpg"
+  },
+  {
+    "id": "belur_math",
+    "title": "Belur Math",
+    "description": [
+      "Belur Math emerged as the permanent headquarters of the Ramakrishna Math and Mission after Vivekananda secured the land in March 1898 through a generous donation from Miss Henrietta Muller of England, completing the main building by November of that year. Situated on the western bank of the Ganges just outside Calcutta, the monastery became the center of Vivekananda's efforts to establish a monastic order dedicated to both spiritual realization and humanitarian service. During his residence there from 1899 until his final days, Swamiji embodied a new vision of monasticism—one that would strengthen individuals amid the demands of daily life rather than retreat into solitude. He attained Mahasamadhi on July 4, 1902, leaving behind a living institution whose monks continued his legacy with devotion, while his room and the Ramakrishna Temple were preserved as sacred shrines for future generations of disciples.",
+      "On Feb 3, 1898, Swamiji signed the agreement for purchase of land from Bhagbat Narayan Singh (son of Neelmoni Singh) at a cost of Rs 39,000 contributed by Miss F. Henrietta Muller of England. On March 4, the plot was secured. On Nov 11, 1898 the new Math building at Belur was completed. Holy Mother Sri Sarada Devi sanctified the land with puja.",
+      "On Dec 16, 1898, Swamiji took classes for his Western disciples and the monks at the Math. On Dec 20, Holy Mother visited and stayed for a short time.",
+      "On Feb 3, 1899, Swamiji went to the Shrine for meditation and spoke about the ideals of the Sangha. On Feb 5, Swamiji took Swami Yogananda in a boat on the Ganga. On Feb 8, a feast was held in honour of Swami Brahmananda's birthday.",
+      "On March 2, 1899, Captain Sevier purchased the Mayavati estate (Advaita Ashrama). On March 13, the Ramakrishna tithi-puja was celebrated at Belur Math. On March 19, a public celebration was held attended by about 20,000 people; Sister Nivedita spoke.",
+      "A Punjabi visitor asked Swamiji why he was feeding dogs. Swamiji replied that the divine is present in all beings (Apr 3–4, 1899). Mahananda Kaviraj advised Swamiji to take a sea voyage for health reasons (Apr 6–10, 1899).",
+      "On May 7, 1899, Swamiji wished to hand over Math affairs to his brother-monks. He was very emotional and wept. On May 17, Nivedita booked ship tickets for the voyage. On June 11, Nag Mahashaya visited Belur Math.",
+      "On Dec 9, 1900, Swamiji arrived back in Belur Math. Captain Sevier had passed away. On Jan 19, 1901, Swamiji left Mayavati, reached Belur Math on Jan 24.",
+      "The Debottar Trust Deed was executed on Jan 30, 1901, and the Board of Trustees was established with Swami Brahmananda as President. On Feb 6, the Trust Deed was registered. The Bally Municipality raised a tax dispute, but the Calcutta High Court decreed in favour of Belur Math exempting it from Municipal Tax.",
+      "On Feb 20, 1901, a Special Puja was held and about 20,000 people attended Swamiji's birthday celebration. Swami Kalyanananda was instructed by Swamiji about serving the sick as service to God.",
+      "On March 13, 1901, Kali Puja was performed. On March 16, Mother Sevier came to take leave before departing for England. On March 18, Swamiji started for Dacca. (Jan 19 to Mar 18, 1901).",
+      "On May 13, 1901, Swamiji was back in the Belur Math and his disciples worried about his poor health. On the earnest request of Swami Niranjanananda, Swamiji agreed to undergo Ayurvedic treatment of Kaviraj Sri Mahananda Sen Gupta of Bahubazar.",
+      "Swamiji completed the full set of the Encyclopaedia Britannica. Swamiji gave a disciple an option to ask any question from any volume and successfully answered it. The disciple was astonished and Swamiji explained that only by observing strict Brahmacharya (continence) all learning could be mastered in a short time.",
+      "Once Brahmachari Krishnalal told Swamiji that he could not read the Shastras and Scriptures at the Math. Swamiji then and there said that Krishnalal should concentrate more on 'japam'. Brahmachari Krishnalal obeyed Swamiji with sincerity and succeeded. Later Swamiji once told Swami Shuddhananda that Krishnalal had realization through 'japam'.",
+      "Swamiji explained to Mary the idea behind the 'Mission-Seal' where 'the snake represents mysticism; the Sun knowledge; the worked up water activity; the lotus love; the swan the soul in the middle of all'.",
+      "Suresh Dutta was the person who first published the design of the future Belur Math Temple — that from a distance it would seem like an 'OM', as per the sketch of the future Belur Math Temple drawn by Swami Vijnanananda. The Belur Math had been exempted from the payment of Municipal Tax by order of High Court, as reported in the August issue of the Prabuddha Bharata. (May 13 to Aug 6, 1901).",
+      "Swamiji reached Belur Math from Darjeeling on Aug 22, 1901. One clerk came to see Swamiji. Swamiji advised him in detail how he should keep the files arranged, the hand-writing should be neat and clean. 'The work is not only to earn bread, it is for the country and its people — Karma is Brahma'. There always remained a force behind his talk which would lift the mind of the listener.",
+      "Once the sweeper was absent for a few days in the Math and all the toilets were very dirty with foul smell. Swamiji himself started cleaning and scrubbing those with the help of a boy. Some monks came to help him; but Swamiji stared hard at them and made them return. Swamiji demonstrated that one ideal teacher should teach what he practices. Swamiji taught – 'Cleanliness is next to Godliness'.",
+      "Swamiji taught Swami Nishchayananda that a monk should never be a burden to others. He asked his disciples to sacrifice themselves in the service of others, because 'Sacrificing everything for the good of others – that being true sannyasa'. Swamiji advised his disciples and the Brahmacharis to devote their lives to the service of the poor who are 'Daridra Narayana' (God in the form of poor), instead of personal Mukti.",
+      "Swamiji held a class for the junior monks which continued till evening. Seeing nobody in the shrine for vesper, Swami Premananda came to the classroom and asked them to join the vesper. Swamiji became very annoyed and rebuked Premananda harshly. Later Swamiji lamented for his harshness and came to the shrine and struck his forehead in front of Shri Ramakrishna's image.",
+      "Swamiji was watching the young monks playing football on the small ground in front of the Math. They made a ball with pieces of cloth. Swamiji said, 'Our country shall be free. But not with bloodshed'. Regarding the time, later he said to one of his brother-disciples that India would be free within fifty years.",
+      "Swamiji was especially fond of Kesta, one of the Santals. Swamiji invited the Santals to a feast. Salt-free food was prepared as per their (Santals') wish. They were very much pleased with those tasty food which they had never tasted. Swamiji told the monks and Brahmacharis of the Math, not to practice 'touchism' and to go out to bring together one and all.",
+      "Once while sleeping, Swamiji felt as if he got a jerk. He said 'It seems that somewhere, something has happened — some accident might have occurred and many people are hurt'. Later, it came in newspapers that there was a volcano eruption, and many people died in Fiji. Swami Vijnanananda was amazed to find that Swamiji had that psychic power to foresee things. And that made him more responsive to human miseries than a seismograph. (Aug 22 to Dec 31, 1901).",
+      "Mr Okakura Kakuzo, Miss MacLeod and Mr Shitoku Hori arrived in Calcutta and were delighted to meet Swamiji at the Math. Swamiji talked on the glorious life of Buddha and about the philosophical aspects of his teachings, with such fervour, devotion and insight that they were simply charmed.",
+      "Swamiji wanted to learn the science of Hatha Yoga for making his weak body strong. On the eve of the initiation Swamiji saw the form of Shri Ramakrishna looking steadfastly at him, as if very much aggrieved. Swamiji felt ashamed. Several nights in succession Swamiji had the vision of Sri Ramakrishna, so he abandoned the idea of taking initiation from Pavhari Baba.",
+      "Swamiji told Miss MacLeod that he would not cross forty. She said that Buddha did not do his great work until he was between forty and eighty. But Swamiji replied, 'The shade of a big tree will not let the smaller trees grow up. I must make room'. (Mar 8 to 31, 1902).",
+      "As Swamiji was feeling worse health wise, Kaviraj Mahananda Sen Gupta of Calcutta came and examined Swamiji. Given medicine. Intake of Salt and water not allowed. On March 11 – Tithi-puja of Shri Ramakrishna. There was a special puja from the morning and many devotees had prasad. First volume of Shri Ramakrishna-Kathamitra by Mahendranath Gupta in Bengali was published.",
+      "Swamiji desired to see all his Sannyasi disciples and wrote to them to visit him, even for a short time. The call went even to those beyond the seas. Some of them came; whereas others busy at various centres could not come. If they could have known what the call had meant, they would have left everything and come.",
+      "Swamiji came by boat from Calcutta and asked for Swami Brahmananda and asked him to make all arrangements for the Durga Puja at the Math and to bring pratima (clay idol/image). Swami Brahmananda told him about his vision of Mother Durga being worshipped at the Math. On Oct 18 Devi Durga was worshipped under the Bilva tree. The solemn vow (sankalpa) to do the Puja was done in the name of Holy Mother 'Sarada Devi'. Holy Mother was present all through. A pratima was brought to the Math for the first time on Oct 27. In the Math the pratima worship of Goddess Kali was also performed at night (Nov 10). Swamiji lost consciousness and went into 'Samadhi'.",
+      "Once Swami Nirbhayananda fell asleep on Swamiji's chest while fanning him. Lest his sleep be disturbed, Swamiji lay for a long time without moving. He got up from his bed only after Nirbhayananda woke up. Such was Swamiji's love for his attendants. Under the guidance of Swamiji, Jaggadhatri Puja was celebrated in his mother's house at Simla (Nov 20). Swamiji did not like the householders to sit together with the monks for prasad (meals).",
+      "Swami Brahmananda replied about Swamiji, 'Swamiji is Lord Shiva Himself'. On Nov 10, in the Math the pratima worship of Goddess Kali was also performed at night. Swamiji lost consciousness and went into 'Samadhi'.",
+      "Brojendra rushed downstairs and called Swami Advaitananda, who checked his pulse and then called Swami Bodhananda to check the pulse. Bodhananda cried loudly. Swami Nirbhayananda was sent to call Dr Mahendra Nath Majumdar of Baranagore. Swami Premananda, Swami Nishchayananda and Ishwar Chandra Chakraborty started chanting 'Shri Ramakrishna' loudly in Swamiji's ears, hoping he would return from Samadhi. Swamiji's eyes were fixed in the centre, and his face assumed a divine expression with a sweet smile. Dr Majumdar found no sign of life, tried artificial respiration but failed.",
+      "Swami Vivekananda passed away at the age of thirty-nine years, five months and twenty-four days. According to Yoga scripture, the life breath of an illumined yogi passes out through the opening on the top of the head, causing the blood to flow from the nostrils and the mouth. (July 1 to 4, 1902)."
+    ],
+    "image": "belur_math.jpg"
+  },
+  {
+    "id": "kamarpukur",
+    "title": "Kamarpukur",
+    "description": [
+      "Vivekananda journeyed to Kamarpukur, the birthplace of Sri Ramakrishna, as part of his pilgrimage to honor his departed master following Ramakrishna's passing in 1886. Walking through the village where his guru had spent his childhood and early years, Swamiji encountered the humble environment that had nurtured the saint's extraordinary spiritual consciousness. The visit deepened his reverence for Ramakrishna and his understanding of how the Master's life was rooted in the simplicity and devotional atmosphere of rural Bengal.",
+      "Birthplace of Sri Ramakrishna. Vivekananda and brother disciples visited here to pay homage after Ramakrishna's passing, experiencing firsthand the village environment that shaped their master's life."
+    ],
+    "image": "kamarpukur.jpg"
+  },
+  {
+    "id": "antpur",
+    "title": "Antpur",
+    "description": [
+      "At Antpur in December 1886, Narendra and his brother disciples gathered for a transformative midnight ritual on Christmas Eve, formally taking monastic vows around a sacred fire. Inspired by the example of Jesus Christ's renunciation and universal love, they sealed their commitment to spiritual life and service to humanity, marking the unofficial birth of the Ramakrishna monastic order. This intimate ceremony at Antpur crystallized the monastic brotherhood that would eventually become the structured Ramakrishna Math and Mission."
+    ],
+    "image": "antpur.jpg"
+  },
+  {
+    "id": "deoghar",
+    "title": "Baidyanath Dham, Deoghar",
+    "description": [
+      "During his wandering years, Vivekananda visited Baidyanath Dham at Deoghar, one of the twelve sacred Jyotirlinga shrines dedicated to Shiva scattered across the Indian subcontinent. The pilgrimage allowed him to witness firsthand the intensity of devotion that drew thousands of seekers to this holy site, deepening his appreciation for the diverse expressions of Hindu spirituality. At these temples of power and worship, Swamiji encountered the living faith of ordinary Indians and the timeless traditions that sustained the nation's spiritual life."
+    ],
+    "image": "deoghar.jpg"
+  },
+  {
+    "id": "varanasi",
+    "title": "Varanasi (Benares)",
+    "description": [
+      "Varanasi held profound spiritual significance for Vivekananda across multiple visits during his wandering years and in his later life, including stops in 1888 and 1890. The eternal city on the Ganges became a place of mystical revelation where, according to tradition, the goddess Durga herself communicated to him the liberating truth: 'I myself am bearing the burden of my devotees.' This encounter crystallized his understanding of the divine mother's active compassion in human affairs. Before departing Varanasi after his early visits, he prophetically declared he would return to shake society like a bombshell, and later fulfilled that promise by establishing a Ramakrishna centre in the sacred city, bringing his master's teachings to this ancient seat of Hindu wisdom."
+    ],
+    "image": "varanasi.jpg"
+  },
+  {
+    "id": "sarnath",
+    "title": "Sarnath",
+    "description": [
+      "Vivekananda visited Sarnath during his final pilgrimage in 1901, standing at the site where Buddha had delivered his first sermon and inaugurated a new spiritual age. Reflecting on this hallowed ground, he contemplated the underlying unity of India's great religious traditions—how different masters across centuries had awakened humanity to transcendent truth. The journey to Sarnath reinforced his conviction that all authentic spiritual paths, whether Hindu or Buddhist, emerged from the same eternal source and shared the common purpose of liberating the human spirit."
+    ],
+    "image": "sarnath.jpg"
+  },
+  {
+    "id": "ayodhya",
+    "title": "Ayodhya",
+    "description": [
+      "During his wandering years in 1888, Vivekananda journeyed to Ayodhya, the birthplace of Lord Rama and one of Hinduism's most sacred pilgrimage sites. Walking through the devotional atmosphere of this ancient city, he witnessed the fervent faith of countless pilgrims drawn to honor the divine incarnation. The visit connected him deeply with India's epic spiritual heritage and the living tradition of devotion that had sustained Hindu civilization across millennia."
+    ],
+    "image": "ayodhya.jpg"
+  },
+  {
+    "id": "lucknow",
+    "title": "Lucknow",
+    "description": [
+      "Passing through Lucknow during his wandering years in 1888, Vivekananda traversed this city of considerable historical and cultural importance with characteristic enthusiasm, absorbing its industries, luxuries, and architectural splendors. As he journeyed northward with his companions toward the Himalayan hill stations, he used Lucknow as an opportunity to reflect on India's rich past and present, sharing with his traveling party the significance of this great center of North Indian civilization and engaging with the scholars and thinkers he encountered there."
+    ],
+    "image": "lucknow.jpg"
+  },
+  {
+    "id": "vrindavan",
+    "title": "Vrindavan",
+    "description": [
+      "In 1888, Vivekananda visited Vrindavan, the sacred town steeped in Krishna's childhood memories, during his wandering pilgrimage across India. The town's spiritual atmosphere moved him deeply, and he experienced profound states of devotion and meditation among its temples and sacred sites. He was particularly moved by encounters with images of the Mother Goddess here, experiences that further illuminated his understanding of the divine feminine in Indian spirituality and deepened his recognition of the great saints and realized souls as living ideals for humanity."
+    ],
+    "image": "vrindavan.jpg"
+  },
+  {
+    "id": "mathura",
+    "title": "Mathura",
+    "description": [
+      "Vivekananda visited Mathura, the birthplace of Lord Krishna, during his pilgrimage through North India in 1888. As a major center of Vaishnava devotion, the city provided him with rich opportunities to contemplate the life and teachings of Krishna while observing the spiritual practices of countless pilgrims. His time here contributed to his later articulate reflections on the fundamental unity between the Shaiva and Vaishnava traditions, understanding both as expressions of the same eternal Indian spirituality."
+    ],
+    "image": "mathura.jpg"
+  },
+  {
+    "id": "agra",
+    "title": "Agra",
+    "description": [
+      "During his wandering years in 1888, Vivekananda visited Agra and stood before the Taj Mahal, that sublime monument to love and artistic mastery. The magnificent structure stirred him profoundly as a testament to India's imperial grandeur and cultural genius. Yet the beauty of past achievement only deepened his anguish at witnessing the poverty and spiritual decline of contemporary India, igniting within him a burning resolve to revive the nation's ancient glory and awaken its dormant spiritual potential."
+    ],
+    "image": "agra.jpg"
+  },
+  {
+    "id": "haridwar",
+    "title": "Hardwar",
+    "description": [
+      "In 1890, Vivekananda arrived at Haridwar during the great Kumbh Mela, the gateway to the Himalayas where countless sadhus and seekers gathered on the banks of the Ganges. Immersed in this vast ocean of Indian spiritual life, he mingled freely among the monks and ascetics, observing their practices and absorbing the monastery traditions. From Haridwar, he began his ascent into the high Himalayas, using the sacred city as his launching point for the mountain retreats that would deepen his spiritual realization."
+    ],
+    "image": "haridwar.jpg"
+  },
+  {
+    "id": "rishikesh",
+    "title": "Hrishikesh",
+    "description": [
+      "Vivekananda visited Hrishikesh, the yoga capital on the Ganges, during his Himalayan wanderings in 1890 and again in 1897 after his triumphant return from the West. He spent contemplative periods in meditation and studied intensely with accomplished yogis, deepening his mastery of spiritual practices in an atmosphere saturated with monasticism. He was profoundly moved by encountering great realized souls here—wandering sadhus of extraordinary spiritual power whose unconventional behavior and inner freedom exemplified the heights of authentic spiritual attainment beyond conventional morality."
+    ],
+    "image": "rishikesh.jpg"
+  },
+  {
+    "id": "almora",
+    "title": "Almora",
+    "description": [
+      "Vivekananda visited the hill station of Almora in 1897 and again in 1900, seeking rest and restoration in the crisp mountain air while continuing his intense spiritual and intellectual work. From this Himalayan retreat, he maintained an extensive correspondence, guiding disciples and planning his mission. Western seekers, including the remarkable Sister Nivedita, journeyed to meet him here, and the nearby Advaita Ashrama at Mayavati became a permanent monument to his vision of establishing centers for spiritual study and monastic practice in the mountains."
+    ],
+    "image": "almora.jpg"
+  },
+  {
+    "id": "mayavati",
+    "title": "Advaita Ashrama, Mayavati",
+    "description": [
+      "In 1901, during what would be his final Himalayan journey, Vivekananda visited the Advaita Ashrama at Mayavati, the monastery he had inspired into existence just two years earlier in 1899. Perched in the high mountains near Almora, this institution embodied his vision of establishing centers for the study and practice of Advaita Vedanta. The ashrama became a beacon of spiritual learning and would go on to publish the influential journal Prabuddha Bharata, spreading Vedantic philosophy across India and the world."
+    ],
+    "image": "mayavati.png"
+  },
+  {
+    "id": "uttarkashi",
+    "title": "Uttarkashi",
+    "description": [
+      "In 1890, Vivekananda ventured deep into the Himalayan wilderness to Uttarkashi, where he spent extended periods absorbed in meditation and spiritual practice. Here he encountered a accomplished yogi whose wisdom and encouragement proved to be a turning point in his life's direction. This sadhu recognized Swami's spiritual stature and urged him toward a greater mission—to carry the ancient teachings of Vedanta to the Western world, counsel that Vivekananda would take to heart as a divine calling."
+    ],
+    "image": "uttarkashi.jpg"
+  },
+  {
+    "id": "delhi",
+    "title": "Delhi",
+    "description": [
+      "Under the assumed name Vividishananda, Vivekananda entered Delhi during his wandering years with his scanty belongings and royal bearing. The city's crisp air, grandeur, and layered historical memories filled him with both physical and spiritual elation. He stayed at the residence of Syamaldas, who welcomed him warmly, and during his time there he explored the monumental echoes of India's ancient capital—the Red Fort, Jama Masjid, and Humayun's Tomb—absorbing the civilisational depth that had shaped the subcontinent's spiritual and political consciousness."
+    ],
+    "image": "delhi.jpg"
+  },
+  {
+    "id": "alwar",
+    "title": "Alwar",
+    "description": [
+      "In 1891, Vivekananda visited the court of Maharaja Mangal Singh of Alwar during his wandering through Rajputana. Here occurred one of his most celebrated exchanges on the nature of divine presence in images. When the Maharaja expressed contempt for image worship, Vivekananda demonstrated his teaching by asking a courtier to spit upon the Maharaja's portrait—a profound lesson that the sacred dwells equally in all forms, from the humblest image to the mightiest ruler."
+    ],
+    "image": "alwar.jpg"
+  },
+  {
+    "id": "jaipur",
+    "title": "Jaipur (Jeypore)",
+    "description": [
+      "Vivekananda passed through Jaipur during his 1891 tour of Rajputana, engaging with the learned men of the royal court and absorbing the vibrant culture of the Pink City. His travels in the region took him to nearby sacred sites, including the village of Naravani where an annual fair drew pilgrims from across Rajputana to worship the Divine Mother. The journey deepened his understanding of how spiritual devotion manifested across India's diverse communities and landscapes."
+    ],
+    "image": "jaipur.jpg"
+  },
+  {
+    "id": "ajmer",
+    "title": "Ajmer (Ajmere)",
+    "description": [
+      "Vivekananda visited Ajmer, home to the revered Dargah of Moinuddin Chishti, one of India's holiest Sufi shrines. During his wanderings through Rajputana, he observed how Islam had established itself as a living spiritual force within Indian soil. The pilgrimage reflected his broader conviction that divine aspiration transcends religious boundaries, and that the longing for the sacred beats within human hearts across all faiths and traditions."
+    ],
+    "image": "ajmer.jpg"
+  },
+  {
+    "id": "khetri",
+    "title": "Khetri",
+    "description": [
+      "Vivekananda formed a lasting bond with Maharaja Ajit Singh of Khetri, who became one of his most devoted supporters. It was at Khetri in 1893 that the Maharaja bestowed upon him the name 'Vivekananda'—the name by which he would be known to history. The Maharaja's generosity extended further when he funded Vivekananda's passage to America for the Parliament of Religions in Chicago, recognizing in the wandering monk a messenger who would carry India's ancient wisdom to the West."
+    ],
+    "image": "khetri.jpg"
+  },
+  {
+    "id": "mount_abu",
+    "title": "Mount Abu",
+    "description": [
+      "Vivekananda visited Mount Abu, Rajasthan's only hill station, where he encountered the magnificent Dilwara Jain temples. The extraordinary marble carvings and architectural splendor moved him deeply, tears flowing as he witnessed the devotional artistry of ages past. He recognized in these temples an expression of India's spiritual genius—a tangible manifestation of how faith, discipline, and aesthetic vision had merged to create works of transcendent beauty across the centuries."
+    ],
+    "image": "mount_abu.jpg"
+  },
+  {
+    "id": "ahmedabad",
+    "title": "Ahmedabad",
+    "description": [
+      "During his 1891 travels through Gujarat, Vivekananda passed through Ahmedabad, observing the flourishing trading communities and the rich interplay of Hindu, Jain, and Islamic traditions that had shaped the city's unique character. He studied how different faiths coexisted and influenced one another within this prosperous center, gaining insight into the syncretic spirituality that had historically defined Indian civilization."
+    ],
+    "image": "ahmedabad.jpg"
+  },
+  {
+    "id": "junagadh",
+    "title": "Junagadh",
+    "description": [
+      "Vivekananda climbed the Girnar Hills near Junagadh, ascending to the ancient temples that have served as a holy pilgrimage site for Jain devotees across centuries. Amidst these sacred heights, he spent time in meditation and study, reflecting on the enduring spiritual traditions that had sustained India's inner life through the ages. The journey deepened his reverence for the countless seekers who had walked these paths in pursuit of truth."
+    ],
+    "image": "junagadh.jpg"
+  },
+  {
+    "id": "dwarka",
+    "title": "Dwarka",
+    "description": [
+      "In 1891, Vivekananda reached Dwarka, one of Hinduism's four most sacred pilgrimage sites and an ancient coastal shrine steeped in the memory of Lord Krishna. As a wandering monk on his transformative pan-India journey, he immersed himself in the Vaishnava devotional traditions that infused this holy city, deepening his understanding of the diverse spiritual expressions that sustained Hindu civilization. The visit reinforced his conviction that India's religious heritage contained infinite treasures worthy of transmission to the world."
+    ],
+    "image": "dwarka.jpg"
+  },
+  {
+    "id": "porbandar",
+    "title": "Porbandar",
+    "description": [
+      "Arriving in Porbandar in 1891, Vivekananda stayed as an itinerant ascetic, engaging with local scholars and absorbing the rich religious atmosphere of this vibrant Saurashtra coastal city. His presence attracted intellectuals who were struck by his commanding personality and extraordinary insights into the Vedas and ancient philosophies. During his time here, he grew increasingly convinced that India held the keys to universal spiritual truth—the very conviction that would soon propel him westward to share Sanatana Dharma with the world."
+    ],
+    "image": "porbandar.jpg"
+  },
+  {
+    "id": "vadodara",
+    "title": "Vadodara (Baroda)",
+    "description": [
+      "In 1892, Vivekananda visited Vadodara, a progressive state whose Gaekwad ruler championed education and reform. He engaged with the court's intellectual circles and observed firsthand how a Hindu kingdom was modernizing without abandoning its spiritual foundations—a living demonstration that India could embrace contemporary knowledge while preserving the eternal wisdom of its traditions."
+    ],
+    "image": "vadodara.jpg"
+  },
+  {
+    "id": "mumbai",
+    "title": "Mumbai (Bombay)",
+    "description": [
+      "Vivekananda passed through Mumbai—India's dynamic commercial heart—multiple times between 1892 and 1897, each visit marking a turning point in his mission. In 1892, he prepared here for his fateful journey westward, embarking for the Parliament of Religions in Chicago. Upon his triumphant return in 1897, the city accorded him a hero's welcome, recognizing the global stature he had achieved. The metropolis's raw energy and modern vitality fascinated him, embodying the immense potential of a nation awakening to its own greatness."
+    ],
+    "image": "mumbai.jpg"
+  },
+  {
+    "id": "pune",
+    "title": "Pune (Poona)",
+    "description": [
+      "In 1892, Vivekananda reached Pune, Maharashtra's intellectual fortress, where he encountered the region's foremost reformers including Bal Gangadhar Tilak and other luminaries reshaping Indian thought. He was profoundly moved by the political consciousness and social awakening he witnessed—a generation of educated Indians wrestling with tradition and modernity, preparing the soil for national renaissance. The city's ferment of ideas confirmed his belief that India possessed the intellectual vigor to reclaim her place among civilized nations."
+    ],
+    "image": "pune.jpg"
+  },
+  {
+    "id": "belgaum",
+    "title": "Belgaum (Belagavi)",
+    "description": [
+      "Traveling from Maharashtra southward through Belgaum in 1892, Vivekananda journeyed through a landscape of cultural transition where Kannada speech and Dravidian practices gradually displaced the forms he knew from the north. This passage through Karnataka's gateway sharpened his awareness of India's magnificent diversity—how a single civilization contained multitudes, each region enriching the whole with its own spiritual and intellectual contributions."
+    ],
+    "image": "belgaum.jpg"
+  },
+  {
+    "id": "bangalore",
+    "title": "Bengaluru (Bangalore)",
+    "description": [
+      "In Bangalore during 1892, Vivekananda's quiet beginning soon gave way to intense intellectual engagement when he made the acquaintance of Sir K. Seshadri Iyer, the Diwan of Mysore. Seshadri Iyer, a profound scholar himself, was astounded by the young monk's spiritual insight and learning, recognizing him as an extraordinary presence. This encounter proved transformative, as the Diwan became instrumental in introducing Vivekananda to the Maharaja of Mysore, an introduction that would dramatically alter the trajectory of his American journey."
+    ],
+    "image": "bangalore.jpg"
+  },
+  {
+    "id": "mysore",
+    "title": "Mysuru (Mysore)",
+    "description": [
+      "The Maharaja of Mysore, Chamarajendra Wadiyar, received Vivekananda with great honor and, impressed by his vision and personal magnetism, reportedly offered to finance his voyage to America. Yet Vivekananda, bound by his monastic ideal of non-attachment and trusting in divine providence, declined the royal patronage. He would instead journey westward relying on his own efforts and faith—a decision that tested his conviction but proved the depth of his spiritual commitment."
+    ],
+    "image": "mysore.jpg"
+  },
+  {
+    "id": "hyderabad",
+    "title": "Hyderabad",
+    "description": [
+      "In the closing months of 1892, Vivekananda journeyed to Hyderabad, the magnificent capital of one of India's most powerful Muslim rulers, the Nizam. The city's unique synthesis of Hindu and Islamic civilizations captivated him, and he engaged deeply with scholars from both traditions, observing how philosophical and spiritual wisdom transcended religious boundaries. His time there reinforced his conviction that India possessed profound treasures of knowledge and culture that the world urgently needed, even as he grew increasingly passionate about awakening the masses to their rights and dignity through education and social reform."
+    ],
+    "image": "hyderabad.png"
+  },
+  {
+    "id": "madras",
+    "title": "Madras (Chennai)",
+    "description": [
+      "Madras became the crucible of Vivekananda's transformative mission. In late 1892, the young devotee Alasinga Perumal and a circle of ardent supporters welcomed him with fervent devotion, raising funds and spreading his message while urging him toward his historic journey to America. Upon his triumphant return in 1897, the city accorded him a hero's welcome, with a formal reception committee presenting addresses of gratitude for the spiritual light he had carried to the West and now brought back to illuminate his motherland."
+    ],
+    "image": "madras.jpg"
+  },
+  {
+    "id": "kanyakumari",
+    "title": "Kanyakumari (Cape Comorin)",
+    "description": [
+      "On 24 December 1892, Vivekananda swam to the solitary rock at Cape Comorin where three oceans converge, and there spent three days in profound meditation. In that sacred solitude, sitting where the waters of the Arabian Sea, Indian Ocean, and Bay of Bengal meet, a luminous vision crystallized within him—a clear, undeniable calling to lift India from the depths of poverty and ignorance and to carry the eternal wisdom of Vedanta to the spiritually hungry West. This meditation marked the definitive threshold between his wandering years and his life's great mission."
+    ],
+    "image": "kanyakumari.jpg"
+  },
+  {
+    "id": "rameswaram",
+    "title": "Rameswaram",
+    "description": [
+      "At the sacred Ramanathaswamy Temple, one of Hinduism's holiest pilgrimage sites, Vivekananda found an unexpected patron in the Raja of Ramnad, Bhaskara Setupati, whose devotion and generosity would prove instrumental in enabling his Western voyage. The Raja received him with royal honors, presented him with a carved rosewood pipe when the Swami declined material gifts, and bowed at his feet upon departure. Here, addressing assembled worshippers at the ancient temple, Vivekananda spoke on the true nature of worship, elevating the consciousness of all who gathered to hear his words."
+    ],
+    "image": "rameswaram.jpg"
+  },
+  {
+    "id": "ramnad",
+    "title": "Ramanathapuram (Ramnad)",
+    "description": [
+      "The Raja of Ramnad became one of Vivekananda's most devoted early supporters, receiving him at Pamban with elaborate formal ceremonies and fervent hospitality. During his stay in the royal palace, the Swami engaged in penetrating spiritual conversations, expounding on the nature of Brahman and human potential for divine realization. The Raja's enthusiastic backing and willingness to sponsor the Swami's passage to America proved crucial, as Vivekananda departed with the ruler's blessings and the profound gratitude of the people, who saw in him a messenger of India's eternal spiritual heritage."
+    ],
+    "image": "ramnad.jpg"
+  },
+  {
+    "id": "madurai",
+    "title": "Madurai (Madura)",
+    "description": [
+      "Vivekananda visited the breathtaking Meenakshi Temple in Madurai, its soaring gopurams piercing the sky with architectural grandeur that testified to India's unbroken capacity to sustain spiritual culture across countless centuries. He moved among the faithful devotees, witnessing the living pulse of Hindu spirituality and reflecting on how a civilization could maintain its deepest values and highest aspirations through ages of change. The temple's magnificence reinforced his vision of India's spiritual genius and deepened his resolve to revive this dormant power among his own people."
+    ],
+    "image": "madurai.jpg"
+  },
+  {
+    "id": "trivandrum",
+    "title": "Trivananthapuram (Travancore)",
+    "description": [
+      "In Trivandrum, Vivekananda visited the illustrious Padmanabhaswamy Temple and engaged with the royal family and local scholars, finding in Kerala's unique social fabric—marked by high literacy and ancient matrilineal customs—evidence of India's diverse pathways to human dignity and knowledge. During his time there, he taught privately of the urgent national reforms required to raise India's masses from bondage and ignorance, speaking with characteristic intensity about the necessity of spreading education and social equality throughout the land."
+    ],
+    "image": "trivandrum.jpg"
+  },
+  {
+    "id": "cochin",
+    "title": "Cochin (Kochi)",
+    "description": [
+      "On 31 May 1893, Vivekananda embarked from Cochin on the ship Peninsular, setting his face westward toward the vast unknown and leaving behind everything he had known. With letters of introduction and the blessings of those who had supported his vision, he sailed toward Colombo and beyond, carrying with him the spiritual fire of ancient India toward a new world that he would help awaken to the timeless truths of Vedanta."
+    ],
+    "image": "cochin.jpg"
+  },
+  {
+    "id": "puri",
+    "title": "Puri (Jagannath Temple)",
+    "description": [
+      "During his wandering years in 1888, Vivekananda visited Puri and encountered the sacred Jagannath Temple, one of Hinduism's four cardinal pilgrimage sites. He was profoundly moved by the all-embracing tradition of the Jagannath cult, which transcended the rigid boundaries of caste by serving prasad—sacred food—to all devotees regardless of their social status. This experience reinforced his vision of a universal Hinduism where diverse spiritual paths converged toward the same divine goal, a principle that would later animate his teaching of harmony among religions."
+    ],
+    "image": "puri.jpg"
+  },
+  {
+    "id": "bodh_gaya",
+    "title": "Bodh Gaya",
+    "description": [
+      "In 1901, during his final pilgrimage, Vivekananda journeyed to Bodh Gaya, the sacred site where Siddhartha Gautama achieved enlightenment beneath the Bodhi Tree. During his meditation in this hallowed place, he experienced a profound state of samadhi so intense that he felt he had become the Buddha himself. This mystical realization underscored his conviction that the deepest spiritual experiences transcended sectarian boundaries, and that the consciousness attained by all great saints was fundamentally one."
+    ],
+    "image": "bodh_gaya.jpg"
+  },
+  {
+    "id": "lahore",
+    "title": "Lahore",
+    "description": [
+      "In 1897, Vivekananda received a grand reception in Lahore from leaders of both the Arya Samaj and traditional Hindu organizations. During his brief stay, he delivered three major lectures addressing the common spiritual foundations of Hinduism, focusing particularly on the path of devotion. His message resonated powerfully with audiences of diverse backgrounds—Hindus, Muslims, Brahmo Samajists, and Arya Samajists alike—as he called upon his listeners to cultivate both spiritual depth and practical strength of character for the regeneration of their nation."
+    ],
+    "image": "lahore.jpg"
+  },
+  {
+    "id": "amritsar",
+    "title": "Amritsar",
+    "description": [
+      "Vivekananda arrived at Amritsar on 20 September 1897, where he was received with great honors at the station, though his stay was brief—only four or five hours at a private residence. Nevertheless, this visit to the sacred city and its Golden Temple offered him direct encounter with the Sikh tradition of universal community service and radical equality, principles that aligned closely with his own vision of spirituality wedded to social justice and the dignity of all human beings."
+    ],
+    "image": "amritsar.jpg"
+  },
+  {
+    "id": "rawalpindi",
+    "title": "Rawalpindi",
+    "description": [
+      "As part of his 1897 Punjab and Kashmir tour in response to invitations from those regions, Vivekananda passed through Rawalpindi, continuing his mission to awaken India to both spiritual consciousness and practical strength. Though details of his specific activities there are sparse, this journey formed part of his larger northern Indian campaign where he delivered lectures and engaged in spiritual discourse with people of all communities."
+    ],
+    "image": "rawalpindi.jpg"
+  },
+  {
+    "id": "kashmir",
+    "title": "Srinagar",
+    "description": [
+      "From late 1897 through 1898, Vivekananda retreated to the Vale of Kashmir for spiritual contemplation and meditation, profoundly affected by the region's extraordinary natural beauty. During this period of deep introspection, he experienced powerful visions and spiritual insights, including an appearance of the goddess Sharada who blessed his spiritual mission. This sojourn represented a crucial moment of inner consolidation where he renewed his spiritual resolve and clarified the spiritual work he had been called to undertake for his nation."
+    ],
+    "image": "kashmir.jpg"
+  },
+  {
+    "id": "dhaka",
+    "title": "Dhaka (East Bengal)",
+    "description": [
+      "On 30 and 31 March 1901, Vivekananda delivered two major lectures in English to vast audiences at open-air meetings in Dacca (Dhaka). Speaking on \"What have I learnt?\" and \"The Religion We Are Born In,\" he addressed the people of East Bengal with a message that integrated their ancient spiritual legacy with the demands of practical regeneration. Before enormous crowds, he urged them to awaken to their civilizational heritage while simultaneously building the strength and organizations necessary for their nation's advancement."
+    ],
+    "image": "dhaka.png"
+  },
+  {
+    "id": "colombo",
+    "title": "Colombo, Sri Lanka",
+    "description": [
+      "Colombo marked two pivotal moments in Vivekananda's trajectory: his initial departure point to the West in 1893, and most memorably, his triumphant return on 15 January 1897. On this homecoming, thousands of devotees crowded the docks in an overwhelming reception, greeting him as their spiritual champion returning victorious from his Western mission. The Hindu residents formally welcomed him as the first messenger to carry the Vedantic vision of the East back to the West, inaugurating his transformative lecture tour across Asia that would reshape Indian consciousness and Hindu self-understanding."
+    ],
+    "image": "colombo.png"
+  },
+  {
+    "id": "jaffna",
+    "title": "Jaffna, Sri Lanka",
+    "description": [
+      "During his 1897 return tour of Ceylon, Vivekananda travelled north to Jaffna, where the Hindu community extended a formal welcome recognizing his spiritual mission. He delivered powerful public lectures to large audiences, emphasizing the strength and enduring glory of Hindu tradition. In this predominantly Buddhist stronghold, Swamiji expounded on the universality of religion, arguing that whether worshipped as Shiva, Vishnu, Buddha, or by countless other names, the divine remained one and the same—a message calling not merely for tolerance but for genuine sympathy between followers of different faiths."
+    ],
+    "image": "jaffna.jpg"
+  },
+  {
+    "id": "kandy",
+    "title": "Kandy, Sri Lanka",
+    "description": [
+      "Vivekananda journeyed to Kandy, home of the sacred Temple of the Tooth Relic, where he reflected deeply on the complementary relationship between Buddhism and Hinduism. During his lectures in this spiritual center, he explored themes of universal religion and the common ground underlying Eastern traditions. His visits throughout Ceylon provided opportunities to engage with both Hindu and Buddhist communities, promoting understanding across religious boundaries."
+    ],
+    "image": "kandy.jpg"
+  },
+  {
+    "id": "trincomalee",
+    "title": "Trincomalee",
+    "description": [
+      "Vivekananda visited Trincomalee as part of his 1897 return tour through Ceylon, where he was warmly received by the local community. He delivered lectures during his stay, continuing his mission to inspire and strengthen spiritual consciousness among the Indian diaspora and their descendants scattered throughout the island."
+    ],
+    "image": "trincomalee.jpg"
+  },
+  {
+    "id": "penang",
+    "title": "Penang",
+    "description": [
+      "In June 1893, while en route to the Parliament of World's Religions in Chicago, Vivekananda stopped at Penang, a strip of land along the sea in the Malay Peninsula. Here he encountered a vibrant Indian diaspora and observed their temples, including the striking image of Buddha in a reclining posture entering Nirvana. His observations of the local Muslim Malay population and the port's historical associations with piracy gave him insight into the cosmopolitan character of British colonial outposts in Southeast Asia."
+    ],
+    "image": "penang.png"
+  },
+  {
+    "id": "singapore",
+    "title": "Singapore city",
+    "description": [
+      "Vivekananda passed through Singapore during June 1893 on his westward voyage to America, observing this bustling British colony as a cosmopolitan trading hub where Indians, Chinese, and Malays coexisted. The diverse population and commercial energy of this port city reflected the interconnected nature of Eastern societies under colonial administration."
+    ],
+    "image": "singapore.png"
+  },
+  {
+    "id": "hong_kong",
+    "title": "Hong Kong",
+    "description": [
+      "In July 1893, Vivekananda's ship called at Hong Kong, the British crown colony perched on China's coast. The port's energy, commerce, and strategic position impressed him as he reflected on the ancient civilisation of the East and the ways in which modern commerce was reshaping Asia's traditional societies."
+    ],
+    "image": "hong_kong.png"
+  },
+  {
+    "id": "nagasaki",
+    "title": "Nagasaki",
+    "description": [
+      "Nagasaki was Vivekananda's first port of call in Japan during July 1893 as he voyaged toward America. The city's order, cleanliness, and beauty deeply impressed him, setting the tone for his enthusiasm about Japan's achievements. His observations of Japan would later fuel his passionate correspondence with disciples in India, urging them to study how the Japanese had successfully modernized while preserving their cultural essence."
+    ],
+    "image": "nagasaki.jpg"
+  },
+  {
+    "id": "kobe",
+    "title": "Kobe",
+    "description": [
+      "Vivekananda explored Kobe during his July 1893 Japan stopover, marveling at this major port city's remarkable synthesis of ancient cultural traditions and modern progress. The picturesque landscape of pine-covered hills, the delicate architecture, and the distinctive dress and graceful movements of the Japanese people fascinated him as living examples of how an Eastern nation could embrace modernization without losing its spiritual and aesthetic character—a model he desperately wished India could emulate."
+    ],
+    "image": "kobe.jpg"
+  },
+  {
+    "id": "kyoto",
+    "title": "Kyoto",
+    "description": [
+      "In July 1893, Vivekananda journeyed to Kyoto, Japan's ancient imperial capital, where he explored the renowned Buddhist temples and Shinto shrines that had endured through centuries. The experience profoundly moved him as he witnessed how Japan's living spiritual tradition seamlessly coexisted with rapid modernization — a harmony he found both beautiful and instructive. The picturesque landscape, with its carefully cultivated gardens featuring stone bridges and artificial waters, embodied for him a culture that had mastered the art of preserving the sacred while embracing progress, a lesson he believed India desperately needed to learn."
+    ],
+    "image": "kyoto.jpg"
+  },
+  {
+    "id": "osaka",
+    "title": "Osaka",
+    "description": [
+      "Passing through Osaka in July 1893, Vivekananda observed Japan's thriving commercial capital with keen interest. The bustling energy and organized industry of the Japanese people captured his imagination, prompting reflections on how India might similarly harness its profound spiritual wealth for material advancement and national rejuvenation. Osaka represented for him a living example of a civilization that had achieved balance between material prosperity and cultural integrity."
+    ],
+    "image": "osaka.jpg"
+  },
+  {
+    "id": "yokohama",
+    "title": "Yokohama",
+    "description": [
+      "From Yokohama in July 1893, Vivekananda embarked across the Pacific Ocean toward Canada and Chicago, marking his final departure from the East. This port city served as his gateway to the Western world, where he carried with him the message of Hinduism to a continent he had never before set foot upon. His voyage from Yokohama represented the culmination of years of preparation and the beginning of his transformative mission to awaken the spiritual consciousness of the West."
+    ],
+    "image": "yokohama.jpg"
+  },
+  {
+    "id": "tokyo",
+    "title": "Tokyo",
+    "description": [
+      "During his July 1893 visit to Tokyo, Vivekananda observed firsthand Japan's remarkable transformation into a modern nation without sacrificing its cultural identity and spiritual heritage. The nation's rapid industrialization paired with the preservation of traditional customs — evident in the meticulous gardens and picturesque architecture adorning nearly every residence — fascinated him deeply. This synthesis of modernity and tradition became a powerful model in his mind for how India could similarly progress materially while maintaining its ancient spiritual foundations."
+    ],
+    "image": "tokyo.jpg"
+  },
+  {
+    "id": "vancouver",
+    "title": "Vancouver",
+    "description": [
+      "On 25 July 1893, Vivekananda first touched North American soil as his ship arrived at Vancouver, British Columbia. From this Pacific port, he boarded the transcontinental train eastward, witnessing the vast prairies and expansive landscapes of Canada and America for the first time. This journey across the continent marked his transition from the Old World to the New, carrying with him the spiritual message of the East toward his destined encounter with the Western world."
+    ],
+    "image": "vancouver.jpg"
+  },
+  {
+    "id": "chicago",
+    "title": "Chicago — Parliament of Religions",
+    "description": [
+      "On 11 September 1893, Vivekananda ascended the podium at the Parliament of World's Religions in Chicago and greeted the assembled delegates with words that would echo through history: 'Sisters and Brothers of America!' The audience, unprepared for such warmth and familiarity from an Indian monk, rose in spontaneous applause that lasted two minutes. Over the following weeks, his powerful addresses on Hinduism, Vedanta, and universal spirituality electrified the Western intelligentsia and established India's spiritual prestige on the global stage, transforming him from an unknown wanderer into an internationally celebrated prophet and seer whose very image was posted on Chicago streets."
+    ],
+    "image": "chicago.jpg"
+  },
+  {
+    "id": "new_york",
+    "title": "New York City",
+    "description": [
+      "Following his triumph in Chicago, Vivekananda established New York City as his American base from 1894 onwards, founding the Vedanta Society of New York in 1894 — one of the oldest Vedanta organizations in the Western world. Over two extended visits spanning 1894–1896 and 1899–1900, he delivered lectures that attracted prominent intellectuals, socialites, and spiritual seekers hungry for Eastern wisdom. His New York years were marked by intense teaching and writing, during which he laid the philosophical and organizational foundations for spreading Vedantic thought throughout America, becoming a beacon of Hindu spirituality in the heart of the Western metropolis."
+    ],
+    "image": "new_york.jpg"
+  },
+  {
+    "id": "boston",
+    "title": "Boston",
+    "description": [
+      "In Boston between 1893 and 1896, Vivekananda forged a crucial friendship with Harvard Professor John Henry Wright, a classicist of international renown. When Wright learned that the Swami lacked proper credentials for the Parliament of Religions, he famously declared: 'To ask for your credentials is like asking the sun to state its right to shine' — and promptly used his influence to secure Vivekananda's passage to Chicago. This encounter with Boston's intellectual elite demonstrated the profound respect Western scholarship could bestow upon authentic spiritual wisdom, and Wright's unwavering support proved instrumental in enabling Vivekananda's historic mission."
+    ],
+    "image": "boston.jpg"
+  },
+  {
+    "id": "thousand_islands",
+    "title": "Thousand Islands",
+    "description": [
+      "In June 1895, Vivekananda arrived at Thousand Island Park in New York seeking respite from his exhausting lecture schedule in the city. Beginning on June 19th, he commenced daily teachings with the small group of disciples present, though not all had yet assembled at the secluded retreat. During this two-month sojourn in the tranquil setting, he composed most of his seminal work *Raja Yoga* while conducting intimate spiritual instruction. A devoted student, Miss Dutcher, built a new wing onto her cottage as a sanctuary for the Master's residence, transforming the modest dwelling into a proper teaching space. The period represented a rare convergence of scholarly productivity and direct transmission, where Vivekananda's spiritual authority crystallized through both written wisdom and personal guidance."
+    ],
+    "image": "thousand_islands.jpg"
+  },
+  {
+    "id": "detroit",
+    "title": "Detroit",
+    "description": [
+      "In early 1894, Vivekananda lectured in Detroit as part of his crucial Midwestern tour, which began in November 1893 following his departure from Chicago. He stayed as the guest of Senator Palmer, a prominent political figure who provided both hospitality and social entrée to the city's intellectual circles. The monk's commanding presence and distinctive appearance—his broad forehead, intelligent eyes, and dignified bearing—made immediate impressions on those who encountered him. His lectures on Hinduism's universal principles resonated with American audiences eager to understand India's spiritual traditions, furthering his mission to dispel Western misconceptions about Indian culture while raising funds for his philanthropic vision in India."
+    ],
+    "image": "detroit.jpg"
+  },
+  {
+    "id": "minneapolis",
+    "title": "Minneapolis",
+    "description": [
+      "Vivekananda reached Minneapolis in late November 1893, shortly after departing Chicago for his expansive Midwestern lecture circuit. At the First Unitarian Church, he expounded upon Brahminism and its subtle spiritual attractions to an attentive audience, presenting ancient Hindu principles with eloquence and philosophical depth. His visit to Minneapolis formed part of the itinerary he outlined in his November 11th letter to Mrs. Tannatt Woods, where he announced his departure for Madison and Minneapolis. The city became one of several crucial Midwestern stops where Vivekananda introduced American intellectuals and spiritual seekers to the richness of Hindu philosophy during this formative period of his American ministry."
+    ],
+    "image": "minneapolis.jpg"
+  },
+  {
+    "id": "memphis",
+    "title": "Memphis",
+    "description": [
+      "In January 1894, Vivekananda ventured into the American Deep South, delivering lectures at the Memphis Auditorium to audiences described by local press as fair-sized and receptive. His address on Hinduism, introduced by Judge R. J., drew citizens curious about the celebrated Hindu monk whose eloquence had already garnered national attention. This Southern sojourn exposed Vivekananda to the profound racial divisions plaguing America, contrasts that would remain seared in his consciousness as manifestations of spiritual ignorance. His participation in the lecture circuit throughout the Midwest and South, lasting until April 1894, represented an ambitious effort to reach diverse American populations with his vision of universal religious truth."
+    ],
+    "image": "memphis.jpg"
+  },
+  {
+    "id": "washington_dc",
+    "title": "Washington D.C.",
+    "description": [
+      "Vivekananda visited Washington D.C. during his extensive American tours, addressing distinguished audiences of politicians and intellectuals in the nation's capital. He lectured on India's spiritual contributions to world civilization, seeking to elevate Western understanding of Hindu philosophy and Indian culture among America's most influential circles. His presence in the capital reflected the growing recognition of his stature as a philosophical ambassador, capable of engaging with the highest echelons of American society. Through his Washington appearances, he continued his mission to dismantle Western prejudices while simultaneously securing resources and support for his visionary religious and philanthropic endeavors in India."
+    ],
+    "image": "washington_dc.jpg"
+  },
+  {
+    "id": "san_francisco",
+    "title": "San Francisco",
+    "description": [
+      "During his 1900 visit to California, Vivekananda founded the Vedanta Society of San Francisco, establishing an enduring spiritual institution that would shape the American West's encounter with Hindu philosophy. He delivered extensive public lectures on the Gita and Vedanta philosophy at Red Men's Hall, Golden Gate Hall, and Union Square Hall, drawing audiences across the Bay Area. His teaching presence proved magnetic; students engaged in intimate exchanges with him, absorbing his distinctive pedagogy that emphasized self-realization and divine potential within each person. Though arriving relatively unknown outside ecclesiastical circles, he rapidly developed a devoted following whose members maintained Vedanta meetings in Los Angeles and Pasadena, spreading his influence throughout Southern California and securing the Western foundation for his movement."
+    ],
+    "image": "san_francisco.jpg"
+  },
+  {
+    "id": "los_angeles",
+    "title": "Los Angeles",
+    "description": [
+      "Vivekananda lectured extensively in Los Angeles during his 1900 California tour, captivating large audiences with addresses at the Shakespeare Club and other venues. His most popular lectures—\"Christ the Messenger\" and \"The Way to the Realisation of a Universal Religion\"—demonstrated his ability to synthesize Eastern and Western spiritual traditions for American audiences. He addressed audiences on \"The Epics of Ancient India,\" presenting Hindu civilization's grandeur and philosophical sophistication. Wealthy patrons and spiritually inclined Californians became his devoted students, facilitating the establishment of Vedanta meetings that would persist long after his departure."
+    ],
+    "image": "los_angeles.jpg"
+  },
+  {
+    "id": "pasadena",
+    "title": "Pasadena",
+    "description": [
+      "During his 1900 California visit, Vivekananda journeyed to the adjacent town of Pasadena, delivering lectures at the Universalist Church and the Shakespeare Club to audiences of considerable size and distinction. His addresses \"Christ the Messenger\" and \"The Way to the Realisation of a Universal Religion\" proved particularly popular with Pasadena's spiritually curious population. Miss Kate Sanborn and other wealthy California devotees became ardent supporters of his Vedanta work, providing both material assistance and social platform for his teachings. Pasadena thus became one of several Southern California centers where his influence took root during this pivotal period of American expansion for the Vedanta movement."
+    ],
+    "image": "pasadena.jpg"
+  },
+  {
+    "id": "camp_taylor",
+    "title": "Camp Taylor (Shanti Ashrama)",
+    "description": [
+      "In 1900, Vivekananda discovered his ideal refuge at Camp Taylor in California's San Antonio Valley, which he christened 'Shanti Ashrama'—the Abode of Peace. Situated fifty miles from the nearest railway station and twelve miles from any habitation except a distant post office, the retreat occupied virgin forestland on the eastern slope of Mount Hamilton in Santa Clara County, nestled in the uplands at considerable elevation. Here, surrounded by hills that reminded him of the Himalayas, Vivekananda lived simply and devoted himself to meditation and teaching, finding in this secluded sanctuary the tranquility he had long sought during his years of intensive work across America."
+    ],
+    "image": "camp_taylor.jpg"
+  },
+  {
+    "id": "london",
+    "title": "London",
+    "description": [
+      "Between 1895 and 1900, Vivekananda made two transformative visits to London, establishing Vedanta as a living force in English intellectual and spiritual circles. During his first visit in late 1895, he began teaching in London drawing rooms and lecture halls, attracting distinguished audiences and gifted disciples including the remarkable Margaret Noble, who became Sister Nivedita, and Josephine MacLeod. His second visit in 1899–1900 saw him continuing this work with renewed energy, delivering lectures and conducting classes with such intensity and clarity that Vedanta teachings became firmly rooted in England, influencing a generation of British seekers."
+    ],
+    "image": "london.jpg"
+  },
+  {
+    "id": "oxford",
+    "title": "Oxford",
+    "description": [
+      "During his London sojourn in 1896, Vivekananda was invited to Oxford University, where on May 28 he met the celebrated Orientalist Professor Friedrich Max Müller at his residence. This encounter between the living exponent of Vedanta and the German-born Sanskrit scholar who had devoted his life to translating the Vedas proved deeply moving for both men. Their conversations about Ramakrishna's teachings and Vedantic philosophy were carefully recorded, creating a memorable exchange between Eastern spiritual wisdom and Western scholarly erudition that enriched both perspectives."
+    ],
+    "image": "oxford.png"
+  },
+  {
+    "id": "paris",
+    "title": "Paris",
+    "description": [
+      "In August 1900, Vivekananda travelled to Paris to participate in the Congress of History of Religions, held in conjunction with the World's Fair. While there, he engaged with French intellectuals and scholars, including the notable writer Jules Bois, and spent time contemplating the treasures of the Louvre. His presence at this international gathering of religious scholars allowed him to present Vedantic philosophy to a cosmopolitan European audience and deepen his understanding of how Eastern and Western spiritual traditions could mutually enrich one another."
+    ],
+    "image": "paris.jpg"
+  },
+  {
+    "id": "cairo",
+    "title": "Cairo, Egypt",
+    "description": [
+      "Late in 1900, as Vivekananda journeyed homeward from the West, he paused in Cairo to explore the Pyramids, the Sphinx, and the ancient monuments surrounding the city. Standing before these sublime remnants of a great civilization, he reflected deeply on the parallels between Egyptian and Hindu spiritual traditions, and marvelled at how different ancient cultures had pursued their own paths toward understanding the divine—the Egyptians developing their own responses to the eternal questions that had always stirred the Hindu mind. Yet as fatigue overtook him during these travels, his thoughts increasingly turned toward India and home."
+    ],
+    "image": "cairo.jpg"
+  },
+  {
+    "id": "port_said",
+    "title": "Port Said",
+    "description": [
+      "In 1900, Vivekananda passed through Port Said at the entrance of the Suez Canal on his homeward journey, at the threshold between Europe and Asia. This symbolic crossing at the junction of two worlds mirrored the great arc of his own life's work—carrying the spiritual wealth of the East to the West, and returning enriched by the encounter, poised to rebuild his motherland with renewed vision and purpose."
+    ],
+    "image": "port_said.jpg"
+  },
+  {
+    "id": "alambazar_return",
+    "title": "Ramakrishna Mission Founded",
+    "description": [
+      "On 1 May 1897, Vivekananda convened a historic meeting at Alambazar Math in Calcutta where the Ramakrishna Mission was formally founded, crystallizing the spiritual vision that had been developing through his years of teaching and travel. The Mission was established with twin complementary aims: to disseminate Vedantic philosophy for the liberation of individual souls, and to serve suffering humanity as manifestations of God—embodying Ramakrishna's revolutionary teaching that 'Shiva dwells in the form of the poor.' This synthesis of spiritual wisdom and selfless service became the enduring expression of Vivekananda's life work.",
+      "On 1 May 1897, Vivekananda convened a meeting at Alambazar Math at which the Ramakrishna Mission was formally founded. Its twin aims: to spread Vedanta for individual liberation, and to serve humanity as manifestations of God — 'Shiva in the form of the poor.'"
+    ],
+    "image": "alambazar_return.png"
+  },
+  {
+    "id": "dakshineswar_return",
+    "title": "Dakshineswar — Return Pilgrimage",
+    "description": [
+      "Upon his return from the West in 1897, Vivekananda made a pilgrimage to Dakshineswar, the temple-garden along the Ganges where his guru Sri Ramakrishna had lived and where his own spiritual awakening had begun. In this sacred place, he reconnected with the source of his transformation—the spot where Ramakrishna's touch had opened his inner vision and changed the course of his life. This return journey was not merely nostalgic; it was a spiritual homecoming that grounded his vast work in the eternal foundation from which it had sprung."
+    ],
+    "image": "dakshineswar_return.jpg"
+  },
+  {
+    "id": "meerut_lecture",
+    "title": "Meerut",
+    "description": [
+      "During his 1897 lecture tour across Northern India, Vivekananda's disciple Akhandananda visited Meerut to receive medical treatment from Dr. Trailokya Nath Ghosh, remaining under his care for a month and a half. While the primary purpose was recuperation rather than public lecturing, the visit reflected the Swami's expanding network of supporters and medical professionals across Northern India who aided the mission's work during this period of intensive travel and teaching."
+    ],
+    "image": "meerut_lecture.jpg"
+  },
+  {
+    "id": "saharanpur_tour",
+    "title": "Saharanpur",
+    "description": [
+      "Vivekananda and his monastic companions passed through Saharanpur in 1897 during their Northern India tour, staying at the residence of Banku Behari Babu, a local pleader. Upon learning that fellow disciple Akhandananda was undergoing treatment in nearby Meerut, the Swami and his party immediately made their way there to reunite with him, demonstrating the close-knit bonds among the monastic brotherhood and their coordinated movements across the Gangetic plains."
+    ],
+    "image": "saharanpur_tour.jpg"
+  },
+  {
+    "id": "dehradun",
+    "title": "Dehra Dun",
+    "description": [
+      "In late November 1897, Vivekananda rested in Dehra Dun while coordinating the medical care of Akhandananda, who had developed bronchitis. The Swami personally arranged for Dr. Maclaren, the Civil Surgeon, to examine his ailing disciple and shifted his travel plans from Ganeshprayag to the plains to ensure proper treatment. This period revealed Vivekananda's deep pastoral concern for his brothers and his pragmatic approach to managing health crises during his rigorous mission work."
+    ],
+    "image": "dehradun.jpg"
+  },
+  {
+    "id": "vadodara_return",
+    "title": "Kathiawar",
+    "description": [
+      "Vivekananda returned to Gujarat during his 1897 all-India tour, reconnecting with patrons and establishing fresh contacts throughout Kathiawar. The magnetic force of his personality and profound spiritual teachings left lasting impressions on those who encountered him, while the missionary workers he dispatched to various cities throughout the region found receptive audiences eager to embrace Ramakrishna's gospel through the Swami's simplified and direct presentation of Vedantic truths."
+    ],
+    "image": "vadodara_return.jpg"
+  },
+  {
+    "id": "hyderabad_return",
+    "title": "Hyderabad — Mission Work",
+    "description": [
+      "During his mission-building tour of 1897, Vivekananda visited Hyderabad to strengthen the Ramakrishna Mission's presence and guide local leaders in applying Vedantic principles to social service. He passionately advocated for the education and uplift of the downtrodden masses, insisting that educated Indians had a sacred duty to combat priestcraft, social inequality, and national disorganization through practical spirituality rooted in social responsibility."
+    ],
+    "image": "hyderabad_return.png"
+  },
+  {
+    "id": "varanasi_final",
+    "title": "Varanasi — Last Pilgrimage",
+    "description": [
+      "In January 1902, months before his death, Vivekananda made his final sacred pilgrimage to Varanasi, the eternal city of Shiva and wisdom. Here he inaugurated the Advaita Ashrama and delivered profound discourses on Vedanta to devoted disciples gathered around him. Speaking of the Divine Mother and the imminent end of his earthly journey, he shared stories of great saints and sages he had encountered, his words carrying the weight of a life nearing its completion and a legacy approaching its full revelation."
+    ],
+    "image": "varanasi_final.png"
+  },
+  {
+    "id": "kashmir_final",
+    "title": "Kashmir — Final Himalayas",
+    "description": [
+      "In 1901, despite visibly deteriorating health, Vivekananda made his last journey to the Kashmir Valley, a region of profound spiritual beauty that had always drawn his meditative spirit. As his body weakened, he expressed readiness to leave the physical form, having completed his work and work-play on earth. This final sojourn in the beloved Himalayas represented a return to contemplation and peace, a conscious preparation for the great transition he sensed drawing near."
+    ],
+    "image": "kashmir_final.jpg"
+  },
+  {
+    "id": "belur_final",
+    "title": "Belur Math — Mahasamadhi",
+    "description": [
+      "On the evening of 4 July 1902, Swami Vivekananda entered his room at Belur Math for meditation, instructing his disciples not to disturb him. At 9:20 pm, at the age of thirty-nine, his head drooped as he consciously departed from his body in Mahasamadhi—a deliberate, yogic exit that fulfilled his own prophecy of not living to forty. His body was cremated on the banks of the Ganges near the Math, as the nation lost a towering spiritual giant whose brief life had ignited a renaissance of Hindu consciousness and established institutions that would carry his vision across generations.",
+      "On 4 July 1902, Swami Vivekananda attained Mahasamadhi (conscious exit from the body) at Belur Math at the age of 39. He had meditated in his room alone that evening, instructing disciples not to disturb him. At 9:20 pm, his head drooped — he had left his body. His passing fulfilled his own prediction that he would not live to forty. He was cremated on the banks of the Ganges at Belur Math."
+    ],
+    "image": "belur_final.jpg"
+  },
+  {
+    "id": "bodhgaya_final",
+    "title": "Bodh Gaya — Last Pilgrimage",
+    "description": [
+      "In 1901, Vivekananda made his final pilgrimage to Bodh Gaya, the sacred site of Buddha's enlightenment. Sitting in deep meditation beneath the ancient Bodhi Tree, he experienced a profound state of samadhi that dissolved the boundaries of individual consciousness. Emerging from this transcendent experience, he told a disciple that in that moment of union with the tree and the ground, he had become the Buddha himself. This experience crystallized his vision of the fundamental unity underlying all the world's great religious traditions, confirming his conviction that the deepest truths of spirituality transcend sectarian divisions."
+    ],
+    "image": "bodhgaya_final.jpg"
+  },
+  {
+    "id": "bosepara_lane",
+    "title": "16 Bosepara Lane",
+    "description": [
+      "The house at 16 Bosepara Lane in Simulia, Kolkata, became the formative home of young Narendranath Datta between 1877 and 1884, after the family relocated from their previous residence on Gourmohan Mukherjee Street. During these crucial teenage years, the future Swami Vivekananda grew intellectually and spiritually within its walls, absorbing influences that would shape his philosophical outlook and spiritual seeking. This modest Kolkata address witnessed the unfolding of a brilliant mind grappling with questions of faith, reason, and the nature of reality."
+    ],
+    "image": "bosepara_lane.jpg"
+  },
+  {
+    "id": "nilambur_house",
+    "title": "Nilambur Mukherjee Garden",
+    "description": [
+      "The garden house of Nilambur Mukherjee in Ramakrishnapur, Howrah, served as a spiritual refuge for Vivekananda and his brother monks during the early years of their monastic community following Sri Ramakrishna Paramahamsa's passing. In 1887, this tranquil setting became a monastery where the young disciples engaged in intensive spiritual practice and meditation, away from the distractions of urban life. The house represented a crucial period of consolidation and deepening of their monastic discipline under the guidance of their departed master's teachings."
+    ],
+    "image": "nilambur_house.jpg"
+  },
+  {
+    "id": "ramakrishnapur",
+    "title": "Ramakrishnapur, Howrah",
+    "description": [
+      "The riverside village of Ramakrishnapur in Howrah offered a serene sanctuary for the grieving disciples of Sri Ramakrishna during the uncertain years following their master's death in 1886. The gentle flow of the Ganges and the quiet natural surroundings created an ideal environment for the young monks to deepen their spiritual practice and process their profound loss. This period of retreat in the peaceful village allowed Vivekananda and his companions to consolidate their understanding of the master's teachings and define their future spiritual mission."
+    ],
+    "image": "ramakrishnapur.png"
+  },
+  {
+    "id": "rosebank_darjeeling",
+    "title": "Rose Bank, Darjeeling",
+    "description": [
+      "Vivekananda arrived at Rose Bank cottage in Darjeeling in 1897, seeking restoration of his physical health after the demanding rigors of his first tour through America and England. The cool, crisp mountain air of the Himalayas provided relief from his exhausted body, while the serene alpine setting offered space for reflection on his Western mission and its remarkable reception. During this mountain sojourn, he reconnected with brother monks and received an outpouring of letters from devoted followers in America and Europe, all urging his prompt return to continue the work he had begun in the West."
+    ],
+    "image": "rosebank_darjeeling.jpg"
+  },
+  {
+    "id": "chowk_bazar_darjeeling",
+    "title": "Chauk Bazaar, Darjeeling",
+    "description": [
+      "During his 1897 stay in Darjeeling, Vivekananda moved freely through the bustling bazaar areas, engaging with local residents and devotees who sought his presence and teachings. The cosmopolitan atmosphere of Darjeeling's marketplace provided a living laboratory for his observations about human nature and spiritual aspiration across different cultures and social stations. His wanderings through these busy commercial streets reflected his characteristic openness to people from all walks of life."
+    ],
+    "image": "chowk_bazar_darjeeling.jpg"
+  },
+  {
+    "id": "bhaita_darjeeling",
+    "title": "Bhaita (Vaita Village), Darjeeling",
+    "description": [
+      "The village of Bhaita in the Darjeeling hills offered Vivekananda an opportunity to observe and interact with the mountain people during his 1897 recuperative stay in the region. His time in this modest Himalayan settlement deepened his understanding of how ordinary people lived their spiritual lives and faced the challenges of existence in the remote foothills. These encounters reinforced his conviction that spirituality was not confined to monastic orders or the educated elite, but belonged to all humanity."
+    ],
+    "image": "bhaita_darjeeling.jpg"
+  },
+  {
+    "id": "barajaguli",
+    "title": "Barajaguli, Nadia",
+    "description": [
+      "Vivekananda's wanderings through Barajaguli in the Nadia district during 1889 took him to the birthplace of Sri Chaitanya Mahaprabhu, the great bhakti saint whose life and teachings embodied the path of devotional love to the Divine. The spiritual resonance of this sacred region, steeped in Chaitanya's revolutionary message of divine love for all beings, aligned perfectly with Vivekananda's own vision of practical spirituality rooted in service to humanity. His pilgrimage through these hallowed grounds reinforced the connection between India's mystical heritage and his mission to awaken the spiritual consciousness of the world."
+    ],
+    "image": "barajaguli.jpg"
+  },
+  {
+    "id": "kuppaghat",
+    "title": "Kuppaghat, Bhagalpur",
+    "description": [
+      "In 1888, during his years of wandering as a parivrajaka monk, Vivekananda found solace at Kuppaghat on the banks of the Ganga near Bhagalpur. He established himself in a small ashrama here, dedicating himself to deep meditation and spiritual practice. The riverside location provided the solitude and contemplative atmosphere he sought, allowing him to shed worldly attachments and deepen his inner realization during this formative period of his spiritual journey."
+    ],
+    "image": "kuppaghat.jpg"
+  },
+  {
+    "id": "bhagalpur",
+    "title": "Bhagalpur",
+    "description": [
+      "Bhagalpur held significance in Vivekananda's wandering years as an important stopping point along the Ganga. The ancient silk city's sacred ghats, where ascetics traditionally gathered, aligned with his quest for spiritual renewal. As he traveled through new places and encountered different communities, Vivekananda found that the solitude and village air delighted him, allowing him to free himself from old impressions and the burden of worldly concerns while pursuing his spiritual mission."
+    ],
+    "image": "bhagalpur.jpg"
+  },
+  {
+    "id": "dharamagarh_mayavati",
+    "title": "Dharamagarh Estate, Mayavati",
+    "description": [
+      "During his 1901 pilgrimage to the Himalayas, Vivekananda visited the Dharamagarh estate near Mayavati in the Almora district. This property was closely associated with the Sevier family, devoted Western disciples who had established the Advaita Ashrama under the Swami's spiritual guidance. The estate served as a base for his mountain retreat and work in spreading Vedantic teachings to both Eastern and Western seekers gathered in the Himalayan region."
+    ],
+    "image": "dharamagarh_mayavati.png"
+  },
+  {
+    "id": "sevier_bungalow",
+    "title": "Mrs. Sevier's Bungalow, Mayavati",
+    "description": [
+      "The bungalow of Captain and Mrs. Charlotte Sevier at the Advaita Ashrama in Mayavati became a cherished residence for Vivekananda during his Himalayan visits from 1898 to 1901. The Seviers, as devoted disciples, placed their home and resources at his service, providing him with hospitality and support for his spiritual work. In March 1899, Vivekananda sent written reflections on Vedantic philosophy to be incorporated into the Ashrama's prospectus, indicating his active engagement with the community from this location."
+    ],
+    "image": "sevier_bungalow.png"
+  },
+  {
+    "id": "captain_sevier_grave",
+    "title": "Captain Sevier's Samadhi, Mayavati",
+    "description": [
+      "Captain James Henry Sevier, one of Vivekananda's most devoted Western disciples, attained mahasamadhi at the Advaita Ashrama in Mayavati in 1900. His samadhi, a sacred memorial tomb erected within the Ashrama grounds, stands as a testament to the deep spiritual bond between the Swami and his Western followers. The site remains a sacred place within the ashrama, embodying the Swami's ideal of disciples dedicating their lives entirely to spiritual pursuits and service to humanity."
+    ],
+    "image": "captain_sevier_grave.png"
+  },
+  {
+    "id": "nivedita_almora",
+    "title": "Sister Nivedita's House, Almora",
+    "description": [
+      "Sister Nivedita, formerly Margaret Noble, stayed in Almora during Vivekananda's 1898 Himalayan tour, marking a transformative period in her spiritual initiation. Under the Swami's direct guidance, she experienced the grandeur of the mountains and immersed herself in Indian spiritual life. Her time in Almora as part of the Swami's traveling party of Western women disciples deepened her commitment to his vision of bringing Eastern wisdom to the West while serving India's spiritual renaissance."
+    ],
+    "image": "nivedita_almora.jpg"
+  },
+  {
+    "id": "lala_badri_shah_almora",
+    "title": "Lala Badri Shah's House, Almora",
+    "description": [
+      "Lala Badri Shah emerged as a devoted patron and supporter of Vivekananda during his multiple visits to Almora between 1898 and 1901. His home served as a regular haven for the Swami and his disciples, providing warm hospitality and tangible support for the spiritual work unfolding in the Himalayan region. Through his generous assistance, Lala Badri Shah became instrumental in sustaining the Swami's mountain retreat and helping establish the Advaita Ashrama as a center for Vedantic learning and practice."
+    ],
+    "image": "lala_badri_shah_almora.jpg"
+  },
+  {
+    "id": "vivekananda_cottage_almora",
+    "title": "Vivekananda's Cottage, Almora",
+    "description": [
+      "Vivekananda's cottage in Almora served as his primary mountain residence during his multiple visits from 1898 to 1901, becoming a vibrant center of spiritual discourse and philosophical inquiry. From this retreat, he received visitors, guided his Western and Indian disciples, and composed significant writings that would shape the dissemination of Vedantic thought. The cottage atmosphere reflected his desire to bring together seekers from diverse backgrounds, fostering deep spiritual conversations that embodied his vision of universal Vedanta."
+    ],
+    "image": "vivekananda_cottage_almora.jpg"
+  },
+  {
+    "id": "thompson_house_almora",
+    "title": "Thompson House, Almora",
+    "description": [
+      "In 1898, Vivekananda arrived in Almora with a diverse party that included Western women disciples such as Mrs. Ole Bull of Cambridge, Massachusetts, and members of the Anglo-Indian elite, along with his monastic brothers and Indian devotees. The Swami and his entourage became guests at Thompson House, which served as a gathering point within the growing international community that had formed around him during his Himalayan sojourns. This residence became one of several homes and cottages in the region where the Swami maintained his center of spiritual work, facilitating exchanges between his Eastern monastic tradition and Western seekers drawn to his teachings."
+    ],
+    "image": "thompson_house_almora.jpg"
+  },
+  {
+    "id": "kasar_devi_temple",
+    "title": "Kasar Devi Temple, Almora",
+    "description": [
+      "During his 1898 stay in Almora, Vivekananda visited the ancient Kasar Devi temple perched on a ridge above the town. The sacred site, with its reputation as a powerful spiritual location, attracted the Swami's contemplative practice, and he spent time in meditation at this elevated sanctuary. The temple's serene environment and its significance in the local spiritual landscape aligned with his quest for renewal during his Himalayan pilgrimage."
+    ],
+    "image": "kasar_devi_temple.jpg"
+  },
+  {
+    "id": "syahi_devi_temple",
+    "title": "Syahi Devi Temple, Almora",
+    "description": [
+      "The forested hilltop shrine of Syahi Devi near Almora was part of Vivekananda's spiritual itinerary during his 1898 Himalayan journey. As a traditional pilgrimage destination revered in the Kumaon region, the temple represented the living devotional traditions of the mountains that the Swami sought to understand and honor. His visits to such sacred sites reflected his reverence for all forms of worship and his desire to experience the spiritual heritage of the Himalayan foothills."
+    ],
+    "image": "syahi_devi_temple.jpg"
+  },
+  {
+    "id": "raghunath_temple_almora",
+    "title": "Sri Raghunath Temple, Almora",
+    "description": [
+      "While in Almora in 1898, Vivekananda visited the historic Sri Raghunath temple located in the town's bazaar area, continuing his lifelong veneration of Lord Rama and engagement with Vaishnava sacred spaces. The temple visit was characteristic of his spiritual practice during his wandering years, when he sought out places of worship across India to deepen his understanding of living Hindu traditions and to connect with devotees of all spiritual paths."
+    ],
+    "image": "raghunath_temple_almora.jpg"
+  },
+  {
+    "id": "dewaldhar_estate",
+    "title": "Dewaldhar Estate, Almora",
+    "description": [
+      "The scenic Dewaldhar estate in the Almora hills became a retreat for Vivekananda and his growing circle of Western disciples during his 1898 stay in the mountains. The property, associated with families like the Seviers who had embraced his teachings, offered a tranquil environment where the Swami could rest and engage in spiritual work away from the demands of his public activities. The estate exemplified how Western devotees were creating spaces of sanctuary in the Himalayan foothills to support his mission."
+    ],
+    "image": "dewaldhar_estate.jpg"
+  },
+  {
+    "id": "bhim_tal",
+    "title": "Bhim Tal",
+    "description": [
+      "During his final Himalayan journey around 1900, Vivekananda traveled through the Kumaon hills to the picturesque lake town of Bhimtal, where the serene waters and forested surroundings provided an ideal setting for meditation and contemplation. The journey through this region, with its almost tropical hill forests and natural beauty, offered the Swami moments of spiritual renewal as he moved between the mountains and the plains, reflecting on his life's work and teachings."
+    ],
+    "image": "bhim_tal.jpg"
+  },
+  {
+    "id": "tehri",
+    "title": "Tehri",
+    "description": [
+      "During his 1890 Himalayan pilgrimage, Vivekananda visited the princely state of Tehri Garhwal in the dramatic landscape of the Garhwal hills along the Bhagirathi river. His sojourn included meetings with local dignities and opportunities for meditation in this remote mountain kingdom, where he continued his practice of combining spiritual discipline with engagement in the world around him. The experience of Tehri added to his deepening knowledge of India's diverse regions and ruling classes."
+    ],
+    "image": "tehri.jpg"
+  },
+  {
+    "id": "roshanara_bagh",
+    "title": "Roshanara Bagh, Delhi",
+    "description": [
+      "In late 1897, during his return to Delhi following his triumphal tour of America and Europe, Vivekananda stayed in the city and used Roshanara Bagh, the historic Mughal-era garden, as a gathering place for meetings with devotees and seekers. The grand setting, steeped in Delhi's imperial history, provided an appropriate venue for the Swami to address his growing circle of followers and to continue organizing his spiritual and organizational work. His presence in Delhi marked his reentry into active work in India after his transformative years abroad."
+    ],
+    "image": "roshanara_bagh.jpg"
+  },
+  {
+    "id": "jodhpur",
+    "title": "Jodhpur",
+    "description": [
+      "During his wandering years across Rajputana in 1891, Vivekananda arrived in Jodhpur and gained the attention of the Maharaja, who was profoundly moved by the young monk's spiritual presence and intellect. When the Maharaja offered material assistance to Vivekananda, the swami initially hesitated, feeling it compromised his independence. The Maharaja's response—invoking the ancient Kshatriya duty to protect dharma—gave Vivekananda pause, and he recognized the deeper principle underlying the offer. The fortified Blue City with its imposing architecture and martial history left a lasting impression on the wandering ascetic as he traversed the princely states of Rajasthan."
+    ],
+    "image": "jodhpur.jpg"
+  },
+  {
+    "id": "wadhwan",
+    "title": "Wadhwan",
+    "description": [
+      "Vivekananda's journey through Saurashtra in 1891 brought him to Wadhwan, a small princely state where the local ruler extended traditional hospitality to the wandering monk. During his stay, Vivekananda engaged with the spiritual landscape of Gujarat, meeting with scholars and seekers who were drawn to his powerful teachings. The princely state served as another important waypoint in his extended pilgrimage through western India, where he encountered the diverse cultural and religious tapestry of the region."
+    ],
+    "image": "wadhwan.png"
+  },
+  {
+    "id": "limbdi",
+    "title": "Limbdi",
+    "description": [
+      "In Limbdi, a Saurashtra principality, Vivekananda experienced the warmth of royal patronage when the Thakore Saheb came to his aid during a moment of difficulty. When the swami found himself in financial straits, he entrusted a young devotee with a note explaining his predicament, and the Thakore Saheb personally responded to the request for assistance. This encounter exemplified the spiritual magnetism that drew Rajput rulers to support the wandering monk, and Limbdi's ruler later extended an earnest invitation for Vivekananda to settle there permanently—an offer the swami graciously declined, saying he could not rest while his work remained unfinished."
+    ],
+    "image": "limbdi.jpg"
+  },
+  {
+    "id": "bhavnagar",
+    "title": "Bhavnagar",
+    "description": [
+      "Vivekananda's visit to the coastal city of Bhavnagar during his 1891 Gujarat journey brought him into contact with the princely ruler and his court. The port city's proximity to Palitana and its position as a center of commerce and culture made it a significant stop along his wandering path. Following an incident that had tested his safety during solitary travels, the Prince of Bhavnagar counseled Vivekananda about the risks of his unguarded wanderings and provided recommendations to trustworthy contacts throughout the region, helping the swami navigate his journeys with greater circumspection."
+    ],
+    "image": "bhavnagar.jpg"
+  },
+  {
+    "id": "girnar",
+    "title": "Girnar",
+    "description": [
+      "Vivekananda's spiritual pilgrimage brought him to Girnar, the ancient sacred mountain near Junagadh that has drawn seekers of all faiths—Hindu, Jain, and Buddhist—for millennia. The swami climbed this storied peak with its clusters of temples and sanctuaries, where he meditated among the sacred sites that crowned the mountain. At Girnar, Vivekananda communed with the divine presence that generations of pilgrims had sought in this hallowed place, absorbing the spiritual atmosphere accumulated over centuries of worship and devotion."
+    ],
+    "image": "girnar.jpg"
+  },
+  {
+    "id": "bhuj",
+    "title": "Bhuj",
+    "description": [
+      "During his extensive wanderings through Gujarat in 1891, Vivekananda visited Bhuj, the principal city of the Kutch region, where the unique cultural landscape and arid terrain presented a distinct spiritual environment. The remote desert kingdom, isolated by the surrounding Rann, offered the wandering monk encounter with people whose lives were shaped by this stark and singular geography. His presence in this distant corner of India demonstrated the far reach of his spiritual mission even in the least accessible regions of the subcontinent."
+    ],
+    "image": "bhuj.jpg"
+  },
+  {
+    "id": "veraval",
+    "title": "Veraval",
+    "description": [
+      "Vivekananda's pilgrimage through Saurashtra in 1891 brought him to Veraval, the ancient port city that serves as the gateway to the sacred Somnath temple. This coastal settlement holds profound historical and spiritual significance as the site of the Somnath Jyotirlinga, which had been destroyed and rebuilt repeatedly through the centuries. The swami visited this place of immense religious power, connecting with the layers of faith and resilience embedded in this holy shrine on the Arabian Sea coast."
+    ],
+    "image": "veraval.jpg"
+  },
+  {
+    "id": "narayan_sarovar",
+    "title": "Narayan Sarovar",
+    "description": [
+      "Vivekananda ventured to the remote Narayan Sarovar during his wanderings through Kutch, seeking out one of Hinduism's five most sacred lakes. This isolated pilgrimage site near the westernmost tip of Kutch, far removed from the centers of population and power, drew the ascetic's spiritual magnetism. At this hallowed lake where countless devotees had performed their rituals and meditations, Vivekananda found himself in communion with the ancient sacred traditions that had preserved Hindu spirituality through the ages."
+    ],
+    "image": "narayan_sarovar.jpg"
+  },
+  {
+    "id": "mandvi",
+    "title": "Mandvi",
+    "description": [
+      "During his 1891 Gujarat tour, Vivekananda traveled to the historic port city of Mandvi in Kutch, where he reunited with his brother-disciple Akhanda­nanda, who had been following him since Delhi. The two monks remained together in this shipbuilding town for about a fortnight before Akhanda­nanda continued his own pilgrimage at Swamiji's earnest desire to pursue solitary wandering. This meeting in Mandvi marked an important moment in Vivekananda's extensive exploration of western India, as he sought both spiritual solitude and the company of fellow seekers."
+    ],
+    "image": "mandvi.jpg"
+  },
+  {
+    "id": "beyt_dwarka",
+    "title": "Beyt Dwarka",
+    "description": [
+      "Vivekananda's pilgrimage through Saurashtra in 1891 brought him to Beyt Dwarka, the sacred island off Gujarat's coast that tradition reveres as the actual historical residence of Lord Krishna. This visit to the island sanctuary allowed him to commune with one of Hinduism's most sacred sites and deepen his understanding of Krishna's divine legacy in the landscape itself."
+    ],
+    "image": "beyt_dwarka.jpg"
+  },
+  {
+    "id": "ashapuri",
+    "title": "Ashapuri",
+    "description": [
+      "During his 1891 wanderings through Saurashtra's Kathiawar region, Vivekananda passed through Ashapuri near Bhavnagar, traversing the ancient pilgrim circuit on foot. His travels through these small towns with their temples reflected his commitment to understanding India's sacred geography firsthand, though his solitary journeys sometimes required caution and careful judgment about his surroundings and companions."
+    ],
+    "image": "ashapuri.jpg"
+  },
+  {
+    "id": "palitana",
+    "title": "Palitana",
+    "description": [
+      "Vivekananda visited Palitana in 1891, standing before the magnificent cluster of over nine hundred temples crowning Shatrunjaya Hill, the foremost Jain pilgrimage destination. The sight of these marble sanctuaries carved into the sacred mountain and the profound Jain commitment to ahimsa left a deep impression on the wandering monk, who recognized in this tradition another expression of India's spiritual genius."
+    ],
+    "image": "palitana.jpg"
+  },
+  {
+    "id": "khandwa",
+    "title": "Khandwa",
+    "description": [
+      "During his parivrajaka years around 1890, Vivekananda journeyed through central India's Narmada valley region, passing through Khandwa in present-day Madhya Pradesh. His travels through these territories reflected his systematic exploration of India's interior, gathering knowledge of its people, traditions, and spiritual landscape during his formative years as a wandering renunciate."
+    ],
+    "image": "khandwa.jpg"
+  },
+  {
+    "id": "ujjain",
+    "title": "Ujjain",
+    "description": [
+      "Vivekananda visited Ujjain in 1890, one of Hinduism's seven sacred cities and home to the Mahakaleshwar Jyotirlinga. This ancient center of learning and spirituality held deep significance for him as he traced the sacred geography of India, understanding the living tradition of worship and pilgrimage that had sustained Hindu civilization through the centuries."
+    ],
+    "image": "ujjain.jpg"
+  },
+  {
+    "id": "maheshwar",
+    "title": "Maheshwar",
+    "description": [
+      "Vivekananda journeyed to Maheshwar on the Narmada in 1890, revering this historic riverside town associated with the great Queen Ahilyabai Holkar's spiritual legacy. The sacred ghats and temples along the Narmada provided him moments of contemplation and connection to the river's spiritual sanctity, which held profound meaning in Hindu tradition and in his own spiritual practice."
+    ],
+    "image": "maheshwar.jpg"
+  },
+  {
+    "id": "mahabaleshwar",
+    "title": "Mahabaleshwar",
+    "description": [
+      "During his Maharashtra travels in 1892, Vivekananda visited the hill station of Mahabaleshwar in the Sahyadri mountains, where the Krishna river originates at the ancient temple. This pilgrimage site's sacred significance as the birth-place of one of India's greatest rivers drew him to experience the divine landscape and the spiritual consciousness embedded in these mountains."
+    ],
+    "image": "mahabaleshwar.jpg"
+  },
+  {
+    "id": "kolhapur",
+    "title": "Kolhapur",
+    "description": [
+      "During his South India journey in 1892, Vivekananda arrived at Kolhapur, home to the sacred Mahalakshmi temple, one of Hinduism's most revered Shakti Peethas. The royal city extended warm hospitality to the wandering monk, and he engaged with eager audiences through discourses that resonated with both scholars and devotees. His visit to this important pilgrimage center reinforced his mission to awaken spiritual consciousness across India's sacred sites."
+    ],
+    "image": "kolhapur.jpg"
+  },
+  {
+    "id": "nagpur",
+    "title": "Nagpur",
+    "description": [
+      "Vivekananda passed through Nagpur during his parivrajaka years as he traversed the heart of central India, engaging with local scholars and spiritual seekers. The geographical center of the Indian subcontinent provided another opportunity for him to share his teachings with devotees encountered along his peripatetic journey through the heartland."
+    ],
+    "image": "nagpur.jpg"
+  },
+  {
+    "id": "thrissur",
+    "title": "Thrissur (Trichur)",
+    "description": [
+      "In 1892, Vivekananda arrived in Thrissur, Kerala's cultural capital renowned for its temples and Vedic traditions. He interacted with the region's scholars and spiritual leaders, experiencing firsthand the sophisticated intellectual and religious milieu that characterized this center of classical arts and learning in South India."
+    ],
+    "image": "thrissur.jpg"
+  },
+  {
+    "id": "kodungalloor",
+    "title": "Kodungalloor (Cranganore)",
+    "description": [
+      "Vivekananda visited Kodungalloor, the ancient port town of Cranganore with its remarkable layers of interfaith history as a center of early Jewish, Christian, and Muslim settlements. The sacred Bhagavati temple, among Kerala's most venerated shrines, provided a focal point for his engagement with the region's profound spiritual heritage during his South India pilgrimage."
+    ],
+    "image": "kodungalloor.jpg"
+  },
+  {
+    "id": "paramakudi",
+    "title": "Paramakudi",
+    "description": [
+      "Paramakudi served as the first major stopping point after Vivekananda departed Ramnad during his 1892 South India tour through the Pandya Nadu region. The town received him with a large public demonstration and ceremonial address of welcome, reflecting the deep admiration and spiritual hunger that greeted him throughout the Tamil heartland as he journeyed toward Kanyakumari."
+    ],
+    "image": "paramakudi.png"
+  },
+  {
+    "id": "manamadurai",
+    "title": "Manamadurai",
+    "description": [
+      "Manamadurai in Sivaganga district was one of numerous stops along Vivekananda's sacred route through Tamil Nadu's ancient temple towns. The region's spiritual landscape, anchored by its venerable Shiva temple, formed part of his pilgrimage toward the southern cape where he would meditate at the confluence of three seas."
+    ],
+    "image": "manamadurai.jpg"
+  },
+  {
+    "id": "kumbakonam",
+    "title": "Kumbakonam",
+    "description": [
+      "Vivekananda visited Kumbakonam, the legendary 'City of Temples' nestled in the fertile Cauvery delta, where the local Hindu community formally welcomed him with an address of respect. The town's dozens of ancient temples and the sacred Mahamaham tank provided rich spiritual ground for his teachings on the Vedanta mission and India's religious renewal during his 1892 South India tour."
+    ],
+    "image": "kumbakonam.jpg"
+  },
+  {
+    "id": "pondicherry",
+    "title": "Pondicherry",
+    "description": [
+      "In late 1892, after meditating at Kanyakumari, Vivekananda journeyed northward through the sacred landscape of Ramnad toward Pondicherry, the French colonial enclave on the Coromandel coast. This distinctive settlement, blending French and Tamil cultures, represented another waypoint in his transformative pilgrimage through South India before he would ultimately reach the scholarly centers of Madras and beyond."
+    ],
+    "image": "pondicherry.jpg"
+  },
+  {
+    "id": "chennai_rr_sabha",
+    "title": "R.R. Sabha, Madras",
+    "description": [
+      "In 1893, the R.R. Sabha in Triplicane served as a vital platform for Vivekananda to address Madras audiences during his final preparations for the Parliament of Religions. The venue hosted public lectures where enthusiastic supporters gathered not only to hear the young monk expound on Hindu philosophy but also to organize fundraising efforts for his momentous journey to America. These farewell meetings reflected the deep connection Vivekananda had forged with the Madras intelligentsia, who recognized the significance of his mission to represent Vedantic thought on the world stage."
+    ],
+    "image": "chennai_rr_sabha.jpg"
+  },
+  {
+    "id": "chennai_castle_kernan",
+    "title": "Castle Kernan, Madras",
+    "description": [
+      "Castle Kernan in Triplicane became a temporary sanctuary for Vivekananda during his final months in Madras before embarking for America in 1893. The residence hosted a steady stream of devoted admirers and supporters who came to seek his blessings and counsel as he prepared for his unprecedented voyage. From this base, Vivekananda coordinated his departure arrangements while continuing to inspire those around him with his vision of spiritual reformation for India."
+    ],
+    "image": "chennai_castle_kernan.jpg"
+  },
+  {
+    "id": "dharamshala",
+    "title": "Dharamshala (Dharmsala)",
+    "description": [
+      "During his 1897 northern India tour following his return from America, Vivekananda discovered solace in Dharamshala's cool mountain air and serene setting in the Kangra valley. Nestled beneath the Dhauladhar range, this hill station provided respite for the Swami and his traveling party, including his devoted disciples. The town became a gathering place where he met with local devotees and contemplated the spiritual needs of the nation he had returned to serve."
+    ],
+    "image": "dharamshala.jpg"
+  },
+  {
+    "id": "ambala",
+    "title": "Ambala",
+    "description": [
+      "Vivekananda passed through Ambala on August 19, 1897, as he traversed Punjab during his post-America tour of northern India. The railway junction served as a crucial transit point connecting Delhi to the Punjab region, and during his brief stay the Swami maintained his correspondence with followers across India, reflecting on the progress of his mission. It was in Ambala that his thoughts turned to the practical work of establishing institutions for spiritual education and social service."
+    ],
+    "image": "ambala.jpg"
+  },
+  {
+    "id": "pampore",
+    "title": "Pampore (Pampur)",
+    "description": [
+      "During his 1898 Kashmir journey, Vivekananda traveled through Pampore, the heart of Kashmir's renowned saffron-growing region south of Srinagar. The landscape of vast saffron fields and the valley's natural beauty provided moments of peaceful contemplation as he journeyed through the region as the guest of Mrs. Ole Bull. His passage through this picturesque town formed part of his extended Kashmir pilgrimage, where he sought both spiritual renewal and deeper understanding of India's sacred geography."
+    ],
+    "image": "pampore.jpg"
+  },
+  {
+    "id": "anantnag",
+    "title": "Anant Nag",
+    "description": [
+      "Vivekananda visited Anantnag, the ancient Islamabad of south Kashmir, during his 1898 pilgrimage through the valley. The town's proximity to sacred sites and its holy springs drew the Swami to this spiritually significant location, where local officials and seekers came to receive his teachings. After his time in Anantnag, he continued onward through Kashmir, integrating the experiences of these holy places into his vision of revitalized Hindu spirituality."
+    ],
+    "image": "anantnag.jpg"
+  },
+  {
+    "id": "baramulla",
+    "title": "Baramula",
+    "description": [
+      "Between June 20-22, 1898, Vivekananda and his party, including disciples such as Nivedita and Dhira Mata, traversed the route toward Baramulla, the ancient gateway to the Kashmir valley on the Jhelum river. This historic town with its temple ruins marked an important threshold in his Kashmir journey, serving as the entry point from which he would journey deeper into the valley's sacred landscape. His passage through Baramulla connected him to centuries of pilgrims who had traversed this same route in search of spiritual fulfillment."
+    ],
+    "image": "baramulla.jpg"
+  },
+  {
+    "id": "jammu",
+    "title": "Jammu",
+    "description": [
+      "Vivekananda arrived in Jammu, the City of Temples, as part of his comprehensive Kashmir and Punjab tour in 1898. The town served as his gateway to the valley, and his visit attracted considerable attention from local dignitaries and spiritual seekers. His time in Jammu, en route to deeper Kashmir, demonstrated the widespread appreciation his message had gained throughout northern India, with even palace officials and administrators seeking his counsel on matters both spiritual and worldly."
+    ],
+    "image": "jammu.jpg"
+  },
+  {
+    "id": "kheer_bhawani",
+    "title": "Kheer Bhawani temple (Kshir Bhavani)",
+    "description": [
+      "During his 1898 Kashmir pilgrimage, Vivekananda journeyed to the sacred spring temple of Kheer Bhawani on September 30th, departing from his camp at Achabal where he had spent a contemplative week in early September. This revered shrine of Goddess Ragnya Devi became one of the most spiritually significant stops of his valley sojourn, where he underwent a profound mystical experience that would remain among the most powerful encounters of his spiritual life."
+    ],
+    "image": "kheer_bhawani.jpg"
+  },
+  {
+    "id": "amarnath",
+    "title": "Amarnath cave temple",
+    "description": [
+      "In August 1898, Vivekananda undertook the demanding pilgrimage to the Amarnath Cave, one of the holiest sanctuaries of Lord Shiva nestled high in the Himalayan peaks. His ascent to the sacred ice Shiva Lingam at this altitude became a watershed moment in his spiritual journey, an encounter of such intensity that he would later describe it as one of the most transformative experiences of his entire life, deepening his understanding of Hindu mysticism and devotion."
+    ],
+    "image": "amarnath.jpg"
+  },
+  {
+    "id": "dal_lake",
+    "title": "Dal Lake (Dalh Lake)",
+    "description": [
+      "Vivekananda resided on a houseboat on the Dal Lake in Srinagar during his 1898 Kashmir sojourn, from where he dispensed spiritual teachings to his Western disciples including Nivedita, Josephine MacLeod, and Sara Bull. Anchored against the majestic backdrop of the Himalayas, he shared profound wisdom with his companions while appreciating the unparalleled beauty of the valley, which he considered the ideal landscape for yogic contemplation and spiritual practice."
+    ],
+    "image": "dal_lake.jpg"
+  },
+  {
+    "id": "ganderbal",
+    "title": "Ganderbal",
+    "description": [
+      "Before departing for Kheer Bhawani, Vivekananda moved his boat to Ganderbal on the Sindh river in central Kashmir, positioning himself near his disciples for a final few days together in the valley. This location on the route toward the sacred Kheer Bhawani temple marked a transition point in his pilgrimage itinerary, allowing him to remain close to his spiritual community before undertaking his next significant journey."
+    ],
+    "image": "ganderbal.jpg"
+  },
+  {
+    "id": "achabal",
+    "title": "Achabal",
+    "description": [
+      "In early September 1898, Vivekananda established camp for a week at Achabal, drawn by its magnificent Mughal gardens and natural spring. It was amid these terraced gardens that he gathered with his companions for sustained spiritual practice under definite direction, finding in the verdant landscape and flowing waters an ideal setting for meditative retreat before announcing his intention to undertake the pilgrimage to Amarnath."
+    ],
+    "image": "achabal.jpg"
+  },
+  {
+    "id": "guwahati",
+    "title": "Guwahati (Gauhati)",
+    "description": [
+      "During his 1901 tour of East Bengal, Vivekananda visited Guwahati and the renowned Kamakhya temple, one of the foremost Shakti Peethas of India perched on Nilachal Hill above the Brahmaputra river. Despite declining health from asthma and other ailments, he engaged compassionately with the local devotees, offering words of solace and spiritual wisdom that revealed his empathy even as his own physical suffering intensified."
+    ],
+    "image": "guwahati.jpg"
+  },
+  {
+    "id": "shillong",
+    "title": "Shillong",
+    "description": [
+      "Vivekananda arrived in Shillong, then Assam's capital and a picturesque hill station in the Khasi hills, during his 1901 eastern India tour, seeking respite in its pleasant climate. However, the elevation provided little relief for his deteriorating health, compounded by diabetes and severe asthma attacks that had plagued him since Dacca, yet he continued to offer his presence and teachings to the local community during this final chapter of his eastern travels."
+    ],
+    "image": "shillong.jpg"
+  },
+  {
+    "id": "margao",
+    "title": "Margao",
+    "description": [
+      "Vivekananda passed through Margao, the commercial heart of Portuguese-held Goa, during his wanderings through South India in 1892. This journey through the colonial territory exposed him to Goa's unique cultural synthesis, where centuries of Portuguese influence had created a distinctive blend of Indian and European civilizations distinct from the rest of the subcontinent."
+    ],
+    "image": "margao.jpg"
+  },
+  {
+    "id": "murree",
+    "title": "Murree",
+    "description": [
+      "During his 1897 North India tour, Vivekananda visited the hill station of Murree in early October, where he retreated to recover from the intense spiritual and physical exertion of his Kashmir campaign. By October 11th, the Swami had grown introspective about his tireless work of the previous ten days, recognizing signs of exhaustion and reflecting on his demanding nature toward his disciples. Though unwell, he demonstrated characteristic compassion by visiting Mr. Sevier and persuading him to accept reduced monetary support. From Murree, he departed for Srinagar via Baramulla, continuing his influential journey through the northern regions where his teachings had garnered widespread appreciation from both common devotees and royal patrons."
+    ],
+    "image": "murree.jpg"
+  },
+  {
+    "id": "sialkot",
+    "title": "Sialkot",
+    "description": [
+      "Vivekananda delivered his discourse on Bhakti at Sialkot during his 1897 Punjab tour, responding to invitations that drew him through this ancient Himalayan foothills region. His visit formed part of a broader northern campaign that took him through Punjab and Kashmir, where his religious teachings and social reformist ideas gained considerable traction among local audiences. Notably, during this tour the Swami primarily lectured in Hindi, bringing such vitality and philosophical depth to the language that the Maharaja of Kashmir himself requested written papers in that tongue—a testament to the unique power Vivekananda infused into his vernacular discourse."
+    ],
+    "image": "sialkot.jpg"
+  },
+  {
+    "id": "sitakund",
+    "title": "Sitakund",
+    "description": [
+      "Vivekananda visited Sitakund, the ancient pilgrimage site near Chittagong crowned by the Chandranath Hills temple, during his early wanderings through Bengal. The sacred geography of this hilltop sanctuary, with its perpetually burning holy fire and deep roots in Hindu spiritual tradition, represented the kind of venerable religious landscape that drew the young monk to explore India's sacred geography and understand the devotional pulse of his homeland."
+    ],
+    "image": "sitakund.jpg"
+  },
+  {
+    "id": "sandakphu",
+    "title": "Sandakphu",
+    "description": [
+      "During his early Himalayan wanderings in 1888, Vivekananda reached Sandakphu, the highest peak in West Bengal perched on the Nepal-India border. From this rarefied altitude, the young ascetic gazed upon four of the world's five tallest mountains, experiences that profoundly stirred his spiritual sensibilities and deepened his connection to the sublime grandeur of the Himalayas that would inspire him throughout his life."
+    ],
+    "image": "sandakphu.jpg"
+  },
+  {
+    "id": "heidelberg",
+    "title": "Heidelberg, Germany",
+    "description": [
+      "Vivekananda visited Heidelberg during his 1900 European sojourn, engaging with the intellectual and scholarly traditions of this renowned university city on the Neckar. The philosophical and scientific culture of Heidelberg provided the Swami with opportunities to dialogue with German Indologists and thinkers, furthering his mission to bridge Eastern and Western intellectual traditions during his transformative Western tour."
+    ],
+    "image": "heidelberg.jpg"
+  },
+  {
+    "id": "koblenz",
+    "title": "Koblenz (Coblenz), Germany",
+    "description": [
+      "Vivekananda passed through Koblenz at the confluence of the Rhine and Moselle during his 1900 European travels, experiencing the dramatic Rhine valley landscape that would mark a memorable segment of his German journey. The scenic beauty and historic significance of this strategic river city formed part of the aesthetic and cultural impressions that shaped his European experience."
+    ],
+    "image": "koblenz.jpg"
+  },
+  {
+    "id": "cologne",
+    "title": "Cologne (Köln)",
+    "description": [
+      "During his 1900 European tour, Vivekananda visited Cologne and marveled at the soaring Gothic cathedral, one of Christendom's greatest architectural achievements. The Swami attended a service within the sanctuary, profoundly moved by the religious devotion crystallized in the cathedral's magnificent stonework and sacred space—a testament to his deep appreciation for how spiritual conviction manifests in the artistic and architectural expressions of different cultures."
+    ],
+    "image": "cologne.jpg"
+  },
+  {
+    "id": "milan",
+    "title": "Milan, Italy",
+    "description": [
+      "Vivekananda's first experience in Italy came during his 1900 European tour when he visited Milan, where he was deeply impressed by Leonardo da Vinci's masterpiece 'The Last Supper.' The city's artistic treasures and spiritual resonance greatly appealed to the Swami, who found in Milan's cultural achievements a reflection of human genius devoted to religious expression. His engagement with these works demonstrated his capacity to appreciate the universal spiritual language embedded in Western art, even as his heart increasingly turned toward the call of his Indian motherland."
+    ],
+    "image": "milan.jpg"
+  },
+  {
+    "id": "florence",
+    "title": "Florence, Italy",
+    "description": [
+      "During his 1900 European tour, Vivekananda traveled through Italy and experienced Florence's extraordinary artistic heritage. The Renaissance city captivated him with its rich cultural and spiritual legacy, allowing him to draw profound parallels between Italian artistic achievement and Indian aesthetic spirituality. He recognized how beauty served as a vehicle for the divine across cultures, deepening his understanding of universal spiritual expression. While in Italy, he also visited Milan and Pisa, marveling at their architectural treasures, particularly the intricate marble work that adorned these ancient cities."
+    ],
+    "image": "florence.jpg"
+  },
+  {
+    "id": "rome",
+    "title": "Rome, Italy",
+    "description": [
+      "Vivekananda visited Rome during his 1900 European tour, where the Eternal City's ancient grandeur and religious significance profoundly moved him. The Christmas season in Rome filled the air with spiritual presence, and the Swami was deeply affected by the Christ-spirit pervading the city. He spent considerable time reflecting on the universal religious impulse evident in Rome's sacred sites, including the Vatican and St. Peter's Basilica, and spoke touchingly of parallels between the Christ-Child and the Indian divine figure of Krishna, recognizing the common spiritual yearning across civilizations."
+    ],
+    "image": "rome.jpg"
+  },
+  {
+    "id": "naples",
+    "title": "Naples, Italy",
+    "description": [
+      "Naples served as a crucial port of call during Vivekananda's 1900 European journey homeward to India. On December 16, the Swami and his companions departed London for the Continent, with arrangements made for Mr. Goodwin to meet them at Naples. From this major Mediterranean port, his path led toward Egypt and ultimately back to India, marking a significant transition point in his transformative European mission as he prepared to return home and establish his spiritual work on Indian soil."
+    ],
+    "image": "naples.jpg"
+  },
+  {
+    "id": "hotel_continental_paris",
+    "title": "Hotel continental",
+    "description": [
+      "The Hotel Continental on Rue de Rivoli served as Vivekananda's base during his influential 1900 Paris visit. Located near the Tuileries, this luxury establishment provided him with a central position from which to engage with Parisian intellectual and spiritual circles while attending the Congress of the History of Religions at the Paris World's Fair. The hotel became a gathering place for seekers and intellectuals drawn to his teachings on Vedanta and Indian philosophy."
+    ],
+    "image": "hotel_continental_paris.jpg"
+  },
+  {
+    "id": "american_cathedral_paris",
+    "title": "American Cathedral",
+    "description": [
+      "The American Cathedral on Avenue George V in Paris became one of Vivekananda's platforms for sharing Vedantic wisdom during his 1900 Paris visit. Speaking to audiences of American and European seekers gathered in this sacred space, the Swami articulated the universal principles of Indian philosophy to Western audiences. His presence at this venue reflected the bridge-building mission that defined his European sojourn, bringing Eastern spiritual teachings into the heart of Western religious institutions."
+    ],
+    "image": "american_cathedral_paris.jpg"
+  },
+  {
+    "id": "leggetts_house_paris",
+    "title": "Leggetts' house",
+    "description": [
+      "The Leggett family home in Paris became a center of Vivekananda's social and spiritual activity during his 1900 visit. Francis Leggett and his sister Alberta, devoted American disciples who had previously hosted the Swami in New York and London, welcomed him into their Paris residence as a continuation of their service. The household served as an intimate gathering place where the Swami discussed his spiritual vision and future work in India with close disciples and friends."
+    ],
+    "image": "leggetts_house_paris.jpg"
+  },
+  {
+    "id": "jules_bois_paris",
+    "title": "Jules Bois' home",
+    "description": [
+      "Jules Bois, a prominent French occultist and writer deeply interested in Eastern mysticism, hosted Vivekananda at his Paris home during the 1900 visit. Bois represented the intellectual and spiritual avant-garde of fin-de-siècle Paris, and his engagement with the Swami reflected the growing European fascination with Eastern wisdom. Through Bois' salon, Vivekananda connected with French occultists and seekers curious about the philosophical foundations of Indian spirituality."
+    ],
+    "image": "jules_bois_paris.jpg"
+  },
+  {
+    "id": "perros_guirec",
+    "title": "Perros-Guirec, Brittany",
+    "description": [
+      "Vivekananda spent the summer of 1900 recuperating at Perros-Guirec on the rugged Pink Granite Coast of Brittany, a seaside retreat arranged by his devoted disciples. Josephine MacLeod and other close companions accompanied him to this tranquil Breton setting, providing him respite during his intensive European mission. The coastal solitude of this picturesque location offered the Swami a period of rest and reflection between his demanding Paris activities and his subsequent travels to Vienna, Constantinople, and Athens before his unexpected return to India in December 1900."
+    ],
+    "image": "perros_guirec.jpg"
+  },
+  {
+    "id": "chamonix",
+    "title": "Chamonix",
+    "description": [
+      "During his 1900 European journey, Vivekananda traveled to Chamonix in the French Alps, some forty miles from Geneva where he had spent three days bathing and visiting the Castle of Chillon. The towering majesty of Mont Blanc and the spectacular Alpine landscape stirred his spirit deeply, evoking memories of the Himalayan peaks he had cherished throughout his life. Amidst the grandeur of these mountains, he found solace in meditation, allowing the sublime natural beauty to deepen his spiritual practice."
+    ],
+    "image": "chamonix.jpg"
+  },
+  {
+    "id": "normandy",
+    "title": "Normandy",
+    "description": [
+      "Normandy's scenic coastal landscape welcomed Vivekananda and his traveling companions during the summer of 1900, as they continued their journey through France. The rolling countryside and rugged coastline of this historic region provided a contemplative retreat, offering respite from the rigors of constant travel and teaching. The peaceful New England-like beauty of Normandy gave him space for reflection and rejuvenation."
+    ],
+    "image": "normandy.png"
+  },
+  {
+    "id": "annisquam",
+    "title": "Annisquam, Massachusetts",
+    "description": [
+      "In August 1894, Vivekananda arrived at Annisquam, the charming fishing village on Cape Ann, where he stayed as the guest of Mrs. Ole Bull and her circle of devoted disciples. Dressed in his characteristic orange robe and turban, he spoke at the village church, beginning his lecture by emphasizing the Hindu principle of respect for all religions. The New England seaside provided an ideal setting for informal spiritual discourse with sincere seekers who treasured his presence."
+    ],
+    "image": "annisquam.jpg"
+  },
+  {
+    "id": "salem_ma",
+    "title": "Salem, Massachusetts",
+    "description": [
+      "On August 28, 1894, Vivekananda arrived in Salem, the historic Massachusetts port city, where he addressed the Thought and Work club gathered at Wesley chapel on the subject of Indian religion and customs. Despite the warm afternoon weather, a considerable audience assembled to hear the Hindu monk speak on the spiritual traditions of his homeland. His visit left a lasting impression on the Salem community, with attendees remembering both his teachings and his gracious character."
+    ],
+    "image": "salem_ma.jpg"
+  },
+  {
+    "id": "swampscott_ma",
+    "title": "Swampscott, Massachusetts",
+    "description": [
+      "In July 1894, Vivekananda accepted the invitation to visit Swampscott on Massachusetts's North Shore, a fashionable seaside resort where many city dwellers retreated during the summer heat. Though he had declined invitations from wealthy patrons elsewhere, recognizing the superficiality of much high society, he found value in this quieter coastal retreat. The peaceful interlude at Swampscott offered him necessary rest between his intensive schedule of lectures and spiritual instruction."
+    ],
+    "image": "swampscott_ma.jpg"
+  },
+  {
+    "id": "lawrence_ma",
+    "title": "Lawrence, Massachusetts",
+    "description": [
+      "Lawrence, the industrial mill city on the Merrimack River, received Vivekananda's visit during his 1894 New England tour, where he brought the message of Vedanta to its working-class population. Though specific details of his lecture remain sparse, his presence in this working community reflected his commitment to reaching audiences beyond the wealthy intellectual circles of Boston. The mill workers and citizens encountered a spiritual teacher genuinely interested in their lives and spiritual aspirations."
+    ],
+    "image": "lawrence_ma.jpg"
+  },
+  {
+    "id": "melrose_ma",
+    "title": "Melrose, Massachusetts",
+    "description": [
+      "Melrose, the suburb north of Boston, was among the New England communities where Vivekananda lectured during his American tour, drawing an audience of local seekers at Rogers Hall. The Boston-area residents who gathered to hear him speak were drawn to his profound teachings on Eastern philosophy and spirituality. His visit contributed to the growing network of serious spiritual students developing in the region."
+    ],
+    "image": "melrose_ma.jpg"
+  },
+  {
+    "id": "magnolia_ma",
+    "title": "Magnolia, Massachusetts",
+    "description": [
+      "Magnolia, the picturesque summer resort village perched on Cape Ann, attracted Boston's intellectual and cultural elite, and Vivekananda's visit in 1894 drew the interest of this refined audience. The scenic beauty of the coastal community complemented his spiritual presence, creating an atmosphere conducive to meaningful discourse. His time in this fashionable haven allowed him to reach cultivated minds open to exploring Indian philosophy and the universal truths of Vedanta."
+    ],
+    "image": "magnolia_ma.jpg"
+  },
+  {
+    "id": "plymouth_ma",
+    "title": "Plymouth, Massachusetts",
+    "description": [
+      "During his New England tour in 1894, Vivekananda visited Plymouth, the historic landing place of the Pilgrim Fathers, where he lectured to audiences drawn to his presentations. He found in the Pilgrims' struggle for religious freedom a resonant parallel to India's ancient heritage of spiritual inquiry, drawing connections between Western and Eastern traditions of seeking truth without constraint."
+    ],
+    "image": "plymouth_ma.jpg"
+  },
+  {
+    "id": "medford_ma",
+    "title": "Medford, Massachusetts",
+    "description": [
+      "Vivekananda brought his message of Hindu philosophy and universal religion to the historic suburb of Medford north of Boston in 1894, speaking at the Grand Army Hall to audiences eager to encounter his vision of spirituality across all traditions."
+    ],
+    "image": "medford_ma.jpg"
+  },
+  {
+    "id": "groton_ma",
+    "title": "Groton, Massachusetts",
+    "description": [
+      "The small rural Massachusetts town of Groton received Vivekananda during his American lecture tour, where some of his American disciples had extended invitations for him to share his teachings through both public lectures and intimate spiritual discussions."
+    ],
+    "image": "groton_ma.jpg"
+  },
+  {
+    "id": "cincinnati",
+    "title": "Cincinnati, Ohio",
+    "description": [
+      "Cincinnati, the Queen City of the West, hosted Vivekananda during his 1894 Midwestern tour, where he addressed audiences at local halls on the philosophy of Vedanta and the spiritual heritage of India, contributing to his broader mission of bringing Eastern wisdom to American consciousness."
+    ],
+    "image": "cincinnati.jpg"
+  },
+  {
+    "id": "indianapolis",
+    "title": "Indianapolis, Indiana",
+    "description": [
+      "The Indiana state capital of Indianapolis welcomed Vivekananda during his 1894 Midwest tour, providing another platform for him to speak on philosophy and spirituality as he worked to correct Western misconceptions about India while gathering support for his philanthropic and religious endeavors at home."
+    ],
+    "image": "indianapolis.jpg"
+  },
+  {
+    "id": "iowa_city",
+    "title": "Iowa (Des Moines)",
+    "description": [
+      "Vivekananda lectured in Iowa during his notable 1894 Midwest tour, speaking at the Central Church in Des Moines on November 27 and scheduled to address the First Unitarian Church the following morning. His appearances drew considerable public attention, with newspaper coverage capturing the fascination his presence inspired among frontier audiences encountering this Indian monk's teachings on universal spirituality."
+    ],
+    "image": "iowa_city.jpg"
+  },
+  {
+    "id": "nashville",
+    "title": "Nashville, Tennessee",
+    "description": [
+      "Nashville, known as the Athens of the South, heard Vivekananda's message of universal religious unity during his 1894 Southern tour, where he spoke to audiences about the equality of all human beings before the Absolute despite the racial divisions that marked the post-Civil War South."
+    ],
+    "image": "nashville.jpg"
+  },
+  {
+    "id": "cambridge_ma",
+    "title": "Cambridge, Massachusetts",
+    "description": [
+      "Cambridge, home to Harvard University, became an important intellectual center for Vivekananda's American work, where he cultivated relationships with prominent Harvard scholars including William James and John Henry Wright. These connections proved instrumental in his path to the Parliament of Religions, as the professors' recommendations helped secure his place at this transformative event."
+    ],
+    "image": "cambridge_ma.jpg"
+  },
+  {
+    "id": "edinburgh",
+    "title": "Edinburgh",
+    "description": [
+      "During his transformative 1895 UK lecture tour, Vivekananda brought his message of Vedanta to Edinburgh, Scotland's intellectually vibrant capital. The city's reputation as the Athens of the North made it an ideal venue for his philosophical discourses, where educated audiences engaged with his teachings on Indian spirituality and Hindu philosophy. His presence in this bastion of Scottish learning marked an important moment in introducing Eastern thought to Western intellectual circles."
+    ],
+    "image": "edinburgh.jpg"
+  },
+  {
+    "id": "manchester",
+    "title": "Manchester",
+    "description": [
+      "Vivekananda carried his Vedanta message to Manchester during his 1895 tour of England, bringing the spiritual wisdom of India to this great industrial center of the North. His lectures in the mill city reached both working-class and middle-class audiences, translating Hindu philosophy into terms accessible to the practical British mind shaped by commerce and industry. This visit demonstrated his ability to communicate across class and cultural boundaries."
+    ],
+    "image": "manchester.jpg"
+  },
+  {
+    "id": "bristol",
+    "title": "Bristol",
+    "description": [
+      "The historic port city of Bristol, nestled on the River Avon with centuries of maritime trade behind it, welcomed Vivekananda during his first UK tour in 1895. He delivered lectures on Indian philosophy to the city's receptive audiences, continuing his systematic dissemination of Vedanta across the English provinces. Bristol's cosmopolitan character, shaped by its connections to world trade, provided fertile ground for his message of universal spirituality."
+    ],
+    "image": "bristol.jpg"
+  },
+  {
+    "id": "wimbledon",
+    "title": "Wimbledon, London",
+    "description": [
+      "Vivekananda arrived in London on July 31st, 1900, and spent his initial weeks in Wimbledon as the guest of devoted disciples. Though summer found many of his supporters absent from town, he conducted private classes and intimate meetings with those who remained, deepening their understanding of Vedanta before accepting invitations to travel onward. This quiet sojourn in the London suburb represented a brief respite in his ceaseless work of spiritual instruction."
+    ],
+    "image": "wimbledon.png"
+  },
+  {
+    "id": "mannar",
+    "title": "Mannar",
+    "description": [
+      "Mannar, the northwestern gateway to Sri Lanka, marked a symbolic threshold in Vivekananda's triumphant return from his Western missionary journey. As he traveled homeward from America through Ceylon toward India, this coastal outpost represented his transition from the West back to his native land, where he would be received as a hero who had successfully transplanted Hindu wisdom in foreign soil."
+    ],
+    "image": "mannar.png"
+  },
+  {
+    "id": "art_institute_chicago",
+    "title": "The Art Institute of Chicago",
+    "description": [
+      "On September 11, 1893, Vivekananda delivered his epochal address at the Parliament of the World's Religions held in the Hall of Columbus at the Art Institute of Chicago. Opening with the unforgettable words 'Sisters and Brothers of America,' he captivated an audience of seven thousand who rose in sustained applause at the conclusion of his speech. This single moment catapulted him to international prominence and established him as Hinduism's eloquent voice in the Western world."
+    ],
+    "image": "art_institute_chicago.jpg"
+  },
+  {
+    "id": "chicago_residence",
+    "title": "Vivekananda's Chicago Residence",
+    "description": [
+      "Following his success at the Parliament, Vivekananda established himself in Chicago residences where he conducted Vedanta classes and received seekers eager to learn Hindu philosophy. He remained in the city through November 1893 and into 1894, building relationships with key supporters like the Hale family and laying the groundwork for organized Vedanta instruction in America. His extended Chicago stay transformed the city into the cradle of American Vedantism."
+    ],
+    "image": "chicago_residence.jpg"
+  },
+  {
+    "id": "vedanta_society_ny",
+    "title": "Vedanta Society of New York-History",
+    "description": [
+      "In November 1894, Vivekananda founded the Vedanta Society of New York, establishing the first institutional expression of Vedanta in the Western world. Through regular classes and lectures at the Society, he systematically transmitted the core teachings of Advaita Vedanta to American students, creating an enduring organizational framework that would outlive his Western sojourn. This society became the model for Vedanta centers that would flourish across the continent."
+    ],
+    "image": "vedanta_society_ny.png"
+  },
+  {
+    "id": "thousand_islands_park",
+    "title": "Thousand Island Park",
+    "description": [
+      "In June 1895, Vivekananda arrived at Thousand Islands Park on the St. Lawrence River to conduct daily teachings with his disciples. Beginning on June 19th with just three or four students present, he immediately commenced his regular instruction, unwilling to delay his work even as more followers were still assembling at the retreat. A devoted student, Miss Dutcher, who owned the cottage, constructed an additional wing nearly as large as the original building as a love offering to her teacher. These intimate sessions, recorded by Miss S. E. Waldo, would later become the foundation of 'Inspired Talks,' capturing some of Vivekananda's most profound spiritual teachings delivered in the quiet sanctuary of this riverside sanctuary."
+    ],
+    "image": "thousand_islands_park.jpg"
+  },
+  {
+    "id": "shanti_ashrama",
+    "title": "Shanti Ashrama (Camp Taylor)",
+    "description": [
+      "During his second American tour in 1900, Vivekananda helped establish Shanti Ashrama (Camp Taylor) as a meditation and retreat center for the Vedanta Society on California's northern coast. Located near San Jose in the remote highlands of Santa Clara County at the edge of Mount Hamilton's eastern slope, the site offered the perfect sanctuary—surrounded by virgin forest and hills, isolated fifty miles from the nearest railway station. Though his public platform work was temporarily curtailed, Vivekananda delivered a series of talks on the Bhagavad Gita at San Francisco venues before withdrawing to this peaceful redwood forest refuge where he could focus on meditation and spiritual instruction away from the demands of constant lecturing."
+    ],
+    "image": "shanti_ashrama.jpg"
+  },
+  {
+    "id": "bareilly",
+    "title": "Bareilly",
+    "description": [
+      "In August 1898, during his journey through the Punjab and Kashmir regions, Vivekananda reached Bareilly in the Rohilkhand district near the Himalayan foothills. The distinguished residents of this plains city formed a reception committee that warmly welcomed him and his party, arranging accommodations at their club-house. This stop marked an important pause in his northward pilgrimage through the Gangetic plains as he responded to pressing invitations across northern India, continuing his mission to connect with seekers and communities throughout the subcontinent."
+    ],
+    "image": "bareilly.jpg"
+  },
+  {
+    "id": "belgaum_karnataka",
+    "title": "Belgaum (Belagavi)",
+    "description": [
+      "Belgaum, situated at the edge of the Deccan plateau in northern Karnataka, was a significant waypoint during Vivekananda's extensive South India journey in 1892. Positioned strategically between Maharashtra and Karnataka territories, the town represented an important crossing point as he traveled through the Indian peninsula, spreading his message of Vedantic philosophy and encountering the diverse spiritual traditions of the southern regions."
+    ],
+    "image": "belgaum_karnataka.jpg"
+  },
+  {
+    "id": "ernakulam",
+    "title": "Ernakulam (Kochi)",
+    "description": [
+      "Ernakulam, the mainland gateway to Kochi's famous backwaters, received Vivekananda during his 1892 Kerala journey. This historic port city exposed him to the unique spiritual and cultural heritage of India's southernmost state, where ancient Vedic traditions had been preserved alongside the cosmopolitan influences of centuries of maritime trade and exchange."
+    ],
+    "image": "ernakulam.jpg"
+  },
+  {
+    "id": "goa_panaji",
+    "title": "Panaji, Goa",
+    "description": [
+      "Vivekananda visited Panaji, the capital of the Portuguese colony of Goa, during his 1892 travels through western India. In this unique cultural landscape where Indian and Portuguese traditions had intermingled, he encountered the Basilica of Bom Jesus and observed the distinctive Goan synthesis of faiths and customs that reflected centuries of colonial and indigenous influences coexisting in the region."
+    ],
+    "image": "goa_panaji.jpg"
+  },
+  {
+    "id": "somnath",
+    "title": "Somnath Temple",
+    "description": [
+      "In 1891, during his Gujarat wanderings, Vivekananda journeyed to Somnath, the holiest of the twelve Jyotirlingas sacred to Lord Shiva. He visited the ancient temple at Prabhas, the newer shrine built by Rani Ahalyabai of Indore, and bathed at the confluence of three sacred rivers at this revered pilgrimage site. The temple's storied history—repeatedly destroyed and magnificently rebuilt across millennia—profoundly moved Vivekananda, who saw in Somnath a powerful symbol of India's spiritual resilience and the indomitable strength of Hindu civilization to endure and regenerate itself through countless trials."
+    ],
+    "image": "somnath.jpg"
+  },
+  {
+    "id": "puri_puri",
+    "title": "Puri — Jagannath Dham",
+    "description": [
+      "Puri's Jagannath Temple, one of Hinduism's four sacred dhams situated on the Bay of Bengal, captured Vivekananda's spiritual imagination during his 1889 pilgrimage. He was profoundly moved by the egalitarian spirit of Jagannath worship, which transcended the rigid caste distinctions that plagued contemporary Hindu society. This vision of a democratic sacred space where all devotees stood equal before the divine would later inspire his dream of building a universal temple in India itself—a sanctuary where every worshipper could commune with the divine through their own traditions, united by the ultimate truth symbolized by Om."
+    ],
+    "image": "puri_puri.jpg"
+  },
+  {
+    "id": "bhubaneswar",
+    "title": "Bhubaneswar",
+    "description": [
+      "During his wandering pilgrimage in 1889, Vivekananda journeyed to Bhubaneswar, the ancient temple city of Odisha where centuries of Hindu architectural tradition converged in sacred stone. The concentration of hundreds of temples spanning the entire historical arc of temple design deeply moved him, offering a living repository of India's spiritual and aesthetic heritage. The pilgrimage through these sacred shrines reinforced his vision of a unified Hindu civilization expressed through devotional architecture."
+    ],
+    "image": "bhubaneswar.jpg"
+  },
+  {
+    "id": "visakhapatnam",
+    "title": "Visakhapatnam",
+    "description": [
+      "In 1892, Vivekananda traveled to Visakhapatnam during his extensive journey through South India, following the eastern coastline where he engaged with local devotees and scholars. The coastal city served as an important stop in his pilgrimage, where he continued his mission of reconnecting with India's spiritual traditions and awakening national consciousness through personal encounters and discourse."
+    ],
+    "image": "visakhapatnam.jpg"
+  },
+  {
+    "id": "tirupati",
+    "title": "Tirupati",
+    "description": [
+      "Vivekananda visited the sacred hills of Tirupati in 1892, paying homage at the Tirumala Venkateswara Temple, one of Hinduism's most revered Vaishnava shrines and the world's most visited pilgrimage destination. The ancient temple, steeped in centuries of devotional practice, represented the living continuity of South Indian religious life that he sought to understand and celebrate during his pilgrimage across the region."
+    ],
+    "image": "tirupati.jpg"
+  },
+  {
+    "id": "madurai_meenakshi",
+    "title": "Madurai — Meenakshi Amman",
+    "description": [
+      "During his 1892 South India pilgrimage, Vivekananda reached Madurai and stood before the magnificent Meenakshi Amman temple, whose towering gopurams and intricate Dravidian architecture exemplified the pinnacle of South Indian sacred art. He was received with honors by local Zemindars and citizens, and even engaged in Tamil conversation with the Brahman cook of his host, immersing himself in the spiritual and cultural life of this ancient temple city that symbolized the enduring power of Hindu civilization."
+    ],
+    "image": "madurai_meenakshi.jpg"
+  },
+  {
+    "id": "kamakura",
+    "title": "Kamakura",
+    "description": [
+      "In 1893, while traveling through Japan en route to the Parliament of Religions in Chicago, Vivekananda visited Kamakura and encountered the great bronze Buddha statue at Kotoku-in. The monumental figure, cast in meditation and radiating universal spiritual aspiration, resonated deeply with him as a symbol transcending national and religious boundaries—a testimony to the shared quest for enlightenment that united all human spiritual traditions."
+    ],
+    "image": "kamakura.jpg"
+  },
+  {
+    "id": "ram_bagh_meerut",
+    "title": "259, Ram Bagh, Meerut",
+    "description": [
+      "During 1890–1891, Vivekananda and several brother-disciples established themselves at 259, Ram Bagh in Meerut, creating a second Baranagar Math in the garden house of a sympathetic patron. This period of collective monastic life during his wandering years provided a brief sanctuary where the young monks could practice together while their leader recovered from illness, forming a significant chapter in the consolidation of monastic brotherhood before their renewed dispersal into the world."
+    ],
+    "image": "ram_bagh_meerut.jpg"
+  },
+  {
+    "id": "captain_sevier_bungalow",
+    "title": "Captain Sevier's Bungalow, Mayavati",
+    "description": [
+      "At the Advaita Ashrama in Mayavati between 1898 and 1900, Captain James Henry Sevier, one of Vivekananda's most devoted Western disciples, labored with extraordinary dedication to establish this mountain monastery at 6,500 feet in the Himalayas. Sevier's tireless work clearing the tea-estate grounds and developing the ashrama took a terrible toll on his health; he died in October 1900 and was cremated by the Sarada River according to Hindu rites, becoming a symbol of Western discipleship rendered in ultimate sacrifice to the Guru's vision."
+    ],
+    "image": "captain_sevier_bungalow.png"
+  },
+  {
+    "id": "swarupananda_point",
+    "title": "Swami Swarupananda Point, Mayavati",
+    "description": [
+      "A scenic overlook at 6,500 feet within the Mayavati estate honors Swami Swarupananda, Vivekananda's direct monastic disciple and the first president of the Advaita Ashrama. Swarupananda played a crucial role in scouting and establishing the ashrama in 1898, serving as its leader until his death in 1906, and the viewpoint—commanding sweeping vistas of the snow-capped Himalayan range—stands as a memorial to his devotion and the ashrama's enduring spiritual mission in the mountains."
+    ],
+    "image": "swarupananda_point.png"
+  },
+  {
+    "id": "captain_sevier_point",
+    "title": "Captain Sevier's Point, Mayavati",
+    "description": [
+      "During his stays at Mayavati between 1898 and 1900, Vivekananda witnessed the spiritual flowering of the Advaita Ashrama that Captain James Henry Sevier and his wife Charlotte had established at his inspiration. Captain Sevier's Point, named in the memory of this devoted co-founder, became a cherished vantage within the Mayavati estate, offering sweeping vistas of the snow-crowned Himalayan range that Sevier himself held dear. From the highest reaches of Dharmagarh within the ashrama's boundaries, the panoramic snowpeaks could be glimpsed in their full grandeur, a landscape that embodied the spiritual elevation Vivekananda sought to cultivate in this Himalayan sanctuary."
+    ],
+    "image": "captain_sevier_point.png"
+  },
+  {
+    "id": "nainital",
+    "title": "Naini Tal",
+    "description": [
+      "Vivekananda first arrived at Nainital on 29 August 1890 with his brother-monk Swami Akhandananda, beginning an extraordinary walking pilgrimage through the high Himalayas that would carry them through Almora, Kakrighat, Rudraprayag, Srinagar and Tehri. Nearly eight years later, in May 1898, he returned to Nainital with a very different party—a group of Western disciples including the devoted Sister Nivedita—en route to Almora and the newly established Advaita Ashrama at Mayavati. The town held special joy for him during this second visit, graced by his pleasure in reuniting his disciples with the Raja of Khetri and in introducing them to the beauty of the Himalayan landscape that had so transformed him during his earlier wanderings."
+    ],
+    "image": "nainital.jpg"
+  },
+  {
+    "id": "kakrighat",
+    "title": "Kakrighat",
+    "description": [
+      "On the banks of the Kosi river between Nainital and Almora, Vivekananda sat in meditation beneath a Peepal tree at Kakrighat in 1890 and experienced a shattering realization—that the entire cosmos dwelled within every living being, that the macrocosm and microcosm were one. This profound spiritual breakthrough, born from his intense absorption by the river's flowing waters and the forest's sacred silence, would later crystallize into some of his most celebrated philosophical teachings on the unity underlying all existence. The experience left him compelled to record fragments of his realization in Bengali, capturing insights that would illuminate his lectures for years to come."
+    ],
+    "image": "kakrighat.jpg"
+  },
+  {
+    "id": "garhwal",
+    "title": "Garhwal",
+    "description": [
+      "During his 1890 parivrajaka journey through the Garhwal Himalayas, Vivekananda traversed sacred river confluences and mountain towns with his brother-monk Swami Akhandananda, sustained only by madhukari—food begged door-to-door according to monastic discipline. Weeks spent amid the forested slopes and soaring peaks of this ancient spiritual land, devoted entirely to prayer, austerity and deep meditation, allowed him to absorb the accumulated spiritual power of Garhwal's countless pilgrims and saints. The region's grandeur, from the temple towns to the high passes, reinforced his conviction that the Himalayas themselves were a living scripture, teaching the aspirant soul through silence and stone."
+    ],
+    "image": "garhwal.jpg"
+  },
+  {
+    "id": "karnaprayag",
+    "title": "Karna Prayag",
+    "description": [
+      "At Karnaprayag, where the sacred Alaknanda and Pindar rivers merge, Vivekananda remained for eighteen days in 1890 with brother-monks Swami Turiyananda and Swami Akhandananda, making it one of the longest halts of his entire Himalayan wandering. The serene confluence and surrounding Garhwal peaks created the perfect crucible for intense spiritual practice and austerities, drawing the monks deeper into states of profound meditation and scriptural absorption. The confluence itself—symbolizing the meeting of individual souls with infinite consciousness—became a living temple for their inner work."
+    ],
+    "image": "karnaprayag.jpg"
+  },
+  {
+    "id": "rudraprayag",
+    "title": "Rudra prayag",
+    "description": [
+      "During his 1890 pilgrimage through the Garhwal mountains, Vivekananda paused at Rudraprayag, the confluence of the Alaknanda and Mandakini rivers, accompanied by Swami Akhandananda and Swami Saradananda. Here, at this sacred junction where two great rivers embraced, the monks devoted themselves to meditation and scriptural study, finding in the waters and peaks around them eloquent expressions of the unity he sought to comprehend. The Panch Prayags of Garhwal held profound spiritual significance for Vivekananda—each confluence a living symbol of how all apparent divisions in creation ultimately merge into one undivided whole."
+    ],
+    "image": "rudraprayag.jpg"
+  },
+  {
+    "id": "srinagar_garhwal",
+    "title": "Srinagar, Uttarkand",
+    "description": [
+      "In 1890, Vivekananda spent several days at Srinagar in Pauri Garhwal with Swami Akhandananda and Swami Saradananda, settled by the Alaknanda river among the forested hills. Here, sustained only by madhukari, the monks engaged in intensive prayer and scriptural study, absorbing the spiritual atmosphere that had drawn countless pilgrims to this ancient town. The solitude and sacred quietness of Srinagar's Garhwal setting provided exactly the environment Vivekananda needed during his years of wandering asceticism, where external simplicity could deepen internal spiritual realization."
+    ],
+    "image": "srinagar_garhwal.jpg"
+  },
+  {
+    "id": "oakley_house_almora",
+    "title": "Sister Nivedita cottage (Oakley House)",
+    "description": [
+      "During the May 1898 Himalayan visit, Oakley House in Almora served as the residence for Vivekananda's Western disciples—Sara Bull, Josephine MacLeod, Sister Nivedita and Mrs. Patterson—while Vivekananda himself lodged nearby at Lala Badri Shah's house and visited each morning for breakfast. It was beneath a tree at Oakley House that Vivekananda granted Sister Nivedita a transformative blessing, helping her overcome the distraction and restlessness that had plagued her meditation practice. Under his direct guidance at this modest cottage, Nivedita truly learned the art of meditation for the first time, her mind settling into depths of peace she had never before experienced, marking a turning point in her spiritual life as a renunciate disciple."
+    ],
+    "image": "oakley_house_almora.jpg"
+  },
+  {
+    "id": "karbala_stone_almora",
+    "title": "Karbala stone",
+    "description": [
+      "In 1890, during his arduous pilgrimage to the Himalayas, Vivekananda collapsed from exhaustion on the Bhowali–Almora road after walking from Kathgodam. A Muslim fakir named Zulfikar Ali discovered him and revived him with cucumber and water, an act of selfless compassion that profoundly moved the young monk. This encounter exemplified the universal brotherhood and interfaith harmony that would become central to Vivekananda's spiritual philosophy. The memorial stone marking this spot remains a place of pilgrimage, reminding devotees of the transformative power of human kindness transcending all religious boundaries."
+    ],
+    "image": "karbala_stone_almora.jpg"
+  },
+  {
+    "id": "vivekananda_rest_hall_almora",
+    "title": "Swami Vivekananda memorial rest hall",
+    "description": [
+      "The Swami Vivekananda Memorial Rest Hall in Almora commemorates his transformative sojourns in the Kumaon hills. After his triumphant return from the West in 1897, Vivekananda made Almora a regular destination for his Himalayan retreats and lecture tours. He returned in 1898 accompanied by Sister Nivedita and Western disciples, deepening his engagement with the spiritual landscape of the mountains. The hall now serves as a gathering space for devotees, preserving the memory of these crucial periods when Vivekananda integrated his global vision with India's ancient spiritual heritage."
+    ],
+    "image": "vivekananda_rest_hall_almora.jpg"
+  },
+  {
+    "id": "govt_inter_college_almora",
+    "title": "Government Inter College",
+    "description": [
+      "On 27 July 1897, Vivekananda delivered a landmark public lecture at Government Inter College addressing the subject of Vedic teaching in theory and practice—a historic moment as his first address to an Indian audience in Hindi. The lecture demonstrated his commitment to communicating Vedantic wisdom in India's own linguistic idiom, marking a pivotal point in his post-Western mission. The college later honored this momentous occasion by unveiling a statue and commemorative photograph of Vivekananda, and proposed naming its principal hall the Swami Vivekananda Sabhagaar in perpetual recognition of his visit."
+    ],
+    "image": "govt_inter_college_almora.jpg"
+  },
+  {
+    "id": "raghunath_mandir_almora",
+    "title": "Sri Raghunath mandir",
+    "description": [
+      "The ancient Sri Raghunath Mandir, one of Almora's most sacred Vaishnava shrines dedicated to Lord Rama, welcomed Vivekananda during his wandering years in 1890 and again in 1897 when he returned as a celebrated spiritual leader. Nestled in the Kumaon hills, the temple embodied the living spirituality woven through India's sacred landscape that Vivekananda sought to revitalize. His visits to this venerable shrine reflected his deep reverence for India's devotional traditions and their enduring role in the nation's spiritual continuity."
+    ],
+    "image": "raghunath_mandir_almora.jpg"
+  },
+  {
+    "id": "nadiad",
+    "title": "Nadiad",
+    "description": [
+      "During his extensive pilgrimage through western India in 1892, Vivekananda passed through Nadiad, a historic town in the Kheda district of Gujarat. Traveling incognito as a simple wandering monk, he moved through the region absorbing the rich religious and cultural atmosphere of Gujarat, encountering the lived spirituality of ordinary people. These journeys through towns like Nadiad provided him intimate glimpses into the faith and aspirations of common Indians before he continued onward through Porbandar and Kathiawar."
+    ],
+    "image": "nadiad.jpg"
+  },
+  {
+    "id": "central_provinces_forest",
+    "title": "Central Provinces - Forest",
+    "description": [
+      "Between 1888 and 1893, Vivekananda wandered through the dense forests of the Central Provinces, regions that would later comprise parts of Madhya Pradesh and Chhattisgarh. These forest sojourns offered him profound solitude for deep meditation and spiritual contemplation away from the distractions of settled life. Living as a penniless itinerant monk dependent entirely on alms, he gained firsthand understanding of the widespread poverty afflicting India's masses while simultaneously accessing the transcendent peace these natural sanctuaries afforded, shaping his vision of spirituality rooted in India's material reality."
+    ],
+    "image": "central_provinces_forest.png"
+  },
+  {
+    "id": "manmathanath_house",
+    "title": "Manmathanath Bhattacharya's House",
+    "description": [
+      "When Vivekananda arrived in Madras in late 1892, he found shelter at the residence of Manmathanath Bhattacharya, a Bengali civil servant residing in Triplicane. At this house, Vivekananda encountered the brilliant young men who would become his most devoted Madras disciples—Alasinga Perumal, G.G. Narasimhacharyar, and others—who were immediately captivated by his intellectual prowess and spiritual magnetism. These early meetings proved transformative, as his new disciples recognized in him a messenger of ancient wisdom suited for the modern age and persistently encouraged him to carry his message to the West."
+    ],
+    "image": "manmathanath_house.jpg"
+  },
+  {
+    "id": "ramakrishnananda_cottage",
+    "title": "Swami Ramakrishnananda's Cottage",
+    "description": [
+      "Swami Ramakrishnananda, one of Sri Ramakrishna's direct disciples, was entrusted by Vivekananda to establish the Vedantic mission in South India and operated the early Madras Math from a modest cottage in Triplicane. When Vivekananda returned triumphantly from America in 1897, he visited this humble center, which had already begun flowering as a nucleus of spiritual activity. This cottage marked the beginning of what would eventually grow into the Ramakrishna Math, Chennai, anchoring Vivekananda's organizational vision for bringing Vedantic wisdom to South India's seekers."
+    ],
+    "image": "ramakrishnananda_cottage.jpg"
+  },
+  {
+    "id": "narasimhacharyar_house",
+    "title": "G.G. Narasimhacharyar's House",
+    "description": [
+      "During his transformative 1892-93 stay in Madras, Swami Vivekananda found in G.G. Narasimhacharyar a devoted young scholar whose home became one of several gathering places for intimate philosophical discourse. Within these walls, Vivekananda expounded on the depths of Vedanta and India's spiritual heritage to circles of earnest seekers. Narasimhacharyar proved instrumental in the practical work of his mission, joining the network of supporters who laboured to secure funds and letters of introduction that would facilitate the swami's momentous voyage to America and the Parliament of Religions."
+    ],
+    "image": "narasimhacharyar_house.jpg"
+  },
+  {
+    "id": "harmston_circus_pavilion",
+    "title": "Harmston Grand Circus Pavilion",
+    "description": [
+      "In 1893, as Swami Vivekananda prepared to sail for America, the Madras community organised a grand public farewell at the Harmston Grand Circus Pavilion, transforming the venue into a stage for their spiritual teacher's final words before his departure. Vivekananda delivered a stirring address that electrified the assembled devotees, speaking to the significance of representing Hindu philosophy to the Western world. The overwhelming enthusiasm and affection displayed by Madras society infused him with the confidence and spiritual fortitude needed to carry the message of Vedanta across the ocean."
+    ],
+    "image": "harmston_circus_pavilion.jpg"
+  },
+  {
+    "id": "subramaniam_iyer_beach_house",
+    "title": "Justice Subramaniam Iyer's Beach House",
+    "description": [
+      "Justice P. Subramania Iyer, a distinguished High Court jurist and sincere admirer, extended the hospitality of his Marina beach house to Swami Vivekananda in early 1893, offering a tranquil sanctuary overlooking the Arabian Sea. In this contemplative setting, gazing across the waters during those decisive weeks before his departure, Vivekananda meditated deeply upon the spiritual mission that lay ahead. The vastness of the ocean mirrored the magnitude of his forthcoming work, and this quiet retreat became a space of profound inner preparation for his historic journey to represent Hinduism in the West."
+    ],
+    "image": "subramaniam_iyer_beach_house.jpg"
+  },
+  {
+    "id": "flora_cottage",
+    "title": "Flora Cottage",
+    "description": [
+      "When Swami Ramakrishnananda arrived in Madras to establish the Vedanta mission, Flora Cottage in Triplicane served as his modest first residence, where he maintained the rhythm of daily worship and received an ever-growing circle of visitors seeking spiritual counsel. Upon his triumphant return in February 1897 following his transformative first tour of America and Europe, Swami Vivekananda visited this humble cottage, witnessing firsthand the foundation that his disciple had begun to lay for institutionalised Vedanta work in South India."
+    ],
+    "image": "flora_cottage.jpg"
+  },
+  {
+    "id": "sashi_vilas",
+    "title": "Sashi Vilas - Nanjunda Rao's House",
+    "description": [
+      "Nanjunda Rao's residence, Sashi Vilas, opened its doors to Swami Vivekananda during his formative 1892-93 visit to Madras, becoming part of the informal network of supportive households that sustained the wandering teacher. Within this domestic sanctuary, Vivekananda found both material care and intellectual companionship as he crystallised his vision for representing Hinduism on the world stage. Nanjunda Rao's generosity exemplified the devotion of Madras householders who recognised in the young sannyasin a vessel for revitalising India's spiritual heritage."
+    ],
+    "image": "sashi_vilas.jpg"
+  },
+  {
+    "id": "yogi_parthasarathy_house",
+    "title": "Yogi Parthasarathy's House",
+    "description": [
+      "Yogi Parthasarathy represented the earnest spiritual seekers of Madras who gravitated toward Swami Vivekananda during the swami's visits to the city in 1892-93, his household becoming one of several gathering spaces within the Triplicane community. Here, amid intimate circles of dedicated disciples, Vivekananda engaged in rigorous exploration of Vedantic philosophy and practical discussions about spreading his message. These homes of sincere practitioners formed the earliest organised sangha around Vivekananda in Madras, a foundation upon which systematic spiritual work would eventually flourish."
+    ],
+    "image": "yogi_parthasarathy_house.jpg"
+  },
+  {
+    "id": "balaji_rao_house",
+    "title": "Balaji Rao's House",
+    "description": [
+      "Balaji Rao's home in Triplicane welcomed Swami Vivekananda as a sacred guest during the swami's 1892-93 sojourn in Madras, serving as an intimate forum for philosophical discourse on Vedanta's subtler dimensions. Within the warm hospitality of this Tamil household, Vivekananda shared insights that resonated deeply with the intellectual and spiritual aspirations of South Indian seekers. These private residences of devoted supporters formed an essential infrastructure of care and understanding that enabled the wandering monk to refine and communicate his transformative vision of modern Vedanta."
+    ],
+    "image": "balaji_rao_house.jpg"
+  },
+  {
+    "id": "alasinga_house",
+    "title": "Alasinga Perumal's House",
+    "description": [
+      "P. Aiyasami Alasinga Perumal's residence in Triplicane became the nerve centre of Madras Vedanta activity, with the brilliant Tamil devotee serving as Swami Vivekananda's most devoted and tireless collaborator during the crucial 1892-93 period. From this household, Alasinga embarked on an extraordinary epistolary mission, penning numerous letters to American scholars, journalists, and spiritual seekers on Vivekananda's behalf, while simultaneously mobilising financial resources and editing the influential journal Brahmavadin. Vivekananda's affectionate address—'my Alasinga'—testified to his profound gratitude for a disciple whose administrative genius and unwavering loyalty transformed visionary ideals into concrete international reality."
+    ],
+    "image": "alasinga_house.jpg"
+  },
+  {
+    "id": "victoria_hall_chennai",
+    "title": "Victoria Hall",
+    "description": [
+      "In February 1897, Swami Vivekananda delivered his first major public lecture in Madras at Victoria Hall, marking a triumphant homecoming after his celebrated appearance at the Parliament of Religions in Chicago. Before a vast and electrified audience, he expounded the message of Vedanta and articulated his vision for India's spiritual and cultural renewal. This stirring address launched his transformative lecturing tour across the subcontinent, establishing Madras as a stronghold of his philosophical mission and demonstrating the profound resonance his Western sojourn had given to his teachings."
+    ],
+    "image": "victoria_hall_chennai.jpg"
+  },
+  {
+    "id": "pachaiyappa_hall",
+    "title": "Pachaiyappa's Hall",
+    "description": [
+      "Pachaiyappa's Hall, housed within the renowned Pachaiyappa's College founded by the philanthropist Pachaiyappa Mudaliar, served as another prominent platform for Vivekananda's oratory during his 1897 visit to Madras. The historic institution, with its tradition of intellectual discourse, provided an ideal venue for his lectures on Vedanta and India's spiritual destiny. His addresses drew large and enthusiastic crowds of educated Madras society, further amplifying the impact of his return from the West."
+    ],
+    "image": "pachaiyappa_hall.png"
+  },
+  {
+    "id": "hindu_theological_high_school",
+    "title": "Hindu Theological High School",
+    "description": [
+      "During his 1897 lecture tour through Madras, Swami Vivekananda visited the Hindu Theological High School in Triplicane, an institution championed by his devoted disciples including Alasinga Perumal. The school represented an effort to integrate modern education with the ethical and spiritual foundations of Vedanta—a synthesis that embodied Vivekananda's own vision for India's renewal. His presence and encouragement at the institution reinforced the conviction among his followers that authentic Hindu education must unite intellectual rigor with spiritual wisdom."
+    ],
+    "image": "hindu_theological_high_school.png"
+  },
+  {
+    "id": "patters_garden",
+    "title": "Patters Garden",
+    "description": [
+      "During his extended residence in Madras from late 1892 through early 1893, Swami Vivekananda inhabited various residences of his growing circle of supporters, including the garden bungalow at Patters Garden in Royapettah. The serene setting provided an intimate atmosphere for philosophical discourse and deep conversations with his devotees, complementing his formal public lectures with more personal instruction. These informal gatherings in sympathetic homes across the city allowed him to deepen his connection with the Madras community and cultivate the spiritual circle that would later sustain his mission."
+    ],
+    "image": "patters_garden.jpg"
+  },
+  {
+    "id": "triplicane_literary_society",
+    "title": "Triplicane Literary Society",
+    "description": [
+      "The Triplicane Literary Society became an important intellectual forum where Swami Vivekananda presented his vision to Madras's English-educated elite and Tamil scholars. He delivered an address on aspects of his work in India, while also lecturing on topics including the future of India, Vedanta in practical life, and the necessity of spiritual revival. These formal presentations at the society complemented his informal home gatherings, allowing him to reach both the reflective intellectual class and personal seekers, thereby weaving his revolutionary ideas into the intellectual fabric of the city."
+    ],
+    "image": "triplicane_literary_society.jpg"
+  },
+  {
+    "id": "subramaniam_iyer_house",
+    "title": "Justice Subramaniam Iyer's House",
+    "description": [
+      "Justice P. Subramania Iyer's residence in Madras became a crucial gathering point for Swami Vivekananda, with the distinguished jurist emerging as one of his most influential supporters. Justice Iyer's patronage and social standing proved instrumental in legitimizing Vivekananda's mission within conservative Tamil society and in facilitating the historic project to send him as Hinduism's representative to the Parliament of Religions in Chicago. His home thus served as both sanctuary and staging ground for one of the most consequential spiritual missions of the modern age."
+    ],
+    "image": "subramaniam_iyer_house.jpg"
+  },
+  {
+    "id": "sundar_nivas",
+    "title": "Sundar Nivas",
+    "description": [
+      "Sundar Nivas was among the residences where Swami Vivekananda stayed during his triumphant return to Madras in February 1897, following his electrifying success at the Parliament of Religions in Chicago. The city received him with overwhelming enthusiasm and affection, and his stay at this address allowed him to receive the countless devotees and admirers who sought his darshan and guidance. From Sundar Nivas, Vivekananda prepared to embark on his transformative all-India lecture tour, carrying the spiritual fire of his Western mission back to the heart of his homeland."
+    ],
+    "image": "sundar_nivas.jpg"
+  },
+  {
+    "id": "nagercoil",
+    "title": "Nagercoil",
+    "description": [
+      "In 1892, Swami Vivekananda visited Nagercoil, the southernmost town of Tamil Nadu, during his wandering pilgrimage through South India. Named after the sacred Nagaraja temple, this ancient sacred site marked an important waypoint on his spiritual journey toward Kanyakumari—the southernmost tip of the Indian subcontinent. His passage through Nagercoil formed part of the sacred pilgrimage that would culminate in his transformative meditation on the rock in the sea at Kanyakumari, where he experienced profound spiritual illumination about his future mission."
+    ],
+    "image": "nagercoil.jpg"
+  },
+  {
+    "id": "rameshwaram",
+    "title": "Rameshwaram",
+    "description": [
+      "In 1892, Swami Vivekananda arrived at the sacred island shrine of Rameshwaram, one of Hinduism's four holiest pilgrimage destinations, during his transformative wandering pilgrimage through South India. At the Ramanathaswamy Temple, he was invited to address the assembled devotees, sharing his spiritual insights with the gathered community. The visit deepened his direct experience of India's living spiritual tradition among its masses, and he used the occasion to articulate his vision of India's spiritual treasury and its potential to enrich the Western world through Vedantic teachings."
+    ],
+    "image": "rameshwaram.jpg"
+  },
+  {
+    "id": "valangaiman_kumbakonam",
+    "title": "Valangaiman, Kumbakonam",
+    "description": [
+      "During his 1892 pilgrimage through Tamil Nadu, Swami Vivekananda journeyed through the fertile Cauvery delta region, passing through the sacred temple towns near Kumbakonam where ancient Shaivite and Vaishnavite sanctuaries had flourished for centuries. The Hindu community of Kumbakonam presented him with an address of welcome, recognizing his representation of Hindu philosophy. This passage through the religiously vital delta region gave Vivekananda profound insight into the rich devotional and philosophical culture that permeated Tamil Nadu's spiritual landscape."
+    ],
+    "image": "valangaiman_kumbakonam.jpg"
+  },
+  {
+    "id": "kunthukal",
+    "title": "Kunthukal",
+    "description": [
+      "As Swami Vivekananda traveled through the Ramnad region in 1892, he benefited from the patronage of Raja Bhaskara Setupathi of Ramnad, one of his most generous and influential supporters in South India. The Raja's authority and resources facilitated Vivekananda's movement through villages and towns in the Ramanathapuram district, including Kunthukal, as the monk made his sacred journey southward toward Rameshwaram and eventually Kanyakumari. This royal support proved instrumental in enabling Vivekananda's pilgrimage through Tamil Nadu's most spiritually significant regions."
+    ],
+    "image": "kunthukal.jpg"
+  },
+  {
+    "id": "pamban",
+    "title": "Pamban",
+    "description": [
+      "When Swami Vivekananda arrived at Pamban in 1892, the gateway island to the sacred shrine of Rameshwaram, he was accorded a warm and ceremonial welcome by Raja Bhaskara Setupathi of Ramnad himself. Under a decorated pandal, the community presented an address of welcome to the traveling monk. In his reply, Vivekananda articulated his vision of India's spiritual foundation, emphasizing that the nation's true backbone lay not in political or military power but in its philosophical and spiritual heritage. This encounter at the threshold of the sacred island marked a significant moment in his pilgrimage southward."
+    ],
+    "image": "pamban.jpg"
+  },
+  {
+    "id": "erskine_phelps_house",
+    "title": "Erskine Mason Phelps house",
+    "description": [
+      "When Swami Vivekananda arrived in Chicago in September 1893 for the Parliament of the World's Religions without prior formal invitation or accommodation, he found refuge in the hospitality of sympathetic American supporters. Erskine Mason Phelps, an early admirer of the Indian monk, opened his home to Vivekananda during this pivotal period. This act of personal kindness exemplified the network of warm-hearted individuals across America who would sustain and support Vivekananda's historic mission to introduce Vedantic philosophy to the Western world."
+    ],
+    "image": "erskine_phelps_house.jpg"
+  },
+  {
+    "id": "george_hale_home",
+    "title": "George W. Hale Home",
+    "description": [
+      "The Hale family of Chicago, including George W. Hale, extended their warm hospitality to Swami Vivekananda during his revolutionary stay in the city surrounding the 1893 Parliament of the World's Religions. The Hale household provided Vivekananda with a welcoming foundation as he began his transformative engagement with American audiences and intellectual circles. The family's sustained interest in the Swami and his teachings demonstrated the deep connections he forged with progressive American thinkers and families who remained his supporters throughout his subsequent tours of the West."
+    ],
+    "image": "george_hale_home.jpg"
+  },
+  {
+    "id": "lyon_home_chicago",
+    "title": "Lyon Home",
+    "description": [
+      "Among the network of Chicago residences that sheltered Swami Vivekananda during the Parliament of the World's Religions period in 1893, the Lyon Home stood as one of the generous sanctuaries provided by sympathetic American householders. These private homes became crucial bases for Vivekananda's work during a transformative moment when he was establishing his foothold in America. The hospitality of families like the Lyons enabled the Indian monk to recover from travel, prepare his lectures, and develop the relationships that would sustain his mission to introduce Vedantic wisdom to Western audiences."
+    ],
+    "image": "lyon_home_chicago.jpg"
+  },
+  {
+    "id": "third_unitarian_church_chicago",
+    "title": "Third Unitarian Church",
+    "description": [
+      "Following his triumphant appearance at the Parliament of the World's Religions in 1893, Swami Vivekananda was invited to deliver lectures on Vedanta at the Third Unitarian Church in Chicago and other liberal religious venues throughout the city and beyond. Unitarian and Universalist congregations proved among the most receptive American audiences for his philosophical teachings, as these communities shared his emphasis on the universality of spiritual truth and the equality of all faiths. Vivekananda's extended lecturing schedule at such churches during 1893-1894 marked the beginning of his systematic work to introduce Vedantic philosophy to the American intellectual and religious establishment."
+    ],
+    "image": "third_unitarian_church_chicago.jpg"
+  },
+  {
+    "id": "highland_park_illinois",
+    "title": "Highland Park",
+    "description": [
+      "In September 1893, immediately after his triumphant appearance at the Parliament of the World's Religions, Swami Vivekananda was introduced to prominent Chicago-area scientists at an elegant vegetarian dinner hosted by Professor Elisha Grey, the noted electrical inventor, and his wife at their residence in Highland Park. This early invitation into the homes of wealthy and influential supporters in the prosperous Lake Michigan suburb marked the beginning of Vivekananda's engagement with the well-to-do communities surrounding Chicago, where many of his first American devotees resided."
+    ],
+    "image": "highland_park_illinois.jpg"
+  },
+  {
+    "id": "hull_house_chicago",
+    "title": "The Hull-House",
+    "description": [
+      "Swami Vivekananda visited Hull-House, Jane Addams' pioneering settlement house, during his Chicago period in 1893. The encounter brought together two visionary reformers working on opposite sides of the world—Addams devoted to progressive social reform in America, and Vivekananda carrying the message of service to the poor as worship of God, a principle that aligned profoundly with the settlement house movement's ideals and humanitarian vision."
+    ],
+    "image": "hull_house_chicago.jpg"
+  },
+  {
+    "id": "hinsdale_unitarian_church",
+    "title": "Hinsdale Unitarian Church",
+    "description": [
+      "Swami Vivekananda lectured at the Hinsdale Unitarian Church in this western Chicago suburb, finding in Unitarian congregations particularly receptive audiences for his universalist message. The liberal theological outlook of Unitarian communities, with their embrace of diverse spiritual traditions and emphasis on reason and conscience, provided a natural home for his teaching that the unity of all religions constituted the essence of Vedanta."
+    ],
+    "image": "hinsdale_unitarian_church.jpg"
+  },
+  {
+    "id": "masonic_temple_chicago",
+    "title": "Masonic Temple",
+    "description": [
+      "Following his sensational debut at the Parliament of the World's Religions in 1893, Swami Vivekananda leveraged the momentum of his success by addressing audiences at the Masonic Temple, Chicago's monumental architectural marvel and one of the world's tallest buildings at the time. The temple's prestigious assembly rooms offered an ideal stage for his continuing lectures on Vedanta and Hindu philosophy to the thousands of Chicagoans eager to hear more from the eloquent Indian monk."
+    ],
+    "image": "masonic_temple_chicago.jpg"
+  },
+  {
+    "id": "first_universalist_church_chicago",
+    "title": "First Universalist Church",
+    "description": [
+      "Swami Vivekananda found a warm reception at the First Universalist Church during his Chicago engagement of 1893-1894, where his vision of universal spirituality resonated deeply with the congregation's belief in salvation for all humanity. These liberal religious communities provided ideal forums for him to expound Vedanta's central truth—that all spiritual paths ultimately converge in the realization of divine unity."
+    ],
+    "image": "first_universalist_church_chicago.jpg"
+  },
+  {
+    "id": "central_music_hall_chicago",
+    "title": "Central Music Hall",
+    "description": [
+      "Central Music Hall served as one of the principal venues for Swami Vivekananda's lectures in the months following the Parliament of the World's Religions in September 1893. The prestigious downtown Chicago concert and lecture hall drew enthusiastic crowds of citizens who had not attended the Parliament itself, allowing Vivekananda to extend his message of Hinduism and Vedanta philosophy to the broader American public through these extension lectures."
+    ],
+    "image": "central_music_hall_chicago.jpg"
+  },
+  {
+    "id": "auditorium_theater_chicago",
+    "title": "Auditorium Theater",
+    "description": [
+      "The magnificent Auditorium Theatre, designed by the celebrated architectural firm Adler and Sullivan, provided Swami Vivekananda with a grand stage worthy of his commanding presence during his 1893 Chicago period. The theatre's superb acoustics and architectural splendor made it an ideal venue for his powerful articulation of Vedantic philosophy to large audiences drawn by the excitement surrounding his Parliament appearance."
+    ],
+    "image": "auditorium_theater_chicago.jpg"
+  },
+  {
+    "id": "cobb_hall_chicago",
+    "title": "Cobb Hall",
+    "description": [
+      "Swami Vivekananda engaged with the academic community of the University of Chicago during 1893-1894, lecturing at Cobb Hall in the newly founded institution that embodied progressive American scholarship. He presented Vedanta philosophy as a rational, scientifically grounded system compatible with modern thought, demonstrating to university audiences that Hindu philosophy possessed intellectual rigor and philosophical sophistication equal to Western traditions."
+    ],
+    "image": "cobb_hall_chicago.jpg"
+  },
+  {
+    "id": "dr_perkins_house_chicago",
+    "title": "Dr. Perkins' house",
+    "description": [
+      "Dr. Perkins opened his Chicago home to Swami Vivekananda during the monk's momentous 1893 sojourn in the city, offering him hospitality during a transformative period following the Parliament of the World's Religions. Within this intimate domestic setting, Vivekananda engaged small circles of curious Americans in philosophical discourse on Vedanta, translating the ancient Hindu teachings into language and concepts accessible to Western minds. These parlour conversations proved as significant as his public lectures in cultivating the first generation of American seekers drawn to his universalist vision of religion."
+    ],
+    "image": "dr_perkins_house_chicago.jpg"
+  },
+  {
+    "id": "first_congretational_church_evanston",
+    "title": "First Congretational Church",
+    "description": [
+      "In October 1893, Swami Vivekananda delivered a course of lectures at the First Congregational Church in Evanston, Illinois, creating an intellectual space comparable in spirit to the recently concluded Parliament of Religions in Chicago. The Evanston congregation, situated in a prosperous university town known for its educated and progressive residents, received his teachings on Hindu philosophy with genuine interest and respect. These lectures marked the beginning of Vivekananda's expansion beyond Chicago's urban centre into the surrounding communities of the Midwest."
+    ],
+    "image": "first_congretational_church_evanston.jpg"
+  },
+  {
+    "id": "houses_visited_evanston",
+    "title": "Houses visited in Evanston",
+    "description": [
+      "During his Evanston visits in late 1893 and early 1894, Swami Vivekananda found welcome in the private residences of spiritually-minded families in this university town adjacent to Chicago. These households provided intimate forums where he could discuss Vedanta philosophy with Americans eager to understand Hindu spiritual thought beyond the framework of missionary representations. The domestic spaces of Evanston's progressive households became early American drawing rooms of Hindu wisdom, establishing a pattern of private patronage that would sustain his American ministry."
+    ],
+    "image": "houses_visited_evanston.jpg"
+  },
+  {
+    "id": "colonel_ralph_plumb",
+    "title": "Colonel Ralph Plumb",
+    "description": [
+      "Colonel Ralph Plumb, a civic figure in Streator, Illinois, extended his hospitality to Swami Vivekananda during the monk's extensive lecture tour through the state in 1894. Plumb's willingness to host the Hindu sage reflected a growing American curiosity about Eastern spirituality and demonstrated that Vivekananda's message resonated beyond metropolitan centres. Through Plumb's introduction and support, Vivekananda reached audiences in smaller Illinois towns, carrying the universal principles of Vedanta to communities far from the lecture halls of Chicago and Eastern cities."
+    ],
+    "image": "colonel_ralph_plumb.png"
+  },
+  {
+    "id": "plumb_opera_house_streator",
+    "title": "Plumb Opera House",
+    "description": [
+      "The Plumb Opera House in Streator provided the public stage for Swami Vivekananda's lecture to the Illinois coal-mining town in 1894, representing his determined effort to bring Hindu philosophy to America's working and middle-class communities. Named after the prominent Plumb family who championed his visit, the opera house drew local residents curious about this celebrated Hindu monk whose reputation had spread nationwide following the Parliament of Religions. His address demonstrated that Vedanta's message of human dignity and spiritual universalism held appeal far beyond academic and elite circles."
+    ],
+    "image": "plumb_opera_house_streator.png"
+  },
+  {
+    "id": "first_congregational_church_madison",
+    "title": "First Congregational Church",
+    "description": [
+      "In November 1893, Swami Vivekananda delivered a lecture at the First Congregational Church in Madison, Wisconsin, where the local press recognized his message as containing 'much of sound philosophy and good religion' worthy of Christian consideration. The state capital's educated audience, enriched by the presence of the University of Wisconsin, engaged seriously with his exposition of Vedanta's central teaching of divinity inherent in the human soul. Madison's Congregational community proved receptive to his claim that Hindu philosophy and Christian ethics shared common ground in their ultimate concern for human spiritual perfection."
+    ],
+    "image": "first_congregational_church_madison.jpg"
+  },
+  {
+    "id": "first_unitarian_church_minneapolis",
+    "title": "First Unitarian Church",
+    "description": [
+      "The First Unitarian Church of Minneapolis hosted Swami Vivekananda in November 1893, providing a congregation deeply aligned with his universalist vision of religion to hear him expound Brahminism's ancient principles. The Minneapolis audience sat in rapt attention as Vivekananda unveiled the central teaching of Hindu faith—that the soul is inherently divine and that religion consists of manifesting this divinity already present in human nature. The lecture drew such enthusiastic response that attendees subsequently requested a semi-public discourse on Hindu religion, demonstrating the profound impact of his Minneapolis visit."
+    ],
+    "image": "first_unitarian_church_minneapolis.jpg"
+  },
+  {
+    "id": "quincy_house_hotel_boston",
+    "title": "Quincy House Hotel",
+    "description": [
+      "The Quincy House Hotel served as one of Swami Vivekananda's residences during his stays in Boston between 1893 and beyond, a city that became one of his most significant American centres. Boston's long tradition of transcendental thought, Unitarian liberalism, and openness to philosophical innovation created an ideal receptive environment for his teachings on the universality of Hindu wisdom. His multiple extended visits to this historic city allowed him to cultivate deep relationships with Boston's intellectual and spiritual elite, making it a crucial base for spreading Vedanta throughout New England and beyond."
+    ],
+    "image": "quincy_house_hotel_boston.jpg"
+  },
+  {
+    "id": "hotel_bellevue_boston",
+    "title": "Hotel Bellevue",
+    "description": [
+      "During his extended stays in Boston between 1894 and 1895, Swami Vivekananda lodged at the Hotel Bellevue, using it as a base for his intensive lecture and teaching schedule across New England. The hotel anchored his presence in a city that had become one of his principal American strongholds, drawing large and devoted audiences hungry for his teachings on Vedanta and the unity of all religions. From this location, he maintained a rigorous schedule of public lectures, intimate classes, and private philosophical discussions that solidified his reputation as one of the most compelling spiritual voices in America."
+    ],
+    "image": "hotel_bellevue_boston.jpg"
+  },
+  {
+    "id": "womens_club_julia_ward_howe",
+    "title": "Women's Club of Julia Ward Howe",
+    "description": [
+      "Swami Vivekananda spoke at the Women's Club associated with Julia Ward Howe, the renowned poet and reformer whose progressive circle became instrumental in spreading his message throughout Boston's educated elite. The gathering drew many reform-minded women who were captivated by his teachings on the universal principles underlying all faiths and the spiritual potential within every human being. These encounters at the club cultivated enduring friendships and shaped a devoted core of female supporters, including Sara Bull, whose devotion to him lasted throughout his life."
+    ],
+    "image": "womens_club_julia_ward_howe.jpg"
+  },
+  {
+    "id": "round_table_boston",
+    "title": "Round Table",
+    "description": [
+      "The Round Table, one of Boston's distinguished intellectual discussion societies, provided an ideal forum for Swami Vivekananda to expound the philosophy of Vedanta to an audience of educated professionals deeply interested in exploring Indian thought. Drawing on Boston's rich legacy of philosophical inquiry descended from the Transcendentalist movement, the club's members engaged him in rigorous dialogue about the nature of consciousness, the principles of yoga, and the relationship between Eastern and Western spiritual traditions. His appearances there cemented his standing among the city's most intellectually discriminating circles."
+    ],
+    "image": "round_table_boston.jpg"
+  },
+  {
+    "id": "association_hall_boston",
+    "title": "Association Hall",
+    "description": [
+      "Association Hall served as one of the prominent public venues where Swami Vivekananda delivered his popular lectures on Hinduism, Vedantic philosophy, and the underlying unity of world religions to large Boston audiences. The hall's capacity to draw substantial crowds reflected the widespread curiosity about his teachings among the city's general educated population, transcending the more intimate club settings. His lectures there covered pressing topics including Hindu customs and practices, addressing Western misunderstandings with his characteristic blend of philosophical depth and practical wisdom."
+    ],
+    "image": "association_hall_boston.jpg"
+  },
+  {
+    "id": "procopeia_club_boston",
+    "title": "Procopeia Club",
+    "description": [
+      "At the Procopeia Club, a private intellectual gathering space, Swami Vivekananda engaged Boston's cultivated elite in intimate discussions and lectures that deepened their understanding of Vedantic thought. The club exemplified how his message spread through personal connections and private forums, where small groups of devoted listeners absorbed his teachings on yoga, metaphysics, and the spiritual dimensions of human life. These selective gatherings fostered lasting relationships with influential Bostonians who became lifelong supporters and advocates for his vision of universal spirituality."
+    ],
+    "image": "procopeia_club_boston.jpg"
+  },
+  {
+    "id": "hall_56_st_botolph_st",
+    "title": "Hall at 56 St Botolph St",
+    "description": [
+      "Throughout 1894 and 1895, Swami Vivekananda held regular classes at the hall on St Botolph Street in Boston's Back Bay, the intellectual and artistic heart of the city, where he taught devoted students the disciplines of Raja Yoga, Jnana Yoga, and the deeper philosophy of Vedanta. The location became a center of serious spiritual practice, attracting serious seekers committed to systematic study and transformation. His systematic presentation of yoga philosophy and Vedantic wisdom at this venue established a template for the teaching work that would eventually extend far beyond Boston."
+    ],
+    "image": "hall_56_st_botolph_st.jpg"
+  },
+  {
+    "id": "twentieth_century_club_boston",
+    "title": "Twentieth Century Club",
+    "description": [
+      "The Twentieth Century Club, dedicated to progressive discourse on social, literary, and philosophical questions, welcomed Swami Vivekananda as a speaker whose vision of universal spirituality aligned perfectly with the club's forward-looking membership. His message of the divinity inherent in every human soul and the fundamental unity underlying all religious traditions resonated deeply with Boston's intellectually progressive community. The encounter between Vivekananda and the club's members exemplified how his teachings found receptive audiences among those seeking to reconcile spirituality with modern ethical and social concerns."
+    ],
+    "image": "twentieth_century_club_boston.jpg"
+  },
+  {
+    "id": "charles_fairchild_home_boston",
+    "title": "Charles Fairchild home",
+    "description": [
+      "The home of Charles Fairchild became a gathering place where Swami Vivekananda connected with Boston's most sympathetic and intellectually accomplished supporters, who formed a circle of devoted admirers centered on the dissemination of Vedantic wisdom. Fairchild's household exemplified the network of private residences that sustained Vivekananda's New England work, providing hospitality, intellectual companionship, and the kind of personal relationships that deepened his influence beyond formal lectures. Through such private venues, his message took root among some of Boston's most influential and educated citizens."
+    ],
+    "image": "charles_fairchild_home_boston.jpg"
+  },
+  {
+    "id": "breezy_meadows_metcalf",
+    "title": "Breezy Meadows",
+    "description": [
+      "During his New England circuit in 1894, Swami Vivekananda found refuge at Breezy Meadows in Metcalf, Massachusetts, a pastoral retreat that offered respite from the demands of constant lecturing. The countryside setting provided an ideal environment for him to pursue his deeper work—studying, writing, and offering private instruction to his closer circle of disciples. In such tranquil surroundings, away from the busy Boston intellectual scene, Vivekananda continued his mission of transmitting Vedantic teachings to those ready to receive them."
+    ],
+    "image": "breezy_meadows_metcalf.jpg"
+  },
+  {
+    "id": "boston_ladies_club_metcalf",
+    "title": "Boston Ladies Club",
+    "description": [
+      "Swami Vivekananda's lectures to the Boston Ladies Club drew audiences of well-educated, spiritually curious women who were captivated by his message of universal spiritual equality. His address to this prominent women's organization exemplified his conviction that the Vedantic principles of human dignity transcended gender, caste, and nationality. Through such appearances at women's clubs across the New England region, Vivekananda built a devoted network of supporters who would champion his teachings long after his departure from America."
+    ],
+    "image": "boston_ladies_club_metcalf.jpg"
+  },
+  {
+    "id": "sherborn_reformatory",
+    "title": "Sherborn Reformatory",
+    "description": [
+      "When the Lady Superintendent of the Sherborn Reformatory for women invited Swami Vivekananda to visit the institution, he readily accepted, seeing the opportunity to bring his message of spiritual dignity to society's most marginalized members. His willingness to address the inmates reflected his core conviction that the divine spark resides equally in all human beings, regardless of their circumstances or past misdeeds. This visit embodied his practical application of Vedanta—the principle that service to suffering humanity constitutes worship of God."
+    ],
+    "image": "sherborn_reformatory.jpg"
+  },
+  {
+    "id": "charlotte_lane_boarding_house",
+    "title": "Charlotte Lane Boarding house",
+    "description": [
+      "The Charlotte Lane Boarding House in Annisquam became a summer haven for Swami Vivekananda during 1894, offering the peaceful seaside atmosphere he sought for deeper work. Situated in this picturesque fishing village within Gloucester on Cape Ann, the boarding house provided an ideal setting where he could write, teach, and rest. Several American disciples gathered there to receive his instruction, making it a hub of Vedantic learning during the summer months."
+    ],
+    "image": "charlotte_lane_boarding_house.jpg"
+  },
+  {
+    "id": "hyatt_house_annisquam",
+    "title": "The Hyatt House",
+    "description": [
+      "The Hyatt House served as another of Swami Vivekananda's summer residences in Annisquam during 1894, a period of intensive creative and spiritual work. It was during these weeks spent in the tranquil Cape Ann village that he labored on his lectures on Raja Yoga, which would later crystallize into the foundational text 'Raja Yoga.' The quiet coastal setting provided the contemplative space necessary for him to distill these teachings into their most powerful and accessible form."
+    ],
+    "image": "hyatt_house_annisquam.jpg"
+  },
+  {
+    "id": "universalist_church_annisquam",
+    "title": "Universalist Church",
+    "description": [
+      "The Universalist Church in Annisquam welcomed Swami Vivekananda to address its congregation during his Cape Ann summers, attracted by the denomination's progressive theology and openness to universal spiritual truth. In this intimate New England village setting, he spoke to audiences eager to hear his teachings on the Self and the principles of Vedanta. His presence in such communities demonstrated how receptive even small American towns could be to India's ancient wisdom traditions."
+    ],
+    "image": "universalist_church_annisquam.jpg"
+  },
+  {
+    "id": "mechanics_hall_boston",
+    "title": "Mechanics Hall",
+    "description": [
+      "Mechanics Hall provided one of Boston's principal venues for Swami Vivekananda's public lectures during his New England period, drawing substantial crowds drawn to his expositions on Vedanta, Raja Yoga, and the science of religion. The city's intellectual vigor and curiosity about Indian philosophy ensured that his talks attracted some of his largest American audiences. These well-attended lectures at Mechanics Hall solidified his reputation as one of the most compelling voices introducing Eastern spirituality to the Western mind."
+    ],
+    "image": "mechanics_hall_boston.jpg"
+  },
+  {
+    "id": "kate_tannatt_woods_house",
+    "title": "Kate Tannatt Woods's house",
+    "description": [
+      "Kate Tannatt Woods, a progressive American author and journalist, extended her Salem, Massachusetts home to Swami Vivekananda during his New England tours, becoming part of the circle of literary-minded women supporters who championed his work. Woods and her family were among the thoughtful Americans captivated by his teachings on universal religion and spirituality. Through such private residences and the hospitality of figures like Woods, Vivekananda cultivated the personal relationships that amplified his influence in New England communities."
+    ],
+    "image": "kate_tannatt_woods_house.jpg"
+  },
+  {
+    "id": "wesley_church_salem",
+    "title": "Wesley Church",
+    "description": [
+      "In August 1893, Swami Vivekananda addressed members of the Thought and Work Club at Wesley Chapel in Salem, Massachusetts, despite the warm afternoon weather. The gathering brought together the church's intellectual community to hear the Hindu monk speak informally on India's religion and customs. This appearance at the Methodist congregation reflected the growing openness of American denominations to comparative religion during the late nineteenth century, even in a town whose Puritan heritage had long defined New England Protestantism."
+    ],
+    "image": "wesley_church_salem.jpg"
+  },
+  {
+    "id": "east_church_salem",
+    "title": "East Church",
+    "description": [
+      "The East Church in Salem hosted Swami Vivekananda during his New England tour in 1894, continuing the pattern of reception he found among the Congregational churches of historic New England. Salem's evolution from its turbulent Puritan past into a center of religious inquiry made it receptive ground for his presentation of Vedantic philosophy. The appearance demonstrated how even America's oldest religious institutions were beginning to engage seriously with Eastern thought through the medium of a living Hindu teacher."
+    ],
+    "image": "east_church_salem.jpg"
+  },
+  {
+    "id": "northampton_city_hall",
+    "title": "Northampton City Hall",
+    "description": [
+      "On the evening of April 14, 1894, Swami Vivekananda lectured at Northampton City Hall, where he spoke to a cultivated audience about the fundamental spiritual kinship connecting all peoples across continents. His choice to speak in the civic hall rather than exclusively in churches underscored his democratic conviction that the universal principles of religion belonged to all people regardless of institutional affiliation. The prosperous Connecticut River valley town, enriched by Smith College's intellectual presence, provided an engaged audience for his message of human unity."
+    ],
+    "image": "northampton_city_hall.jpg"
+  },
+  {
+    "id": "smith_college_northampton",
+    "title": "Smith College",
+    "description": [
+      "Swami Vivekananda's presence at Smith College during his 1894 New England visit resonated deeply with the institution's community of educated American women. His teachings on the spiritual equality of women and the divine potential within all human beings aligned naturally with the aspirations of America's leading women's college. Educated women formed a particularly devoted constituency among his earliest American disciples, and Smith College represented the institutional embodiment of the intellectual equality he championed."
+    ],
+    "image": "smith_college_northampton.jpg"
+  },
+  {
+    "id": "oxford_club_lecture_hall_lynn",
+    "title": "Oxford Club lecture hall",
+    "description": [
+      "The Oxford Club lecture hall in Lynn, Massachusetts provided a venue for Swami Vivekananda to address the progressive thinkers of this historic shoe-manufacturing city north of Boston. His willingness to lecture in industrial communities demonstrated his commitment to sharing Vedantic philosophy across all social strata of American society. Lynn's working-class character and tradition of public intellectual engagement made it an important stop on his New England circuit."
+    ],
+    "image": "oxford_club_lecture_hall_lynn.jpg"
+  },
+  {
+    "id": "rockland_street_swampscott",
+    "title": "Rockland Street",
+    "description": [
+      "Swami Vivekananda visited the seaside town of Swampscott during his New England tours, where several of his American supporters maintained summer residences along the rocky Massachusetts coast. The pleasant Atlantic shore resort attracted Boston's educated middle class, and Vivekananda conducted informal gatherings and discussions with interested residents on Rockland Street. These intimate settings in coastal communities complemented his more formal lecture appearances in urban halls."
+    ],
+    "image": "rockland_street_swampscott.jpg"
+  },
+  {
+    "id": "library_hall_lawrence",
+    "title": "Library Hall",
+    "description": [
+      "Library Hall in Lawrence, Massachusetts welcomed Swami Vivekananda during his New England tour, bringing his message of Vedanta to the diverse immigrant population of this major textile-manufacturing city on the Merrimack River. His determination to lecture in industrial centers rather than confine himself to elite audiences demonstrated his conviction that spiritual truth transcended class boundaries. The appearance underscored his vision of a universal religion accessible to workers and thinkers alike."
+    ],
+    "image": "library_hall_lawrence.jpg"
+  },
+  {
+    "id": "rogers_hall_melrose",
+    "title": "Rogers Hall",
+    "description": [
+      "Rogers Hall in Melrose, Massachusetts was among the suburban venues north of Boston where Swami Vivekananda lectured during his New England tour in 1894. The prosperous residential community's active cultural life and lecture-going tradition made it a natural stop for spreading the teachings of Vedanta beyond Boston proper. His appearances in such comfortable New England suburbs helped establish a broadbased network of support among the educated middle class that would sustain his American work."
+    ],
+    "image": "rogers_hall_melrose.jpg"
+  },
+  {
+    "id": "evans_caswell_house_melrose",
+    "title": "Evans Caswell's house",
+    "description": [
+      "During his New England tours in 1894, Swami Vivekananda was received at Evans Caswell's home in Melrose, Massachusetts, where private drawing-room gatherings formed an essential part of his teaching method. These intimate settings in American homes allowed him to establish personal connections with his listeners that often proved more transformative than formal public lectures. The pattern of moving between private residences and public venues reflected his strategic approach to bringing Vedanta philosophy to New England's educated classes."
+    ],
+    "image": "evans_caswell_house_melrose.jpg"
+  },
+  {
+    "id": "magnolia_library_magnolia",
+    "title": "Magnolia Library",
+    "description": [
+      "In 1894, Swami Vivekananda delivered lectures at the Magnolia Library in this fashionable Cape Ann summer colony, addressing an audience drawn largely from Boston's professional classes who spent their summers in this exclusive resort. The library served as an ideal venue for his presentation of Vedanta philosophy to educated New Englanders seeking intellectual and spiritual engagement. The setting reflected the Victorian culture of literary societies and reading rooms that provided genteel spaces for the discussion of ideas among the region's cultural elite."
+    ],
+    "image": "magnolia_library_magnolia.jpg"
+  },
+  {
+    "id": "gray_beach_magnolia",
+    "title": "Gray Beach",
+    "description": [
+      "Swami Vivekananda spent time at Gray Beach in Magnolia during his 1894 summer stay in this scenic Massachusetts coastal village, finding in its rocky Atlantic shores a contemplative setting reminiscent of Kanyakumari's spiritual landscape. The dramatic seascape of Cape Ann provided a natural environment for reflection that held deep significance for his spiritual practice, echoing the meditative power he had experienced at India's southern shore."
+    ],
+    "image": "gray_beach_magnolia.jpg"
+  },
+  {
+    "id": "davis_opera_house_plymouth",
+    "title": "Davis Opera House",
+    "description": [
+      "Swami Vivekananda lectured at the Davis Opera House in Plymouth, Massachusetts in 1894, the historic town where the Pilgrims first landed and established the foundations of American Puritanism. He recognized the symbolic resonance of bringing ancient Indian spiritual wisdom to the very birthplace of American religious tradition, viewing such encounters as the inevitable and enriching meeting of East and West that would define the coming age."
+    ],
+    "image": "davis_opera_house_plymouth.jpg"
+  },
+  {
+    "id": "radcliffe_college_cambridge",
+    "title": "Radcliffe College(Fay House)",
+    "description": [
+      "During his rigorous Cambridge period in 1896, Swami Vivekananda addressed the intellectually ambitious students and faculty at Radcliffe College, Harvard's coordinate women's college, delivering some of his most academically demanding lectures in America. His engagement with Radcliffe reflected his commitment to presenting Vedantic philosophy as a sophisticated intellectual system worthy of engagement by the most advanced scholars of the Western world."
+    ],
+    "image": "radcliffe_college_cambridge.png"
+  },
+  {
+    "id": "sever_hall_cambridge",
+    "title": "Sever Hall",
+    "description": [
+      "Swami Vivekananda delivered lectures at Sever Hall, Harvard University's principal lecture building, during his 1896 Cambridge period, presenting his philosophical teachings before one of the world's most distinguished academic audiences. Dressed in his traditional orange robes, his presence at Harvard represented a high point of his American mission—the successful translation of Vedantic thought into the rigorous intellectual discourse of Western academia at its most elite institution."
+    ],
+    "image": "sever_hall_cambridge.jpg"
+  },
+  {
+    "id": "sara_ole_bull_house_cambridge",
+    "title": "Sara Ole Bull House",
+    "description": [
+      "Sara Chapman Bull, widow of the renowned Norwegian violinist Ole Bull, opened her elegant Cambridge home to Swami Vivekananda during his Boston and Cambridge periods from 1894 to 1896, becoming his most devoted American patron and steadfast supporter. Her residence served as the center of his New England circle, and in late 1894 he delivered from her home a memorable lecture on 'The Ideals of Indian Women' that expressed his gratitude for the kindness shown him by his American hosts. Mrs. Bull's generous financial support enabled him to pursue his American mission and eventually to establish Vedanta Society centers that would perpetuate his teachings long after his return to India."
+    ],
+    "image": "sara_ole_bull_house_cambridge.jpg"
+  },
+  {
+    "id": "mrs_anna_richards_house_cambridge",
+    "title": "Mrs. Anna Richards House",
+    "description": [
+      "Mrs. Anna Richards' Cambridge home provided welcoming space for Swami Vivekananda's intimate gatherings and private discussions during his New England period from 1894 to 1896, where she was counted among the devoted women supporters who formed the core of his American circle. Her residence complemented the public lectures at Harvard and Radcliffe, offering the personal settings where his closest disciples deepened their commitment to Vedantic practice and philosophy."
+    ],
+    "image": "mrs_anna_richards_house_cambridge.jpg"
+  },
+  {
+    "id": "dane_hall_harvard",
+    "title": "Dane Hall",
+    "description": [
+      "During his Cambridge period in 1896, Swami Vivekananda lectured at Dane Hall, one of Harvard University's academic buildings, where he engaged with some of America's most intellectually formidable minds. His presentations on Indian philosophy and Vedantic thought attracted the attention of distinguished scholars and faculty, including the pioneering psychologist William James, whose theoretical work on religious experience found a living exemplar in the Swami's teachings. These Harvard lectures represented a watershed moment in his American mission, demonstrating that the ancient wisdom of India could command respect and serious attention in the most rigorous academic environment in the nation."
+    ],
+    "image": "dane_hall_harvard.jpg"
+  },
+  {
+    "id": "prof_wright_house_cambridge",
+    "title": "Prof.J.H Wright's house",
+    "description": [
+      "Professor John Henry Wright's Cambridge home served as Vivekananda's entry point into American intellectual life in 1893. The Greek scholar, profoundly moved by the young monk's erudition and spiritual presence, became his crucial advocate at a pivotal moment—when Wright penned the now-famous letter of introduction declaring that asking Vivekananda for credentials was like questioning the sun's right to shine. This letter secured the Swami's passage to the Parliament of the World's Religions in Chicago, fundamentally altering the trajectory of his life and work. Wright's home thus stands as the birthplace of Vivekananda's transformation from an unknown Indian ascetic into a recognized voice of Eastern spirituality in the West."
+    ],
+    "image": "prof_wright_house_cambridge.jpg"
+  },
+  {
+    "id": "memorial_hall_harvard",
+    "title": "Memorial Hall",
+    "description": [
+      "The grand Victorian Gothic edifice of Memorial Hall, Harvard's tribute to its Civil War dead, became a stage for Swami Vivekananda's philosophical presentations in the spring of 1896. Before faculty members, undergraduates, and Cambridge's educated elite, he articulated the principles of Vedantic philosophy with such intellectual rigor that the ancient wisdom of India could stand as an equal in the most demanding academic forum in America. His lectures there marked a decisive moment when Eastern thought was no longer dismissed as mere mysticism but engaged as serious philosophy worthy of Harvard's attention."
+    ],
+    "image": "memorial_hall_harvard.jpg"
+  },
+  {
+    "id": "holworthy_hall_harvard",
+    "title": "Holworthy Hall",
+    "description": [
+      "Holworthy Hall, one of Harvard's oldest dormitories nestled in the historic Yard, provided a setting for Swami Vivekananda's interactions with American scholars and curious students during his 1896 Cambridge sojourn. Within these ancient brick buildings that had sheltered generations of American intellectuals, he encountered a new generation of thinkers eager to understand Indian philosophy and the Vedantic worldview. His presence in Harvard's venerable precincts represented a significant moment when Eastern spirituality began to take root in the institutions that shaped American intellectual life."
+    ],
+    "image": "holworthy_hall_harvard.jpg"
+  },
+  {
+    "id": "prof_james_house_cambridge",
+    "title": "Prof. James' house",
+    "description": [
+      "At Professor William James's Cambridge residence, Swami Vivekananda encountered one of America's most brilliant philosophical minds—a thinker whose theoretical investigations into the psychology of mysticism found their confirmation in the living presence of the Indian monk. James, whose groundbreaking work examined the varieties of religious experience, recognized in Vivekananda an embodiment of the mystical consciousness he had studied. Their Cambridge meetings represented a rare convergence of Western philosophical inquiry and Eastern spiritual realization, two great minds acknowledging each other's profound understanding across the boundaries of culture and tradition."
+    ],
+    "image": "prof_james_house_cambridge.jpg"
+  },
+  {
+    "id": "macleod_house_cambridge",
+    "title": "MacLeod's house",
+    "description": [
+      "Josephine MacLeod's home in Cambridge became a spiritual gathering place during Swami Vivekananda's 1896 lecture series, serving as headquarters for his inner circle of American devotees. MacLeod, whom Vivekananda affectionately called 'Joe Joe,' had become one of his most dedicated disciples, and her house functioned as both residence and meeting ground for discussions that extended his formal lectures into intimate spiritual exchanges. This home would remain significant in the broader narrative of his American mission, as MacLeod herself later journeyed to India to deepen her spiritual practice under his direct guidance, becoming a lifelong link between the Indian and American branches of his movement."
+    ],
+    "image": "macleod_house_cambridge.jpg"
+  },
+  {
+    "id": "grand_army_hall_medford",
+    "title": "Grand Army Hall",
+    "description": [
+      "The Grand Army Hall in Medford, a civic venue honoring the veterans of America's Civil War, provided Swami Vivekananda with a public forum to address the citizens of this Massachusetts town during his 1894 New England lecture circuit. The hall's use for community gatherings made it an ideal venue for reaching ordinary citizens beyond Boston's intellectual elite, allowing his message of Vedantic philosophy to penetrate the towns and smaller cities north of the metropolitan center. His appearance there reflected his democratic impulse to share Indian wisdom not merely with academic societies but with the broader American public."
+    ],
+    "image": "grand_army_hall_medford.jpg"
+  },
+  {
+    "id": "mrs_gibson_house_medford",
+    "title": "Mrs. Emily Ruth Gibson's house",
+    "description": [
+      "Mrs. Emily Ruth Gibson's Medford residence opened its doors to Swami Vivekananda during his 1894 New England travels, becoming part of the network of private homes that sustained his lecture circuit through Massachusetts. As a progressive, spiritually minded woman, Mrs. Gibson represented the type of American hostess who facilitated his mission by providing intimate settings for deeper philosophical discussions with small groups of earnest seekers. Her home exemplified the quiet but essential role played by individual supporters who made his American journey possible, creating spaces where Eastern and Western spirituality could meet in conversation."
+    ],
+    "image": "mrs_gibson_house_medford.jpg"
+  },
+  {
+    "id": "sanatorium_saratoga_springs",
+    "title": "Sanatorium",
+    "description": [
+      "During his 1895 New York period, Swami Vivekananda visited a sanatorium in Saratoga Springs, the celebrated upstate resort town renowned for its natural mineral springs and fashionable gathering of America's wealthy elite. The mineral springs and health-conscious atmosphere of this famous spa resonated with his philosophical interest in the interconnection between physical vitality and spiritual development. Vivekananda engaged with the summer society that converged here, sharing his teachings on Vedanta with interested supporters and patrons who sought both restoration and intellectual discourse."
+    ],
+    "image": "sanatorium_saratoga_springs.jpg"
+  },
+  {
+    "id": "town_hall_saratoga_springs",
+    "title": "Town Hall",
+    "description": [
+      "Saratoga Springs' Town Hall served as a dignified civic venue for Swami Vivekananda's public lectures during his visits to this upstate New York resort in 1895. The hall provided an appropriate setting for his presentations on Vedanta philosophy and the spiritual traditions of ancient India to the community of summer visitors drawn from New York's intellectual and wealthy classes. These lectures helped establish his reputation among the educated circles of the Northeast."
+    ],
+    "image": "town_hall_saratoga_springs.jpg"
+  },
+  {
+    "id": "fishkill_landing_beacon",
+    "title": "Fishkill Landing - Beacon",
+    "description": [
+      "Swami Vivekananda traveled to Fishkill Landing, a picturesque Hudson Valley community on the eastern shore of the Hudson River in Dutchess County, during his explorations of New York communities beyond Manhattan in 1895. The dramatic river landscapes and contemplative atmosphere of the Hudson Valley appealed to those seeking spiritual instruction, and his visit to this riverside town extended his influence beyond the urban centers. The region's natural beauty and settled communities provided alternative venues for his teaching work."
+    ],
+    "image": "fishkill_landing_beacon.jpg"
+  },
+  {
+    "id": "dr_guernsey_home_nyc",
+    "title": "Dr. Guernsey's home",
+    "description": [
+      "Dr. Guernsey's home in New York City became an early refuge and gathering place for Swami Vivekananda during his initial years in America around 1894. As one of his earliest supporters from the medical profession, Dr. Guernsey offered hospitality and helped introduce the Swami to New York's educated circles. This home represented the personal networks of sympathetic hosts, particularly from the professional class, who sustained his emerging American mission."
+    ],
+    "image": "dr_guernsey_home_nyc.jpg"
+  },
+  {
+    "id": "54_west_33rd_st_nyc",
+    "title": "54 West 33rd St (First HQ)",
+    "description": [
+      "At 54 West 33rd Street in Manhattan, Swami Vivekananda established the first formal headquarters for his organized Vedanta work in New York during 1894-1895. From this address, he conducted regular classes and lectures on Raja Yoga, Jnana Yoga, and Bhakti Yoga for his growing circle of American students. This location marked the inception of institutionalized Vedanta teaching in America, transforming his individual lectures into a systematic movement that would eventually crystallize as the Vedanta Society of New York."
+    ],
+    "image": "54_west_33rd_st_nyc.jpg"
+  },
+  {
+    "id": "waldorf_hotel_nyc",
+    "title": "Waldorf Hotel",
+    "description": [
+      "The prestigious Waldorf Hotel on Fifth Avenue served as one of the fashionable Manhattan addresses where Swami Vivekananda stayed and received supporters during 1894-1895. His presence at this renowned establishment reflected the elevated social circles in which he moved, where wealthy patrons and society figures arranged meetings to discuss his teachings. The Waldorf exemplified the high-profile venues through which his American mission gained traction among the city's elite."
+    ],
+    "image": "waldorf_hotel_nyc.jpg"
+  },
+  {
+    "id": "mary_phillips_home_nyc",
+    "title": "Mary Phillips's Home",
+    "description": [
+      "Mary Phillips' Manhattan home became an intimate gathering place for Swami Vivekananda and his circle of New York devotees during 1894-1895. Her residence hosted the informal discussions and private talks that deepened the engagement of his followers, complementing the public lectures he delivered across the city. Phillips represented the dedicated women supporters whose practical devotion and hospitality provided the essential domestic infrastructure sustaining his American work."
+    ],
+    "image": "mary_phillips_home_nyc.jpg"
+  },
+  {
+    "id": "unknown_place_new_york",
+    "title": "Unknown place in New York",
+    "description": [
+      "During his extended periods in New York City, particularly 1894-1895, Swami Vivekananda visited numerous addresses across Manhattan whose precise locations have not been fully established in historical records. These unnamed venues hosted lectures, private classes, and meetings with supporters as he cultivated his growing circle of devotees throughout the metropolis. The gaps in documentation reflect both the intensity and fluidity of his American mission during these formative years."
+    ],
+    "image": "unknown_place_new_york.jpg"
+  },
+  {
+    "id": "leon_landsberg_home_nyc",
+    "title": "Leon Landsberg's Home",
+    "description": [
+      "In 1894, Leon Landsberg's New York home became a significant gathering place for Swami Vivekananda's emerging American circle. Landsberg, a Jewish journalist and intellectual who would become known as Swami Kripananda, was among the first Americans to embrace monastic initiation into Vivekananda's teachings on Vedanta. His residence served as an intimate venue where the Swami's earliest American disciples assembled to explore the philosophical and spiritual foundations of his message, establishing one of the foundational nodes of Vedanta's foothold in New York."
+    ],
+    "image": "leon_landsberg_home_nyc.jpg"
+  },
+  {
+    "id": "emma_thursby_house_nyc",
+    "title": "Emma Thursby's house",
+    "description": [
+      "Emma Thursby's New York home opened the doors of high society to Swami Vivekananda during his 1894 visit. The renowned soprano, one of America's most celebrated singers, became a devoted supporter whose social standing lent considerable prestige to the Swami's work in the city. Her parlours attracted members of New York's cultural and intellectual elite, creating an elegant setting where Vedanta philosophy encountered the minds shaping American artistic life. Her detailed notes of morning classes delivered that summer at Greenacre, Maine, preserved Vivekananda's teachings for posterity."
+    ],
+    "image": "emma_thursby_house_nyc.jpg"
+  },
+  {
+    "id": "corbin_mansion_nyc",
+    "title": "Corbin mansion",
+    "description": [
+      "The Corbin mansion in New York represented the world of finance and business that Swami Vivekananda successfully engaged during his 1894 stay. Among the city's wealthy elite who hosted him in their elegant residences were figures commanding considerable economic influence. These mansions provided refined domestic settings where intimate philosophical discussions complemented his public lectures, demonstrating his ability to bridge the gap between high society and spiritual teaching."
+    ],
+    "image": "corbin_mansion_nyc.jpg"
+  },
+  {
+    "id": "home_lorenzo_barbers_nyc",
+    "title": "Home of Lorenzo Barbers",
+    "description": [
+      "Lorenzo Barbers opened his New York home to Swami Vivekananda in 1894, contributing to the network of private residences that anchored the Swami's teachings in American domestic life. Such homes became laboratories for the practical application of Vedanta, where sustained personal relationships allowed the Swami's disciples to deepen their understanding beyond formal lectures. Through these intimate family connections, Vivekananda wove his universal philosophy into the daily existence of his earliest American followers."
+    ],
+    "image": "home_lorenzo_barbers_nyc.jpg"
+  },
+  {
+    "id": "hall_universal_brotherhood_nyc",
+    "title": "Hall of Universal Brotherhood",
+    "description": [
+      "The Hall of Universal Brotherhood in New York City served as a public forum for Swami Vivekananda's teachings during 1894-1895, its very name embodying the central thrust of his American mission. From this stage, he expounded the universal principles underlying Raja Yoga and Vedantic philosophy, emphasizing the fundamental unity of all existence that transcended sectarian divides. The venue provided an accessible space where diverse New York audiences could encounter his vision of a spirituality liberated from narrow institutional boundaries."
+    ],
+    "image": "hall_universal_brotherhood_nyc.jpg"
+  },
+  {
+    "id": "exodus_club_nyc",
+    "title": "Exodus club",
+    "description": [
+      "The Exodus Club in New York received Swami Vivekananda as a speaker in 1894, reflecting the diversity of venues through which he disseminated his teachings to American intellectuals and professionals. The club's members, drawn from educated circles across the city, encountered his Vedantic vision in an intimate setting that encouraged substantive dialogue. This variety of platforms—from fashionable private clubs to public halls—demonstrated the universal appeal of his message across different strata of American society."
+    ],
+    "image": "exodus_club_nyc.jpg"
+  },
+  {
+    "id": "mott_memorial_hall_nyc",
+    "title": "Mott Memorial Hall",
+    "description": [
+      "Swami Vivekananda delivered public lectures at Mott Memorial Hall during his first American visit in 1894-1895, attracting substantial audiences eager to hear his exposition of Vedanta and Indian philosophy. The hall became one of the key venues through which he reached the broader New York public beyond the circles of wealthy patrons, demonstrating his capacity to communicate with diverse audiences. His lectures there contributed significantly to establishing Vedanta's presence as a serious philosophical force in American intellectual life."
+    ],
+    "image": "mott_memorial_hall_nyc.jpg"
+  },
+  {
+    "id": "west_39th_street_nyc",
+    "title": "228 West Thirty-ninth Street(Second HQ)",
+    "description": [
+      "At 228 West Thirty-ninth Street, Swami Vivekananda established his second headquarters for Vedanta work in New York during 1895, consolidating the organizational structure of his American mission. The residence served as a center for regular classes and meetings where students could pursue sustained study of his teachings. This more permanent institutional base marked the transition from the early dispersed gatherings in private homes to a more organized framework for Vedanta's propagation in America."
+    ],
+    "image": "west_39th_street_nyc.jpg"
+  },
+  {
+    "id": "hardman_hall_nyc",
+    "title": "Hardman Hall",
+    "description": [
+      "During 1894-1895, Swami Vivekananda utilized Hardman Hall as one of the prominent venues for his public lectures and classes on Vedanta in New York City. The hall became a gathering place for intellectuals and spiritual seekers drawn to his teachings on universal religion and Indian philosophy. His lectures at this venue attracted considerable attention from New York's intellectual circles, contributing to the growing recognition of Vedanta in American cultural discourse."
+    ],
+    "image": "hardman_hall_nyc.jpg"
+  },
+  {
+    "id": "madison_square_garden_concert_hall",
+    "title": "Madison Square Garden Concert Hall",
+    "description": [
+      "In 1894, Swami Vivekananda graced the prestigious Madison Square Garden Concert Hall, one of the era's most distinguished venues, where he delivered inspiring discourses on Vedanta, universal religion, and the greatness of Indian civilization. Large crowds assembled to hear the eloquent Hindu monk speak, making it a significant venue in his mission to bring Eastern philosophy to Western audiences. The event underscored how successfully Vivekananda had captured the imagination of New York's educated populace during his groundbreaking first American tour."
+    ],
+    "image": "madison_square_garden_concert_hall.jpg"
+  },
+  {
+    "id": "ramakrishna_vivekananda_center_ny",
+    "title": "Ramakrishna-Vivekananda Center of New York",
+    "description": [
+      "The Ramakrishna-Vivekananda Center of New York owes its spiritual foundation directly to Swami Vivekananda's pioneering work in the city during 1894-1895. Through his lectures, teachings, and personal interactions with devoted followers, Vivekananda established the intellectual and spiritual groundwork upon which this enduring institution was built. The center stands as a living testament to his vision of bringing Vedantic study and practice to the Western world, carrying forward the legacy he initiated during his transformative years in New York."
+    ],
+    "image": "ramakrishna_vivekananda_center_ny.png"
+  },
+  {
+    "id": "charles_higgins_home_brooklyn",
+    "title": "Charles Higgins Home",
+    "description": [
+      "During 1895, the Brooklyn home of Charles Higgins served as one of the welcoming residences where Swami Vivekananda was hosted during his extensive travels through the New York metropolitan area. The hospitality extended by Higgins and other American devotees provided the monk with a base from which to conduct his lectures and meetings throughout Brooklyn and Manhattan. These private homes became essential to Vivekananda's mission, offering both shelter and opportunities to deepen his influence among America's intellectual and spiritual seekers."
+    ],
+    "image": "charles_higgins_home_brooklyn.jpg"
+  },
+  {
+    "id": "pouch_mansion_brooklyn",
+    "title": "Pouch Mansion",
+    "description": [
+      "In April 1895, the Pouch Mansion gallery on Clinton Avenue in Brooklyn hosted a special meeting of the Brooklyn Ethical Association featuring Swami Vivekananda as the main speaker. He delivered a lecture on the customs of the Hindus, explaining their true meaning and correcting widespread misinterpretations in Western understanding. The event demonstrated the monk's systematic effort to educate American audiences about Hindu culture and philosophy, utilizing Brooklyn's cultural venues to reach diverse groups of intellectuals and society members."
+    ],
+    "image": "pouch_mansion_brooklyn.jpg"
+  },
+  {
+    "id": "charles_auel_house_brooklyn",
+    "title": "Charles Auel's house",
+    "description": [
+      "Charles Auel's residence in Brooklyn became part of the network of supportive American homes that accommodated Swami Vivekananda during his 1895 stay in the New York area. These private residences were crucial to his extended lecture campaign, providing him with convenient bases from which to address various Brooklyn organizations and intellectual circles. The generosity of hosts like Auel enabled Vivekananda to sustain his rigorous schedule of public speaking and personal interactions with American seekers."
+    ],
+    "image": "charles_auel_house_brooklyn.jpg"
+  },
+  {
+    "id": "long_island_historical_society",
+    "title": "The Long Island Historical Society",
+    "description": [
+      "During 1895, the Long Island Historical Society in Brooklyn Heights served as a venue through which Swami Vivekananda engaged with New York's cultural institutions and educated audiences. His participation in the society's programs reflected his strategy of reaching America's established intellectual centers and civic organizations. By speaking at such esteemed institutions, Vivekananda legitimized Vedantic philosophy within American cultural discourse and attracted serious scholars and thinkers to his message."
+    ],
+    "image": "long_island_historical_society.jpg"
+  },
+  {
+    "id": "robertson_hall_brooklyn",
+    "title": "Robertson Hall",
+    "description": [
+      "Robertson Hall in Brooklyn functioned as one of the many venues where Swami Vivekananda conducted lectures and meetings during his intensive 1895 campaign in the New York area. His speaking engagements at such halls formed part of his systematic effort to disseminate Vedantic teachings throughout the metropolitan region. The breadth of his venue selections—from concert halls to community gathering spaces—testified to the widespread appeal his message had achieved among diverse American audiences."
+    ],
+    "image": "robertson_hall_brooklyn.jpg"
+  },
+  {
+    "id": "sarah_waldo_house",
+    "title": "Sarah Ellen Waldo's house",
+    "description": [
+      "Sarah Ellen Waldo's Manhattan residence became a vital spiritual center during Swami Vivekananda's first Western tour of 1894-1895. The home served as a gathering place where the Swami engaged in intimate discussions of Vedantic philosophy with American seekers, and where he found respite between his demanding public lectures. Through Waldo's dedication and social connections, the teachings he shared within her home reached influential circles of New York society, establishing a bridge between Eastern philosophy and Western intellectual culture during his transformative early months in America."
+    ],
+    "image": "sarah_waldo_house.jpg"
+  },
+  {
+    "id": "ridgely_manor_stone_ridge",
+    "title": "Ridgely Manor",
+    "description": [
+      "During the summer of 1895, Swami Vivekananda retreated to Ridgely Manor in Stone Ridge, New York, a peaceful Hudson Valley estate where he found temporary relief from the intensity of his lecture schedule. In this serene setting, he engaged in profound spiritual conversations with devoted American disciples, including Sister Nivedita and other close followers. The quiet months at Ridgely Manor allowed him space for reflection and deeper teaching on themes of renunciation and spiritual practice, even as he wrestled with concerns for those who sought his guidance."
+    ],
+    "image": "ridgely_manor_stone_ridge.jpg"
+  },
+  {
+    "id": "lyndhurst_irvington",
+    "title": "Lyndhurst",
+    "description": [
+      "Lyndhurst, the magnificent Gothic Revival mansion overlooking the Hudson River in Irvington, represented the grand American estates that opened their doors to Swami Vivekananda during his 1895 travels through the Hudson Valley region. His presence at such prominent homes reflected the growing fascination of America's influential families with his message of universal spirituality and Indian wisdom, connecting him with the cultural and intellectual elite of the era."
+    ],
+    "image": "lyndhurst_irvington.jpg"
+  },
+  {
+    "id": "central_church_of_christ_des_moines",
+    "title": "Central Church of Christ",
+    "description": [
+      "On November 27, 1894, Swami Vivekananda addressed the congregation of the Central Church of Christ in Des Moines, Iowa, delivering his teachings on Hinduism and universal religion to an engaged American audience. His lectures during this Des Moines visit demonstrated his ability to speak directly to American religious communities, dispelling misconceptions about Indian spirituality while presenting Vedantic philosophy in language that resonated with Western seekers and clergy alike."
+    ],
+    "image": "central_church_of_christ_des_moines.jpg"
+  },
+  {
+    "id": "rev_breedens_home_des_moines",
+    "title": "Rev. Breeden's home",
+    "description": [
+      "During his November 1894 visit to Des Moines, Swami Vivekananda found hospitality in the home of Reverend Breeden, reflecting the openness of American religious leaders to engage with his radical vision of universal spirituality. The reverend's invitation to host the Hindu monk in his home signaled a willingness among American clergy to bridge denominational boundaries and explore the deeper teachings that transcended sectarian differences."
+    ],
+    "image": "rev_breedens_home_des_moines.jpg"
+  },
+  {
+    "id": "savery_hotel_des_moines",
+    "title": "Savery Hotel",
+    "description": [
+      "The Savery Hotel served as Swami Vivekananda's lodging during his November 1894 stay in Des Moines, Iowa, providing him a base from which to conduct his lectures and meetings throughout the city. From this downtown location, he engaged with Des Moines' educated and religious populace, sharing his message of Vedanta and universal brotherhood while gathering support and funds for his philanthropic vision in India."
+    ],
+    "image": "savery_hotel_des_moines.jpg"
+  },
+  {
+    "id": "drake_university_des_moines",
+    "title": "Drake University",
+    "description": [
+      "Swami Vivekananda brought his teachings on Vedanta and Indian philosophy to the academic community at Drake University in Des Moines during his 1894 visit. His appearance at the university demonstrated his capacity to engage with educated American audiences in intellectual forums, presenting Eastern wisdom in dialogue with Western learning and establishing his credibility among scholars and educators."
+    ],
+    "image": "drake_university_des_moines.png"
+  },
+  {
+    "id": "la_salette_academy_memphis",
+    "title": "La Salette Academy",
+    "description": [
+      "In January 1894, Swami Vivekananda addressed audiences at La Salette Academy in Memphis, Tennessee, as part of his broader campaign to reinterpret Hinduism and Indian culture for American understanding. His lectures at the academy reached Memphis's educated and religious circles, presenting his message of tolerance and universal brotherhood while correcting Western misconceptions about Indian spirituality and philosophy."
+    ],
+    "image": "la_salette_academy_memphis.jpg"
+  },
+  {
+    "id": "tennessee_club_memphis",
+    "title": "The Tennessee Club",
+    "description": [
+      "The Tennessee Club served as one of several prestigious venues where Swami Vivekananda was received during his January 1894 visit to Memphis. As a respected social institution, the club's hospitality demonstrated his acceptance among the city's established society, extending his reach beyond lecture halls to the intimate circles of Memphis's influential classes."
+    ],
+    "image": "tennessee_club_memphis.jpg"
+  },
+  {
+    "id": "randolph_building_memphis",
+    "title": "Randolph Building",
+    "description": [
+      "The Randolph Building in Memphis hosted Swami Vivekananda's lectures in January 1894 as part of his ambitious American tour to share Vedantic philosophy across the South. The venue facilitated his mission to correct Western misconceptions about India and its spiritual traditions while generating support for his philanthropic endeavors back home."
+    ],
+    "image": "randolph_building_memphis.jpg"
+  },
+  {
+    "id": "auditorium_memphis",
+    "title": "Auditorium",
+    "description": [
+      "The Auditorium in Memphis proved to be a major public forum for Swami Vivekananda's teachings during his January 1894 visit. Local newspapers lauded him as among the most eloquent speakers ever to grace the American platform, and Judge R. J. introduced him to audiences eager to hear about Hinduism from such a distinguished and articulate spokesman."
+    ],
+    "image": "auditorium_memphis.jpg"
+  },
+  {
+    "id": "womans_council_memphis",
+    "title": "The Woman's Council",
+    "description": [
+      "The Woman's Council of Memphis welcomed Swami Vivekananda during his 1894 visit, reflecting the particular enthusiasm American women's organizations showed toward his message of spiritual equality and universal religion. His lectures to such groups resonated deeply, as they provided platforms for discussing the empowering spiritual teachings he brought from India."
+    ],
+    "image": "womans_council_memphis.jpg"
+  },
+  {
+    "id": "ymha_hall_memphis",
+    "title": "Young Men's Hebrew Association Hall",
+    "description": [
+      "The Young Men's Hebrew Association Hall in Memphis provided Swami Vivekananda with yet another diverse venue during his January 1894 stay in the city. His presence at Jewish community spaces illustrated his universal appeal across religious boundaries and his ability to inspire audiences from varied faith traditions with his message of underlying spiritual unity."
+    ],
+    "image": "ymha_hall_memphis.jpg"
+  },
+  {
+    "id": "mrs_bagley_residence_detroit",
+    "title": "Mrs.Bagley residence",
+    "description": [
+      "Mrs. Bagley's residence in Detroit offered Swami Vivekananda shelter and private spiritual fellowship during his 1894 visit to Michigan. These domestic settings allowed him respite from his rigorous speaking schedule while providing American families intimate access to his teachings and the opportunity for deeper philosophical conversations."
+    ],
+    "image": "mrs_bagley_residence_detroit.jpg"
+  },
+  {
+    "id": "detroit_club",
+    "title": "Detroit club",
+    "description": [
+      "The Detroit Club, among the city's most prestigious social institutions, hosted Swami Vivekananda in 1894, bringing his Vedantic message directly to Detroit's civic and business leadership. Such exclusive venues amplified his influence among America's influential classes, establishing Vedanta within the circles of power and prestige."
+    ],
+    "image": "detroit_club.jpg"
+  },
+  {
+    "id": "first_congregational_unitarian_detroit",
+    "title": "First Congregational Unitarian Church",
+    "description": [
+      "The First Congregational Unitarian Church in Detroit became a natural ally for Swami Vivekananda's 1894 lectures, as Unitarian congregations were particularly receptive to his vision of universal religion and interfaith harmony. His message of underlying spiritual unity resonated with their theological inclinations and progressive religious outlook."
+    ],
+    "image": "first_congregational_unitarian_detroit.jpg"
+  },
+  {
+    "id": "tw_palmer_house_detroit",
+    "title": "T W Palmer House",
+    "description": [
+      "During his 1894 visit to Detroit, Swami Vivekananda was received as an honored guest at the T.W. Palmer House, the distinguished residence of Senator Thomas W. Palmer. This invitation reflected the considerable social standing Vivekananda had achieved in American society following his triumphant appearance at the Parliament of Religions. From Detroit, he proceeded onward to Bay City in late March, continuing his ambitious tour of the American Midwest."
+    ],
+    "image": "tw_palmer_house_detroit.jpg"
+  },
+  {
+    "id": "richelieu_hotel_detroit",
+    "title": "Richelieu Hotel",
+    "description": [
+      "The sources do not provide direct evidence that the Richelieu Hotel served as Swami Vivekananda's base in Detroit during 1894. While contemporary newspaper accounts document his presence in the city and his time as a guest of Senator Palmer, the specific hotel where he stayed remains unclear from the available materials. The Hotel Vincent is mentioned in connection with his travels in the region."
+    ],
+    "image": "richelieu_hotel_detroit.jpg"
+  },
+  {
+    "id": "temple_beth_el_detroit",
+    "title": "Temple Beth El",
+    "description": [
+      "The sources do not provide specific evidence that Swami Vivekananda lectured at Temple Beth El in Detroit during 1894. While his broader tour of Detroit and the surrounding Michigan cities is well-documented, and his philosophy embraced the universal harmony of all religions, no contemporary accounts directly reference a lecture at this Jewish house of worship."
+    ],
+    "image": "temple_beth_el_detroit.jpg"
+  },
+  {
+    "id": "detroit_opera_house",
+    "title": "Detroit Opera House",
+    "description": [
+      "The sources do not provide specific evidence that Swami Vivekananda lectured at the Detroit Opera House during his 1894 visit. Though he delivered multiple public addresses throughout Detroit and the Michigan region during this tour, the exact venues of his Detroit lectures are not detailed in the available contemporary newspaper accounts."
+    ],
+    "image": "detroit_opera_house.jpg"
+  },
+  {
+    "id": "detroit_auditorium",
+    "title": "Detroit Auditorium",
+    "description": [
+      "The sources do not provide specific evidence that Swami Vivekananda lectured at the Detroit Auditorium during his 1894 visit. While newspapers confirm his presence in Detroit and his numerous public engagements in the surrounding Michigan cities, the particular auditoriums and halls where he spoke in Detroit itself are not explicitly named in the available accounts."
+    ],
+    "image": "detroit_auditorium.jpg"
+  },
+  {
+    "id": "bay_city_opera_house",
+    "title": "Bay City Opera House",
+    "description": [
+      "In late March 1894, Swami Vivekananda arrived in Bay City, Michigan, as a distinguished visitor, having traveled from Detroit where he had been the guest of Senator Palmer. The monk, dressed in his characteristic oriental robes, made a strong impression on observers with his striking appearance and keen intelligence, as he continued his mission to dispel Western misconceptions about India and its spiritual traditions."
+    ],
+    "image": "bay_city_opera_house.jpg"
+  },
+  {
+    "id": "academy_of_music_saginaw",
+    "title": "Academy of Music",
+    "description": [
+      "On the evening of March 22, 1894, Swami Vivekananda addressed a small but deeply engaged audience at the Academy of Music in Saginaw, Michigan, speaking on the theme of religious harmony. Dressed in his distinctive oriental costume, he received an extremely cordial reception from the assembled listeners, continuing his tour of Michigan cities and bringing his teachings on Vedanta to audiences throughout the Great Lakes region."
+    ],
+    "image": "academy_of_music_saginaw.jpg"
+  },
+  {
+    "id": "ada_opera_house_ohio",
+    "title": "Ada Opera house",
+    "description": [
+      "The sources do not provide specific details about Swami Vivekananda's visit to Ada, Ohio, or his appearance at the Ada Opera House during 1894. While his tour of the American Midwest is well-documented, information about this particular stop remains limited in the available historical records."
+    ],
+    "image": "ada_opera_house_ohio.jpg"
+  },
+  {
+    "id": "memorial_opera_house_valparaiso",
+    "title": "Memorial Opera House",
+    "description": [
+      "In 1894, Swami Vivekananda brought his message of Vedanta philosophy to the Memorial Opera House in Valparaiso, Indiana, during his lecture tour of the American Midwest. The university town provided an intellectually receptive audience for his discourses on Indian spiritual heritage and the deeper meanings of Hindu philosophy. His talks on subjects like caste—which he explained not as a rigid religious hierarchy but as a system of trade guilds where each group considered itself superior—demonstrated his gift for reframing Eastern concepts for Western understanding."
+    ],
+    "image": "memorial_opera_house_valparaiso.jpg"
+  },
+  {
+    "id": "greenacre_inn_eliot",
+    "title": "Greenacre Inn Conference",
+    "description": [
+      "Swami Vivekananda participated in the Greenacre Inn Conference in Eliot, Maine, during the summer of 1894, contributing to Sarah Farmer's pioneering interfaith gathering that drew spiritual thinkers from both East and West. His presence at this retreat deepened America's direct engagement with Indian philosophy and Vedantic teachings, creating meaningful exchanges between Eastern and Western spiritual seekers in an atmosphere of openness and mutual respect."
+    ],
+    "image": "greenacre_inn_eliot.jpg"
+  },
+  {
+    "id": "lysekloster_pines_eliot",
+    "title": "Lysekloster Pines",
+    "description": [
+      "Lysekloster Pines, nestled within the Greenacre retreat grounds in Eliot, Maine, provided the tranquil pine-shaded setting where Swami Vivekananda spent time during the summer spiritual conferences of 1894. This peaceful environment fostered intimate meditation, philosophical discourse, and the spontaneous exchange of spiritual ideas between the swami and the American seekers who gathered there."
+    ],
+    "image": "lysekloster_pines_eliot.jpg"
+  },
+  {
+    "id": "vrooman_brothers_residence_baltimore",
+    "title": "Vrooman brothers residence",
+    "description": [
+      "During his 1894 visit to Baltimore, Swami Vivekananda was hosted at the residence of the Vrooman brothers, whose family was part of the progressive American intellectual circles receptive to his message of universal religion and Vedantic philosophy. The brothers organized a series of lectures on 'Dynamic Religion' at the Lyceum Theater, with Vivekananda as a featured speaker, marking an important moment in Baltimore's introduction to Eastern spiritual thought."
+    ],
+    "image": "vrooman_brothers_residence_baltimore.jpg"
+  },
+  {
+    "id": "hotel_rennert_baltimore",
+    "title": "Hotel Rennert",
+    "description": [
+      "The Hotel Rennert in Baltimore served as Swami Vivekananda's base during his 1894 visit to the city, from which he conducted his lecture engagements and received the many American admirers drawn to discuss Vedanta and Indian civilization with him. The hotel's prominence reflected his growing status as a significant spiritual teacher during his American tour."
+    ],
+    "image": "hotel_rennert_baltimore.jpg"
+  },
+  {
+    "id": "lyceum_theater_baltimore",
+    "title": "Lyceum Theater",
+    "description": [
+      "The Lyceum Theater in Baltimore filled to capacity on October 15, 1894, for the first of the Vrooman Brothers' series on 'Dynamic Religion,' where Swami Vivekananda delivered brief but compelling remarks that captured marked attention from the audience. A week later, on October 22, the theater was packed from pit to dome with approximately 3,000 people attending his lecture on 'The Religion of Buddha,' demonstrating the swami's rapidly growing influence in Baltimore's intellectual circles."
+    ],
+    "image": "lyceum_theater_baltimore.jpg"
+  },
+  {
+    "id": "geo_grafflin_house_baltimore",
+    "title": "Geo Grafflin's House",
+    "description": [
+      "George Grafflin's home in Baltimore welcomed Swami Vivekananda during his 1894 visit, offering one of the private settings where Baltimore's educated and spiritually curious residents could engage in intimate discussions of Vedantic philosophy and Indian spiritual wisdom with the renowned swami."
+    ],
+    "image": "geo_grafflin_house_baltimore.jpg"
+  },
+  {
+    "id": "harris_academy_concert_hall_baltimore",
+    "title": "Harris' Academy of Music Concert Hall",
+    "description": [
+      "Harris' Academy of Music Concert Hall in Baltimore provided a premier venue for Swami Vivekananda's lectures during his 1894 visit to the city. The hall's distinguished reputation for hosting accomplished speakers ensured a large and appreciative audience for his expositions on the universal principles underlying Vedanta and the profound spiritual heritage of India."
+    ],
+    "image": "harris_academy_concert_hall_baltimore.jpg"
+  },
+  {
+    "id": "typographical_temple_dc",
+    "title": "Typographical Temple(People's Church)",
+    "description": [
+      "During his first Western tour in 1894, Swami Vivekananda lectured at the Typographical Temple, also known as the People's Church, in Washington D.C. The venue's association with working people and progressive causes provided an ideal platform for his message of practical Vedanta. Speaking to audiences drawn from the laboring classes, he articulated the spiritual dignity inherent in all human beings and all forms of honest work, demonstrating how Vedantic philosophy spoke directly to the concerns and aspirations of ordinary Americans."
+    ],
+    "image": "typographical_temple_dc.jpg"
+  },
+  {
+    "id": "mrs_totten_residence_dc",
+    "title": "Mrs.E.Totten residence",
+    "description": [
+      "Mrs. E. Totten's Washington D.C. residence became one of several distinguished homes where Swami Vivekananda was hosted during his 1894 visit to the nation's capital. These intimate private gatherings in the parlors and drawing rooms of influential residents allowed him to engage in deeper philosophical discussions with America's political and social elite, introducing Vedantic thought to those wielding power and shaping public discourse."
+    ],
+    "image": "mrs_totten_residence_dc.jpg"
+  },
+  {
+    "id": "metzerott_music_hall_dc",
+    "title": "Metzerott Music Hall",
+    "description": [
+      "Metzerott Music Hall in Washington D.C. served as one of the premier public venues for Swami Vivekananda's lectures during his 1894 visit. The hall's reputation for hosting distinguished speakers ensured large audiences drawn by curiosity about this remarkable Indian monk and his teachings on Vedanta, providing him with an impressive platform to address the capital's intellectual and cultural classes."
+    ],
+    "image": "metzerott_music_hall_dc.jpg"
+  },
+  {
+    "id": "unity_hall_hartford",
+    "title": "Unity Hall",
+    "description": [
+      "Unity Hall in Hartford, Connecticut, hosted Swami Vivekananda during his 1895 visit to the city. The venue's name reflected the philosophical harmony he sought to convey—the fundamental unity underlying all religious traditions. Hartford's progressive intellectual climate proved receptive to his message, and the hall provided a fitting setting for lectures that appealed to the city's spiritually-minded residents."
+    ],
+    "image": "unity_hall_hartford.jpg"
+  },
+  {
+    "id": "white_birch_lodge_percy",
+    "title": "White Birch Lodge",
+    "description": [
+      "In early June 1895, after nearly exhausting himself with relentless class and public lecturing, Swami Vivekananda accepted an invitation to White Birch Lodge in Percy, New Hampshire. The scenic beauty and quietude of the White Mountains provided essential respite, allowing him to recover his strength amid the natural tranquility of the New England landscape before resuming his intensive work of spreading Vedantic teachings across America."
+    ],
+    "image": "white_birch_lodge_percy.jpg"
+  },
+  {
+    "id": "stimpson_mansion_la",
+    "title": "Stimpson Mansion",
+    "description": [
+      "The Stimpson Mansion in Los Angeles welcomed Swami Vivekananda during his 1900 visit to Southern California, his second Western tour. Los Angeles's spiritually-minded residents, many of whom had developed deep reverence for Indian philosophy through his writings, entertained him at grand receptions in their homes. Such distinguished residences became gathering places where he could deepen connections with devoted followers and influential supporters of his spiritual mission."
+    ],
+    "image": "stimpson_mansion_la.jpg"
+  },
+  {
+    "id": "roxie_blodgett_cottage_la",
+    "title": "Roxie Blodgett Cottage",
+    "description": [
+      "Roxie Blodgett's cottage in Los Angeles provided warm hospitality to Swami Vivekananda during his 1900 California visit. His devoted American followers like Blodgett offered comfortable accommodations and crucial assistance in organizing his lecture engagements throughout Southern California, helping to extend the reach of his teachings among Los Angeles's growing community of spiritual seekers."
+    ],
+    "image": "roxie_blodgett_cottage_la.jpg"
+  },
+  {
+    "id": "blanchard_hall_la",
+    "title": "Blanchard Hall",
+    "description": [
+      "Blanchard Hall in Los Angeles hosted Swami Vivekananda's public lectures during his 1900 Southern California visit. The venue provided a public platform where he addressed large audiences on Vedanta, Raja Yoga, and India's ancient spiritual traditions, continuing his mission to bring the wisdom of the Vedas and Upanishads to American audiences receptive to universal spiritual principles."
+    ],
+    "image": "blanchard_hall_la.jpg"
+  },
+  {
+    "id": "unity_church_la",
+    "title": "Unity Church",
+    "description": [
+      "During his 1900 California visit, Swami Vivekananda addressed audiences at the Unity Church in Los Angeles, finding in its congregation a naturally receptive group for his message. The Unity movement's focus on practical spirituality resonated deeply with Vivekananda's own philosophy of practical Vedanta, emphasizing the application of spiritual truths to daily life. This alignment between the Swami's teachings and the church's principles created an especially fruitful exchange of ideas between the Indian sage and California's New Thought seekers."
+    ],
+    "image": "unity_church_la.jpg"
+  },
+  {
+    "id": "paynes_hall_la",
+    "title": "Payne's Hall",
+    "description": [
+      "Payne's Hall served as one of the lecture venues through which Swami Vivekananda disseminated Vedantic teachings to Los Angeles audiences during his 1900 southern California tour. As part of a broader circuit including other halls and private residences, the venue hosted presentations to those who had studied his writings and developed a profound interest in Indian philosophy and culture. His appearances at such public spaces, interspersed with private receptions hosted by distinguished citizens, extended his influence across the region."
+    ],
+    "image": "paynes_hall_la.jpg"
+  },
+  {
+    "id": "home_of_truth_la",
+    "title": "Home of Truth",
+    "description": [
+      "The Home of Truth, a New Thought spiritual center in Los Angeles, became another gathering place for Swami Vivekananda's teachings during his 1900 visit to California. The center's emphasis on spiritual healing and mental metaphysics found common ground with Vedantic philosophy, attracting spiritual seekers from across the city who wished to hear the Swami's interpretations of ancient Indian wisdom. His presence at such venues reinforced the growing dialogue between Eastern spirituality and Western New Thought movements."
+    ],
+    "image": "home_of_truth_la.jpg"
+  },
+  {
+    "id": "echo_mountain_house_la",
+    "title": "Echo Mountain House",
+    "description": [
+      "Swami Vivekananda journeyed to Echo Mountain House in the San Gabriel Mountains above Pasadena during his 1900 California stay, seeking respite from the intensity of his lecture schedule. The mountain retreat, perched high above Southern California's landscape, offered him a tranquil sanctuary for contemplation and reflection between his active teaching engagements. The panoramic vistas from this elevated location provided an inspiring natural setting that complemented his spiritual work."
+    ],
+    "image": "echo_mountain_house_la.jpg"
+  },
+  {
+    "id": "mount_lowe_la",
+    "title": "Mount Lowe",
+    "description": [
+      "Mount Lowe's celebrated railway drew Swami Vivekananda during his excursion through the San Gabriel Mountains in 1900, allowing him to experience one of California's premier tourist attractions. The engineering marvel and breathtaking alpine scenery captivated the Swami as he traveled through the grand California landscape, offering him both physical recreation and spiritual inspiration. This journey into nature's grandeur punctuated his intensive work among the seekers of Los Angeles."
+    ],
+    "image": "mount_lowe_la.jpg"
+  },
+  {
+    "id": "mrs_newton_house_south_pasadena",
+    "title": "Mrs.Newton's house",
+    "description": [
+      "Mrs. Newton's home in South Pasadena provided Swami Vivekananda with comfortable accommodation during his 1900 visit to the Pasadena area. The verdant, peaceful suburb offered a restorative environment between his demanding lecture engagements in Los Angeles, allowing him moments of quietude to recharge his spiritual energies. The hospitality of such devoted households formed an essential support network for his second Western missionary tour."
+    ],
+    "image": "mrs_newton_house_south_pasadena.jpg"
+  },
+  {
+    "id": "mrs_bowler_house_south_pasadena",
+    "title": "Mrs.E.F.Bowler house",
+    "description": [
+      "Mrs. E.F. Bowler opened her South Pasadena home to Swami Vivekananda during his 1900 Southern California visit, exemplifying the warm welcome he received from American women devoted to spiritual advancement. These gracious hostesses played a vital role in sustaining his mission by providing lodging and creating intimate gatherings where spiritual seekers could encounter the Swami's teachings. Their generosity and faith enabled him to concentrate fully on his work of spreading Vedantic philosophy."
+    ],
+    "image": "mrs_bowler_house_south_pasadena.jpg"
+  },
+  {
+    "id": "green_hotel_pasadena",
+    "title": "Green Hotel",
+    "description": [
+      "The Green Hotel in Pasadena served as accommodation for Swami Vivekananda during his 1900 California journey, placing him in a locale known for its cultural refinement and intellectual openness. The Pasadena area's elegant hospitality establishments and culturally vibrant community provided an appropriate setting for this phase of his second Western tour. The region's educated and spiritually-inclined residents formed an attentive audience for his profound teachings on Vedanta."
+    ],
+    "image": "green_hotel_pasadena.jpg"
+  },
+  {
+    "id": "shakespeare_club_south_pasadena",
+    "title": "Shakespeare club",
+    "description": [
+      "During his 1900 California visit, Swami Vivekananda lectured at the Shakespeare Club in South Pasadena, where the club's educated and culturally-minded membership proved receptive to his eloquent discourses on Indian philosophy and Vedanta. Literary and cultural societies such as this provided ideal venues for spreading his message to audiences already inclined toward intellectual and spiritual inquiry."
+    ],
+    "image": "shakespeare_club_south_pasadena.jpg"
+  },
+  {
+    "id": "universalist_church_south_pasadena",
+    "title": "Universalist Church",
+    "description": [
+      "The Universalist Church in South Pasadena hosted Swami Vivekananda during his 1900 California visit, where his lectures on universal spirituality and the realization of a universal religion drew huge audiences. His message of the divine self present in all beings resonated deeply with the Universalist congregation's belief in the salvation of all souls and the fundamental harmony underlying different religious traditions."
+    ],
+    "image": "universalist_church_south_pasadena.jpg"
+  },
+  {
+    "id": "meads_sisters_house_south_pasadena",
+    "title": "Meads Sisters house",
+    "description": [
+      "The home of the Meads Sisters in South Pasadena provided welcoming hospitality to Swami Vivekananda during his 1900 stay in the Pasadena area. Among his devoted American followers in Southern California, the sisters assisted in spreading his Vedantic teachings within their community and contributed to the flourishing of spiritual study groups in the region."
+    ],
+    "image": "meads_sisters_house_south_pasadena.jpg"
+  },
+  {
+    "id": "first_unitarian_church_oakland",
+    "title": "First Unitarian Church",
+    "description": [
+      "Swami Vivekananda lectured at the First Unitarian Church in Oakland during his 1900 West Coast visit, where the congregation's progressive and intellectually open approach to religious inquiry made them an ideal audience for his teachings. His exposition of the inherent divinity of the soul and the universality of spiritual truth found fertile ground among Oakland's Unitarian members."
+    ],
+    "image": "first_unitarian_church_oakland.jpg"
+  },
+  {
+    "id": "george_perry_house_alameda",
+    "title": "George H.Perry house",
+    "description": [
+      "During his second Western tour in 1900, Swami Vivekananda was hosted at the home of George H. Perry in Alameda, where devoted California followers welcomed him warmly. His stay in this Bay Area community reflected the growing circle of supporters who sought his guidance on spiritual practice and Indian philosophy during the productive months of March through May 1900."
+    ],
+    "image": "george_perry_house_alameda.jpg"
+  },
+  {
+    "id": "alameda_home_of_truth",
+    "title": "Alameda Home of Truth",
+    "description": [
+      "The Alameda Home of Truth served as one of several New Thought spiritual centres in California where Swami Vivekananda's teachings on Vedanta found receptive audiences during his 1900 visit. These organized centres provided structured venues for his lectures and attracted seekers interested in the practical application of universal spiritual principles that aligned with his message."
+    ],
+    "image": "alameda_home_of_truth.jpg"
+  },
+  {
+    "id": "tucker_hall_alameda",
+    "title": "Tucker Hall",
+    "description": [
+      "Tucker Hall in Alameda hosted three lectures by Swami Vivekananda on the evenings of April 13, 16, and 18, 1900, on the subjects of Raja-Yoga, concentration and breathing techniques, and the practice of religion. These presentations exemplified his ability to translate ancient Hindu spiritual disciplines into practical guidance accessible to Western audiences seeking deeper religious understanding."
+    ],
+    "image": "tucker_hall_alameda.jpg"
+  },
+  {
+    "id": "home_of_truth_sf",
+    "title": "Home of Truth",
+    "description": [
+      "The Home of Truth in San Francisco provided a key venue for Swami Vivekananda's extensive teaching activities during his 1900 California visit, when he delivered lectures and conducted classes for students eager to learn the Vedantic philosophy. San Francisco's vibrant spiritual community embraced his message, and the Home of Truth network facilitated the organized study and dissemination of his teachings throughout the Bay Area."
+    ],
+    "image": "home_of_truth_sf.jpg"
+  },
+  {
+    "id": "california_st_home_of_truth_sf",
+    "title": "California St. Home of Truth",
+    "description": [
+      "During his 1900 San Francisco visit, Swami Vivekananda lectured on Vedanta philosophy and the Bhagavad Gita at the California Street Home of Truth, a New Thought centre situated on one of the city's prominent thoroughfares. The location attracted educated and spiritually curious residents from San Francisco's affluent neighbourhoods who came to learn from the renowned teacher. His presence created tremendous intellectual ferment throughout the city, drawing audiences who had previously heard of him through newspaper accounts of his 1893 Parliament of Religions lectures."
+    ],
+    "image": "california_st_home_of_truth_sf.jpg"
+  },
+  {
+    "id": "turk_st_house_sf",
+    "title": "1719 Turk St. House",
+    "description": [
+      "The house at 1719 Turk Street in San Francisco served as one of Swami Vivekananda's residences during his extended stay from February through May 1900. From this and other addresses across the city, he conducted Vedanta classes and received visitors eager to learn about Indian spirituality and philosophy. During this period, his reputation grew substantially within San Francisco's intellectual and spiritual circles, attracting both formal class participants and those seeking private interviews for spiritual guidance."
+    ],
+    "image": "turk_st_house_sf.jpg"
+  },
+  {
+    "id": "golden_gate_hall_sf",
+    "title": "Golden Gate Hall",
+    "description": [
+      "Golden Gate Hall was one of the primary public venues where Swami Vivekananda delivered his Sunday lectures during March and April 1900. Part of his rigorous San Francisco schedule, these public addresses at Golden Gate Hall were complemented by evening lectures three times weekly at other halls throughout the city, creating an extensive circuit of Vedanta teachings that captured the attention of Bay Area audiences."
+    ],
+    "image": "golden_gate_hall_sf.jpg"
+  },
+  {
+    "id": "washington_hall_sf",
+    "title": "Washington Hall",
+    "description": [
+      "Washington Hall hosted three evening lectures weekly by Swami Vivekananda during his 1900 San Francisco residency. This venue became part of his intensive teaching schedule from late February through May, where he presented his transformative teachings on Vedanta philosophy to devoted audiences, establishing a strong foundation for Vedanta practice in the Bay Area."
+    ],
+    "image": "washington_hall_sf.jpg"
+  },
+  {
+    "id": "union_square_hall_sf",
+    "title": "Union Square Hall",
+    "description": [
+      "Union Square Hall, centrally located in San Francisco near the city's famous public square, served as one of the Sunday lecture venues where Swami Vivekananda addressed audiences during March and April 1900. The accessible location enabled a broad cross-section of San Franciscans to gather and hear his powerful expositions on Vedanta and universal spirituality."
+    ],
+    "image": "union_square_hall_sf.jpg"
+  },
+  {
+    "id": "mount_shasta_ca",
+    "title": "Mount Shasta, CA",
+    "description": [
+      "Swami Vivekananda journeyed to Mount Shasta during his 1900 California sojourn, drawn to the majestic volcanic peak's natural grandeur and spiritual significance. The towering mountain, long revered as a sacred site, provided an apt setting for contemplation that resonated deeply with his meditative temperament and his reverence for nature as a manifestation of the divine."
+    ],
+    "image": "mount_shasta_ca.png"
+  },
+  {
+    "id": "milburn_logan_home_sf",
+    "title": "Dr.Milburn Logan's home",
+    "description": [
+      "Dr. Milburn Logan's San Francisco home provided hospitality to Swami Vivekananda during his 1900 Bay Area visit, offering lodging and support for his Vedanta mission. Dr. Logan numbered among the devoted California devotees who recognized the transformative potential of Vivekananda's teachings and generously extended their homes and resources to facilitate his spiritual work on the West Coast."
+    ],
+    "image": "milburn_logan_home_sf.jpg"
+  },
+  {
+    "id": "camp_irving_camp_taylor",
+    "title": "Camp Irving",
+    "description": [
+      "Camp Irving at Camp Taylor in Marin County's redwood forests offered a peaceful retreat setting where Swami Vivekananda's students gathered for spiritual practice during his 1900 California period. The tranquil natural environment proved ideal for the intensive meditation and monastic disciplines that characterized the annual month-long retreats established to deepen the spiritual development of his devoted followers."
+    ],
+    "image": "camp_irving_camp_taylor.jpg"
+  },
+  {
+    "id": "et_sturdy_house_caversham",
+    "title": "E.T.Sturdy's house",
+    "description": [
+      "E.T. Sturdy's house in Caversham near Reading became Swami Vivekananda's principal residence during his 1895-1896 sojourn in England. Sturdy, a devoted Sanskrit scholar and disciple, provided Swamiji with both shelter and intellectual companionship, assisting him in translating texts and organizing classes that introduced Vedanta to the English-speaking world. From this quiet refuge, Vivekananda conducted continuous teaching and laid the spiritual foundation that would establish his legacy in Britain."
+    ],
+    "image": "et_sturdy_house_caversham.png"
+  },
+  {
+    "id": "prince_hall_london",
+    "title": "Prince Hall",
+    "description": [
+      "Prince Hall hosted Swami Vivekananda during his London lecture tour of 1895-1896, where he addressed audiences drawn from England's intellectual and cultured circles. These public lectures at distinguished venues proved instrumental in presenting Vedantic philosophy to Victorian Britain's thinking classes, establishing the spiritual teachings as a legitimate and worthy subject for serious consideration among the English educated elite."
+    ],
+    "image": "prince_hall_london.jpg"
+  },
+  {
+    "id": "oakley_street_london",
+    "title": "80,  Oakley street",
+    "description": [
+      "During his 1895-1896 London visit, Swami Vivekananda occupied 80 Oakley Street in Chelsea, positioning himself in one of the capital's most culturally vibrant neighbourhoods. From this Chelsea address, he conducted classes and received the many English admirers and aspirants who sought his spiritual guidance, contributing to the establishment of a dedicated circle of Vedantic practitioners in the heart of London."
+    ],
+    "image": "oakley_street_london.jpg"
+  },
+  {
+    "id": "st_georges_rd_london",
+    "title": "63 St George's Rd",
+    "description": [
+      "Swami Vivekananda taught Vedanta from 63 St George's Road during his 1895-1896 residence in London, where he cultivated a group of devoted English disciples. This address became a centre of spiritual instruction and philosophical inquiry, attracting sincere seekers who would subsequently carry his message across Britain and establish the foundations of the Vedanta movement throughout Europe."
+    ],
+    "image": "st_georges_rd_london.jpg"
+  },
+  {
+    "id": "victoria_st_london",
+    "title": "39 Victoria St.",
+    "description": [
+      "Located near the seat of imperial power in Westminster, 39 Victoria Street served as one of Swami Vivekananda's bases during his 1895-1896 London mission. From this central address, he engaged with some of Victorian Britain's most prominent intellectual and spiritual figures, conducting philosophical discourse that brought Eastern wisdom to the attention of England's governing and cultural classes."
+    ],
+    "image": "victoria_st_london.jpg"
+  },
+  {
+    "id": "grey_coat_gardens_london",
+    "title": "14 Grey Coat Gardens",
+    "description": [
+      "At 14 Grey Coat Gardens in Westminster, Swami Vivekananda maintained a quiet residence during his 1895-1896 English visit, where he engaged in deep conversations about spiritual philosophy and practice. The peaceful residential setting of this address provided an ideal environment for his teaching work, allowing him to impart Vedantic wisdom to sincere English disciples in an atmosphere conducive to serious spiritual study."
+    ],
+    "image": "grey_coat_gardens_london.jpg"
+  },
+  {
+    "id": "unitarian_church_london",
+    "title": "Unitarian Church",
+    "description": [
+      "Swami Vivekananda lectured at a Unitarian Church in London during 1895-1896, finding in the Unitarian community a receptive audience for his teachings on the universality of religion. These engagements at liberal Protestant institutions helped establish a bridge between Eastern and Western spirituality, attracting educated Londoners who appreciated his message that all faiths express the same fundamental spiritual truth."
+    ],
+    "image": "unitarian_church_london.jpg"
+  },
+  {
+    "id": "sesame_club_london",
+    "title": "Sesame Club",
+    "description": [
+      "The Sesame Club provided Swami Vivekananda with a prestigious platform during his 1895-1896 London stay, allowing him to address the city's educated elite gathered in its select rooms. Speaking before this influential intellectual society, he succeeded in introducing Vedantic philosophy to some of Britain's most prominent minds, thereby securing respectability and serious engagement with his spiritual teachings among the country's cultural leadership."
+    ],
+    "image": "sesame_club_london.jpg"
+  },
+  {
+    "id": "townhall_maidenhead",
+    "title": "Townhall",
+    "description": [
+      "During his 1895-1896 sojourn in England, Swami Vivekananda carried his message beyond London's intellectual circles to the English countryside, delivering lectures at the Town Hall in Maidenhead, Berkshire. These civic venues provided him with opportunities to reach broader provincial audiences and demonstrate that Vedantic philosophy held relevance for audiences far removed from the capital's cosmopolitan atmosphere."
+    ],
+    "image": "townhall_maidenhead.jpg"
+  },
+  {
+    "id": "pinkneys_green_maidenhead",
+    "title": "Pinkneys Green",
+    "description": [
+      "Pinkneys Green, a tranquil village near Maidenhead, offered Swami Vivekananda a peaceful retreat from the relentless demands of his English lecture schedule during 1895-1896. The pastoral landscape of rural Berkshire provided him with moments of contemplation and rest, creating a necessary counterbalance to his intensive engagement with London's intellectual and social circles."
+    ],
+    "image": "pinkneys_green_maidenhead.jpg"
+  },
+  {
+    "id": "airlie_lodge_wimbledon",
+    "title": "Airlie Lodge",
+    "description": [
+      "Airlie Lodge in Wimbledon served as a residential base for Swami Vivekananda during his 1895-1896 English visit. The suburban setting of south-west London, conveniently situated between the intensity of metropolitan engagements and the quiet of the countryside, made Wimbledon an ideal location where he could maintain his schedule of lectures, informal gatherings, and spiritual instruction with his growing band of English disciples."
+    ],
+    "image": "airlie_lodge_wimbledon.jpg"
+  },
+  {
+    "id": "woodside_wimbledon",
+    "title": "35 Woodside",
+    "description": [
+      "Swami Vivekananda made his residence at 35 Woodside in Wimbledon during 1895-1896, establishing himself within a network of sympathetic hosts in south-west London. From this address, he conducted informal Vedanta classes and received an expanding circle of seekers, while simultaneously maintaining his more formal lecture engagements across London and the surrounding counties."
+    ],
+    "image": "woodside_wimbledon.jpg"
+  },
+  {
+    "id": "rue_anatole_perros_guirec",
+    "title": "Rue Anatole",
+    "description": [
+      "During his 1900 Continental travels, Swami Vivekananda stayed at Rue Anatole in Perros-Guirec, a charming coastal town in Brittany, France. The rugged maritime landscape and quiet atmosphere of this Breton settlement provided him with restorative solitude during his second and final Western tour, offering respite from the demands of his European travels."
+    ],
+    "image": "rue_anatole_perros_guirec.jpg"
+  },
+  {
+    "id": "mont_blanc_chamonix",
+    "title": "Mont Blanc",
+    "description": [
+      "Swami Vivekananda journeyed to Chamonix in 1900 to experience the sublimity of Mont Blanc and the Alpine massif during his European travels. The soaring peaks and pristine mountain air of this celebrated alpine retreat inspired both his spirit and body, offering him profound aesthetic and spiritual renewal amid the natural grandeur of the highest Alps."
+    ],
+    "image": "mont_blanc_chamonix.jpg"
+  },
+  {
+    "id": "mont_saint_michel_normandy",
+    "title": "Mont-Saint-Michel",
+    "description": [
+      "During his 1900 travels through France, Swami Vivekananda visited the legendary Mont-Saint-Michel, the magnificent medieval abbey rising from a tidal island in Normandy's English Channel. The architectural splendour and devotional intensity embodied in this ancient Benedictine sanctuary profoundly moved him, revealing to him the universal language of spiritual aspiration that transcended religious and cultural boundaries."
+    ],
+    "image": "mont_saint_michel_normandy.jpg"
+  },
+  {
+    "id": "matale_sri_lanka",
+    "title": "Matale, Sri Lanka",
+    "description": [
+      "Matale in central Ceylon welcomed Swami Vivekananda with enthusiastic reverence during his triumphant 1897 return journey through the island. The Buddhist communities he encountered there, including those in this mountainous town, celebrated him as a champion of Eastern spirituality who had carried India's sacred wisdom across oceans to awaken the West to its spiritual heritage."
+    ],
+    "image": "matale_sri_lanka.jpg"
+  },
+  {
+    "id": "anuradhapura_sri_lanka",
+    "title": "Anuradhapuram, Sri Lanka",
+    "description": [
+      "During his 1897 tour of Ceylon, Swami Vivekananda visited the ancient capital of Anuradhapura, where the magnificent Buddhist ruins and the sacred Bo tree—believed to be a descendant of the tree under which Buddha attained enlightenment—profoundly stirred his spiritual sensibilities. Standing amid these monuments to centuries of devotion, he perceived a living continuity between Buddhism and Vedanta, two great spiritual traditions that he saw as expressions of universal truth. In this stronghold of Buddhist faith, Vivekananda spoke eloquently of the fundamental unity underlying all religions, urging that whether worshipped as Shiva, Vishnu, Buddha, or by countless other names, the Divine remained one and the same. His reflections here reinforced his conviction that spiritual sympathy and tolerance between different faiths were not merely desirable but essential."
+    ],
+    "image": "anuradhapura_sri_lanka.jpg"
+  },
+  {
+    "id": "dhaka_dacca",
+    "title": "Dhaka (Dacca)",
+    "description": [
+      "Swami Vivekananda arrived in Dhaka in March 1901 for what would prove to be one of the final major journeys of his life. The city's inhabitants received him with great reverence, organizing grand receptions to honour the renowned spiritual teacher. Over two days in late March, he delivered lectures in English to vast audiences, including discourses on \"What Have I Learnt?\" and \"The Religion We Are Born In,\" where he reflected on India's ancient spiritual legacy and the nature of religious tradition. His visit to this principal city of East Bengal, with its rich Nawabi culture and vibrant Hindu-Muslim heritage, represented a homecoming of sorts—a return to his native land after years of transformative travels in the West."
+    ],
+    "image": "dhaka_dacca.png"
+  },
+  {
+    "id": "cologne_germany",
+    "title": "Cologne, Germany",
+    "description": [
+      "During his 1896 European travels, Swami Vivekananda journeyed up the Rhine to Cologne, where he paused to experience the city's magnificent Gothic cathedral. The grandeur of this architectural masterpiece, one of Europe's greatest monuments to spiritual aspiration, captivated him as he marvelled at its soaring spires and intricate design. He attended a service within its walls and visited the sanctuary, bearing witness to the devotion that had moved countless worshippers across centuries. The cathedral's majesty reinforced his recognition that the impulse toward transcendence manifested itself universally across all cultures and faiths."
+    ],
+    "image": "cologne_germany.jpg"
+  },
+  {
+    "id": "berlin_germany",
+    "title": "Berlin, Germany",
+    "description": [
+      "Swami Vivekananda visited Berlin during his 1896 European sojourn, drawn to the German capital as a centre of intellectual ferment and philosophical inquiry. As a thinker deeply engaged with metaphysical questions and the nature of consciousness, he sought engagement with the German philosophical tradition that had shaped European thought in the nineteenth century. Berlin's universities and scholarly institutions represented the pinnacle of Western academic life, and his time there reflected his conviction that truth could be found in the earnest intellectual pursuits of Western civilization as well as in the spiritual traditions of the East."
+    ],
+    "image": "berlin_germany.jpg"
+  },
+  {
+    "id": "kiel_germany",
+    "title": "Kiel, Germany",
+    "description": [
+      "Swami Vivekananda visited Kiel on the Baltic coast during his 1896 return journey to India, having been invited by the distinguished Orientalist Paul Deussen, a professor at the University of Kiel. Captain and Mrs. Sevier, his devoted companions, joined him in the port city, which then served as home to the Imperial German Navy and exemplified modern European industrial and military power. His time in Kiel, though brief, represented a significant intellectual exchange, as he engaged with Deussen, a respected scholar sympathetic to Hindu philosophy and Vedantic thought."
+    ],
+    "image": "kiel_germany.jpg"
+  },
+  {
+    "id": "istanbul_turkey",
+    "title": "Istanbul (Constantinople), Turkey",
+    "description": [
+      "Swami Vivekananda caught his first glimpse of Constantinople as his train approached the ancient city during his 1900 travels, and he was struck by the compelling juxtaposition of decay and beauty that characterized it. The narrow, winding lanes with their crooked wooden houses, the grand drains running across ancient walls, and the evident poverty existed alongside an undeniable exotic charm that fascinated him. Though he was denied public permission to speak there, private conversaziones were arranged where he expounded the Vedanta to select audiences. In later years, he would fondly recall a certain old Turkish innkeeper who had generously provided him hospitality, embodying for him the universal kindness that transcended cultural and religious boundaries."
+    ],
+    "image": "istanbul_turkey.jpg"
+  },
+  {
+    "id": "vienna_austria",
+    "title": "Vienna, Austria",
+    "description": [
+      "Swami Vivekananda visited Vienna in 1900 during his continental tour, passing through the imperial capital of Austria-Hungary as part of his broader engagement with European intellectual life. The city, steeped in the musical and philosophical traditions of Mozart, Beethoven, and the great European thinkers, represented another centre of the Western civilization whose strengths and limitations he sought to understand. His visit formed part of an ambitious itinerary that took him through the major cultural capitals of Europe, reflecting his determination to bridge East and West through personal encounter and dialogue."
+    ],
+    "image": "vienna_austria.jpg"
+  },
+  {
+    "id": "athens_greece",
+    "title": "Athens, Greeze",
+    "description": [
+      "During his 1900 travels, Swami Vivekananda journeyed to Athens, the birthplace of Western philosophy and democratic ideals, where the Acropolis and Parthenon stood as eternal testaments to human aspiration toward the transcendent and the beautiful. He walked among the ruins of ancient Greek civilization, contemplating the philosophical legacy of Socrates, Plato, and Aristotle—thinkers whose non-dualistic intuitions he recognized as kindred to the Advaita Vedanta tradition of his own spiritual heritage. Standing in this cradle of Western thought, he perceived profound parallels between the metaphysical insights of Greek philosophy and the eternal truths enshrined in Hindu scriptures, further confirming his vision of universal spiritual wisdom."
+    ],
+    "image": "athens_greece.jpg"
+  },
+  {
+    "id": "amsterdam_holland",
+    "title": "Amsterdam, Holland",
+    "description": [
+      "During his 1900 European travels, Swami Vivekananda visited Amsterdam, where he engaged with the intellectual currents of this prosperous Dutch capital. The city's long tradition of religious tolerance and philosophical inquiry—particularly its legacy as home to Spinoza's pantheistic thought—provided fertile ground for his reflections on Vedanta's core teaching of universal unity. Having recently returned from India with plans to establish his work on a firmer footing before heading home, Swamiji found in Amsterdam's cosmopolitan atmosphere an ideal setting to discuss and disseminate his vision of a spirituality grounded in the interconnectedness of all existence."
+    ],
+    "image": "amsterdam_holland.png"
+  },
+  {
+    "id": "sandukphu_nepal",
+    "title": "Sandukphu",
+    "description": [
+      "Among the Himalayan peaks visited during his years of wandering as a parivrajaka between 1888 and 1893, Sandakphu—the highest point in the Darjeeling region straddling the Nepal-India border—held special significance for Swami Vivekananda. From its windswept summit, the vast panorama of the world's four mightiest peaks—Kanchenjunga, Everest, Lhotse, and Makalu—unfolded before him in sublime majesty. These towering heights, piercing the clouds and touching the infinite sky, deepened his meditative experience and reinforced his profound sense of the divine presence permeating all creation."
+    ],
+    "image": "sandukphu_nepal.jpg"
+  },
+  {
+    "id": "geneva_switzerland",
+    "title": "Geneva",
+    "description": [
+      "Swami Vivekananda arrived in Geneva during his 1900 European journey after traveling through Paris, making his way with renewed spirits to this cosmopolitan city on the shores of Lac Léman. The Swiss city's long tradition as a centre of international diplomacy and humanitarian ideals resonated with his own vision of universal brotherhood transcending national and cultural boundaries. Here he found respite from his travels while meeting with European admirers and sympathizers of his teachings, sharing his message of Vedantic spirituality with those eager to understand his philosophy."
+    ],
+    "image": "geneva_switzerland.jpg"
+  },
+  {
+    "id": "zermatt_switzerland",
+    "title": "Zermatt, Switcherland",
+    "description": [
+      "During his 1900 Alpine sojourn, Swami Vivekananda visited Zermatt, the dramatic mountain village dominated by the towering Matterhorn. The grandeur of these Swiss heights stirred his spiritual sensibilities as powerfully as the Himalayan peaks of his homeland, reminding him of the sacred mountains where he had wandered and meditated in earlier years. In this sublime setting, surrounded by the raw majesty of the Alps, he found space for both rest and deep contemplation on the eternal truths underlying the phenomenal world."
+    ],
+    "image": "zermatt_switzerland.jpg"
+  },
+  {
+    "id": "saas_fee_switzerland",
+    "title": "Saas Fee, Switzerland",
+    "description": [
+      "Swami Vivekananda journeyed to Saas-Fee, the celebrated 'Pearl of the Alps' nestled in Valais canton, during the final major European tour of his life in 1900. Encircled by glaciers and peaks soaring above 4,000 metres, this high alpine village offered him an environment of pristine tranquillity and overwhelming natural splendour. The crystalline air, the austere beauty of the surrounding summits, and the profound silence of these heights provided an ideal setting for the spiritual renewal and meditation that marked the later years of his extraordinary journey."
+    ],
+    "image": "saas_fee_switzerland.jpg"
+  },
+  {
+    "id": "lucerne_switzerland",
+    "title": "Lucerne, Switzerland",
+    "description": [
+      "Swami Vivekananda graced the picturesque city of Lucerne during his 1900 European travels, charmed by its famous Chapel Bridge and the sweeping alpine vistas reflected in its namesake lake. Nestled in central Switzerland, this scenic city served as a welcoming rest point between his various engagements across the continent during his second and final Western tour. The natural beauty and peaceful atmosphere of Lucerne provided him respite as he continued his mission to share Vedantic wisdom with Western audiences."
+    ],
+    "image": "lucerne_switzerland.jpg"
+  },
+  {
+    "id": "schaffhausen_switzerland",
+    "title": "Schaffhausen, Switzerland",
+    "description": [
+      "During his 1900 European travels, Swami Vivekananda visited Schaffhausen in northern Switzerland, where he stood before the Rhine Falls—Europe's mightiest waterfall and a wonder of raw natural power. The thundering cascade of water plunging from the heights profoundly impressed his spiritual sensibility, and the awesome spectacle of such unbounded force and energy resonated deeply with his contemplative nature. This encounter with nature's raw majesty reinforced his meditations on the infinite creative power that animates all existence."
+    ],
+    "image": "schaffhausen_switzerland.jpg"
+  },
+  {
+    "id": "arabian_sea_aden",
+    "title": "Arabian Sea",
+    "description": [
+      "Swami Vivekananda crossed the Arabian Sea twice during his momentous journeys to and from America—first embarking on his historic 1893 voyage to the Parliament of Religions in Chicago, and again on his return passages to India. The vast oceanic expanse, with its boundless horizon where sea and sky merged into an indivisible whole, became for him a natural meditation on infinity and the ultimate unity underlying all diversity. During these long sea crossings, he composed poetry and wrote letters that captured his deepening spiritual insights and his profound sense of connection to the universal consciousness."
+    ],
+    "image": "arabian_sea_aden.png"
+  },
+  {
+    "id": "aden_port_yemen",
+    "title": "Aden port",
+    "description": [
+      "In 1893, Swami Vivekananda's vessel paused at the port of Aden, a vital maritime junction nestled at the mouth of the Red Sea where the Indian Ocean converged with shipping routes to Europe. This bustling harbor marked a threshold in his historic journey to America, offering him his first encounter with Arabian lands. As his ship lay anchored in these strategic waters, Swamiji gazed upon a landscape that represented the vast commercial and cultural interchange of the world—a fitting prelude to the transformative mission that awaited him across the Atlantic."
+    ],
+    "image": "aden_port_yemen.jpg"
   }
 ];

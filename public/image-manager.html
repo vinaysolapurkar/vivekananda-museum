@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VivekaDigvijaya — Image Manager</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #0f0f14;
+    color: #e0d5c5;
+    min-height: 100vh;
+  }
+
+  /* ── Header ── */
+  .header {
+    position: sticky; top: 0; z-index: 100;
+    background: #1a1610;
+    border-bottom: 1px solid #3a2e1a;
+    padding: 12px 20px;
+    display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+  }
+  .header h1 { font-size: 1.1rem; color: #c8871a; font-weight: 600; white-space: nowrap; }
+  .header h1 span { color: #888; font-weight: 400; font-size: 0.85rem; }
+
+  .search-box {
+    flex: 1; min-width: 200px;
+    background: #12100c; border: 1px solid #3a2e1a; border-radius: 6px;
+    padding: 7px 12px; color: #e0d5c5; font-size: 0.9rem; outline: none;
+  }
+  .search-box:focus { border-color: #c8871a; }
+  .search-box::placeholder { color: #555; }
+
+  .filter-bar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .filter-btn {
+    padding: 5px 12px; border-radius: 4px; border: 1px solid #3a2e1a;
+    background: transparent; color: #aaa; cursor: pointer; font-size: 0.8rem;
+    transition: all .15s;
+  }
+  .filter-btn.active, .filter-btn:hover { background: #c8871a22; border-color: #c8871a; color: #c8871a; }
+
+  .stats {
+    font-size: 0.8rem; color: #888; white-space: nowrap;
+  }
+  .stats b { color: #c8871a; }
+
+  .export-btn {
+    padding: 7px 16px; border-radius: 5px; border: none;
+    background: #c8871a; color: #fff; font-weight: 600; cursor: pointer;
+    font-size: 0.85rem; white-space: nowrap; transition: background .15s;
+  }
+  .export-btn:hover { background: #e09a22; }
+  .export-btn:disabled { background: #555; cursor: default; }
+
+  /* ── Grid ── */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 14px;
+    padding: 16px 20px;
+  }
+
+  /* ── Card ── */
+  .card {
+    background: #1a1610;
+    border: 1px solid #2e2416;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex; flex-direction: column;
+    transition: border-color .15s;
+    position: relative;
+  }
+  .card:hover { border-color: #4a3820; }
+  .card.changed { border-color: #c8871a; }
+  .card.changed::before {
+    content: '✎ Changed';
+    position: absolute; top: 6px; right: 6px;
+    background: #c8871a; color: #fff;
+    font-size: 0.65rem; font-weight: 700; padding: 2px 7px; border-radius: 3px;
+    text-transform: uppercase; letter-spacing: .5px;
+  }
+
+  .card-img-wrap {
+    width: 100%; height: 160px;
+    background: #0e0c0a;
+    position: relative; overflow: hidden; flex-shrink: 0;
+  }
+  .card-img-wrap img {
+    width: 100%; height: 100%; object-fit: cover;
+    transition: opacity .2s;
+  }
+  .card-img-wrap .no-img {
+    width: 100%; height: 100%;
+    display: flex; align-items: center; justify-content: center;
+    color: #444; font-size: 0.75rem;
+  }
+  .img-split {
+    display: flex; height: 100%;
+  }
+  .img-split .old-half, .img-split .new-half {
+    flex: 1; position: relative; overflow: hidden;
+  }
+  .img-split img { width: 100%; height: 100%; object-fit: cover; }
+  .img-label {
+    position: absolute; bottom: 4px; left: 4px;
+    background: rgba(0,0,0,.7); color: #fff;
+    font-size: 0.6rem; padding: 1px 5px; border-radius: 2px;
+    text-transform: uppercase; letter-spacing: .5px;
+  }
+  .img-label.new { background: rgba(200,135,26,.85); }
+
+  .card-body { padding: 10px 12px; flex: 1; display: flex; flex-direction: column; gap: 4px; }
+  .card-title { font-size: 0.88rem; font-weight: 600; color: #e0d5c5; line-height: 1.3; }
+  .card-meta { font-size: 0.72rem; color: #7a6a50; }
+  .card-id { font-size: 0.68rem; color: #555; font-family: monospace; }
+
+  .card-actions { display: flex; gap: 6px; padding: 0 12px 10px; flex-wrap: wrap; }
+  .btn {
+    flex: 1; padding: 5px 8px; border-radius: 4px; border: 1px solid #3a2e1a;
+    background: transparent; color: #aaa; cursor: pointer; font-size: 0.75rem;
+    transition: all .15s; text-align: center;
+  }
+  .btn:hover { border-color: #c8871a; color: #c8871a; background: #c8871a11; }
+  .btn.revert { border-color: #555; }
+  .btn.revert:hover { border-color: #e05555; color: #e05555; background: #e0555511; }
+
+  /* ── Loading / empty ── */
+  .loading {
+    text-align: center; padding: 60px 20px; color: #555;
+    font-size: 1rem;
+  }
+  .empty { text-align: center; padding: 40px; color: #555; }
+
+  /* hidden file input */
+  #file-input { display: none; }
+
+  /* ── Phase badge ── */
+  .phase-badge {
+    display: inline-block; font-size: 0.6rem; font-weight: 700;
+    padding: 1px 6px; border-radius: 3px; text-transform: uppercase;
+    letter-spacing: .4px; margin-bottom: 2px;
+  }
+  .p1 { background: #1a3a1a; color: #4caf50; }
+  .p2 { background: #1a2a3a; color: #42a5f5; }
+  .p3 { background: #3a2a1a; color: #ffa726; }
+  .p4 { background: #2a1a3a; color: #ab47bc; }
+  .p5 { background: #3a1a1a; color: #ef5350; }
+
+  /* ── Summary toast ── */
+  .toast {
+    position: fixed; bottom: 20px; right: 20px;
+    background: #1e1a12; border: 1px solid #c8871a; border-radius: 8px;
+    padding: 12px 18px; color: #e0d5c5; font-size: 0.85rem;
+    opacity: 0; transform: translateY(10px);
+    transition: all .3s; pointer-events: none;
+  }
+  .toast.show { opacity: 1; transform: translateY(0); }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>VivekaDigvijaya <span>Image Manager</span></h1>
+  <input class="search-box" type="text" id="search" placeholder="Search by name, city, or ID…">
+  <div class="filter-bar">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="changed">Changed</button>
+    <button class="filter-btn" data-filter="p1">Phase 1</button>
+    <button class="filter-btn" data-filter="p2">Phase 2</button>
+    <button class="filter-btn" data-filter="p3">Phase 3</button>
+    <button class="filter-btn" data-filter="p4">Phase 4</button>
+    <button class="filter-btn" data-filter="p5">Phase 5</button>
+  </div>
+  <span class="stats">Showing <b id="count">0</b> / <b id="total">0</b> &nbsp;|&nbsp; <b id="changed-count">0</b> changed</span>
+  <button class="export-btn" id="export-btn" disabled>Export Changes</button>
+</div>
+
+<div id="grid" class="grid">
+  <div class="loading">Loading pins…</div>
+</div>
+
+<input type="file" id="file-input" accept="image/*">
+<div class="toast" id="toast"></div>
+
+<script>
+const BASE = '';          // same-origin; images at /viveka-digvijaya/data/images/
+const IMG_BASE = '/viveka-digvijaya/data/images/';
+
+let allPins = [];
+let locMap  = {};
+let changes = {};         // lid → { dataURL, ext }
+let currentFilter = 'all';
+let currentSearch  = '';
+let pendingLid = null;    // which lid the file-input is for
+
+// ── Load data ────────────────────────────────────────────────────────────────
+Promise.all([
+  fetch('/viveka-digvijaya/data/pin_content.json').then(r => r.json()),
+  fetch('/viveka-digvijaya/data/locations.json').then(r => r.json()),
+]).then(([pins, locs]) => {
+  locs.forEach(l => { locMap[l.id] = l; });
+  allPins = pins;
+  document.getElementById('total').textContent = pins.length;
+  render();
+}).catch(err => {
+  document.getElementById('grid').innerHTML =
+    `<div class="loading">⚠ Could not load data. Make sure the dev server is running at localhost:3000.<br><small>${err}</small></div>`;
+});
+
+// ── Render ───────────────────────────────────────────────────────────────────
+function render() {
+  const q = currentSearch.toLowerCase().trim();
+  const filtered = allPins.filter(p => {
+    const loc = locMap[p.id] || {};
+    const matchSearch = !q ||
+      (p.title || '').toLowerCase().includes(q) ||
+      (loc.city  || '').toLowerCase().includes(q) ||
+      (loc.country || '').toLowerCase().includes(q) ||
+      p.id.toLowerCase().includes(q);
+
+    let matchFilter = true;
+    if (currentFilter === 'changed') matchFilter = !!changes[p.id];
+    else if (currentFilter.startsWith('p')) {
+      matchFilter = (loc.phase || '') === currentFilter;
+    }
+    return matchSearch && matchFilter;
+  });
+
+  document.getElementById('count').textContent = filtered.length;
+  document.getElementById('changed-count').textContent = Object.keys(changes).length;
+  document.getElementById('export-btn').disabled = Object.keys(changes).length === 0;
+
+  const grid = document.getElementById('grid');
+  if (filtered.length === 0) {
+    grid.innerHTML = '<div class="empty">No pins match your filter.</div>';
+    return;
+  }
+
+  grid.innerHTML = filtered.map(p => cardHTML(p)).join('');
+
+  // Attach event listeners
+  grid.querySelectorAll('.change-btn').forEach(btn => {
+    btn.addEventListener('click', () => openPicker(btn.dataset.lid));
+  });
+  grid.querySelectorAll('.revert-btn').forEach(btn => {
+    btn.addEventListener('click', () => revertChange(btn.dataset.lid));
+  });
+}
+
+function cardHTML(p) {
+  const loc     = locMap[p.id] || {};
+  const changed = changes[p.id];
+  const phase   = loc.phase || '';
+  const phaseN  = phase.replace('p','');
+  const phaseLabels = {p1:'Phase 1 — Pre-Wandering',p2:'Phase 2 — Wandering India',
+                       p3:'Phase 3 — America & Europe',p4:'Phase 4 — Return & Mission',p5:'Phase 5 — Final Years'};
+
+  let imgHTML;
+  if (changed) {
+    const oldSrc = p.image ? IMG_BASE + p.image : null;
+    imgHTML = `<div class="img-split">
+      <div class="old-half">
+        ${oldSrc ? `<img src="${oldSrc}" onerror="this.style.display='none'">` : '<div style="height:100%;background:#111"></div>'}
+        <span class="img-label">Old</span>
+      </div>
+      <div class="new-half">
+        <img src="${changed.dataURL}">
+        <span class="img-label new">New</span>
+      </div>
+    </div>`;
+  } else if (p.image) {
+    imgHTML = `<img src="${IMG_BASE}${p.image}" onerror="this.style.opacity=0.2;this.alt='(broken)'">`;
+  } else {
+    imgHTML = `<div class="no-img">No image</div>`;
+  }
+
+  const city = [loc.place, loc.city, loc.country].filter(Boolean).join(', ');
+
+  return `<div class="card ${changed ? 'changed' : ''}" data-id="${p.id}" data-phase="${phase}">
+    <div class="card-img-wrap">${imgHTML}</div>
+    <div class="card-body">
+      ${phase ? `<span class="phase-badge p${phaseN}" title="${phaseLabels[phase]||''}">Phase ${phaseN}</span>` : ''}
+      <div class="card-title">${p.title || p.id}</div>
+      <div class="card-meta">${city}</div>
+      <div class="card-id">${p.id}</div>
+    </div>
+    <div class="card-actions">
+      <button class="btn change-btn" data-lid="${p.id}">📷 Change Image</button>
+      ${changed ? `<button class="btn revert-btn revert" data-lid="${p.id}">✕ Revert</button>` : ''}
+    </div>
+  </div>`;
+}
+
+// ── File picker ───────────────────────────────────────────────────────────────
+function openPicker(lid) {
+  pendingLid = lid;
+  document.getElementById('file-input').value = '';
+  document.getElementById('file-input').click();
+}
+
+document.getElementById('file-input').addEventListener('change', function() {
+  const file = this.files[0];
+  if (!file || !pendingLid) return;
+  const lid = pendingLid;
+  const ext = file.name.match(/\.(jpe?g|png|webp|gif)$/i)?.[0]?.toLowerCase() || '.jpg';
+
+  const reader = new FileReader();
+  reader.onload = e => {
+    changes[lid] = { dataURL: e.target.result, ext, originalName: file.name };
+    showToast(`Image updated for "${locMap[lid]?.name || lid}"`);
+    render();
+    // Scroll card into view
+    setTimeout(() => {
+      const el = document.querySelector(`[data-id="${lid}"]`);
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }, 50);
+  };
+  reader.readAsDataURL(file);
+});
+
+// ── Revert ───────────────────────────────────────────────────────────────────
+function revertChange(lid) {
+  delete changes[lid];
+  showToast('Change reverted.');
+  render();
+}
+
+// ── Search & Filter ───────────────────────────────────────────────────────────
+document.getElementById('search').addEventListener('input', e => {
+  currentSearch = e.target.value;
+  render();
+});
+
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentFilter = btn.dataset.filter;
+    render();
+  });
+});
+
+// ── Export ────────────────────────────────────────────────────────────────────
+document.getElementById('export-btn').addEventListener('click', () => {
+  if (Object.keys(changes).length === 0) return;
+
+  const output = {
+    exported_at: new Date().toISOString(),
+    total_changes: Object.keys(changes).length,
+    changes: {}
+  };
+
+  Object.entries(changes).forEach(([lid, ch]) => {
+    const pin = allPins.find(p => p.id === lid);
+    const loc = locMap[lid] || {};
+    output.changes[lid] = {
+      title: pin?.title || lid,
+      city: loc.city || '',
+      old_image: pin?.image || null,
+      new_image_ext: ch.ext,
+      new_image_data: ch.dataURL,
+      original_filename: ch.originalName,
+    };
+  });
+
+  const blob = new Blob([JSON.stringify(output, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `image_changes_${new Date().toISOString().slice(0,10)}.json`;
+  a.click();
+  showToast(`Exported ${Object.keys(changes).length} change(s).`);
+});
+
+// ── Toast ─────────────────────────────────────────────────────────────────────
+let toastTimer;
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent = msg;
+  t.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => t.classList.remove('show'), 2500);
+}
+</script>
+</body>
+</html>
