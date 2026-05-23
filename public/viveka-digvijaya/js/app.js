@@ -564,7 +564,11 @@ async function initCesium() {
   const sat = await Cesium.ArcGisMapServerImageryProvider.fromUrl(
     'https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer'
   );
-  viewer.imageryLayers.addImageryProvider(sat);
+  const satLayer = viewer.imageryLayers.addImageryProvider(sat);
+  // Deeper, richer ocean blue — boost saturation, reduce brightness slightly
+  satLayer.saturation = 1.55;
+  satLayer.brightness = 0.82;
+  satLayer.contrast   = 1.10;
 
   const labels = await Cesium.ArcGisMapServerImageryProvider.fromUrl(
     'https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer'
@@ -573,17 +577,17 @@ async function initCesium() {
   labLayer.alpha = 0.7;
 
   // ── Lighting ─────────────────────────────────────────────────────────────
-  viewer.scene.globe.enableLighting = false;
+  viewer.scene.globe.enableLighting = true;   // day/night terminator + shading
 
   // ── Evening sky with stars ────────────────────────────────────────────────
   // Fix clock to evening time so the sun sits near the horizon
   viewer.clock.currentTime = Cesium.JulianDate.fromDate(new Date('2024-03-21T17:45:00Z'));
   viewer.clock.shouldAnimate = false;
 
-  // Warm sunset atmosphere: slight orange-red hue, vivid, a touch darker
-  viewer.scene.skyAtmosphere.hueShift        = -0.05;   // push toward orange/red
-  viewer.scene.skyAtmosphere.saturationShift =  0.20;   // richer, more vivid colours
-  viewer.scene.skyAtmosphere.brightnessShift = -0.10;   // darken slightly for dusk
+  // Deep dusk atmosphere: warm orange-red hue, vivid, noticeably darker
+  viewer.scene.skyAtmosphere.hueShift        = -0.08;   // stronger push toward orange/red
+  viewer.scene.skyAtmosphere.saturationShift =  0.30;   // more vivid, cinematic
+  viewer.scene.skyAtmosphere.brightnessShift = -0.15;   // deeper dusk shadow
 
   // Make the sun disc visible
   viewer.scene.sun.show = true;
@@ -696,6 +700,18 @@ async function initCesium() {
     if (Cesium.defined(picked) && picked.id && picked.id._locData) {
       viewer.scene.canvas.style.cursor = 'pointer';
       picked.id.label.show = true;
+      // Cluster halo: also reveal labels for any pin within 70px (dense-region aid)
+      const px = movement.position;
+      Object.values(entities).forEach(e => {
+        if (e === picked.id || !e._locData) return;
+        const pos = e.position.getValue(viewer.clock.currentTime);
+        if (!pos) return;
+        const sc = viewer.scene.cartesianToCanvasCoordinates(pos);
+        if (sc) {
+          const dx = sc.x - px.x, dy = sc.y - px.y;
+          if (dx * dx + dy * dy < 4900) e.label.show = true; // 70 px radius
+        }
+      });
     } else {
       viewer.scene.canvas.style.cursor = 'default';
       Object.values(entities).forEach(e => { if (e !== selectedEntity) e.label.show = false; });
