@@ -3,12 +3,24 @@
 
 'use strict';
 
-// ── State ──────────────────────────────────────────────────────────────────
+// ── Map styles ─────────────────────────────────────────────────────────────
+const MAP_STYLES = [
+  { id: 'satellite',  label: 'Satellite',          type: 'arcgis', url: 'https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer' },
+  { id: 'natgeo',     label: 'National Geographic', type: 'arcgis', url: 'https://services.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer' },
+  { id: 'topo',       label: 'Topographic',         type: 'arcgis', url: 'https://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer' },
+  { id: 'relief',     label: 'Shaded Relief',       type: 'arcgis', url: 'https://services.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer' },
+  { id: 'street',     label: 'Street Map',           type: 'arcgis', url: 'https://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer' },
+  { id: 'dark-gray',  label: 'Dark Gray',            type: 'arcgis', url: 'https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer' },
+  { id: 'light-gray', label: 'Light Gray',           type: 'arcgis', url: 'https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer' },
+  { id: 'osm',        label: 'OpenStreetMap',        type: 'osm' },
+];
+let currentMapStyle = 'satellite';
+
+// ── State ─────────────────────────────────────────────────────────────────
 let PHASES = [];
 let LOCATIONS = [];
 let PIN_CONTENT = {};   // id → { title, description: [...] }
 let viewer = null;
-let pinImages = {};            // phase-id → canvas pin image
 let entities = {};             // loc.id → Cesium entity
 let activePhases    = new Set();  // which phases are visible
 let activeCountries = new Set();  // which countries are visible
@@ -16,6 +28,8 @@ let routePolylines = {};       // phase-id → polyline entity
 let selectedEntity = null;
 let currentLocIndex = -1;      // index in LOCATIONS of the selected location
 let rippleEntity   = null;     // animated ripple ring for selected pin
+let rippleDiv          = null;  // CSS overlay div for screen-space ripple
+let ripplePostRender   = null;  // scene.postRender listener removal fn
 const RIPPLE_PERIOD = 1800;    // ms — one full ring expansion cycle
 const RIPPLE_RADIUS = 90000;   // metres — max ring radius
 let isPlaying = false;
@@ -570,14 +584,8 @@ async function initCesium() {
   satLayer.brightness = 0.82;
   satLayer.contrast   = 1.10;
 
-  const labels = await Cesium.ArcGisMapServerImageryProvider.fromUrl(
-    'https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer'
-  );
-  const labLayer = viewer.imageryLayers.addImageryProvider(labels);
-  labLayer.alpha = 0.7;
-
   // ── Lighting ─────────────────────────────────────────────────────────────
-  viewer.scene.globe.enableLighting = true;   // day/night terminator + shading
+  viewer.scene.globe.enableLighting = false;
 
   // ── Evening sky with stars ────────────────────────────────────────────────
   // Fix clock to evening time so the sun sits near the horizon
@@ -598,38 +606,29 @@ async function initCesium() {
     duration: 0
   });
 
-  // ── Build pin images ──────────────────────────────────────────────────────
-  // Load optional per-phase photos from data/images/phase_<id>.jpg|png
-  const phaseImgEls = await loadPhaseImages();
-
-  PHASES.forEach(p => {
-    const img = phaseImgEls[p.id] || null;
-    // Normal & keystone variants
-    pinImages[p.id]              = buildPinCanvas(p.color, 42, img, false).toDataURL();
-    pinImages[p.id + '_ks']      = buildPinCanvas(p.color, 54, img, false).toDataURL();
-    // Selected variants: same image but gold border
-    pinImages[p.id + '_sel']     = buildPinCanvas(p.color, 42, img, true).toDataURL();
-    pinImages[p.id + '_ks_sel']  = buildPinCanvas(p.color, 54, img, true).toDataURL();
-  });
-
-  // ── Add location entities ─────────────────────────────────────────────────
+  // ── Add location entities (pulsating dots) ───────────────────────────────
+  let locIdx = 0;
   LOCATIONS.forEach(loc => {
     const phase = PHASES.find(p => p.id === loc.phase);
-    const color = phase ? phase.color : '#f0c040';
     const isKeystone = loc.significance && loc.significance.includes('—');
+    const baseSize = isKeystone ? 18 : 12;
+    const pulseAmp = 5;
+    const freq     = 1.6;
+    const phaseOff = (locIdx++ * 2.3) % (2 * Math.PI);
 
     const entity = viewer.entities.add({
       id: loc.id,
       position: Cesium.Cartesian3.fromDegrees(loc.lng, loc.lat),
-      billboard: {
-        image: isKeystone
-          ? (pinImages[loc.phase + '_ks'] || pinImages[loc.phase])
-          : (pinImages[loc.phase]          || pinImages[PHASES[0].id]),
-        width:  isKeystone ? 54 : 42,
-        height: isKeystone ? 66 : 53,
-        verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
+      point: {
+        pixelSize: new Cesium.CallbackProperty(() => {
+          return baseSize + pulseAmp * Math.sin(Date.now() / 1000 * Math.PI * freq + phaseOff);
+        }, false),
+        color: Cesium.Color.fromCssColorString('#FF9500').withAlpha(1.0),
+        outlineColor: Cesium.Color.WHITE,
+        outlineWidth: 3,
         heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
-        scaleByDistance: new Cesium.NearFarScalar(2e6, 1.0, 1e7, 0.55)
+        scaleByDistance: new Cesium.NearFarScalar(2e6, 1.0, 1e7, 0.45),
+        translucencyByDistance: new Cesium.NearFarScalar(1e5, 1.0, 2.5e7, 0.4)
       },
       label: {
         text: loc.name,
@@ -638,13 +637,16 @@ async function initCesium() {
         outlineColor: Cesium.Color.fromCssColorString('#0a0a1a'),
         outlineWidth: 3,
         style: Cesium.LabelStyle.FILL_AND_OUTLINE,
-        pixelOffset: new Cesium.Cartesian2(0, -58),
+        pixelOffset: new Cesium.Cartesian2(0, -20),
         verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
         heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
         translucencyByDistance: new Cesium.NearFarScalar(1.5e6, 1.0, 8e6, 0.0),
-        show: false
+        show: true
       },
-      _locData: loc
+      _locData: loc,
+      _dotColor: '#FF9500',
+      _dotBaseSize: baseSize,
+      _dotPhaseOff: phaseOff
     });
 
     entities[loc.id] = entity;
@@ -656,9 +658,7 @@ async function initCesium() {
   let isRotating = false;
   let mouseDownOnPin = false;
 
-  function clearAllLabels() {
-    Object.values(entities).forEach(e => { e.label.show = false; });
-  }
+  function clearAllLabels() { /* labels always visible — faded by translucencyByDistance */ }
 
   handler.setInputAction(movement => {
     const picked = viewer.scene.pick(movement.position);
@@ -699,22 +699,8 @@ async function initCesium() {
     const picked = viewer.scene.pick(movement.position);
     if (Cesium.defined(picked) && picked.id && picked.id._locData) {
       viewer.scene.canvas.style.cursor = 'pointer';
-      picked.id.label.show = true;
-      // Cluster halo: also reveal labels for any pin within 70px (dense-region aid)
-      const px = movement.position;
-      Object.values(entities).forEach(e => {
-        if (e === picked.id || !e._locData) return;
-        const pos = e.position.getValue(viewer.clock.currentTime);
-        if (!pos) return;
-        const sc = viewer.scene.cartesianToCanvasCoordinates(pos);
-        if (sc) {
-          const dx = sc.x - px.x, dy = sc.y - px.y;
-          if (dx * dx + dy * dy < 4900) e.label.show = true; // 70 px radius
-        }
-      });
     } else {
       viewer.scene.canvas.style.cursor = 'default';
-      Object.values(entities).forEach(e => { if (e !== selectedEntity) e.label.show = false; });
     }
   }, Cesium.ScreenSpaceEventType.MOUSE_MOVE);
 
@@ -728,52 +714,55 @@ async function initCesium() {
 // ── Pin selection helpers ───────────────────────────────────────────────────
 function selectPin(entity) {
   if (!entity) return;
-  const loc = entity._locData;
-  const big = loc && loc.significance && loc.significance.includes('—');
-  // Swap to gold-border variant of the same pin
-  entity.billboard.image = big
-    ? (pinImages[loc.phase + '_ks_sel'] || pinImages[loc.phase + '_sel'] || pinImages[loc.phase + '_ks'])
-    : (pinImages[loc.phase + '_sel']    || pinImages[loc.phase]);
-  // Start ripple + scale-pulse animation
+  const selFreq = 3.2;
+  entity.point.pixelSize = new Cesium.CallbackProperty(() => {
+    return 28 + 10 * Math.sin(Date.now() / 1000 * Math.PI * selFreq);
+  }, false);
+  entity.point.color = Cesium.Color.fromCssColorString('#FF5722').withAlpha(1.0);
+  entity.point.outlineColor = Cesium.Color.WHITE;
+  entity.point.outlineWidth = 2.5;
   startPinAnimation(entity);
 }
 
 function deselectPin(entity) {
   if (!entity) return;
-  const loc = entity._locData;
-  if (!loc) return;
-  const big = loc.significance && loc.significance.includes('—');
-  entity.billboard.image = big
-    ? (pinImages[loc.phase + '_ks'] || pinImages[loc.phase])
-    : (pinImages[loc.phase]          || pinImages[PHASES[0].id]);
+  const color    = entity._dotColor    || '#f0c040';
+  const baseSize = entity._dotBaseSize || 6;
+  const phaseOff = entity._dotPhaseOff || 0;
+  const freq = 1.6, pulseAmp = 2.5;
+  entity.point.pixelSize = new Cesium.CallbackProperty(() => {
+    return baseSize + pulseAmp * Math.sin(Date.now() / 1000 * Math.PI * freq + phaseOff);
+  }, false);
+  entity.point.color = Cesium.Color.fromCssColorString('#FF9500').withAlpha(1.0);
+  entity.point.outlineColor = Cesium.Color.WHITE;
+  entity.point.outlineWidth = 3;
   stopPinAnimation(entity);
 }
 
-// ── Pin animation (ripple ring + scale pulse) ───────────────────────────────
+// ── Dot animation (CSS ripple ring — fixed screen size at any zoom) ──────────
 function startPinAnimation(entity) {
-  stopPinAnimation();           // clear any previous animation
+  stopPinAnimation();
   if (!entity || !entity._locData) return;
-  const loc = entity._locData;
-  const t0  = Date.now();
 
-  // Scale pulse — billboard gently breathes between 1.20 and 1.45
-  entity.billboard.scale = new Cesium.CallbackProperty(() => {
-    const t = Date.now() / 1000;
-    return 1.325 + 0.125 * Math.sin(t * Math.PI * 2.2);
-  }, false);
+  rippleDiv = document.createElement('div');
+  rippleDiv.className = 'ripple-ring';
+  document.getElementById('cesiumContainer').appendChild(rippleDiv);
+
+  const cartPos = entity.position.getValue(viewer.clock.currentTime);
+  ripplePostRender = viewer.scene.postRender.addEventListener(() => {
+    if (!rippleDiv || !cartPos) return;
+    const sc = viewer.scene.cartesianToCanvasCoordinates(cartPos);
+    if (sc) {
+      rippleDiv.style.left = sc.x + 'px';
+      rippleDiv.style.top  = sc.y + 'px';
+    }
+  });
 }
 
-function stopPinAnimation(entity) {
-  // Reset scale on the entity that is being deselected
-  const ent = entity || selectedEntity;
-  if (ent && ent.billboard) {
-    ent.billboard.scale = 1.0;
-  }
-  // Remove ripple entity from globe
-  if (rippleEntity && viewer) {
-    viewer.entities.remove(rippleEntity);
-    rippleEntity = null;
-  }
+function stopPinAnimation() {
+  if (rippleDiv) { rippleDiv.remove(); rippleDiv = null; }
+  if (ripplePostRender) { ripplePostRender(); ripplePostRender = null; }
+  if (rippleEntity && viewer) { viewer.entities.remove(rippleEntity); rippleEntity = null; }
 }
 
 // ── Visibility ──────────────────────────────────────────────────────────────
@@ -1226,6 +1215,51 @@ function switchTab(tab) {
   document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
   document.querySelector(`.tab-btn[data-tab="${tab}"]`).classList.add('active');
   document.getElementById(`tab-${tab}`).classList.add('active');
+}
+
+// ── Map style switcher ───────────────────────────────────────────────────────
+function toggleMapStylePanel(e) {
+  e.stopPropagation();
+  document.getElementById('map-style-panel').classList.toggle('open');
+}
+
+document.addEventListener('click', () => {
+  document.getElementById('map-style-panel')?.classList.remove('open');
+});
+
+async function switchMapStyle(styleId) {
+  if (styleId === currentMapStyle) {
+    document.getElementById('map-style-panel').classList.remove('open');
+    return;
+  }
+  const style = MAP_STYLES.find(s => s.id === styleId);
+  if (!style || !viewer) return;
+
+  currentMapStyle = styleId;
+  viewer.imageryLayers.removeAll();
+
+  let provider;
+  if (style.type === 'arcgis') {
+    provider = await Cesium.ArcGisMapServerImageryProvider.fromUrl(style.url);
+  } else {
+    provider = new Cesium.UrlTemplateImageryProvider({
+      url: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+      credit: '© OpenStreetMap contributors',
+      maximumLevel: 19
+    });
+  }
+
+  const layer = viewer.imageryLayers.addImageryProvider(provider);
+  if (styleId === 'satellite') {
+    layer.saturation = 1.55;
+    layer.brightness = 0.82;
+    layer.contrast   = 1.10;
+  }
+
+  document.querySelectorAll('.map-style-opt').forEach(btn => {
+    btn.classList.toggle('active', btn.dataset.style === styleId);
+  });
+  document.getElementById('map-style-panel').classList.remove('open');
 }
 
 // ── Start ────────────────────────────────────────────────────────────────────

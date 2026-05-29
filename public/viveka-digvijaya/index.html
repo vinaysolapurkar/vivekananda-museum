@@ -174,7 +174,7 @@
     .loc-meta { font-size: 10px; color: var(--text-muted); margin-top: 1px; }
 
     /* ─── Globe ──────────────────────────────────────────── */
-    #cesiumContainer { flex: 1; touch-action: none; }
+    #cesiumContainer { flex: 1; touch-action: none; position: relative; }
     .cesium-widget-credits, .cesium-viewer-bottom { display: none !important; }
 
     /* ─── Info Panel (right overlay) ────────────────────── */
@@ -374,6 +374,55 @@
         width: 28px; height: 28px;
       }
     }
+    /* ─── Map Style Panel ───────────────────────────────── */
+    #map-style-btn { position: relative; }
+    #map-style-panel {
+      display: none;
+      position: absolute;
+      top: calc(100% + 8px);
+      right: 0;
+      z-index: 500;
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 8px;
+      min-width: 200px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+    }
+    #map-style-panel.open { display: block; }
+    #map-style-panel .panel-title {
+      font-size: 10px; letter-spacing: 0.1em; color: var(--text-muted);
+      text-transform: uppercase; padding: 4px 8px 8px; border-bottom: 1px solid var(--border);
+      margin-bottom: 6px;
+    }
+    .map-style-opt {
+      display: block; width: 100%; text-align: left;
+      background: transparent; border: 1px solid transparent;
+      color: var(--text-main); padding: 7px 10px; border-radius: 5px;
+      font-size: 12px; cursor: pointer; transition: background var(--transition);
+    }
+    .map-style-opt:hover { background: var(--bg-hover); border-color: var(--border); }
+    .map-style-opt.active {
+      background: rgba(200,112,26,0.18); border-color: var(--gold-dim); color: var(--gold);
+    }
+    .map-style-opt .opt-sub { font-size: 10px; color: var(--text-muted); margin-top: 1px; }
+  </style>
+  <style>
+    @keyframes ripple-expand {
+      0%   { width: 0;     height: 0;     opacity: 0;   }
+      12%  { opacity: 0.6; }
+      100% { width: 130px; height: 130px; opacity: 0;   }
+    }
+    .ripple-ring {
+      position: absolute;
+      border-radius: 50%;
+      border: 2px solid rgba(255, 87, 34, 0.8);
+      /* transparent centre (44px dia) keeps the dot visible; orange ring expands beyond it */
+      background: radial-gradient(circle at center, transparent 22px, rgba(255, 87, 34, 0.35) 26px, rgba(255, 87, 34, 0.0) 100%);
+      pointer-events: none;
+      transform: translate(-50%, -50%);
+      animation: ripple-expand 1.8s ease-out infinite;
+    }
   </style>
 </head>
 <body>
@@ -404,6 +453,36 @@
       <div class="stat-item"><span class="stat-num">5</span><span>Phases</span></div>
     </div>
 <button id="reset-btn" class="header-btn" onclick="flyHome()" title="Reset camera to full globe view">⌂ Reset View</button>
+    <div id="map-style-btn" style="position:relative;">
+      <button class="header-btn" onclick="toggleMapStylePanel(event)" title="Switch map style">🗺 Map Style</button>
+      <div id="map-style-panel">
+        <div class="panel-title">Map Style</div>
+        <button class="map-style-opt active" data-style="satellite"  onclick="switchMapStyle('satellite')">
+          Satellite<div class="opt-sub">ArcGIS high-res imagery</div>
+        </button>
+        <button class="map-style-opt" data-style="natgeo"     onclick="switchMapStyle('natgeo')">
+          National Geographic<div class="opt-sub">Warm cartographic style</div>
+        </button>
+        <button class="map-style-opt" data-style="topo"       onclick="switchMapStyle('topo')">
+          Topographic<div class="opt-sub">Terrain & contour detail</div>
+        </button>
+        <button class="map-style-opt" data-style="relief"     onclick="switchMapStyle('relief')">
+          Shaded Relief<div class="opt-sub">Terrain without labels</div>
+        </button>
+        <button class="map-style-opt" data-style="street"     onclick="switchMapStyle('street')">
+          Street Map<div class="opt-sub">Roads & urban detail</div>
+        </button>
+        <button class="map-style-opt" data-style="dark-gray"  onclick="switchMapStyle('dark-gray')">
+          Dark Gray<div class="opt-sub">Minimal dark canvas</div>
+        </button>
+        <button class="map-style-opt" data-style="light-gray" onclick="switchMapStyle('light-gray')">
+          Light Gray<div class="opt-sub">Minimal light canvas</div>
+        </button>
+        <button class="map-style-opt" data-style="osm"        onclick="switchMapStyle('osm')">
+          OpenStreetMap<div class="opt-sub">Community road map</div>
+        </button>
+      </div>
+    </div>
     <a href="/" class="header-btn" style="text-decoration:none" title="Return to main menu">← Home</a>
   </header>
 
