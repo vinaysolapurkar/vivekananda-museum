@@ -1,25 +1,27 @@
 import Link from "next/link";
+import MuseumIcon from "@/components/MuseumIcon";
+import QuoteRotator from "@/components/QuoteRotator";
 
-const modules: { href: string; title: string; subtitle: string; symbol: string; accent: string; target?: string }[] = [
+const modules: { href: string; title: string; subtitle: string; icon: string; accent: string; target?: string }[] = [
   {
     href: "/guide",
     title: "Audio Guide",
     subtitle: "Guided narration through the gallery",
-    symbol: "🎧",
+    icon: "headphones",
     accent: "#D4A34F",
   },
   {
     href: "/kiosk/slideshow",
     title: "Exhibit Gallery",
     subtitle: "Visual journey through Swamiji's life",
-    symbol: "🖼",
+    icon: "gallery",
     accent: "#C8963E",
   },
   {
     href: "https://madhuraank-sv-ai.hf.space",
     title: "Speak with Swamiji",
     subtitle: "AI-guided wisdom from his teachings",
-    symbol: "🙏",
+    icon: "lotus",
     accent: "#7A9E7D",
     target: "_blank",
   },
@@ -27,161 +29,144 @@ const modules: { href: string; title: string; subtitle: string; symbol: string; 
     href: "/quiz",
     title: "Knowledge Quiz",
     subtitle: "Test your understanding, earn a certificate",
-    symbol: "📜",
+    icon: "scroll",
     accent: "#E07B2E",
   },
   {
     href: "/map",
     title: "World Travels",
-    subtitle: "Interactive Cesium globe · 5 phases · timeline & country filters",
-    symbol: "🌏",
+    subtitle: "433 places across five continents, 1863–1902",
+    icon: "globe",
     accent: "#C8A882",
   },
   {
     href: "/centres",
-    title: "RKM Centres Map",
-    subtitle: "323 branch centres of Ramakrishna Math & Mission across 25 countries",
-    symbol: "🏛️",
+    title: "RKM Centres",
+    subtitle: "323 centres of Ramakrishna Math & Mission worldwide",
+    icon: "temple",
     accent: "#4A90D9",
   },
 ];
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col" style={{
-      background: 'linear-gradient(170deg, #1a0f0a 0%, #2a1810 30%, #1c1008 100%)',
-    }}>
+    <div className="min-h-screen flex flex-col" style={{ background: "var(--background)" }}>
       {/* Hero */}
-      <header className="relative overflow-hidden text-center px-6 py-16" style={{
-        background: 'linear-gradient(170deg, #3a1a12 0%, #2a1810 50%, #1a0f0a 100%)',
-      }}>
-        {/* Decorative pattern — temple motif */}
-        <div className="absolute inset-0 opacity-[0.04]" style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 0L40 20L20 40L0 20z' fill='%23D4A34F' fill-opacity='1'/%3E%3C/svg%3E")`,
-          backgroundSize: '30px 30px',
-        }} />
-        {/* Vivekananda portrait — right side presence */}
-        <div className="absolute inset-0 pointer-events-none opacity-[0.07]" style={{
-          backgroundImage: 'url(/images/vivekananda-portrait.jpg)',
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'right center',
-          backgroundSize: 'auto 120%',
-          maskImage: 'linear-gradient(to left, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.2) 40%, transparent 70%)',
-          WebkitMaskImage: 'linear-gradient(to left, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.2) 40%, transparent 70%)',
-          filter: 'sepia(0.4) brightness(1.3)',
-        }} />
+      <header
+        className="relative overflow-hidden"
+        style={{ background: "var(--bg-hero)" }}
+      >
+        {/* Diya glow — signature warm lamp light */}
+        <div className="absolute inset-0 pointer-events-none" style={{ background: "var(--diya-glow)" }} />
 
-        <div className="relative w-full px-6">
-          {/* Logo */}
-          <div className="mb-4">
-            <img src="/images/logo.png" alt="Ramakrishna Math" className="w-24 h-24 mx-auto object-contain" style={{ filter: 'drop-shadow(0 2px 8px rgba(0,0,0,0.3))' }} />
+        {/* Portrait — intentional duotone panel on the right */}
+        <div
+          className="absolute top-0 right-0 bottom-0 hidden md:block pointer-events-none"
+          style={{
+            width: "38%",
+            backgroundImage: "url(/images/vivekananda-portrait.jpg)",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center top",
+            backgroundSize: "cover",
+            filter: "sepia(0.55) contrast(0.95) brightness(0.85)",
+            opacity: 0.5,
+            maskImage: "linear-gradient(to right, transparent 0%, rgba(0,0,0,0.85) 35%, black 60%)",
+            WebkitMaskImage: "linear-gradient(to right, transparent 0%, rgba(0,0,0,0.85) 35%, black 60%)",
+          }}
+        />
+        {/* Bottom fade so the portrait melts into the page */}
+        <div
+          className="absolute inset-x-0 bottom-0 h-24 pointer-events-none"
+          style={{ background: "linear-gradient(to top, var(--background), transparent)" }}
+        />
+
+        <div className="relative px-6 md:px-14 pt-10 pb-12 md:pt-12 md:pb-14 max-w-6xl">
+          <div className="flex items-center gap-4 mb-6">
+            <img
+              src="/images/logo.png"
+              alt="Ramakrishna Math"
+              className="w-16 h-16 object-contain"
+              style={{ filter: "drop-shadow(0 2px 8px rgba(0,0,0,0.3))" }}
+            />
+            <p className="m-eyebrow" style={{ color: "#9B8A72" }}>
+              Ramakrishna Ashram · Mysore
+            </p>
           </div>
 
-          {/* Decorative line */}
-          <div className="flex items-center justify-center gap-3 mb-5">
-            <div className="w-12 h-px" style={{ background: 'rgba(212,163,79,0.3)' }} />
-            <div className="w-2 h-2 rounded-full" style={{ background: 'rgba(212,163,79,0.4)' }} />
-            <div className="w-12 h-px" style={{ background: 'rgba(212,163,79,0.3)' }} />
-          </div>
-
-          <p className="text-sm tracking-[0.3em] uppercase mb-3" style={{
-            color: '#9B8A72', fontFamily: 'DM Sans, sans-serif',
-          }}>
-            Ramakrishna Ashram &middot; Mysore
-          </p>
-
-          <h1 className="text-5xl md:text-6xl font-light mb-4" style={{
-            fontFamily: 'Cormorant Garamond, serif', color: '#F5EDE0', fontWeight: 300, letterSpacing: '0.02em',
-            textShadow: '0 2px 20px rgba(0,0,0,0.4)',
-          }}>
+          <h1
+            className="text-5xl md:text-6xl mb-4 animate-fade-in-up"
+            style={{
+              fontFamily: "Cormorant Garamond, serif",
+              color: "var(--ivory)",
+              fontWeight: 300,
+              letterSpacing: "0.015em",
+              lineHeight: 1.05,
+              textShadow: "0 2px 24px rgba(0,0,0,0.45)",
+            }}
+          >
             Viveka Smaraka
           </h1>
 
-          <p className="text-base leading-relaxed" style={{
-            color: '#C8A882', fontFamily: 'DM Sans, sans-serif',
-          }}>
-            Experience the life and teachings of<br />Swami Vivekananda
+          <p
+            className="text-lg mb-6 animate-fade-in-up"
+            style={{ color: "#C8A882", animationDelay: "120ms", maxWidth: "28rem" }}
+          >
+            Experience the life and teachings of Swami Vivekananda
           </p>
 
-          {/* Decorative line */}
-          <div className="flex items-center justify-center gap-3 mt-6">
-            <div className="w-16 h-px" style={{ background: 'rgba(212,163,79,0.2)' }} />
-            <div className="text-xs" style={{ color: 'rgba(212,163,79,0.4)' }}>✦</div>
-            <div className="w-16 h-px" style={{ background: 'rgba(212,163,79,0.2)' }} />
+          <div className="animate-fade-in-up" style={{ animationDelay: "240ms", maxWidth: "34rem" }}>
+            <QuoteRotator />
+            <p className="text-xs mt-1 font-medium" style={{ color: "var(--gold)" }}>
+              — Swami Vivekananda
+            </p>
           </div>
         </div>
       </header>
 
-      {/* Quote */}
-      <div className="mx-4 -mt-5 relative z-10">
-        <div className="rounded-2xl px-6 py-5 text-center" style={{
-          background: 'rgba(255,245,230,0.04)',
-          border: '1px solid rgba(212,163,79,0.15)',
-          boxShadow: '0 4px 24px rgba(0,0,0,0.2)',
-          backdropFilter: 'blur(10px)',
-        }}>
-          <p className="italic text-lg leading-relaxed" style={{
-            fontFamily: 'Cormorant Garamond, serif', color: '#D9CBBA', fontWeight: 500,
-          }}>
-            &ldquo;Arise, awake, and stop not till the goal is reached.&rdquo;
-          </p>
-          <p className="text-xs mt-2 font-medium" style={{ color: '#D4A34F' }}>
-            — Swami Vivekananda
-          </p>
-        </div>
-      </div>
-
       {/* Modules */}
-      <main className="flex-1 px-4 py-8 w-full relative">
-        {/* Subtle background portrait */}
-        <div className="absolute inset-0 pointer-events-none opacity-[0.03]" style={{
-          backgroundImage: 'url(/images/vivekananda-portrait.jpg)',
-          backgroundRepeat: 'no-repeat',
-          backgroundPosition: 'center 20%',
-          backgroundSize: 'auto 80%',
-          filter: 'sepia(0.5) brightness(1.2)',
-        }} />
+      <main className="flex-1 px-6 md:px-14 py-10 w-full max-w-7xl mx-auto">
+        <div className="flex items-center gap-4 mb-6">
+          <p className="m-eyebrow">Begin your journey</p>
+          <div className="flex-1 h-px" style={{ background: "var(--hairline)" }} />
+        </div>
 
-        <p className="relative z-10 text-xs tracking-[0.2em] uppercase font-medium mb-5 px-1" style={{ color: '#9B8A72' }}>
-          Begin Your Journey
-        </p>
-
-        <div className="relative z-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-5">
           {modules.map((m, i) => (
             <Link
               key={m.href}
               href={m.href}
               {...(m.target ? { target: m.target, rel: "noopener noreferrer" } : {})}
-              className="group rounded-2xl p-5 flex flex-col animate-fade-in-up transition-all duration-300 hover:scale-[1.02] active:scale-[0.98]"
-              style={{
-                animationDelay: `${i * 80}ms`,
-                background: 'rgba(255,245,230,0.04)',
-                border: '1px solid rgba(212,163,79,0.1)',
-                borderLeft: `3px solid ${m.accent}`,
-                boxShadow: '0 2px 12px rgba(0,0,0,0.15)',
-              }}
+              className="m-card m-card-interactive group p-5 flex items-center gap-4 animate-fade-in-up"
+              style={{ animationDelay: `${i * 70}ms` }}
             >
-              <div className="flex items-start gap-4">
-                <div
-                  className="w-12 h-12 rounded-xl flex items-center justify-center text-xl shrink-0 transition-transform duration-300 group-hover:scale-110"
-                  style={{ background: 'rgba(212,163,79,0.08)', color: m.accent }}
-                >
-                  {m.symbol}
-                </div>
-                <div className="flex-1 min-w-0">
-                  <h2 className="text-lg font-semibold mb-0.5 transition-colors" style={{
-                    fontFamily: 'Cormorant Garamond, serif', color: '#F5EDE0', fontWeight: 600,
-                  }}>
-                    {m.title}
-                  </h2>
-                  <p className="text-sm leading-relaxed" style={{ color: '#9B8A72' }}>
-                    {m.subtitle}
-                  </p>
-                </div>
+              <div
+                className="w-13 h-13 md:w-14 md:h-14 rounded-2xl flex items-center justify-center shrink-0 transition-transform duration-300 group-hover:scale-110"
+                style={{
+                  width: 54,
+                  height: 54,
+                  background: `linear-gradient(145deg, ${m.accent}26, ${m.accent}0D)`,
+                  border: `1px solid ${m.accent}33`,
+                  color: m.accent,
+                }}
+              >
+                <MuseumIcon name={m.icon} size={25} />
               </div>
-              <div className="mt-3 flex items-center gap-1 text-xs font-medium transition-all group-hover:gap-2" style={{ color: m.accent }}>
-                <span>Enter</span>
-                <span className="transition-transform group-hover:translate-x-1">→</span>
+              <div className="flex-1 min-w-0">
+                <h2
+                  className="text-xl md:text-2xl leading-tight"
+                  style={{ fontFamily: "Cormorant Garamond, serif", color: "var(--ivory)", fontWeight: 600 }}
+                >
+                  {m.title}
+                </h2>
+                <p className="text-[0.82rem] leading-snug mt-0.5" style={{ color: "var(--ink-muted)" }}>
+                  {m.subtitle}
+                </p>
+              </div>
+              <div
+                className="shrink-0 transition-transform duration-300 group-hover:translate-x-1"
+                style={{ color: m.accent }}
+              >
+                <MuseumIcon name="arrowRight" size={18} strokeWidth={2} />
               </div>
             </Link>
           ))}
@@ -189,14 +174,18 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="px-6 py-6 text-center relative z-10">
-        <div className="h-px mb-4" style={{
-          background: 'linear-gradient(to right, transparent, rgba(212,163,79,0.12) 20%, rgba(212,163,79,0.12) 80%, transparent)',
-        }} />
-        <p className="text-xs" style={{ color: '#9B8A72' }}>
-          Sri Ramakrishna Ashram &middot; Mysore
+      <footer className="px-6 py-7 text-center">
+        <div className="m-divider mb-4">
+          <span>✦</span>
+        </div>
+        <p className="text-xs" style={{ color: "var(--ink-faint)" }}>
+          Sri Ramakrishna Ashram · Mysore
         </p>
-        <Link href="/admin" className="text-xs hover:underline mt-1 inline-block" style={{ color: 'rgba(212,163,79,0.4)' }}>
+        <Link
+          href="/admin"
+          className="text-xs hover:underline mt-1 inline-block"
+          style={{ color: "rgba(212,163,79,0.35)" }}
+        >
           Admin
         </Link>
       </footer>
