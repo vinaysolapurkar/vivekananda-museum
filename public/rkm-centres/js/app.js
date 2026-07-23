@@ -11,7 +11,6 @@ let selectedCountry = "all";
 let searchQuery   = "";
 let selectedId    = null;
 let pinEntities   = {};
-let logoImg       = null;   // preloaded RKM logo Image element
 
 // Build lookup map
 const CENTRES_MAP = {};
@@ -36,139 +35,12 @@ function formatAlt(metres) {
   return metres.toFixed(0) + ' m';
 }
 
-// ── Pin colour helpers ────────────────────────────────────────────────
-function lightenHex(hex, t) {
-  const r = parseInt(hex.slice(1,3),16), g = parseInt(hex.slice(3,5),16), b = parseInt(hex.slice(5,7),16);
-  const l = v => Math.min(255, Math.round(v + (255-v)*t));
-  return `rgb(${l(r)},${l(g)},${l(b)})`;
-}
-function darkenHex(hex, t) {
-  const r = parseInt(hex.slice(1,3),16), g = parseInt(hex.slice(3,5),16), b = parseInt(hex.slice(5,7),16);
-  const d = v => Math.max(0, Math.round(v * (1-t)));
-  return `rgb(${d(r)},${d(g)},${d(b)})`;
-}
-
 // ── Pin colours: Math = saffron, Mission = blue ───────────────────────
-const PIN_COLORS = { math: '#C8701A', mission: '#2E6DB4' };
-
-// ── Build flag-shaped canvas pin (same style as Travels map) ──────────
-function buildPinCanvas(color, displaySize, logoImage, selected) {
-  const dpr  = 2;
-  const pw   = displaySize * dpr;
-  const rh   = Math.round(pw * 0.82);
-  const cr   = Math.round(pw * 0.16);
-  const tw   = Math.round(pw * 0.30);
-  const th   = Math.round(pw * 0.28);
-  const vpad = Math.round(3 * dpr);
-  const ch   = vpad + rh + th + vpad;
-
-  const canvas = document.createElement('canvas');
-  canvas.width  = pw;
-  canvas.height = ch;
-  const ctx = canvas.getContext('2d');
-
-  const lx  = 0, rx  = pw;
-  const ty  = vpad, by = vpad + rh;
-  const mx  = pw / 2;
-  const tip = vpad + rh + th;
-
-  // Drop shadow
-  ctx.shadowColor   = 'rgba(0,0,0,0.52)';
-  ctx.shadowBlur    = 5 * dpr;
-  ctx.shadowOffsetX = 0;
-  ctx.shadowOffsetY = 2 * dpr;
-
-  // Flag/shield shape path
-  ctx.beginPath();
-  ctx.moveTo(lx + cr, ty);
-  ctx.lineTo(rx - cr, ty);
-  ctx.arcTo(rx, ty,  rx, ty + cr, cr);
-  ctx.lineTo(rx, by);
-  ctx.lineTo(mx + tw / 2, by);
-  ctx.lineTo(mx, tip);
-  ctx.lineTo(mx - tw / 2, by);
-  ctx.lineTo(lx, by);
-  ctx.lineTo(lx, ty + cr);
-  ctx.arcTo(lx, ty, lx + cr, ty, cr);
-  ctx.closePath();
-
-  // Gradient fill
-  const grad = ctx.createLinearGradient(0, ty, 0, by);
-  grad.addColorStop(0, lightenHex(color, 0.42));
-  grad.addColorStop(1, darkenHex(color, 0.22));
-  ctx.fillStyle = grad;
-  ctx.fill();
-  ctx.shadowColor = 'transparent';
-
-  if (selected) {
-    ctx.strokeStyle = '#f0c040';
-    ctx.lineWidth   = 3 * dpr;
-    ctx.stroke();
-  }
-
-  if (logoImage) {
-    const brd  = Math.round(2.5 * dpr);
-    const ilx  = lx + brd, irx = rx - brd;
-    const ity  = ty + brd, iby = by;
-    const icr  = Math.max(cr - brd, 2);
-    const imgW = irx - ilx, imgH = iby - ity;
-
-    // Clip to inner rounded rectangle
-    ctx.save();
-    ctx.beginPath();
-    ctx.moveTo(ilx + icr, ity);
-    ctx.lineTo(irx - icr, ity);
-    ctx.arcTo(irx, ity, irx, ity + icr, icr);
-    ctx.lineTo(irx, iby);
-    ctx.lineTo(ilx, iby);
-    ctx.lineTo(ilx, ity + icr);
-    ctx.arcTo(ilx, ity, ilx + icr, ity, icr);
-    ctx.closePath();
-    ctx.clip();
-
-    // Dark background for the logo
-    ctx.fillStyle = darkenHex(color, 0.35);
-    ctx.fillRect(ilx, ity, imgW, imgH);
-
-    // Draw logo centered + contain-fitted (not cover) so the circular logo shows fully
-    const iw = logoImage.naturalWidth  || logoImage.width  || 1;
-    const ih = logoImage.naturalHeight || logoImage.height || 1;
-    const scale = Math.min(imgW / iw, imgH / ih) * 0.78;  // 78% — leave a margin
-    const dw = iw * scale, dh = ih * scale;
-    ctx.drawImage(logoImage, ilx + (imgW - dw) / 2, ity + (imgH - dh) / 2, dw, dh);
-
-    ctx.restore();
-
-    // Inner border frame
-    ctx.beginPath();
-    ctx.moveTo(ilx + icr, ity);
-    ctx.lineTo(irx - icr, ity);
-    ctx.arcTo(irx, ity, irx, ity + icr, icr);
-    ctx.lineTo(irx, iby);
-    ctx.lineTo(ilx, iby);
-    ctx.lineTo(ilx, ity + icr);
-    ctx.arcTo(ilx, ity, ilx + icr, ity, icr);
-    ctx.closePath();
-    ctx.strokeStyle = selected ? '#f0c040' : color;
-    ctx.lineWidth   = selected ? brd * 1.4 : brd;
-    ctx.stroke();
-  }
-
-  return canvas;
-}
-
-// ── Prebuilt pin images ───────────────────────────────────────────────
-let PIN = {};   // 'math' | 'mission' | 'math_sel' | 'mission_sel'
-
-function buildAllPins() {
-  ['math', 'mission'].forEach(type => {
-    const color = PIN_COLORS[type];
-    PIN[type]        = buildPinCanvas(color, 42, logoImg, false).toDataURL();
-    PIN[type + '_sel'] = buildPinCanvas(color, 42, logoImg, true).toDataURL();
-  });
-}
+const PIN_COLORS = { math: '#E07B2E', mission: '#4A90D9' };
 
 // ── Build/refresh all entity pins on the globe ────────────────────────
+// Refined circular dot markers: saffron = Math, blue = Mission.
+// Soft halo comes from a wide translucent same-hue outline.
 function buildPins() {
   if (!viewer) return;
   viewer.entities.removeAll();
@@ -177,25 +49,28 @@ function buildPins() {
   filteredCentres.forEach(c => {
     if (c.lat === null) return;
     const isSelected = c.id === selectedId;
-    const key = c.type + (isSelected ? '_sel' : '');
+    const color = PIN_COLORS[c.type] || PIN_COLORS.math;
     const entity = viewer.entities.add({
       position: Cesium.Cartesian3.fromDegrees(c.lng, c.lat),
-      billboard: {
-        image:          PIN[key] || PIN[c.type],
-        width:          42,
-        height:         53,
-        verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
+      point: {
+        pixelSize:      isSelected ? 15 : 10,
+        color:          Cesium.Color.fromCssColorString(isSelected ? '#E8B45C' : color),
+        outlineColor:   isSelected
+                          ? Cesium.Color.fromCssColorString('#F5EDE0').withAlpha(0.9)
+                          : Cesium.Color.fromCssColorString(color).withAlpha(0.25),
+        outlineWidth:   isSelected ? 2 : 5,
         heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
-        scaleByDistance: new Cesium.NearFarScalar(2e6, 1.0, 1e7, 0.55),
+        scaleByDistance: new Cesium.NearFarScalar(2e6, 1.0, 1.2e7, 0.55),
+        translucencyByDistance: new Cesium.NearFarScalar(1e5, 1.0, 2.5e7, 0.6),
       },
       label: {
         text: c.name.replace(/^Ramakrishna (Math|Mission|Ashrama),\s*/i, '').replace(/\s*-\s*a sub-centre.*/i, '').trim(),
-        font:            '12px Inter, sans-serif',
-        fillColor:       Cesium.Color.fromCssColorString('#F0E2CC'),
-        outlineColor:    Cesium.Color.BLACK,
-        outlineWidth:    2,
+        font:            '12px "DM Sans", sans-serif',
+        fillColor:       Cesium.Color.fromCssColorString('#F5EDE0'),
+        outlineColor:    Cesium.Color.fromCssColorString('#14100D'),
+        outlineWidth:    3,
         style:           Cesium.LabelStyle.FILL_AND_OUTLINE,
-        pixelOffset:     new Cesium.Cartesian2(0, -58),
+        pixelOffset:     new Cesium.Cartesian2(0, -16),
         verticalOrigin:  Cesium.VerticalOrigin.BOTTOM,
         heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
         translucencyByDistance: new Cesium.NearFarScalar(1.5e6, 1.0, 8e6, 0.0),
@@ -460,17 +335,6 @@ window.addEventListener('keydown', e => {
 
 // ── Main async init ───────────────────────────────────────────────────
 async function initApp() {
-  // Preload RKM logo
-  logoImg = await new Promise(resolve => {
-    const img = new Image();
-    img.crossOrigin = 'anonymous';
-    img.onload  = () => resolve(img);
-    img.onerror = () => resolve(null);   // fallback: no logo, still show coloured pin
-    img.src = '/images/logo.png';
-  });
-
-  buildAllPins();
-
   Cesium.Ion.defaultAccessToken = '';
 
   viewer = new Cesium.Viewer('cesiumContainer', {
@@ -511,6 +375,7 @@ async function initApp() {
   labLayer.alpha = 0.7;
 
   viewer.scene.globe.enableLighting = false;
+  viewer.scene.sun.show = false;   // hide harsh white sun-glare disc
   viewer.clock.currentTime   = Cesium.JulianDate.fromDate(new Date('2024-03-21T17:45:00Z'));
   viewer.clock.shouldAnimate = false;
 

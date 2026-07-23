@@ -2,10 +2,12 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import MuseumIcon from "@/components/MuseumIcon";
 
 interface Quiz {
   id: number;
   title: string;
+  description?: string;
   time_limit_minutes: number;
   passing_score: number;
 }
@@ -23,66 +25,172 @@ export default function QuizListPage() {
   }, []);
 
   return (
-    <div className="flex flex-col min-h-screen relative" style={{
-      background: 'linear-gradient(170deg, #1a0f0a 0%, #2a1810 30%, #1c1008 100%)',
-    }}>
-      {/* Vivekananda watermark */}
-      <div className="fixed top-0 right-0 bottom-0 w-[40%] pointer-events-none z-0 opacity-[0.05]" style={{
-        backgroundImage: 'url(/images/vivekananda-portrait.jpg)',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'right center',
-        backgroundSize: 'auto 70%',
-        maskImage: 'linear-gradient(to left, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.2) 40%, transparent 100%)',
-        WebkitMaskImage: 'linear-gradient(to left, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.2) 40%, transparent 100%)',
-        filter: 'sepia(0.4) brightness(1.2)',
-      }} />
+    <div
+      className="flex flex-col min-h-screen relative"
+      style={{ background: "var(--background)" }}
+    >
+      {/* Hero band with diya glow */}
+      <div
+        className="absolute inset-x-0 top-0 h-[420px] pointer-events-none"
+        style={{ background: "var(--bg-hero)" }}
+      />
+      <div
+        className="absolute inset-x-0 top-0 h-[420px] pointer-events-none"
+        style={{ background: "var(--diya-glow)" }}
+      />
 
-      <header className="relative z-10 px-6 py-5" style={{
-        background: 'rgba(58,26,18,0.4)',
-        borderBottom: '1px solid rgba(212,163,79,0.1)',
-      }}>
-        <div className="flex items-center justify-between w-full">
-          <Link href="/" className="text-sm font-medium transition-colors hover:opacity-80" style={{ color: '#D4A34F' }}>← Home</Link>
-          <h1 className="text-xl font-semibold" style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5EDE0' }}>Quizzes</h1>
-          <div className="w-14" />
-        </div>
+      {/* Top bar */}
+      <header className="relative z-10 px-6 sm:px-10 pt-6 flex items-center">
+        <Link
+          href="/"
+          className="m-btn m-btn-ghost touch-target"
+          style={{ minHeight: 44, fontSize: "0.85rem" }}
+        >
+          <MuseumIcon name="arrowLeft" size={16} />
+          Home
+        </Link>
       </header>
 
-      <main className="flex-1 p-6 w-full relative z-10">
+      <main className="flex-1 relative z-10 flex flex-col items-center px-6 pb-16 w-full">
+        {/* Hero */}
+        <div className="text-center pt-8 sm:pt-12 animate-fade-in-up">
+          <div
+            className="mx-auto mb-6 flex items-center justify-center rounded-full"
+            style={{
+              width: 76,
+              height: 76,
+              color: "var(--gold)",
+              background: "var(--card-bg)",
+              border: "1px solid var(--hairline)",
+              boxShadow: "0 0 44px rgba(224, 123, 46, 0.18)",
+            }}
+          >
+            <MuseumIcon name="scroll" size={34} strokeWidth={1.4} />
+          </div>
+
+          <p className="m-eyebrow mb-3">Test Your Understanding</p>
+          <h1
+            className="text-5xl sm:text-6xl font-semibold mb-4"
+            style={{ color: "var(--ivory)" }}
+          >
+            Knowledge Quiz
+          </h1>
+          <p
+            className="text-base sm:text-lg max-w-md mx-auto leading-relaxed"
+            style={{ color: "var(--ink-muted)" }}
+          >
+            How well do you know the life and teachings of Swami Vivekananda?
+            Take the quiz and earn a certificate.
+          </p>
+
+          <div className="m-divider my-9">
+            <span>✦</span>
+          </div>
+        </div>
+
+        {/* Body */}
         {loading ? (
           <div className="flex justify-center py-20">
-            <div className="w-10 h-10 border-2 border-transparent rounded-full animate-spin" style={{ borderTopColor: '#D4A34F' }} />
+            <div
+              className="w-10 h-10 border-2 border-transparent rounded-full animate-spin"
+              style={{ borderTopColor: "var(--gold)" }}
+            />
           </div>
         ) : quizzes.length === 0 ? (
-          <div className="text-center py-20">
-            <div className="w-20 h-20 rounded-full overflow-hidden mx-auto mb-4" style={{ border: '1.5px solid rgba(212,163,79,0.2)' }}>
-              <img src="/images/vivekananda-portrait.jpg" alt="" className="w-full h-full object-cover" style={{ opacity: 0.5, filter: 'sepia(0.3)' }} />
-            </div>
-            <p className="text-lg" style={{ fontFamily: '"Cormorant Garamond", serif', color: '#D9CBBA' }}>No quizzes available yet</p>
-            <Link href="/admin/quiz" className="text-sm hover:underline mt-2 inline-block" style={{ color: '#D4A34F' }}>
+          <div className="text-center py-12 animate-fade-in-up">
+            <p
+              className="text-2xl mb-2"
+              style={{
+                fontFamily: '"Cormorant Garamond", serif',
+                color: "var(--ivory)",
+              }}
+            >
+              No quizzes available yet
+            </p>
+            <Link
+              href="/admin/quiz"
+              className="text-sm hover:underline"
+              style={{ color: "var(--gold)" }}
+            >
               Create quizzes in Admin
             </Link>
           </div>
         ) : (
-          <div className="grid gap-4">
-            {quizzes.map((q) => (
+          <div className="w-full max-w-2xl space-y-6">
+            {quizzes.map((q, idx) => (
               <Link
                 key={q.id}
                 href={`/quiz/${q.id}`}
-                className="block rounded-2xl p-5 transition-all duration-300 hover:scale-[1.01] active:scale-[0.99]"
-                style={{
-                  background: 'rgba(255,245,230,0.04)',
-                  border: '1px solid rgba(212,163,79,0.1)',
-                  boxShadow: '0 2px 12px rgba(0,0,0,0.15)',
-                }}
+                className="m-card m-card-interactive block p-8 sm:p-10 animate-fade-in-up"
+                style={{ animationDelay: `${0.12 + idx * 0.08}s` }}
               >
-                <h2 className="text-lg font-semibold" style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5EDE0' }}>{q.title}</h2>
-                <div className="flex gap-4 mt-2 text-sm" style={{ color: '#9B8A72' }}>
-                  <span>{q.time_limit_minutes} min</span>
-                  <span>Pass: {q.passing_score}%</span>
+                <div className="text-center">
+                  <h2
+                    className="text-3xl sm:text-4xl font-semibold mb-3"
+                    style={{ color: "var(--ivory)" }}
+                  >
+                    {q.title}
+                  </h2>
+                  {q.description && (
+                    <p
+                      className="text-sm sm:text-base mb-1 max-w-lg mx-auto"
+                      style={{ color: "var(--ink-muted)" }}
+                    >
+                      {q.description}
+                    </p>
+                  )}
+
+                  {/* Meta row */}
+                  <div
+                    className="flex flex-wrap items-center justify-center gap-x-7 gap-y-3 mt-6 mb-7 text-sm"
+                    style={{ color: "var(--ink-muted)" }}
+                  >
+                    <span className="inline-flex items-center gap-2">
+                      <MuseumIcon
+                        name="clock"
+                        size={17}
+                        style={{ color: "var(--gold)" }}
+                      />
+                      {q.time_limit_minutes} minutes
+                    </span>
+                    <span className="inline-flex items-center gap-2">
+                      <MuseumIcon
+                        name="award"
+                        size={17}
+                        style={{ color: "var(--gold)" }}
+                      />
+                      Earn a certificate
+                    </span>
+                    <span
+                      className="m-chip"
+                      style={{ minHeight: 32, padding: "0 0.9rem", cursor: "inherit" }}
+                    >
+                      <MuseumIcon name="check" size={14} />
+                      {q.passing_score}% to pass
+                    </span>
+                  </div>
+
+                  <span
+                    className="m-btn m-btn-primary w-full sm:w-auto sm:min-w-[260px]"
+                    style={{ minHeight: 56, fontSize: "1.05rem" }}
+                  >
+                    <MuseumIcon name="play" size={18} />
+                    Start quiz
+                  </span>
                 </div>
               </Link>
             ))}
+
+            {/* Reassurance footer */}
+            <div
+              className="text-center pt-4 animate-fade-in-up"
+              style={{ animationDelay: "0.3s" }}
+            >
+              <p className="text-xs" style={{ color: "var(--ink-faint)" }}>
+                Answer at your own pace — you can review each question before
+                submitting.
+              </p>
+            </div>
           </div>
         )}
       </main>

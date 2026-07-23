@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import MuseumIcon from "@/components/MuseumIcon";
 
 interface Stats {
   stations: number;
@@ -12,11 +13,18 @@ interface Stats {
 }
 
 const cards = [
-  { key: "stations" as const, label: "Audio Stations", icon: "🎧", href: "/admin/stations", color: "bg-primary" },
-  { key: "kiosks" as const, label: "Kiosks", icon: "🖥️", href: "/admin/kiosks", color: "bg-saffron" },
-  { key: "questions" as const, label: "Quiz Questions", icon: "📝", href: "/admin/quiz", color: "bg-accent" },
-  { key: "attempts_today" as const, label: "Attempts Today", icon: "📊", href: "/admin/quiz", color: "bg-primary-light" },
-  { key: "chat_sessions" as const, label: "Chat Sessions", icon: "💬", href: "/admin/knowledge", color: "bg-saffron-dark" },
+  { key: "stations" as const, label: "Audio Stations", icon: "headphones", href: "/admin/stations" },
+  { key: "kiosks" as const, label: "Kiosks", icon: "gallery", href: "/admin/kiosks" },
+  { key: "questions" as const, label: "Quiz Questions", icon: "scroll", href: "/admin/quiz" },
+  { key: "attempts_today" as const, label: "Attempts Today", icon: "award", href: "/admin/quiz" },
+  { key: "chat_sessions" as const, label: "Chat Sessions", icon: "lotus", href: "/admin/knowledge" },
+];
+
+const quickActions = [
+  { href: "/admin/stations", icon: "headphones", title: "Add Station", desc: "Create a new audio station" },
+  { href: "/admin/kiosks", icon: "gallery", title: "Add Kiosk", desc: "Set up a new kiosk display" },
+  { href: "/admin/knowledge", icon: "lotus", title: "Upload PDF", desc: "Add knowledge base document" },
+  { href: "/admin/quiz", icon: "scroll", title: "Add Question", desc: "Create quiz questions" },
 ];
 
 export default function AdminDashboard() {
@@ -31,73 +39,50 @@ export default function AdminDashboard() {
 
   return (
     <div className="w-full">
-      <h1 className="text-2xl font-heading font-bold text-primary mb-6">Dashboard</h1>
+      <p className="m-eyebrow mb-1">Overview</p>
+      <h1 className="text-3xl mb-6" style={{ color: "var(--ivory)" }}>Dashboard</h1>
 
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mb-8">
         {cards.map((card) => (
-          <Link
-            key={card.key}
-            href={card.href}
-            className="bg-white rounded-xl border border-border p-4 hover:shadow-md hover:border-saffron/30 transition-all"
-          >
-            <div className={`w-10 h-10 ${card.color} rounded-lg flex items-center justify-center text-lg mb-3`}>
-              {card.icon}
+          <Link key={card.key} href={card.href} className="m-card m-card-interactive p-4 block">
+            <div
+              className="w-10 h-10 rounded-lg flex items-center justify-center mb-3"
+              style={{ background: "rgba(224, 123, 46, 0.12)", border: "1px solid var(--hairline)", color: "var(--saffron)" }}
+            >
+              <MuseumIcon name={card.icon} size={20} />
             </div>
-            <p className="text-2xl font-bold text-text-dark">
+            <p className="text-2xl font-bold" style={{ color: "var(--ivory)", fontFamily: "var(--font-body)" }}>
               {stats ? stats[card.key] : "—"}
             </p>
-            <p className="text-xs text-text-muted mt-0.5">{card.label}</p>
+            <p className="text-xs mt-0.5" style={{ color: "var(--ink-muted)" }}>{card.label}</p>
           </Link>
         ))}
       </div>
 
       {/* Quick actions */}
-      <h2 className="text-lg font-heading font-semibold text-primary mb-3">Quick Actions</h2>
+      <p className="m-eyebrow mb-3">Quick Actions</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-        <Link
-          href="/admin/stations"
-          className="flex items-center gap-3 bg-white border border-border rounded-xl p-4 hover:border-primary/30 transition-colors"
-        >
-          <span className="text-2xl">➕</span>
-          <div>
-            <p className="font-semibold text-text-dark">Add Station</p>
-            <p className="text-xs text-text-muted">Create a new audio station</p>
-          </div>
-        </Link>
-        <Link
-          href="/admin/kiosks"
-          className="flex items-center gap-3 bg-white border border-border rounded-xl p-4 hover:border-primary/30 transition-colors"
-        >
-          <span className="text-2xl">➕</span>
-          <div>
-            <p className="font-semibold text-text-dark">Add Kiosk</p>
-            <p className="text-xs text-text-muted">Set up a new kiosk display</p>
-          </div>
-        </Link>
-        <Link
-          href="/admin/knowledge"
-          className="flex items-center gap-3 bg-white border border-border rounded-xl p-4 hover:border-primary/30 transition-colors"
-        >
-          <span className="text-2xl">📄</span>
-          <div>
-            <p className="font-semibold text-text-dark">Upload PDF</p>
-            <p className="text-xs text-text-muted">Add knowledge base document</p>
-          </div>
-        </Link>
-        <Link
-          href="/admin/quiz"
-          className="flex items-center gap-3 bg-white border border-border rounded-xl p-4 hover:border-primary/30 transition-colors"
-        >
-          <span className="text-2xl">❓</span>
-          <div>
-            <p className="font-semibold text-text-dark">Add Question</p>
-            <p className="text-xs text-text-muted">Create quiz questions</p>
-          </div>
-        </Link>
+        {quickActions.map((a) => (
+          <Link key={a.title} href={a.href} className="m-card m-card-interactive flex items-center gap-3 p-4">
+            <span
+              className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0"
+              style={{ background: "rgba(212, 163, 79, 0.1)", border: "1px solid var(--hairline)", color: "var(--gold)" }}
+            >
+              <MuseumIcon name={a.icon} size={20} />
+            </span>
+            <div className="flex-1">
+              <p className="font-semibold" style={{ color: "var(--ivory)" }}>{a.title}</p>
+              <p className="text-xs" style={{ color: "var(--ink-muted)" }}>{a.desc}</p>
+            </div>
+            <span style={{ color: "var(--ink-faint)" }}>
+              <MuseumIcon name="arrowRight" size={16} />
+            </span>
+          </Link>
+        ))}
       </div>
 
       {/* Service health */}
-      <h2 className="text-lg font-heading font-semibold text-primary mt-8 mb-3">Services</h2>
+      <p className="m-eyebrow mt-8 mb-3">Services</p>
       <ServiceHealth />
     </div>
   );
@@ -124,20 +109,19 @@ function ServiceHealth() {
   return (
     <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
       {services.map((s) => (
-        <div
-          key={s.name}
-          className="bg-white border border-border rounded-xl p-3 flex items-center gap-2"
-        >
+        <div key={s.name} className="m-card p-3 flex items-center gap-2">
           <span
-            className={`w-2.5 h-2.5 rounded-full ${
-              health[s.name] === undefined
-                ? "bg-border animate-pulse"
-                : health[s.name]
-                  ? "bg-accent"
-                  : "bg-red-500"
-            }`}
+            className={`w-2.5 h-2.5 rounded-full ${health[s.name] === undefined ? "animate-pulse" : ""}`}
+            style={{
+              background:
+                health[s.name] === undefined
+                  ? "var(--ink-faint)"
+                  : health[s.name]
+                    ? "#7A9E7D"
+                    : "#D9776B",
+            }}
           />
-          <span className="text-sm text-text-dark">{s.name}</span>
+          <span className="text-sm" style={{ color: "var(--ivory)" }}>{s.name}</span>
         </div>
       ))}
     </div>

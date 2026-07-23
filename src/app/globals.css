@@ -77,16 +77,32 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-display);
 }
 
-/* Admin area: force dark text on inputs since body is now dark-themed */
-.admin-light input,
+/* Admin area: dark-theme form controls (matches museum design system) */
+.admin-light input:not([type="checkbox"]):not([type="radio"]):not([type="file"]):not([type="range"]),
 .admin-light textarea,
-.admin-light select,
+.admin-light select {
+  background: var(--bg-raised);
+  border: 1px solid var(--hairline);
+  color: var(--ivory);
+  border-radius: 10px;
+}
+.admin-light input:focus,
+.admin-light textarea:focus,
+.admin-light select:focus {
+  outline: none;
+  border-color: var(--saffron);
+}
 .admin-light option {
-  color: #2C1810;
+  background: var(--bg-raised);
+  color: var(--ivory);
 }
 .admin-light input::placeholder,
 .admin-light textarea::placeholder {
-  color: #8B7B6B;
+  color: var(--ink-faint);
+}
+.admin-light input[type="checkbox"],
+.admin-light input[type="radio"] {
+  accent-color: var(--saffron);
 }
 
 /* Scrollbar */

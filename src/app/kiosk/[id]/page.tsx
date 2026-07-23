@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef, useCallback } from "react";
 import { use } from "react";
+import MuseumIcon from "@/components/MuseumIcon";
 
 interface ExhibitImage {
   id: number;
@@ -162,10 +163,10 @@ export default function KioskDisplayPage({
 
   if (loading) {
     return (
-      <div className="fixed inset-0 flex items-center justify-center" style={{ background: "#1a0f0a" }}>
+      <div className="fixed inset-0 flex items-center justify-center" style={{ background: "var(--background)" }}>
         <div className="text-center">
-          <div className="w-12 h-12 border-2 border-transparent rounded-full animate-spin mb-6 mx-auto" style={{ borderTopColor: '#D4A34F' }} />
-          <p className="text-sm font-light" style={{ color: '#9B8A72' }}>Loading exhibit...</p>
+          <div className="w-12 h-12 border-2 border-transparent rounded-full animate-spin mb-6 mx-auto" style={{ borderTopColor: 'var(--gold)' }} />
+          <p className="text-sm font-light" style={{ color: 'var(--ink-muted)' }}>Loading exhibit...</p>
         </div>
       </div>
     );
@@ -173,18 +174,16 @@ export default function KioskDisplayPage({
 
   if (error || totalItems === 0) {
     return (
-      <div className="fixed inset-0 flex items-center justify-center" style={{ background: "#1a0f0a" }}>
+      <div className="fixed inset-0 flex items-center justify-center" style={{ background: "var(--background)" }}>
         <div className="text-center px-8">
-          <svg width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="#9B8A72" strokeWidth="1" className="mx-auto mb-6">
-            <rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/>
-          </svg>
+          <MuseumIcon name="gallery" size={56} strokeWidth={1.1} className="mx-auto mb-6" style={{ color: 'var(--ink-faint)' }} />
           <h2
             className="text-3xl font-semibold mb-3"
-            style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5EDE0' }}
+            style={{ color: 'var(--ivory)' }}
           >
             Content Coming Soon
           </h2>
-          <p className="text-base" style={{ color: '#9B8A72' }}>This exhibit is being prepared.</p>
+          <p className="text-base" style={{ color: 'var(--ink-muted)' }}>This exhibit is being prepared.</p>
         </div>
       </div>
     );
@@ -199,9 +198,10 @@ export default function KioskDisplayPage({
       <div
         ref={containerRef}
         className="fixed inset-0 overflow-hidden select-none cursor-none"
-        style={{ background: "#0f0806" }}
+        style={{ background: "#0D0A08" }}
         onClick={goNext}
       >
+        <style>{`@keyframes kenBurns { from { transform: scale(1); } to { transform: scale(1.045); } }`}</style>
         {/* Full-screen image with Ken Burns */}
         <div className="absolute inset-0 flex items-center justify-center">
           <img
@@ -284,13 +284,11 @@ export default function KioskDisplayPage({
     <div
       ref={containerRef}
       className="fixed inset-0 overflow-hidden select-none cursor-none"
-      style={{ background: "#1a0f0a" }}
+      style={{ background: "var(--background)" }}
       onClick={goNext}
     >
-      {/* Ambient */}
-      <div className="absolute inset-0" style={{
-        background: 'radial-gradient(ellipse at center, rgba(42,24,16,0.5) 0%, rgba(26,15,10,1) 70%)'
-      }} />
+      {/* Ambient diya glow */}
+      <div className="absolute inset-0" style={{ background: 'var(--diya-glow)' }} />
 
       {/* Progress line at top */}
       <div className="absolute top-0 left-0 right-0 h-[2px] z-30" style={{ background: 'rgba(255,255,255,0.04)' }}>

@@ -19,6 +19,9 @@ interface Question {
   difficulty: string;
 }
 
+const btnPrimary: React.CSSProperties = { minHeight: 40, fontSize: "0.85rem", padding: "0 1.1rem" };
+const btnSmall: React.CSSProperties = { minHeight: 30, fontSize: "0.75rem", padding: "0 0.7rem" };
+
 export default function AdminQuiz() {
   const [quizzes, setQuizzes] = useState<Quiz[]>([]);
   const [questions, setQuestions] = useState<Record<number, Question[]>>({});
@@ -116,78 +119,82 @@ export default function AdminQuiz() {
   return (
     <div className="w-full">
       <div className="flex items-center justify-between mb-6">
-        <h1 className="text-2xl font-heading font-bold text-primary">Quizzes</h1>
+        <div>
+          <p className="m-eyebrow mb-1">Knowledge Quiz</p>
+          <h1 className="text-3xl" style={{ color: "var(--ivory)" }}>Quizzes</h1>
+        </div>
         <button
           onClick={() =>
             setEditingQuiz({ title: "", time_limit_minutes: 10, passing_score: 50 })
           }
-          className="px-4 py-2 bg-saffron text-white rounded-lg font-medium hover:bg-saffron-dark transition-colors"
+          className="m-btn m-btn-primary"
+          style={btnPrimary}
         >
           + Add Quiz
         </button>
       </div>
 
       {msg && (
-        <div className="mb-4 px-4 py-2 bg-accent/10 text-accent rounded-lg text-sm">{msg}</div>
+        <div className="mb-4 px-4 py-2 rounded-lg text-sm" style={{ background: "rgba(212, 163, 79, 0.1)", border: "1px solid var(--hairline)", color: "var(--gold)" }}>{msg}</div>
       )}
 
       {/* New Quiz Form */}
       {editingQuiz && (
-        <div className="bg-white border border-border rounded-xl p-6 mb-6">
-          <h2 className="text-lg font-semibold mb-4">New Quiz</h2>
+        <div className="m-card p-6 mb-6">
+          <h2 className="text-xl mb-4" style={{ color: "var(--ivory)" }}>New Quiz</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <input
               placeholder="Quiz title"
               value={editingQuiz.title || ""}
               onChange={(e) => setEditingQuiz({ ...editingQuiz, title: e.target.value })}
-              className="px-3 py-2 border border-border rounded-lg focus:outline-none focus:border-primary md:col-span-3"
+              className="px-3 py-2 text-sm md:col-span-3"
             />
             <input
               type="number"
               placeholder="Time limit (minutes)"
               value={editingQuiz.time_limit_minutes || ""}
               onChange={(e) => setEditingQuiz({ ...editingQuiz, time_limit_minutes: parseInt(e.target.value) || 10 })}
-              className="px-3 py-2 border border-border rounded-lg focus:outline-none focus:border-primary"
+              className="px-3 py-2 text-sm"
             />
             <input
               type="number"
               placeholder="Passing score (%)"
               value={editingQuiz.passing_score || ""}
               onChange={(e) => setEditingQuiz({ ...editingQuiz, passing_score: parseInt(e.target.value) || 50 })}
-              className="px-3 py-2 border border-border rounded-lg focus:outline-none focus:border-primary"
+              className="px-3 py-2 text-sm"
             />
           </div>
           <div className="flex gap-3 mt-4">
-            <button onClick={saveQuiz} disabled={saving} className="px-6 py-2 bg-primary text-white rounded-lg font-medium disabled:opacity-50">
+            <button onClick={saveQuiz} disabled={saving} className="m-btn m-btn-primary disabled:opacity-50" style={btnPrimary}>
               {saving ? "Saving..." : "Save"}
             </button>
-            <button onClick={() => setEditingQuiz(null)} className="px-6 py-2 border border-border rounded-lg">Cancel</button>
+            <button onClick={() => setEditingQuiz(null)} className="m-btn m-btn-ghost" style={btnPrimary}>Cancel</button>
           </div>
         </div>
       )}
 
       {/* New Question Form */}
       {editingQ && (
-        <div className="bg-white border border-border rounded-xl p-6 mb-6">
-          <h2 className="text-lg font-semibold mb-4">New Question</h2>
+        <div className="m-card p-6 mb-6">
+          <h2 className="text-xl mb-4" style={{ color: "var(--ivory)" }}>New Question</h2>
           <div className="space-y-4">
             <input
               placeholder="Question (English)"
               value={editingQ.question_en}
               onChange={(e) => setEditingQ({ ...editingQ, question_en: e.target.value })}
-              className="w-full px-3 py-2 border border-border rounded-lg focus:outline-none focus:border-primary"
+              className="w-full px-3 py-2 text-sm"
             />
             <input
               placeholder="Question (Kannada)"
               value={editingQ.question_kn}
               onChange={(e) => setEditingQ({ ...editingQ, question_kn: e.target.value })}
-              className="w-full px-3 py-2 border border-border rounded-lg focus:outline-none focus:border-primary"
+              className="w-full px-3 py-2 text-sm"
             />
             <input
               placeholder="Question (Hindi)"
               value={editingQ.question_hi}
               onChange={(e) => setEditingQ({ ...editingQ, question_hi: e.target.value })}
-              className="w-full px-3 py-2 border border-border rounded-lg focus:outline-none focus:border-primary"
+              className="w-full px-3 py-2 text-sm"
             />
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
               {editingQ.options.map((opt, i) => (
@@ -197,7 +204,6 @@ export default function AdminQuiz() {
                     name="correct"
                     checked={editingQ.correct_answer === i}
                     onChange={() => setEditingQ({ ...editingQ, correct_answer: i })}
-                    className="accent-accent"
                   />
                   <input
                     placeholder={`Option ${String.fromCharCode(65 + i)}`}
@@ -207,7 +213,7 @@ export default function AdminQuiz() {
                       opts[i] = e.target.value;
                       setEditingQ({ ...editingQ, options: opts });
                     }}
-                    className="flex-1 px-3 py-2 border border-border rounded-lg focus:outline-none focus:border-primary"
+                    className="flex-1 px-3 py-2 text-sm"
                   />
                 </div>
               ))}
@@ -215,21 +221,21 @@ export default function AdminQuiz() {
             <select
               value={editingQ.difficulty}
               onChange={(e) => setEditingQ({ ...editingQ, difficulty: e.target.value })}
-              className="px-3 py-2 border border-border rounded-lg focus:outline-none focus:border-primary"
+              className="px-3 py-2 text-sm"
             >
               <option value="easy">Easy (Children &amp; All Ages)</option>
               <option value="medium">Medium (All Ages)</option>
               <option value="hard">Hard (Adults Only)</option>
             </select>
-            <p className="text-xs" style={{ color: '#8B7B6B' }}>
+            <p className="text-xs" style={{ color: "var(--ink-muted)" }}>
               Easy = shown to children (12 &amp; under) + teens. Medium = shown to everyone. Hard = shown to adults (18+) + teens only.
             </p>
           </div>
           <div className="flex gap-3 mt-4">
-            <button onClick={saveQuestion} disabled={saving} className="px-6 py-2 bg-primary text-white rounded-lg font-medium disabled:opacity-50">
+            <button onClick={saveQuestion} disabled={saving} className="m-btn m-btn-primary disabled:opacity-50" style={btnPrimary}>
               {saving ? "Saving..." : "Save"}
             </button>
-            <button onClick={() => setEditingQ(null)} className="px-6 py-2 border border-border rounded-lg">Cancel</button>
+            <button onClick={() => setEditingQ(null)} className="m-btn m-btn-ghost" style={btnPrimary}>Cancel</button>
           </div>
         </div>
       )}
@@ -237,31 +243,31 @@ export default function AdminQuiz() {
       {/* Quizzes List */}
       {loading ? (
         <div className="flex justify-center py-10">
-          <div className="w-8 h-8 border-4 border-primary border-t-transparent rounded-full animate-spin" />
+          <div className="w-8 h-8 border-4 rounded-full animate-spin" style={{ borderColor: "var(--saffron)", borderTopColor: "transparent" }} />
         </div>
       ) : quizzes.length === 0 ? (
-        <p className="text-center text-text-muted py-10">No quizzes yet.</p>
+        <p className="text-center py-10" style={{ color: "var(--ink-muted)" }}>No quizzes yet.</p>
       ) : (
         <div className="space-y-3">
           {quizzes.map((q) => (
-            <div key={q.id} className="bg-white border border-border rounded-xl overflow-hidden">
+            <div key={q.id} className="m-card overflow-hidden">
               <button
                 onClick={() => toggleExpand(q.id)}
-                className="w-full p-4 flex items-center justify-between hover:bg-surface/50 transition-colors"
+                className="w-full p-4 flex items-center justify-between transition-colors hover:bg-white/5"
               >
                 <div>
-                  <p className="font-semibold text-text-dark text-left">{q.title}</p>
-                  <p className="text-xs text-text-muted">
+                  <p className="font-semibold text-left" style={{ color: "var(--ivory)" }}>{q.title}</p>
+                  <p className="text-xs" style={{ color: "var(--ink-muted)" }}>
                     {q.time_limit_minutes} min · Pass: {q.passing_score}%
                   </p>
                 </div>
-                <span className="text-text-muted">{expandedQuiz === q.id ? "▼" : "▶"}</span>
+                <span style={{ color: "var(--ink-faint)" }}>{expandedQuiz === q.id ? "▼" : "▶"}</span>
               </button>
 
               {expandedQuiz === q.id && (
-                <div className="border-t border-border p-4 bg-surface/30">
+                <div className="p-4" style={{ borderTop: "1px solid var(--hairline)", background: "var(--card-bg)" }}>
                   <div className="flex items-center justify-between mb-3">
-                    <h3 className="text-sm font-semibold text-text-muted">Questions</h3>
+                    <h3 className="m-eyebrow">Questions</h3>
                     <button
                       onClick={() =>
                         setEditingQ({
@@ -274,26 +280,27 @@ export default function AdminQuiz() {
                           difficulty: "medium",
                         })
                       }
-                      className="px-3 py-1 text-sm bg-saffron text-white rounded-lg"
+                      className="m-btn m-btn-primary"
+                      style={btnSmall}
                     >
                       + Add Question
                     </button>
                   </div>
                   {(questions[q.id] || []).length === 0 ? (
-                    <p className="text-sm text-text-muted">No questions yet</p>
+                    <p className="text-sm" style={{ color: "var(--ink-muted)" }}>No questions yet</p>
                   ) : (
                     <div className="space-y-2">
                       {(questions[q.id] || []).map((ques, i) => (
-                        <div key={ques.id} className="bg-white p-3 rounded-lg border border-border">
-                          <p className="text-sm font-medium">
+                        <div key={ques.id} className="p-3 rounded-lg" style={{ background: "var(--bg-raised)", border: "1px solid var(--hairline)" }}>
+                          <p className="text-sm font-medium" style={{ color: "var(--ivory)" }}>
                             {i + 1}. {ques.question_en}
                           </p>
-                          <p className="text-xs text-text-muted mt-1">
+                          <p className="text-xs mt-1" style={{ color: "var(--ink-muted)" }}>
                             <span className="inline-block px-1.5 py-0.5 rounded text-[10px] font-medium mr-1" style={{
-                              background: ques.difficulty === 'easy' ? '#5B7B5E20' : ques.difficulty === 'hard' ? '#C0652020' : '#C8963E20',
-                              color: ques.difficulty === 'easy' ? '#5B7B5E' : ques.difficulty === 'hard' ? '#C06520' : '#C8963E',
+                              background: ques.difficulty === "easy" ? "rgba(122, 158, 125, 0.15)" : ques.difficulty === "hard" ? "rgba(224, 123, 46, 0.15)" : "rgba(212, 163, 79, 0.15)",
+                              color: ques.difficulty === "easy" ? "#7A9E7D" : ques.difficulty === "hard" ? "var(--saffron)" : "var(--gold)",
                             }}>
-                              {ques.difficulty === 'easy' ? 'Children + All' : ques.difficulty === 'hard' ? 'Adults Only' : 'All Ages'}
+                              {ques.difficulty === "easy" ? "Children + All" : ques.difficulty === "hard" ? "Adults Only" : "All Ages"}
                             </span>
                             Answer: {String.fromCharCode(65 + ques.correct_answer)}
                           </p>

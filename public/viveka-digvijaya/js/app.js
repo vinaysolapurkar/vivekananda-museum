@@ -597,8 +597,8 @@ async function initCesium() {
   viewer.scene.skyAtmosphere.saturationShift =  0.30;   // more vivid, cinematic
   viewer.scene.skyAtmosphere.brightnessShift = -0.15;   // deeper dusk shadow
 
-  // Make the sun disc visible
-  viewer.scene.sun.show = true;
+  // Hide the harsh white sun-glare disc — keep the space background clean
+  viewer.scene.sun.show = false;
 
   // ── Camera ────────────────────────────────────────────────────────────────
   viewer.camera.flyTo({
@@ -606,14 +606,15 @@ async function initCesium() {
     duration: 0
   });
 
-  // ── Add location entities (pulsating dots) ───────────────────────────────
+  // ── Add location entities (pulsating dots, phase-coloured, soft halo) ────
   let locIdx = 0;
   LOCATIONS.forEach(loc => {
     const phase = PHASES.find(p => p.id === loc.phase);
+    const dotColor = (phase && phase.color) || '#E07B2E';
     const isKeystone = loc.significance && loc.significance.includes('—');
-    const baseSize = isKeystone ? 18 : 12;
-    const pulseAmp = 5;
-    const freq     = 1.6;
+    const baseSize = isKeystone ? 13 : 9;
+    const pulseAmp = 2;
+    const freq     = 1.2;
     const phaseOff = (locIdx++ * 2.3) % (2 * Math.PI);
 
     const entity = viewer.entities.add({
@@ -623,28 +624,29 @@ async function initCesium() {
         pixelSize: new Cesium.CallbackProperty(() => {
           return baseSize + pulseAmp * Math.sin(Date.now() / 1000 * Math.PI * freq + phaseOff);
         }, false),
-        color: Cesium.Color.fromCssColorString('#FF9500').withAlpha(1.0),
-        outlineColor: Cesium.Color.WHITE,
-        outlineWidth: 3,
+        color: Cesium.Color.fromCssColorString(dotColor),
+        // Wide translucent outline in the same hue reads as a soft halo
+        outlineColor: Cesium.Color.fromCssColorString(dotColor).withAlpha(0.25),
+        outlineWidth: 5,
         heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
-        scaleByDistance: new Cesium.NearFarScalar(2e6, 1.0, 1e7, 0.45),
-        translucencyByDistance: new Cesium.NearFarScalar(1e5, 1.0, 2.5e7, 0.4)
+        scaleByDistance: new Cesium.NearFarScalar(2e6, 1.0, 1e7, 0.55),
+        translucencyByDistance: new Cesium.NearFarScalar(1e5, 1.0, 2.5e7, 0.55)
       },
       label: {
         text: loc.name,
-        font: '11px "Google Sans", sans-serif',
-        fillColor: Cesium.Color.WHITE,
-        outlineColor: Cesium.Color.fromCssColorString('#0a0a1a'),
+        font: '11px "DM Sans", sans-serif',
+        fillColor: Cesium.Color.fromCssColorString('#F5EDE0'),
+        outlineColor: Cesium.Color.fromCssColorString('#14100D'),
         outlineWidth: 3,
         style: Cesium.LabelStyle.FILL_AND_OUTLINE,
-        pixelOffset: new Cesium.Cartesian2(0, -20),
+        pixelOffset: new Cesium.Cartesian2(0, -16),
         verticalOrigin: Cesium.VerticalOrigin.BOTTOM,
         heightReference: Cesium.HeightReference.CLAMP_TO_GROUND,
         translucencyByDistance: new Cesium.NearFarScalar(1.5e6, 1.0, 8e6, 0.0),
         show: true
       },
       _locData: loc,
-      _dotColor: '#FF9500',
+      _dotColor: dotColor,
       _dotBaseSize: baseSize,
       _dotPhaseOff: phaseOff
     });
@@ -709,33 +711,93 @@ async function initCesium() {
   viewer.scene.canvas.addEventListener('mouseleave', () => { clearAllLabels(); viewer.scene.canvas.style.cursor = 'default'; });
 
   setupZoomBar();
+  setupLabelDeclutter();
+}
+
+// ── Label decluttering ──────────────────────────────────────────────────────
+// Many locations sit within a few km of each other (the Kolkata cluster
+// especially), so at city zoom their labels stack into an unreadable pile.
+// After each camera move, keep only labels whose screen rects don't collide;
+// the selected pin wins, then keystones, then the rest.
+function setupLabelDeclutter() {
+  const ellipsoid = viewer.scene.globe.ellipsoid;
+
+  function priorityOf(e) {
+    if (e === selectedEntity) return 2;
+    const sig = e._locData && e._locData.significance;
+    return (sig && sig.includes('—')) ? 1 : 0;
+  }
+
+  function declutter() {
+    const all = Object.values(entities);
+    const camH = viewer.camera.positionCartographic
+      ? viewer.camera.positionCartographic.height : Infinity;
+
+    // Labels are fully faded out above 8 000 km — skip the projection work.
+    if (camH > 8e6) {
+      all.forEach(e => { if (e.label) e.label.show = true; });
+      return;
+    }
+
+    const occluder = new Cesium.EllipsoidalOccluder(ellipsoid, viewer.camera.positionWC);
+    const kept = [];
+    const now = viewer.clock.currentTime;
+
+    all
+      .filter(e => e.show && e.label)
+      .sort((a, b) => priorityOf(b) - priorityOf(a))
+      .forEach(e => {
+        const pos = e.position.getValue(now);
+        if (!pos || !occluder.isPointVisible(pos)) { e.label.show = false; return; }
+        const win = Cesium.SceneTransforms.wgs84ToWindowCoordinates(viewer.scene, pos);
+        if (!win) { e.label.show = false; return; }
+
+        const name = (e._locData && e._locData.name) || '';
+        const w = Math.max(40, name.length * 6.2) + 8;   // ≈ 11px DM Sans
+        const h = 18;
+        // Label is anchored bottom-centre, 16px above the pin
+        const rect = { x1: win.x - w / 2, x2: win.x + w / 2, y1: win.y - 16 - h, y2: win.y - 16 };
+        const collides = kept.some(r =>
+          rect.x1 < r.x2 && rect.x2 > r.x1 && rect.y1 < r.y2 && rect.y2 > r.y1);
+
+        e.label.show = !collides;
+        if (!collides) kept.push(rect);
+      });
+  }
+
+  viewer.camera.percentageChanged = 0.05;
+  viewer.camera.changed.addEventListener(declutter);
+  viewer.camera.moveEnd.addEventListener(declutter);
+  // Re-run when filters change what's visible
+  window._declutterLabels = declutter;
+  declutter();
 }
 
 // ── Pin selection helpers ───────────────────────────────────────────────────
 function selectPin(entity) {
   if (!entity) return;
-  const selFreq = 3.2;
+  const selFreq = 2.4;
   entity.point.pixelSize = new Cesium.CallbackProperty(() => {
-    return 28 + 10 * Math.sin(Date.now() / 1000 * Math.PI * selFreq);
+    return 15 + 3 * Math.sin(Date.now() / 1000 * Math.PI * selFreq);
   }, false);
-  entity.point.color = Cesium.Color.fromCssColorString('#FF5722').withAlpha(1.0);
-  entity.point.outlineColor = Cesium.Color.WHITE;
-  entity.point.outlineWidth = 2.5;
+  entity.point.color = Cesium.Color.fromCssColorString('#E8B45C');
+  entity.point.outlineColor = Cesium.Color.fromCssColorString('#F5EDE0').withAlpha(0.9);
+  entity.point.outlineWidth = 2;
   startPinAnimation(entity);
 }
 
 function deselectPin(entity) {
   if (!entity) return;
-  const color    = entity._dotColor    || '#f0c040';
-  const baseSize = entity._dotBaseSize || 6;
+  const color    = entity._dotColor    || '#E07B2E';
+  const baseSize = entity._dotBaseSize || 9;
   const phaseOff = entity._dotPhaseOff || 0;
-  const freq = 1.6, pulseAmp = 2.5;
+  const freq = 1.2, pulseAmp = 2;
   entity.point.pixelSize = new Cesium.CallbackProperty(() => {
     return baseSize + pulseAmp * Math.sin(Date.now() / 1000 * Math.PI * freq + phaseOff);
   }, false);
-  entity.point.color = Cesium.Color.fromCssColorString('#FF9500').withAlpha(1.0);
-  entity.point.outlineColor = Cesium.Color.WHITE;
-  entity.point.outlineWidth = 3;
+  entity.point.color = Cesium.Color.fromCssColorString(color);
+  entity.point.outlineColor = Cesium.Color.fromCssColorString(color).withAlpha(0.25);
+  entity.point.outlineWidth = 5;
   stopPinAnimation(entity);
 }
 
@@ -782,6 +844,7 @@ function applyVisibility() {
     const pl = routePolylines[p.id];
     if (pl) pl.show = activePhases.has(p.id);
   });
+  if (window._declutterLabels) window._declutterLabels();
 }
 
 // ── Info Panel ──────────────────────────────────────────────────────────────

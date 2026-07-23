@@ -6,6 +6,9 @@ interface Settings {
   [key: string]: string;
 }
 
+const btnPrimary: React.CSSProperties = { minHeight: 40, fontSize: "0.85rem", padding: "0 1.1rem" };
+const labelStyle: React.CSSProperties = { color: "var(--ink-muted)" };
+
 export default function AdminSettings() {
   const [settings, setSettings] = useState<Settings>({});
   const [loading, setLoading] = useState(true);
@@ -59,22 +62,23 @@ export default function AdminSettings() {
   if (loading) {
     return (
       <div className="flex justify-center py-20">
-        <div className="w-8 h-8 border-4 border-primary border-t-transparent rounded-full animate-spin" />
+        <div className="w-8 h-8 border-4 rounded-full animate-spin" style={{ borderColor: "var(--saffron)", borderTopColor: "transparent" }} />
       </div>
     );
   }
 
   return (
     <div className="w-full">
-      <h1 className="text-2xl font-heading font-bold text-primary mb-6">Settings</h1>
+      <p className="m-eyebrow mb-1">Administration</p>
+      <h1 className="text-3xl mb-6" style={{ color: "var(--ivory)" }}>Settings</h1>
 
       {msg && (
-        <div className="mb-4 px-4 py-2 bg-accent/10 text-accent rounded-lg text-sm">{msg}</div>
+        <div className="mb-4 px-4 py-2 rounded-lg text-sm" style={{ background: "rgba(212, 163, 79, 0.1)", border: "1px solid var(--hairline)", color: "var(--gold)" }}>{msg}</div>
       )}
 
       {/* PIN Change */}
-      <div className="bg-white border border-border rounded-xl p-6 mb-6">
-        <h2 className="text-lg font-semibold text-primary mb-4">Change Admin PIN</h2>
+      <div className="m-card p-6 mb-6">
+        <h2 className="text-xl mb-4" style={{ color: "var(--ivory)" }}>Change Admin PIN</h2>
         <div className="space-y-3">
           <input
             type="password"
@@ -82,7 +86,7 @@ export default function AdminSettings() {
             placeholder="New PIN (6 digits)"
             value={newPin}
             onChange={(e) => setNewPin(e.target.value.replace(/\D/g, ""))}
-            className="w-full px-3 py-2 border border-border rounded-lg focus:outline-none focus:border-primary font-mono"
+            className="w-full px-3 py-2 font-mono"
           />
           <input
             type="password"
@@ -90,12 +94,13 @@ export default function AdminSettings() {
             placeholder="Confirm PIN"
             value={confirmPin}
             onChange={(e) => setConfirmPin(e.target.value.replace(/\D/g, ""))}
-            className="w-full px-3 py-2 border border-border rounded-lg focus:outline-none focus:border-primary font-mono"
+            className="w-full px-3 py-2 font-mono"
           />
           <button
             onClick={changePin}
             disabled={saving}
-            className="px-6 py-2 bg-primary text-white rounded-lg font-medium disabled:opacity-50 hover:bg-primary-light transition-colors"
+            className="m-btn m-btn-primary disabled:opacity-50"
+            style={btnPrimary}
           >
             Update PIN
           </button>
@@ -103,12 +108,12 @@ export default function AdminSettings() {
       </div>
 
       {/* Language Settings */}
-      <div className="bg-white border border-border rounded-xl p-6 mb-6">
-        <h2 className="text-lg font-semibold text-primary mb-4">Default Language</h2>
+      <div className="m-card p-6 mb-6">
+        <h2 className="text-xl mb-4" style={{ color: "var(--ivory)" }}>Default Language</h2>
         <select
           value={settings.default_language || "en"}
           onChange={(e) => saveSetting("default_language", e.target.value)}
-          className="w-full px-3 py-2 border border-border rounded-lg focus:outline-none focus:border-primary"
+          className="w-full px-3 py-2"
         >
           <option value="en">English</option>
           <option value="kn">Kannada</option>
@@ -117,39 +122,39 @@ export default function AdminSettings() {
       </div>
 
       {/* Kiosk Settings */}
-      <div className="bg-white border border-border rounded-xl p-6 mb-6">
-        <h2 className="text-lg font-semibold text-primary mb-4">Kiosk Settings</h2>
+      <div className="m-card p-6 mb-6">
+        <h2 className="text-xl mb-4" style={{ color: "var(--ivory)" }}>Kiosk Settings</h2>
         <div className="space-y-3">
           <div>
-            <label className="block text-sm font-medium text-text-muted mb-1">
+            <label className="block text-sm font-medium mb-1" style={labelStyle}>
               Inactivity timeout (seconds)
             </label>
             <input
               type="number"
               value={settings.kiosk_inactivity_timeout || "60"}
               onChange={(e) => saveSetting("kiosk_inactivity_timeout", e.target.value)}
-              className="w-full px-3 py-2 border border-border rounded-lg focus:outline-none focus:border-primary"
+              className="w-full px-3 py-2"
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-text-muted mb-1">
+            <label className="block text-sm font-medium mb-1" style={labelStyle}>
               Default slide duration (seconds)
             </label>
             <input
               type="number"
               value={settings.default_slide_duration || "10"}
               onChange={(e) => saveSetting("default_slide_duration", e.target.value)}
-              className="w-full px-3 py-2 border border-border rounded-lg focus:outline-none focus:border-primary"
+              className="w-full px-3 py-2"
             />
           </div>
         </div>
       </div>
 
       {/* Quiz Settings */}
-      <div className="bg-white border border-border rounded-xl p-6">
-        <h2 className="text-lg font-semibold text-primary mb-4">Quiz Settings</h2>
+      <div className="m-card p-6">
+        <h2 className="text-xl mb-4" style={{ color: "var(--ivory)" }}>Quiz Settings</h2>
         <div>
-          <label className="block text-sm font-medium text-text-muted mb-1">
+          <label className="block text-sm font-medium mb-1" style={labelStyle}>
             Certificate Vivekananda Quote
           </label>
           <textarea
@@ -159,7 +164,7 @@ export default function AdminSettings() {
               "Arise, awake, and stop not till the goal is reached."
             }
             onChange={(e) => saveSetting("certificate_quote", e.target.value)}
-            className="w-full px-3 py-2 border border-border rounded-lg focus:outline-none focus:border-primary"
+            className="w-full px-3 py-2"
           />
         </div>
       </div>

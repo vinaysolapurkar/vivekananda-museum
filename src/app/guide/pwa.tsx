@@ -108,43 +108,61 @@ export function InstallBanner() {
 
   return (
     <div
-      className="mx-4 mb-4 rounded-2xl px-4 py-3 flex items-center gap-3"
-      style={{ background: "#7B2D26", color: "#FFF8F0", boxShadow: "0 4px 16px rgba(123,45,38,0.3)" }}
+      className="relative z-20 mx-4 mt-4 rounded-2xl px-4 py-3.5 flex items-center gap-3.5"
+      style={{
+        background: "var(--bg-raised)",
+        border: "1px solid var(--hairline)",
+        boxShadow: "0 6px 24px rgba(0,0,0,0.35)",
+      }}
     >
-      <div className="w-10 h-10 rounded-xl flex items-center justify-center text-lg shrink-0" style={{ background: "rgba(255,248,240,0.15)" }}>
-        🎧
+      <div
+        className="w-11 h-11 rounded-xl flex items-center justify-center shrink-0"
+        style={{ border: "1px solid var(--hairline-strong)", color: "var(--gold)", background: "var(--card-bg)" }}
+      >
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          <path d="M4 13a8 8 0 0 1 16 0" />
+          <path d="M4 13v4a2 2 0 0 0 2 2h1a1 1 0 0 0 1-1v-4a1 1 0 0 0-1-1H4Z" />
+          <path d="M20 13v4a2 2 0 0 1-2 2h-1a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1h3Z" />
+        </svg>
       </div>
-      <div className="flex-1">
-        <p className="text-sm font-semibold" style={{ color: "#FFF8F0" }}>
+      <div className="flex-1 min-w-0">
+        <p className="text-sm font-semibold" style={{ color: "var(--ivory)" }}>
           Install Audio Guide
         </p>
-        <p className="text-xs" style={{ color: "rgba(255,248,240,0.7)" }}>
+        <p className="text-xs mt-0.5" style={{ color: "var(--ink-muted)" }}>
           {isIOS ? "Tap Share → Add to Home Screen" : "Works offline after install"}
         </p>
       </div>
       {isIOS ? (
         <button
           onClick={() => setDismissed(true)}
-          className="px-3 py-1.5 rounded-lg text-xs font-medium"
-          style={{ background: "rgba(255,248,240,0.2)", color: "#FFF8F0" }}
+          className="touch-target px-4 rounded-full text-xs font-semibold shrink-0"
+          style={{ border: "1px solid var(--hairline)", color: "var(--gold)", background: "transparent" }}
         >
           Got it
         </button>
       ) : deferredPrompt ? (
         <button
           onClick={handleInstall}
-          className="px-4 py-2 rounded-xl text-sm font-bold"
-          style={{ background: "#E07B2E", color: "white" }}
+          className="touch-target px-5 rounded-full text-sm font-semibold shrink-0"
+          style={{
+            background: "linear-gradient(180deg, #EE8A3C, #D96F24)",
+            color: "#241305",
+            boxShadow: "0 4px 18px rgba(224, 123, 46, 0.28)",
+          }}
         >
           Install
         </button>
       ) : null}
       <button
         onClick={() => setDismissed(true)}
-        className="p-1 text-lg"
-        style={{ color: "rgba(255,248,240,0.5)" }}
+        aria-label="Dismiss"
+        className="touch-target flex items-center justify-center shrink-0 rounded-full"
+        style={{ color: "var(--ink-faint)" }}
       >
-        ×
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" aria-hidden="true">
+          <path d="M6 6l12 12M18 6L6 18" />
+        </svg>
       </button>
     </div>
   );
@@ -154,7 +172,14 @@ export function InstallBanner() {
 export function OfflineIndicator({ isOnline }: { isOnline: boolean }) {
   if (isOnline) return null;
   return (
-    <div className="text-center text-xs py-2 font-medium" style={{ background: "#C06520", color: "white" }}>
+    <div
+      className="relative z-20 text-center text-xs py-2.5 font-medium tracking-wide"
+      style={{
+        background: "var(--bg-raised)",
+        color: "var(--gold)",
+        borderBottom: "1px solid var(--hairline)",
+      }}
+    >
       You are offline — cached content available
     </div>
   );
@@ -165,10 +190,18 @@ export function OfflineReadyBadge({ cached }: { cached: boolean }) {
   if (!cached) return null;
   return (
     <span
-      className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium"
-      style={{ background: "#5B7B5E20", color: "#5B7B5E" }}
+      className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-[11px] font-semibold"
+      style={{
+        border: "1px solid var(--hairline)",
+        color: "var(--gold)",
+        background: "var(--card-bg)",
+        letterSpacing: "0.04em",
+      }}
     >
-      ✓ Offline Ready
+      <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <path d="m4 12.5 5 5L20 6.5" />
+      </svg>
+      Offline Ready
     </span>
   );
 }

@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import { useSearchParams } from "next/navigation";
 import { use } from "react";
 import Link from "next/link";
+import MuseumIcon from "@/components/MuseumIcon";
 import { useServiceWorker, useCacheAudio, OfflineIndicator, OfflineReadyBadge } from "../pwa";
 
 interface Station {
@@ -100,306 +101,319 @@ export default function StationPage({
 
   if (loading) {
     return (
-      <div className="min-h-screen flex flex-col items-center justify-center" style={{
-        background: 'linear-gradient(170deg, #1a0f0a 0%, #2a1810 30%, #1c1008 100%)',
-      }}>
-        <div className="w-12 h-12 rounded-full border-2 border-transparent animate-spin mb-4" style={{ borderTopColor: '#D4A34F' }} />
-        <p className="text-sm" style={{ color: '#9B8A72' }}>Loading station...</p>
+      <div className="min-h-screen flex flex-col items-center justify-center" style={{ background: "var(--background)" }}>
+        <div className="w-12 h-12 rounded-full border-2 border-transparent animate-spin mb-4" style={{ borderTopColor: "var(--gold)" }} />
+        <p className="text-sm" style={{ color: "var(--ink-muted)" }}>Loading station&hellip;</p>
       </div>
     );
   }
 
   if (error || !station) {
     return (
-      <div className="min-h-screen flex flex-col items-center justify-center p-6 text-center" style={{
-        background: 'linear-gradient(170deg, #1a0f0a 0%, #2a1810 30%, #1c1008 100%)',
-      }}>
-        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#9B8A72" strokeWidth="1" className="mb-4">
-          <rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/>
-        </svg>
-        <h2 className="text-xl font-semibold mb-2" style={{ fontFamily: '"Cormorant Garamond", serif', color: '#F5EDE0' }}>
+      <div className="min-h-screen flex flex-col items-center justify-center p-6 text-center" style={{ background: "var(--background)" }}>
+        <h2 className="text-2xl font-medium mb-2" style={{ color: "var(--ivory)" }}>
           Station Not Found
         </h2>
-        <p className="mb-6 text-sm" style={{ color: '#9B8A72' }}>{error || "This station does not exist."}</p>
-        <Link
-          href="/guide"
-          className="px-6 py-3 rounded-xl font-medium text-sm"
-          style={{ background: 'rgba(212,163,79,0.12)', color: '#D4A34F', border: '1px solid rgba(212,163,79,0.3)' }}
-        >
-          &larr; Back to Guide
+        <p className="mb-7 text-sm" style={{ color: "var(--ink-muted)" }}>{error || "This station does not exist."}</p>
+        <Link href="/guide" className="m-btn m-btn-ghost touch-target">
+          <MuseumIcon name="arrowLeft" size={17} />
+          Back to Guide
         </Link>
       </div>
     );
   }
 
-  const title = lang === 'kn' && station.title_kn ? station.title_kn :
-                lang === 'hi' && station.title_hi ? station.title_hi : station.title;
-  const description = lang === 'kn' && station.description_kn ? station.description_kn :
-                      lang === 'hi' && station.description_hi ? station.description_hi : station.description;
+  const title = lang === "kn" && station.title_kn ? station.title_kn :
+                lang === "hi" && station.title_hi ? station.title_hi : station.title;
+  const description = lang === "kn" && station.description_kn ? station.description_kn :
+                      lang === "hi" && station.description_hi ? station.description_hi : station.description;
+  const indicText = lang !== "en";
+  const prevNumber = station.number > 1 ? station.number - 1 : null;
+  const nextNumber = station.number + 1;
 
   return (
-    <div className="min-h-screen flex flex-col relative" style={{
-      background: 'linear-gradient(170deg, #1a0f0a 0%, #2a1810 30%, #1c1008 100%)',
-    }}>
-      {/* Warm ambient glow */}
-      <div className="fixed inset-0 pointer-events-none z-0" style={{
-        background: 'radial-gradient(ellipse at 70% 30%, rgba(212,163,79,0.05) 0%, transparent 50%), radial-gradient(ellipse at 30% 70%, rgba(123,45,38,0.06) 0%, transparent 50%)',
-      }} />
-
-      {/* Vivekananda portrait — fades in from the right */}
-      <div className="fixed top-0 right-0 bottom-0 w-[40%] pointer-events-none z-0 opacity-[0.06]" style={{
-        backgroundImage: 'url(/images/vivekananda-portrait.jpg)',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'right center',
-        backgroundSize: 'auto 80%',
-        maskImage: 'linear-gradient(to left, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.2) 40%, transparent 100%)',
-        WebkitMaskImage: 'linear-gradient(to left, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.2) 40%, transparent 100%)',
-        filter: 'sepia(0.4) brightness(1.2)',
-      }} />
+    <div className="min-h-screen flex flex-col relative" style={{ background: "var(--background)" }}>
+      {/* Vivekananda portrait — faint sepia presence */}
+      <div
+        className="fixed top-0 right-0 bottom-0 w-[40%] pointer-events-none z-0 opacity-[0.05]"
+        style={{
+          backgroundImage: "url(/images/vivekananda-portrait.jpg)",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "right top",
+          backgroundSize: "auto 75%",
+          maskImage: "linear-gradient(to left, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.2) 40%, transparent 100%)",
+          WebkitMaskImage: "linear-gradient(to left, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.2) 40%, transparent 100%)",
+          filter: "sepia(0.4) brightness(1.15)",
+        }}
+      />
 
       <OfflineIndicator isOnline={isOnline} />
 
-      {/* Header */}
-      <header className="relative px-6 pt-8 pb-6 overflow-hidden z-10">
-        <div className="absolute inset-0" style={{
-          background: 'linear-gradient(180deg, rgba(123,45,38,0.12) 0%, transparent 100%)',
-        }} />
-
-        <div className="relative w-full">
-          <Link
-            href="/guide"
-            className="inline-flex items-center gap-2 text-sm font-medium mb-6 transition-colors duration-300 hover:opacity-80"
-            style={{ color: '#D4A34F' }}
-          >
-            <span>&larr;</span> <span>All Stations</span>
+      {/* Hero band */}
+      <header className="relative overflow-hidden z-10" style={{ background: "var(--bg-hero)", borderBottom: "1px solid var(--hairline)" }}>
+        <div className="absolute inset-0 pointer-events-none" style={{ background: "var(--diya-glow)" }} />
+        <div className="relative mx-auto w-full max-w-3xl px-6 pt-6 pb-8">
+          <Link href="/guide" className="m-btn m-btn-ghost touch-target mb-6 !px-4 text-sm">
+            <MuseumIcon name="arrowLeft" size={17} />
+            <span>All Stations</span>
           </Link>
 
-          {station.gallery_zone && (
-            <span
-              className="inline-block text-[10px] font-medium tracking-[0.15em] uppercase mb-3 px-3 py-1 rounded-full"
-              style={{ background: 'rgba(212,163,79,0.1)', color: '#C8A882', border: '1px solid rgba(212,163,79,0.15)' }}
-            >
-              {station.gallery_zone}
-            </span>
-          )}
-          <div className="flex items-end gap-4 mb-2">
+          <p className="m-eyebrow mb-3">
+            {station.gallery_zone || "Main Hall"} &middot; Station {station.number}
+          </p>
+          <div className="flex items-start gap-5">
             <div
-              className="w-20 h-20 rounded-2xl flex items-center justify-center text-4xl font-semibold shrink-0"
+              className="w-[4.5rem] h-[4.5rem] rounded-2xl flex items-center justify-center shrink-0 text-[2.4rem] font-medium leading-none"
               style={{
-                fontFamily: '"Cormorant Garamond", serif',
-                background: 'rgba(212,163,79,0.08)',
-                color: '#E8C06A',
-                border: '1px solid rgba(212,163,79,0.2)',
-                boxShadow: '0 4px 20px rgba(0,0,0,0.2)',
+                fontFamily: "var(--font-display)",
+                background: "var(--card-bg)",
+                color: "var(--gold)",
+                border: "1px solid var(--hairline-strong)",
               }}
             >
               {station.number}
             </div>
-            <div>
+            <div className="min-w-0 pt-1">
               <h1
-                className="text-2xl md:text-3xl font-semibold leading-tight"
-                style={{
-                  fontFamily: '"Cormorant Garamond", serif',
-                  color: '#F5EDE0',
-                  textShadow: '0 2px 12px rgba(0,0,0,0.3)',
-                }}
+                className="text-3xl md:text-4xl font-medium leading-tight"
+                style={{ color: "var(--ivory)", ...(indicText ? { fontFamily: "var(--font-kannada)" } : {}) }}
               >
                 {title}
               </h1>
-              <OfflineReadyBadge cached={audioCached} />
+              <div className="mt-2">
+                <OfflineReadyBadge cached={audioCached} />
+              </div>
             </div>
           </div>
         </div>
-
-        {/* Decorative bottom border */}
-        <div className="absolute bottom-0 left-6 right-6 h-px" style={{
-          background: 'linear-gradient(to right, transparent, rgba(212,163,79,0.2) 20%, rgba(212,163,79,0.2) 80%, transparent)',
-        }} />
       </header>
 
       {/* Description */}
-      <main className="flex-1 px-6 py-6 w-full relative z-10">
-        <div
-          className="rounded-2xl p-6 mb-6"
-          style={{
-            background: 'rgba(255,245,230,0.04)',
-            border: '1px solid rgba(212,163,79,0.1)',
-            borderLeft: '3px solid rgba(212,163,79,0.35)',
-            boxShadow: '0 4px 24px rgba(0,0,0,0.15)',
-          }}
-        >
-          <p className="leading-relaxed text-base" style={{ color: '#D9CBBA', lineHeight: '1.8' }}>
-            {description}
-          </p>
-        </div>
-
-        {/* Info cards */}
-        <div className="grid grid-cols-2 gap-3 mb-4">
-          <div
-            className="rounded-xl p-4 text-center"
-            style={{ background: 'rgba(255,245,230,0.04)', border: '1px solid rgba(212,163,79,0.1)' }}
-          >
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D4A34F" strokeWidth="1.5" className="mx-auto mb-1">
-              <path d="M3 18v-6a9 9 0 0118 0v6" /><path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3v5zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3v5z" />
-            </svg>
-            <p className="text-xs" style={{ color: '#9B8A72' }}>Audio Guide</p>
-            <p className="text-sm font-medium" style={{ color: '#D9CBBA' }}>{station.number} of 50</p>
+      <main className="flex-1 relative z-10 mx-auto w-full max-w-3xl px-6 py-7 pb-52">
+        {description && description.trim() && (
+          <div className="m-card p-6 md:p-8 mb-6">
+            <p
+              className="text-base md:text-[1.05rem]"
+              style={{ color: "var(--ivory)", opacity: 0.92, lineHeight: 1.85, ...(indicText ? { fontFamily: "var(--font-kannada)" } : {}) }}
+            >
+              {description}
+            </p>
           </div>
-          <div
-            className="rounded-xl p-4 text-center"
-            style={{ background: 'rgba(255,245,230,0.04)', border: '1px solid rgba(212,163,79,0.1)' }}
-          >
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#D4A34F" strokeWidth="1.5" className="mx-auto mb-1">
-              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" /><circle cx="12" cy="10" r="3" />
-            </svg>
-            <p className="text-xs" style={{ color: '#9B8A72' }}>Gallery</p>
-            <p className="text-sm font-medium" style={{ color: '#D9CBBA' }}>{station.gallery_zone || 'Main Hall'}</p>
+        )}
+
+        {/* Info row */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
+          <div className="m-card p-4 flex items-center gap-3.5">
+            <span className="inline-flex items-center justify-center w-10 h-10 rounded-xl shrink-0" style={{ border: "1px solid var(--hairline)", color: "var(--gold)" }}>
+              <MuseumIcon name="headphones" size={19} />
+            </span>
+            <div className="min-w-0">
+              <p className="text-[10px] font-semibold uppercase whitespace-nowrap" style={{ letterSpacing: "0.16em", color: "var(--ink-faint)" }}>Audio Guide</p>
+              <p className="text-sm font-medium" style={{ color: "var(--ivory)" }}>Station {station.number} of 50</p>
+            </div>
+          </div>
+          <div className="m-card p-4 flex items-center gap-3.5">
+            <span className="inline-flex items-center justify-center w-10 h-10 rounded-xl shrink-0" style={{ border: "1px solid var(--hairline)", color: "var(--gold)" }}>
+              <MuseumIcon name="temple" size={19} />
+            </span>
+            <div className="min-w-0">
+              <p className="text-[10px] font-semibold uppercase whitespace-nowrap" style={{ letterSpacing: "0.16em", color: "var(--ink-faint)" }}>Gallery</p>
+              <p className="text-sm font-medium" style={{ color: "var(--ivory)" }}>{station.gallery_zone || "Main Hall"}</p>
+            </div>
           </div>
         </div>
 
-        {/* Inspirational quote */}
-        <div
-          className="rounded-2xl p-5 text-center"
-          style={{ background: 'rgba(212,163,79,0.04)', border: '1px solid rgba(212,163,79,0.08)' }}
-        >
-          <p className="italic text-sm" style={{ fontFamily: '"Cormorant Garamond", serif', color: '#C8A882' }}>
+        {/* Quote */}
+        <div className="text-center px-4">
+          <div className="m-divider mb-4"><span>&#10022;</span></div>
+          <p className="italic text-base" style={{ fontFamily: "var(--font-display)", color: "var(--ink-muted)" }}>
             &ldquo;You have to grow from the inside out. None can teach you, none can make you spiritual.&rdquo;
           </p>
-          <p className="text-xs mt-2" style={{ color: '#9B8A72' }}>&mdash; Swami Vivekananda</p>
+          <p className="text-xs mt-2" style={{ color: "var(--ink-faint)" }}>&mdash; Swami Vivekananda</p>
         </div>
       </main>
 
-      {/* Audio Player - fixed bottom */}
-      <div className="sticky bottom-0 z-20">
+      {/* Audio Player — fixed bottom */}
+      <div className="fixed inset-x-0 bottom-0 z-30">
         <div
-          className="absolute inset-x-0 bottom-0 h-32 pointer-events-none"
-          style={{ background: 'linear-gradient(to top, #1a0f0a, transparent)' }}
+          className="absolute inset-x-0 bottom-0 h-36 pointer-events-none"
+          style={{ background: "linear-gradient(to top, #14100D 30%, transparent)" }}
         />
-        <div
-          className="relative mx-4 mb-4 rounded-2xl p-5"
-          style={{
-            background: 'rgba(26,15,10,0.92)',
-            backdropFilter: 'blur(20px)',
-            border: '1px solid rgba(212,163,79,0.15)',
-            boxShadow: '0 -4px 30px rgba(0,0,0,0.3)',
-          }}
-        >
-          {station.audio_url ? (
-            <>
-              <audio ref={audioRef} src={station.audio_url} preload="metadata" />
+        <div className="relative mx-auto w-full max-w-3xl px-4 pb-4">
+          <div
+            className="rounded-3xl p-5"
+            style={{
+              background: "rgba(29, 23, 18, 0.92)",
+              backdropFilter: "blur(20px)",
+              WebkitBackdropFilter: "blur(20px)",
+              border: "1px solid var(--hairline)",
+              boxShadow: "0 -6px 40px rgba(0,0,0,0.45)",
+            }}
+          >
+            {station.audio_url ? (
+              <>
+                <audio ref={audioRef} src={station.audio_url} preload="metadata" />
 
-              {/* Progress bar */}
-              <div className="flex items-center gap-3 mb-4">
-                <span className="text-xs font-mono w-10 text-right shrink-0" style={{ color: '#9B8A72' }}>
-                  {formatTime(currentTime)}
-                </span>
-                <div className="flex-1 relative">
-                  <div className="h-1.5 rounded-full overflow-hidden" style={{ background: 'rgba(212,163,79,0.1)' }}>
-                    <div
-                      className="h-full rounded-full transition-all duration-300"
-                      style={{
-                        width: `${duration ? (currentTime / duration) * 100 : 0}%`,
-                        background: 'linear-gradient(90deg, #C8963E, #E8C06A)',
-                      }}
+                {/* Progress */}
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="text-xs tabular-nums w-10 text-right shrink-0" style={{ color: "var(--ink-muted)" }}>
+                    {formatTime(currentTime)}
+                  </span>
+                  <div className="flex-1 relative flex items-center" style={{ height: "20px" }}>
+                    <div className="w-full h-[5px] rounded-full overflow-hidden" style={{ background: "rgba(212,163,79,0.14)" }}>
+                      <div
+                        className="h-full rounded-full"
+                        style={{
+                          width: `${duration ? (currentTime / duration) * 100 : 0}%`,
+                          background: "linear-gradient(90deg, var(--saffron), var(--gold))",
+                        }}
+                      />
+                    </div>
+                    <input
+                      type="range"
+                      min={0}
+                      max={duration || 100}
+                      value={currentTime}
+                      onChange={seek}
+                      aria-label="Seek"
+                      className="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
                     />
                   </div>
-                  <input
-                    type="range"
-                    min={0}
-                    max={duration || 100}
-                    value={currentTime}
-                    onChange={seek}
-                    className="absolute inset-0 w-full opacity-0 cursor-pointer"
-                  />
+                  <span className="text-xs tabular-nums w-10 shrink-0" style={{ color: "var(--ink-muted)" }}>
+                    {formatTime(duration)}
+                  </span>
                 </div>
-                <span className="text-xs font-mono w-10 shrink-0" style={{ color: '#9B8A72' }}>
-                  {formatTime(duration)}
-                </span>
-              </div>
 
-              {/* Controls */}
-              <div className="flex items-center justify-center gap-5">
-                <button
-                  onClick={() => skip(-10)}
-                  className="w-12 h-12 rounded-full flex items-center justify-center font-bold text-xs transition-all duration-300 active:scale-95"
-                  style={{ background: 'rgba(212,163,79,0.08)', color: '#C8A882', border: '1px solid rgba(212,163,79,0.15)' }}
-                >
-                  -10
-                </button>
+                {/* Controls */}
+                <div className="flex items-center justify-center gap-4">
+                  {prevNumber ? (
+                    <Link
+                      href={`/guide/${prevNumber}?lang=${lang}`}
+                      aria-label="Previous station"
+                      className="m-btn m-btn-ghost touch-target !px-0 !min-w-[48px] rounded-full"
+                    >
+                      <MuseumIcon name="arrowLeft" size={18} />
+                    </Link>
+                  ) : (
+                    <span className="inline-flex items-center justify-center w-12 h-12 rounded-full" style={{ border: "1px solid var(--hairline)", color: "var(--ink-faint)", opacity: 0.4 }}>
+                      <MuseumIcon name="arrowLeft" size={18} />
+                    </span>
+                  )}
 
-                <button
-                  onClick={togglePlay}
-                  className="flex items-center justify-center text-xl transition-all duration-300 active:scale-95"
-                  style={{
-                    width: '72px',
-                    height: '72px',
-                    borderRadius: '50%',
-                    background: started && playing
-                      ? 'rgba(212,163,79,0.15)'
-                      : 'rgba(212,163,79,0.1)',
-                    color: '#E8C06A',
-                    border: '2px solid rgba(212,163,79,0.35)',
-                    boxShadow: playing ? '0 0 30px rgba(212,163,79,0.15)' : '0 4px 20px rgba(0,0,0,0.2)',
-                  }}
-                >
-                  {playing ? '\u275A\u275A' : '\u25B6'}
-                </button>
+                  <button
+                    onClick={() => skip(-10)}
+                    aria-label="Back 10 seconds"
+                    className="m-btn m-btn-ghost touch-target !px-0 !min-w-[52px] rounded-full text-xs font-semibold"
+                  >
+                    &minus;10
+                  </button>
 
-                <button
-                  onClick={() => skip(10)}
-                  className="w-12 h-12 rounded-full flex items-center justify-center font-bold text-xs transition-all duration-300 active:scale-95"
-                  style={{ background: 'rgba(212,163,79,0.08)', color: '#C8A882', border: '1px solid rgba(212,163,79,0.15)' }}
-                >
-                  +10
-                </button>
-              </div>
+                  <button
+                    onClick={togglePlay}
+                    aria-label={playing ? "Pause" : "Play"}
+                    className="m-btn m-btn-primary !rounded-full !p-0"
+                    style={{ width: "76px", height: "76px", minHeight: "76px" }}
+                  >
+                    {playing ? (
+                      <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <rect x="6" y="4.5" width="4" height="15" rx="1.2" />
+                        <rect x="14" y="4.5" width="4" height="15" rx="1.2" />
+                      </svg>
+                    ) : (
+                      <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style={{ marginLeft: "3px" }}>
+                        <path d="M8 5.5v13l11-6.5-11-6.5Z" />
+                      </svg>
+                    )}
+                  </button>
 
-              {!started && (
-                <p className="text-center text-xs mt-3" style={{ color: '#9B8A72' }}>
-                  Press play to start the audio guide
-                </p>
-              )}
-            </>
-          ) : (
-            <div className="text-center py-2">
-              <p className="text-[10px] uppercase tracking-wider mb-3" style={{ color: '#9B8A72' }}>Text-to-Speech</p>
-              <div className="flex items-center justify-center gap-5">
-                <button
-                  onClick={() => {
-                    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-                      window.speechSynthesis.cancel();
-                      const utterance = new SpeechSynthesisUtterance(description);
-                      utterance.lang = lang === 'kn' ? 'kn-IN' : lang === 'hi' ? 'hi-IN' : 'en-IN';
-                      utterance.rate = 0.9;
-                      utterance.onstart = () => setPlaying(true);
-                      utterance.onend = () => setPlaying(false);
-                      if (playing) {
+                  <button
+                    onClick={() => skip(10)}
+                    aria-label="Forward 10 seconds"
+                    className="m-btn m-btn-ghost touch-target !px-0 !min-w-[52px] rounded-full text-xs font-semibold"
+                  >
+                    +10
+                  </button>
+
+                  <Link
+                    href={`/guide/${nextNumber}?lang=${lang}`}
+                    aria-label="Next station"
+                    className="m-btn m-btn-ghost touch-target !px-0 !min-w-[48px] rounded-full"
+                  >
+                    <MuseumIcon name="arrowRight" size={18} />
+                  </Link>
+                </div>
+
+                {!started && (
+                  <p className="text-center text-xs mt-3.5" style={{ color: "var(--ink-faint)" }}>
+                    Press play to begin the narration
+                  </p>
+                )}
+              </>
+            ) : (
+              <div className="text-center py-1">
+                <p className="m-eyebrow mb-4">Spoken Narration</p>
+                <div className="flex items-center justify-center gap-4">
+                  {prevNumber ? (
+                    <Link
+                      href={`/guide/${prevNumber}?lang=${lang}`}
+                      aria-label="Previous station"
+                      className="m-btn m-btn-ghost touch-target !px-0 !min-w-[48px] rounded-full"
+                    >
+                      <MuseumIcon name="arrowLeft" size={18} />
+                    </Link>
+                  ) : (
+                    <span className="inline-flex items-center justify-center w-12 h-12 rounded-full" style={{ border: "1px solid var(--hairline)", color: "var(--ink-faint)", opacity: 0.4 }}>
+                      <MuseumIcon name="arrowLeft" size={18} />
+                    </span>
+                  )}
+
+                  <button
+                    onClick={() => {
+                      if (typeof window !== "undefined" && "speechSynthesis" in window) {
                         window.speechSynthesis.cancel();
-                        setPlaying(false);
-                      } else {
-                        window.speechSynthesis.speak(utterance);
+                        const utterance = new SpeechSynthesisUtterance(description);
+                        utterance.lang = lang === "kn" ? "kn-IN" : lang === "hi" ? "hi-IN" : "en-IN";
+                        utterance.rate = 0.9;
+                        utterance.onstart = () => setPlaying(true);
+                        utterance.onend = () => setPlaying(false);
+                        if (playing) {
+                          window.speechSynthesis.cancel();
+                          setPlaying(false);
+                        } else {
+                          window.speechSynthesis.speak(utterance);
+                        }
                       }
-                    }
-                  }}
-                  className="flex items-center justify-center text-xl transition-all duration-300 active:scale-95"
-                  style={{
-                    width: '72px',
-                    height: '72px',
-                    borderRadius: '50%',
-                    background: playing ? 'rgba(212,163,79,0.15)' : 'rgba(212,163,79,0.1)',
-                    color: '#E8C06A',
-                    border: '2px solid rgba(212,163,79,0.35)',
-                    boxShadow: playing ? '0 0 30px rgba(212,163,79,0.15)' : '0 4px 20px rgba(0,0,0,0.2)',
-                  }}
-                >
-                  {playing ? '\u275A\u275A' : '\u25B6'}
-                </button>
+                    }}
+                    aria-label={playing ? "Stop" : "Play narration"}
+                    className="m-btn m-btn-primary !rounded-full !p-0"
+                    style={{ width: "76px", height: "76px", minHeight: "76px" }}
+                  >
+                    {playing ? (
+                      <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <rect x="6" y="4.5" width="4" height="15" rx="1.2" />
+                        <rect x="14" y="4.5" width="4" height="15" rx="1.2" />
+                      </svg>
+                    ) : (
+                      <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style={{ marginLeft: "3px" }}>
+                        <path d="M8 5.5v13l11-6.5-11-6.5Z" />
+                      </svg>
+                    )}
+                  </button>
+
+                  <Link
+                    href={`/guide/${nextNumber}?lang=${lang}`}
+                    aria-label="Next station"
+                    className="m-btn m-btn-ghost touch-target !px-0 !min-w-[48px] rounded-full"
+                  >
+                    <MuseumIcon name="arrowRight" size={18} />
+                  </Link>
+                </div>
+                <p className="text-xs mt-3.5" style={{ color: "var(--ink-faint)" }}>
+                  {playing ? "Listening…" : "Tap to hear the description"}
+                </p>
               </div>
-              <p className="text-xs mt-3" style={{ color: '#9B8A72' }}>
-                {playing ? 'Listening...' : 'Tap to hear the description'}
-              </p>
-            </div>
-          )}
+            )}
+          </div>
         </div>
       </div>
     </div>

@@ -20,6 +20,10 @@ interface Slide {
   duration_seconds: number;
 }
 
+const btnPrimary: React.CSSProperties = { minHeight: 40, fontSize: "0.85rem", padding: "0 1.1rem" };
+const btnSmall: React.CSSProperties = { minHeight: 30, fontSize: "0.75rem", padding: "0 0.7rem" };
+const btnDanger: React.CSSProperties = { ...btnSmall, background: "#9B3D34", color: "var(--ivory)" };
+
 export default function AdminKiosks() {
   const [kiosks, setKiosks] = useState<Kiosk[]>([]);
   const [slides, setSlides] = useState<Record<number, Slide[]>>({});
@@ -109,48 +113,52 @@ export default function AdminKiosks() {
   return (
     <div className="w-full">
       <div className="flex items-center justify-between mb-6">
-        <h1 className="text-2xl font-heading font-bold text-primary">Kiosks</h1>
+        <div>
+          <p className="m-eyebrow mb-1">Displays</p>
+          <h1 className="text-3xl" style={{ color: "var(--ivory)" }}>Kiosks</h1>
+        </div>
         <button
           onClick={() => setEditingKiosk({ name: "", location: "", screen_size: "" })}
-          className="px-4 py-2 bg-saffron text-white rounded-lg font-medium hover:bg-saffron-dark transition-colors"
+          className="m-btn m-btn-primary"
+          style={btnPrimary}
         >
           + Add Kiosk
         </button>
       </div>
 
       {msg && (
-        <div className="mb-4 px-4 py-2 bg-accent/10 text-accent rounded-lg text-sm">{msg}</div>
+        <div className="mb-4 px-4 py-2 rounded-lg text-sm" style={{ background: "rgba(212, 163, 79, 0.1)", border: "1px solid var(--hairline)", color: "var(--gold)" }}>{msg}</div>
       )}
 
       {/* New Kiosk Form */}
       {editingKiosk && !editingKiosk.id && (
-        <div className="bg-white border border-border rounded-xl p-6 mb-6">
-          <h2 className="text-lg font-semibold mb-4">New Kiosk</h2>
+        <div className="m-card p-6 mb-6">
+          <h2 className="text-xl mb-4" style={{ color: "var(--ivory)" }}>New Kiosk</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <input
               placeholder="Kiosk name"
               value={editingKiosk.name || ""}
               onChange={(e) => setEditingKiosk({ ...editingKiosk, name: e.target.value })}
-              className="px-3 py-2 border border-border rounded-lg focus:outline-none focus:border-primary"
+              className="px-3 py-2 text-sm"
             />
             <input
               placeholder="Location"
               value={editingKiosk.location || ""}
               onChange={(e) => setEditingKiosk({ ...editingKiosk, location: e.target.value })}
-              className="px-3 py-2 border border-border rounded-lg focus:outline-none focus:border-primary"
+              className="px-3 py-2 text-sm"
             />
             <input
               placeholder="Screen size"
               value={editingKiosk.screen_size || ""}
               onChange={(e) => setEditingKiosk({ ...editingKiosk, screen_size: e.target.value })}
-              className="px-3 py-2 border border-border rounded-lg focus:outline-none focus:border-primary"
+              className="px-3 py-2 text-sm"
             />
           </div>
           <div className="flex gap-3 mt-4">
-            <button onClick={saveKiosk} disabled={saving} className="px-6 py-2 bg-primary text-white rounded-lg font-medium disabled:opacity-50">
+            <button onClick={saveKiosk} disabled={saving} className="m-btn m-btn-primary disabled:opacity-50" style={btnPrimary}>
               {saving ? "Saving..." : "Save"}
             </button>
-            <button onClick={() => setEditingKiosk(null)} className="px-6 py-2 border border-border rounded-lg">
+            <button onClick={() => setEditingKiosk(null)} className="m-btn m-btn-ghost" style={btnPrimary}>
               Cancel
             </button>
           </div>
@@ -159,8 +167,8 @@ export default function AdminKiosks() {
 
       {/* Slide Edit Form */}
       {editingSlide && (
-        <div className="bg-white border border-border rounded-xl p-6 mb-6">
-          <h2 className="text-lg font-semibold mb-4">
+        <div className="m-card p-6 mb-6">
+          <h2 className="text-xl mb-4" style={{ color: "var(--ivory)" }}>
             {editingSlide.id ? "Edit Slide" : "New Slide"}
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -169,40 +177,40 @@ export default function AdminKiosks() {
               placeholder="Slide number"
               value={editingSlide.slide_number || ""}
               onChange={(e) => setEditingSlide({ ...editingSlide, slide_number: parseInt(e.target.value) || 0 })}
-              className="px-3 py-2 border border-border rounded-lg focus:outline-none focus:border-primary"
+              className="px-3 py-2 text-sm"
             />
             <input
               type="number"
               placeholder="Duration (seconds)"
               value={editingSlide.duration_seconds || ""}
               onChange={(e) => setEditingSlide({ ...editingSlide, duration_seconds: parseInt(e.target.value) || 10 })}
-              className="px-3 py-2 border border-border rounded-lg focus:outline-none focus:border-primary"
+              className="px-3 py-2 text-sm"
             />
             <input
               placeholder="Title (English)"
               value={editingSlide.title_en || ""}
               onChange={(e) => setEditingSlide({ ...editingSlide, title_en: e.target.value })}
-              className="px-3 py-2 border border-border rounded-lg focus:outline-none focus:border-primary md:col-span-2"
+              className="px-3 py-2 text-sm md:col-span-2"
             />
             <textarea
               placeholder="Content (English) - HTML allowed"
               rows={4}
               value={editingSlide.content_en || ""}
               onChange={(e) => setEditingSlide({ ...editingSlide, content_en: e.target.value })}
-              className="px-3 py-2 border border-border rounded-lg focus:outline-none focus:border-primary md:col-span-2"
+              className="px-3 py-2 text-sm md:col-span-2"
             />
             <input
               placeholder="Image URL"
               value={editingSlide.image_url || ""}
               onChange={(e) => setEditingSlide({ ...editingSlide, image_url: e.target.value })}
-              className="px-3 py-2 border border-border rounded-lg focus:outline-none focus:border-primary md:col-span-2"
+              className="px-3 py-2 text-sm md:col-span-2"
             />
           </div>
           <div className="flex gap-3 mt-4">
-            <button onClick={saveSlide} disabled={saving} className="px-6 py-2 bg-primary text-white rounded-lg font-medium disabled:opacity-50">
+            <button onClick={saveSlide} disabled={saving} className="m-btn m-btn-primary disabled:opacity-50" style={btnPrimary}>
               {saving ? "Saving..." : "Save"}
             </button>
-            <button onClick={() => setEditingSlide(null)} className="px-6 py-2 border border-border rounded-lg">
+            <button onClick={() => setEditingSlide(null)} className="m-btn m-btn-ghost" style={btnPrimary}>
               Cancel
             </button>
           </div>
@@ -212,60 +220,55 @@ export default function AdminKiosks() {
       {/* Kiosks List */}
       {loading ? (
         <div className="flex justify-center py-10">
-          <div className="w-8 h-8 border-4 border-primary border-t-transparent rounded-full animate-spin" />
+          <div className="w-8 h-8 border-4 rounded-full animate-spin" style={{ borderColor: "var(--saffron)", borderTopColor: "transparent" }} />
         </div>
       ) : kiosks.length === 0 ? (
-        <p className="text-center text-text-muted py-10">No kiosks yet.</p>
+        <p className="text-center py-10" style={{ color: "var(--ink-muted)" }}>No kiosks yet.</p>
       ) : (
         <div className="space-y-3">
           {kiosks.map((k) => (
-            <div key={k.id} className="bg-white border border-border rounded-xl overflow-hidden">
+            <div key={k.id} className="m-card overflow-hidden">
               <button
                 onClick={() => toggleExpand(k.id)}
-                className="w-full p-4 flex items-center justify-between hover:bg-surface/50 transition-colors"
+                className="w-full p-4 flex items-center justify-between transition-colors hover:bg-white/5"
               >
                 <div className="flex items-center gap-3">
-                  <span className={`w-3 h-3 rounded-full ${k.is_active ? "bg-accent" : "bg-border"}`} />
+                  <span className="w-3 h-3 rounded-full" style={{ background: k.is_active ? "#7A9E7D" : "var(--ink-faint)" }} />
                   <div className="text-left">
-                    <p className="font-semibold text-text-dark">{k.name}</p>
-                    <p className="text-xs text-text-muted">{k.location}</p>
+                    <p className="font-semibold" style={{ color: "var(--ivory)" }}>{k.name}</p>
+                    <p className="text-xs" style={{ color: "var(--ink-muted)" }}>{k.location}</p>
                   </div>
                 </div>
-                <span className="text-text-muted">{expandedKiosk === k.id ? "▼" : "▶"}</span>
+                <span style={{ color: "var(--ink-faint)" }}>{expandedKiosk === k.id ? "▼" : "▶"}</span>
               </button>
 
               {expandedKiosk === k.id && (
-                <div className="border-t border-border p-4 bg-surface/30">
+                <div className="p-4" style={{ borderTop: "1px solid var(--hairline)", background: "var(--card-bg)" }}>
                   <div className="flex items-center justify-between mb-3">
-                    <h3 className="text-sm font-semibold text-text-muted">Slides</h3>
+                    <h3 className="m-eyebrow">Slides</h3>
                     <button
                       onClick={() => setEditingSlide({ kiosk_id: k.id, slide_number: (slides[k.id]?.length || 0) + 1, duration_seconds: 10 })}
-                      className="px-3 py-1 text-sm bg-saffron text-white rounded-lg"
+                      className="m-btn m-btn-primary"
+                      style={btnSmall}
                     >
                       + Add Slide
                     </button>
                   </div>
                   {(slides[k.id] || []).length === 0 ? (
-                    <p className="text-sm text-text-muted">No slides yet</p>
+                    <p className="text-sm" style={{ color: "var(--ink-muted)" }}>No slides yet</p>
                   ) : (
                     <div className="space-y-2">
                       {(slides[k.id] || []).map((s) => (
-                        <div key={s.id} className="flex items-center justify-between bg-white p-3 rounded-lg border border-border">
+                        <div key={s.id} className="flex items-center justify-between p-3 rounded-lg" style={{ background: "var(--bg-raised)", border: "1px solid var(--hairline)" }}>
                           <div>
-                            <span className="text-xs text-text-muted">#{s.slide_number}</span>
-                            <p className="font-medium text-sm">{s.title_en || "Untitled"}</p>
+                            <span className="text-xs" style={{ color: "var(--ink-faint)" }}>#{s.slide_number}</span>
+                            <p className="font-medium text-sm" style={{ color: "var(--ivory)" }}>{s.title_en || "Untitled"}</p>
                           </div>
                           <div className="flex gap-2">
-                            <button
-                              onClick={() => setEditingSlide(s)}
-                              className="px-2 py-1 text-xs border border-border rounded hover:bg-surface"
-                            >
+                            <button onClick={() => setEditingSlide(s)} className="m-btn m-btn-ghost" style={btnSmall}>
                               Edit
                             </button>
-                            <button
-                              onClick={() => deleteSlide(s)}
-                              className="px-2 py-1 text-xs border border-red-200 text-red-500 rounded hover:bg-red-50"
-                            >
+                            <button onClick={() => deleteSlide(s)} className="m-btn" style={btnDanger}>
                               Delete
                             </button>
                           </div>

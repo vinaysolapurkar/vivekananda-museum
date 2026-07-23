@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
+import MuseumIcon from "@/components/MuseumIcon";
 
 interface Doc {
   id: number;
@@ -10,6 +11,10 @@ interface Doc {
   is_active: number;
   created_at: string;
 }
+
+const btnPrimary: React.CSSProperties = { minHeight: 40, fontSize: "0.85rem", padding: "0 1.1rem" };
+const btnSmall: React.CSSProperties = { minHeight: 30, fontSize: "0.75rem", padding: "0 0.7rem" };
+const btnDanger: React.CSSProperties = { ...btnSmall, background: "#9B3D34", color: "var(--ivory)" };
 
 export default function AdminKnowledge() {
   const [docs, setDocs] = useState<Doc[]>([]);
@@ -92,26 +97,21 @@ export default function AdminKnowledge() {
     <div className="w-full">
       <div className="flex items-center justify-between mb-6">
         <div>
-          <h1 className="text-2xl font-bold" style={{ fontFamily: 'Cormorant Garamond, serif', color: '#2C1810' }}>
-            Chat Knowledge Base
-          </h1>
-          <p className="text-sm" style={{ color: '#8B7B6B' }}>
+          <p className="m-eyebrow mb-1">Speak with Swamiji</p>
+          <h1 className="text-3xl" style={{ color: "var(--ivory)" }}>Chat Knowledge Base</h1>
+          <p className="text-sm mt-1" style={{ color: "var(--ink-muted)" }}>
             Documents the AI chatbot uses to answer questions about Vivekananda
           </p>
         </div>
         <div className="flex gap-2">
-          <button
-            onClick={() => setAddingText(true)}
-            className="px-4 py-2 rounded-lg font-medium text-sm" 
-            style={{ background: '#5B7B5E', color: 'white' }}
-          >
+          <button onClick={() => setAddingText(true)} className="m-btn m-btn-ghost" style={btnPrimary}>
             + Add Text
           </button>
           <button
             onClick={() => fileRef.current?.click()}
             disabled={uploading}
-            className="px-4 py-2 rounded-lg font-medium text-sm disabled:opacity-50"
-            style={{ background: '#E07B2E', color: 'white' }}
+            className="m-btn m-btn-primary disabled:opacity-50"
+            style={btnPrimary}
           >
             {uploading ? "Uploading..." : "+ Upload PDF/TXT"}
           </button>
@@ -130,13 +130,13 @@ export default function AdminKnowledge() {
       </div>
 
       {msg && (
-        <div className="mb-4 px-4 py-2 rounded-lg text-sm" style={{ background: '#5B7B5E20', color: '#5B7B5E' }}>{msg}</div>
+        <div className="mb-4 px-4 py-2 rounded-lg text-sm" style={{ background: "rgba(212, 163, 79, 0.1)", border: "1px solid var(--hairline)", color: "var(--gold)" }}>{msg}</div>
       )}
 
       {/* Add text form */}
       {addingText && (
-        <div className="card-spiritual p-6 mb-6">
-          <h3 className="text-lg font-semibold mb-4" style={{ fontFamily: 'Cormorant Garamond, serif', color: '#2C1810' }}>
+        <div className="m-card p-6 mb-6">
+          <h3 className="text-xl mb-4" style={{ color: "var(--ivory)" }}>
             Add Knowledge Entry
           </h3>
           <div className="space-y-3">
@@ -145,22 +145,20 @@ export default function AdminKnowledge() {
               placeholder="Title (e.g., Chicago Speech 1893)"
               value={newTitle}
               onChange={(e) => setNewTitle(e.target.value)}
-              className="w-full px-4 py-2.5 border rounded-lg text-sm"
-              style={{ borderColor: '#E8D8C8' }}
+              className="w-full px-4 py-2.5 text-sm"
             />
             <textarea
               rows={6}
               placeholder="Paste the content here... The chatbot will use this to answer visitor questions."
               value={newContent}
               onChange={(e) => setNewContent(e.target.value)}
-              className="w-full px-4 py-2.5 border rounded-lg text-sm"
-              style={{ borderColor: '#E8D8C8' }}
+              className="w-full px-4 py-2.5 text-sm"
             />
             <div className="flex gap-2">
-              <button onClick={addText} disabled={uploading} className="px-6 py-2 rounded-lg font-medium text-sm text-white" style={{ background: '#7B2D26' }}>
+              <button onClick={addText} disabled={uploading} className="m-btn m-btn-primary disabled:opacity-50" style={btnPrimary}>
                 Save
               </button>
-              <button onClick={() => setAddingText(false)} className="px-6 py-2 rounded-lg text-sm border" style={{ borderColor: '#E8D8C8', color: '#8B7B6B' }}>
+              <button onClick={() => setAddingText(false)} className="m-btn m-btn-ghost" style={btnPrimary}>
                 Cancel
               </button>
             </div>
@@ -171,35 +169,31 @@ export default function AdminKnowledge() {
       {/* Documents list */}
       {loading ? (
         <div className="flex justify-center py-10">
-          <div className="w-8 h-8 border-4 border-t-transparent rounded-full animate-spin" style={{ borderColor: '#E07B2E', borderTopColor: 'transparent' }} />
+          <div className="w-8 h-8 border-4 rounded-full animate-spin" style={{ borderColor: "var(--saffron)", borderTopColor: "transparent" }} />
         </div>
       ) : docs.length === 0 ? (
-        <div className="text-center py-16" style={{ color: '#8B7B6B' }}>
+        <div className="text-center py-16" style={{ color: "var(--ink-muted)" }}>
           <p className="text-lg mb-2">No documents yet</p>
           <p className="text-sm">Upload PDFs or add text entries for the chatbot to learn from</p>
         </div>
       ) : (
         <div className="space-y-3">
           {docs.map((doc) => (
-            <div key={doc.id} className="card-spiritual p-4 flex items-start gap-4">
-              <div className="w-10 h-10 rounded-lg flex items-center justify-center text-sm font-bold shrink-0"
-                style={{ background: '#E07B2E15', color: '#E07B2E' }}>
-                {doc.document_type === 'pdf' ? '📄' : '📝'}
+            <div key={doc.id} className="m-card p-4 flex items-start gap-4">
+              <div className="w-10 h-10 rounded-lg flex items-center justify-center shrink-0"
+                style={{ background: "rgba(224, 123, 46, 0.12)", border: "1px solid var(--hairline)", color: "var(--saffron)" }}>
+                <MuseumIcon name="scroll" size={18} />
               </div>
               <div className="flex-1 min-w-0">
-                <p className="font-semibold truncate" style={{ color: '#2C1810' }}>{doc.title}</p>
-                <p className="text-xs mt-0.5 line-clamp-2" style={{ color: '#8B7B6B' }}>
+                <p className="font-semibold truncate" style={{ color: "var(--ivory)" }}>{doc.title}</p>
+                <p className="text-xs mt-0.5 line-clamp-2" style={{ color: "var(--ink-muted)" }}>
                   {doc.content?.substring(0, 150)}...
                 </p>
-                <p className="text-xs mt-1" style={{ color: '#C8963E' }}>
-                  {doc.document_type.toUpperCase()} &middot; Added {doc.created_at?.split('T')[0]}
+                <p className="text-xs mt-1" style={{ color: "var(--gold)" }}>
+                  {doc.document_type.toUpperCase()} &middot; Added {doc.created_at?.split("T")[0]}
                 </p>
               </div>
-              <button
-                onClick={() => deleteDoc(doc.id)}
-                className="px-3 py-1.5 text-xs rounded-lg border hover:bg-red-50 shrink-0"
-                style={{ borderColor: '#E8D8C8', color: '#C06520' }}
-              >
+              <button onClick={() => deleteDoc(doc.id)} className="m-btn shrink-0" style={btnDanger}>
                 Delete
               </button>
             </div>
