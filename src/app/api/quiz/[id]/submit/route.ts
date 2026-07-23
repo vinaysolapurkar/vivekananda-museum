@@ -14,7 +14,7 @@ export async function POST(
     const quizId = Number(id);
 
     const body = await request.json();
-    const { answers, visitor_name } = body;
+    const { answers, visitor_name, question_ids } = body;
 
     if (!answers || typeof answers !== "object") {
       return errorResponse("answers object is required");
@@ -41,7 +41,16 @@ export async function POST(
       args: [quizId],
     });
 
-    const total = questionsResult.rows.length;
+    // If the client tells us which questions were actually shown (e.g. age-filtered
+    // subsets), grade only that subset — otherwise grade the whole quiz.
+    let gradedRows = questionsResult.rows;
+    if (Array.isArray(question_ids) && question_ids.length > 0) {
+      const idSet = new Set(question_ids.map((q: unknown) => Number(q)));
+      const filtered = questionsResult.rows.filter((r) => idSet.has(Number(r.id)));
+      if (filtered.length > 0) gradedRows = filtered;
+    }
+
+    const total = gradedRows.length;
     if (total === 0) {
       return errorResponse("Quiz has no questions", 400);
     }
@@ -50,16 +59,19 @@ export async function POST(
     let score = 0;
     const review: Array<{ question_id: number; correct_index: number; selected_index: number; correct: boolean }> = [];
 
-    for (const row of questionsResult.rows) {
+    for (const row of gradedRows) {
       const questionId = String(row.id);
       const submittedIndex = answers[questionId];
-      if (submittedIndex === undefined) continue;
 
-      // Parse options (JSON or @@ delimited)
+      // Parse options (JSON or @@ delimited, tolerating legacy double-encoding)
       let options: string[] = [];
-      const rawOptions = (row as any).options_en as string;
+      const rawOptions = typeof row.options_en === "string" ? row.options_en : "";
       if (rawOptions) {
-        try { options = JSON.parse(rawOptions); } catch { options = rawOptions.split("@@"); }
+        try {
+          let parsed: unknown = JSON.parse(rawOptions);
+          if (typeof parsed === "string") parsed = JSON.parse(parsed);
+          options = Array.isArray(parsed) ? parsed.map(String) : [];
+        } catch { options = rawOptions.split("@@"); }
       }
 
       // Determine correct index: correct_answer can be an index (number) or text (string)
@@ -78,13 +90,15 @@ export async function POST(
         }
       }
 
-      const isCorrect = Number(submittedIndex) === correctIndex;
+      // Unanswered questions count as wrong (selected_index -1 in the review)
+      const answered = submittedIndex !== undefined && submittedIndex !== null;
+      const isCorrect = answered && Number(submittedIndex) === correctIndex;
       if (isCorrect) score++;
 
       review.push({
         question_id: Number(row.id),
         correct_index: correctIndex,
-        selected_index: Number(submittedIndex),
+        selected_index: answered ? Number(submittedIndex) : -1,
         correct: isCorrect,
       });
     }

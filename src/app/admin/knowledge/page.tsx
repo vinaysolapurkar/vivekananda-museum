@@ -130,7 +130,7 @@ export default function AdminKnowledge() {
       </div>
 
       {msg && (
-        <div className="mb-4 px-4 py-2 rounded-lg text-sm" style={{ background: "rgba(212, 163, 79, 0.1)", border: "1px solid var(--hairline)", color: "var(--gold)" }}>{msg}</div>
+        <div className="mb-4 px-4 py-2 rounded-lg text-sm font-medium" style={/fail|error/i.test(msg) ? { background: "rgba(155, 61, 52, 0.15)", border: "1px solid rgba(155, 61, 52, 0.4)", color: "#E08A7E" } : { background: "rgba(212, 163, 79, 0.1)", border: "1px solid var(--hairline)", color: "var(--gold)" }}>{msg}</div>
       )}
 
       {/* Add text form */}

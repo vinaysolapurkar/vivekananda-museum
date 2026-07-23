@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback, useRef } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { use } from "react";
 import MuseumIcon from "@/components/MuseumIcon";
 
@@ -43,7 +43,6 @@ export default function QuizPage({
   const [result, setResult] = useState<Result | null>(null);
   const [submitting, setSubmitting] = useState(false);
   const [timeLeft, setTimeLeft] = useState(0);
-  const lastTouch = useRef(Date.now());
 
   // Fetch quiz info on mount (without age filter, just for intro display)
   useEffect(() => {
@@ -82,15 +81,23 @@ export default function QuizPage({
   }, [phase, result, timeLeft]);
 
   const submitQuiz = useCallback(async () => {
-    if (submitting || result || Object.keys(answers).length === 0) return;
+    if (submitting || result) return;
     setSubmitting(true);
     try {
       const res = await fetch(`/api/quiz/${id}/submit`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ answers, visitor_name: name || "Visitor" }),
+        body: JSON.stringify({
+          answers,
+          visitor_name: name || "Visitor",
+          question_ids: questions.map((q) => q.id),
+        }),
       });
       const data = await res.json();
+      if (!res.ok) {
+        alert(data.error || "Submission failed. Please try again.");
+        return;
+      }
       setResult(data);
       setPhase("result");
     } catch {
@@ -98,13 +105,14 @@ export default function QuizPage({
     } finally {
       setSubmitting(false);
     }
-  }, [id, answers, name, submitting, result]);
+  }, [id, answers, name, submitting, result, questions]);
 
+  // Auto-submit when the timer runs out (even if nothing was answered)
   useEffect(() => {
-    if (phase === "quiz" && timeLeft === 0 && !result && Object.keys(answers).length > 0) {
+    if (phase === "quiz" && timeLeft === 0 && !result) {
       submitQuiz();
     }
-  }, [timeLeft, phase, result, answers, submitQuiz]);
+  }, [timeLeft, phase, result, submitQuiz]);
 
   const formatTimer = (s: number) => {
     const m = Math.floor(s / 60);
@@ -112,13 +120,10 @@ export default function QuizPage({
     return `${m}:${sec.toString().padStart(2, "0")}`;
   };
 
-  const [started, setStarted] = useState(false);
-
   const startQuiz = () => {
-    if (!name.trim()) return;
+    if (!name.trim() || questions.length === 0) return;
     if (age) fetchQuestionsForAge(age);
     setPhase("quiz");
-    setStarted(true);
   };
 
   const answeredCount = Object.keys(answers).length;
@@ -233,7 +238,7 @@ export default function QuizPage({
             />
             <button
               onClick={startQuiz}
-              disabled={!name.trim()}
+              disabled={!name.trim() || questions.length === 0}
               className="m-btn m-btn-primary w-full disabled:opacity-30 disabled:pointer-events-none"
               style={{ minHeight: 56, fontSize: "1.05rem" }}
             >
@@ -243,7 +248,7 @@ export default function QuizPage({
           </div>
 
           <p className="text-[11px] mt-6" style={{ color: "var(--ink-faint)" }}>
-            Your progress is saved as you go
+            Answer at your own pace — revisit any question before submitting
           </p>
         </div>
       </div>
@@ -343,7 +348,7 @@ export default function QuizPage({
               <p className="m-eyebrow mb-4">Answer Review</p>
               <div>
                 {result.review.map((r, i) => {
-                  const q = questions[i];
+                  const q = questions.find((qq) => qq.id === r.question_id);
                   if (!q) return null;
                   return (
                     <div
@@ -385,7 +390,9 @@ export default function QuizPage({
                           <p className="text-xs leading-relaxed" style={{ color: "var(--ink-faint)" }}>
                             Your answer:{" "}
                             <span style={{ color: "#C97B6E" }}>
-                              {q.options[r.selected_index]}
+                              {r.selected_index >= 0
+                                ? q.options[r.selected_index]
+                                : "Not answered"}
                             </span>
                             {" · "}Correct:{" "}
                             <span style={{ color: "var(--gold)" }}>
@@ -429,7 +436,13 @@ export default function QuizPage({
 
           {!result.passed && (
             <button
-              onClick={() => { setPhase("quiz"); setAnswers({}); setCurrentQ(0); }}
+              onClick={() => {
+                setResult(null);
+                setAnswers({});
+                setCurrentQ(0);
+                setTimeLeft((quiz?.time_limit_minutes || 10) * 60);
+                setPhase("quiz");
+              }}
               className="m-btn m-btn-primary w-full"
               style={{ minHeight: 56, fontSize: "1.05rem" }}
             >

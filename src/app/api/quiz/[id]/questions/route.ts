@@ -1,4 +1,5 @@
 import db from "@/lib/db";
+import { requireAdmin } from "@/lib/auth";
 import { ensureDb } from "@/lib/init-db";
 import {
   getLang,
@@ -10,6 +11,28 @@ import {
 
 const headers = serviceHeaders("quiz-service", "1.0.0");
 
+function parseOptions(raw: unknown): string[] {
+  if (Array.isArray(raw)) return raw.map(String);
+  const str = typeof raw === "string" ? raw : "";
+  if (!str) return [];
+  try {
+    let parsed: unknown = JSON.parse(str);
+    if (typeof parsed === "string") parsed = JSON.parse(parsed); // legacy double-encoded
+    if (Array.isArray(parsed)) return parsed.map(String);
+    return [];
+  } catch {
+    return str.split("@@");
+  }
+}
+
+// correct_answer may be stored as an index (number / numeric string) or as the answer text.
+function correctIndexOf(correctVal: unknown, options: string[]): number {
+  if (typeof correctVal === "number") return correctVal;
+  const parsed = Number(correctVal);
+  if (!isNaN(parsed) && String(parsed) === String(correctVal)) return parsed;
+  return options.indexOf(String(correctVal));
+}
+
 export async function GET(
   request: Request,
   { params }: { params: Promise<{ id: string }> }
@@ -20,6 +43,12 @@ export async function GET(
     const { searchParams } = new URL(request.url);
     const lang = getLang(searchParams);
     const age = searchParams.get("age");
+    const isAdminRequest = searchParams.get("admin") === "true";
+
+    if (isAdminRequest) {
+      const authError = await requireAdmin();
+      if (authError) return authError;
+    }
 
     const quizResult = await db.execute({
       sql: "SELECT * FROM quizzes WHERE id = ?",
@@ -34,7 +63,7 @@ export async function GET(
 
     // Filter questions by age: children (<=12) get easy+medium, teens get all, adults get medium+hard
     let difficultyFilter = "";
-    if (age && !searchParams.get("admin")) {
+    if (age && !isAdminRequest) {
       const ageNum = Number(age);
       if (ageNum <= 12) {
         difficultyFilter = " AND difficulty IN ('easy', 'medium')";
@@ -50,13 +79,21 @@ export async function GET(
     });
 
     const questions = questionsResult.rows.map((row) => {
-      const rawOptions = localizedField(row, "options", lang) as string;
-      let options: string[];
-      try {
-        options = JSON.parse(rawOptions);
-      } catch {
-        // Fallback: split by @@ delimiter
-        options = rawOptions ? rawOptions.split("@@") : [];
+      const options = parseOptions(localizedField(row, "options", lang));
+
+      if (isAdminRequest) {
+        const optionsEn = parseOptions(row.options_en);
+        return {
+          id: row.id,
+          quiz_id: row.quiz_id,
+          question_en: row.question_en,
+          question_kn: row.question_kn,
+          question_hi: row.question_hi,
+          options: optionsEn,
+          correct_answer: correctIndexOf(row.correct_answer, optionsEn),
+          difficulty: row.difficulty,
+          sort_order: row.sort_order,
+        };
       }
 
       return {

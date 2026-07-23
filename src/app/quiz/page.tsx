@@ -10,6 +10,7 @@ interface Quiz {
   description?: string;
   time_limit_minutes: number;
   passing_score: number;
+  is_active: number;
 }
 
 export default function QuizListPage() {
@@ -19,7 +20,11 @@ export default function QuizListPage() {
   useEffect(() => {
     fetch("/api/quiz")
       .then((r) => r.json())
-      .then((data) => setQuizzes(data.quizzes || []))
+      .then((data) =>
+        setQuizzes(
+          (data.quizzes || []).filter((q: Quiz) => Number(q.is_active) !== 0)
+        )
+      )
       .catch(() => {})
       .finally(() => setLoading(false));
   }, []);

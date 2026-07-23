@@ -178,6 +178,11 @@ export default function AdminStations() {
               <textarea rows={3} value={editing.description_kn || ""} style={{ ...inputStyle, resize: "vertical" as const }}
                 onChange={(e) => setEditing({ ...editing, description_kn: e.target.value })} />
             </div>
+            <div className="md:col-span-2">
+              <label className="block text-sm font-medium mb-1" style={{ color: '#4A3728' }}>Description (हिन्दी)</label>
+              <textarea rows={3} value={editing.description_hi || ""} style={{ ...inputStyle, resize: 'vertical' as const }}
+                onChange={(e) => setEditing({ ...editing, description_hi: e.target.value })} />
+            </div>
           </div>
           <div className="flex gap-3 mt-4">
             <button onClick={save} disabled={saving} className="m-btn m-btn-primary disabled:opacity-50" style={btnPrimary}>

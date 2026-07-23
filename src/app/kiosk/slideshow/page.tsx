@@ -10,6 +10,8 @@ interface Category {
   image_count: number;
   child_count: number;
   cover_image_url?: string;
+  kind?: string;
+  cover?: string | null;
 }
 
 interface SlideImage {
@@ -297,10 +299,10 @@ export default function KioskSlideshowPage() {
       <div className="max-w-6xl mx-auto px-6 py-8 relative z-10">
         <div className="grid gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {displayItems.map((cat, idx) => {
-            const isGroup = Number(cat.child_count) > 0;
+            const isGroup = cat.kind ? cat.kind === "group" : Number(cat.child_count) > 0;
             const count = isGroup ? Number(cat.child_count) : Number(cat.image_count);
             const label = isGroup ? `${count} lectures` : `${count} slides`;
-            const cover = cat.cover_image_url || covers[cat.id] || "";
+            const cover = cat.cover || cat.cover_image_url || covers[cat.id] || "";
             const showDesc = cat.description && cat.description.trim() !== cat.name.trim();
             return (
               <button

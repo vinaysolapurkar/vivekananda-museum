@@ -177,6 +177,17 @@ export async function initializeDatabase() {
       FOREIGN KEY (category_id) REFERENCES slideshow_categories(id) ON DELETE CASCADE
     );
 
+    CREATE TABLE IF NOT EXISTS analytics_events (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      event_type TEXT NOT NULL DEFAULT 'view',
+      module TEXT NOT NULL DEFAULT 'unknown',
+      item_id TEXT NOT NULL DEFAULT '',
+      item_name TEXT NOT NULL DEFAULT '',
+      metadata TEXT NOT NULL DEFAULT '{}',
+      visitor_id TEXT NOT NULL DEFAULT '',
+      created_at TEXT NOT NULL DEFAULT (datetime('now'))
+    );
+
     CREATE TABLE IF NOT EXISTS travel_locations (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
       name TEXT NOT NULL,
@@ -203,5 +214,25 @@ export async function initializeDatabase() {
     await db.execute({ sql: "ALTER TABLE slideshow_categories ADD COLUMN parent_id INTEGER REFERENCES slideshow_categories(id)", args: [] });
   } catch {
     // Column already exists — ignore
+  }
+
+  // Add kind ('album' holds images, 'group' holds sub-albums) so empty
+  // categories are unambiguous in the admin UI and kiosk navigation.
+  try {
+    await db.execute({ sql: "ALTER TABLE slideshow_categories ADD COLUMN kind TEXT NOT NULL DEFAULT 'album'", args: [] });
+  } catch {
+    // Column already exists — ignore
+  }
+
+  // Back-fill: any legacy category that already has children is a group.
+  try {
+    await db.execute({
+      sql: `UPDATE slideshow_categories SET kind = 'group'
+            WHERE kind = 'album'
+            AND id IN (SELECT DISTINCT parent_id FROM slideshow_categories WHERE parent_id IS NOT NULL)`,
+      args: [],
+    });
+  } catch {
+    // Ignore if kind column not present yet on very old schema
   }
 }
