@@ -204,4 +204,24 @@ export async function initializeDatabase() {
   } catch {
     // Column already exists — ignore
   }
+
+  // Add kind ('album' holds images, 'group' holds sub-albums) so empty
+  // categories are unambiguous in the admin UI and kiosk navigation.
+  try {
+    await db.execute({ sql: "ALTER TABLE slideshow_categories ADD COLUMN kind TEXT NOT NULL DEFAULT 'album'", args: [] });
+  } catch {
+    // Column already exists — ignore
+  }
+
+  // Back-fill: any legacy category that already has children is a group.
+  try {
+    await db.execute({
+      sql: `UPDATE slideshow_categories SET kind = 'group'
+            WHERE kind = 'album'
+            AND id IN (SELECT DISTINCT parent_id FROM slideshow_categories WHERE parent_id IS NOT NULL)`,
+      args: [],
+    });
+  } catch {
+    // Ignore if kind column not present yet on very old schema
+  }
 }

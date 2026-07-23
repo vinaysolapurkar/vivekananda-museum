@@ -128,7 +128,7 @@ export default function AdminQuiz() {
       </div>
 
       {msg && (
-        <div className="mb-4 px-4 py-2 bg-accent/10 text-accent rounded-lg text-sm">{msg}</div>
+        <div className="mb-4 px-4 py-2 rounded-lg text-sm font-medium" style={/fail|error/i.test(msg) ? { background: '#B4443715', color: '#B44437' } : { background: '#5B7B5E20', color: '#5B7B5E' }}>{msg}</div>
       )}
 
       {/* New Quiz Form */}

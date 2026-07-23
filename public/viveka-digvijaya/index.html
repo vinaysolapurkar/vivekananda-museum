@@ -78,8 +78,13 @@
     .header-btn.playing {
       background: rgba(231,76,60,0.15); border-color: rgba(231,76,60,0.4);
       color: #e74c3c;
+      animation: playingPulse 2s ease-in-out infinite;
     }
     .header-btn.playing:hover { background: rgba(231,76,60,0.28); }
+    @keyframes playingPulse {
+      0%, 100% { box-shadow: 0 0 0 rgba(231,76,60,0); }
+      50%      { box-shadow: 0 0 14px rgba(231,76,60,0.45); }
+    }
 
     /* ─── Main row ───────────────────────────────────────── */
     #main-row { flex: 1; display: flex; min-height: 0; position: relative; }
@@ -151,7 +156,7 @@
     .country-count { font-size: 10px; color: var(--text-muted); flex-shrink: 0; background: var(--bg-dark); padding: 2px 7px; border-radius: 10px; }
 
     /* ── Locations tab ── */
-    #tab-locations { display: flex; flex-direction: column; }
+    #tab-locations { flex-direction: column; }
     .search-wrap { padding: 12px; flex-shrink: 0; border-bottom: 1px solid var(--border); }
     #search-input { width: 100%; padding: 9px 12px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; color: var(--text-main); font-size: 13px; outline: none; transition: border-color var(--transition); }
     #search-input:focus { border-color: var(--gold-dim); }
@@ -452,6 +457,7 @@
       <div class="stat-item"><span class="stat-num" id="stat-countries">—</span><span>Countries</span></div>
       <div class="stat-item"><span class="stat-num">5</span><span>Phases</span></div>
     </div>
+<button id="play-btn" class="header-btn" onclick="startPlay()" title="Fly through the journey automatically (Space)">▶ Play Journey</button>
 <button id="reset-btn" class="header-btn" onclick="flyHome()" title="Reset camera to full globe view">⌂ Reset View</button>
     <div id="map-style-btn" style="position:relative;">
       <button class="header-btn" onclick="toggleMapStylePanel(event)" title="Switch map style">🗺 Map Style</button>

@@ -8,9 +8,19 @@ export async function GET(_: Request, { params }: { params: Promise<{ id: string
   const cat = await db.execute({ sql: "SELECT * FROM slideshow_categories WHERE id = ?", args: [Number(id)] });
   if (cat.rows.length === 0) return Response.json({ error: "Not found" }, { status: 404 });
 
-  // If this is a group category, return its children with image counts
+  const category = cat.rows[0];
+
+  // A group category holds sub-albums; return its children (with image counts)
+  // even when empty so the admin can keep adding sub-albums. Fall back to
+  // child-detection for legacy rows created before the `kind` column existed.
   const children = await db.execute({
-    sql: `SELECT c.*, COUNT(i.id) as image_count
+    sql: `SELECT c.*, COUNT(i.id) as image_count,
+          COALESCE(
+            NULLIF(c.cover_image_url, ''),
+            (SELECT si.image_url FROM slideshow_images si
+               WHERE si.category_id = c.id AND si.is_active = 1
+               ORDER BY si.sort_order ASC, si.id ASC LIMIT 1)
+          ) as cover
           FROM slideshow_categories c
           LEFT JOIN slideshow_images i ON i.category_id = c.id AND i.is_active = 1
           WHERE c.parent_id = ? AND c.is_active = 1
@@ -18,8 +28,9 @@ export async function GET(_: Request, { params }: { params: Promise<{ id: string
     args: [Number(id)],
   });
 
-  if (children.rows.length > 0) {
-    return Response.json({ category: cat.rows[0], children: children.rows });
+  const isGroup = category.kind === "group" || children.rows.length > 0;
+  if (isGroup) {
+    return Response.json({ category, children: children.rows });
   }
 
   const images = await db.execute({
@@ -27,7 +38,7 @@ export async function GET(_: Request, { params }: { params: Promise<{ id: string
     args: [Number(id)],
   });
 
-  return Response.json({ category: cat.rows[0], images: images.rows });
+  return Response.json({ category, images: images.rows });
 }
 
 export async function PUT(request: Request, { params }: { params: Promise<{ id: string }> }) {
@@ -54,7 +65,18 @@ export async function PUT(request: Request, { params }: { params: Promise<{ id: 
 export async function DELETE(_: Request, { params }: { params: Promise<{ id: string }> }) {
   await ensureDb();
   const { id } = await params;
-  await db.execute({ sql: "DELETE FROM slideshow_images WHERE category_id = ?", args: [Number(id)] });
-  await db.execute({ sql: "DELETE FROM slideshow_categories WHERE id = ?", args: [Number(id)] });
+  const catId = Number(id);
+
+  // Collect this category plus any sub-albums (2-level model) so a group and
+  // everything inside it is removed cleanly.
+  const children = await db.execute({
+    sql: "SELECT id FROM slideshow_categories WHERE parent_id = ?",
+    args: [catId],
+  });
+  const ids = [catId, ...children.rows.map((r) => Number(r.id))];
+  const placeholders = ids.map(() => "?").join(",");
+
+  await db.execute({ sql: `DELETE FROM slideshow_images WHERE category_id IN (${placeholders})`, args: ids });
+  await db.execute({ sql: `DELETE FROM slideshow_categories WHERE id IN (${placeholders})`, args: ids });
   return Response.json({ success: true });
 }
