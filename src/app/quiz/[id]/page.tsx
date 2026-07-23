@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback, useRef } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { use } from "react";
 
 interface Question {
@@ -42,7 +42,6 @@ export default function QuizPage({
   const [result, setResult] = useState<Result | null>(null);
   const [submitting, setSubmitting] = useState(false);
   const [timeLeft, setTimeLeft] = useState(0);
-  const lastTouch = useRef(Date.now());
 
   // Fetch quiz info on mount (without age filter, just for intro display)
   useEffect(() => {
@@ -111,13 +110,10 @@ export default function QuizPage({
     return `${m}:${sec.toString().padStart(2, "0")}`;
   };
 
-  const [started, setStarted] = useState(false);
-
   const startQuiz = () => {
     if (!name.trim()) return;
     if (age) fetchQuestionsForAge(age);
     setPhase("quiz");
-    setStarted(true);
   };
 
   const answeredCount = Object.keys(answers).length;
@@ -221,7 +217,7 @@ export default function QuizPage({
           </div>
 
           <p className="text-[10px] mt-6" style={{ color: 'rgba(155,138,114,0.4)' }}>
-            Your progress is saved as you go
+            Answer at your own pace — revisit any question before submitting
           </p>
         </div>
       </div>
@@ -355,7 +351,13 @@ export default function QuizPage({
 
           {!result.passed && (
             <button
-              onClick={() => { setPhase("quiz"); setAnswers({}); setCurrentQ(0); }}
+              onClick={() => {
+                setResult(null);
+                setAnswers({});
+                setCurrentQ(0);
+                setTimeLeft((quiz?.time_limit_minutes || 10) * 60);
+                setPhase("quiz");
+              }}
               className="w-full py-4 rounded-xl font-medium text-base transition-all duration-300 active:scale-[0.98]"
               style={{
                 background: 'rgba(255,245,230,0.04)',

@@ -8,6 +8,8 @@ interface Category {
   description: string;
   image_count: number;
   child_count: number;
+  kind?: string;
+  cover?: string | null;
 }
 
 interface SlideImage {
@@ -269,26 +271,41 @@ export default function KioskSlideshowPage() {
               <button
                 key={cat.id}
                 onClick={() => selectCategory(cat as Category)}
-                className="text-left rounded-2xl p-5 transition-all hover:scale-[1.02] active:scale-[0.98]"
+                className="text-left rounded-2xl overflow-hidden transition-all hover:scale-[1.02] active:scale-[0.98] group"
                 style={{
                   background: 'rgba(255,245,230,0.04)',
                   border: `1px solid ${isGroup ? 'rgba(200,112,26,0.2)' : 'rgba(212,163,79,0.1)'}`,
                   boxShadow: '0 2px 12px rgba(0,0,0,0.15)',
                 }}>
-                <div className="w-10 h-10 rounded-xl mb-3 flex items-center justify-center text-lg"
-                  style={{ background: 'rgba(212,163,79,0.08)', color: '#D4A34F' }}>
-                  {isGroup ? '📚' : '🖼'}
+                {/* Cover image */}
+                <div className="relative h-40 md:h-44 overflow-hidden flex items-center justify-center"
+                  style={{ background: 'linear-gradient(160deg, #2a1810, #1c1008)' }}>
+                  {cat.cover ? (
+                    <>
+                      <img src={cat.cover} alt={cat.name}
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+                      <div className="absolute inset-0" style={{ background: 'linear-gradient(to top, rgba(15,8,6,0.75) 0%, rgba(15,8,6,0.05) 55%, transparent 100%)' }} />
+                    </>
+                  ) : (
+                    <span className="text-4xl opacity-40">{isGroup ? '📚' : '🖼'}</span>
+                  )}
+                  <span className="absolute top-2.5 left-2.5 px-2.5 py-1 rounded-full text-[10px] font-semibold uppercase tracking-wider"
+                    style={{ background: 'rgba(15,8,6,0.6)', color: '#E8C06A', backdropFilter: 'blur(6px)', border: '1px solid rgba(212,163,79,0.2)' }}>
+                    {isGroup ? 'Collection' : 'Gallery'}
+                  </span>
                 </div>
-                <h3 className="text-base font-semibold mb-1 leading-tight"
-                  style={{ fontFamily: 'Cormorant Garamond, serif', color: '#F5EDE0' }}>
-                  {cat.name}
-                </h3>
-                {cat.description && (
-                  <p className="text-xs mb-1 leading-snug" style={{ color: '#7A6A58' }}>{cat.description}</p>
-                )}
-                <p className="text-xs mt-2 font-medium" style={{ color: '#D4A34F' }}>
-                  {label} →
-                </p>
+                <div className="p-4">
+                  <h3 className="text-lg font-semibold mb-0.5 leading-tight"
+                    style={{ fontFamily: 'Cormorant Garamond, serif', color: '#F5EDE0' }}>
+                    {cat.name}
+                  </h3>
+                  {cat.description && (
+                    <p className="text-xs mb-1 leading-snug line-clamp-2" style={{ color: '#9B8A72' }}>{cat.description}</p>
+                  )}
+                  <p className="text-xs mt-2 font-medium flex items-center gap-1" style={{ color: '#D4A34F' }}>
+                    {label} <span className="transition-transform group-hover:translate-x-1">→</span>
+                  </p>
+                </div>
               </button>
             );
           })}

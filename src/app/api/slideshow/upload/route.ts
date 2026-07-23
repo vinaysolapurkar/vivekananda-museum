@@ -27,10 +27,12 @@ export async function POST(request: Request) {
     return Response.json({ error: "No file provided" }, { status: 400 });
   }
 
-  // Get max sort order
+  // Order within the target category (falls back to global max when no category).
   const maxResult = await db.execute({
-    sql: "SELECT COALESCE(MAX(sort_order), 0) as max_order FROM slideshow_images",
-    args: [],
+    sql: categoryId
+      ? "SELECT COALESCE(MAX(sort_order), 0) as max_order FROM slideshow_images WHERE category_id = ?"
+      : "SELECT COALESCE(MAX(sort_order), 0) as max_order FROM slideshow_images",
+    args: categoryId ? [Number(categoryId)] : [],
   });
   const nextOrder = sortOrder ? Number(sortOrder) : (Number(maxResult.rows[0].max_order) + 1);
 
@@ -38,10 +40,27 @@ export async function POST(request: Request) {
   const dir = join(process.cwd(), "public", "uploads", "slideshow");
   await mkdir(dir, { recursive: true });
 
-  const fileName = `slide_${Date.now()}.jpg`;
+  const fileName = `slide_${Date.now()}_${Math.round(Math.random() * 1e6)}.jpg`;
   const filePath = join(dir, fileName);
   const buffer = Buffer.from(await file.arrayBuffer());
-  await sharp(buffer).jpeg({ quality: 82 }).toFile(filePath);
+
+  // Accept any raster image (JPEG/PNG/WEBP/GIF/TIFF/AVIF/HEIC…). Normalise to a
+  // web-friendly JPEG: honour EXIF orientation, flatten transparency onto a
+  // neutral background (so PNGs don't turn black), and cap the largest side so
+  // huge phone/camera files stay performant on the kiosk.
+  try {
+    await sharp(buffer, { failOn: "none" })
+      .rotate()
+      .resize({ width: 2560, height: 2560, fit: "inside", withoutEnlargement: true })
+      .flatten({ background: "#0f0806" })
+      .jpeg({ quality: 85, mozjpeg: true })
+      .toFile(filePath);
+  } catch {
+    return Response.json(
+      { error: "Unsupported or corrupt image file. Please upload a JPG, PNG, WEBP, GIF, or TIFF image." },
+      { status: 400 }
+    );
+  }
 
   const imageUrl = `/uploads/slideshow/${fileName}`;
 
@@ -55,7 +74,7 @@ export async function POST(request: Request) {
       nextOrder,
       categoryId ? Number(categoryId) : null,
       durationSeconds ? Number(durationSeconds) : 5,
-      cropBottom !== null ? Number(cropBottom) : 1,
+      cropBottom !== null ? Number(cropBottom) : 0,
     ],
   });
 
