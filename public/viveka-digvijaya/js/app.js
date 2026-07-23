@@ -37,6 +37,8 @@ let playTimer = null;
 let timelineYearStart = 1863;  // range slider — start year
 let timelineYearEnd   = 1902;  // range slider — end year
 let sidebarCollapsed = false;
+let hoveredEntity = null;      // pin currently under the mouse (hover glow)
+let lastFlightDuration = 1.2;  // seconds — duration of the most recent camera flight
 
 // ── Phase-specific quotes ──────────────────────────────────────────────────
 const PHASE_QUOTES = {
@@ -145,6 +147,14 @@ async function init() {
     setupTimeline();
     setupKeyboard();
     document.getElementById('loading-overlay').style.display = 'none';
+
+    // Cinematic entrance — slow approach from deep space toward India
+    viewer.camera.flyTo({
+      destination: Cesium.Cartesian3.fromDegrees(78.0, 22.0, 14000000),
+      duration: 3.6,
+      easingFunction: Cesium.EasingFunction.CUBIC_IN_OUT
+    });
+    setupIdleCinema();
   } catch (err) {
     console.error('Init error:', err);
     document.getElementById('loading-text').textContent = 'Error loading data. Please refresh.';
@@ -246,11 +256,29 @@ function flyToLocationCentered(loc) {
   const dxM    = -(dxPx / canvasW) * spanM;
   const dLng   = dxM / (111320 * Math.cos(Cesium.Math.toRadians(loc.lat)));
 
-  viewer.camera.flyTo({
+  // Cinematic hop — Google-Earth-style: duration scales with distance and the
+  // flight rises over a ballistic arc apex instead of sliding flat.
+  let groundDist = 0;
+  try {
+    const camCarto = viewer.camera.positionCartographic;
+    const geo = new Cesium.EllipsoidGeodesic(
+      new Cesium.Cartographic(camCarto.longitude, camCarto.latitude),
+      Cesium.Cartographic.fromDegrees(loc.lng, loc.lat));
+    groundDist = geo.surfaceDistance;
+  } catch { groundDist = 0; }
+
+  const duration = Math.min(3.2, Math.max(1.1, 0.9 + groundDist / 3.5e6));
+  lastFlightDuration = duration;
+
+  const flight = {
     destination: Cesium.Cartesian3.fromDegrees(loc.lng + dLng, loc.lat, altitude),
-    duration: 1.2,
-    easingFunction: Cesium.EasingFunction.CUBIC_OUT
-  });
+    duration,
+    easingFunction: Cesium.EasingFunction.CUBIC_IN_OUT
+  };
+  if (groundDist > 500000) {
+    flight.maximumHeight = Math.min(9.5e6, Math.max(altitude, currentAlt) + groundDist * 0.25);
+  }
+  viewer.camera.flyTo(flight);
 }
 
 // ── Fly to a set of locations ────────────────────────────────────────────────
@@ -544,6 +572,168 @@ function buildPinCanvas(color, displaySize, headImg, selected) {
   return canvas;
 }
 
+// ── Flowing route material (Google-Earth-style animated journey arcs) ───────
+// A custom polyline material: a faint base line with bright warm pulses of
+// light travelling along the route, so each phase's journey reads as motion.
+let flowMaterialOK = false;
+
+function registerFlowMaterial() {
+  if (flowMaterialOK) return;
+  try {
+    Cesium.Material._materialCache.addMaterial('PolylineFlow', {
+      fabric: {
+        type: 'PolylineFlow',
+        uniforms: {
+          color: new Cesium.Color(1.0, 0.65, 0.15, 1.0),
+          speed: 1.0
+        },
+        source: `
+          czm_material czm_getMaterial(czm_materialInput materialInput) {
+            czm_material material = czm_getDefaultMaterial(materialInput);
+            float t = czm_frameNumber * speed * 0.0026;
+            float g = fract(materialInput.st.s * 4.0 - t);
+            float pulse = smoothstep(0.45, 0.0, g);
+            float across = pow(1.0 - abs(materialInput.st.t - 0.5) * 2.0, 1.2);
+            material.diffuse  = color.rgb * (0.55 + 1.5 * pulse);
+            material.emission = color.rgb * (0.30 + 1.6 * pulse);
+            material.alpha    = color.a * (0.16 + 0.95 * pulse) * across;
+            return material;
+          }`
+      },
+      translucent: function () { return true; }
+    });
+    flowMaterialOK = true;
+  } catch (e) {
+    console.warn('Flow material unavailable, falling back to glow:', e);
+  }
+}
+
+class PolylineFlowMaterialProperty {
+  constructor(color, speed) {
+    this._definitionChanged = new Cesium.Event();
+    this.color = color;
+    this.speed = speed;
+    this._scratch = new Cesium.Color();
+  }
+  get isConstant() { return false; }
+  get definitionChanged() { return this._definitionChanged; }
+  getType() { return 'PolylineFlow'; }
+  getValue(time, result) {
+    result = result || {};
+    // Fade arcs back as the camera descends (full above 2500 km, faint below
+    // 500 km) so close-up exploration isn't cluttered by overhead routes.
+    let fade = 1.0;
+    if (viewer) {
+      const h = viewer.camera.positionCartographic.height;
+      fade = Math.max(0.25, Math.min(1, (h - 500000) / 2000000 + 0.25));
+    }
+    result.color = Cesium.Color.clone(this.color, this._scratch);
+    result.color.alpha = this.color.alpha * fade;
+    result.speed = this.speed;
+    return result;
+  }
+  equals(other) { return this === other; }
+}
+
+// ── Journey arcs ────────────────────────────────────────────────────────────
+// Elevated great-circle arc between two stops. Height scales with distance so
+// short hops hug the ground and ocean crossings soar — like flight-path maps.
+function buildArcPositions(a, b) {
+  const start = Cesium.Cartographic.fromDegrees(a.lng, a.lat);
+  const end   = Cesium.Cartographic.fromDegrees(b.lng, b.lat);
+  const geo   = new Cesium.EllipsoidGeodesic(start, end);
+  const dist  = geo.surfaceDistance;
+  if (!isFinite(dist) || dist < 1500) return null;
+
+  const peak = Math.min(650000, Math.max(35000, dist * 0.16));
+  const n    = Math.max(8, Math.min(48, Math.round(dist / 60000)));
+  const pts  = [];
+  for (let i = 0; i <= n; i++) {
+    const f = i / n;
+    const c = geo.interpolateUsingFraction(f);
+    const h = peak * Math.sin(Math.PI * f);
+    pts.push(Cesium.Cartesian3.fromRadians(c.longitude, c.latitude, h));
+  }
+  return pts;
+}
+
+// One continuous arc polyline per phase, connecting its stops in journey order.
+// Registered into routePolylines so the existing phase filters toggle them.
+function buildRoutes() {
+  registerFlowMaterial();
+  PHASES.forEach(p => {
+    const locs = LOCATIONS.filter(l => l.phase === p.id);
+    if (locs.length < 2) return;
+
+    const positions = [];
+    for (let i = 0; i < locs.length - 1; i++) {
+      const seg = buildArcPositions(locs[i], locs[i + 1]);
+      if (seg) positions.push(...(positions.length ? seg.slice(1) : seg));
+    }
+    if (positions.length < 2) return;
+
+    const color = Cesium.Color.fromCssColorString(p.color || '#C8701A');
+    const material = flowMaterialOK
+      ? new PolylineFlowMaterialProperty(color.withAlpha(0.9), 1.0)
+      : new Cesium.PolylineGlowMaterialProperty({ glowPower: 0.12, color: color.withAlpha(0.4) });
+
+    routePolylines[p.id] = viewer.entities.add({
+      polyline: {
+        positions,
+        width: 3.0,
+        material,
+        arcType: Cesium.ArcType.NONE
+      }
+    });
+  });
+}
+
+// ── Idle cinema (kiosk attract mode) ────────────────────────────────────────
+// After 25s without input the globe begins a slow Google-Earth-style drift;
+// after ~2 minutes it flies home to the full-globe view and keeps drifting.
+// Any touch, click, scroll, or key instantly hands control back.
+const ROTATE_AFTER_MS = 25000;
+const HOME_AFTER_MS   = 115000;
+let lastInteraction = Date.now();
+let autoRotate      = false;
+let attractDone     = false;
+
+function setupIdleCinema() {
+  const bump = () => { lastInteraction = Date.now(); autoRotate = false; attractDone = false; };
+  ['pointerdown', 'wheel', 'keydown', 'touchstart'].forEach(ev =>
+    window.addEventListener(ev, bump, { passive: true }));
+
+  let lastTick = Date.now();
+  viewer.clock.onTick.addEventListener(() => {
+    const now = Date.now();
+    const dt = Math.min(0.1, (now - lastTick) / 1000);
+    lastTick = now;
+    if (isPlaying) return;
+
+    const idle = now - lastInteraction;
+    const panelOpen = document.getElementById('info-panel').classList.contains('open');
+
+    if (idle > HOME_AFTER_MS && !attractDone) {
+      attractDone = true;
+      autoRotate = false;
+      flyHome();
+      setTimeout(() => {
+        if (Date.now() - lastInteraction > HOME_AFTER_MS) autoRotate = true;
+      }, 2800);
+      return;
+    }
+
+    if (!autoRotate && idle > ROTATE_AFTER_MS && !panelOpen) {
+      const h = viewer.camera.positionCartographic.height;
+      if (h > 4000000) autoRotate = true;   // only drift from overview altitudes
+    }
+
+    if (autoRotate && idle > ROTATE_AFTER_MS) {
+      viewer.camera.rotate(Cesium.Cartesian3.UNIT_Z, -0.009 * dt);  // ≈ 0.5°/s
+    }
+  });
+}
+
 // ── Cesium ──────────────────────────────────────────────────────────────────
 async function initCesium() {
   Cesium.Ion.defaultAccessToken = '';
@@ -600,10 +790,10 @@ async function initCesium() {
   // Make the sun disc visible
   viewer.scene.sun.show = true;
 
-  // ── Camera ────────────────────────────────────────────────────────────────
-  viewer.camera.flyTo({
-    destination: Cesium.Cartesian3.fromDegrees(78.0, 22.0, 14000000),
-    duration: 0
+  // ── Camera — parked far out in space; the cinematic entrance flight to
+  // India runs in init() once the loading overlay lifts.
+  viewer.camera.setView({
+    destination: Cesium.Cartesian3.fromDegrees(64.0, 4.0, 30000000)
   });
 
   // ── Add location entities (pulsating dots) ───────────────────────────────
@@ -615,13 +805,14 @@ async function initCesium() {
     const pulseAmp = 5;
     const freq     = 1.6;
     const phaseOff = (locIdx++ * 2.3) % (2 * Math.PI);
+    const hover    = { v: 0 };   // hover glow boost, mutated by MOUSE_MOVE
 
     const entity = viewer.entities.add({
       id: loc.id,
       position: Cesium.Cartesian3.fromDegrees(loc.lng, loc.lat),
       point: {
         pixelSize: new Cesium.CallbackProperty(() => {
-          return baseSize + pulseAmp * Math.sin(Date.now() / 1000 * Math.PI * freq + phaseOff);
+          return baseSize + hover.v + pulseAmp * Math.sin(Date.now() / 1000 * Math.PI * freq + phaseOff);
         }, false),
         color: Cesium.Color.fromCssColorString('#FF9500').withAlpha(1.0),
         outlineColor: Cesium.Color.WHITE,
@@ -632,7 +823,7 @@ async function initCesium() {
       },
       label: {
         text: loc.name,
-        font: '11px "Google Sans", sans-serif',
+        font: '12px Inter, sans-serif',
         fillColor: Cesium.Color.WHITE,
         outlineColor: Cesium.Color.fromCssColorString('#0a0a1a'),
         outlineWidth: 3,
@@ -649,8 +840,12 @@ async function initCesium() {
       _dotPhaseOff: phaseOff
     });
 
+    entity._hover = hover;
     entities[loc.id] = entity;
   });
+
+  // ── Animated journey arcs (one flowing route per phase) ──────────────────
+  buildRoutes();
 
   // ── Interaction ───────────────────────────────────────────────────────────
   const handler = new Cesium.ScreenSpaceEventHandler(viewer.scene.canvas);
@@ -674,6 +869,7 @@ async function initCesium() {
 
   handler.setInputAction(movement => {
     if (isRotating) return;
+    if (isPlaying) stopPlay();   // any manual pick hands control back to the visitor
     const picked = viewer.scene.pick(movement.position);
     if (Cesium.defined(picked) && picked.id && picked.id._locData) {
       showInfoPanel(picked.id._locData);
@@ -697,11 +893,14 @@ async function initCesium() {
       return;
     }
     const picked = viewer.scene.pick(movement.position);
-    if (Cesium.defined(picked) && picked.id && picked.id._locData) {
-      viewer.scene.canvas.style.cursor = 'pointer';
-    } else {
-      viewer.scene.canvas.style.cursor = 'default';
-    }
+    const hoverEnt = (Cesium.defined(picked) && picked.id && picked.id._locData) ? picked.id : null;
+
+    // Hover glow — swell the dot under the cursor
+    if (hoveredEntity && hoveredEntity !== hoverEnt && hoveredEntity._hover) hoveredEntity._hover.v = 0;
+    if (hoverEnt && hoverEnt._hover && hoverEnt !== selectedEntity) hoverEnt._hover.v = 7;
+    hoveredEntity = hoverEnt;
+
+    viewer.scene.canvas.style.cursor = hoverEnt ? 'pointer' : 'default';
   }, Cesium.ScreenSpaceEventType.MOUSE_MOVE);
 
   viewer.scene.canvas.addEventListener('mousedown', e => { if (e.button === 0) window._cesiumLeftDown = true; });
@@ -731,7 +930,8 @@ function deselectPin(entity) {
   const phaseOff = entity._dotPhaseOff || 0;
   const freq = 1.6, pulseAmp = 2.5;
   entity.point.pixelSize = new Cesium.CallbackProperty(() => {
-    return baseSize + pulseAmp * Math.sin(Date.now() / 1000 * Math.PI * freq + phaseOff);
+    const hoverBoost = entity._hover ? entity._hover.v : 0;
+    return baseSize + hoverBoost + pulseAmp * Math.sin(Date.now() / 1000 * Math.PI * freq + phaseOff);
   }, false);
   entity.point.color = Cesium.Color.fromCssColorString('#FF9500').withAlpha(1.0);
   entity.point.outlineColor = Cesium.Color.WHITE;
@@ -928,11 +1128,11 @@ function playStep(idx, filtered) {
   selectPin(selectedEntity);
   showInfoPanel(loc);
 
-  // Fly takes 1.8s, then dwell 3s at the location
+  // Wait for the flight to land, then dwell so visitors can read the panel
   playTimer = setTimeout(() => {
     if (!isPlaying) return;
     playStep(idx + 1, filtered);
-  }, 5000);
+  }, Math.round(lastFlightDuration * 1000) + 3400);
 }
 
 function updatePlayButton() {
