@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef, useCallback } from "react";
 import MuseumIcon from "@/components/MuseumIcon";
+import { useLang } from "@/components/LanguageProvider";
 
 interface Category {
   id: number;
@@ -25,6 +26,8 @@ interface SlideImage {
 }
 
 export default function KioskSlideshowPage() {
+  const { lang, t } = useLang();
+  const kf = lang === "en" ? undefined : "var(--font-kannada)";
   const [categories, setCategories] = useState<Category[]>([]);
   const [selectedGroup, setSelectedGroup] = useState<Category | null>(null);
   const [subCategories, setSubCategories] = useState<Category[]>([]);
@@ -201,7 +204,7 @@ export default function KioskSlideshowPage() {
           }}
           onClick={(e) => { e.stopPropagation(); backToSubCategories(); }}>
           <MuseumIcon name="arrowLeft" size={14} />
-          Back
+          <span style={{ fontFamily: kf }}>{t("common.back")}</span>
         </button>
 
         {/* Category caption */}
@@ -266,8 +269,9 @@ export default function KioskSlideshowPage() {
   // ─── SHARED GRID LAYOUT (categories or sub-categories) ───
   const isSubView = !!selectedGroup;
   const displayItems = isSubView ? subCategories : categories.filter(c => Number(c.image_count) > 0 || Number(c.child_count) > 0);
-  const heading = isSubView ? selectedGroup!.name : "Exhibit Gallery";
-  const subHeading = isSubView ? "Select a lecture to begin" : "A visual journey through Swamiji's life and teachings";
+  const heading = isSubView ? selectedGroup!.name : t("mod.gallery.title");
+  const subHeading = isSubView ? t("gallery.selectLecture") : t("gallery.subHeading");
+  const headingIsIndic = isSubView ? false : lang !== "en";
 
   return (
     <div className="fixed inset-0 overflow-auto kiosk-scroll" style={{ background: 'var(--background)' }}>
@@ -281,17 +285,18 @@ export default function KioskSlideshowPage() {
               onClick={backToGroups}
               className="m-btn m-btn-ghost absolute left-6 top-1/2 -translate-y-1/2 z-20 !min-h-[42px] !px-4 text-xs">
               <MuseumIcon name="arrowLeft" size={14} />
-              All Topics
+              <span style={{ fontFamily: kf }}>{t("gallery.allTopics")}</span>
             </button>
           )}
-          <p className="m-eyebrow mb-2">{isSubView ? "Exhibit Gallery" : "Viveka Smaraka"}</p>
+          <p className="m-eyebrow mb-2" style={{ fontFamily: kf }}>{isSubView ? t("mod.gallery.title") : t("app.title")}</p>
           <h1 className="font-medium leading-tight" style={{
             color: 'var(--ivory)',
             fontSize: isSubView ? 'clamp(1.5rem, 4vw, 2.2rem)' : 'clamp(1.9rem, 5vw, 2.8rem)',
+            fontFamily: headingIsIndic ? 'var(--font-kannada)' : undefined,
           }}>
             {heading}
           </h1>
-          <p className="text-sm mt-1.5" style={{ color: 'var(--ink-muted)' }}>{subHeading}</p>
+          <p className="text-sm mt-1.5" style={{ color: 'var(--ink-muted)', fontFamily: kf }}>{subHeading}</p>
         </div>
       </header>
 
@@ -301,7 +306,7 @@ export default function KioskSlideshowPage() {
           {displayItems.map((cat, idx) => {
             const isGroup = cat.kind ? cat.kind === "group" : Number(cat.child_count) > 0;
             const count = isGroup ? Number(cat.child_count) : Number(cat.image_count);
-            const label = isGroup ? `${count} lectures` : `${count} slides`;
+            const label = isGroup ? `${count} ${t("gallery.lectures")}` : `${count} ${t("gallery.slides")}`;
             const cover = cat.cover || cat.cover_image_url || covers[cat.id] || "";
             const showDesc = cat.description && cat.description.trim() !== cat.name.trim();
             return (
@@ -338,7 +343,7 @@ export default function KioskSlideshowPage() {
                   )}
                   <div className="flex items-center gap-1.5 mt-3 text-xs font-medium" style={{ color: 'var(--gold)' }}>
                     <MuseumIcon name={isGroup ? "scroll" : "gallery"} size={14} />
-                    <span>{label}</span>
+                    <span style={{ fontFamily: kf }}>{label}</span>
                     <MuseumIcon name="arrowRight" size={13} className="ml-auto" style={{ color: 'var(--ink-faint)' }} />
                   </div>
                 </div>
@@ -350,8 +355,8 @@ export default function KioskSlideshowPage() {
         {displayItems.length === 0 && (
           <div className="text-center py-20">
             <MuseumIcon name="gallery" size={48} strokeWidth={1.2} className="mx-auto mb-5" style={{ color: 'var(--ink-faint)' }} />
-            <p className="text-2xl mb-1" style={{ fontFamily: 'var(--font-display)', color: 'var(--ivory)' }}>No exhibits available yet</p>
-            <p className="text-sm" style={{ color: 'var(--ink-muted)' }}>Content is being prepared</p>
+            <p className="text-2xl mb-1" style={{ fontFamily: lang === "en" ? 'var(--font-display)' : 'var(--font-kannada)', color: 'var(--ivory)' }}>{t("gallery.none")}</p>
+            <p className="text-sm" style={{ color: 'var(--ink-muted)', fontFamily: kf }}>{t("gallery.beingPrepared")}</p>
           </div>
         )}
 

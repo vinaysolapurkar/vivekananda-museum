@@ -4,14 +4,8 @@ import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import MuseumIcon from "@/components/MuseumIcon";
 import { useServiceWorker, InstallBanner, OfflineIndicator } from "./pwa";
-
-type Lang = "en" | "kn" | "hi";
-
-const langLabels: Record<Lang, string> = {
-  en: "English",
-  kn: "ಕನ್ನಡ",
-  hi: "हिन्दी",
-};
+import { useLang } from "@/components/LanguageProvider";
+import { LANGS } from "@/lib/i18n";
 
 interface Station {
   number: number;
@@ -26,7 +20,8 @@ interface Station {
 }
 
 export default function GuidePage() {
-  const [lang, setLang] = useState<Lang>("en");
+  const { lang, setLang, t } = useLang();
+  const kf = lang === "en" ? undefined : "var(--font-kannada)";
   const [stations, setStations] = useState<Station[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
@@ -40,11 +35,11 @@ export default function GuidePage() {
       const data = await res.json();
       setStations(data.stations || []);
     } catch {
-      setError("Could not load stations. Please try again.");
+      setError(t("guide.loadError"));
     } finally {
       setLoading(false);
     }
-  }, [lang]);
+  }, [lang, t]);
 
   useEffect(() => { fetchStations(); }, [fetchStations]);
 
@@ -78,32 +73,32 @@ export default function GuidePage() {
         <div className="relative mx-auto w-full max-w-6xl px-6 pt-6 pb-8">
           <Link href="/" className="m-btn m-btn-ghost touch-target mb-6 !px-4 text-sm">
             <MuseumIcon name="arrowLeft" size={17} />
-            <span>Home</span>
+            <span style={{ fontFamily: kf }}>{t("common.home")}</span>
           </Link>
-          <p className="m-eyebrow mb-2">Ramakrishna Ashram &middot; Mysore</p>
+          <p className="m-eyebrow mb-2" style={{ fontFamily: kf }}>{t("app.ashram")}</p>
           <div className="flex items-center gap-3">
-            <h1 className="text-4xl md:text-5xl font-medium" style={{ color: "var(--ivory)" }}>
-              Audio Guide
+            <h1 className="text-4xl md:text-5xl font-medium" style={{ color: "var(--ivory)", fontFamily: kf }}>
+              {t("mod.guide.title")}
             </h1>
           </div>
-          <p className="mt-2 text-sm" style={{ color: "var(--ink-muted)" }}>
-            Guided narration through the gallery, station by station
+          <p className="mt-2 text-sm" style={{ color: "var(--ink-muted)", fontFamily: kf }}>
+            {t("guide.narrationSub")}
           </p>
         </div>
       </header>
 
       {/* Language picker */}
       <div className="relative z-10 mx-auto w-full max-w-6xl px-6 pt-6">
-        <p className="m-eyebrow mb-3">Select Language</p>
+        <p className="m-eyebrow mb-3" style={{ fontFamily: kf }}>{t("guide.selectLanguage")}</p>
         <div className="flex gap-2.5">
-          {(Object.keys(langLabels) as Lang[]).map((l) => (
+          {LANGS.map((l) => (
             <button
-              key={l}
-              onClick={() => setLang(l)}
-              className={`m-chip touch-target flex-1 justify-center sm:flex-none sm:min-w-[8.5rem] ${lang === l ? "m-chip-active" : ""}`}
-              style={l !== "en" ? { fontFamily: "var(--font-kannada)" } : undefined}
+              key={l.code}
+              onClick={() => setLang(l.code)}
+              className={`m-chip touch-target flex-1 justify-center sm:flex-none sm:min-w-[8.5rem] ${lang === l.code ? "m-chip-active" : ""}`}
+              style={l.code !== "en" ? { fontFamily: "var(--font-kannada)" } : undefined}
             >
-              {langLabels[l]}
+              {l.label}
             </button>
           ))}
         </div>
@@ -126,8 +121,9 @@ export default function GuidePage() {
                 key={zone}
                 onClick={() => setSelectedZone(zone)}
                 className={`m-chip shrink-0 ${selectedZone === zone ? "m-chip-active" : ""}`}
+                style={zone === "all" ? { fontFamily: kf } : undefined}
               >
-                {zone === "all" ? "All Zones" : zone}
+                {zone === "all" ? t("guide.allZones") : zone}
               </button>
             ))}
           </div>
@@ -139,13 +135,13 @@ export default function GuidePage() {
         {loading ? (
           <div className="flex flex-col items-center justify-center py-24 gap-4">
             <div className="w-12 h-12 rounded-full border-2 border-transparent animate-spin" style={{ borderTopColor: "var(--gold)" }} />
-            <p className="text-sm" style={{ color: "var(--ink-muted)" }}>Loading guide&hellip;</p>
+            <p className="text-sm" style={{ color: "var(--ink-muted)", fontFamily: kf }}>{t("guide.loading")}</p>
           </div>
         ) : error ? (
           <div className="flex flex-col items-center justify-center py-24 gap-5 text-center">
-            <p style={{ color: "var(--ink-muted)" }}>{error}</p>
-            <button onClick={fetchStations} className="m-btn m-btn-ghost touch-target">
-              Try Again
+            <p style={{ color: "var(--ink-muted)", fontFamily: kf }}>{error}</p>
+            <button onClick={fetchStations} className="m-btn m-btn-ghost touch-target" style={{ fontFamily: kf }}>
+              {t("common.retry")}
             </button>
           </div>
         ) : stations.length === 0 ? (
@@ -153,22 +149,22 @@ export default function GuidePage() {
             <div className="w-20 h-20 rounded-full overflow-hidden mb-2" style={{ border: "1px solid var(--hairline-strong)" }}>
               <img src="/images/vivekananda-portrait.jpg" alt="" className="w-full h-full object-cover" style={{ opacity: 0.5, filter: "sepia(0.3)" }} />
             </div>
-            <h2 className="text-2xl font-medium" style={{ color: "var(--ivory)" }}>No Stations Yet</h2>
-            <p className="text-sm" style={{ color: "var(--ink-muted)" }}>
-              The audio guide content is being prepared. Please check back soon.
+            <h2 className="text-2xl font-medium" style={{ color: "var(--ivory)", fontFamily: kf }}>{t("guide.noStationsTitle")}</h2>
+            <p className="text-sm" style={{ color: "var(--ink-muted)", fontFamily: kf }}>
+              {t("guide.noStationsBody")}
             </p>
-            <Link href="/" className="m-btn m-btn-ghost touch-target mt-3">
+            <Link href="/" className="m-btn m-btn-ghost touch-target mt-3" style={{ fontFamily: kf }}>
               <MuseumIcon name="arrowLeft" size={17} />
-              Return Home
+              {t("common.returnHome")}
             </Link>
           </div>
         ) : (
           <>
             <div className="flex items-baseline justify-between mb-5">
-              <p className="m-eyebrow" style={{ color: "var(--ink-muted)" }}>
-                {filtered.length} Station{filtered.length !== 1 ? "s" : ""}
+              <p className="m-eyebrow" style={{ color: "var(--ink-muted)", fontFamily: kf }}>
+                {filtered.length} {filtered.length !== 1 ? t("guide.stations") : t("guide.station")}
               </p>
-              <p className="text-xs" style={{ color: "var(--ink-faint)" }}>Tap a station to listen</p>
+              <p className="text-xs" style={{ color: "var(--ink-faint)", fontFamily: kf }}>{t("guide.tapToListen")}</p>
             </div>
 
             <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
@@ -206,7 +202,7 @@ export default function GuidePage() {
                   >
                     {lang === "kn" && station.title_kn ? station.title_kn :
                      lang === "hi" && station.title_hi ? station.title_hi :
-                     station.title || `Station ${station.number}`}
+                     station.title || `${t("guide.station")} ${station.number}`}
                   </span>
                   <span
                     className="mt-2 inline-flex items-center justify-center w-7 h-7 rounded-full transition-all"

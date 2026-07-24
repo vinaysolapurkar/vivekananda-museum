@@ -16,6 +16,7 @@ function GearIcon({ size = 18 }: { size?: number }) {
 
 const navItems = [
   { href: "/admin", label: "Dashboard", icon: "temple" },
+  { href: "/admin/analytics", label: "Analytics", icon: "award" },
   { href: "/admin/slideshow", label: "Slideshow", icon: "gallery" },
   { href: "/admin/stations", label: "Audio Stations", icon: "headphones" },
   { href: "/admin/knowledge", label: "Chat Knowledge", icon: "lotus" },

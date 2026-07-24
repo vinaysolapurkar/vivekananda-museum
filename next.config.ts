@@ -1,6 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // Surface subtle bugs (double-invoked effects) during dev; no-op in prod.
+  reactStrictMode: true,
+  // Don't advertise the framework on an internet-facing kiosk.
+  poweredByHeader: false,
   async headers() {
     return [
       {

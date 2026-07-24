@@ -11,7 +11,13 @@ export function localizedField<T extends Record<string, unknown>>(
   field: string,
   lang: Lang
 ): unknown {
-  return row[`${field}_${lang}`] ?? row[`${field}_en`];
+  const val = row[`${field}_${lang}`];
+  // Fall back to English when the localized column is missing OR empty
+  // (translations are stored as "" / "[]" rather than NULL for untranslated rows).
+  if (val !== null && val !== undefined && val !== "" && val !== "[]") {
+    return val;
+  }
+  return row[`${field}_en`];
 }
 
 export function serviceHeaders(name: string, version: string) {

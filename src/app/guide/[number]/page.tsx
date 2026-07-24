@@ -6,6 +6,8 @@ import { use } from "react";
 import Link from "next/link";
 import MuseumIcon from "@/components/MuseumIcon";
 import { useServiceWorker, useCacheAudio, OfflineIndicator, OfflineReadyBadge } from "../pwa";
+import { useLang } from "@/components/LanguageProvider";
+import type { Lang } from "@/lib/i18n";
 
 interface Station {
   number: number;
@@ -26,7 +28,17 @@ export default function StationPage({
 }) {
   const { number } = use(params);
   const searchParams = useSearchParams();
-  const lang = searchParams.get("lang") || "en";
+  const { lang: ctxLang, setLang, t } = useLang();
+  const urlLang = searchParams.get("lang");
+  const lang: Lang = (urlLang === "kn" || urlLang === "hi" || urlLang === "en") ? urlLang : ctxLang;
+  const kf = lang === "en" ? undefined : "var(--font-kannada)";
+
+  // Keep global language in sync with the station URL param
+  useEffect(() => {
+    if ((urlLang === "kn" || urlLang === "hi" || urlLang === "en") && urlLang !== ctxLang) {
+      setLang(urlLang);
+    }
+  }, [urlLang, ctxLang, setLang]);
 
   const [station, setStation] = useState<Station | null>(null);
   const [loading, setLoading] = useState(true);
@@ -49,7 +61,7 @@ export default function StationPage({
         if (data.error) setError(data.error);
         else setStation(data.station);
       })
-      .catch(() => setError("Failed to load station"))
+      .catch(() => setError(t("guide.stationNotExist")))
       .finally(() => setLoading(false));
   }, [number, lang]);
 
@@ -103,7 +115,7 @@ export default function StationPage({
     return (
       <div className="min-h-screen flex flex-col items-center justify-center" style={{ background: "var(--background)" }}>
         <div className="w-12 h-12 rounded-full border-2 border-transparent animate-spin mb-4" style={{ borderTopColor: "var(--gold)" }} />
-        <p className="text-sm" style={{ color: "var(--ink-muted)" }}>Loading station&hellip;</p>
+        <p className="text-sm" style={{ color: "var(--ink-muted)", fontFamily: kf }}>{t("guide.loadingStation")}</p>
       </div>
     );
   }
@@ -111,13 +123,13 @@ export default function StationPage({
   if (error || !station) {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center p-6 text-center" style={{ background: "var(--background)" }}>
-        <h2 className="text-2xl font-medium mb-2" style={{ color: "var(--ivory)" }}>
-          Station Not Found
+        <h2 className="text-2xl font-medium mb-2" style={{ color: "var(--ivory)", fontFamily: kf }}>
+          {t("guide.stationNotFound")}
         </h2>
-        <p className="mb-7 text-sm" style={{ color: "var(--ink-muted)" }}>{error || "This station does not exist."}</p>
-        <Link href="/guide" className="m-btn m-btn-ghost touch-target">
+        <p className="mb-7 text-sm" style={{ color: "var(--ink-muted)", fontFamily: kf }}>{error || t("guide.stationNotExist")}</p>
+        <Link href="/guide" className="m-btn m-btn-ghost touch-target" style={{ fontFamily: kf }}>
           <MuseumIcon name="arrowLeft" size={17} />
-          Back to Guide
+          {t("guide.backToGuide")}
         </Link>
       </div>
     );
@@ -155,11 +167,11 @@ export default function StationPage({
         <div className="relative mx-auto w-full max-w-3xl px-6 pt-6 pb-8">
           <Link href="/guide" className="m-btn m-btn-ghost touch-target mb-6 !px-4 text-sm">
             <MuseumIcon name="arrowLeft" size={17} />
-            <span>All Stations</span>
+            <span style={{ fontFamily: kf }}>{t("guide.allStations")}</span>
           </Link>
 
-          <p className="m-eyebrow mb-3">
-            {station.gallery_zone || "Main Hall"} &middot; Station {station.number}
+          <p className="m-eyebrow mb-3" style={{ fontFamily: kf }}>
+            {station.gallery_zone || t("guide.mainHall")} &middot; {t("guide.station")} {station.number}
           </p>
           <div className="flex items-start gap-5">
             <div
@@ -208,8 +220,8 @@ export default function StationPage({
               <MuseumIcon name="headphones" size={19} />
             </span>
             <div className="min-w-0">
-              <p className="text-[10px] font-semibold uppercase whitespace-nowrap" style={{ letterSpacing: "0.16em", color: "var(--ink-faint)" }}>Audio Guide</p>
-              <p className="text-sm font-medium" style={{ color: "var(--ivory)" }}>Station {station.number} of 50</p>
+              <p className="text-[10px] font-semibold uppercase whitespace-nowrap" style={{ letterSpacing: "0.16em", color: "var(--ink-faint)", fontFamily: kf }}>{t("mod.guide.title")}</p>
+              <p className="text-sm font-medium" style={{ color: "var(--ivory)", fontFamily: kf }}>{t("guide.station")} {station.number} / 50</p>
             </div>
           </div>
           <div className="m-card p-4 flex items-center gap-3.5">
@@ -217,8 +229,8 @@ export default function StationPage({
               <MuseumIcon name="temple" size={19} />
             </span>
             <div className="min-w-0">
-              <p className="text-[10px] font-semibold uppercase whitespace-nowrap" style={{ letterSpacing: "0.16em", color: "var(--ink-faint)" }}>Gallery</p>
-              <p className="text-sm font-medium" style={{ color: "var(--ivory)" }}>{station.gallery_zone || "Main Hall"}</p>
+              <p className="text-[10px] font-semibold uppercase whitespace-nowrap" style={{ letterSpacing: "0.16em", color: "var(--ink-faint)", fontFamily: kf }}>{t("guide.galleryLabel")}</p>
+              <p className="text-sm font-medium" style={{ color: "var(--ivory)", fontFamily: kf }}>{station.gallery_zone || t("guide.mainHall")}</p>
             </div>
           </div>
         </div>
@@ -289,7 +301,7 @@ export default function StationPage({
                   {prevNumber ? (
                     <Link
                       href={`/guide/${prevNumber}?lang=${lang}`}
-                      aria-label="Previous station"
+                      aria-label={t("guide.prevStation")}
                       className="m-btn m-btn-ghost touch-target !px-0 !min-w-[48px] rounded-full"
                     >
                       <MuseumIcon name="arrowLeft" size={18} />
@@ -336,7 +348,7 @@ export default function StationPage({
 
                   <Link
                     href={`/guide/${nextNumber}?lang=${lang}`}
-                    aria-label="Next station"
+                    aria-label={t("guide.nextStation")}
                     className="m-btn m-btn-ghost touch-target !px-0 !min-w-[48px] rounded-full"
                   >
                     <MuseumIcon name="arrowRight" size={18} />
@@ -344,19 +356,19 @@ export default function StationPage({
                 </div>
 
                 {!started && (
-                  <p className="text-center text-xs mt-3.5" style={{ color: "var(--ink-faint)" }}>
-                    Press play to begin the narration
+                  <p className="text-center text-xs mt-3.5" style={{ color: "var(--ink-faint)", fontFamily: kf }}>
+                    {t("guide.pressPlay")}
                   </p>
                 )}
               </>
             ) : (
               <div className="text-center py-1">
-                <p className="m-eyebrow mb-4">Spoken Narration</p>
+                <p className="m-eyebrow mb-4" style={{ fontFamily: kf }}>{t("guide.spokenNarration")}</p>
                 <div className="flex items-center justify-center gap-4">
                   {prevNumber ? (
                     <Link
                       href={`/guide/${prevNumber}?lang=${lang}`}
-                      aria-label="Previous station"
+                      aria-label={t("guide.prevStation")}
                       className="m-btn m-btn-ghost touch-target !px-0 !min-w-[48px] rounded-full"
                     >
                       <MuseumIcon name="arrowLeft" size={18} />
@@ -402,14 +414,14 @@ export default function StationPage({
 
                   <Link
                     href={`/guide/${nextNumber}?lang=${lang}`}
-                    aria-label="Next station"
+                    aria-label={t("guide.nextStation")}
                     className="m-btn m-btn-ghost touch-target !px-0 !min-w-[48px] rounded-full"
                   >
                     <MuseumIcon name="arrowRight" size={18} />
                   </Link>
                 </div>
-                <p className="text-xs mt-3.5" style={{ color: "var(--ink-faint)" }}>
-                  {playing ? "Listening…" : "Tap to hear the description"}
+                <p className="text-xs mt-3.5" style={{ color: "var(--ink-faint)", fontFamily: kf }}>
+                  {playing ? t("common.listening") : t("guide.tapToHear")}
                 </p>
               </div>
             )}

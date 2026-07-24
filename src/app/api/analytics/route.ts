@@ -83,11 +83,31 @@ export async function GET(request: Request) {
 
   // Slide views
   const slideViews = await db.execute({
-    sql: `SELECT item_id, item_name, COUNT(*) as views 
+    sql: `SELECT item_id, item_name, COUNT(*) as views
           FROM analytics_events WHERE module = 'slideshow' AND event_type = 'slide_view' AND created_at > ${dateFilter}
           GROUP BY item_id ORDER BY views DESC LIMIT 20`,
     args: [],
   });
+
+  // Accurate roll-up counts (arrays above are LIMIT-capped; these are not)
+  const summaryRow = await db.execute({
+    sql: `SELECT
+            (SELECT COUNT(*) FROM analytics_events WHERE created_at > ${dateFilter}) as total_events,
+            (SELECT COUNT(*) FROM attempts WHERE attempted_at > ${dateFilter}) as quiz_attempts,
+            (SELECT COUNT(*) FROM attempts WHERE attempted_at > ${dateFilter} AND passed = 1) as quiz_passed,
+            (SELECT COUNT(*) FROM chat_messages WHERE role = 'user' AND created_at > ${dateFilter}) as chat_questions`,
+    args: [],
+  });
+
+  // Busiest hour of day (0-23) across the period
+  const busiestHours = await db.execute({
+    sql: `SELECT CAST(strftime('%H', created_at) AS INTEGER) as hour, COUNT(*) as count
+          FROM analytics_events WHERE created_at > ${dateFilter}
+          GROUP BY hour ORDER BY count DESC`,
+    args: [],
+  });
+
+  const s = summaryRow.rows[0] || {};
 
   return Response.json({
     period,
@@ -98,5 +118,12 @@ export async function GET(request: Request) {
     quizScores: quizScores.rows,
     categoryViews: categoryViews.rows,
     slideViews: slideViews.rows,
+    summary: {
+      totalEvents: Number(s.total_events || 0),
+      quizAttempts: Number(s.quiz_attempts || 0),
+      quizPassed: Number(s.quiz_passed || 0),
+      chatQuestions: Number(s.chat_questions || 0),
+    },
+    busiestHours: busiestHours.rows,
   });
 }

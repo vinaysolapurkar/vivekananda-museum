@@ -26,6 +26,12 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
     }
   }, []);
 
+  // Keep the <html lang> attribute in sync so CSS (e.g. Indic letter-spacing
+  // overrides) and screen readers see the active language.
+  useEffect(() => {
+    document.documentElement.lang = lang;
+  }, [lang]);
+
   const setLang = useCallback((l: Lang) => {
     setLangState(l);
     try {

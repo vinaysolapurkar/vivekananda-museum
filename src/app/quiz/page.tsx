@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import MuseumIcon from "@/components/MuseumIcon";
+import { useLang } from "@/components/LanguageProvider";
 
 interface Quiz {
   id: number;
@@ -14,6 +15,8 @@ interface Quiz {
 }
 
 export default function QuizListPage() {
+  const { lang, t } = useLang();
+  const kf = lang === "en" ? undefined : "var(--font-kannada)";
   const [quizzes, setQuizzes] = useState<Quiz[]>([]);
   const [loading, setLoading] = useState(true);
 
@@ -52,7 +55,7 @@ export default function QuizListPage() {
           style={{ minHeight: 44, fontSize: "0.85rem" }}
         >
           <MuseumIcon name="arrowLeft" size={16} />
-          Home
+          <span style={{ fontFamily: kf }}>{t("common.home")}</span>
         </Link>
       </header>
 
@@ -73,19 +76,18 @@ export default function QuizListPage() {
             <MuseumIcon name="scroll" size={34} strokeWidth={1.4} />
           </div>
 
-          <p className="m-eyebrow mb-3">Test Your Understanding</p>
+          <p className="m-eyebrow mb-3" style={{ fontFamily: kf }}>{t("quiz.testUnderstanding")}</p>
           <h1
             className="text-5xl sm:text-6xl font-semibold mb-4"
-            style={{ color: "var(--ivory)" }}
+            style={{ color: "var(--ivory)", fontFamily: kf }}
           >
-            Knowledge Quiz
+            {t("quiz.title")}
           </h1>
           <p
             className="text-base sm:text-lg max-w-md mx-auto leading-relaxed"
-            style={{ color: "var(--ink-muted)" }}
+            style={{ color: "var(--ink-muted)", fontFamily: kf }}
           >
-            How well do you know the life and teachings of Swami Vivekananda?
-            Take the quiz and earn a certificate.
+            {t("quiz.introBlurb")}
           </p>
 
           <div className="m-divider my-9">
@@ -106,18 +108,18 @@ export default function QuizListPage() {
             <p
               className="text-2xl mb-2"
               style={{
-                fontFamily: '"Cormorant Garamond", serif',
+                fontFamily: lang === "en" ? '"Cormorant Garamond", serif' : "var(--font-kannada)",
                 color: "var(--ivory)",
               }}
             >
-              No quizzes available yet
+              {t("quiz.noQuizzes")}
             </p>
             <Link
               href="/admin/quiz"
               className="text-sm hover:underline"
-              style={{ color: "var(--gold)" }}
+              style={{ color: "var(--gold)", fontFamily: kf }}
             >
-              Create quizzes in Admin
+              {t("quiz.createInAdmin")}
             </Link>
           </div>
         ) : (
@@ -156,7 +158,7 @@ export default function QuizListPage() {
                         size={17}
                         style={{ color: "var(--gold)" }}
                       />
-                      {q.time_limit_minutes} minutes
+                      <span style={{ fontFamily: kf }}>{q.time_limit_minutes} {t("quiz.minutes")}</span>
                     </span>
                     <span className="inline-flex items-center gap-2">
                       <MuseumIcon
@@ -164,23 +166,23 @@ export default function QuizListPage() {
                         size={17}
                         style={{ color: "var(--gold)" }}
                       />
-                      Earn a certificate
+                      <span style={{ fontFamily: kf }}>{t("quiz.earnCertificate")}</span>
                     </span>
                     <span
                       className="m-chip"
-                      style={{ minHeight: 32, padding: "0 0.9rem", cursor: "inherit" }}
+                      style={{ minHeight: 32, padding: "0 0.9rem", cursor: "inherit", fontFamily: kf }}
                     >
                       <MuseumIcon name="check" size={14} />
-                      {q.passing_score}% to pass
+                      {q.passing_score}% {t("quiz.toPass")}
                     </span>
                   </div>
 
                   <span
                     className="m-btn m-btn-primary w-full sm:w-auto sm:min-w-[260px]"
-                    style={{ minHeight: 56, fontSize: "1.05rem" }}
+                    style={{ minHeight: 56, fontSize: "1.05rem", fontFamily: kf }}
                   >
                     <MuseumIcon name="play" size={18} />
-                    Start quiz
+                    {t("quiz.startQuiz")}
                   </span>
                 </div>
               </Link>
@@ -191,9 +193,8 @@ export default function QuizListPage() {
               className="text-center pt-4 animate-fade-in-up"
               style={{ animationDelay: "0.3s" }}
             >
-              <p className="text-xs" style={{ color: "var(--ink-faint)" }}>
-                Answer at your own pace — you can review each question before
-                submitting.
+              <p className="text-xs" style={{ color: "var(--ink-faint)", fontFamily: kf }}>
+                {t("quiz.reassurance")}
               </p>
             </div>
           </div>

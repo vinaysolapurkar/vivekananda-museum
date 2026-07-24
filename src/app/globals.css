@@ -259,6 +259,14 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--ink-faint);
 }
 
+/* Indic scripts: wide Latin letter-spacing shatters conjunct glyphs, and
+   uppercase is a no-op. Tighten tracking app-wide when the language is set. */
+html[lang="kn"] .m-eyebrow,
+html[lang="hi"] .m-eyebrow {
+  letter-spacing: 0.04em;
+  text-transform: none;
+}
+
 /* Ornamental divider: — ✦ — */
 .m-divider {
   display: flex;

@@ -2,8 +2,9 @@
 
 import { useState, useRef, useEffect, useCallback } from "react";
 import MuseumIcon from "@/components/MuseumIcon";
+import { useLang } from "@/components/LanguageProvider";
+import { LANGS } from "@/lib/i18n";
 
-type Lang = "en" | "kn" | "hi";
 type Phase = "intro" | "chat";
 
 interface Message {
@@ -16,6 +17,9 @@ const IDLE_TIMEOUT = 180000; // 3 minutes
 const IDLE_CHECK_INTERVAL = 10000; // check every 10s
 
 export default function ChatPage() {
+  const { lang, setLang, t } = useLang();
+  const kf = lang === "en" ? undefined : "var(--font-kannada)";
+
   // Intro state
   const [phase, setPhase] = useState<Phase>("intro");
   const [visitorName, setVisitorName] = useState("");
@@ -24,7 +28,6 @@ export default function ChatPage() {
   // Chat state
   const [messages, setMessages] = useState<Message[]>([]);
   const [input, setInput] = useState("");
-  const [lang, setLang] = useState<Lang>("en");
   const [sessionId, setSessionId] = useState("");
   const [sending, setSending] = useState(false);
   const [listening, setListening] = useState(false);
@@ -81,11 +84,11 @@ export default function ChatPage() {
     if (!visitorName.trim()) return;
     setPhase("chat");
     lastActivityRef.current = Date.now();
-    const ageNote = visitorAge ? ` I see you are ${visitorAge} years old.` : "";
+    const ageNote = visitorAge ? ` ${t("chat.iSee")} ${visitorAge} ${t("chat.yearsOld")}` : "";
     setMessages([
       {
         role: "assistant",
-        text: `Namaste, ${visitorName.trim()}!${ageNote} I am Swami Vivekananda. Ask me anything about my life, teachings, philosophy, or spiritual path. I am here to guide you.`,
+        text: `${t("chat.namaste")}, ${visitorName.trim()}!${ageNote} ${t("chat.greetingBody")}`,
       },
     ]);
   };
@@ -118,14 +121,14 @@ export default function ChatPage() {
         ...prev,
         {
           role: "assistant",
-          text: data.answer || "The wisdom of the masters teaches us that truth is one — it appears differently to different minds. Please rephrase your question and I shall try again.",
+          text: data.answer || t("chat.fallbackAnswer"),
           sources: data.sources,
         },
       ]);
     } catch {
       setMessages((prev) => [
         ...prev,
-        { role: "assistant", text: "A disturbance in the cosmic energy. Please try again in a moment." },
+        { role: "assistant", text: t("chat.errorCosmic") },
       ]);
     } finally {
       setSending(false);
@@ -147,7 +150,7 @@ export default function ChatPage() {
         : null;
 
     if (!SpeechRecognition) {
-      const utterance = new SpeechSynthesisUtterance("Speech recognition is not available. Please type your question.");
+      const utterance = new SpeechSynthesisUtterance(t("chat.speechUnavailable"));
       utterance.lang = lang === "kn" ? "kn-IN" : lang === "hi" ? "hi-IN" : "en-US";
       window.speechSynthesis.speak(utterance);
       return;
@@ -201,15 +204,15 @@ export default function ChatPage() {
             <img src="/images/vivekananda-portrait.jpg" alt="Swami Vivekananda" className="w-full h-full object-cover" style={{ filter: 'sepia(0.1)' }} />
           </div>
 
-          <p className="m-eyebrow mb-3">Viveka Smaraka</p>
+          <p className="m-eyebrow mb-3" style={{ fontFamily: kf }}>{t("app.title")}</p>
           <h1
             className="text-5xl font-medium mb-3"
-            style={{ color: 'var(--ivory)', textShadow: '0 2px 12px rgba(0,0,0,0.3)' }}
+            style={{ color: 'var(--ivory)', textShadow: '0 2px 12px rgba(0,0,0,0.3)', fontFamily: kf }}
           >
-            Speak with Swamiji
+            {t("mod.chat.title")}
           </h1>
-          <p className="text-base mb-10" style={{ color: 'var(--ink-muted)' }}>
-            Ask anything about his life, teachings, and wisdom
+          <p className="text-base mb-10" style={{ color: 'var(--ink-muted)', fontFamily: kf }}>
+            {t("chat.introSub")}
           </p>
 
           <div className="space-y-4">
@@ -217,12 +220,13 @@ export default function ChatPage() {
               type="text"
               value={visitorName}
               onChange={(e) => setVisitorName(e.target.value)}
-              placeholder="Your name"
+              placeholder={t("common.yourName")}
               className="w-full px-6 py-4 rounded-2xl text-center text-base focus:outline-none transition-all duration-300"
               style={{
                 background: 'var(--card-bg)',
                 border: '1px solid var(--hairline)',
                 color: 'var(--ivory)',
+                fontFamily: kf,
               }}
               onFocus={(e) => { (e.target as HTMLElement).style.borderColor = 'var(--hairline-strong)'; }}
               onBlur={(e) => { (e.target as HTMLElement).style.borderColor = 'var(--hairline)'; }}
@@ -232,12 +236,13 @@ export default function ChatPage() {
               type="number"
               value={visitorAge}
               onChange={(e) => setVisitorAge(e.target.value)}
-              placeholder="Your age (optional)"
+              placeholder={t("common.agePlaceholder")}
               className="w-full px-6 py-4 rounded-2xl text-center text-base focus:outline-none transition-all duration-300"
               style={{
                 background: 'var(--card-bg)',
                 border: '1px solid var(--hairline)',
                 color: 'var(--ivory)',
+                fontFamily: kf,
               }}
               onFocus={(e) => { (e.target as HTMLElement).style.borderColor = 'var(--hairline-strong)'; }}
               onBlur={(e) => { (e.target as HTMLElement).style.borderColor = 'var(--hairline)'; }}
@@ -247,9 +252,10 @@ export default function ChatPage() {
               onClick={startChat}
               disabled={!visitorName.trim()}
               className="m-btn m-btn-primary w-full !min-h-[54px] text-base disabled:opacity-30 disabled:pointer-events-none"
+              style={{ fontFamily: kf }}
             >
               <MuseumIcon name="lotus" size={18} />
-              Begin Conversation
+              {t("chat.beginConversation")}
             </button>
           </div>
 
@@ -294,24 +300,25 @@ export default function ChatPage() {
             <img src="/images/vivekananda-portrait.jpg" alt="Swami Vivekananda" className="w-full h-full object-cover" style={{ filter: 'sepia(0.15)' }} />
           </div>
           <div className="min-w-0">
-            <h1 className="text-lg sm:text-xl font-semibold leading-tight whitespace-nowrap" style={{ color: 'var(--ivory)' }}>
-              Speak with Swamiji
+            <h1 className="text-lg sm:text-xl font-semibold leading-tight whitespace-nowrap" style={{ color: 'var(--ivory)', fontFamily: kf }}>
+              {t("mod.chat.title")}
             </h1>
-            <p className="text-[11px] truncate" style={{ color: 'var(--ink-muted)' }}>
-              Talking with {visitorName}{visitorAge ? `, age ${visitorAge}` : ""}
+            <p className="text-[11px] truncate" style={{ color: 'var(--ink-muted)', fontFamily: kf }}>
+              {t("chat.talkingWith")} {visitorName}{visitorAge ? `, ${t("chat.age")} ${visitorAge}` : ""}
             </p>
           </div>
         </div>
 
         <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
           {/* Language selector */}
-          {(["en", "kn", "hi"] as Lang[]).map((l) => (
+          {LANGS.map((l) => (
             <button
-              key={l}
-              onClick={(e) => { e.stopPropagation(); resetActivity(); setLang(l); }}
-              className={`m-chip !min-h-[36px] !px-3 text-xs ${lang === l ? "m-chip-active" : ""}`}
+              key={l.code}
+              onClick={(e) => { e.stopPropagation(); resetActivity(); setLang(l.code); }}
+              className={`m-chip !min-h-[36px] !px-3 text-xs ${lang === l.code ? "m-chip-active" : ""}`}
+              style={l.code === "en" ? undefined : { fontFamily: "var(--font-kannada)" }}
             >
-              {l === "en" ? "EN" : l === "kn" ? "ಕನ" : "हि"}
+              {l.short}
             </button>
           ))}
 
@@ -319,9 +326,10 @@ export default function ChatPage() {
           <button
             onClick={(e) => { e.stopPropagation(); resetConversation(); }}
             className="m-btn m-btn-ghost ml-1 !min-h-[36px] !px-4 text-xs"
-            title="New conversation"
+            title={t("chat.newConversation")}
+            style={{ fontFamily: kf }}
           >
-            Reset
+            {t("chat.reset")}
           </button>
         </div>
       </header>
@@ -360,14 +368,14 @@ export default function ChatPage() {
               )}
               <p
                 className="text-sm leading-relaxed"
-                style={{ color: 'var(--ivory)', lineHeight: '1.7' }}
+                style={{ color: 'var(--ivory)', lineHeight: '1.7', fontFamily: kf }}
               >
                 {msg.text}
               </p>
               {msg.sources && msg.sources.length > 0 && (
                 <div className="mt-3 pt-2" style={{ borderTop: '1px solid var(--hairline)' }}>
-                  <p className="text-[10px]" style={{ color: 'var(--ink-faint)' }}>
-                    Sources: {msg.sources.slice(0, 2).map((s: any) => typeof s === 'string' ? s : s.title || s.name || JSON.stringify(s)).join(", ")}
+                  <p className="text-[10px]" style={{ color: 'var(--ink-faint)', fontFamily: kf }}>
+                    {t("chat.sources")}: {msg.sources.slice(0, 2).map((s: any) => typeof s === 'string' ? s : s.title || s.name || JSON.stringify(s)).join(", ")}
                   </p>
                 </div>
               )}
@@ -412,7 +420,7 @@ export default function ChatPage() {
         >
           <button
             onClick={(e) => { e.stopPropagation(); toggleVoice(); }}
-            aria-label="Speak your question"
+            aria-label={t("chat.speakAria")}
             className="w-12 h-12 rounded-full flex items-center justify-center shrink-0 transition-all duration-300 active:scale-95"
             style={{
               background: listening ? 'rgba(224,123,46,0.18)' : 'var(--card-bg)',
@@ -443,13 +451,14 @@ export default function ChatPage() {
                 }
               }}
               onBlur={() => { isTypingRef.current = false; }}
-              placeholder="Ask Swamiji a question..."
+              placeholder={t("chat.inputPlaceholder")}
               rows={1}
               className="w-full px-4 py-3 rounded-xl resize-none focus:outline-none text-sm"
               style={{
                 background: 'var(--card-bg)',
                 color: 'var(--ivory)',
                 border: '1px solid var(--hairline)',
+                fontFamily: kf,
               }}
               onFocus={() => { resetActivity(); isTypingRef.current = input.length > 0; }}
             />
@@ -458,17 +467,17 @@ export default function ChatPage() {
           <button
             onClick={(e) => { e.stopPropagation(); isTypingRef.current = false; sendMessage(input); }}
             disabled={!input.trim() || sending}
-            aria-label="Send"
+            aria-label={t("chat.send")}
             className="m-btn m-btn-primary !min-h-[48px] !px-0 w-12 shrink-0 !rounded-full disabled:opacity-30 disabled:pointer-events-none"
           >
             <MuseumIcon name="arrowRight" size={18} strokeWidth={2} />
           </button>
         </div>
 
-        <div className="flex items-center justify-center gap-3 mt-2 text-[10px] tracking-[0.08em]" style={{ color: 'var(--ink-faint)' }}>
-          <span>Speak or Type</span>
+        <div className="flex items-center justify-center gap-3 mt-2 text-[10px] tracking-[0.08em]" style={{ color: 'var(--ink-faint)', fontFamily: kf }}>
+          <span>{t("chat.speakOrType")}</span>
           <span style={{ color: 'var(--hairline-strong)' }}>&middot;</span>
-          <span>Auto-resets after 3 min idle</span>
+          <span>{t("chat.autoReset")}</span>
         </div>
       </div>
     </div>

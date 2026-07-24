@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { use } from "react";
 import MuseumIcon from "@/components/MuseumIcon";
+import { useLang } from "@/components/LanguageProvider";
 
 interface Question {
   id: number;
@@ -32,6 +33,8 @@ export default function QuizPage({
   params: Promise<{ id: string }>;
 }) {
   const { id } = use(params);
+  const { lang, t } = useLang();
+  const kf = lang === "en" ? undefined : "var(--font-kannada)";
   const [phase, setPhase] = useState<"intro" | "quiz" | "result">("intro");
   const [quiz, setQuiz] = useState<QuizInfo | null>(null);
   const [questions, setQuestions] = useState<Question[]>([]);
@@ -46,7 +49,7 @@ export default function QuizPage({
 
   // Fetch quiz info on mount (without age filter, just for intro display)
   useEffect(() => {
-    fetch(`/api/quiz/${id}/questions?lang=en`)
+    fetch(`/api/quiz/${id}/questions?lang=${lang}`)
       .then((r) => r.json())
       .then((data) => {
         setQuiz(data.quiz);
@@ -55,12 +58,12 @@ export default function QuizPage({
       })
       .catch(() => {})
       .finally(() => setLoading(false));
-  }, [id]);
+  }, [id, lang]);
 
   // Re-fetch with age filter when quiz starts
   const fetchQuestionsForAge = (visitorAge: string) => {
     const ageParam = visitorAge ? `&age=${visitorAge}` : "";
-    fetch(`/api/quiz/${id}/questions?lang=en${ageParam}`)
+    fetch(`/api/quiz/${id}/questions?lang=${lang}${ageParam}`)
       .then((r) => r.json())
       .then((data) => {
         setQuestions(data.questions || []);
@@ -168,24 +171,23 @@ export default function QuizPage({
             />
           </div>
 
-          <p className="m-eyebrow mb-3">Knowledge Quiz</p>
+          <p className="m-eyebrow mb-3" style={{ fontFamily: kf }}>{t("quiz.title")}</p>
           <h1
             className="text-4xl sm:text-5xl font-semibold mb-3"
-            style={{ color: "var(--ivory)" }}
+            style={{ color: "var(--ivory)", fontFamily: kf }}
           >
-            {quiz?.title || "Knowledge Quiz"}
+            {quiz?.title || t("quiz.title")}
           </h1>
-          <p className="text-base mb-8" style={{ color: "var(--ink-muted)" }}>
-            Test your understanding of Swami Vivekananda&apos;s life and
-            teachings.
+          <p className="text-base mb-8" style={{ color: "var(--ink-muted)", fontFamily: kf }}>
+            {t("quiz.introSubtitle")}
           </p>
 
           {quiz && (
             <div className="m-card flex justify-center divide-x mb-9" style={{ borderColor: "var(--hairline)" }}>
               {[
-                { icon: "scroll", value: String(questions.length), label: "Questions" },
-                { icon: "clock", value: String(quiz.time_limit_minutes), label: "Minutes" },
-                { icon: "award", value: `${quiz.passing_score}%`, label: "To Pass" },
+                { icon: "scroll", value: String(questions.length), label: t("quiz.questions") },
+                { icon: "clock", value: String(quiz.time_limit_minutes), label: t("quiz.minutes") },
+                { icon: "award", value: `${quiz.passing_score}%`, label: t("quiz.toPass") },
               ].map((s) => (
                 <div
                   key={s.label}
@@ -204,7 +206,7 @@ export default function QuizPage({
                   </div>
                   <div
                     className="text-[11px] uppercase tracking-[0.18em] mt-1.5"
-                    style={{ color: "var(--ink-faint)" }}
+                    style={{ color: "var(--ink-faint)", fontFamily: kf, letterSpacing: lang === "en" ? undefined : "0.04em" }}
                   >
                     {s.label}
                   </div>
@@ -218,9 +220,9 @@ export default function QuizPage({
               type="text"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              placeholder="Enter your name for the certificate"
+              placeholder={t("quiz.enterName")}
               className="w-full px-6 py-4 text-center text-base focus:outline-none transition-all duration-300"
-              style={inputStyle}
+              style={{ ...inputStyle, fontFamily: kf }}
               onFocus={(e) => { (e.target as HTMLElement).style.borderColor = "var(--hairline-strong)"; }}
               onBlur={(e) => { (e.target as HTMLElement).style.borderColor = "var(--hairline)"; }}
               onKeyDown={(e) => e.key === "Enter" && startQuiz()}
@@ -229,9 +231,9 @@ export default function QuizPage({
               type="number"
               value={age}
               onChange={(e) => setAge(e.target.value)}
-              placeholder="Your age (optional)"
+              placeholder={t("common.agePlaceholder")}
               className="w-full px-6 py-4 text-center text-base focus:outline-none transition-all duration-300"
-              style={inputStyle}
+              style={{ ...inputStyle, fontFamily: kf }}
               onFocus={(e) => { (e.target as HTMLElement).style.borderColor = "var(--hairline-strong)"; }}
               onBlur={(e) => { (e.target as HTMLElement).style.borderColor = "var(--hairline)"; }}
               onKeyDown={(e) => e.key === "Enter" && startQuiz()}
@@ -240,15 +242,15 @@ export default function QuizPage({
               onClick={startQuiz}
               disabled={!name.trim() || questions.length === 0}
               className="m-btn m-btn-primary w-full disabled:opacity-30 disabled:pointer-events-none"
-              style={{ minHeight: 56, fontSize: "1.05rem" }}
+              style={{ minHeight: 56, fontSize: "1.05rem", fontFamily: kf }}
             >
               <MuseumIcon name="play" size={18} />
-              Begin the quiz
+              {t("quiz.begin")}
             </button>
           </div>
 
-          <p className="text-[11px] mt-6" style={{ color: "var(--ink-faint)" }}>
-            Answer at your own pace — revisit any question before submitting
+          <p className="text-[11px] mt-6" style={{ color: "var(--ink-faint)", fontFamily: kf }}>
+            {t("quiz.reassurance")}
           </p>
         </div>
       </div>
@@ -287,20 +289,20 @@ export default function QuizPage({
             <MuseumIcon name="award" size={38} strokeWidth={1.4} />
           </div>
 
-          <p className="m-eyebrow mb-3">
-            {result.passed ? "Certificate Earned" : "Quiz Complete"}
+          <p className="m-eyebrow mb-3" style={{ fontFamily: kf }}>
+            {result.passed ? t("quiz.certificateEarned") : t("quiz.quizComplete")}
           </p>
           <h1
             className="text-4xl sm:text-5xl font-semibold mb-3"
-            style={{ color: "var(--ivory)" }}
+            style={{ color: "var(--ivory)", fontFamily: kf }}
           >
-            {result.passed ? "Congratulations!" : "Good Effort!"}
+            {result.passed ? t("quiz.congrats") : t("quiz.goodEffort")}
           </h1>
 
-          <p className="mb-8 text-sm sm:text-base" style={{ color: "var(--ink-muted)" }}>
+          <p className="mb-8 text-sm sm:text-base" style={{ color: "var(--ink-muted)", fontFamily: kf }}>
             {result.passed
-              ? `${name}, you have demonstrated your knowledge of Swami Vivekananda's teachings.`
-              : `Keep learning about Swami Vivekananda's wisdom. Try again!`}
+              ? `${name}, ${t("quiz.passedMsg")}`
+              : t("quiz.failMsg")}
           </p>
 
           {/* Score */}
@@ -345,7 +347,7 @@ export default function QuizPage({
           {/* Answer review */}
           {result.review && result.review.length > 0 && (
             <div className="m-card p-6 mb-6 text-left">
-              <p className="m-eyebrow mb-4">Answer Review</p>
+              <p className="m-eyebrow mb-4" style={{ fontFamily: kf }}>{t("quiz.answerReview")}</p>
               <div>
                 {result.review.map((r, i) => {
                   const q = questions.find((qq) => qq.id === r.question_id);
@@ -382,19 +384,19 @@ export default function QuizPage({
                       <div className="flex-1 min-w-0">
                         <p
                           className="text-sm font-medium mb-1"
-                          style={{ color: "var(--ivory)" }}
+                          style={{ color: "var(--ivory)", fontFamily: kf }}
                         >
                           {q.question}
                         </p>
                         {!r.correct && (
-                          <p className="text-xs leading-relaxed" style={{ color: "var(--ink-faint)" }}>
-                            Your answer:{" "}
+                          <p className="text-xs leading-relaxed" style={{ color: "var(--ink-faint)", fontFamily: kf }}>
+                            {t("quiz.yourAnswer")}{" "}
                             <span style={{ color: "#C97B6E" }}>
                               {r.selected_index >= 0
                                 ? q.options[r.selected_index]
-                                : "Not answered"}
+                                : t("quiz.notAnswered")}
                             </span>
-                            {" · "}Correct:{" "}
+                            {" · "}{t("quiz.correctLabel")}{" "}
                             <span style={{ color: "var(--gold)" }}>
                               {q.options[r.correct_index]}
                             </span>
@@ -426,10 +428,10 @@ export default function QuizPage({
               <a
                 href={`/api/quiz/certificates/${result.attempt_id}`}
                 className="m-btn m-btn-primary w-full"
-                style={{ minHeight: 56, fontSize: "1.05rem" }}
+                style={{ minHeight: 56, fontSize: "1.05rem", fontFamily: kf }}
               >
                 <MuseumIcon name="award" size={18} />
-                Download certificate
+                {t("quiz.downloadCertificate")}
               </a>
             </div>
           )}
@@ -444,19 +446,19 @@ export default function QuizPage({
                 setPhase("quiz");
               }}
               className="m-btn m-btn-primary w-full"
-              style={{ minHeight: 56, fontSize: "1.05rem" }}
+              style={{ minHeight: 56, fontSize: "1.05rem", fontFamily: kf }}
             >
-              Try again
+              {t("common.retry")}
             </button>
           )}
 
           <button
             onClick={() => window.location.href = '/'}
             className="m-btn m-btn-ghost mt-5"
-            style={{ minHeight: 46, fontSize: "0.85rem" }}
+            style={{ minHeight: 46, fontSize: "0.85rem", fontFamily: kf }}
           >
             <MuseumIcon name="arrowLeft" size={16} />
-            Return to Home
+            {t("common.returnHome")}
           </button>
         </div>
       </div>
@@ -488,11 +490,11 @@ export default function QuizPage({
       {/* Header */}
       <header className="shrink-0 px-6 sm:px-8 py-4 flex items-center justify-between relative z-10">
         <div>
-          <p className="m-eyebrow" style={{ fontSize: "0.6rem" }}>
-            {quiz?.title || "Knowledge Quiz"}
+          <p className="m-eyebrow" style={{ fontSize: "0.6rem", fontFamily: kf }}>
+            {quiz?.title || t("quiz.title")}
           </p>
-          <p className="text-sm mt-0.5" style={{ color: "var(--ink-muted)" }}>
-            Question {currentQ + 1} of {questions.length}
+          <p className="text-sm mt-0.5" style={{ color: "var(--ink-muted)", fontFamily: kf }}>
+            {t("quiz.question")} {currentQ + 1} / {questions.length}
           </p>
         </div>
 
@@ -508,8 +510,8 @@ export default function QuizPage({
           {formatTimer(timeLeft)}
         </div>
 
-        <div className="text-sm hidden sm:block" style={{ color: "var(--ink-faint)" }}>
-          {answeredCount} answered
+        <div className="text-sm hidden sm:block" style={{ color: "var(--ink-faint)", fontFamily: kf }}>
+          {answeredCount} {t("quiz.answered")}
         </div>
       </header>
 
@@ -566,7 +568,7 @@ export default function QuizPage({
         <div className="max-w-3xl mx-auto">
           <h2
             className="text-3xl sm:text-4xl font-semibold mb-7"
-            style={{ color: "var(--ivory)", lineHeight: 1.35 }}
+            style={{ color: "var(--ivory)", lineHeight: 1.35, fontFamily: kf }}
           >
             {q?.question}
           </h2>
@@ -594,6 +596,7 @@ export default function QuizPage({
                     borderColor: selected ? "var(--gold)" : undefined,
                     color: selected ? "var(--ivory)" : "var(--ink-muted)",
                     fontWeight: 500,
+                    fontFamily: kf,
                   }}
                 >
                   <span
@@ -629,19 +632,19 @@ export default function QuizPage({
             onClick={() => setCurrentQ(Math.max(0, currentQ - 1))}
             disabled={currentQ === 0}
             className="m-btn m-btn-ghost disabled:opacity-25 disabled:pointer-events-none"
-            style={{ minHeight: 54 }}
+            style={{ minHeight: 54, fontFamily: kf }}
           >
             <MuseumIcon name="arrowLeft" size={17} />
-            Previous
+            {t("quiz.previous")}
           </button>
 
           {currentQ < questions.length - 1 ? (
             <button
               onClick={() => setCurrentQ(currentQ + 1)}
               className="m-btn m-btn-primary flex-1"
-              style={{ minHeight: 54, fontSize: "1rem" }}
+              style={{ minHeight: 54, fontSize: "1rem", fontFamily: kf }}
             >
-              Next
+              {t("quiz.next")}
               <MuseumIcon name="arrowRight" size={17} />
             </button>
           ) : (
@@ -649,12 +652,12 @@ export default function QuizPage({
               onClick={submitQuiz}
               disabled={submitting || answeredCount < questions.length}
               className="m-btn m-btn-primary flex-1 disabled:opacity-30 disabled:pointer-events-none"
-              style={{ minHeight: 54, fontSize: "1rem" }}
+              style={{ minHeight: 54, fontSize: "1rem", fontFamily: kf }}
             >
               <MuseumIcon name="check" size={17} />
               {submitting
-                ? "Submitting..."
-                : `Submit quiz (${answeredCount}/${questions.length})`}
+                ? t("quiz.submitting")
+                : `${t("quiz.submit")} (${answeredCount}/${questions.length})`}
             </button>
           )}
         </div>
