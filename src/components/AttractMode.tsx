@@ -42,11 +42,19 @@ export default function AttractMode() {
   // Never run the screensaver inside the admin area or on the map iframes.
   const enabled = !pathname.startsWith("/admin");
 
-  const resetIdle = useCallback(() => {
-    if (active) setActive(false);
+  // (Re)start the idle countdown. Stable identity — does NOT read `active`, so
+  // turning the screensaver ON never re-runs the idle effect (which would
+  // otherwise immediately dismiss it).
+  const scheduleIdle = useCallback(() => {
     if (timer.current) clearTimeout(timer.current);
-    if (enabled) timer.current = setTimeout(() => setActive(true), IDLE_MS);
-  }, [active, enabled]);
+    timer.current = setTimeout(() => setActive(true), IDLE_MS);
+  }, []);
+
+  // Any real interaction dismisses the screensaver and restarts the countdown.
+  const onActivity = useCallback(() => {
+    setActive(false);
+    scheduleIdle();
+  }, [scheduleIdle]);
 
   // Fetch a handful of gallery covers for visual variety (best-effort).
   useEffect(() => {
@@ -67,7 +75,8 @@ export default function AttractMode() {
     };
   }, []);
 
-  // Idle detection
+  // Idle detection. Runs once per `enabled` change (onActivity/scheduleIdle are
+  // stable), so the screensaver stays up once triggered until a real interaction.
   useEffect(() => {
     if (!enabled) {
       if (timer.current) clearTimeout(timer.current);
@@ -75,13 +84,13 @@ export default function AttractMode() {
       return;
     }
     const events = ["pointerdown", "pointermove", "keydown", "wheel", "touchstart"];
-    events.forEach((e) => window.addEventListener(e, resetIdle, { passive: true }));
-    resetIdle();
+    events.forEach((e) => window.addEventListener(e, onActivity, { passive: true }));
+    scheduleIdle();
     return () => {
-      events.forEach((e) => window.removeEventListener(e, resetIdle));
+      events.forEach((e) => window.removeEventListener(e, onActivity));
       if (timer.current) clearTimeout(timer.current);
     };
-  }, [enabled, resetIdle]);
+  }, [enabled, onActivity, scheduleIdle]);
 
   // Advance slides while active
   useEffect(() => {
@@ -98,7 +107,7 @@ export default function AttractMode() {
 
   return (
     <div
-      onClick={resetIdle}
+      onClick={onActivity}
       className="fixed inset-0 z-[9999] overflow-hidden cursor-pointer"
       style={{ background: "var(--background)", animation: "attractFade 1s ease" }}
       role="button"
