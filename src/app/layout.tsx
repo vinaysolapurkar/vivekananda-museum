@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import AppShell from "@/components/AppShell";
 
 export const metadata: Metadata = {
   title: "Viveka Smaraka Museum",
@@ -24,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-full antialiased">
       <body className="min-h-full flex flex-col" style={{ background: 'var(--background)', color: 'var(--foreground)', fontFamily: '"DM Sans", system-ui, sans-serif' }}>
-        {children}
+        <AppShell>{children}</AppShell>
       </body>
     </html>
   );

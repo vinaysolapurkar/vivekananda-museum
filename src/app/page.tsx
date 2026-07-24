@@ -1,65 +1,42 @@
+"use client";
+
 import Link from "next/link";
 import MuseumIcon from "@/components/MuseumIcon";
 import QuoteRotator from "@/components/QuoteRotator";
+import LanguageSwitcher from "@/components/LanguageSwitcher";
+import { useLang } from "@/components/LanguageProvider";
+import type { StringKey } from "@/lib/i18n";
 
-const modules: { href: string; title: string; subtitle: string; icon: string; accent: string; target?: string }[] = [
-  {
-    href: "/guide",
-    title: "Audio Guide",
-    subtitle: "Guided narration through the gallery",
-    icon: "headphones",
-    accent: "#D4A34F",
-  },
-  {
-    href: "/kiosk/slideshow",
-    title: "Exhibit Gallery",
-    subtitle: "Visual journey through Swamiji's life",
-    icon: "gallery",
-    accent: "#C8963E",
-  },
-  {
-    href: "https://madhuraank-sv-ai.hf.space",
-    title: "Speak with Swamiji",
-    subtitle: "AI-guided wisdom from his teachings",
-    icon: "lotus",
-    accent: "#7A9E7D",
-    target: "_blank",
-  },
-  {
-    href: "/quiz",
-    title: "Knowledge Quiz",
-    subtitle: "Test your understanding, earn a certificate",
-    icon: "scroll",
-    accent: "#E07B2E",
-  },
-  {
-    href: "/map",
-    title: "World Travels",
-    subtitle: "433 places across five continents, 1863–1902",
-    icon: "globe",
-    accent: "#C8A882",
-  },
-  {
-    href: "/centres",
-    title: "RKM Centres",
-    subtitle: "323 centres of Ramakrishna Math & Mission worldwide",
-    icon: "temple",
-    accent: "#4A90D9",
-  },
+const modules: {
+  href: string;
+  titleKey: StringKey;
+  subKey: StringKey;
+  icon: string;
+  accent: string;
+  target?: string;
+}[] = [
+  { href: "/guide", titleKey: "mod.guide.title", subKey: "mod.guide.sub", icon: "headphones", accent: "#D4A34F" },
+  { href: "/kiosk/slideshow", titleKey: "mod.gallery.title", subKey: "mod.gallery.sub", icon: "gallery", accent: "#C8963E" },
+  { href: "/timeline", titleKey: "mod.timeline.title", subKey: "mod.timeline.sub", icon: "clock", accent: "#B9895C" },
+  { href: "https://madhuraank-sv-ai.hf.space", titleKey: "mod.chat.title", subKey: "mod.chat.sub", icon: "lotus", accent: "#7A9E7D", target: "_blank" },
+  { href: "/quiz", titleKey: "mod.quiz.title", subKey: "mod.quiz.sub", icon: "scroll", accent: "#E07B2E" },
+  { href: "/map", titleKey: "mod.map.title", subKey: "mod.map.sub", icon: "globe", accent: "#C8A882" },
+  { href: "/centres", titleKey: "mod.centres.title", subKey: "mod.centres.sub", icon: "temple", accent: "#4A90D9" },
 ];
 
 export default function Home() {
+  const { t, lang } = useLang();
+  // Indic scripts need their font and shouldn't get wide Latin letter-spacing.
+  const fontFor = (): React.CSSProperties =>
+    lang === "en" ? {} : { fontFamily: "var(--font-kannada)", letterSpacing: "0.02em" };
+
   return (
-    <div className="min-h-screen flex flex-col" style={{ background: "var(--background)" }}>
+    <div className="min-h-screen flex flex-col page-enter" style={{ background: "var(--background)" }}>
       {/* Hero */}
-      <header
-        className="relative overflow-hidden"
-        style={{ background: "var(--bg-hero)" }}
-      >
-        {/* Diya glow — signature warm lamp light */}
+      <header className="relative overflow-hidden" style={{ background: "var(--bg-hero)" }}>
         <div className="absolute inset-0 pointer-events-none" style={{ background: "var(--diya-glow)" }} />
 
-        {/* Portrait — intentional duotone panel on the right */}
+        {/* Portrait — duotone panel on the right */}
         <div
           className="absolute top-0 right-0 bottom-0 hidden md:block pointer-events-none"
           style={{
@@ -74,29 +51,32 @@ export default function Home() {
             WebkitMaskImage: "linear-gradient(to right, transparent 0%, rgba(0,0,0,0.85) 35%, black 60%)",
           }}
         />
-        {/* Bottom fade so the portrait melts into the page */}
         <div
           className="absolute inset-x-0 bottom-0 h-24 pointer-events-none"
           style={{ background: "linear-gradient(to top, var(--background), transparent)" }}
         />
 
-        <div className="relative px-6 md:px-14 pt-10 pb-12 md:pt-12 md:pb-14 max-w-6xl">
-          <div className="flex items-center gap-4 mb-6">
-            <img
-              src="/images/logo.png"
-              alt="Ramakrishna Math"
-              className="w-16 h-16 object-contain"
-              style={{ filter: "drop-shadow(0 2px 8px rgba(0,0,0,0.3))" }}
-            />
-            <p className="m-eyebrow" style={{ color: "#9B8A72" }}>
-              Ramakrishna Ashram · Mysore
-            </p>
+        <div className="relative px-6 md:px-14 pt-6 pb-12 md:pt-8 md:pb-14 max-w-6xl">
+          {/* Top row: brand + language */}
+          <div className="flex items-center justify-between gap-4 mb-6">
+            <div className="flex items-center gap-4">
+              <img
+                src="/images/logo.png"
+                alt="Ramakrishna Math"
+                className="w-16 h-16 object-contain"
+                style={{ filter: "drop-shadow(0 2px 8px rgba(0,0,0,0.3))" }}
+              />
+              <p className="m-eyebrow" style={{ color: "#9B8A72", ...fontFor() }}>
+                {t("app.ashram")}
+              </p>
+            </div>
+            <LanguageSwitcher size="sm" className="relative z-20" />
           </div>
 
           <h1
             className="text-5xl md:text-6xl mb-4 animate-fade-in-up"
             style={{
-              fontFamily: "Cormorant Garamond, serif",
+              fontFamily: lang === "en" ? "Cormorant Garamond, serif" : "var(--font-kannada)",
               color: "var(--ivory)",
               fontWeight: 300,
               letterSpacing: "0.015em",
@@ -104,14 +84,14 @@ export default function Home() {
               textShadow: "0 2px 24px rgba(0,0,0,0.45)",
             }}
           >
-            Viveka Smaraka
+            {t("app.title")}
           </h1>
 
           <p
             className="text-lg mb-6 animate-fade-in-up"
-            style={{ color: "#C8A882", animationDelay: "120ms", maxWidth: "28rem" }}
+            style={{ color: "#C8A882", animationDelay: "120ms", maxWidth: "30rem", ...fontFor() }}
           >
-            Experience the life and teachings of Swami Vivekananda
+            {t("app.subtitle")}
           </p>
 
           <div className="animate-fade-in-up" style={{ animationDelay: "240ms", maxWidth: "34rem" }}>
@@ -124,9 +104,9 @@ export default function Home() {
       </header>
 
       {/* Modules */}
-      <main className="flex-1 px-6 md:px-14 py-10 w-full max-w-7xl mx-auto">
+      <main className="flex-1 px-6 md:px-14 py-8 w-full max-w-7xl mx-auto">
         <div className="flex items-center gap-4 mb-6">
-          <p className="m-eyebrow">Begin your journey</p>
+          <p className="m-eyebrow" style={fontFor()}>{t("common.beginJourney")}</p>
           <div className="flex-1 h-px" style={{ background: "var(--hairline)" }} />
         </div>
 
@@ -140,7 +120,7 @@ export default function Home() {
               style={{ animationDelay: `${i * 70}ms` }}
             >
               <div
-                className="w-13 h-13 md:w-14 md:h-14 rounded-2xl flex items-center justify-center shrink-0 transition-transform duration-300 group-hover:scale-110"
+                className="rounded-2xl flex items-center justify-center shrink-0 transition-transform duration-300 group-hover:scale-110"
                 style={{
                   width: 54,
                   height: 54,
@@ -154,12 +134,16 @@ export default function Home() {
               <div className="flex-1 min-w-0">
                 <h2
                   className="text-xl md:text-2xl leading-tight"
-                  style={{ fontFamily: "Cormorant Garamond, serif", color: "var(--ivory)", fontWeight: 600 }}
+                  style={{
+                    fontFamily: lang === "en" ? "Cormorant Garamond, serif" : "var(--font-kannada)",
+                    color: "var(--ivory)",
+                    fontWeight: 600,
+                  }}
                 >
-                  {m.title}
+                  {t(m.titleKey)}
                 </h2>
-                <p className="text-[0.82rem] leading-snug mt-0.5" style={{ color: "var(--ink-muted)" }}>
-                  {m.subtitle}
+                <p className="text-[0.82rem] leading-snug mt-0.5" style={{ color: "var(--ink-muted)", ...fontFor() }}>
+                  {t(m.subKey)}
                 </p>
               </div>
               <div
@@ -175,11 +159,9 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="px-6 py-7 text-center">
-        <div className="m-divider mb-4">
-          <span>✦</span>
-        </div>
-        <p className="text-xs" style={{ color: "var(--ink-faint)" }}>
-          Sri Ramakrishna Ashram · Mysore
+        <div className="m-divider mb-4"><span>✦</span></div>
+        <p className="text-xs" style={{ color: "var(--ink-faint)", ...fontFor() }}>
+          {t("app.ashram")}
         </p>
         <Link
           href="/admin"
