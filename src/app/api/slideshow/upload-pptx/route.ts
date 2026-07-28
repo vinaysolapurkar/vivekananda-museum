@@ -85,7 +85,7 @@ export async function POST(request: Request) {
 
     const imageBuffer = await mediaFile.async("nodebuffer");
 
-    // Output as JPEG (quality 82 — good balance of quality vs file size)
+    // Output as JPEG (quality 95 — slides render full-bleed on large kiosk displays)
     const outputName = `slide_${timestamp}_${String(i + 1).padStart(3, "0")}.jpg`;
     const outputPath = join(dir, outputName);
 
@@ -98,11 +98,11 @@ export async function POST(request: Request) {
 
       await sharp(imageBuffer)
         .extract({ left: 0, top: 0, width, height: cropHeight })
-        .jpeg({ quality: 82 })
+        .jpeg({ quality: 95 })
         .toFile(outputPath);
     } else {
       // Just convert to JPEG without cropping
-      await sharp(imageBuffer).jpeg({ quality: 82 }).toFile(outputPath);
+      await sharp(imageBuffer).jpeg({ quality: 95 }).toFile(outputPath);
     }
 
     const imageUrl = `/uploads/slideshow/${outputName}`;

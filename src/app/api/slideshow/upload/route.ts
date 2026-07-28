@@ -47,13 +47,14 @@ export async function POST(request: Request) {
   // Accept any raster image (JPEG/PNG/WEBP/GIF/TIFF/AVIF/HEIC…). Normalise to a
   // web-friendly JPEG: honour EXIF orientation, flatten transparency onto a
   // neutral background (so PNGs don't turn black), and cap the largest side so
-  // huge phone/camera files stay performant on the kiosk.
+  // huge phone/camera files stay performant on the kiosk. Cap and quality are
+  // kept high (4096px / q95) since slides render full-bleed on large kiosk displays.
   try {
     await sharp(buffer, { failOn: "none" })
       .rotate()
-      .resize({ width: 2560, height: 2560, fit: "inside", withoutEnlargement: true })
+      .resize({ width: 4096, height: 4096, fit: "inside", withoutEnlargement: true })
       .flatten({ background: "#0f0806" })
-      .jpeg({ quality: 85, mozjpeg: true })
+      .jpeg({ quality: 95, mozjpeg: true })
       .toFile(filePath);
   } catch {
     return Response.json(
