@@ -188,6 +188,33 @@ export async function initializeDatabase() {
       created_at TEXT NOT NULL DEFAULT (datetime('now'))
     );
 
+    CREATE TABLE IF NOT EXISTS letter_categories (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      name TEXT NOT NULL,
+      description TEXT NOT NULL DEFAULT '',
+      parent_id INTEGER REFERENCES letter_categories(id),
+      kind TEXT NOT NULL DEFAULT 'collection',
+      sort_order INTEGER NOT NULL DEFAULT 0,
+      is_active INTEGER NOT NULL DEFAULT 1,
+      cover_image_url TEXT NOT NULL DEFAULT '',
+      created_at TEXT NOT NULL DEFAULT (datetime('now'))
+    );
+
+    CREATE TABLE IF NOT EXISTS letters (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      category_id INTEGER,
+      title TEXT NOT NULL DEFAULT '',
+      recipient TEXT NOT NULL DEFAULT '',
+      sender TEXT NOT NULL DEFAULT 'Swami Vivekananda',
+      place TEXT NOT NULL DEFAULT '',
+      date_label TEXT NOT NULL DEFAULT '',
+      body TEXT NOT NULL DEFAULT '',
+      sort_order INTEGER NOT NULL DEFAULT 0,
+      is_active INTEGER NOT NULL DEFAULT 1,
+      created_at TEXT NOT NULL DEFAULT (datetime('now')),
+      FOREIGN KEY (category_id) REFERENCES letter_categories(id) ON DELETE CASCADE
+    );
+
     CREATE TABLE IF NOT EXISTS travel_locations (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
       name TEXT NOT NULL,
@@ -205,6 +232,13 @@ export async function initializeDatabase() {
   // Add crop_bottom column if missing (migration for existing DBs)
   try {
     await db.execute({ sql: "ALTER TABLE slideshow_images ADD COLUMN crop_bottom INTEGER NOT NULL DEFAULT 1", args: [] });
+  } catch {
+    // Column already exists — ignore
+  }
+
+  // Add cover_image_url to letter_categories (migration for existing DBs)
+  try {
+    await db.execute({ sql: "ALTER TABLE letter_categories ADD COLUMN cover_image_url TEXT NOT NULL DEFAULT ''", args: [] });
   } catch {
     // Column already exists — ignore
   }

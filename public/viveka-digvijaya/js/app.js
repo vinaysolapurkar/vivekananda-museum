@@ -3,19 +3,6 @@
 
 'use strict';
 
-// ── Map styles ─────────────────────────────────────────────────────────────
-const MAP_STYLES = [
-  { id: 'satellite',  label: 'Satellite',          type: 'arcgis', url: 'https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer' },
-  { id: 'natgeo',     label: 'National Geographic', type: 'arcgis', url: 'https://services.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer' },
-  { id: 'topo',       label: 'Topographic',         type: 'arcgis', url: 'https://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer' },
-  { id: 'relief',     label: 'Shaded Relief',       type: 'arcgis', url: 'https://services.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer' },
-  { id: 'street',     label: 'Street Map',           type: 'arcgis', url: 'https://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer' },
-  { id: 'dark-gray',  label: 'Dark Gray',            type: 'arcgis', url: 'https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer' },
-  { id: 'light-gray', label: 'Light Gray',           type: 'arcgis', url: 'https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer' },
-  { id: 'osm',        label: 'OpenStreetMap',        type: 'osm' },
-];
-let currentMapStyle = 'satellite';
-
 // ── State ─────────────────────────────────────────────────────────────────
 let PHASES = [];
 let LOCATIONS = [];
@@ -563,21 +550,26 @@ async function initCesium() {
     skyAtmosphere: new Cesium.SkyAtmosphere(),
     skyBox: new Cesium.SkyBox({
       sources: {
-        positiveX: 'https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/Assets/Textures/SkyBox/tycho2t3_80_px.jpg',
-        negativeX: 'https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/Assets/Textures/SkyBox/tycho2t3_80_mx.jpg',
-        positiveY: 'https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/Assets/Textures/SkyBox/tycho2t3_80_py.jpg',
-        negativeY: 'https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/Assets/Textures/SkyBox/tycho2t3_80_ny.jpg',
-        positiveZ: 'https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/Assets/Textures/SkyBox/tycho2t3_80_pz.jpg',
-        negativeZ: 'https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/Assets/Textures/SkyBox/tycho2t3_80_mz.jpg'
+        positiveX: '/cesium/Assets/Textures/SkyBox/tycho2t3_80_px.jpg',
+        negativeX: '/cesium/Assets/Textures/SkyBox/tycho2t3_80_mx.jpg',
+        positiveY: '/cesium/Assets/Textures/SkyBox/tycho2t3_80_py.jpg',
+        negativeY: '/cesium/Assets/Textures/SkyBox/tycho2t3_80_ny.jpg',
+        positiveZ: '/cesium/Assets/Textures/SkyBox/tycho2t3_80_pz.jpg',
+        negativeZ: '/cesium/Assets/Textures/SkyBox/tycho2t3_80_mz.jpg'
       }
     })
   });
 
-  // ── Satellite imagery ────────────────────────────────────────────────────
+  // ── Satellite imagery (pre-downloaded locally — no internet required) ──────
   viewer.imageryLayers.removeAll();
-  const sat = await Cesium.ArcGisMapServerImageryProvider.fromUrl(
-    'https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer'
-  );
+  const sat = new Cesium.UrlTemplateImageryProvider({
+    url: 'tiles/satellite/{z}/{y}/{x}.jpg',
+    tilingScheme: new Cesium.WebMercatorTilingScheme(),
+    tileWidth: 256,
+    tileHeight: 256,
+    minimumLevel: 0,
+    maximumLevel: 16
+  });
   const satLayer = viewer.imageryLayers.addImageryProvider(sat);
   // Deeper, richer ocean blue — boost saturation, reduce brightness slightly
   satLayer.saturation = 1.55;
@@ -1278,51 +1270,6 @@ function switchTab(tab) {
   document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
   document.querySelector(`.tab-btn[data-tab="${tab}"]`).classList.add('active');
   document.getElementById(`tab-${tab}`).classList.add('active');
-}
-
-// ── Map style switcher ───────────────────────────────────────────────────────
-function toggleMapStylePanel(e) {
-  e.stopPropagation();
-  document.getElementById('map-style-panel').classList.toggle('open');
-}
-
-document.addEventListener('click', () => {
-  document.getElementById('map-style-panel')?.classList.remove('open');
-});
-
-async function switchMapStyle(styleId) {
-  if (styleId === currentMapStyle) {
-    document.getElementById('map-style-panel').classList.remove('open');
-    return;
-  }
-  const style = MAP_STYLES.find(s => s.id === styleId);
-  if (!style || !viewer) return;
-
-  currentMapStyle = styleId;
-  viewer.imageryLayers.removeAll();
-
-  let provider;
-  if (style.type === 'arcgis') {
-    provider = await Cesium.ArcGisMapServerImageryProvider.fromUrl(style.url);
-  } else {
-    provider = new Cesium.UrlTemplateImageryProvider({
-      url: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-      credit: '© OpenStreetMap contributors',
-      maximumLevel: 19
-    });
-  }
-
-  const layer = viewer.imageryLayers.addImageryProvider(provider);
-  if (styleId === 'satellite') {
-    layer.saturation = 1.55;
-    layer.brightness = 0.82;
-    layer.contrast   = 1.10;
-  }
-
-  document.querySelectorAll('.map-style-opt').forEach(btn => {
-    btn.classList.toggle('active', btn.dataset.style === styleId);
-  });
-  document.getElementById('map-style-panel').classList.remove('open');
 }
 
 // ── Start ────────────────────────────────────────────────────────────────────

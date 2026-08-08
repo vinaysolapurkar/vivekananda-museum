@@ -18,6 +18,7 @@ const navItems = [
   { href: "/admin", label: "Dashboard", icon: "temple" },
   { href: "/admin/analytics", label: "Analytics", icon: "award" },
   { href: "/admin/slideshow", label: "Slideshow", icon: "gallery" },
+  { href: "/admin/letters", label: "Letters", icon: "letter" },
   { href: "/admin/stations", label: "Audio Stations", icon: "headphones" },
   { href: "/admin/knowledge", label: "Chat Knowledge", icon: "lotus" },
   { href: "/admin/quiz", label: "Quiz Manager", icon: "scroll" },

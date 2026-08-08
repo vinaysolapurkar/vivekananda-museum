@@ -12,6 +12,10 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Static assets served as-is — not project source (includes the
+    // self-hosted CesiumJS build, pre-downloaded map tile packs, and the
+    // static viveka-digvijaya/rkm-centres HTML/JS apps).
+    "public/**",
   ]),
 ]);
 

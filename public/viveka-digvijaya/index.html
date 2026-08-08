@@ -6,12 +6,11 @@
   <title>Swami Vivekananda — Travels of a World Teacher</title>
 
   <!-- CesiumJS -->
-  <link rel="stylesheet" href="https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/Widgets/widgets.css" />
-  <script src="https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/Cesium.js"></script>
+  <link rel="stylesheet" href="/cesium/Widgets/widgets.css" />
+  <script src="/cesium/Cesium.js"></script>
 
   <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet" />
+  <link href="/fonts/maps/fonts.css" rel="stylesheet" />
 
   <style>
     /* ─── Reset & Base ──────────────────────────────────── */
@@ -391,39 +390,6 @@
         width: 28px; height: 28px;
       }
     }
-    /* ─── Map Style Panel ───────────────────────────────── */
-    #map-style-btn { position: relative; }
-    #map-style-panel {
-      display: none;
-      position: absolute;
-      top: calc(100% + 8px);
-      right: 0;
-      z-index: 500;
-      background: #211A14;
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 8px;
-      min-width: 210px;
-      box-shadow: 0 16px 48px rgba(0,0,0,0.55);
-    }
-    #map-style-panel.open { display: block; }
-    #map-style-panel .panel-title {
-      font-size: 10px; letter-spacing: 0.1em; color: var(--text-muted);
-      text-transform: uppercase; padding: 4px 8px 8px; border-bottom: 1px solid var(--border);
-      margin-bottom: 6px;
-    }
-    .map-style-opt {
-      display: block; width: 100%; text-align: left;
-      background: transparent; border: 1px solid transparent;
-      color: var(--text-main); padding: 7px 12px; border-radius: 9px;
-      font-family: 'DM Sans', sans-serif;
-      font-size: 12px; cursor: pointer; transition: background var(--transition);
-    }
-    .map-style-opt:hover { background: var(--bg-hover); border-color: var(--border); }
-    .map-style-opt.active {
-      background: rgba(212,163,79,0.14); border-color: var(--border-strong); color: var(--gold);
-    }
-    .map-style-opt .opt-sub { font-size: 10px; color: var(--text-muted); margin-top: 1px; }
   </style>
   <style>
     @keyframes ripple-expand {
@@ -459,7 +425,7 @@
   <!-- Header -->
   <header id="header">
     <img class="header-logo"
-         src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Swami_Vivekananda-1893-09-signed.jpg/220px-Swami_Vivekananda-1893-09-signed.jpg"
+         src="images/vivekananda-header-portrait.jpg"
          alt="Swami Vivekananda" onerror="this.style.display='none'" />
     <div class="header-titles">
       <div class="header-title">Swami Vivekananda — Travels of a World Teacher</div>
@@ -471,36 +437,6 @@
       <div class="stat-item"><span class="stat-num">5</span><span>Phases</span></div>
     </div>
 <button id="reset-btn" class="header-btn" onclick="flyHome()" title="Reset camera to full globe view">⌂ Reset View</button>
-    <div id="map-style-btn" style="position:relative;">
-      <button class="header-btn" onclick="toggleMapStylePanel(event)" title="Switch map style">🗺 Map Style</button>
-      <div id="map-style-panel">
-        <div class="panel-title">Map Style</div>
-        <button class="map-style-opt active" data-style="satellite"  onclick="switchMapStyle('satellite')">
-          Satellite<div class="opt-sub">ArcGIS high-res imagery</div>
-        </button>
-        <button class="map-style-opt" data-style="natgeo"     onclick="switchMapStyle('natgeo')">
-          National Geographic<div class="opt-sub">Warm cartographic style</div>
-        </button>
-        <button class="map-style-opt" data-style="topo"       onclick="switchMapStyle('topo')">
-          Topographic<div class="opt-sub">Terrain & contour detail</div>
-        </button>
-        <button class="map-style-opt" data-style="relief"     onclick="switchMapStyle('relief')">
-          Shaded Relief<div class="opt-sub">Terrain without labels</div>
-        </button>
-        <button class="map-style-opt" data-style="street"     onclick="switchMapStyle('street')">
-          Street Map<div class="opt-sub">Roads & urban detail</div>
-        </button>
-        <button class="map-style-opt" data-style="dark-gray"  onclick="switchMapStyle('dark-gray')">
-          Dark Gray<div class="opt-sub">Minimal dark canvas</div>
-        </button>
-        <button class="map-style-opt" data-style="light-gray" onclick="switchMapStyle('light-gray')">
-          Light Gray<div class="opt-sub">Minimal light canvas</div>
-        </button>
-        <button class="map-style-opt" data-style="osm"        onclick="switchMapStyle('osm')">
-          OpenStreetMap<div class="opt-sub">Community road map</div>
-        </button>
-      </div>
-    </div>
     <a href="/" class="header-btn primary" style="text-decoration:none" title="Return to main menu">← Home</a>
   </header>
 

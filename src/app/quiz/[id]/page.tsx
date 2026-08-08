@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { use } from "react";
+import Link from "next/link";
 import MuseumIcon from "@/components/MuseumIcon";
 import { useLang } from "@/components/LanguageProvider";
 
@@ -154,6 +155,17 @@ export default function QuizPage({
           className="absolute inset-x-0 top-0 h-[60%] pointer-events-none"
           style={{ background: "var(--diya-glow)" }}
         />
+
+        <header className="absolute top-0 left-0 right-0 z-20 px-6 pt-6 flex items-center justify-between">
+          <Link href="/quiz" className="m-btn m-btn-ghost touch-target" style={{ minHeight: 44, fontSize: "0.85rem" }}>
+            <MuseumIcon name="arrowLeft" size={16} />
+            <span style={{ fontFamily: kf }}>{t("common.back")}</span>
+          </Link>
+          <Link href="/" className="m-btn m-btn-ghost touch-target" style={{ minHeight: 44, fontSize: "0.85rem" }}>
+            <MuseumIcon name="temple" size={16} />
+            <span style={{ fontFamily: kf }}>{t("common.home")}</span>
+          </Link>
+        </header>
 
         <div className="text-center w-full max-w-lg relative z-10 animate-fade-in-up py-8">
           {/* Portrait */}
@@ -489,13 +501,25 @@ export default function QuizPage({
     >
       {/* Header */}
       <header className="shrink-0 px-6 sm:px-8 py-4 flex items-center justify-between relative z-10">
-        <div>
-          <p className="m-eyebrow" style={{ fontSize: "0.6rem", fontFamily: kf }}>
-            {quiz?.title || t("quiz.title")}
-          </p>
-          <p className="text-sm mt-0.5" style={{ color: "var(--ink-muted)", fontFamily: kf }}>
-            {t("quiz.question")} {currentQ + 1} / {questions.length}
-          </p>
+        <div className="flex items-center gap-4">
+          <button
+            onClick={() => {
+              if (window.confirm(t("quiz.exitConfirm"))) window.location.href = "/";
+            }}
+            className="m-btn m-btn-ghost touch-target"
+            style={{ minHeight: 40, fontSize: "0.8rem", padding: "0 0.9rem" }}
+            title={t("common.home")}
+          >
+            <MuseumIcon name="temple" size={15} />
+          </button>
+          <div>
+            <p className="m-eyebrow" style={{ fontSize: "0.6rem", fontFamily: kf }}>
+              {quiz?.title || t("quiz.title")}
+            </p>
+            <p className="text-sm mt-0.5" style={{ color: "var(--ink-muted)", fontFamily: kf }}>
+              {t("quiz.question")} {currentQ + 1} / {questions.length}
+            </p>
+          </div>
         </div>
 
         <div

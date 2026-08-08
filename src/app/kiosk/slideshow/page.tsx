@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef, useCallback } from "react";
+import Link from "next/link";
 import MuseumIcon from "@/components/MuseumIcon";
 import { useLang } from "@/components/LanguageProvider";
 
@@ -195,17 +196,29 @@ export default function KioskSlideshowPage() {
             style={{ width: `${progress}%`, background: 'linear-gradient(90deg, var(--saffron), var(--gold))' }} />
         </div>
 
-        {/* Back button */}
-        <button
-          className="absolute top-4 left-4 z-20 inline-flex items-center gap-2 px-4 rounded-full text-xs font-medium transition-all active:scale-95 touch-target"
-          style={{
-            background: 'rgba(13,10,8,0.72)', color: 'var(--gold)',
-            backdropFilter: 'blur(10px)', border: '1px solid var(--hairline)',
-          }}
-          onClick={(e) => { e.stopPropagation(); backToSubCategories(); }}>
-          <MuseumIcon name="arrowLeft" size={14} />
-          <span style={{ fontFamily: kf }}>{t("common.back")}</span>
-        </button>
+        {/* Back / Home buttons */}
+        <div className="absolute top-4 left-4 z-20 flex items-center gap-2">
+          <button
+            className="inline-flex items-center gap-2 px-4 rounded-full text-xs font-medium transition-all active:scale-95 touch-target"
+            style={{
+              background: 'rgba(13,10,8,0.72)', color: 'var(--gold)',
+              backdropFilter: 'blur(10px)', border: '1px solid var(--hairline)',
+            }}
+            onClick={(e) => { e.stopPropagation(); backToSubCategories(); }}>
+            <MuseumIcon name="arrowLeft" size={14} />
+            <span style={{ fontFamily: kf }}>{t("common.back")}</span>
+          </button>
+          <Link href="/"
+            className="inline-flex items-center gap-2 px-4 rounded-full text-xs font-medium transition-all active:scale-95 touch-target"
+            style={{
+              background: 'rgba(13,10,8,0.72)', color: 'var(--gold)',
+              backdropFilter: 'blur(10px)', border: '1px solid var(--hairline)',
+            }}
+            onClick={(e) => e.stopPropagation()}>
+            <MuseumIcon name="temple" size={14} />
+            <span style={{ fontFamily: kf }}>{t("common.home")}</span>
+          </Link>
+        </div>
 
         {/* Category caption */}
         <div className="absolute top-4 right-4 z-20 px-4 py-2 rounded-full flex items-baseline gap-2"
@@ -288,6 +301,11 @@ export default function KioskSlideshowPage() {
               <span style={{ fontFamily: kf }}>{t("gallery.allTopics")}</span>
             </button>
           )}
+          <Link href="/"
+            className="m-btn m-btn-ghost absolute right-6 top-1/2 -translate-y-1/2 z-20 !min-h-[42px] !px-4 text-xs">
+            <MuseumIcon name="temple" size={14} />
+            <span style={{ fontFamily: kf }}>{t("common.home")}</span>
+          </Link>
           <p className="m-eyebrow mb-2" style={{ fontFamily: kf }}>{isSubView ? t("mod.gallery.title") : t("app.title")}</p>
           <h1 className="font-medium leading-tight" style={{
             color: 'var(--ivory)',

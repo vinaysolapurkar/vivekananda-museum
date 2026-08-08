@@ -55,6 +55,12 @@ const PATHS: Record<string, React.ReactNode> = {
       <path d="M12 7v5l3.5 2" />
     </>
   ),
+  letter: (
+    <>
+      <rect x="3" y="5" width="18" height="14" rx="2" />
+      <path d="m4 6.5 8 6 8-6" />
+    </>
+  ),
 };
 
 export type MuseumIconName = keyof typeof PATHS;

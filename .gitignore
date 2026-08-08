@@ -43,3 +43,15 @@ next-env.d.ts
 # SQLite WAL files
 *.db-shm
 *.db-wal
+
+# Offline map tile packs — regenerable via `npm run download-tiles`
+# (see scripts/download-map-tiles.mjs). Excluded so the repo doesn't carry
+# ~1.85GB of re-fetchable ArcGIS tile data.
+/public/viveka-digvijaya/tiles/
+/public/rkm-centres/tiles/
+
+# Station 32 audio upload looks broken (630MB .wav, ~20-30x every other
+# station's size, missing the .mp3 every other station has) — excluded
+# until it's re-recorded/re-processed properly. Every other station's
+# audio under public/uploads/audio/ IS meant to be committed.
+/public/uploads/audio/32/

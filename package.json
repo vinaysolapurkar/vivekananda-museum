@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "predev": "node scripts/check-map-tiles.mjs",
     "dev": "next dev",
+    "prebuild": "node scripts/check-map-tiles.mjs",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "download-tiles": "node scripts/download-map-tiles.mjs"
   },
   "dependencies": {
     "@libsql/client": "^0.17.2",

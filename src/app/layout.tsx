@@ -24,6 +24,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full antialiased">
+      <head>
+        {/* Self-hosted app fonts — a plain <link> so the browser fetches it
+            directly, bypassing the CSS bundler's module resolution (which
+            can't resolve a public/ path the way a raw @import url() in a
+            static HTML file can). */}
+        <link rel="stylesheet" href="/fonts/app/fonts.css" />
+      </head>
       <body className="min-h-full flex flex-col" style={{ background: 'var(--background)', color: 'var(--foreground)', fontFamily: '"DM Sans", system-ui, sans-serif' }}>
         <AppShell>{children}</AppShell>
       </body>

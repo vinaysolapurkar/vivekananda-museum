@@ -20,6 +20,7 @@ const modules: {
   { href: "/timeline", titleKey: "mod.timeline.title", subKey: "mod.timeline.sub", icon: "clock", accent: "#B9895C" },
   { href: "https://madhuraank-sv-ai.hf.space", titleKey: "mod.chat.title", subKey: "mod.chat.sub", icon: "lotus", accent: "#7A9E7D", target: "_blank" },
   { href: "/quiz", titleKey: "mod.quiz.title", subKey: "mod.quiz.sub", icon: "scroll", accent: "#E07B2E" },
+  { href: "/letters", titleKey: "mod.letters.title", subKey: "mod.letters.sub", icon: "letter", accent: "#B98D4A" },
   { href: "/map", titleKey: "mod.map.title", subKey: "mod.map.sub", icon: "globe", accent: "#C8A882" },
   { href: "/centres", titleKey: "mod.centres.title", subKey: "mod.centres.sub", icon: "temple", accent: "#4A90D9" },
 ];

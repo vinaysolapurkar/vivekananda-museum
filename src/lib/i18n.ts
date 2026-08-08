@@ -79,6 +79,12 @@ export const STRINGS = {
     kn: "ವಿಶ್ವದಾದ್ಯಂತ ರಾಮಕೃಷ್ಣ ಮಠ ಮತ್ತು ಮಿಷನ್‌ನ ೩೨೩ ಕೇಂದ್ರಗಳು",
     hi: "विश्वभर में रामकृष्ण मठ एवं मिशन के 323 केंद्र",
   },
+  "mod.letters.title": { en: "Letters", kn: "ಪತ್ರಗಳು", hi: "पत्र" },
+  "mod.letters.sub": {
+    en: "Swamiji's letters, in his own words",
+    kn: "ಸ್ವಾಮೀಜಿಯ ಪತ್ರಗಳು, ಅವರದೇ ಮಾತುಗಳಲ್ಲಿ",
+    hi: "स्वामीजी के पत्र, उन्हीं के शब्दों में",
+  },
 
   // Guide
   "guide.selectLanguage": { en: "Select language", kn: "ಭಾಷೆ ಆಯ್ಕೆಮಾಡಿ", hi: "भाषा चुनें" },
@@ -131,6 +137,24 @@ export const STRINGS = {
   "gallery.allTopics": { en: "All Topics", kn: "ಎಲ್ಲಾ ವಿಷಯಗಳು", hi: "सभी विषय" },
   "gallery.beingPrepared": { en: "Content is being prepared", kn: "ವಿಷಯ ಸಿದ್ಧವಾಗುತ್ತಿದೆ", hi: "सामग्री तैयार की जा रही है" },
 
+  // Letters
+  "letters.subHeading": {
+    en: "Read Swamiji's letters as he wrote them",
+    kn: "ಸ್ವಾಮೀಜಿಯ ಪತ್ರಗಳನ್ನು ಅವರು ಬರೆದಂತೆಯೇ ಓದಿ",
+    hi: "स्वामीजी के पत्र, जैसे उन्होंने लिखे",
+  },
+  "letters.selectHeading": { en: "Select a heading to explore", kn: "ಅನ್ವೇಷಿಸಲು ಶೀರ್ಷಿಕೆ ಆಯ್ಕೆಮಾಡಿ", hi: "अन्वेषण के लिए शीर्षक चुनें" },
+  "letters.selectLetter": { en: "Select a letter to read", kn: "ಓದಲು ಪತ್ರ ಆಯ್ಕೆಮಾಡಿ", hi: "पढ़ने के लिए पत्र चुनें" },
+  "letters.count": { en: "letters", kn: "ಪತ್ರಗಳು", hi: "पत्र" },
+  "letters.headingsCount": { en: "headings", kn: "ಶೀರ್ಷಿಕೆಗಳು", hi: "शीर्षक" },
+  "letters.allHeadings": { en: "All Headings", kn: "ಎಲ್ಲಾ ಶೀರ್ಷಿಕೆಗಳು", hi: "सभी शीर्षक" },
+  "letters.none": { en: "No letters available yet", kn: "ಇನ್ನೂ ಪತ್ರಗಳಿಲ್ಲ", hi: "अभी कोई पत्र उपलब्ध नहीं" },
+  "letters.beingPrepared": { en: "This collection is being prepared", kn: "ಈ ಸಂಗ್ರಹ ಸಿದ್ಧವಾಗುತ್ತಿದೆ", hi: "यह संग्रह तैयार किया जा रहा है" },
+  "letters.to": { en: "To", kn: "ಗೆ", hi: "प्रति" },
+  "letters.from": { en: "From", kn: "ಇವರಿಂದ", hi: "प्रेषक" },
+  "letters.place": { en: "Place", kn: "ಸ್ಥಳ", hi: "स्थान" },
+  "letters.date": { en: "Date", kn: "ದಿನಾಂಕ", hi: "दिनांक" },
+
   // Quiz
   "quiz.title": { en: "Knowledge Quiz", kn: "ಜ್ಞಾನ ರಸಪ್ರಶ್ನೆ", hi: "ज्ञान प्रश्नोत्तरी" },
   "quiz.testUnderstanding": { en: "Test your understanding", kn: "ನಿಮ್ಮ ತಿಳಿವಳಿಕೆ ಪರೀಕ್ಷಿಸಿ", hi: "अपनी समझ परखें" },
@@ -164,6 +188,11 @@ export const STRINGS = {
     hi: "अपनी गति से उत्तर दें — जमा करने से पहले हर प्रश्न की समीक्षा करें।",
   },
   "quiz.question": { en: "Question", kn: "ಪ್ರಶ್ನೆ", hi: "प्रश्न" },
+  "quiz.exitConfirm": {
+    en: "Leave the quiz now? Your progress will be lost.",
+    kn: "ಈಗ ರಸಪ್ರಶ್ನೆಯಿಂದ ನಿರ್ಗಮಿಸುವುದೇ? ನಿಮ್ಮ ಪ್ರಗತಿ ಕಳೆದುಹೋಗುತ್ತದೆ.",
+    hi: "क्या अभी प्रश्नोत्तरी छोड़ें? आपकी प्रगति खो जाएगी।",
+  },
   "quiz.answered": { en: "answered", kn: "ಉತ್ತರಿಸಲಾಗಿದೆ", hi: "उत्तर दिए" },
   "quiz.submitting": { en: "Submitting…", kn: "ಸಲ್ಲಿಸಲಾಗುತ್ತಿದೆ…", hi: "जमा हो रहा है…" },
   "quiz.certificateEarned": { en: "Certificate Earned", kn: "ಪ್ರಮಾಣಪತ್ರ ಗಳಿಸಲಾಗಿದೆ", hi: "प्रमाणपत्र अर्जित" },

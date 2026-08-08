@@ -352,25 +352,35 @@ async function initApp() {
     skyAtmosphere: new Cesium.SkyAtmosphere(),
     skyBox: new Cesium.SkyBox({
       sources: {
-        positiveX: 'https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/Assets/Textures/SkyBox/tycho2t3_80_px.jpg',
-        negativeX: 'https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/Assets/Textures/SkyBox/tycho2t3_80_mx.jpg',
-        positiveY: 'https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/Assets/Textures/SkyBox/tycho2t3_80_py.jpg',
-        negativeY: 'https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/Assets/Textures/SkyBox/tycho2t3_80_ny.jpg',
-        positiveZ: 'https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/Assets/Textures/SkyBox/tycho2t3_80_pz.jpg',
-        negativeZ: 'https://cesium.com/downloads/cesiumjs/releases/1.114/Build/Cesium/Assets/Textures/SkyBox/tycho2t3_80_mz.jpg',
+        positiveX: '/cesium/Assets/Textures/SkyBox/tycho2t3_80_px.jpg',
+        negativeX: '/cesium/Assets/Textures/SkyBox/tycho2t3_80_mx.jpg',
+        positiveY: '/cesium/Assets/Textures/SkyBox/tycho2t3_80_py.jpg',
+        negativeY: '/cesium/Assets/Textures/SkyBox/tycho2t3_80_ny.jpg',
+        positiveZ: '/cesium/Assets/Textures/SkyBox/tycho2t3_80_pz.jpg',
+        negativeZ: '/cesium/Assets/Textures/SkyBox/tycho2t3_80_mz.jpg',
       }
     }),
   });
 
-  // Satellite imagery
+  // Satellite imagery + place labels (pre-downloaded locally — no internet required)
   viewer.imageryLayers.removeAll();
-  const sat = await Cesium.ArcGisMapServerImageryProvider.fromUrl(
-    'https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer'
-  );
+  const sat = new Cesium.UrlTemplateImageryProvider({
+    url: 'tiles/imagery/{z}/{y}/{x}.jpg',
+    tilingScheme: new Cesium.WebMercatorTilingScheme(),
+    tileWidth: 256,
+    tileHeight: 256,
+    minimumLevel: 0,
+    maximumLevel: 16
+  });
   viewer.imageryLayers.addImageryProvider(sat);
-  const labels = await Cesium.ArcGisMapServerImageryProvider.fromUrl(
-    'https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer'
-  );
+  const labels = new Cesium.UrlTemplateImageryProvider({
+    url: 'tiles/labels/{z}/{y}/{x}.png',
+    tilingScheme: new Cesium.WebMercatorTilingScheme(),
+    tileWidth: 256,
+    tileHeight: 256,
+    minimumLevel: 0,
+    maximumLevel: 16
+  });
   const labLayer = viewer.imageryLayers.addImageryProvider(labels);
   labLayer.alpha = 0.7;
 

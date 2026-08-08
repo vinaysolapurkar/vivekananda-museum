@@ -127,10 +127,16 @@ export default function StationPage({
           {t("guide.stationNotFound")}
         </h2>
         <p className="mb-7 text-sm" style={{ color: "var(--ink-muted)", fontFamily: kf }}>{error || t("guide.stationNotExist")}</p>
-        <Link href="/guide" className="m-btn m-btn-ghost touch-target" style={{ fontFamily: kf }}>
-          <MuseumIcon name="arrowLeft" size={17} />
-          {t("guide.backToGuide")}
-        </Link>
+        <div className="flex items-center gap-3">
+          <Link href="/guide" className="m-btn m-btn-ghost touch-target" style={{ fontFamily: kf }}>
+            <MuseumIcon name="arrowLeft" size={17} />
+            {t("guide.backToGuide")}
+          </Link>
+          <Link href="/" className="m-btn m-btn-ghost touch-target" style={{ fontFamily: kf }}>
+            <MuseumIcon name="temple" size={17} />
+            {t("common.home")}
+          </Link>
+        </div>
       </div>
     );
   }
@@ -165,10 +171,16 @@ export default function StationPage({
       <header className="relative overflow-hidden z-10" style={{ background: "var(--bg-hero)", borderBottom: "1px solid var(--hairline)" }}>
         <div className="absolute inset-0 pointer-events-none" style={{ background: "var(--diya-glow)" }} />
         <div className="relative mx-auto w-full max-w-3xl px-6 pt-6 pb-8">
-          <Link href="/guide" className="m-btn m-btn-ghost touch-target mb-6 !px-4 text-sm">
-            <MuseumIcon name="arrowLeft" size={17} />
-            <span style={{ fontFamily: kf }}>{t("guide.allStations")}</span>
-          </Link>
+          <div className="flex items-center gap-3 mb-6">
+            <Link href="/guide" className="m-btn m-btn-ghost touch-target !px-4 text-sm">
+              <MuseumIcon name="arrowLeft" size={17} />
+              <span style={{ fontFamily: kf }}>{t("guide.allStations")}</span>
+            </Link>
+            <Link href="/" className="m-btn m-btn-ghost touch-target !px-4 text-sm">
+              <MuseumIcon name="temple" size={17} />
+              <span style={{ fontFamily: kf }}>{t("common.home")}</span>
+            </Link>
+          </div>
 
           <p className="m-eyebrow mb-3" style={{ fontFamily: kf }}>
             {station.gallery_zone || t("guide.mainHall")} &middot; {t("guide.station")} {station.number}

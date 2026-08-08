@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useRef, useEffect, useCallback } from "react";
+import Link from "next/link";
 import MuseumIcon from "@/components/MuseumIcon";
 import { useLang } from "@/components/LanguageProvider";
 import { LANGS } from "@/lib/i18n";
@@ -195,6 +196,13 @@ export default function ChatPage() {
           filter: 'sepia(0.4) brightness(1.2)',
         }} />
 
+        <header className="absolute top-0 left-0 right-0 z-20 px-6 pt-6 flex items-center justify-end">
+          <Link href="/" className="m-btn m-btn-ghost touch-target" style={{ minHeight: 44, fontSize: "0.85rem" }}>
+            <MuseumIcon name="temple" size={16} />
+            <span style={{ fontFamily: kf }}>{t("common.home")}</span>
+          </Link>
+        </header>
+
         <div className="text-center w-full max-w-md relative z-10 animate-fade-in-up">
           {/* Portrait */}
           <div
@@ -331,6 +339,12 @@ export default function ChatPage() {
           >
             {t("chat.reset")}
           </button>
+
+          {/* Home */}
+          <Link href="/" className="m-btn m-btn-ghost ml-1 !min-h-[36px] !px-4 text-xs" title={t("common.home")}>
+            <MuseumIcon name="temple" size={14} />
+            <span style={{ fontFamily: kf }}>{t("common.home")}</span>
+          </Link>
         </div>
       </header>
 

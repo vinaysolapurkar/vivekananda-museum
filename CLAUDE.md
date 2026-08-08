@@ -64,6 +64,25 @@ Schema tables: `stations`, `kiosks`, `slides`, `knowledge_base`, `chat_sessions`
 
 **belurmath.org More Info page structure**: Pages use WordPress Visual Composer (`wpb_text_column` blocks). Block 1 is usually the address; history paragraph + Activities heading + `<ul>` list items may be in block 2 or later (some pages have extra blocks in between). Always search ALL blocks, not just the 2nd. Skip blocks containing ChatGPT-artifact markers (`data-testid="conversation-turn"`, `text-token-text-primary`). Activities heading variants: `<h3><strong>Activities</strong></h3>`, `<p><strong>Activities:</strong></p>`, `<p><strong>Activities of the Math/Mission centre:</strong></p>`.
 
+### Offline map tiles
+
+Both map apps run **fully offline** — this was a deliberate fix for a kiosk on a 65" TV over WiFi, where every pan/zoom used to hit `cesium.com` (the Cesium engine itself) and Esri's live ArcGIS tile service. Now:
+
+- CesiumJS (engine, skybox textures) is self-hosted at `public/cesium/` (copied from the `cesium` npm package's `Build/Cesium` folder — same version pinned in both apps' `index.html`, currently 1.114).
+- Both apps' fonts are self-hosted at `public/fonts/maps/` (`fonts.css` + `.woff2` files).
+- Satellite imagery (and, for RKM Centres, the place-labels overlay) is a **pre-downloaded local tile pack** at `public/viveka-digvijaya/tiles/satellite/` and `public/rkm-centres/tiles/{imagery,labels}/`, each `{z}/{y}/{x}.{jpg,png}` — covering a global low-zoom overview (z0-5) plus a close-up patch (z6-16, ±2 tiles) around every pinned location in that app's data file. Both apps' Cesium `imageryLayers` are wired to `UrlTemplateImageryProvider` pointing at these local paths, not `ArcGisMapServerImageryProvider`.
+- The travels map's old 8-style basemap switcher (Satellite/NatGeo/Topo/etc.) was removed — it would have multiplied the tile pack size ~8x. Satellite is now the only style, matching RKM Centres.
+
+**The tile packs are gitignored** (`/public/*/tiles/`, ~1.85GB) — they're a regenerable cache, not source. `npm run predev`/`npm run prebuild` runs `scripts/check-map-tiles.mjs`, which prints a non-blocking warning if they're missing. Fetch them with:
+
+```bash
+npm run download-tiles              # both apps
+node scripts/download-map-tiles.mjs --only=travels   # just one
+node scripts/download-map-tiles.mjs --only=centres
+```
+
+The script re-derives the exact same tile list from `data.js`/`centres.js` coordinates each time (verified to reproduce byte-identical tile counts), is resumable (skips files that already exist), and rate-limits itself to be polite to Esri's free tile service — expect ~45 minutes and ~1.85GB on a full run. If either app's pin data changes significantly (new locations added far from existing coverage), re-run the script to fill in the new area's tiles.
+
 ### Chat (RAG)
 
 `/api/chat/query` does keyword-based LIKE search across `knowledge_base.content`, then sends matched excerpts as context to the Claude API (`claude-sonnet-4-6` via `ANTHROPIC_API_KEY`). Upload PDFs at `/admin` to populate the knowledge base. The chatbot stays in character as Swami Vivekananda.
