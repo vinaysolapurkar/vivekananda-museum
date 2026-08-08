@@ -131,7 +131,7 @@ export default function AdminSettings() {
             </label>
             <input
               type="number"
-              value={settings.kiosk_inactivity_timeout || "60"}
+              value={settings.kiosk_inactivity_timeout || "300"}
               onChange={(e) => saveSetting("kiosk_inactivity_timeout", e.target.value)}
               className="w-full px-3 py-2"
             />

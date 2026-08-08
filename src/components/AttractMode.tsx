@@ -28,7 +28,7 @@ const QUOTES: { en: string; kn: string; hi: string }[] = [
   },
 ];
 
-const IDLE_MS = 60_000; // show screensaver after 1 minute of no interaction
+const DEFAULT_IDLE_MS = 5 * 60_000; // show screensaver after 5 minutes of no interaction, unless overridden in Admin Settings
 const SLIDE_MS = 7_000; // advance image + quote every 7s
 
 export default function AttractMode() {
@@ -38,16 +38,33 @@ export default function AttractMode() {
   const [images, setImages] = useState<string[]>(["/images/vivekananda-portrait.jpg"]);
   const [idx, setIdx] = useState(0);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const idleMsRef = useRef(DEFAULT_IDLE_MS);
 
   // Never run the screensaver inside the admin area or on the map iframes.
   const enabled = !pathname.startsWith("/admin");
+
+  // Pick up the admin-configured inactivity timeout (seconds), if set.
+  useEffect(() => {
+    let alive = true;
+    fetch("/api/settings/public")
+      .then((r) => r.json())
+      .then((d) => {
+        if (!alive) return;
+        const seconds = Number(d.kiosk_inactivity_timeout);
+        if (Number.isFinite(seconds) && seconds > 0) idleMsRef.current = seconds * 1000;
+      })
+      .catch(() => {});
+    return () => {
+      alive = false;
+    };
+  }, []);
 
   // (Re)start the idle countdown. Stable identity — does NOT read `active`, so
   // turning the screensaver ON never re-runs the idle effect (which would
   // otherwise immediately dismiss it).
   const scheduleIdle = useCallback(() => {
     if (timer.current) clearTimeout(timer.current);
-    timer.current = setTimeout(() => setActive(true), IDLE_MS);
+    timer.current = setTimeout(() => setActive(true), idleMsRef.current);
   }, []);
 
   // Any real interaction dismisses the screensaver and restarts the countdown.

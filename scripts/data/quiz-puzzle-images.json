@@ -1,0 +1,17 @@
+[
+  { "image_url": "/images/puzzle/sv-chicago-portrait.jpg", "grid_size": 3 },
+  { "image_url": "/images/puzzle/sv-seated-portrait.jpg", "grid_size": 3 },
+  { "image_url": "/images/puzzle/sv-standing-cane-plain.jpg", "grid_size": 3 },
+  { "image_url": "/images/puzzle/sv-seated-armchair.jpg", "grid_size": 3 },
+  { "image_url": "/images/puzzle/sv-standing-cane-turban.jpg", "grid_size": 3 },
+  { "image_url": "/images/puzzle/sv-colorized-leaning-chair.jpg", "grid_size": 3 },
+  { "image_url": "/images/puzzle/sv-seated-crosslegged-color.jpg", "grid_size": 3 },
+  { "image_url": "/images/puzzle/sv-turban-closeup.jpg", "grid_size": 4 },
+  { "image_url": "/images/puzzle/sv-crossed-arms.jpg", "grid_size": 4 },
+  { "image_url": "/images/puzzle/sv-bust-side-light.jpg", "grid_size": 4 },
+  { "image_url": "/images/puzzle/sv-seated-armchair-2.jpg", "grid_size": 4 },
+  { "image_url": "/images/puzzle/sv-meditative-closed-eyes.jpg", "grid_size": 4 },
+  { "image_url": "/images/puzzle/sv-crossed-arms-pillars-bw.jpg", "grid_size": 4 },
+  { "image_url": "/images/puzzle/sv-crossed-arms-pillars-color.jpg", "grid_size": 4 },
+  { "image_url": "/images/puzzle/sv-standing-bust-plain.jpg", "grid_size": 4 }
+]

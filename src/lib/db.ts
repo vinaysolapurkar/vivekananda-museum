@@ -108,8 +108,17 @@ export async function initializeDatabase() {
       correct_answer INTEGER NOT NULL DEFAULT 0,
       difficulty TEXT NOT NULL DEFAULT 'medium',
       sort_order INTEGER NOT NULL DEFAULT 0,
+      question_type TEXT NOT NULL DEFAULT 'mcq',
+      image_url TEXT NOT NULL DEFAULT '',
+      grid_size INTEGER NOT NULL DEFAULT 0,
       created_at TEXT NOT NULL DEFAULT (datetime('now')),
       FOREIGN KEY (quiz_id) REFERENCES quizzes(id) ON DELETE CASCADE
+    );
+
+    CREATE TABLE IF NOT EXISTS quiz_last_shown (
+      quiz_id INTEGER PRIMARY KEY,
+      question_ids TEXT NOT NULL DEFAULT '[]',
+      updated_at TEXT NOT NULL DEFAULT (datetime('now'))
     );
 
     CREATE TABLE IF NOT EXISTS attempts (
@@ -239,6 +248,23 @@ export async function initializeDatabase() {
   // Add cover_image_url to letter_categories (migration for existing DBs)
   try {
     await db.execute({ sql: "ALTER TABLE letter_categories ADD COLUMN cover_image_url TEXT NOT NULL DEFAULT ''", args: [] });
+  } catch {
+    // Column already exists — ignore
+  }
+
+  // Add puzzle-question support to questions (migration for existing DBs)
+  try {
+    await db.execute({ sql: "ALTER TABLE questions ADD COLUMN question_type TEXT NOT NULL DEFAULT 'mcq'", args: [] });
+  } catch {
+    // Column already exists — ignore
+  }
+  try {
+    await db.execute({ sql: "ALTER TABLE questions ADD COLUMN image_url TEXT NOT NULL DEFAULT ''", args: [] });
+  } catch {
+    // Column already exists — ignore
+  }
+  try {
+    await db.execute({ sql: "ALTER TABLE questions ADD COLUMN grid_size INTEGER NOT NULL DEFAULT 0", args: [] });
   } catch {
     // Column already exists — ignore
   }

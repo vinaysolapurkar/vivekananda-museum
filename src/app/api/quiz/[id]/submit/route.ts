@@ -37,7 +37,7 @@ export async function POST(
 
     // Fetch all questions with options for this quiz
     const questionsResult = await db.execute({
-      sql: "SELECT id, options_en, correct_answer FROM questions WHERE quiz_id = ?",
+      sql: "SELECT id, options_en, correct_answer, question_type FROM questions WHERE quiz_id = ?",
       args: [quizId],
     });
 
@@ -57,11 +57,27 @@ export async function POST(
 
     // Grade answers and collect correct answers for review
     let score = 0;
-    const review: Array<{ question_id: number; correct_index: number; selected_index: number; correct: boolean }> = [];
+    const review: Array<{ question_id: number; correct_index: number; selected_index: number; correct: boolean; puzzle?: boolean }> = [];
 
     for (const row of gradedRows) {
       const questionId = String(row.id);
       const submittedIndex = answers[questionId];
+
+      // Jigsaw questions have no options/correct_answer — the only way to
+      // reach the "next question" button is solving the puzzle, so any
+      // recorded answer for one is by construction correct.
+      if (row.question_type === "puzzle") {
+        const solved = Boolean(submittedIndex);
+        if (solved) score++;
+        review.push({
+          question_id: Number(row.id),
+          correct_index: -1,
+          selected_index: solved ? 1 : -1,
+          correct: solved,
+          puzzle: true,
+        });
+        continue;
+      }
 
       // Parse options (JSON or @@ delimited, tolerating legacy double-encoding)
       let options: string[] = [];

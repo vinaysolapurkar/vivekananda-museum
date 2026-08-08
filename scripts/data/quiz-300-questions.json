@@ -1,0 +1,3302 @@
+[
+  {
+    "question": "What was Swami Vivekananda's birth name?",
+    "options": [
+      "Ramakrishna Paramahansa",
+      "Rabindranath Tagore",
+      "Mahendranath Gupta",
+      "Narendranath Datta"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "On which date was Swami Vivekananda born?",
+    "options": [
+      "26 January 1863",
+      "12 January 1862",
+      "12 January 1863",
+      "15 August 1863"
+    ],
+    "correct_index": 2,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What was the name of Swami Vivekananda's father?",
+    "options": [
+      "Durga Charan Datta",
+      "Ramakrishna Paramahansa",
+      "Vishwanath Datta",
+      "Bhupendranath Datta"
+    ],
+    "correct_index": 2,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What was the name of Swami Vivekananda's mother?",
+    "options": [
+      "Sarada Devi",
+      "Rani Rashmoni",
+      "Binodini Devi",
+      "Bhuvaneshwari Devi"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What was the name of Swami Vivekananda's guru?",
+    "options": [
+      "Swami Brahmananda",
+      "Totapuri",
+      "Swami Shivananda",
+      "Sri Ramakrishna Paramahansa"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "At what age did Narendranath first meet Ramakrishna?",
+    "options": [
+      "20 years",
+      "16 years",
+      "18 years",
+      "22 years"
+    ],
+    "correct_index": 2,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does 'Vivekananda' mean?",
+    "options": [
+      "The bliss of bliss",
+      "The power eternal",
+      "The joy of discrimination/wisdom",
+      "The knowledge supreme"
+    ],
+    "correct_index": 2,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which festival day coincided with Swami Vivekananda's birth?",
+    "options": [
+      "Makar Sankranti",
+      "Durga Puja",
+      "Diwali",
+      "Holi"
+    ],
+    "correct_index": 0,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Swami Vivekananda was born in which caste?",
+    "options": [
+      "Kshatriya",
+      "Vaishya",
+      "Kayastha",
+      "Brahmin"
+    ],
+    "correct_index": 2,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What was the profession of Swami Vivekananda's father?",
+    "options": [
+      "Businessman",
+      "Teacher",
+      "Government Official",
+      "Attorney at Calcutta High Court"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many siblings did Swami Vivekananda have?",
+    "options": [
+      "Six",
+      "Three",
+      "Five",
+      "Nine"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What was the nickname given to young Narendra by his mother?",
+    "options": [
+      "Babu",
+      "Naren",
+      "Biley",
+      "Khoka"
+    ],
+    "correct_index": 2,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which college did Narendranath attend for his higher education?",
+    "options": [
+      "Hindu College",
+      "St. Xavier's College",
+      "Presidency College",
+      "General Assembly's Institution"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which academic degree did Naren earn in 1884?",
+    "options": [
+      "B.A.",
+      "B.Sc.",
+      "LLB.",
+      "B.Com."
+    ],
+    "correct_index": 0,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What famous opening words did Swami Vivekananda use at the Chicago Parliament?",
+    "options": [
+      "Honorable Delegates",
+      "Sisters and Brothers of America",
+      "Dear Friends",
+      "Ladies and Gentlemen"
+    ],
+    "correct_index": 1,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Where is the Head Quarters of  Ramakrishna Mission established by Swami Vivekananda?",
+    "options": [
+      "Chennai",
+      "Haridwar",
+      "Varanasi",
+      "Howrah, Belur"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the name of the monastic organisation established by Swami Vivekananda?",
+    "options": [
+      "Dakshineswar Math",
+      "Sarada Math",
+      "Ramakrishna Math",
+      "Advaita Ashrama"
+    ],
+    "correct_index": 2,
+    "difficulty": "easy"
+  },
+  {
+    "question": "On which date did Swamiji return to Kolkatta following his success in the West?",
+    "options": [
+      "Jan 15, 1897",
+      "Dec 26, 1899",
+      "Feb 19, 1901",
+      "Feb 19, 1897"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "At what age did Swami Vivekananda pass away?",
+    "options": [
+      "39 years",
+      "40 years",
+      "38 years",
+      "45 years"
+    ],
+    "correct_index": 0,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What was the date of Swami Vivekananda's Mahasamadhi?",
+    "options": [
+      "4 July 1902",
+      "15 August 1902",
+      "12 January 1902",
+      "4 July 1901"
+    ],
+    "correct_index": 0,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who gave Narendranath the name 'Vivekananda'?",
+    "options": [
+      "Maharaja Ajit Singh of Khetri",
+      "Sarada Devi",
+      "Swami Brahmananda",
+      "Ramakrishna Paramahansa"
+    ],
+    "correct_index": 0,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Swami Vivekananda's birthday is celebrated as which day in India?",
+    "options": [
+      "National Teachers Day",
+      "National Monk Day",
+      "National Spirituality Day",
+      "National Youth Day"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What was the  monastic name taken by Narendra at the time of his formal sannyasa ordination ?",
+    "options": [
+      "Swami Brahmananda",
+      "Swami Narendrananda",
+      "Swami Vividishananda",
+      "Swami Vivekananda"
+    ],
+    "correct_index": 2,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which religion did Swami Vivekananda represent at the Chicago Parliament?",
+    "options": [
+      "Jainism",
+      "Hinduism",
+      "Buddhism",
+      "Sikhism"
+    ],
+    "correct_index": 1,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which yoga is known as the 'Path of Selfless Action'?",
+    "options": [
+      "Bhakti Yoga",
+      "Raja Yoga",
+      "Karma Yoga",
+      "Jnana Yoga"
+    ],
+    "correct_index": 2,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which yoga is known as the 'Path of Devotion'?",
+    "options": [
+      "Raja Yoga",
+      "Jnana Yoga",
+      "Karma Yoga",
+      "Bhakti Yoga"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which yoga is known as the 'Path of Knowledge'?",
+    "options": [
+      "Karma Yoga",
+      "Raja Yoga",
+      "Jnana Yoga",
+      "Bhakti Yoga"
+    ],
+    "correct_index": 2,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following groups of animals did Naren keep at his home?",
+    "options": [
+      "buffaloes and hens",
+      "Cats,dogs and horses",
+      "Cow, monkey, goat, peacock, pigeons, and guinea pigs",
+      "horses and elephants"
+    ],
+    "correct_index": 2,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which  religious movement did Naren join during his college days ?",
+    "options": [
+      "Brahmo Samaj",
+      "Ramakrishna Mission",
+      "Arya samaj",
+      "Theosophical Society"
+    ],
+    "correct_index": 0,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which cousin of Naren asked him to go and see Sri Ramakrishna ?",
+    "options": [
+      "Mahendranath Gupta",
+      "Ram Chandra Datta",
+      "Girish Chandra Gosh",
+      "Rakhal Chandra Ghosh"
+    ],
+    "correct_index": 1,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the symbol for Karma Yoga in the emblem of Ramakrishna Mission?",
+    "options": [
+      "Wavy Waters",
+      "Coiled Serpent",
+      "Lotus flower",
+      "Rising Sun"
+    ],
+    "correct_index": 0,
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many limbs are there in Ashtanga Yoga described in Raja Yoga?",
+    "options": [
+      "Eight limbs",
+      "Six limbs",
+      "Ten limbs",
+      "Four limbs"
+    ],
+    "correct_index": 0,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does 'Bhakti' mean in Bhakti Yoga?",
+    "options": [
+      "Knowledge",
+      "Meditation",
+      "Devotion",
+      "Action"
+    ],
+    "correct_index": 2,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ultimate goal of all four yogas according to Swami Vivekananda?",
+    "options": [
+      "Material prosperity",
+      "Physical health",
+      "Self-realization (liberation)",
+      "Social status"
+    ],
+    "correct_index": 2,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which yoga is most suitable for emotional temperament according to Swami Vivekananda?",
+    "options": [
+      "Jnana Yoga",
+      "Karma Yoga",
+      "Raja Yoga",
+      "Bhakti Yoga"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which yoga is most suitable for intellectual temperament?",
+    "options": [
+      "Bhakti Yoga",
+      "Jnana Yoga",
+      "Karma Yoga",
+      "Raja Yoga"
+    ],
+    "correct_index": 1,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which yoga is most suitable for active temperament?",
+    "options": [
+      "Karma Yoga",
+      "Bhakti Yoga",
+      "Jnana Yoga",
+      "Raja Yoga"
+    ],
+    "correct_index": 0,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which yoga is most suitable for meditative temperament?",
+    "options": [
+      "Karma Yoga",
+      "Raja Yoga",
+      "Jnana Yoga",
+      "Bhakti Yoga"
+    ],
+    "correct_index": 1,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the meaning of 'Jnana' in Jnana Yoga?",
+    "options": [
+      "Meditation",
+      "Devotion",
+      "Action",
+      "Knowledge"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which two great Indian epics did Bhuvaneshwari Devi regularly recite to young Narendranath ?",
+    "options": [
+      "Bhagavad purana and Bhagavad gita",
+      "Garuda purana and Vishnu purana",
+      "Ramayan and Mahabharat",
+      "Bhagavata gita and Ramacharitmanas"
+    ],
+    "correct_index": 2,
+    "difficulty": "easy"
+  },
+  {
+    "question": "At the age of seven, Narendranath was sent to which school to begin his formal education?",
+    "options": [
+      "Presidency college",
+      "Scottish church",
+      "Metropolitan Institution",
+      "Hare school"
+    ],
+    "correct_index": 2,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'Pranayama' in Raja Yoga?",
+    "options": [
+      "Ethical guidelines",
+      "Physical postures",
+      "Meditation technique",
+      "Breath control exercises"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'Dhyana' in Raja Yoga?",
+    "options": [
+      "Physical posture",
+      "Meditation",
+      "Breath control",
+      "Concentration"
+    ],
+    "correct_index": 1,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which path of Yoga is known as 'Raja Yoga' according to Swamiji?",
+    "options": [
+      "Hatha Yoga",
+      "Raja Yoga",
+      "Jnana Yoga",
+      "Karma Yoga"
+    ],
+    "correct_index": 1,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Swamiji urged  his countrymen to back to____",
+    "options": [
+      "Vedic practices",
+      "Upanishads",
+      "Farming",
+      "Purans"
+    ],
+    "correct_index": 1,
+    "difficulty": "easy"
+  },
+  {
+    "question": "In which country did Swami Vivekananda  dictate his famous book Raja Yoga?",
+    "options": [
+      "China",
+      "Japan",
+      "England",
+      "America"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'Viveka' ?",
+    "options": [
+      "Devotion to God",
+      "Selfless action",
+      "Discrimination betwen eternal and non-eternal",
+      "Meditation practice"
+    ],
+    "correct_index": 2,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 'Vairagya' ?",
+    "options": [
+      "Action",
+      "Dispassion/Detachment",
+      "Devotion",
+      "Knowledge"
+    ],
+    "correct_index": 1,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is Shradha?",
+    "options": [
+      "Ritualistic worship",
+      "Pilgrimage",
+      "Scriptural study",
+      "Faith/Conviction"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Where was the World's Parliament of Religions held in 1893?",
+    "options": [
+      "Paris, France",
+      "London, UK",
+      "New York, USA",
+      "Chicago, USA"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "On which date did Swami Vivekananda deliver his first speech at Chicago?",
+    "options": [
+      "15 September 1893",
+      "1 October 1893",
+      "27 September 1893",
+      "11 September 1893"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many speeches did Swami Vivekananda deliver at the Parliament of Religions?",
+    "options": [
+      "Six speeches",
+      "One speech",
+      "Ten speeches",
+      "Three speeches"
+    ],
+    "correct_index": 0,
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Vedas are divided into two portions, namely",
+    "options": [
+      "the Karma Kanda and the Jnana Kanda",
+      "the Samita  and the Jnana Kanda",
+      "the Brahmanas and Karma Kanda",
+      "the Karma Kanda and the Aryana Kanda"
+    ],
+    "correct_index": 0,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the greatest symbol of any Hindu sect that can be used for a non-sectarian  temple?",
+    "options": [
+      "Lotus",
+      "OM",
+      "Trishul",
+      "Swastik"
+    ],
+    "correct_index": 1,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who among the following became a disciple of Swami Vivekananda in England?",
+    "options": [
+      "Sister Nivedita",
+      "Miss Henrietta Muller",
+      "Sister Christine",
+      "Miss Muller"
+    ],
+    "correct_index": 0,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What was Sister Nivedita's original name?",
+    "options": [
+      "Margaret Noble",
+      "Mary Smith",
+      "Sarah Jones",
+      "Elizabeth Brown"
+    ],
+    "correct_index": 0,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who financed Swami Vivekananda's journey to America?",
+    "options": [
+      "Raja of Ramnad",
+      "Raja of Mysore",
+      "Diwan of Mysore",
+      "Maharaja Ajit Singh of Khetri"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "From which Indian port did Swami Vivekananda sail to America?",
+    "options": [
+      "Chennai",
+      "Cochin",
+      "Calcutta",
+      "Bombay (Mumbai)"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "In which year did Swami Vivekananda return to India from the West?",
+    "options": [
+      "1893",
+      "1897",
+      "1900",
+      "1895"
+    ],
+    "correct_index": 1,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which famous Western philosopher was influenced by Swami Vivekananda's teachings?",
+    "options": [
+      "Bertrand Russell",
+      "Jean-Paul Sartre",
+      "Immanuel Kant",
+      "Romain Rolland"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many direct disciples did Shri Ramakrishna have?",
+    "options": [
+      "5",
+      "11",
+      "16",
+      "12"
+    ],
+    "correct_index": 2,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which American city became the center of Swami Vivekananda's work in USA?",
+    "options": [
+      "Chicago",
+      "Boston",
+      "New York",
+      "San Francisco"
+    ],
+    "correct_index": 2,
+    "difficulty": "easy"
+  },
+  {
+    "question": "In which year was the Vedanta Society of New York founded?",
+    "options": [
+      "1894",
+      "1893",
+      "1896",
+      "1895"
+    ],
+    "correct_index": 0,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who designed the official emblem of the Ramakrishna Math and Mission",
+    "options": [
+      "Keshab chandra",
+      "Swami Vivekananda",
+      "Shri Shardha devi",
+      "Shri Ramakrishna"
+    ],
+    "correct_index": 1,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What was one of the names  the American press  used to describe Swami Vivekananda after his Chicago speech?",
+    "options": [
+      "Indian philosopher",
+      "Silent monk",
+      "Cyclonic Monk from India",
+      "All of these"
+    ],
+    "correct_index": 2,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What was the response of the audience to Swami Vivekananda's opening words at Chicago?",
+    "options": [
+      "Complete silence",
+      "Mixed reaction",
+      "almost two minutes standing ovation",
+      "Criticism"
+    ],
+    "correct_index": 2,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who invited Swami Vivekananda to the Parliament of Religions?",
+    "options": [
+      "Romain Rolland",
+      "Max Mueller",
+      "William James",
+      "Professor John Henry Wright"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "At which university did Swami Vivekananda deliver lecture in America?",
+    "options": [
+      "Harvard University",
+      "Stanford University",
+      "Yale University",
+      "Columbia University"
+    ],
+    "correct_index": 0,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Swamiji firmly believed that for philosophy to have any real value, it :",
+    "options": [
+      "Should remain theoretical",
+      "Must be practical",
+      "Should be for Monks",
+      "Should be for the elite"
+    ],
+    "correct_index": 1,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Swamiji's central message regarding religious harmony was that:",
+    "options": [
+      "Religious differences are dangerous and should be abolished",
+      "All religions should merge into single faith.",
+      "Differences in religions are a source of happiness",
+      "All religions lead to the same goal"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Swamiji said,'It is a sin to call a man a",
+    "options": [
+      "Mortal",
+      "Poor",
+      "Sinner",
+      "Ignorant"
+    ],
+    "correct_index": 2,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which famous scientist was influenced by Swami Vivekananda's ideas?",
+    "options": [
+      "Albert Einstein",
+      "Isaac Newton",
+      "Nikola Tesla",
+      "Thomas Edison"
+    ],
+    "correct_index": 2,
+    "difficulty": "easy"
+  },
+  {
+    "question": "How long did Swami Vivekananda’s first historic visit to the West (including America and Europe) last?",
+    "options": [
+      "One year",
+      "Over 3 years",
+      "Six years",
+      "Six months"
+    ],
+    "correct_index": 1,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who was one of Naren's best friends in college who introduced him to Western philosophy?",
+    "options": [
+      "Subhas Chandra Bosh",
+      "Bajendra Nath Seal",
+      "Rabindra ath Tagore",
+      "Aurobindo Ghosh"
+    ],
+    "correct_index": 1,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which Upanishad inspired Swamiji to say: 'Arise, awake, and stop not till the goal is reached'?",
+    "options": [
+      "Isha Upanishad",
+      "Prashna Upanishad",
+      "Mundaka Upanishad",
+      "Katha Upanishad"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What did Swami Vivekananda say about strength?",
+    "options": [
+      "Strength is not important",
+      "Strength leads to pride",
+      "Weakness is acceptable",
+      "Strength is life, weakness is death"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Swamiji's  view on serving humanity was that it is :",
+    "options": [
+      "Optional",
+      "A duty of householders",
+      "The duty of Govt.",
+      "Serving God by serving man"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What did Swami Vivekananda say about education?",
+    "options": [
+      "Education is the manifestation of perfection already in man",
+      "Education is unnecessary",
+      "Education is only for employment",
+      "Education should be limited"
+    ],
+    "correct_index": 0,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Swami Vivekananda believed the youth should develop \"muscles of iron\" and \"nerves of ______.\"",
+    "options": [
+      "Avoid challenges",
+      "Steel",
+      "Seek comfort only",
+      "Follow traditions blindly"
+    ],
+    "correct_index": 1,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What did Swami Vivekananda say about fear?",
+    "options": [
+      "Fear is necessary",
+      "Fear is the root of all evil",
+      "Fear is good",
+      "Fear is natural"
+    ],
+    "correct_index": 1,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Swami Vivekananda compared different religions to rivers that all flow into the same",
+    "options": [
+      "Ocean",
+      "Forests",
+      "Mountains",
+      "Desert"
+    ],
+    "correct_index": 0,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Swami Vivekananda compared the human mind to a lake and said that every thought is like a _________ on its surface",
+    "options": [
+      "Ripple",
+      "Log of wood",
+      "Bubble",
+      "Foam"
+    ],
+    "correct_index": 0,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What was Swami Vivekananda's advice on character building?",
+    "options": [
+      "Success comes before character",
+      "Character is destiny",
+      "Character is the foundation of all success",
+      "Character is not important"
+    ],
+    "correct_index": 2,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What did Swami Vivekananda say about Faith?",
+    "options": [
+      "Is following a rich person",
+      "Is going to temples",
+      "Faith in oneself is the secret of greatness.",
+      "Is blindly following rituals"
+    ],
+    "correct_index": 2,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Whom does Swamiji consider to be true atheist?",
+    "options": [
+      "Someone who doesn't believe in  holy books",
+      "Someone who doesn't believe in anyone",
+      "Someone who  doesn't believe in oneself",
+      "Someone who  doesn't believe in Gods"
+    ],
+    "correct_index": 2,
+    "difficulty": "easy"
+  },
+  {
+    "question": "According to Swamiji, what is the highest condition for achieving love for God?",
+    "options": [
+      "Chanting",
+      "Renunciation",
+      "Rituals",
+      "Charity"
+    ],
+    "correct_index": 1,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What did Swami Vivekananda say about India's future?",
+    "options": [
+      "India will become a superpower",
+      "India will copy the West",
+      "India will decline",
+      "India will rise again spiritually"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "According to Swami Vivekananda, what is the simplest way to define a 'moral act'?",
+    "options": [
+      "Seeking personal happiness",
+      "Performing rituals",
+      "An unselfish act",
+      "Following local laws"
+    ],
+    "correct_index": 2,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What did Swami Vivekananda say about work?",
+    "options": [
+      "Work is a burden",
+      "Work is worship",
+      "Avoid work",
+      "Work is for personal gain"
+    ],
+    "correct_index": 1,
+    "difficulty": "easy"
+  },
+  {
+    "question": "According to Swamiji, what is India's strength?",
+    "options": [
+      "Geographical location",
+      "Unity in diversity",
+      "Military power",
+      "A single uniform language"
+    ],
+    "correct_index": 1,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What did Swami Vivekananda say about concentration?",
+    "options": [
+      "Concentration and memorization are synonymous",
+      "Concentration cannot be taught",
+      "Concentration is for yogis",
+      "Concentration is the essence of knowledge"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What was Swami Vivekananda's view on women's education?",
+    "options": [
+      "Education is only for men",
+      "Women need not be educated",
+      "Women must be educated for nation's progress",
+      "Women's education is secondary"
+    ],
+    "correct_index": 2,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Swamiji famously said  that the first condition for growth is ___",
+    "options": [
+      "Liberity",
+      "Money",
+      "Health",
+      "Knoweldge"
+    ],
+    "correct_index": 0,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What did Swami Vivekananda say about prayer?",
+    "options": [
+      "Prayer is not asking but is communion with God",
+      "Prayer is weakness",
+      "Prayer is unnecessary",
+      "Prayer is only asking for things"
+    ],
+    "correct_index": 0,
+    "difficulty": "easy"
+  },
+  {
+    "question": "What was Swami Vivekananda's view on rituals?",
+    "options": [
+      "Rituals should be avoided",
+      "Rituals are means, not end",
+      "Rituals are essential",
+      "Rituals are meaningless"
+    ],
+    "correct_index": 1,
+    "difficulty": "easy"
+  },
+  {
+    "question": "Swamiji's ultimate advice regarding truthfulness was to :",
+    "options": [
+      "Speak truth when it is pleasant",
+      "Keep truth hidden to avoid confluct",
+      "Sacrifice truth for the sake of the family",
+      "Be truthful at all costs"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "In the emblem designed by Swami Vivekananda, which element represents the path of Jnana Yoga (Knowledge)?",
+    "options": [
+      "Lotus",
+      "Swan",
+      "Waves",
+      "The rising sun"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "In the emblem designed by Swami Vivekananda, which element represents the path of Bhakti(devotion )?",
+    "options": [
+      "Swan",
+      "Wavy water",
+      "Lotus",
+      "Rising sun"
+    ],
+    "correct_index": 2,
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many times did Swami Vivekananda travel to America to spread his message",
+    "options": [
+      "Five times",
+      "Three times",
+      "Only once",
+      "Two times"
+    ],
+    "correct_index": 3,
+    "difficulty": "easy"
+  },
+  {
+    "question": "In which year did Narendranath lose his father Vishwanath Datta?",
+    "options": [
+      "1888",
+      "1881",
+      "1884",
+      "1886"
+    ],
+    "correct_index": 2,
+    "difficulty": "medium"
+  },
+  {
+    "question": "When did Ramakrishna pass away?",
+    "options": [
+      "11 September 1893",
+      "16 August 1886",
+      "12 January 1886",
+      "4 July 1902"
+    ],
+    "correct_index": 1,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Where did Ramakrishna's disciples including Narendra take formal sannyasa?",
+    "options": [
+      "Belur Math",
+      "Baranagar",
+      "Antapur",
+      "Dakshineswar"
+    ],
+    "correct_index": 1,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who was the  young assistant station master at the Hathras rly station who became Swamiji's first disciple?",
+    "options": [
+      "Prasanna Ghosh",
+      "Sarat Chandra Gupta",
+      "Baburam",
+      "Sharat Chandra Charavarty"
+    ],
+    "correct_index": 1,
+    "difficulty": "medium"
+  },
+  {
+    "question": "During his wandering days, which famous saint did Swami Vivekananda meet in Gazipur ?",
+    "options": [
+      "Trailanga Swami",
+      "Swami Shivananda",
+      "Swami Brahmananda",
+      "Pavahari Baba"
+    ],
+    "correct_index": 3,
+    "difficulty": "medium"
+  },
+  {
+    "question": "At which place did Swami Vivekananda have the vision of Sri Ramakrishna commanding him to go to the West?",
+    "options": [
+      "Haridwar",
+      "Madras(Chennai)",
+      "Rameswaram",
+      "Kashmir"
+    ],
+    "correct_index": 1,
+    "difficulty": "medium"
+  },
+  {
+    "question": "What was the name of the ship that carried Swami Vivekananda to America?",
+    "options": [
+      "SS Calcutta",
+      "SS City of Rome",
+      "Japan- bound P.O. steamer Peninsular",
+      "SS Bombay"
+    ],
+    "correct_index": 2,
+    "difficulty": "medium"
+  },
+  {
+    "question": "At which Japanese port did Swami Vivekananda stop on his way to America?",
+    "options": [
+      "Osaka",
+      "Nagasaki",
+      "Tokyo",
+      "Yokohama"
+    ],
+    "correct_index": 1,
+    "difficulty": "medium"
+  },
+  {
+    "question": "In which year did Swami Vivekananda visit Kashmir?",
+    "options": [
+      "1889",
+      "1897",
+      "1899",
+      "1898"
+    ],
+    "correct_index": 3,
+    "difficulty": "medium"
+  },
+  {
+    "question": "When did Swamiji visit Amaranath along with his foreign disciples?",
+    "options": [
+      "July 2, 1897",
+      "October 2,1898",
+      "August 2,1898",
+      "September 3,1899"
+    ],
+    "correct_index": 2,
+    "difficulty": "medium"
+  },
+  {
+    "question": "In which year was the Ramakrishna Mission formally registered?",
+    "options": [
+      "1910",
+      "1897",
+      "1909",
+      "1901"
+    ],
+    "correct_index": 2,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who was the first President of Ramakrishna Math and Ramakrishna Mission  ?",
+    "options": [
+      "Swami Brahmananda",
+      "Swami Saradananda",
+      "Swami Premananda",
+      "Swami Shivananda"
+    ],
+    "correct_index": 0,
+    "difficulty": "medium"
+  },
+  {
+    "question": "What was the name of the steamer that Swami Vivekananda sailed on from Naples to Colombo?\"",
+    "options": [
+      "SS Peninsular",
+      "Prinz Regent Luitpold",
+      "SS City of Rome",
+      "SS Orient"
+    ],
+    "correct_index": 1,
+    "difficulty": "medium"
+  },
+  {
+    "question": "At which port in India did Swami Vivekananda land on his return from the West?",
+    "options": [
+      "Bombay",
+      "Calcutta",
+      "Madras",
+      "Pamban"
+    ],
+    "correct_index": 3,
+    "difficulty": "medium"
+  },
+  {
+    "question": "The reception committee that welcomed Swami Vivekananda in Madras (now Chennai) was called",
+    "options": [
+      "The Royal Reception",
+      "The Victory March",
+      "The Grand Welcome",
+      "Vivekananda Reception Committee"
+    ],
+    "correct_index": 3,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Where did Swami Vivekananda deliver his famous lecture 'My Plan of Campaign'?",
+    "options": [
+      "Calcutta",
+      "Bombay",
+      "Madras(Chennai)",
+      "Khetri"
+    ],
+    "correct_index": 2,
+    "difficulty": "medium"
+  },
+  {
+    "question": "In which city did Swami Vivekananda establish the Advaita Ashrama?",
+    "options": [
+      "Rishikesh",
+      "Mayawati",
+      "Almora",
+      "Haridwar"
+    ],
+    "correct_index": 1,
+    "difficulty": "medium"
+  },
+  {
+    "question": "The brother monk who accompanied Swami Vivekananda to the West during his second visit was",
+    "options": [
+      "Swami Brahmananda and Swami Shivananda",
+      "Swami Akhandananda and Swami Vijnanananda",
+      "Swami Turiyananda",
+      "Swami Premananda and Swami Saradananda"
+    ],
+    "correct_index": 2,
+    "difficulty": "medium"
+  },
+  {
+    "question": "What was the name of Swami Vivekananda's brother who was also a revolutionary?",
+    "options": [
+      "Hariprasad Datta",
+      "Durgaprasad Datta",
+      "Mahendranath Datta",
+      "Bhupendranath Datta"
+    ],
+    "correct_index": 3,
+    "difficulty": "medium"
+  },
+  {
+    "question": "In which year did Swami Vivekananda undertake his second visit to the West?",
+    "options": [
+      "1898",
+      "1900",
+      "1899",
+      "1897"
+    ],
+    "correct_index": 2,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which vessel did Swami Vivekananda sail on during his second voyage to America in 1899?",
+    "options": [
+      "S.S. Numidian",
+      "S.S. Golconda",
+      "Prinz Regent Luitpold",
+      "Empress of India"
+    ],
+    "correct_index": 1,
+    "difficulty": "medium"
+  },
+  {
+    "question": "As of 2026, how many branch centres do the Ramakrishna Math and the Ramakrishna Mission have worldwide?",
+    "options": [
+      "295",
+      "200",
+      "190",
+      "189"
+    ],
+    "correct_index": 0,
+    "difficulty": "medium"
+  },
+  {
+    "question": "On which date did Swami Shivananda lay the first foundation stone for the Ramakrishna Temple at Belur Math ?",
+    "options": [
+      "19th May 1938",
+      "13th March 1929",
+      "16th March 1920",
+      "15th August 1946"
+    ],
+    "correct_index": 1,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which disciple was chosen by Swami Vivekananda to lead the Vedanta Society of San Francisco?",
+    "options": [
+      "Swami Abhedananda",
+      "Swami Paramananda",
+      "Swami Trigunatita",
+      "Swami Turiyananda"
+    ],
+    "correct_index": 2,
+    "difficulty": "medium"
+  },
+  {
+    "question": "On what date was the Sri Ramakrishna Temple at Belur Math finally completed and consecrated?",
+    "options": [
+      "20th  June 1938",
+      "14h Jan 1939",
+      "14th Jan 1938",
+      "1938-01-28 00:00:00"
+    ],
+    "correct_index": 2,
+    "difficulty": "medium"
+  },
+  {
+    "question": "According to SV, a person continues striving for success as if chasing the 'Golden Fleece,' even though he knows his chances are extremely low.This situation illustrates:",
+    "options": [
+      "Awareness of reality leading to detachment",
+      "Logical and calculated decision making",
+      "The binding and deluding force of Maya",
+      "Scientific understanding of probability"
+    ],
+    "correct_index": 2,
+    "difficulty": "medium"
+  },
+  {
+    "question": "What was the height of Swami Vivekananda",
+    "options": [
+      "6 feet 2 inches",
+      "5 feet 8½ inches",
+      "5 feet 91/2 inches",
+      "5 feet 3 inches"
+    ],
+    "correct_index": 1,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Swamiji's New York classes held during the first part of 1895 dealt largely with",
+    "options": [
+      "General hinduism",
+      "Karma Yoga and Bhakti Yoga",
+      "Raja yoga and Jnana Yoga",
+      "Karma Yoga"
+    ],
+    "correct_index": 2,
+    "difficulty": "medium"
+  },
+  {
+    "question": "When was the famous “The Song of the Sannyasin” by Swami Vivekananda written?",
+    "options": [
+      "July 1895",
+      "March 1894",
+      "August 1896",
+      "December 1893"
+    ],
+    "correct_index": 0,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Where was “The Song of the Sannyasin” composed",
+    "options": [
+      "Chicago",
+      "Boston",
+      "India",
+      "Thousand Island Park, New York"
+    ],
+    "correct_index": 3,
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many stanzas are there in “The Song of the Sannyasin\"",
+    "options": [
+      "13",
+      "5",
+      "8",
+      "6"
+    ],
+    "correct_index": 0,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who translated Swami Vivekananda’s The Song of the Sannyasin into Kannada as “ಸಂನ್ಯಾಸಿ ಗೀತೆ” (Sannyasi Geete)?",
+    "options": [
+      "D. V. Gundappa",
+      "R. K. Narayan",
+      "Bendre",
+      "Kuvempu"
+    ],
+    "correct_index": 3,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Where did Swami Vivekananda compose his famous poem “Kali the Mother\"?",
+    "options": [
+      "Kashmir",
+      "London",
+      "Dakshineswar",
+      "Belur"
+    ],
+    "correct_index": 0,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Approximately how many authenticated photographs of Swami Vivekananda have been collected till date?",
+    "options": [
+      "150",
+      "200",
+      "98",
+      "106"
+    ],
+    "correct_index": 3,
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many disciples seriously studied with Swami Vivekananda at Thousand Island Park in 1895?",
+    "options": [
+      "12",
+      "10",
+      "80",
+      "16"
+    ],
+    "correct_index": 0,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Approximately how many poems did Swami Vivekananda compose?",
+    "options": [
+      "8",
+      "40 plus",
+      "30",
+      "7"
+    ],
+    "correct_index": 1,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who were the Western disciples who played an important role in the development of the Mayavati Ashrama?",
+    "options": [
+      "Robert Crosbie and Katherine Tingley",
+      "Captain Sevier and Mrs. Sevier",
+      "Charles Leadbeater and Alice Bailey",
+      "George Arundale and Annie Besant"
+    ],
+    "correct_index": 1,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who composed the  Pranam mantra,' Sthapakaya ch dharmasya ...'?",
+    "options": [
+      "Girish Gosh",
+      "Swami Brahmananda",
+      "Swami Vivekananda",
+      "Swami  Premananda"
+    ],
+    "correct_index": 2,
+    "difficulty": "medium"
+  },
+  {
+    "question": "When did Swamiji compose the Ramakrishna's Pranam mantra ?",
+    "options": [
+      "3rd Feb 1898",
+      "4th July 1902",
+      "16th August 186",
+      "6th February 1898"
+    ],
+    "correct_index": 3,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Whose place was the Pranam mantra of Ramakrishna composed?",
+    "options": [
+      "Belur math",
+      "Navagopal Ghosh’s house",
+      "Girish Goshs house",
+      "Swami Premananda house at Antapur"
+    ],
+    "correct_index": 1,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Swamiji  often quoted the mantra “Shrunvantu Vishve Amrutasya Putra…”. This mantra belongs to which Upanishad?",
+    "options": [
+      "Shvetashvatara Upanishad",
+      "Katha Upanishad",
+      "Mandukya Upanishad",
+      "Kenopanishad"
+    ],
+    "correct_index": 0,
+    "difficulty": "medium"
+  },
+  {
+    "question": "To which king did Swami Vivekananda explain the meaning of idol worship?",
+    "options": [
+      "Sayaji Gaikwad",
+      "Raja of Khetri",
+      "Raja of Ramanad",
+      "Mangal Singh of Alwar"
+    ],
+    "correct_index": 3,
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is unique about the Arati 'Khandana Bhava Bandhana'composed  by Swami Vivekananda?",
+    "options": [
+      "Dedicated to Sri Ramakrishna,yet never names him.",
+      "Every verse has the name of Ramakrishna",
+      "Swamiji mentions his name in the last verse",
+      "Mother Kali is mentioned"
+    ],
+    "correct_index": 0,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which Upanishad was considered Swami Vivekananda’s favourite?",
+    "options": [
+      "Katha upanishad",
+      "Kenopanishad",
+      "Mundaka upanishad",
+      "Mandukya upanishad"
+    ],
+    "correct_index": 0,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which Upanishadic character did Swami Vivekananda admire for his shraddhā (faith and steadfastness)?",
+    "options": [
+      "Maitreyi - brahadaryanak upanishad",
+      "Indra- Kenopanishad",
+      "Nachiketa - Kathopanishad",
+      "Yama -Kathopsnishad"
+    ],
+    "correct_index": 2,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which journal did Alasinga edit with the encouragement of Swamiji?",
+    "options": [
+      "Vedanta kesari",
+      "Brahmavadin",
+      "Prabudha bharat",
+      "Hinduism"
+    ],
+    "correct_index": 1,
+    "difficulty": "medium"
+  },
+  {
+    "question": "When and where did Alasinga Perumal first meet Swami Vivekananda?",
+    "options": [
+      "May 1893 – Bombay",
+      "December 1892 -Mylapore",
+      "July 1891 – Madras Christian College",
+      "January 1895 – Colombo"
+    ],
+    "correct_index": 1,
+    "difficulty": "medium"
+  },
+  {
+    "question": "At whose house in Madras did Swami Vivekananda first meet Alasinga Perumal?",
+    "options": [
+      "Pachaiyappa",
+      "Manmathanath Bhattacharya",
+      "Jagmohan",
+      "Parthasarathy Iyengar"
+    ],
+    "correct_index": 1,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who was Govinda Chetti, whom Swami Vivekananda met in South India for the first time?",
+    "options": [
+      "A Ghost tamer",
+      "A priest",
+      "A sanskrit scholar",
+      "Professor"
+    ],
+    "correct_index": 0,
+    "difficulty": "medium"
+  },
+  {
+    "question": "How did the second meeting in Kumbakonam between Swami Vivekananda and Govind Chetti change his life?",
+    "options": [
+      "Made his psychic powers disappear and turned him toward God",
+      "Made him famous for miracle",
+      "Inspired him to preach in the West",
+      "Increased his interest in occult powers"
+    ],
+    "correct_index": 0,
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the motto of the Ramakrishna Order?",
+    "options": [
+      "Atmano mokshartham jagat hitaya cha",
+      "TatTvamasi",
+      "Aham brahmasmi",
+      "Sarve bhavantu sukhinah"
+    ],
+    "correct_index": 0,
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the meaning of the motto “Atmano mokshartham jagat hitaya cha”?",
+    "options": [
+      "Renounce life",
+      "For one’s own salvation and for the welfare of the world",
+      "Service only towards Personal God",
+      "Work for ones family and friends"
+    ],
+    "correct_index": 1,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who formulated the motto of the Ramakrishna Order?",
+    "options": [
+      "Swami Vivekanada",
+      "Swami Brahamanda",
+      "Holy Mother",
+      "Ramakrishna"
+    ],
+    "correct_index": 0,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which mantra appears on the emblem of the Ramakrishna Order?",
+    "options": [
+      "Aham brahmasmi",
+      "Sarve Bhavantu Sukhinah",
+      "TatTvamasi",
+      "Tanno Hamsah Prachodayat"
+    ],
+    "correct_index": 3,
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the meaning of the mantra “Tanno Hamsah Prachodayat”, which appears on the emblem of the Ramakrishna Order?",
+    "options": [
+      "May the sun rise every day and shower it's blessings on all of us",
+      "May the king protect the people",
+      "May the  Supreme Self [symbolized by] the Swan , awaken our [higher] understanding",
+      "May we achieve wealth and fame in this world as well in other worlds"
+    ],
+    "correct_index": 2,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who was the grandfather of Swami Vivekananda who renounced worldly life after the birth of his first son?",
+    "options": [
+      "Vishwanath Datta",
+      "Vidyasagar",
+      "Surendranath Datta",
+      "Durgaprasad  Datta"
+    ],
+    "correct_index": 3,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Where were the talks 'InspiredTalks' delivered by Swamiji?",
+    "options": [
+      "Chicago Parliament",
+      "Thousand Island Park",
+      "England",
+      "Belur"
+    ],
+    "correct_index": 1,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who recorded Swami Vivekananda’s talks at Thousand Island Park, which were later published as Inspired Talks?",
+    "options": [
+      "J.J.Goodwin",
+      "Ms Sarah Ellen Waldo",
+      "Sister Niveditta",
+      "Swami kripananda"
+    ],
+    "correct_index": 1,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which was the birthplace of Swami Vivekananda’s guru, Shri Ramakrishna Paramahamsa?",
+    "options": [
+      "Kamarapukur",
+      "Calcutta",
+      "Jayarambati",
+      "Jaganath Puri"
+    ],
+    "correct_index": 0,
+    "difficulty": "medium"
+  },
+  {
+    "question": "At whose place did Narendranath Datta (Swami Vivekananda) first meet Sri Ramakrishna Paramahamsa?",
+    "options": [
+      "Ramakrishna house",
+      "Master mahasya",
+      "Surendranath Mitra",
+      "Ramachandra Datta"
+    ],
+    "correct_index": 2,
+    "difficulty": "medium"
+  },
+  {
+    "question": "When questioned by Premananda Maharaj about the purpose of studying Vedanta, what did Swami Vivekananda reply?",
+    "options": [
+      "It will destroy poverty",
+      "It will end slavery",
+      "It will promote ritualistic worship",
+      "It will kill superstition"
+    ],
+    "correct_index": 3,
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the meaning of 'Prabuddha Bharata'?",
+    "options": [
+      "Awakened India",
+      "Spiritual India",
+      "Modern India",
+      "Free India"
+    ],
+    "correct_index": 0,
+    "difficulty": "medium"
+  },
+  {
+    "question": "What was the name of the Bengali journal started by Swami Vivekananda?",
+    "options": [
+      "Prabuddha Bharata",
+      "Brahmavadin",
+      "Vedanta Kesari",
+      "Udbodhan"
+    ],
+    "correct_index": 3,
+    "difficulty": "medium"
+  },
+  {
+    "question": "How did Josephine MacLeod describe her relationship with Swami Vivekananda?",
+    "options": [
+      "As his student",
+      "As his guardian",
+      "As his disciple",
+      "As Swamiji's friend"
+    ],
+    "correct_index": 3,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who did Swami Vivekananda affectionately call “Mother Church” and “Father Pope” during his stay in Chicago?",
+    "options": [
+      "Mrs. Hale and Mr. Hale",
+      "Mr and Mrs Betty",
+      "Margaret Noble and Mr. Hale",
+      "None"
+    ],
+    "correct_index": 0,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who was the inspiration and guiding force behind the English magazine Prabuddha Bharata?",
+    "options": [
+      "Swami Vivekananda",
+      "Swami turiyananda",
+      "Swami Brahmananda",
+      "Swami advaitananda"
+    ],
+    "correct_index": 0,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which couple built a cottage on their estate in Stone Ridge, NY, to host visiting monks of Swami Vivekananda?",
+    "options": [
+      "Mr. and Mrs. MacLeod",
+      "Mr and Mrs Williams",
+      "Mr. and Mrs. Leggett",
+      "Mr and Mrs Hale"
+    ],
+    "correct_index": 2,
+    "difficulty": "medium"
+  },
+  {
+    "question": "What did Swami Vivekananda teach the Bramahcharis on his last day at Belur Math?",
+    "options": [
+      "Raja Yoga",
+      "Sanskrit Grammar",
+      "Advaita",
+      "Bhakri Yoga"
+    ],
+    "correct_index": 1,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who examined Swami Vivekananda’s body at Belur Math and announced his death at midnight?",
+    "options": [
+      "Dr.Mahendranath Majumdar",
+      "Swami Brahmanda",
+      "Dr radhakrisha",
+      "Shri Shardananda"
+    ],
+    "correct_index": 0,
+    "difficulty": "medium"
+  },
+  {
+    "question": "What was the name of Swami Vivekananda’s dog at Belur Math?",
+    "options": [
+      "Bagha",
+      "Hamsi",
+      "Matru",
+      "Bobby"
+    ],
+    "correct_index": 0,
+    "difficulty": "medium"
+  },
+  {
+    "question": "What was the name of the kid (young goat) that Swamiji loved to play with and decorated with tiny bells?",
+    "options": [
+      "Bagha",
+      "Hamsi",
+      "bobby",
+      "Matru"
+    ],
+    "correct_index": 3,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which German-born teacher became one of Swami Vivekananda’s closest disciples and dedicated her life to education in India?",
+    "options": [
+      "Sister Christine",
+      "Sister Haridasi",
+      "Sister Devamata",
+      "Sister Niveditta"
+    ],
+    "correct_index": 0,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Complete the quote :' Books ar good but they are only...'",
+    "options": [
+      "Substitute",
+      "Maps",
+      "Stand-by",
+      "Mirror"
+    ],
+    "correct_index": 1,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Almost all our suffering is caused by not having the power of",
+    "options": [
+      "Education",
+      "Money",
+      "Detachment",
+      "Attachment"
+    ],
+    "correct_index": 2,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Truth will never come to us so long as there will remain the faintest shadow of____",
+    "options": [
+      "Selflessness",
+      "Ahamkara(egotism)",
+      "Humility",
+      "Diffidence"
+    ],
+    "correct_index": 1,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who was the first female disciple of Swamiji?",
+    "options": [
+      "Christine",
+      "Josephine",
+      "Indumati Mitra",
+      "Sister Niveditta"
+    ],
+    "correct_index": 2,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which was the first householder couple to be initiated by Swami Vivekananda?",
+    "options": [
+      "Haripada Mitra and Indumati Mitra",
+      "Mahendranath Gupta and Nikunjadevi",
+      "Balaram Bose and Krishnabhavini Devi",
+      "Captain James Henry Sevier and Charlotte Sevier"
+    ],
+    "correct_index": 0,
+    "difficulty": "medium"
+  },
+  {
+    "question": "As a Parivarjak Sanyasin where was Swami Vivekananda held by the Vamacharis(degenerate gp of sex- worshippers)?",
+    "options": [
+      "Baroda",
+      "Kerala",
+      "Limbdi",
+      "Himalyas"
+    ],
+    "correct_index": 2,
+    "difficulty": "medium"
+  },
+  {
+    "question": "When and where was the first householder couple—Haripada Mitra and Indumati Mitra—initiated by Swami Vivekananda?",
+    "options": [
+      "31st March 1890,Calcitta",
+      "25th October 1892,Belgaum",
+      "28th Jan 1892,Madras",
+      "12Jan 1900,Mumbai"
+    ],
+    "correct_index": 1,
+    "difficulty": "medium"
+  },
+  {
+    "question": "By Whom and Why was  Swamiji held captive in Limbdi?",
+    "options": [
+      "By local people to solve their issues",
+      "By sadhus for psychic powers",
+      "By dacoits for money",
+      "By Britishers for gaining information"
+    ],
+    "correct_index": 1,
+    "difficulty": "medium"
+  },
+  {
+    "question": "As a captive in Limbdi, through whom and to whom did Swami Vivekananda send a message for help?",
+    "options": [
+      "Through a devotee boy to Thakore saheb, Prince of the state",
+      "Through a villager to his brother monk",
+      "Through a sadhu to king Mangal Singh",
+      "Through the caretaker to Raja of Khetri"
+    ],
+    "correct_index": 0,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who, following Swami Vivekananda’s directions, drew the plan for the Ramakrishna Temple at Belur Math?",
+    "options": [
+      "Swami Vivekananda",
+      "Swami Vijnanananda",
+      "A British architect",
+      "Swami Shivananda"
+    ],
+    "correct_index": 1,
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the significance of the Belur Math temple architecture?",
+    "options": [
+      "Shows Islamic influence",
+      "Shows Hindu supremacy",
+      "Symbolizes harmony of all religions",
+      "Shows Christian influence"
+    ],
+    "correct_index": 2,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which two American devotees contributed generously to the construction of the Ramakrishna Temple at Belur Math?",
+    "options": [
+      "Sister Christine and Sister Devamata",
+      "Miss Helen Rubel (Bhakti) and Mrs. Anna Worcester (Annapurna)",
+      "Indumati and Ramaa",
+      "Sister Niveditta and Jospheine"
+    ],
+    "correct_index": 1,
+    "difficulty": "medium"
+  },
+  {
+    "question": "According to Swami Vivekananda in “The Women of India,” What is the ideal of womanhood in the East?",
+    "options": [
+      "Mother",
+      "Sister",
+      "Wife",
+      "Daughter"
+    ],
+    "correct_index": 0,
+    "difficulty": "medium"
+  },
+  {
+    "question": "How many letters of Swami Vivekananda have been compiled into a four-volume set?",
+    "options": [
+      "775",
+      "815",
+      "650",
+      "1000"
+    ],
+    "correct_index": 1,
+    "difficulty": "medium"
+  },
+  {
+    "question": "In which year did Swami Vivekananda’s mother, Bhuvaneshwari Devi, pass away?",
+    "options": [
+      "1902",
+      "1910",
+      "1900",
+      "1911"
+    ],
+    "correct_index": 3,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who said, “If you want to know India, study Vivekananda”?",
+    "options": [
+      "Swami Brahmananda",
+      "Sister Nivedita",
+      "Mahatma Gandhi",
+      "Rabindranath Tagore"
+    ],
+    "correct_index": 3,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who fed cucumber to  Swami Vivekananda on his way to Almora when he was exhausted during his wandering days?",
+    "options": [
+      "An Aghori Baba",
+      "A fakir named  Zulfikar Ali",
+      "Kambli Baba",
+      "A fakir named Mustafa Ali"
+    ],
+    "correct_index": 1,
+    "difficulty": "medium"
+  },
+  {
+    "question": "When was the Vivekananda Resting Hall built at the spot where the fakir had fed Swami Vivekananda?",
+    "options": [
+      "1945",
+      "1902",
+      "1972",
+      "1971"
+    ],
+    "correct_index": 3,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who built the Vivekananda Resting Hall at the spot where the fakir had fed Swami Vivekananda cucumber?",
+    "options": [
+      "Mr and Mrs Mitra",
+      "Mr and Mrs Sevier",
+      "Mr and Mrs Boshi Sen",
+      "Mr and Mrs Legget"
+    ],
+    "correct_index": 2,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who was Max Müller?",
+    "options": [
+      "A German-born philologist and scholar of Indian texts",
+      "A British army officer",
+      "An American politician",
+      "A French painter"
+    ],
+    "correct_index": 0,
+    "difficulty": "medium"
+  },
+  {
+    "question": "In which year did Swami Vivekananda meet Max Müller in England?",
+    "options": [
+      "1896",
+      "1900",
+      "1863",
+      "1888"
+    ],
+    "correct_index": 0,
+    "difficulty": "medium"
+  },
+  {
+    "question": "In Meerut, a librarian tested young Swamiji on the contents of certain books. Whose books were they?",
+    "options": [
+      "Charle Dickens",
+      "William Wordsworth",
+      "William Shakespeare",
+      "Sir John Lubbock"
+    ],
+    "correct_index": 3,
+    "difficulty": "medium"
+  },
+  {
+    "question": "What did Swami Vivekananda say to the wealthy American financier John D. Rockefeller about his wealth?",
+    "options": [
+      "He should use it for himself",
+      "He should save it for future",
+      "He should use it to expand business",
+      "God gave him wealth to help and do good to others"
+    ],
+    "correct_index": 3,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Which book by Max Müller was written using the guidance and recollections of direct disciples of Ramakrishna?",
+    "options": [
+      "Gospel of Ramakrishna",
+      "Life of Holy trio",
+      "Kathamrith",
+      "Ramakrishna: His Life and Sayings"
+    ],
+    "correct_index": 3,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Where and when did Swami Vivekananda have his first spiritual experience?",
+    "options": [
+      "Chennai, 1885",
+      "Varanasi, 1881",
+      "Kolkata, 1875",
+      "Raipur, 1877"
+    ],
+    "correct_index": 3,
+    "difficulty": "medium"
+  },
+  {
+    "question": "What is the Vivekananda Rock Memorial?",
+    "options": [
+      "Memorial at Belur Math",
+      "Memorial at Mayavati",
+      "Memorial at Chicago",
+      "Memorial at Kanyakumari where Swami Vivekananda meditated"
+    ],
+    "correct_index": 3,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who was the main person responsible for initiating and completing the Vivekananda Rock Memorial at Kanyakumari?",
+    "options": [
+      "Sardar Vallabh Patel",
+      "Swami Brahmanda",
+      "Eknath Ranade",
+      "Mahatma Gandhi"
+    ],
+    "correct_index": 2,
+    "difficulty": "medium"
+  },
+  {
+    "question": "Who was Madame Calvé, who met Swami Vivekananda and overcame her personal sorrow through his guidance?",
+    "options": [
+      "Painter",
+      "Professor",
+      "Writer",
+      "Famous Opera singer"
+    ],
+    "correct_index": 3,
+    "difficulty": "medium"
+  },
+  {
+    "question": "In his maiden Chicago speech, Swami Vivekananda referred to communities that had found refuge in India. Which of the following did he mention?",
+    "options": [
+      "Jewish and Zoroastrian",
+      "Christian and Muslim",
+      "Buddhist and Jain",
+      "Greek and Roman"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which Sanskrit hymn, quoted by Swamiji at the Parliament of the World's Religions, contains the verse comparing different spiritual paths to rivers flowing into the ocean?",
+    "options": [
+      "Bhagavata Chapter 8 Verse 12",
+      "Sivatandava stotram",
+      "Sivamahimna Stotram",
+      "Katha Upanishad Chapter 2 Verse 6"
+    ],
+    "correct_index": 2,
+    "difficulty": "hard"
+  },
+  {
+    "question": "In his first Chicago speech, what did Swamiji say the beautiful Earth was already possessed of?",
+    "options": [
+      "Peace and Harmony",
+      "Sectarianism, bigotry and fanaticism",
+      "Knowledge and Wisdom",
+      "Wealth and Prosperity"
+    ],
+    "correct_index": 1,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Criticizing the  narrow-mindedness and religious exclusivism,Swamiji narrated the story of the ______.",
+    "options": [
+      "Tortoise and Hare",
+      "Lion in the net",
+      "Chasing Monkeys",
+      "Frog in the Well"
+    ],
+    "correct_index": 3,
+    "difficulty": "hard"
+  },
+  {
+    "question": "In the Paper on Hinduism, which three ancient religions did  Swamiji say have survived from prehistoric times?",
+    "options": [
+      "Hinduism, Buddhism & Jainism",
+      "Hinduism, Zoroastrianism & Judaism",
+      "Christianity, Islam & Hinduism",
+      "Judaism, Christianity & Islam"
+    ],
+    "correct_index": 1,
+    "difficulty": "hard"
+  },
+  {
+    "question": "According to Swamiji, what is the primary reason for the survival of Hinduism despite repeated shocks?",
+    "options": [
+      "Geographical isolation",
+      "Political power",
+      "Military strength",
+      "Its power of absorption and assimilation"
+    ],
+    "correct_index": 3,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hindus believe in the Vedas; primarily they refer to",
+    "options": [
+      "Philosophical theories codified by the Brahmins for societal regulation",
+      "Manuscripts of ancient scholars with fixed beginnings and endings",
+      "Mythological narratives and ritual instructions preserved in Sanskrit",
+      "The accumulated treasury of spiritual truths"
+    ],
+    "correct_index": 3,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Bhagavad Gita is quoted by Swamiji, “Whosoever comes to Me, through whatsoever form, I reach him”? Identity the Verse",
+    "options": [
+      "Bhagavad Gita Chapter 3 Verse 3",
+      "Bhagavad Gita Chapter 7 Verse 11",
+      "Bhagavad Gita Chapter 18 Verse 3",
+      "Bhagavad Gita Chapter 4 Verse 11"
+    ],
+    "correct_index": 3,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which Bhagavad Gita verse describes the soul as: 'Him the sword cannot pierce; Him the fire cannot burn...'?",
+    "options": [
+      "BG Chapter 2 Verse 23",
+      "BG Chapter 2 Verse 24",
+      "BG Chapter 3 Verse 23",
+      "BG Chapter 2 Verse 25"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "In his 'Paper on Hinduism,' which Mahabharat character does Swamiji cite as the ideal of loving God for His own sake?",
+    "options": [
+      "Lord Krishna",
+      "Draupadi",
+      "Yudhishthira",
+      "Queen Kunti"
+    ],
+    "correct_index": 2,
+    "difficulty": "hard"
+  },
+  {
+    "question": "In which lecture did Swamiji  criticized Christian missionaries for prioritizing conversions over helping the starving?",
+    "options": [
+      "Why We Disagree",
+      "Paper on Hinduism",
+      "Response to Welcome",
+      "Religion is not the crying need of the East"
+    ],
+    "correct_index": 3,
+    "difficulty": "hard"
+  },
+  {
+    "question": "In one of his Chicago lectures, Swami Vivekananda refers to Śākyamuni. Who is he referring to?",
+    "options": [
+      "Kanaada Muni",
+      "Madhav Muni",
+      "Kapil Muni",
+      "Gautama buddha"
+    ],
+    "correct_index": 3,
+    "difficulty": "hard"
+  },
+  {
+    "question": "In one of his talks, Swamiji points out that Jesus Christ was misunderstood by the older generation, while Śākyamuni was misunderstood by_____",
+    "options": [
+      "His family",
+      "Disciples",
+      "Community",
+      "Teacher (Guru)"
+    ],
+    "correct_index": 1,
+    "difficulty": "hard"
+  },
+  {
+    "question": "According to Swamiji's final address, what did he call an impossible hope in the pursuit of religious unity?",
+    "options": [
+      "The mutual respect",
+      "The harmony of Religions",
+      "The conversion of one religion by destroying others",
+      "None of them"
+    ],
+    "correct_index": 2,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Swami Vivekananda declared:\n“Help and not Fight; Assimilation and not Destruction; ____.”\nWhich phrase correctly completes this message?",
+    "options": [
+      "Harmony and Peace and not Dissension",
+      "Toleration and not Violence",
+      "Uniformity and not Diversity",
+      "Reasoning and not Misunderstanding"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the central philosophical claim of the statement:\n“So long as there is a cry… there shall be a faith in God”?",
+    "options": [
+      "Faith in God arises from social conformity and tradition",
+      "Faith in God arises from human existential need",
+      "Faith in God arises from rituals",
+      "Faith in God arises from philosophical study"
+    ],
+    "correct_index": 1,
+    "difficulty": "hard"
+  },
+  {
+    "question": "In his talk ‘Future of India', Swamiji emphasizes that the secret of a society is being of one mind and not quarreling. Which Ṛg Vedic verse does he quote to illustrate this?",
+    "options": [
+      "Tat Tvam Asi",
+      "Yato Dharmastato Jayah",
+      "Asato Ma Sadgamaya…",
+      "Sangchadhvam Samvadadhavam..."
+    ],
+    "correct_index": 3,
+    "difficulty": "hard"
+  },
+  {
+    "question": "When and Where was the first public lecture in the East delivered by Swamiji?",
+    "options": [
+      "Jan 15,1897, Colombo",
+      "Jan 18,1897, Colombo",
+      "Jan 16,1897, Jaffana",
+      "Jan 15,1898, Madras"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Who said, 'Study of Upanishad is the solace of my life, it will be the solace of my death'?",
+    "options": [
+      "John Stuart mill,UK",
+      "Friedrich Nietzsche,German Philosopher",
+      "German Philosopher Schopenhauer",
+      "William James ,USA"
+    ],
+    "correct_index": 2,
+    "difficulty": "hard"
+  },
+  {
+    "question": "In his Colombo lecture, Swamiji stated hat Hinduism was never preached with 'Fire and sword,' but through ___.",
+    "options": [
+      "Silence",
+      "Political Authority",
+      "Fascination",
+      "Ritual Sacrifices"
+    ],
+    "correct_index": 2,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Swami Vivekananda states that Hindu scriptures make a distinction between how many sets of truths?",
+    "options": [
+      "Two",
+      "Three",
+      "Infinte",
+      "One"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Swamiji often quoted, “Truth is One; Sages call it by many names.” Select the correct Sanskrit original for this statement.",
+    "options": [
+      "एकं सद् विप्रा बहुधा वदन्ति",
+      "एकम् सद् विप्रा बहुधा वदन्ति",
+      "एकं सत् विप्रा बहुधा वदन्ति",
+      "एकं सद् विप्रा: बहुधा वदति"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "In his Jaffna lecture, Swamiji said the word “Hindu” had lost its meaning. Which term did he prefer instead?",
+    "options": [
+      "Santana Dharminah",
+      "Indians",
+      "Bharatiya",
+      "Vedantist, followers of Vedanta"
+    ],
+    "correct_index": 3,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Swamiji says 'Rishi' is defined as a 'Mantra‑drashtā'. Which of the following best captures the meaning of this term?",
+    "options": [
+      "A poet who composed creative hymns to worship forces of nature",
+      "Scholar who studies and interprets the Vedas through logic .",
+      "A priest who performs sacrifices with mantras",
+      "A Seer who directly perceives Eternal Truths"
+    ],
+    "correct_index": 3,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Purāṇas are defined by how many characteristics?",
+    "options": [
+      "Dvi-lakṣaṇa (2)",
+      "Panchalakṣaṇa (5)",
+      "Shad-lakshna (6)",
+      "Astalakshna(8)"
+    ],
+    "correct_index": 1,
+    "difficulty": "hard"
+  },
+  {
+    "question": "In his Vedantism lecture, which Gita verse is Swamiji alluding to when he says: \"If I remain at rest for one moment, the universe will collapse'\"?",
+    "options": [
+      "Chapter 3 Verse 24",
+      "Chapter 3 Verse 26",
+      "Chapter 4 Verse 24",
+      "Chapter 2  Verse 2"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "The difference is not in the soul, but in the ______.",
+    "options": [
+      "Genes",
+      "Environment",
+      "Manifestation",
+      "none"
+    ],
+    "correct_index": 2,
+    "difficulty": "hard"
+  },
+  {
+    "question": "System of ethics is possible  only through the ideal of the",
+    "options": [
+      "Divine command",
+      "Personal God",
+      "Impersonal God",
+      "Law"
+    ],
+    "correct_index": 2,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Your way  is very good for you but not for me. My way is good for me but not for you.This is Theory of  ___",
+    "options": [
+      "Ishta",
+      "Advaiata",
+      "Both B and C",
+      "Karma"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Vyasa says the highest of gifts is the Giving  of  _____",
+    "options": [
+      "Spiritual Knoweldge",
+      "Secular Knoweldge",
+      "Life",
+      "Wealth"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Swamiji warns that if one wants to do great work, one must guard against which of the six enemies of the mind (shadripu)?",
+    "options": [
+      "Jealousy",
+      "Lust",
+      "Anger",
+      "Greed"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Swamiji identifies two great obstacles on India’s path. Which of the following pairs correctly name both obstacles?",
+    "options": [
+      "Old orthodoxy and Modern Europeanised Civilisation",
+      "Political Subjugation and Industrial Growth",
+      "Geographical Isolation  and Lack of Natural Resources",
+      "Religious Diversity and Linguistic Differences"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "According to Swami Vivekananda  who is responsible for protecting the treasury of religion in India?",
+    "options": [
+      "Every child who is born in this land",
+      "Sanskrit Scholars",
+      "Brahmin",
+      "Only men"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Swamiji's idea of 'work for work’s sake' alludes to which Gita verse?",
+    "options": [
+      "Chapter 3 Verse 46",
+      "Chapter 3 Verse 47",
+      "Chapter 2 Verse 47",
+      "Chapter 2 Verse 46"
+    ],
+    "correct_index": 2,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Swamiji says that in the world, two attempts were made to form social life. Which are they?",
+    "options": [
+      "One based on Monarchy and Democratic Socialism",
+      "Linguistic Unity and Geographical Boundaries",
+      "One is based upon Spirituality and the other on Materialism",
+      "One based on Industrial Urbanization and other on Rural Agricultureal Traditions"
+    ],
+    "correct_index": 2,
+    "difficulty": "hard"
+  },
+  {
+    "question": "In Swamiji’s opinion, one of the primary reasons for the ruined state of his countrymen was ______",
+    "options": [
+      "Poverty",
+      "Lack of Education",
+      "Don't touchism",
+      "Rituals"
+    ],
+    "correct_index": 2,
+    "difficulty": "hard"
+  },
+  {
+    "question": "तीर्णाः स्वयं भीम भवार्णवं जनान् अहेतुनान्यानपि तारयन्त :  Swamiji quotes this verse to describe",
+    "options": [
+      "Guru",
+      "Disciple",
+      "Nature",
+      "Rebirth"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "According to Swami Vivekananda, India’s destiny has been to",
+    "options": [
+      "Lead the World in Industrial Sector",
+      "Achieve Military Dominace",
+      "Export Spices",
+      "Supply of Spirituality to the World"
+    ],
+    "correct_index": 3,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Swamiji  said that  his work was the fourth time India’s spirituality was spread to the world. Which of the following sequences is correct?",
+    "options": [
+      "Greek → Roman → Persian → English (Swamiji)",
+      "Before Persian → During Persian → Greek → English (Swamiji)",
+      "Ancient → Medieval→ Greek → English (Swamiji)",
+      "Vedic→ Buddhist → Mughal → British(Swamiji)"
+    ],
+    "correct_index": 1,
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the greatest mistake done by ignorant people?",
+    "options": [
+      "Is to think Indians to be unscientific",
+      "Is to think Indians to be nature fearing",
+      "Is  to think local customs as the essence of our religion",
+      "Is to think Indians to be illogical"
+    ],
+    "correct_index": 2,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Swamiji observed that many commentators \"torture\" a text to fit their own philosophy.What is the technical term for this?",
+    "options": [
+      "Exegesis",
+      "Etymology",
+      "Eisegesis",
+      "Synthesis"
+    ],
+    "correct_index": 2,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Swamiji found in his own life the truth of a Gita teaching: that even a small amount of sincere spiritual work produces great results. Which verse is he alluding to?",
+    "options": [
+      "Chapter 2 Verse 42",
+      "Chapter 2 Verse 40",
+      "Chapter 2 Verse 43",
+      "Chapter 3  Verse 40"
+    ],
+    "correct_index": 1,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Swami Vivekananda said that to work effectively, one must act along the line of least resistance, which is that line in India:",
+    "options": [
+      "Political Reforms",
+      "Social Activism",
+      "Religion line",
+      "Modern Education"
+    ],
+    "correct_index": 2,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Swamiji said that Vedanta can be the universal religion of man because it is based on:",
+    "options": [
+      "Eternal Principles",
+      "Personal Belief System",
+      "Avataar",
+      "Single written Holy Book"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "सर्वं वस्तु भयान्वित भुवि नृणां वैराग्यमेवमियम् .(Everything in this life is fraught with fear. It is renunciation alone that makes one fearless.) Identify the source of this Sanskrit verse.",
+    "options": [
+      "Manusmriti",
+      "Vairagya Shatakam by Bhartrihari",
+      "Patanjali Yoga Sutras",
+      "Niti Shatakam"
+    ],
+    "correct_index": 1,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Swamiji's famous call , \"Arise, awake,  and stop not till the goal is reached,\" was inspired by which Upanishad?",
+    "options": [
+      "Kena Upanishad",
+      "Mundaka Upanishad",
+      "Mandukya Upanishad",
+      "Kathopanishad"
+    ],
+    "correct_index": 3,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Swamiji quotes this mantra ' नायमात्मा प्रवचनेन लभ्यो न मेधया न बहुना श्रुतेन ', to emphasize that the  Atman is to be realised through",
+    "options": [
+      "Academic study of scriptures",
+      "Talks and Lectures",
+      "Performances of Yagas",
+      "A Realised Guru"
+    ],
+    "correct_index": 3,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Swamiji says the ideal Brahmin is the one who has Brahmin-ness in him. This means",
+    "options": [
+      "One with command over Sanskrit language",
+      "Expert in the Karmakanda portion",
+      "Total absence of Worldliness and Abundant Wisdom",
+      "Who takes care of cows"
+    ],
+    "correct_index": 2,
+    "difficulty": "hard"
+  },
+  {
+    "question": "In 'My Plan of Campaign', why does Swamiji explicitly say that he plans to follow the great ancient masters rather than the contemporary reformist methods?",
+    "options": [
+      "To prioritise political independence",
+      "To isolate India from all foreign influences",
+      "To focus on both Personal Salvation and Service to Humanity",
+      "To focus on Legal Reforms"
+    ],
+    "correct_index": 2,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Finding the ultimate unity of things is the theme of the Upanishads. From which Upanishad does Swamiji quote  a mantra  to illustrate this?",
+    "options": [
+      "Mundaka Upanishad,1.1.4",
+      "Mandukya Upanishad 1.1.3",
+      "Mandukya  Upanishad 1.1.4",
+      "Mundaka Upanishad,1.1.3"
+    ],
+    "correct_index": 3,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which is the word Swamiji says is found only  in Upanishads?",
+    "options": [
+      "Dharma",
+      "Abhih (अभी: )",
+      "Karma",
+      "Bhi( भीः )"
+    ],
+    "correct_index": 1,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Whom does Swamiji compare himself and his work to in Ramayan?",
+    "options": [
+      "The Squirrel that helped build the bridge to Lanka",
+      "Angada, the courageous messenger",
+      "Hanuman ,the tireless servant of Lord Rama",
+      "Jatayu who sacrificed himself"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Who is the specific individual Swamiji cited as the ultimate proof that idol  worship is justified?",
+    "options": [
+      "His guru Ramakrishna Paramhamsa",
+      "Ramanuja",
+      "Madhavacharya",
+      "Shankaracharya"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "न कर्मणा न प्रजया धनेन त्यागेनैके अमृतत्वमानशुः (3) । Which scripture does this verse belong to?",
+    "options": [
+      "Mundakopanishad",
+      "Kaivalya Upanishad",
+      "BG Chapter 3 Verse 23",
+      "Kathopanishad"
+    ],
+    "correct_index": 1,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Whose verse does Swamiji quote to describe a 'steady man' who refuses to swerve one step from the righteous path?",
+    "options": [
+      "Kalidas",
+      "Vedanatadesika",
+      "Bharavi",
+      "King Bhartrihari"
+    ],
+    "correct_index": 3,
+    "difficulty": "hard"
+  },
+  {
+    "question": "What has India, as a 'national ship,' been doing according to Swamiji?",
+    "options": [
+      "Carried Leaders",
+      "Ferried millions across the waters of life",
+      "Has stopped it's journey",
+      "Sailed without direction"
+    ],
+    "correct_index": 1,
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does Swamii say is the first step towards becoming a true patriot?",
+    "options": [
+      "Acquiring Good Post and Position",
+      "Focusing on the Study of Shastras",
+      "Feeling deeply for the people's suffering",
+      "Focuing on Intellectual Knowledge"
+    ],
+    "correct_index": 2,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Swamiji says modern reformers often focus on what?",
+    "options": [
+      "Practical Solution",
+      "Working Silently",
+      "Instant Results",
+      "Condemnation and Criticism"
+    ],
+    "correct_index": 3,
+    "difficulty": "hard"
+  },
+  {
+    "question": "According to Swamiji, caste in its true and ideal form is a division of duties and a _____",
+    "options": [
+      "Natural Social Grouping without Privileges",
+      "System Unnatural and should be Abolished",
+      "System of Social grouping with Priveleges",
+      "System in Puranas and must be followed"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "आहारशुद्धौ सत्त्वशुद्धि: सत्त्वशुध्दिः ध्रुवा स्मृतिः' । How does Shankara interpret the word Ahaaar(आहार)?",
+    "options": [
+      "Cooked food",
+      "Raw food",
+      "Thought collected in the mind",
+      "Both  A and B"
+    ],
+    "correct_index": 2,
+    "difficulty": "hard"
+  },
+  {
+    "question": "\"The sanskrit mantra ' न तत्र सूर्यो भाति....' is from Kath Upanishad. In which Veda does it appear?",
+    "options": [
+      "Krishna Yajur Veda",
+      "Shukla Yajur Veda",
+      "Sama Veda",
+      "Rig  Veda"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does the mantra  'न तत्र सूर्यो भाति......' illustrate?",
+    "options": [
+      "Galaxy",
+      "Cosmology",
+      "The indescribable nature of ultimate reality",
+      "Different other worlds"
+    ],
+    "correct_index": 2,
+    "difficulty": "hard"
+  },
+  {
+    "question": "In the Ramakrishna Arati, Swamiji uses  the words 'Jyotirajyoti' (Light of lights) to describe Him. In which Upanishads is this philosophical concept explained?",
+    "options": [
+      "Mundaka and Kathopanishad",
+      "Brhadaranayaka and Kathopanishad",
+      "Mandukya and Mundaka",
+      "Brhadaranayaka and Mundaka"
+    ],
+    "correct_index": 1,
+    "difficulty": "hard"
+  },
+  {
+    "question": "The ground of Dualism, Qualified monism and Advaitism is covered by which word?",
+    "options": [
+      "Advaita",
+      "Vishastadvaita",
+      "Vedanta",
+      "Dwaita"
+    ],
+    "correct_index": 2,
+    "difficulty": "hard"
+  },
+  {
+    "question": "The 'two birds on one tree'  mentioned by Swamiji - 'द्वा सुपर्णा सयुजा सखाया समान वृक्ष परिषस्वजाते....' belongs to Mundaka Upanishad. It is a  dialogue between whom?",
+    "options": [
+      "Yajnavalkya and Maitreyi",
+      "Angiras and Shaunka",
+      "Uddalaka Aruni and Shvetaketu",
+      "Yama and Nachiketa"
+    ],
+    "correct_index": 1,
+    "difficulty": "hard"
+  },
+  {
+    "question": "How many shakhas (branches) did Sama Veda originally have, and how many are extant (surviving) today?",
+    "options": [
+      "Traditionally 100; 3 extant",
+      "Traditionally 500; 6 extant",
+      "Traditionally 10; 3 extant",
+      "Traditionally 1000; 3 extant"
+    ],
+    "correct_index": 3,
+    "difficulty": "hard"
+  },
+  {
+    "question": "यस्त्वात्मरतिरेव स्यादात्मतृप्तश्च मानवः।आत्मन्येव च सन्तुष्टस्तस्य कार्यं न विद्यते॥BG 3.17. What is the  name of this chapter?",
+    "options": [
+      "Karma Yoga",
+      "Sankhya Yoga",
+      "Dhanya Yoga",
+      "Bhakti Yoga"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Freedom, physical freedom, mental freedom and spiritual freedom are the watchwords of",
+    "options": [
+      "Brahmanas",
+      "Samhitas",
+      "The Upanishads",
+      "Aryanakas"
+    ],
+    "correct_index": 2,
+    "difficulty": "hard"
+  },
+  {
+    "question": "In which ancient Indian text is the story of Queen Madalasa primarily recorded?",
+    "options": [
+      "Markandeya Purana",
+      "Brahmanda Purana",
+      "Garuda Purana",
+      "Vishnu Purana"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Who is the queen famously quoted by Swamiji for singing a cradle song, 'Thou art the Pure One'?",
+    "options": [
+      "Queen Madalasa",
+      "Queen Kunti",
+      "Queen Gargi",
+      "Queen Draupadi"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which Kathopanishad character did Swamiji champion as a model of Shraddha?",
+    "options": [
+      "Lord Yama",
+      "Vajashravas",
+      "Nachiketa",
+      "Sage Katha"
+    ],
+    "correct_index": 2,
+    "difficulty": "hard"
+  },
+  {
+    "question": "According to Swamiji, who is the only one to have provided the authoritative commentary on the Vedas?",
+    "options": [
+      "Lord Krishna",
+      "Bhagavadpada Shankara",
+      "Vallabhacharya",
+      "Shri Chaitnya Mahaprabhu"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "आहारशुद्धौ सत्त्वशुद्धि :  सत्त्वशुध्दिः ध्रुवा स्मृतिः  - in this mantra Ramanujacharya intetprets आहार as",
+    "options": [
+      "Thoughts of the mind",
+      "impure thoughts",
+      "Food",
+      "Food and thoughts"
+    ],
+    "correct_index": 2,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Where did Swamiji experience the spiritual oneness of the microcosm and the macrocosm",
+    "options": [
+      "Triveni Ghat",
+      "Kakrighat",
+      "Dakshineswar Ghat",
+      "Assi Ghat"
+    ],
+    "correct_index": 1,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which sage is described by Swamiji as having great intellect but not an equally great heart?",
+    "options": [
+      "Shri Ramauja",
+      "Bhagavadpad Shankara",
+      "Totakacharya",
+      "Saint Kabir"
+    ],
+    "correct_index": 1,
+    "difficulty": "hard"
+  },
+  {
+    "question": "In which Valli (chapter) of the Taittiriya Upanishad does the mantra  'यतो वाचो निवर्तन्ते अप्राप्य मनसा सह।' appear?",
+    "options": [
+      "Brahmananda Valli",
+      "Bhrigu Valli",
+      "Prashna Valli",
+      "Shiksha Valli"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Who made devotion more inclusive?",
+    "options": [
+      "None",
+      "Shankara",
+      "Ramanuja",
+      "Charvakas"
+    ],
+    "correct_index": 2,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Who boldly declared that 'Rishihood' is the common property of all?",
+    "options": [
+      "Kautilya",
+      "Manu",
+      "Vatsyayana",
+      "Valmiki"
+    ],
+    "correct_index": 2,
+    "difficulty": "hard"
+  },
+  {
+    "question": "In the Kena Upanishad, this mantra(1.3) “न तत्र चक्षुर्गच्छति न वाग्गच्छति नो मनः…” is presented as a dialogue between whom?",
+    "options": [
+      "Teacher and student(Guru and Shishya).",
+      "God and devotee",
+      "Father and son",
+      "Husband and wife"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Who was the Indian prince who translated the Upanishads into Persian?",
+    "options": [
+      "Schopenhauer",
+      "Dara -Shuko",
+      "Deussen",
+      "Philosopher Kant"
+    ],
+    "correct_index": 1,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Mahavakya Tat Tvam Asi (Thou art that) is from?",
+    "options": [
+      "Chandogya Upanishad",
+      "Aitriya Upanishad",
+      "Isha Upanishad",
+      "Taittriya Upanishad"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "How many times is the Mahavakya 'Tat Tvam Asi' epeated in the Chandogya Upanishad?",
+    "options": [
+      "Nine times",
+      "Eight times",
+      "Six times",
+      "One time"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which father-son duo is associated with the teaching of ' Tat Tvam Asi'?",
+    "options": [
+      "Krishna and Arjun",
+      "Sukadeva and king Parikshit",
+      "Suta Goswami and Saunka rishi",
+      "Uddalaka Aruni and Shvetaketu"
+    ],
+    "correct_index": 3,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Swamiji believes that it is better to be a 'rank atheist' than --",
+    "options": [
+      "A rank superstitious fool",
+      "A rank  religious hypocrite",
+      "A rank materialist",
+      "A rank  ignorant scholar"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "निमित्तमप्रयोजकं प्रकृतीनां वरणभेदस्तु तः क्षेत्रिकवत्-  Swamiji quotes this Patanjali sutra to explain:",
+    "options": [
+      "The necessity of external guidance for agricultural land",
+      "Creation of the soul be divine intervention",
+      "The evolution of one species into another",
+      "The already present purity and the greatness of the soul"
+    ],
+    "correct_index": 3,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which Persian Sufi poet's composition did Swamiji quote to explain the Gopis' love?",
+    "options": [
+      "Omar Khayyam",
+      "Jalal -ud-din Rumi",
+      "Hafiz of Shiraz",
+      "Saadi Shirazi"
+    ],
+    "correct_index": 1,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Swamiji says the 'very sound' of Sanskrit words provides to a race:",
+    "options": [
+      "Prestige, Power and Strength",
+      "Pride",
+      "Good pronunciation",
+      "Intellectual  clarity"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "According to Swamiji,  what was the positive outcome of both Mughul and British rule in India?",
+    "options": [
+      "The destruction of exclusive privelege",
+      "The rapid industrialization",
+      "The improvement in the infrastructure",
+      "The strong administrative sevices"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "According to Swamiji, what is  the first step towards achieving Chittasuddhi (purification of the heart)?",
+    "options": [
+      "Physical penance",
+      "Constant chanting of holy names",
+      "Study of Vedas",
+      "The worship of the Virat"
+    ],
+    "correct_index": 3,
+    "difficulty": "hard"
+  },
+  {
+    "question": "According to Swami Vivekananda, why do the scriptures of Christianity and Buddhism fall into the category of Puranas?",
+    "options": [
+      "Because they are based on the history of individuals",
+      "Because they are based on principles",
+      "Because they are complicated",
+      "Because they are eternal"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "While referring to Chaitanya Mahaprabhu, Swamiji mentions Madhva Muni. Who is he?",
+    "options": [
+      "His direct Guru",
+      "His disciple",
+      "He was Chaitnya Mahaprabhu's Grand- Guru.",
+      "His father"
+    ],
+    "correct_index": 2,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Regarding the nature of the soul, what are the respective views of Ramanuja and Adi Shankara?",
+    "options": [
+      "Ramanuja: asat | Shankara: sat",
+      "Ramanuja: Anu (Atom)| Shankara: Vibhu(infinite)",
+      "Ramanuja: anityan| Shankara: nityam",
+      "Ramanuja: Vibhu | Shankara: Anu"
+    ],
+    "correct_index": 1,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Those who did not believe in Mayavada called Adi Shankara a:",
+    "options": [
+      "Mayavadi",
+      "Prachchhanna Bauddha",
+      "Sunyawadi",
+      "Ishwarvadi"
+    ],
+    "correct_index": 1,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Whose ancient (and now lost) commentary did Ramanuja follow as the authority for the  Sri Bhashya?",
+    "options": [
+      "Vachaspati Mishra",
+      "Sayanacharya",
+      "Bhagavan  Bodhayana",
+      "Dramidacharya"
+    ],
+    "correct_index": 2,
+    "difficulty": "hard"
+  },
+  {
+    "question": "According to Swamiji, the greatest name in the history of India in psychological and philosophical lines is:",
+    "options": [
+      "Kanada Muni",
+      "Gangeshopadhaye",
+      "Gemini Rishi",
+      "Kapila Muni"
+    ],
+    "correct_index": 3,
+    "difficulty": "hard"
+  },
+  {
+    "question": "The Allopanishad, which Swamiji  mentions as being written to bridge the gap between Hindus and Muslims, was composed during the reign of:",
+    "options": [
+      "King Akbar",
+      "Aurangzeb",
+      "Bahadur Shah Zafar",
+      "Shah Jahan"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which Hymn of Creation does Swamiji quote when he says, \"तम आसीत् तमसा गूढमग्रे\" (Darkness was hidden by darkness)?",
+    "options": [
+      "Nasadiya Suktam",
+      "Narayana Suktam",
+      "Durga Suktam",
+      "Medha Suktam"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  },
+  {
+    "question": "The mantra  'तमेवैकं जानथ आत्मानमन्या वाचो विमुञ्चथ '। (Know Him alone as the one Self and give up all other talk) belongs to which Upanishad and which Veda?",
+    "options": [
+      "Mundukya Upanishad Verse 2.2.5 - Sama Veda",
+      "Mundaka Upanishad Verse 2.2.6 - Atharva Veda",
+      "Mundaka Upanishad Verse 2.2.5 - Atharva Veda",
+      "Prashnopanishad Verse 2.2.5 - Atharva Veda"
+    ],
+    "correct_index": 2,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which is the holy book of the Buddhists?",
+    "options": [
+      "Tanakh",
+      "Tripitaka",
+      "Tai Te ching",
+      "Torah"
+    ],
+    "correct_index": 1,
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which is the holy book of the Parsees?",
+    "options": [
+      "Koran",
+      "Torah",
+      "Zend Avesta",
+      "Bible"
+    ],
+    "correct_index": 2,
+    "difficulty": "hard"
+  },
+  {
+    "question": "It is a glory and privelege that we are allowed to work at all under Him. To whom is Swamiji referring to?",
+    "options": [
+      "Sri Ramakrishna",
+      "Shiva",
+      "Krishna",
+      "Vishnu"
+    ],
+    "correct_index": 0,
+    "difficulty": "hard"
+  }
+]

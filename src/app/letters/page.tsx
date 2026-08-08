@@ -31,7 +31,7 @@ function LetterMeta({ label, value }: { label: string; value: string }) {
       <p className="text-[10px] uppercase tracking-[0.14em]" style={{ color: "rgba(90,64,24,0.62)", fontFamily: "var(--font-body)" }}>
         {label}
       </p>
-      <p className="text-sm" style={{ color: "#3E2C10", fontFamily: "var(--font-display)" }}>
+      <p className="text-sm" style={{ color: "#1A0900", fontFamily: "var(--font-display)", fontWeight: 700 }}>
         {value}
       </p>
     </div>
@@ -49,6 +49,15 @@ export default function LettersKioskPage() {
   const [current, setCurrent] = useState<number | null>(null);
   const [loading, setLoading] = useState(true);
   const containerRef = useRef<HTMLDivElement>(null);
+  const letterScrollRef = useRef<HTMLDivElement>(null);
+
+  // Reading view always opens at the top of the letter — without this, the
+  // scroll position from whatever was previously viewed (a longer letter,
+  // or mid-scroll on this one) carries over, so the title/letterhead/
+  // opening lines can be scrolled out of view before the visitor sees them.
+  useEffect(() => {
+    letterScrollRef.current?.scrollTo({ top: 0, behavior: 'auto' });
+  }, [current]);
 
   useEffect(() => {
     fetch("/api/letters/categories")
@@ -179,31 +188,34 @@ export default function LettersKioskPage() {
         </div>
 
         {/* Papyrus scroll area */}
-        <div className="absolute inset-0 flex items-center justify-center px-4 py-20 md:py-16 overflow-auto kiosk-scroll">
+        <div ref={letterScrollRef} className="absolute inset-0 flex items-start justify-center px-4 py-20 md:py-16 overflow-auto kiosk-scroll">
           <div
             className="relative w-full max-w-2xl animate-fade-in-up"
             style={{
-              borderRadius: 4,
-              boxShadow: '0 28px 70px rgba(0,0,0,0.6), 0 0 0 1px rgba(90,64,24,0.35)',
-              backgroundColor: '#E8D3A0',
-              backgroundImage: 'url(/images/letters/papyrus-tile.jpg)',
-              backgroundRepeat: 'repeat-y',
-              backgroundSize: '100% auto',
-              backgroundPosition: 'top center',
+              borderRadius: 3,
+              border: '1px solid #8B6914',
+              boxShadow: '0 22px 70px rgba(0,0,0,0.65), inset 0 0 90px rgba(0,0,0,0.07)',
+              backgroundColor: '#D9B87C',
+              backgroundImage: 'linear-gradient(to bottom, #EDDBA5 0%, #D9B87C 20%, #CCAA6A 65%, #D9B87C 100%)',
             }}
           >
-            {/* Worn-paper vignette */}
+            {/* Ruled lines */}
             <div className="absolute inset-0 pointer-events-none" style={{
-              borderRadius: 4,
-              boxShadow: 'inset 0 0 80px rgba(60,38,10,0.38), inset 0 0 3px rgba(60,38,10,0.5)',
-              background: 'radial-gradient(ellipse 90% 50% at 50% 0%, rgba(255,247,225,0.16), transparent 55%)',
+              borderRadius: 3,
+              backgroundImage: 'repeating-linear-gradient(0deg, transparent, transparent 31px, rgba(139,105,20,0.12) 31px, rgba(139,105,20,0.12) 32px)',
+            }} />
+
+            {/* Corner aging */}
+            <div className="absolute inset-0 pointer-events-none" style={{
+              borderRadius: 3,
+              background: 'radial-gradient(ellipse at 0% 100%, rgba(90,50,0,0.18) 0%, transparent 50%), radial-gradient(ellipse at 100% 0%, rgba(90,50,0,0.13) 0%, transparent 45%)',
             }} />
 
             {/* Quill & inkwell corner ornament */}
             <img src="/images/letters/papyrus-quill-corner.png" alt="" aria-hidden="true"
               className="absolute bottom-0 right-0 pointer-events-none select-none"
               style={{
-                width: '30%', maxWidth: 190, minWidth: 100, height: 'auto', opacity: 0.85,
+                width: '30%', maxWidth: 190, minWidth: 100, height: 'auto', opacity: 0.7,
                 maskImage: 'radial-gradient(circle at 78% 78%, black 40%, transparent 72%)',
                 WebkitMaskImage: 'radial-gradient(circle at 78% 78%, black 40%, transparent 72%)',
               }} />
@@ -217,7 +229,7 @@ export default function LettersKioskPage() {
               </div>
 
               {letter.title && (
-                <h1 className="text-2xl md:text-3xl mb-5 text-center" style={{ fontFamily: 'var(--font-display)', color: '#3E2C10', fontStyle: 'italic' }}>
+                <h1 className="text-2xl md:text-3xl mb-5 text-center" style={{ fontFamily: 'var(--font-display)', color: '#1A0900', fontStyle: 'italic', fontWeight: 700 }}>
                   {letter.title}
                 </h1>
               )}
@@ -233,13 +245,13 @@ export default function LettersKioskPage() {
                 </div>
               )}
 
-              <p className="whitespace-pre-wrap text-[1.05rem] md:text-[1.15rem] leading-[1.85]"
-                style={{ fontFamily: 'var(--font-display)', color: '#3E2C10' }}>
+              <p className="whitespace-pre-wrap text-[1.3rem] md:text-[1.45rem] leading-[1.95]"
+                style={{ fontFamily: "'Dancing Script', cursive", fontWeight: 600, color: '#1A0900' }}>
                 {letter.body}
               </p>
 
               {letter.sender && (
-                <p className="text-lg mt-8 text-right italic" style={{ fontFamily: 'var(--font-display)', color: '#3E2C10' }}>
+                <p className="text-2xl mt-8 text-right" style={{ fontFamily: "'Dancing Script', cursive", fontWeight: 700, color: '#1A0900' }}>
                   {letter.sender}
                 </p>
               )}
@@ -247,23 +259,17 @@ export default function LettersKioskPage() {
           </div>
         </div>
 
-        {/* Navigation */}
-        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-20 flex items-center gap-4">
-          <button onClick={goPrev} disabled={current <= 0} aria-label="Previous letter"
-            className="w-12 h-12 rounded-full flex items-center justify-center disabled:opacity-20 transition-all active:scale-95"
-            style={{ background: 'rgba(13,10,8,0.72)', color: 'var(--gold)', border: '1px solid var(--hairline)', backdropFilter: 'blur(10px)' }}>
-            <MuseumIcon name="arrowLeft" size={18} />
-          </button>
-          <span className="text-sm px-5 py-2.5 rounded-full italic"
-            style={{ fontFamily: 'var(--font-display)', color: 'var(--ink-muted)', background: 'rgba(13,10,8,0.72)', backdropFilter: 'blur(10px)', border: '1px solid var(--hairline)' }}>
-            {letter.title || `${t("letters.count")} ${current + 1}`}
-          </span>
-          <button onClick={goNext} disabled={current >= letters.length - 1} aria-label="Next letter"
-            className="w-12 h-12 rounded-full flex items-center justify-center disabled:opacity-20 transition-all active:scale-95"
-            style={{ background: 'linear-gradient(180deg, rgba(238,138,60,0.24), rgba(217,111,36,0.24))', color: 'var(--gold)', border: '1px solid var(--hairline-strong)', backdropFilter: 'blur(10px)' }}>
-            <MuseumIcon name="arrowRight" size={18} />
-          </button>
-        </div>
+        {/* Navigation — previous (left) / next (right) */}
+        <button onClick={goPrev} disabled={current <= 0} aria-label="Previous letter"
+          className="absolute bottom-6 left-4 z-20 w-12 h-12 rounded-full flex items-center justify-center disabled:opacity-20 transition-all active:scale-95"
+          style={{ background: 'rgba(13,10,8,0.72)', color: 'var(--gold)', border: '1px solid var(--hairline)', backdropFilter: 'blur(10px)' }}>
+          <MuseumIcon name="arrowLeft" size={18} />
+        </button>
+        <button onClick={goNext} disabled={current >= letters.length - 1} aria-label="Next letter"
+          className="absolute bottom-6 right-4 z-20 w-12 h-12 rounded-full flex items-center justify-center disabled:opacity-20 transition-all active:scale-95"
+          style={{ background: 'linear-gradient(180deg, rgba(238,138,60,0.24), rgba(217,111,36,0.24))', color: 'var(--gold)', border: '1px solid var(--hairline-strong)', backdropFilter: 'blur(10px)' }}>
+          <MuseumIcon name="arrowRight" size={18} />
+        </button>
       </div>
     );
   }

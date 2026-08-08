@@ -30,6 +30,7 @@ export async function POST(request: Request) {
     const body = await request.json();
     const {
       quiz_id,
+      question_type,
       question_en,
       question_kn,
       question_hi,
@@ -39,16 +40,25 @@ export async function POST(request: Request) {
       correct_answer,
       difficulty,
       sort_order,
+      image_url,
+      grid_size,
     } = body;
+
+    const isPuzzle = question_type === "puzzle";
 
     if (!quiz_id) {
       return errorResponse("quiz_id is required");
     }
-    if (!question_en) {
-      return errorResponse("question_en is required");
-    }
-    if (correct_answer === undefined || correct_answer === null) {
-      return errorResponse("correct_answer is required");
+    if (isPuzzle) {
+      if (!image_url) return errorResponse("image_url is required for puzzle questions");
+      if (![3, 4].includes(Number(grid_size))) return errorResponse("grid_size must be 3 or 4");
+    } else {
+      if (!question_en) {
+        return errorResponse("question_en is required");
+      }
+      if (correct_answer === undefined || correct_answer === null) {
+        return errorResponse("correct_answer is required");
+      }
     }
 
     // Verify quiz exists
@@ -62,19 +72,22 @@ export async function POST(request: Request) {
     }
 
     const result = await db.execute({
-      sql: `INSERT INTO questions (quiz_id, question_en, question_kn, question_hi, options_en, options_kn, options_hi, correct_answer, difficulty, sort_order)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+      sql: `INSERT INTO questions (quiz_id, question_en, question_kn, question_hi, options_en, options_kn, options_hi, correct_answer, difficulty, sort_order, question_type, image_url, grid_size)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
       args: [
         Number(quiz_id),
-        question_en,
-        question_kn || "",
-        question_hi || "",
-        normalizeOptions(options_en),
-        normalizeOptions(options_kn),
-        normalizeOptions(options_hi),
-        correct_answer,
-        difficulty || "medium",
+        isPuzzle ? "" : question_en,
+        isPuzzle ? "" : question_kn || "",
+        isPuzzle ? "" : question_hi || "",
+        isPuzzle ? "[]" : normalizeOptions(options_en),
+        isPuzzle ? "[]" : normalizeOptions(options_kn),
+        isPuzzle ? "[]" : normalizeOptions(options_hi),
+        isPuzzle ? 0 : correct_answer,
+        isPuzzle ? "" : difficulty || "medium",
         sort_order ?? 0,
+        isPuzzle ? "puzzle" : "mcq",
+        isPuzzle ? image_url : "",
+        isPuzzle ? Number(grid_size) : 0,
       ],
     });
 
@@ -98,6 +111,7 @@ export async function PUT(request: Request) {
     const body = await request.json();
     const {
       id,
+      question_type,
       question_en,
       question_kn,
       question_hi,
@@ -107,6 +121,8 @@ export async function PUT(request: Request) {
       correct_answer,
       difficulty,
       sort_order,
+      image_url,
+      grid_size,
     } = body;
 
     if (!id) {
@@ -127,7 +143,8 @@ export async function PUT(request: Request) {
       sql: `UPDATE questions
             SET question_en = ?, question_kn = ?, question_hi = ?,
                 options_en = ?, options_kn = ?, options_hi = ?,
-                correct_answer = ?, difficulty = ?, sort_order = ?
+                correct_answer = ?, difficulty = ?, sort_order = ?,
+                question_type = ?, image_url = ?, grid_size = ?
             WHERE id = ?`,
       args: [
         question_en !== undefined ? question_en : (row.question_en as string),
@@ -141,6 +158,9 @@ export async function PUT(request: Request) {
           : (row.correct_answer as number),
         difficulty !== undefined ? difficulty : (row.difficulty as string),
         sort_order !== undefined ? sort_order : (row.sort_order as number),
+        question_type !== undefined ? question_type : (row.question_type as string) || "mcq",
+        image_url !== undefined ? image_url : (row.image_url as string) || "",
+        grid_size !== undefined ? Number(grid_size) : (row.grid_size as number) || 0,
         Number(id),
       ],
     });

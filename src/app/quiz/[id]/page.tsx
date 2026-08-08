@@ -4,12 +4,17 @@ import { useState, useEffect, useCallback } from "react";
 import { use } from "react";
 import Link from "next/link";
 import MuseumIcon from "@/components/MuseumIcon";
+import JigsawPuzzle from "@/components/JigsawPuzzle";
 import { useLang } from "@/components/LanguageProvider";
 
 interface Question {
   id: number;
-  question: string;
-  options: string[];
+  type: "mcq" | "puzzle";
+  difficulty?: string;
+  question?: string;
+  options?: string[];
+  gridSize?: number;
+  image_url?: string;
 }
 
 interface QuizInfo {
@@ -25,7 +30,7 @@ interface Result {
   passed: boolean;
   certificate_url: string;
   attempt_id: number;
-  review?: Array<{ question_id: number; correct_index: number; selected_index: number; correct: boolean }>;
+  review?: Array<{ question_id: number; correct_index: number; selected_index: number; correct: boolean; puzzle?: boolean }>;
 }
 
 export default function QuizPage({
@@ -41,14 +46,16 @@ export default function QuizPage({
   const [questions, setQuestions] = useState<Question[]>([]);
   const [loading, setLoading] = useState(true);
   const [currentQ, setCurrentQ] = useState(0);
-  const [answers, setAnswers] = useState<Record<number, number>>({});
+  const [answers, setAnswers] = useState<Record<number, number | "solved">>({});
+  const [feedback, setFeedback] = useState<{ correct: boolean; correctIndex: number } | null>(null);
+  const [checking, setChecking] = useState(false);
   const [name, setName] = useState("");
-  const [age, setAge] = useState("");
   const [result, setResult] = useState<Result | null>(null);
   const [submitting, setSubmitting] = useState(false);
   const [timeLeft, setTimeLeft] = useState(0);
 
-  // Fetch quiz info on mount (without age filter, just for intro display)
+  // Fetch a freshly randomized question set on mount — every visit gets its
+  // own shuffle of the fixed progressive-difficulty slot plan.
   useEffect(() => {
     fetch(`/api/quiz/${id}/questions?lang=${lang}`)
       .then((r) => r.json())
@@ -60,17 +67,6 @@ export default function QuizPage({
       .catch(() => {})
       .finally(() => setLoading(false));
   }, [id, lang]);
-
-  // Re-fetch with age filter when quiz starts
-  const fetchQuestionsForAge = (visitorAge: string) => {
-    const ageParam = visitorAge ? `&age=${visitorAge}` : "";
-    fetch(`/api/quiz/${id}/questions?lang=${lang}${ageParam}`)
-      .then((r) => r.json())
-      .then((data) => {
-        setQuestions(data.questions || []);
-        if (data.quiz) setTimeLeft(data.quiz.time_limit_minutes * 60);
-      });
-  };
 
   // Timer
   useEffect(() => {
@@ -126,11 +122,52 @@ export default function QuizPage({
 
   const startQuiz = () => {
     if (!name.trim() || questions.length === 0) return;
-    if (age) fetchQuestionsForAge(age);
     setPhase("quiz");
   };
 
   const answeredCount = Object.keys(answers).length;
+  const q = questions[currentQ];
+  const isAnswered = q ? answers[q.id] !== undefined : false;
+
+  // MCQ: lock the pick immediately and ask the server whether it's correct —
+  // the answer key never ships to the client up front, only per-question once answered.
+  const selectOption = async (i: number) => {
+    if (!q || checking || isAnswered) return;
+    setChecking(true);
+    try {
+      const res = await fetch(`/api/quiz/${id}/check-answer`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ question_id: q.id, selected_index: i }),
+      });
+      const data = await res.json();
+      setAnswers((prev) => ({ ...prev, [q.id]: i }));
+      setFeedback({
+        correct: Boolean(data.correct),
+        correctIndex: typeof data.correct_index === "number" ? data.correct_index : -1,
+      });
+    } catch {
+      setAnswers((prev) => ({ ...prev, [q.id]: i }));
+      setFeedback({ correct: false, correctIndex: -1 });
+    } finally {
+      setChecking(false);
+    }
+  };
+
+  const handlePuzzleSolved = () => {
+    if (!q) return;
+    setAnswers((prev) => ({ ...prev, [q.id]: "solved" }));
+  };
+
+  const goNext = () => {
+    if (!isAnswered) return;
+    setFeedback(null);
+    if (currentQ < questions.length - 1) {
+      setCurrentQ((c) => c + 1);
+    } else {
+      submitQuiz();
+    }
+  };
 
   const inputStyle: React.CSSProperties = {
     background: "var(--card-bg)",
@@ -233,17 +270,6 @@ export default function QuizPage({
               value={name}
               onChange={(e) => setName(e.target.value)}
               placeholder={t("quiz.enterName")}
-              className="w-full px-6 py-4 text-center text-base focus:outline-none transition-all duration-300"
-              style={{ ...inputStyle, fontFamily: kf }}
-              onFocus={(e) => { (e.target as HTMLElement).style.borderColor = "var(--hairline-strong)"; }}
-              onBlur={(e) => { (e.target as HTMLElement).style.borderColor = "var(--hairline)"; }}
-              onKeyDown={(e) => e.key === "Enter" && startQuiz()}
-            />
-            <input
-              type="number"
-              value={age}
-              onChange={(e) => setAge(e.target.value)}
-              placeholder={t("common.agePlaceholder")}
               className="w-full px-6 py-4 text-center text-base focus:outline-none transition-all duration-300"
               style={{ ...inputStyle, fontFamily: kf }}
               onFocus={(e) => { (e.target as HTMLElement).style.borderColor = "var(--hairline-strong)"; }}
@@ -362,8 +388,8 @@ export default function QuizPage({
               <p className="m-eyebrow mb-4" style={{ fontFamily: kf }}>{t("quiz.answerReview")}</p>
               <div>
                 {result.review.map((r, i) => {
-                  const q = questions.find((qq) => qq.id === r.question_id);
-                  if (!q) return null;
+                  const rq = questions.find((qq) => qq.id === r.question_id);
+                  if (!rq) return null;
                   return (
                     <div
                       key={r.question_id}
@@ -398,20 +424,25 @@ export default function QuizPage({
                           className="text-sm font-medium mb-1"
                           style={{ color: "var(--ivory)", fontFamily: kf }}
                         >
-                          {q.question}
+                          {rq.type === "puzzle" ? t("quiz.puzzleTitle") : rq.question}
                         </p>
-                        {!r.correct && (
+                        {!r.correct && !r.puzzle && rq.options && (
                           <p className="text-xs leading-relaxed" style={{ color: "var(--ink-faint)", fontFamily: kf }}>
                             {t("quiz.yourAnswer")}{" "}
                             <span style={{ color: "#C97B6E" }}>
                               {r.selected_index >= 0
-                                ? q.options[r.selected_index]
+                                ? rq.options[r.selected_index]
                                 : t("quiz.notAnswered")}
                             </span>
                             {" · "}{t("quiz.correctLabel")}{" "}
                             <span style={{ color: "var(--gold)" }}>
-                              {q.options[r.correct_index]}
+                              {rq.options[r.correct_index]}
                             </span>
+                          </p>
+                        )}
+                        {!r.correct && r.puzzle && (
+                          <p className="text-xs leading-relaxed" style={{ color: "var(--ink-faint)", fontFamily: kf }}>
+                            {t("quiz.notAnswered")}
                           </p>
                         )}
                       </div>
@@ -453,8 +484,9 @@ export default function QuizPage({
               onClick={() => {
                 setResult(null);
                 setAnswers({});
+                setFeedback(null);
                 setCurrentQ(0);
-                setTimeLeft((quiz?.time_limit_minutes || 10) * 60);
+                setTimeLeft((quiz?.time_limit_minutes || 3) * 60);
                 setPhase("quiz");
               }}
               className="m-btn m-btn-primary w-full"
@@ -478,8 +510,6 @@ export default function QuizPage({
   }
 
   // QUIZ
-  const q = questions[currentQ];
-
   if (loading) {
     return (
       <div
@@ -525,9 +555,9 @@ export default function QuizPage({
         <div
           className="inline-flex items-center gap-2 px-4 py-2 rounded-full font-mono text-sm"
           style={{
-            background: timeLeft < 60 ? "rgba(220, 60, 60, 0.1)" : "var(--card-bg)",
-            color: timeLeft < 60 ? "#D96A5C" : "var(--gold)",
-            border: `1px solid ${timeLeft < 60 ? "rgba(220, 60, 60, 0.3)" : "var(--hairline)"}`,
+            background: timeLeft < 30 ? "rgba(220, 60, 60, 0.1)" : "var(--card-bg)",
+            color: timeLeft < 30 ? "#D96A5C" : "var(--gold)",
+            border: `1px solid ${timeLeft < 30 ? "rgba(220, 60, 60, 0.3)" : "var(--hairline)"}`,
           }}
         >
           <MuseumIcon name="clock" size={15} />
@@ -553,137 +583,150 @@ export default function QuizPage({
         />
       </div>
 
-      {/* Question dots */}
-      <div className="shrink-0 flex gap-2 justify-center py-4 flex-wrap px-6 sm:px-8">
-        {questions.map((_, i) => (
-          <button
-            key={i}
-            onClick={() => setCurrentQ(i)}
-            className="w-9 h-9 rounded-full text-xs font-medium transition-all duration-300 flex items-center justify-center"
-            style={{
-              background:
-                i === currentQ
-                  ? "linear-gradient(180deg, #E8B45C, #D4A34F)"
-                  : answers[questions[i].id] !== undefined
-                    ? "rgba(212, 163, 79, 0.12)"
-                    : "var(--card-bg)",
-              color:
-                i === currentQ
-                  ? "#241305"
-                  : answers[questions[i].id] !== undefined
-                    ? "var(--gold)"
-                    : "var(--ink-faint)",
-              border:
-                i === currentQ
-                  ? "1px solid transparent"
-                  : answers[questions[i].id] !== undefined
-                    ? "1px solid var(--hairline-strong)"
-                    : "1px solid var(--hairline)",
-              fontWeight: i === currentQ ? 700 : 500,
-            }}
-          >
-            {i + 1}
-          </button>
-        ))}
-      </div>
-
       {/* Question */}
-      <main className="flex-1 overflow-y-auto kiosk-scroll px-6 sm:px-8 py-4 w-full">
+      <main className="flex-1 overflow-y-auto kiosk-scroll px-6 sm:px-8 py-6 w-full">
         <div className="max-w-3xl mx-auto">
-          <h2
-            className="text-3xl sm:text-4xl font-semibold mb-7"
-            style={{ color: "var(--ivory)", lineHeight: 1.35, fontFamily: kf }}
-          >
-            {q?.question}
-          </h2>
+          {q?.type === "puzzle" ? (
+            <>
+              <p className="m-eyebrow mb-2" style={{ fontFamily: kf }}>{t("quiz.puzzleTitle")}</p>
+              <h2
+                className="text-2xl sm:text-3xl font-semibold mb-6"
+                style={{ color: "var(--ivory)", lineHeight: 1.35, fontFamily: kf }}
+              >
+                {t("quiz.puzzleInstructions")}
+              </h2>
+              <JigsawPuzzle
+                key={q.id}
+                imageUrl={q.image_url || "/images/vivekananda-portrait.jpg"}
+                gridSize={q.gridSize || 3}
+                onSolved={handlePuzzleSolved}
+              />
+            </>
+          ) : (
+            <>
+              <h2
+                className="text-3xl sm:text-4xl font-semibold mb-7"
+                style={{ color: "var(--ivory)", lineHeight: 1.35, fontFamily: kf }}
+              >
+                {q?.question}
+              </h2>
 
-          <div className="space-y-3 pb-4">
-            {q?.options.map((option, i) => {
-              const selected = answers[q.id] === i;
-              return (
-                <button
-                  key={i}
-                  onClick={() => {
-                    setAnswers({ ...answers, [q.id]: i });
-                    setTimeout(() => {
-                      if (currentQ < questions.length - 1) {
-                        setCurrentQ(currentQ + 1);
-                      }
-                    }, 300);
-                  }}
-                  className="m-card m-card-interactive w-full text-left px-5 py-4 flex items-center gap-4 text-base"
+              <div className="space-y-3 pb-4">
+                {q?.options?.map((option, i) => {
+                  const selected = q && answers[q.id] === i;
+                  const revealCorrect = feedback && i === feedback.correctIndex;
+                  const wrongPick = selected && feedback && !feedback.correct;
+                  const rightPick = selected && feedback && feedback.correct;
+
+                  let bg: string | undefined;
+                  let borderColor: string | undefined;
+                  let textColor = "var(--ink-muted)";
+                  if (rightPick || (revealCorrect && !wrongPick)) {
+                    bg = "rgba(120, 170, 110, 0.12)";
+                    borderColor = "#7FA86E";
+                    textColor = "var(--ivory)";
+                  } else if (wrongPick) {
+                    bg = "rgba(200, 80, 70, 0.12)";
+                    borderColor = "#C85046";
+                    textColor = "var(--ivory)";
+                  } else if (selected) {
+                    bg = "rgba(224, 123, 46, 0.1)";
+                    borderColor = "var(--gold)";
+                    textColor = "var(--ivory)";
+                  }
+
+                  return (
+                    <button
+                      key={i}
+                      onClick={() => selectOption(i)}
+                      disabled={isAnswered || checking}
+                      className="m-card w-full text-left px-5 py-4 flex items-center gap-4 text-base disabled:cursor-default"
+                      style={{
+                        minHeight: 60,
+                        background: bg,
+                        borderColor,
+                        color: textColor,
+                        fontWeight: 500,
+                        fontFamily: kf,
+                        opacity: isAnswered && !selected && !revealCorrect ? 0.55 : 1,
+                        cursor: isAnswered ? "default" : "pointer",
+                      }}
+                    >
+                      <span
+                        className="inline-flex items-center justify-center w-10 h-10 rounded-full text-sm font-semibold shrink-0"
+                        style={{
+                          background:
+                            rightPick || (revealCorrect && !wrongPick)
+                              ? "#7FA86E"
+                              : wrongPick
+                                ? "#C85046"
+                                : selected
+                                  ? "linear-gradient(180deg, #E8B45C, #D4A34F)"
+                                  : "var(--card-bg-hover)",
+                          color: selected || (revealCorrect && !wrongPick) ? "#241305" : "var(--ink-muted)",
+                          border: selected || (revealCorrect && !wrongPick)
+                            ? "1px solid transparent"
+                            : "1px solid var(--hairline)",
+                        }}
+                      >
+                        {rightPick || (revealCorrect && !wrongPick) ? (
+                          <MuseumIcon name="check" size={16} strokeWidth={2.2} />
+                        ) : wrongPick ? (
+                          <span>✕</span>
+                        ) : (
+                          String.fromCharCode(65 + i)
+                        )}
+                      </span>
+                      {option}
+                    </button>
+                  );
+                })}
+              </div>
+
+              {feedback && (
+                <div
+                  className="mt-2 mb-4 px-5 py-4 rounded-2xl text-sm"
                   style={{
-                    minHeight: 60,
-                    background: selected
-                      ? "rgba(224, 123, 46, 0.1)"
-                      : undefined,
-                    borderColor: selected ? "var(--gold)" : undefined,
-                    color: selected ? "var(--ivory)" : "var(--ink-muted)",
-                    fontWeight: 500,
+                    background: feedback.correct ? "rgba(120, 170, 110, 0.1)" : "rgba(212, 163, 79, 0.1)",
+                    border: `1px solid ${feedback.correct ? "#7FA86E" : "var(--hairline-strong)"}`,
+                    color: "var(--ivory)",
                     fontFamily: kf,
                   }}
                 >
-                  <span
-                    className="inline-flex items-center justify-center w-10 h-10 rounded-full text-sm font-semibold shrink-0"
-                    style={{
-                      background: selected
-                        ? "linear-gradient(180deg, #E8B45C, #D4A34F)"
-                        : "var(--card-bg-hover)",
-                      color: selected ? "#241305" : "var(--ink-muted)",
-                      border: selected
-                        ? "1px solid transparent"
-                        : "1px solid var(--hairline)",
-                    }}
-                  >
-                    {selected ? (
-                      <MuseumIcon name="check" size={16} strokeWidth={2.2} />
-                    ) : (
-                      String.fromCharCode(65 + i)
-                    )}
-                  </span>
-                  {option}
-                </button>
-              );
-            })}
-          </div>
+                  <p className="font-semibold mb-0.5">
+                    {feedback.correct ? t("quiz.correctFeedback") : t("quiz.wrongFeedback")}
+                  </p>
+                  {!feedback.correct && (
+                    <p style={{ color: "var(--ink-muted)" }}>{t("quiz.encourageMsg")}</p>
+                  )}
+                </div>
+              )}
+            </>
+          )}
         </div>
       </main>
 
-      {/* Bottom nav */}
+      {/* Bottom nav — forward-only: no "previous", locked once answered */}
       <div className="shrink-0 px-6 sm:px-8 py-4">
         <div className="max-w-3xl mx-auto flex gap-4">
           <button
-            onClick={() => setCurrentQ(Math.max(0, currentQ - 1))}
-            disabled={currentQ === 0}
-            className="m-btn m-btn-ghost disabled:opacity-25 disabled:pointer-events-none"
-            style={{ minHeight: 54, fontFamily: kf }}
+            onClick={goNext}
+            disabled={!isAnswered || submitting}
+            className="m-btn m-btn-primary flex-1 disabled:opacity-30 disabled:pointer-events-none"
+            style={{ minHeight: 54, fontSize: "1rem", fontFamily: kf }}
           >
-            <MuseumIcon name="arrowLeft" size={17} />
-            {t("quiz.previous")}
+            {currentQ < questions.length - 1 ? (
+              <>
+                {t("quiz.nextQuestion")}
+                <MuseumIcon name="arrowRight" size={17} />
+              </>
+            ) : (
+              <>
+                <MuseumIcon name="check" size={17} />
+                {submitting ? t("quiz.submitting") : t("quiz.submit")}
+              </>
+            )}
           </button>
-
-          {currentQ < questions.length - 1 ? (
-            <button
-              onClick={() => setCurrentQ(currentQ + 1)}
-              className="m-btn m-btn-primary flex-1"
-              style={{ minHeight: 54, fontSize: "1rem", fontFamily: kf }}
-            >
-              {t("quiz.next")}
-              <MuseumIcon name="arrowRight" size={17} />
-            </button>
-          ) : (
-            <button
-              onClick={submitQuiz}
-              disabled={submitting || answeredCount < questions.length}
-              className="m-btn m-btn-primary flex-1 disabled:opacity-30 disabled:pointer-events-none"
-              style={{ minHeight: 54, fontSize: "1rem", fontFamily: kf }}
-            >
-              <MuseumIcon name="check" size={17} />
-              {submitting
-                ? t("quiz.submitting")
-                : `${t("quiz.submit")} (${answeredCount}/${questions.length})`}
-            </button>
-          )}
         </div>
       </div>
     </div>

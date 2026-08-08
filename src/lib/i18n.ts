@@ -213,6 +213,21 @@ export const STRINGS = {
   "quiz.yourAnswer": { en: "Your answer:", kn: "ನಿಮ್ಮ ಉತ್ತರ:", hi: "आपका उत्तर:" },
   "quiz.notAnswered": { en: "Not answered", kn: "ಉತ್ತರಿಸಿಲ್ಲ", hi: "उत्तर नहीं दिया" },
   "quiz.correctLabel": { en: "Correct:", kn: "ಸರಿ:", hi: "सही:" },
+  "quiz.correctFeedback": { en: "Correct!", kn: "ಸರಿಯಾದ ಉತ್ತರ!", hi: "सही उत्तर!" },
+  "quiz.wrongFeedback": { en: "Not quite right", kn: "ಸರಿಯಿಲ್ಲ", hi: "बिल्कुल सही नहीं" },
+  "quiz.encourageMsg": {
+    en: "Don't worry — every step teaches something. Keep going!",
+    kn: "ಚಿಂತಿಸಬೇಡಿ — ಪ್ರತಿ ಹೆಜ್ಜೆ ಕೂಡ ಕಲಿಸುತ್ತದೆ. ಮುಂದುವರಿಸಿ!",
+    hi: "चिंता न करें — हर कदम कुछ सिखाता है। आगे बढ़ते रहें!",
+  },
+  "quiz.nextQuestion": { en: "Next Question", kn: "ಮುಂದಿನ ಪ್ರಶ್ನೆ", hi: "अगला प्रश्न" },
+  "quiz.puzzleTitle": { en: "Picture Puzzle", kn: "ಚಿತ್ರ ಒಗಟು", hi: "चित्र पहेली" },
+  "quiz.puzzleInstructions": {
+    en: "Tap two pieces to swap them. Rebuild the picture to continue.",
+    kn: "ಎರಡು ತುಂಡುಗಳನ್ನು ಬದಲಾಯಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ. ಮುಂದುವರಿಯಲು ಚಿತ್ರವನ್ನು ಪುನಃ ರಚಿಸಿ.",
+    hi: "बदलने के लिए दो टुकड़ों पर टैप करें। जारी रखने के लिए चित्र फिर से बनाएं।",
+  },
+  "quiz.puzzleSolved": { en: "Puzzle solved!", kn: "ಒಗಟು ಬಗೆಹರಿಸಲಾಗಿದೆ!", hi: "पहेली हल हो गई!" },
 
   // Chat
   "chat.title": { en: "Speak with Swamiji", kn: "ಸ್ವಾಮೀಜಿಯೊಂದಿಗೆ ಮಾತನಾಡಿ", hi: "स्वामीजी से बात करें" },

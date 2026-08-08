@@ -32,7 +32,7 @@ export async function GET() {
 
     // Seed quizzes
     await db.execute({
-      sql: "INSERT OR IGNORE INTO quizzes (id, title, time_limit_minutes, passing_score) VALUES (1, 'Vivekananda Knowledge Test', 15, 60)",
+      sql: "INSERT OR IGNORE INTO quizzes (id, title, time_limit_minutes, passing_score) VALUES (1, 'Vivekananda Knowledge Test', 3, 60)",
       args: [],
     });
 
@@ -64,6 +64,32 @@ export async function GET() {
       await db.execute({
         sql: "INSERT OR IGNORE INTO questions (quiz_id, question_en, options_en, correct_answer, difficulty, sort_order) VALUES (1, ?, ?, ?, ?, ?)",
         args: [q, opts, correct, diff, i + 1],
+      });
+    }
+
+    // Seed jigsaw-puzzle rows (question 5 draws a random 3x3, question 10 a random 4x4).
+    // Several photos per size for variety across repeat visits — add more any time via Admin.
+    const puzzleImages: Array<[string, number, number]> = [
+      ["/images/puzzle/sv-chicago-portrait.jpg", 3, 100],
+      ["/images/puzzle/sv-seated-portrait.jpg", 3, 101],
+      ["/images/puzzle/sv-standing-cane-plain.jpg", 3, 102],
+      ["/images/puzzle/sv-seated-armchair.jpg", 3, 103],
+      ["/images/puzzle/sv-standing-cane-turban.jpg", 3, 104],
+      ["/images/puzzle/sv-colorized-leaning-chair.jpg", 3, 105],
+      ["/images/puzzle/sv-seated-crosslegged-color.jpg", 3, 106],
+      ["/images/puzzle/sv-turban-closeup.jpg", 4, 107],
+      ["/images/puzzle/sv-crossed-arms.jpg", 4, 108],
+      ["/images/puzzle/sv-bust-side-light.jpg", 4, 109],
+      ["/images/puzzle/sv-seated-armchair-2.jpg", 4, 110],
+      ["/images/puzzle/sv-meditative-closed-eyes.jpg", 4, 111],
+      ["/images/puzzle/sv-crossed-arms-pillars-bw.jpg", 4, 112],
+      ["/images/puzzle/sv-crossed-arms-pillars-color.jpg", 4, 113],
+      ["/images/puzzle/sv-standing-bust-plain.jpg", 4, 114],
+    ];
+    for (const [imageUrl, gridSize, sortOrder] of puzzleImages) {
+      await db.execute({
+        sql: "INSERT OR IGNORE INTO questions (quiz_id, question_type, image_url, grid_size, sort_order) VALUES (1, 'puzzle', ?, ?, ?)",
+        args: [imageUrl, gridSize, sortOrder],
       });
     }
 
