@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { use } from "react";
 import MuseumIcon from "@/components/MuseumIcon";
+import { useAutoHideControls } from "@/lib/useAutoHideControls";
 
 interface ExhibitImage {
   id: number;
@@ -44,6 +45,8 @@ export default function KioskDisplayPage({
   const [lastTouch, setLastTouch] = useState(Date.now());
   const containerRef = useRef<HTMLDivElement>(null);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  const { controlsVisible, resetControlsTimer } = useAutoHideControls(2500, true);
 
   const fetchContent = useCallback(async () => {
     setLoading(true);
@@ -234,7 +237,7 @@ export default function KioskDisplayPage({
         </div>
 
         {/* Top bar */}
-        <div className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-8 py-5">
+        <div className={`absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-8 py-5 transition-all duration-500 ease-in-out ${controlsVisible ? "opacity-100 pointer-events-auto translate-y-0" : "opacity-0 pointer-events-none -translate-y-2"}`}>
           <div>
             <h1
               className="text-xl font-semibold"
@@ -254,7 +257,7 @@ export default function KioskDisplayPage({
         {/* Bottom info overlay */}
         {(img.description || img.station_number) && (
           <div
-            className="absolute bottom-0 left-0 right-0 z-20"
+            className={`absolute bottom-0 left-0 right-0 z-20 transition-all duration-500 ease-in-out ${controlsVisible ? "opacity-100 pointer-events-auto translate-y-0" : "opacity-0 pointer-events-none translate-y-2"}`}
             style={{ background: "linear-gradient(to top, rgba(15,8,6,0.9), transparent)" }}
           >
             <div className="px-8 pb-8 pt-16">
@@ -283,9 +286,9 @@ export default function KioskDisplayPage({
   return (
     <div
       ref={containerRef}
-      className="fixed inset-0 overflow-hidden select-none cursor-none"
+      className="fixed inset-0 overflow-hidden select-none cursor-pointer"
       style={{ background: "var(--background)" }}
-      onClick={goNext}
+      onClick={() => { resetControlsTimer(); goNext(); }}
     >
       {/* Ambient diya glow */}
       <div className="absolute inset-0" style={{ background: 'var(--diya-glow)' }} />
@@ -301,7 +304,7 @@ export default function KioskDisplayPage({
         />
       </div>
 
-      <div className="absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-8 py-5">
+      <div className={`absolute top-0 left-0 right-0 z-20 flex items-center justify-between px-8 py-5 transition-all duration-500 ease-in-out ${controlsVisible ? "opacity-100 pointer-events-auto translate-y-0" : "opacity-0 pointer-events-none -translate-y-2"}`}>
         <div className="flex items-center gap-3">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#9B8A72" strokeWidth="1.5">
             <rect x="2" y="3" width="20" height="14" rx="2" /><line x1="8" y1="21" x2="16" y2="21" /><line x1="12" y1="17" x2="12" y2="21" />

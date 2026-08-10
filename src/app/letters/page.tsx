@@ -4,6 +4,7 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import Link from "next/link";
 import MuseumIcon from "@/components/MuseumIcon";
 import { useLang } from "@/components/LanguageProvider";
+import { useAutoHideControls } from "@/lib/useAutoHideControls";
 
 interface Category {
   id: number;
@@ -50,6 +51,8 @@ export default function LettersKioskPage() {
   const [loading, setLoading] = useState(true);
   const containerRef = useRef<HTMLDivElement>(null);
   const letterScrollRef = useRef<HTMLDivElement>(null);
+
+  const { controlsVisible, resetControlsTimer } = useAutoHideControls(2500, current !== null);
 
   // Reading view always opens at the top of the letter — without this, the
   // scroll position from whatever was previously viewed (a longer letter,
@@ -160,43 +163,52 @@ export default function LettersKioskPage() {
   if (selectedCat && current !== null) {
     const letter = letters[current];
     return (
-      <div ref={containerRef} className="fixed inset-0 overflow-hidden select-none" style={{ background: '#14100D' }}>
+      <div ref={containerRef} className="fixed inset-0 overflow-hidden select-none" style={{ background: '#14100D' }} onClick={() => resetControlsTimer()}>
         <div className="absolute inset-0 pointer-events-none" style={{ background: 'var(--diya-glow)' }} />
 
         {/* Back / Home buttons */}
-        <div className="absolute top-4 left-4 z-20 flex items-center gap-2">
+        <div className={`absolute top-4 left-4 z-20 flex items-center gap-2 transition-all duration-500 ease-in-out ${controlsVisible ? "opacity-100 pointer-events-auto translate-y-0" : "opacity-0 pointer-events-none -translate-y-2"}`}>
           <button
             className="inline-flex items-center gap-2 px-4 rounded-full text-xs font-medium transition-all active:scale-95 touch-target"
-            style={{ background: 'rgba(13,10,8,0.72)', color: 'var(--gold)', backdropFilter: 'blur(10px)', border: '1px solid var(--hairline)' }}
-            onClick={backToLetterList}>
+            style={{
+              background: 'rgba(13,10,8,0.72)', color: 'var(--gold)',
+              backdropFilter: 'blur(10px)', border: '1px solid var(--hairline)',
+            }}
+            onClick={(e) => { e.stopPropagation(); backToLetterList(); }}>
             <MuseumIcon name="arrowLeft" size={14} />
             <span style={{ fontFamily: kf }}>{t("common.back")}</span>
           </button>
           <Link href="/"
             className="inline-flex items-center gap-2 px-4 rounded-full text-xs font-medium transition-all active:scale-95 touch-target"
-            style={{ background: 'rgba(13,10,8,0.72)', color: 'var(--gold)', backdropFilter: 'blur(10px)', border: '1px solid var(--hairline)' }}>
+            style={{
+              background: 'rgba(13,10,8,0.72)', color: 'var(--gold)',
+              backdropFilter: 'blur(10px)', border: '1px solid var(--hairline)',
+            }}
+            onClick={(e) => e.stopPropagation()}>
             <MuseumIcon name="temple" size={14} />
             <span style={{ fontFamily: kf }}>{t("common.home")}</span>
           </Link>
         </div>
 
-        <div className="absolute top-4 right-4 z-20 px-4 py-2 rounded-full flex items-baseline gap-2"
+        {/* Counter pill */}
+        <div className={`absolute top-4 right-4 z-20 px-4 py-2 rounded-full flex items-baseline gap-2 transition-all duration-500 ease-in-out ${controlsVisible ? "opacity-100 pointer-events-auto translate-y-0" : "opacity-0 pointer-events-none -translate-y-2"}`}
           style={{ background: 'rgba(13,10,8,0.72)', backdropFilter: 'blur(10px)', border: '1px solid var(--hairline)' }}>
+          <span className="text-sm italic" style={{ fontFamily: 'var(--font-display)', color: 'var(--ivory)' }}>
+            {selectedCat?.name}
+          </span>
           <span className="text-[10px] tracking-[0.12em]" style={{ color: 'var(--ink-faint)' }}>
             {current + 1} / {letters.length}
           </span>
         </div>
 
-        {/* Papyrus scroll area */}
-        <div ref={letterScrollRef} className="absolute inset-0 flex items-start justify-center px-4 py-20 md:py-16 overflow-auto kiosk-scroll">
+        {/* Parchment letter content */}
+        <div ref={letterScrollRef} className="h-full overflow-y-auto kiosk-scroll flex justify-center px-4 pt-20 pb-24 relative z-10" onClick={() => resetControlsTimer()}>
           <div
-            className="relative w-full max-w-2xl animate-fade-in-up"
+            className="w-full max-w-3xl my-auto relative rounded-sm shadow-2xl"
             style={{
-              borderRadius: 3,
-              border: '1px solid #8B6914',
-              boxShadow: '0 22px 70px rgba(0,0,0,0.65), inset 0 0 90px rgba(0,0,0,0.07)',
-              backgroundColor: '#D9B87C',
-              backgroundImage: 'linear-gradient(to bottom, #EDDBA5 0%, #D9B87C 20%, #CCAA6A 65%, #D9B87C 100%)',
+              background: '#F7EEDD',
+              border: '1px solid #D9C8A9',
+              boxShadow: '0 25px 80px rgba(0,0,0,0.65), 0 0 0 1px rgba(139,105,20,0.2)',
             }}
           >
             {/* Ruled lines */}
@@ -260,13 +272,13 @@ export default function LettersKioskPage() {
         </div>
 
         {/* Navigation — previous (left) / next (right) */}
-        <button onClick={goPrev} disabled={current <= 0} aria-label="Previous letter"
-          className="absolute bottom-6 left-4 z-20 w-12 h-12 rounded-full flex items-center justify-center disabled:opacity-20 transition-all active:scale-95"
+        <button onClick={(e) => { e.stopPropagation(); resetControlsTimer(); goPrev(); }} disabled={current <= 0} aria-label="Previous letter"
+          className={`absolute bottom-6 left-4 z-20 w-12 h-12 rounded-full flex items-center justify-center disabled:opacity-20 transition-all duration-500 ease-in-out active:scale-95 ${controlsVisible ? "opacity-100 pointer-events-auto scale-100" : "opacity-0 pointer-events-none scale-90"}`}
           style={{ background: 'rgba(13,10,8,0.72)', color: 'var(--gold)', border: '1px solid var(--hairline)', backdropFilter: 'blur(10px)' }}>
           <MuseumIcon name="arrowLeft" size={18} />
         </button>
-        <button onClick={goNext} disabled={current >= letters.length - 1} aria-label="Next letter"
-          className="absolute bottom-6 right-4 z-20 w-12 h-12 rounded-full flex items-center justify-center disabled:opacity-20 transition-all active:scale-95"
+        <button onClick={(e) => { e.stopPropagation(); resetControlsTimer(); goNext(); }} disabled={current >= letters.length - 1} aria-label="Next letter"
+          className={`absolute bottom-6 right-4 z-20 w-12 h-12 rounded-full flex items-center justify-center disabled:opacity-20 transition-all duration-500 ease-in-out active:scale-95 ${controlsVisible ? "opacity-100 pointer-events-auto scale-100" : "opacity-0 pointer-events-none scale-90"}`}
           style={{ background: 'linear-gradient(180deg, rgba(238,138,60,0.24), rgba(217,111,36,0.24))', color: 'var(--gold)', border: '1px solid var(--hairline-strong)', backdropFilter: 'blur(10px)' }}>
           <MuseumIcon name="arrowRight" size={18} />
         </button>

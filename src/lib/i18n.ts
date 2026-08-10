@@ -14,15 +14,21 @@ export const LANGS: { code: Lang; label: string; short: string }[] = [
 export const STRINGS = {
   // Brand / common
   "app.title": { en: "Viveka Smaraka", kn: "ವಿವೇಕ ಸ್ಮಾರಕ", hi: "विवेक स्मारक" },
-  "app.subtitle": {
-    en: "Experience the life and teachings of Swami Vivekananda",
-    kn: "ಸ್ವಾಮಿ ವಿವೇಕಾನಂದರ ಜೀವನ ಮತ್ತು ಬೋಧನೆಗಳನ್ನು ಅನುಭವಿಸಿ",
-    hi: "स्वामी विवेकानंद के जीवन और शिक्षाओं का अनुभव करें",
-  },
   "app.ashram": {
-    en: "Ramakrishna Ashram · Mysore",
-    kn: "ರಾಮಕೃಷ್ಣ ಆಶ್ರಮ · ಮೈಸೂರು",
-    hi: "रामकृष्ण आश्रम · मैसूर",
+    en: "Sri Ramakrishna Ashrama, Mysuru.",
+    kn: "ಶ್ರೀ ರಾಮಕೃಷ್ಣ ಆಶ್ರಮ, ಮೈಸೂರು.",
+    hi: "श्री रामकृष्ण आश्रम, मैसूरु.",
+  },
+  "home.instituteName": {
+    en: "Swami Vivekananda Cultural Youth Centre: Viveka Smaraka",
+    kn: "ಸ್ವಾಮಿ ವಿವೇಕಾನಂದ ಸಾಂಸ್ಕೃತಿಕ ಯುವ ಕೇಂದ್ರ: ವಿವೇಕ ಸ್ಮಾರಕ",
+    hi: "स्वामी विवेकानंद सांस्कृतिक युवा केंद्र: विवेक स्मारक",
+  },
+  "home.heroTitle": { en: "VIVEKA ANUBHUTI", kn: "ವಿವೇಕ ಅನುಭೂತಿ", hi: "विवेक अनुभूति" },
+  "home.heroTagline": {
+    en: "Step into the Experiential Journey of Swami Vivekananda",
+    kn: "ಸ್ವಾಮಿ ವಿವೇಕಾನಂದರ ಅನುಭವಾತ್ಮಕ ಪಯಣಕ್ಕೆ ಕಾಲಿಡಿ",
+    hi: "स्वामी विवेकानंद की अनुभवात्मक यात्रा में कदम रखें",
   },
   "common.home": { en: "Home", kn: "ಮುಖಪುಟ", hi: "मुख्य पृष्ठ" },
   "common.back": { en: "Back", kn: "ಹಿಂದೆ", hi: "वापस" },
@@ -35,6 +41,12 @@ export const STRINGS = {
   "common.yourName": { en: "Your name", kn: "ನಿಮ್ಮ ಹೆಸರು", hi: "आपका नाम" },
   "common.agePlaceholder": { en: "Your age (optional)", kn: "ನಿಮ್ಮ ವಯಸ್ಸು (ಐಚ್ಛಿಕ)", hi: "आपकी आयु (वैकल्पिक)" },
   "common.listening": { en: "Listening…", kn: "ಆಲಿಸುತ್ತಿದೆ…", hi: "सुन रहे हैं…" },
+  "common.comingSoon": { en: "Coming Soon…", kn: "ಶೀಘ್ರದಲ್ಲೇ ಬರಲಿದೆ…", hi: "जल्द आ रहा है…" },
+  "common.comingSoonSub": {
+    en: "This content is not yet available in this language. Please switch to English for now.",
+    kn: "ಈ ವಿಷಯ ಈ ಭಾಷೆಯಲ್ಲಿ ಇನ್ನೂ ಲಭ್ಯವಿಲ್ಲ. ದಯವಿಟ್ಟು ಸದ್ಯಕ್ಕೆ ಇಂಗ್ಲಿಷ್‌ಗೆ ಬದಲಿಸಿ.",
+    hi: "यह सामग्री अभी इस भाषा में उपलब्ध नहीं है। कृपया फ़िलहाल अंग्रेज़ी में बदलें।",
+  },
 
   // Module cards (home)
   "mod.guide.title": { en: "Audio Guide", kn: "ಧ್ವನಿ ಮಾರ್ಗದರ್ಶಿ", hi: "ऑडियो गाइड" },

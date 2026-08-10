@@ -4,6 +4,7 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import Link from "next/link";
 import MuseumIcon from "@/components/MuseumIcon";
 import { useLang } from "@/components/LanguageProvider";
+import { useAutoHideControls } from "@/lib/useAutoHideControls";
 
 interface Category {
   id: number;
@@ -38,7 +39,8 @@ export default function KioskSlideshowPage() {
   const [current, setCurrent] = useState(0);
   const [loading, setLoading] = useState(true);
   const containerRef = useRef<HTMLDivElement>(null);
-  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+
+  const { controlsVisible, resetControlsTimer } = useAutoHideControls(2500, !!selectedCat);
 
   useEffect(() => {
     fetch("/api/slideshow/categories")
@@ -101,17 +103,8 @@ export default function KioskSlideshowPage() {
     setCurrent(0);
   };
 
-  useEffect(() => {
-    if (!selectedCat || images.length <= 1) return;
-    const slide = images[current];
-    const dur = (slide?.duration_seconds || 5) * 1000;
-    timerRef.current = setTimeout(() => { goNext(); }, dur);
-    return () => { if (timerRef.current) clearTimeout(timerRef.current); };
-  }, [selectedCat, images, current]);
-
   const goNext = useCallback(() => {
     if (images.length === 0) return;
-    if (timerRef.current) clearTimeout(timerRef.current);
     setCurrent((prev) => {
       const next = prev + 1;
       if (next >= images.length) {
@@ -124,13 +117,11 @@ export default function KioskSlideshowPage() {
 
   const goPrev = useCallback(() => {
     if (images.length === 0) return;
-    if (timerRef.current) clearTimeout(timerRef.current);
     setCurrent((prev) => Math.max(0, prev - 1));
   }, [images]);
 
   useEffect(() => {
     const handler = (e: KeyboardEvent) => {
-      if (timerRef.current) clearTimeout(timerRef.current);
       if (e.key === "ArrowRight" || e.key === " ") goNext();
       if (e.key === "ArrowLeft") goPrev();
       if (e.key === "Escape") {
@@ -150,7 +141,6 @@ export default function KioskSlideshowPage() {
     const onEnd = (e: TouchEvent) => {
       const dx = e.changedTouches[0].clientX - startX;
       if (Math.abs(dx) > 60) {
-        if (timerRef.current) clearTimeout(timerRef.current);
         dx > 0 ? goPrev() : goNext();
       }
     };
@@ -174,8 +164,9 @@ export default function KioskSlideshowPage() {
     return (
       <div
         ref={containerRef}
-        className="fixed inset-0 overflow-hidden select-none"
+        className="fixed inset-0 overflow-hidden select-none cursor-pointer"
         style={{ background: '#0D0A08' }}
+        onClick={() => resetControlsTimer()}
       >
         {slide?.image_url && (
           <img
@@ -197,7 +188,7 @@ export default function KioskSlideshowPage() {
         </div>
 
         {/* Back / Home buttons */}
-        <div className="absolute top-4 left-4 z-20 flex items-center gap-2">
+        <div className={`absolute top-4 left-4 z-20 flex items-center gap-2 transition-all duration-500 ease-in-out ${controlsVisible ? "opacity-100 pointer-events-auto translate-y-0" : "opacity-0 pointer-events-none -translate-y-2"}`}>
           <button
             className="inline-flex items-center gap-2 px-4 rounded-full text-xs font-medium transition-all active:scale-95 touch-target"
             style={{
@@ -221,7 +212,7 @@ export default function KioskSlideshowPage() {
         </div>
 
         {/* Category caption */}
-        <div className="absolute top-4 right-4 z-20 px-4 py-2 rounded-full flex items-baseline gap-2"
+        <div className={`absolute top-4 right-4 z-20 px-4 py-2 rounded-full flex items-baseline gap-2 transition-all duration-500 ease-in-out ${controlsVisible ? "opacity-100 pointer-events-auto translate-y-0" : "opacity-0 pointer-events-none -translate-y-2"}`}
           style={{ background: 'rgba(13,10,8,0.72)', backdropFilter: 'blur(10px)', border: '1px solid var(--hairline)' }}>
           <span className="text-sm italic" style={{ fontFamily: 'var(--font-display)', color: 'var(--ivory)' }}>
             {selectedCat.name}
@@ -231,50 +222,26 @@ export default function KioskSlideshowPage() {
           </span>
         </div>
 
-        {/* Navigation */}
-        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-20 flex items-center gap-4">
-          <button onClick={(e) => { e.stopPropagation(); goPrev(); }} disabled={current <= 0}
-            aria-label="Previous slide"
-            className="w-12 h-12 rounded-full flex items-center justify-center disabled:opacity-20 transition-all active:scale-95"
-            style={{
-              background: 'rgba(13,10,8,0.72)', color: 'var(--gold)',
-              border: '1px solid var(--hairline)', backdropFilter: 'blur(10px)',
-            }}>
-            <MuseumIcon name="arrowLeft" size={18} />
-          </button>
+        {/* Navigation — side edges, vertically centered */}
+        <button onClick={(e) => { e.stopPropagation(); resetControlsTimer(); goPrev(); }} disabled={current <= 0}
+          aria-label="Previous slide"
+          className={`absolute left-4 top-1/2 -translate-y-1/2 z-20 w-14 h-14 rounded-full flex items-center justify-center disabled:opacity-20 transition-all duration-500 ease-in-out active:scale-95 ${controlsVisible ? "opacity-100 pointer-events-auto scale-100" : "opacity-0 pointer-events-none scale-90"}`}
+          style={{
+            background: 'rgba(13,10,8,0.72)', color: 'var(--gold)',
+            border: '1px solid var(--hairline)', backdropFilter: 'blur(10px)',
+          }}>
+          <MuseumIcon name="arrowLeft" size={20} />
+        </button>
 
-          {/* Progress dots (compact sets) or counter */}
-          {images.length <= 12 ? (
-            <div className="flex items-center gap-2 px-4 py-3 rounded-full"
-              style={{ background: 'rgba(13,10,8,0.72)', backdropFilter: 'blur(10px)', border: '1px solid var(--hairline)' }}>
-              {images.map((_, i) => (
-                <span key={i} className="rounded-full transition-all duration-300"
-                  style={{
-                    width: i === current ? 18 : 6, height: 6,
-                    background: i === current ? 'var(--gold)' : 'rgba(212,163,79,0.28)',
-                  }} />
-              ))}
-            </div>
-          ) : (
-            <span className="text-sm px-5 py-2.5 rounded-full italic"
-              style={{
-                fontFamily: 'var(--font-display)', color: 'var(--ink-muted)',
-                background: 'rgba(13,10,8,0.72)', backdropFilter: 'blur(10px)', border: '1px solid var(--hairline)',
-              }}>
-              {current + 1} of {images.length}
-            </span>
-          )}
-
-          <button onClick={(e) => { e.stopPropagation(); goNext(); }} disabled={current >= images.length - 1}
-            aria-label="Next slide"
-            className="w-12 h-12 rounded-full flex items-center justify-center disabled:opacity-20 transition-all active:scale-95"
-            style={{
-              background: 'linear-gradient(180deg, rgba(238,138,60,0.24), rgba(217,111,36,0.24))',
-              color: 'var(--gold)', border: '1px solid var(--hairline-strong)', backdropFilter: 'blur(10px)',
-            }}>
-            <MuseumIcon name="arrowRight" size={18} />
-          </button>
-        </div>
+        <button onClick={(e) => { e.stopPropagation(); resetControlsTimer(); goNext(); }} disabled={current >= images.length - 1}
+          aria-label="Next slide"
+          className={`absolute right-4 top-1/2 -translate-y-1/2 z-20 w-14 h-14 rounded-full flex items-center justify-center disabled:opacity-20 transition-all duration-500 ease-in-out active:scale-95 ${controlsVisible ? "opacity-100 pointer-events-auto scale-100" : "opacity-0 pointer-events-none scale-90"}`}
+          style={{
+            background: 'linear-gradient(180deg, rgba(238,138,60,0.24), rgba(217,111,36,0.24))',
+            color: 'var(--gold)', border: '1px solid var(--hairline-strong)', backdropFilter: 'blur(10px)',
+          }}>
+          <MuseumIcon name="arrowRight" size={20} />
+        </button>
       </div>
     );
   }
